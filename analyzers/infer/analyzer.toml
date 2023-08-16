@@ -1,0 +1,6 @@
+# Analyzer Profile
+category = "lang"
+name = "Infer"
+shortcode = "community/infer"
+status = "active"
+description = "A static analyzer for Java, C, C++, and Objective-C. Developed by the good folks of Facebok."
