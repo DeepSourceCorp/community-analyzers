@@ -1,0 +1,13 @@
+
+title = "unset-cpu-requirements"
+severity = "major"
+category = "antipattern"
+weight = 70
+description = """
+Indicates when containers do not have CPU requests and limits set.
+
+<!--more-->
+
+## Remediation
+Set CPU requests and limits for your container based on its requirements. Refer to https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/#requests-and-limits for details.
+"""

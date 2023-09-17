@@ -1,0 +1,13 @@
+
+title = "writable-host-mount"
+severity = "major"
+category = "antipattern"
+weight = 70
+description = """
+Indicates when containers mount a host path as writable.
+
+<!--more-->
+
+## Remediation
+Set containers to mount host paths as readOnly, if you need to access files on the host.
+"""

@@ -1,0 +1,13 @@
+
+title = "dangling-service"
+severity = "major"
+category = "antipattern"
+weight = 70
+description = """
+Indicates when services do not have any associated deployments.
+
+<!--more-->
+
+## Remediation
+Confirm that your service's selector correctly matches the labels on one of your deployments.
+"""

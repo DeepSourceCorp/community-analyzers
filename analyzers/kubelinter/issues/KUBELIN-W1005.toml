@@ -1,0 +1,13 @@
+
+title = "dangling-ingress"
+severity = "major"
+category = "antipattern"
+weight = 70
+description = """
+Indicates when ingress do not have any associated services.
+
+<!--more-->
+
+## Remediation
+Confirm that your ingress's backend correctly matches the name and port on one of your services.
+"""

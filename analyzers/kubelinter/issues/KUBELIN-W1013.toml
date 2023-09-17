@@ -1,0 +1,13 @@
+
+title = "drop-net-raw-capability"
+severity = "major"
+category = "antipattern"
+weight = 70
+description = """
+Indicates when containers do not drop NET_RAW capability
+
+<!--more-->
+
+## Remediation
+NET_RAW makes it so that an application within the container is able to craft raw packets, use raw sockets, and bind to any address. Remove this capability in the containers under containers security contexts.
+"""

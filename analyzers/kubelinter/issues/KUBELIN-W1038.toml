@@ -1,0 +1,13 @@
+
+title = "privileged-ports"
+severity = "major"
+category = "antipattern"
+weight = 70
+description = """
+Alert on deployments with privileged ports mapped in containers
+
+<!--more-->
+
+## Remediation
+Ensure privileged ports [0, 1024] are not mapped within containers.
+"""

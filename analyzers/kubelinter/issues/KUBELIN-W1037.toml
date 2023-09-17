@@ -1,0 +1,13 @@
+
+title = "privileged-container"
+severity = "major"
+category = "antipattern"
+weight = 70
+description = """
+Indicates when deployments have containers running in privileged mode.
+
+<!--more-->
+
+## Remediation
+Do not run your container as privileged unless it is required.
+"""

@@ -1,0 +1,13 @@
+
+title = "latest-tag"
+severity = "major"
+category = "antipattern"
+weight = 70
+description = """
+Indicates when a deployment-like object is running a container with an invalid container image
+
+<!--more-->
+
+## Remediation
+Use a container image with a specific tag other than latest.
+"""

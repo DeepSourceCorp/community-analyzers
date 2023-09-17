@@ -1,0 +1,13 @@
+
+title = "duplicate-env-var"
+severity = "major"
+category = "antipattern"
+weight = 70
+description = """
+Check that duplicate named env vars aren't passed to a deployment like.
+
+<!--more-->
+
+## Remediation
+Confirm that your DeploymentLike doesn't have duplicate env vars names.
+"""

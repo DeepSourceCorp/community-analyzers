@@ -1,0 +1,13 @@
+
+title = "dangling-horizontalpodautoscaler"
+severity = "major"
+category = "antipattern"
+weight = 70
+description = """
+Indicates when HorizontalPodAutoscalers target a missing resource.
+
+<!--more-->
+
+## Remediation
+Confirm that your HorizontalPodAutoscaler's scaleTargetRef correctly matches one of your deployments.
+"""

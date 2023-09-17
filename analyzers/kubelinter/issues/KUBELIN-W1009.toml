@@ -1,0 +1,13 @@
+
+title = "default-service-account"
+severity = "major"
+category = "antipattern"
+weight = 70
+description = """
+Indicates when pods use the default service account.
+
+<!--more-->
+
+## Remediation
+Create a dedicated service account for your pod. Refer to https://kubernetes.io/docs/tasks/configure-pod-container/configure-service-account/ for details.
+"""

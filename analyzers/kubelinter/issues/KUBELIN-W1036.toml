@@ -1,0 +1,13 @@
+
+title = "privilege-escalation-container"
+severity = "major"
+category = "antipattern"
+weight = 70
+description = """
+Alert on containers of allowing privilege escalation that could gain more privileges than its parent process.
+
+<!--more-->
+
+## Remediation
+Ensure containers do not allow privilege escalation by setting allowPrivilegeEscalation=false, privileged=false and removing CAP_SYS_ADMIN capability. See https://kubernetes.io/docs/tasks/configure-pod-container/security-context/ for more details.
+"""

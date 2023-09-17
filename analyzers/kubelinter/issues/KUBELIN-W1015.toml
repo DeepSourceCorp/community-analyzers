@@ -1,0 +1,13 @@
+
+title = "env-var-secret"
+severity = "major"
+category = "antipattern"
+weight = 70
+description = """
+Indicates when objects use a secret in an environment variable.
+
+<!--more-->
+
+## Remediation
+Do not use raw secrets in environment variables. Instead, either mount the secret as a file or use a secretKeyRef. Refer to https://kubernetes.io/docs/concepts/configuration/secret/#using-secrets for details.
+"""

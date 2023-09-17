@@ -1,0 +1,13 @@
+
+title = "host-pid"
+severity = "major"
+category = "antipattern"
+weight = 70
+description = """
+Alert on pods/deployment-likes with sharing host's process namespace
+
+<!--more-->
+
+## Remediation
+Ensure the host's process namespace is not shared.
+"""
