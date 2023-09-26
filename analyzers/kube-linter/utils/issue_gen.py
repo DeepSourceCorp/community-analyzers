@@ -35,7 +35,7 @@ def update_issue_tomls() -> None:
 
         filepath = os.path.join(
             os.path.dirname(os.path.dirname(__file__)),
-            f"issues/{issue_code}.toml"
+            f".deepsource/issues/{issue_code}.toml"
         )
         if os.path.exists(filepath):
             continue
@@ -46,4 +46,6 @@ def update_issue_tomls() -> None:
         with open(filepath, "w") as f:
             f.write(content)
 
-update_issue_tomls()
+
+if __name__ == "__main__":
+    update_issue_tomls()

@@ -1,0 +1,8 @@
+# Analyzer Profile
+category = "conf"
+name = "KubeLinter"
+shortcode = "kube-linter"
+status = "active"
+processors = ["skipcq", "source_code_load"]
+tool_latest_version = "0.6.4"
+description = "KubeLinter is a static analysis tool by StackRox that checks Kubernetes YAML files and Helm charts to ensure the applications represented in them adhere to best practices."
