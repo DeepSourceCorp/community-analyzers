@@ -1,0 +1,18 @@
+name: Emit Sync Signal
+
+on:
+  push:
+    tags:
+      - v*-enterprise
+
+jobs:
+  emit_sync_signal:
+    runs-on: [self-hosted, charmeleon]
+    steps:
+      - name: Send sync signal to Asgard
+        uses: peter-evans/repository-dispatch@v1
+        with:
+          token: ${{ secrets.DS_SPOCK_PAT }}
+          repository: deepsourcecorp/asgard
+          event-type: sync_analyzer
+          client-payload: '{"ref": "${{ github.ref }}", "sha": "${{ github.sha }}", "from": "${{ github.repository }}"}'
