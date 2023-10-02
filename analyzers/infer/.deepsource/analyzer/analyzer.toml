@@ -3,5 +3,5 @@ category = "lang"
 name = "Infer"
 shortcode = "infer"
 status = "active"
-tool_latest_version = v1.1.0
+tool_latest_version = "v1.1.0"
 description = "A static analyzer for Java, C, C++, and Objective-C. Developed by the good folks of Facebok."
