@@ -1,0 +1,18 @@
+# Build
+timeout: 5m0s
+
+steps:
+  - name: 'curlimages/curl'
+    args:
+      [
+        '--location',
+        '--request', 'POST',
+        '--header', "Authorization: Bearer ${_DATASYNC_SECRET}",
+        '--header', 'Content-Type: application/json',
+        '--data-raw', '{"query":" mutation($input: TriggerAnalyzerSyncInput!){\n    triggerAnalyzerSync(input: $input){\n        ok\n    }\n}","variables":{"input":{"repoName":"community-analyzers","tag":"$TAG_NAME", "analyzer_version_map": {"infer": "v1.1.0", "kube-linter": "0.6.4"}}}}',
+        'https://app.deepsource.one/internal/graphql/'
+      ]
+substitutions:
+  _DATASYNC_SECRET: datasyncsecret
+options:
+  machineType: 'E2_HIGHCPU_8'
