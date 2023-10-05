@@ -19,7 +19,7 @@ def get_issues_json() -> list:
 def get_next_code(mapping) -> str:
     """Return the next available issue code."""
     num_issues = len(mapping.keys())  # get the number of issues already in the mapping
-    next_code = 1000 + num_issues + 1  # issue code series starts from `1001`
+    next_code = 1001 + num_issues  # issue code series starts from `1001`
     while True:
         yield next_code
         next_code += 1
