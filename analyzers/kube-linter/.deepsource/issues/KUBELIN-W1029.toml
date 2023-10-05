@@ -1,0 +1,13 @@
+
+title = "no-read-only-root-fs"
+severity = "major"
+category = "antipattern"
+weight = 70
+description = """
+Indicates when containers are running without a read-only root filesystem.
+
+<!--more-->
+
+## Remediation
+Set readOnlyRootFilesystem to true in the container securityContext.
+"""

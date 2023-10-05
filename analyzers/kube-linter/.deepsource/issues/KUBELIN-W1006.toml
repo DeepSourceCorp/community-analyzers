@@ -1,0 +1,13 @@
+
+title = "dangling-networkpolicy"
+severity = "major"
+category = "antipattern"
+weight = 70
+description = """
+Indicates when networkpolicies do not have any associated deployments.
+
+<!--more-->
+
+## Remediation
+Confirm that your networkPolicy's podselector correctly matches the labels on one of your deployments.
+"""

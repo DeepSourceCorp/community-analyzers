@@ -1,0 +1,13 @@
+
+title = "hpa-minimum-three-replicas"
+severity = "major"
+category = "antipattern"
+weight = 70
+description = """
+Indicates when a HorizontalPodAutoscaler specifies less than three minReplicas
+
+<!--more-->
+
+## Remediation
+Increase the number of replicas in the HorizontalPodAutoscaler to at least three to increase fault tolerance.
+"""

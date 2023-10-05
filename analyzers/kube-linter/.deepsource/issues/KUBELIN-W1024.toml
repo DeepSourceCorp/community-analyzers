@@ -1,0 +1,13 @@
+
+title = "mismatching-selector"
+severity = "major"
+category = "antipattern"
+weight = 70
+description = """
+Indicates when deployment selectors fail to match the pod template labels.
+
+<!--more-->
+
+## Remediation
+Confirm that your deployment selector correctly matches the labels in its pod template.
+"""

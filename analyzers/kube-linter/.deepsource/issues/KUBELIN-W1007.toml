@@ -1,0 +1,13 @@
+
+title = "dangling-networkpolicypeer-podselector"
+severity = "major"
+category = "antipattern"
+weight = 70
+description = """
+Indicates when NetworkPolicyPeer in Egress/Ingress rules -in the Spec of NetworkPolicy- do not have any associated deployments. Applied on peer specified with podSelectors only.
+
+<!--more-->
+
+## Remediation
+Confirm that your NetworkPolicy's Ingress/Egress peer's podselector correctly matches the labels on one of your deployments.
+"""

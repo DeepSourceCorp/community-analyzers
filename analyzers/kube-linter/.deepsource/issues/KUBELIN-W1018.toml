@@ -1,0 +1,13 @@
+
+title = "host-network"
+severity = "major"
+category = "antipattern"
+weight = 70
+description = """
+Alert on pods/deployment-likes with sharing host's network namespace
+
+<!--more-->
+
+## Remediation
+Ensure the host's network namespace is not shared.
+"""

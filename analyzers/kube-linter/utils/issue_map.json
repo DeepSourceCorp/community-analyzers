@@ -1,0 +1,155 @@
+{
+    "access-to-create-pods": {
+        "issue_code": "KUBELIN-W1001"
+    },
+    "access-to-secrets": {
+        "issue_code": "KUBELIN-W1002"
+    },
+    "cluster-admin-role-binding": {
+        "issue_code": "KUBELIN-W1003"
+    },
+    "dangling-horizontalpodautoscaler": {
+        "issue_code": "KUBELIN-W1004"
+    },
+    "dangling-ingress": {
+        "issue_code": "KUBELIN-W1005"
+    },
+    "dangling-networkpolicy": {
+        "issue_code": "KUBELIN-W1006"
+    },
+    "dangling-networkpolicypeer-podselector": {
+        "issue_code": "KUBELIN-W1007"
+    },
+    "dangling-service": {
+        "issue_code": "KUBELIN-W1008"
+    },
+    "default-service-account": {
+        "issue_code": "KUBELIN-W1009"
+    },
+    "deprecated-service-account-field": {
+        "issue_code": "KUBELIN-W1010"
+    },
+    "dnsconfig-options": {
+        "issue_code": "KUBELIN-W1011"
+    },
+    "docker-sock": {
+        "issue_code": "KUBELIN-W1012"
+    },
+    "drop-net-raw-capability": {
+        "issue_code": "KUBELIN-W1013"
+    },
+    "duplicate-env-var": {
+        "issue_code": "KUBELIN-W1014"
+    },
+    "env-var-secret": {
+        "issue_code": "KUBELIN-W1015"
+    },
+    "exposed-services": {
+        "issue_code": "KUBELIN-W1016"
+    },
+    "host-ipc": {
+        "issue_code": "KUBELIN-W1017"
+    },
+    "host-network": {
+        "issue_code": "KUBELIN-W1018"
+    },
+    "host-pid": {
+        "issue_code": "KUBELIN-W1019"
+    },
+    "hpa-minimum-three-replicas": {
+        "issue_code": "KUBELIN-W1020"
+    },
+    "invalid-target-ports": {
+        "issue_code": "KUBELIN-W1021"
+    },
+    "latest-tag": {
+        "issue_code": "KUBELIN-W1022"
+    },
+    "minimum-three-replicas": {
+        "issue_code": "KUBELIN-W1023"
+    },
+    "mismatching-selector": {
+        "issue_code": "KUBELIN-W1024"
+    },
+    "no-anti-affinity": {
+        "issue_code": "KUBELIN-W1025"
+    },
+    "no-extensions-v1beta": {
+        "issue_code": "KUBELIN-W1026"
+    },
+    "no-liveness-probe": {
+        "issue_code": "KUBELIN-W1027"
+    },
+    "no-node-affinity": {
+        "issue_code": "KUBELIN-W1028"
+    },
+    "no-read-only-root-fs": {
+        "issue_code": "KUBELIN-W1029"
+    },
+    "no-readiness-probe": {
+        "issue_code": "KUBELIN-W1030"
+    },
+    "no-rolling-update-strategy": {
+        "issue_code": "KUBELIN-W1031"
+    },
+    "non-existent-service-account": {
+        "issue_code": "KUBELIN-W1032"
+    },
+    "non-isolated-pod": {
+        "issue_code": "KUBELIN-W1033"
+    },
+    "pdb-max-unavailable": {
+        "issue_code": "KUBELIN-W1034"
+    },
+    "pdb-min-available": {
+        "issue_code": "KUBELIN-W1035"
+    },
+    "privilege-escalation-container": {
+        "issue_code": "KUBELIN-W1036"
+    },
+    "privileged-container": {
+        "issue_code": "KUBELIN-W1037"
+    },
+    "privileged-ports": {
+        "issue_code": "KUBELIN-W1038"
+    },
+    "read-secret-from-env-var": {
+        "issue_code": "KUBELIN-W1039"
+    },
+    "required-annotation-email": {
+        "issue_code": "KUBELIN-W1040"
+    },
+    "required-label-owner": {
+        "issue_code": "KUBELIN-W1041"
+    },
+    "run-as-non-root": {
+        "issue_code": "KUBELIN-W1042"
+    },
+    "sensitive-host-mounts": {
+        "issue_code": "KUBELIN-W1043"
+    },
+    "ssh-port": {
+        "issue_code": "KUBELIN-W1044"
+    },
+    "unsafe-proc-mount": {
+        "issue_code": "KUBELIN-W1045"
+    },
+    "unsafe-sysctls": {
+        "issue_code": "KUBELIN-W1046"
+    },
+    "unset-cpu-requirements": {
+        "issue_code": "KUBELIN-W1047"
+    },
+    "unset-memory-requirements": {
+        "issue_code": "KUBELIN-W1048"
+    },
+    "use-namespace": {
+        "issue_code": "KUBELIN-W1049"
+    },
+    "wildcard-in-rules": {
+        "issue_code": "KUBELIN-W1050"
+    },
+    "writable-host-mount": {
+        "issue_code": "KUBELIN-W1051"
+    }
+}

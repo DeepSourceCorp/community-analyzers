@@ -1,0 +1,13 @@
+
+title = "no-readiness-probe"
+severity = "major"
+category = "antipattern"
+weight = 70
+description = """
+Indicates when containers fail to specify a readiness probe.
+
+<!--more-->
+
+## Remediation
+Specify a readiness probe in your container. Refer to https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/ for details.
+"""

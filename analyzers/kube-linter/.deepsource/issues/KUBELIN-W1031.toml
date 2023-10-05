@@ -1,0 +1,13 @@
+
+title = "no-rolling-update-strategy"
+severity = "major"
+category = "antipattern"
+weight = 70
+description = """
+Indicates when a deployment doesn't use a rolling update strategy
+
+<!--more-->
+
+## Remediation
+Use a rolling update strategy to avoid service disruption during an update. A rolling update strategy allows for pods to be systematicaly replaced in a controlled fashion to ensure no service disruption.
+"""

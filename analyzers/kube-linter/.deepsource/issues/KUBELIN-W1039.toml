@@ -1,0 +1,13 @@
+
+title = "read-secret-from-env-var"
+severity = "major"
+category = "antipattern"
+weight = 70
+description = """
+Indicates when a deployment reads secret from environment variables. CIS Benchmark 5.4.1: "Prefer using secrets as files over secrets as environment variables. "
+
+<!--more-->
+
+## Remediation
+If possible, rewrite application code to read secrets from mounted secret files, rather than from environment variables. Refer to https://kubernetes.io/docs/concepts/configuration/secret/#using-secrets for details.
+"""

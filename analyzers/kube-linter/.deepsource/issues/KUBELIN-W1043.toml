@@ -1,0 +1,13 @@
+
+title = "sensitive-host-mounts"
+severity = "major"
+category = "antipattern"
+weight = 70
+description = """
+Alert on deployments with sensitive host system directories mounted in containers
+
+<!--more-->
+
+## Remediation
+Ensure sensitive host system directories are not mounted in containers by removing those Volumes and VolumeMounts.
+"""

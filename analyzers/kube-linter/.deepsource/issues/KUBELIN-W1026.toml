@@ -1,0 +1,13 @@
+
+title = "no-extensions-v1beta"
+severity = "major"
+category = "antipattern"
+weight = 70
+description = """
+Indicates when objects use deprecated API versions under extensions/v1beta.
+
+<!--more-->
+
+## Remediation
+Migrate using the apps/v1 API versions for the objects. Refer to https://kubernetes.io/blog/2019/07/18/api-deprecations-in-1-16/ for details.
+"""

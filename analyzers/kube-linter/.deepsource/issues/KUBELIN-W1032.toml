@@ -1,0 +1,13 @@
+
+title = "non-existent-service-account"
+severity = "major"
+category = "antipattern"
+weight = 70
+description = """
+Indicates when pods reference a service account that is not found.
+
+<!--more-->
+
+## Remediation
+Create the missing service account, or refer to an existing service account.
+"""

@@ -1,0 +1,13 @@
+
+title = "required-annotation-email"
+severity = "major"
+category = "antipattern"
+weight = 70
+description = """
+Indicates when objects do not have an email annotation with a valid email address.
+
+<!--more-->
+
+## Remediation
+Add an email annotation to your object with the email address of the object's owner.
+"""
