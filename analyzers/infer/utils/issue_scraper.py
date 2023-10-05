@@ -24,7 +24,6 @@ def clone_issues_locally():
     clone_command = f"git clone {CLONE_URL} --depth=1".split()
     with TemporaryDirectory() as temp_dir_name:
         subprocess.run(clone_command, cwd=temp_dir_name)
-        resp = subprocess.run(["ls", temp_dir_name])
         infer_issues_dir = f"{temp_dir_name}/infer/infer/documentation/issues"
         for filename in os.listdir(infer_issues_dir):
             if not filename.endswith(".md"):
