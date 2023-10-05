@@ -9,7 +9,6 @@ Note: The script heavily depends on the directory structure, and would break if 
 changed. The maintainers should pay attention to making sure this is updated all the time.
 """
 import os
-import pathlib
 import subprocess
 from tempfile import TemporaryDirectory
 
@@ -22,7 +21,7 @@ def clone_issues_locally():
     """Clone the issues directory from infer's GitHub repo."""
     clone_command = f"git clone {CLONE_URL} --depth=1".split()
     with TemporaryDirectory() as temp_dir_name:
-        subprocess.run(clone_command, cwd=temp_dir_name)
+        subprocess.run(clone_command, cwd=temp_dir_name, check=True)
         infer_issues_dir = f"{temp_dir_name}/infer/infer/documentation/issues"
         for filename in os.listdir(infer_issues_dir):
             if not filename.endswith(".md"):

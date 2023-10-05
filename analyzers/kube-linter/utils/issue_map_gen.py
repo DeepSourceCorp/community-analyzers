@@ -12,7 +12,7 @@ def get_issues_json() -> list:
     """Return a list of issues from kubelinter."""
     # run kubelinter to get the list of checks in the json format
     cmd = "kube-linter checks list --format json".split()
-    resp = subprocess.run(cmd, capture_output=True)
+    resp = subprocess.run(cmd, capture_output=True, check=True)
     return json.loads(resp.stdout.decode("utf-8"))
 
 
