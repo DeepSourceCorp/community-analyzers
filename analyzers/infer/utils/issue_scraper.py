@@ -27,7 +27,7 @@ def clone_issues_locally():
         infer_issues_dir = f"{temp_dir_name}/infer/infer/documentation/issues"
         for filename in os.listdir(infer_issues_dir):
             if not filename.endswith(".md"):
-                pass
+                continue
             infer_issue_id = filename.removesuffix(".md")
 
 
