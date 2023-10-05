@@ -5,3 +5,6 @@ __pycache__/
 venv*
 .tox
 .coverage
+**/*.egg-info
+**/build
+**/dist

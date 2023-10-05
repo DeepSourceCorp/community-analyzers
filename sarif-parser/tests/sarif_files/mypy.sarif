@@ -1,0 +1,56 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0.json",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "mypy",
+          "version": "0.910"
+        }
+      },
+      "results": [
+        {
+          "ruleId": "incompatible-types-in-assignment",
+          "level": "error",
+          "message": {
+            "text": "Incompatible types in assignment (expression has type \"str\", variable has type \"int\")"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "mytest.py"
+                },
+                "region": {
+                  "startLine": 2,
+                  "startColumn": 4
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "name-not-defined",
+          "level": "error",
+          "message": {
+            "text": "Name \"z\" is not defined"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "mytest.py"
+                },
+                "region": {
+                  "startLine": 3,
+                  "startColumn": 4
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
