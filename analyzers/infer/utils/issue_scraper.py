@@ -31,6 +31,4 @@ def clone_issues_locally():
                 pass
             infer_issue_id = filename.removesuffix(".md")
 
-        breakpoint()
-
 clone_issues_locally()
