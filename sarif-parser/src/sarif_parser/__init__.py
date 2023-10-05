@@ -88,4 +88,4 @@ def parse(
             )
             deepsource_issues.append(deepsource_issue)
 
-    return DeepSourceIssues(issues=deepsource_issues)
+    return deepsource_issues
