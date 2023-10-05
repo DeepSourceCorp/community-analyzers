@@ -3,6 +3,7 @@ from textwrap import dedent
 
 from issue_map_gen import get_issue_map, generate_mapping, get_issues_json
 
+
 def get_toml_content(title, description, remediation) -> str:
     """Return the content of the toml file."""
     content = f'''
@@ -21,6 +22,7 @@ def get_toml_content(title, description, remediation) -> str:
     '''
     return dedent(content)
 
+
 def update_issue_tomls() -> None:
     """Create issue toml files."""
     # Generate new mapping
@@ -35,7 +37,7 @@ def update_issue_tomls() -> None:
 
         filepath = os.path.join(
             os.path.dirname(os.path.dirname(__file__)),
-            f".deepsource/issues/{issue_code}.toml"
+            f".deepsource/issues/{issue_code}.toml",
         )
         if os.path.exists(filepath):
             continue

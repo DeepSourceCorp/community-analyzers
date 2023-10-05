@@ -30,4 +30,5 @@ def clone_issues_locally():
                 pass
             infer_issue_id = filename.removesuffix(".md")
 
+
 clone_issues_locally()

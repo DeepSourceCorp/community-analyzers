@@ -4,9 +4,7 @@ import json
 
 
 # path to the `issue_map.json` located in the same directory as this script
-ISSUE_MAP_FILE = os.path.join(
-    os.path.dirname(__file__), "issue_map.json"
-)
+ISSUE_MAP_FILE = os.path.join(os.path.dirname(__file__), "issue_map.json")
 ISSUE_PREFIX = "KUBELIN-W"
 
 
@@ -26,10 +24,12 @@ def get_next_code(mapping) -> str:
         yield next_code
         next_code += 1
 
+
 def get_issue_map() -> dict:
     """Return the issue map."""
     with open(ISSUE_MAP_FILE, "r") as f:
         return json.load(f)
+
 
 def generate_mapping() -> None:
     """Generate a mapping of DeepSource assigned issue codes to issue names."""
