@@ -3,7 +3,6 @@ import json
 import os
 import subprocess
 
-
 # path to the `issue_map.json` located in the same directory as this script
 ISSUE_MAP_FILE = os.path.join(os.path.dirname(__file__), "issue_map.json")
 ISSUE_PREFIX = "KUBELIN-W"

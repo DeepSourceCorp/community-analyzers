@@ -1,7 +1,7 @@
 import os
 from textwrap import dedent
 
-from issue_map_gen import get_issue_map, generate_mapping, get_issues_json
+from issue_map_gen import generate_mapping, get_issue_map, get_issues_json
 
 
 def get_toml_content(title, description, remediation) -> str:

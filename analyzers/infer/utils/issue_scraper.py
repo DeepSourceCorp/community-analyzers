@@ -8,11 +8,10 @@ of it. DeepSource expects an issue code for all issues.
 Note: The script heavily depends on the directory structure, and would break if the structure is
 changed. The maintainers should pay attention to making sure this is updated all the time.
 """
-import pathlib
 import os
+import pathlib
 import subprocess
 from tempfile import TemporaryDirectory
-
 
 ISSUES_FOLDER = os.path.join(os.path.abspath(__file__), "issues")
 ISSUE_MAP = ""
