@@ -1,0 +1,13 @@
+
+title = "infer-title"
+severity = "major"
+category = "antipattern"
+weight = 70
+description = """
+Indicates when a subject (Group/User/ServiceAccount) has create access to Pods. CIS Benchmark 5.1.4: The ability to create pods in a cluster opens up possibilities for privilege escalation and should be restricted, where possible.
+
+<!--more-->
+
+## Remediation
+Where possible, remove create access to pod objects in the cluster.
+"""
