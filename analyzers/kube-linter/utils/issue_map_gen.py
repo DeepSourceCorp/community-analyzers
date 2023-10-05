@@ -1,6 +1,7 @@
-import subprocess
-import os
+import itertools
 import json
+import os
+import subprocess
 
 
 # path to the `issue_map.json` located in the same directory as this script
@@ -20,9 +21,7 @@ def get_next_code(mapping) -> str:
     """Return the next available issue code."""
     num_issues = len(mapping.keys())  # get the number of issues already in the mapping
     next_code = 1001 + num_issues  # issue code series starts from `1001`
-    while True:
-        yield next_code
-        next_code += 1
+    yield from itertools.count(next_code)
 
 
 def get_issue_map() -> dict:
