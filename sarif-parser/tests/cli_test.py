@@ -2,7 +2,6 @@ import json
 from pathlib import Path
 
 import pytest
-
 from sarif_parser.cli import cli
 
 sarif_json = """
