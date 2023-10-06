@@ -121,7 +121,7 @@ def run_sarif_parser(filepath: str, output_path: str, issue_map_path: str) -> No
         "issues": deepsource_issues,
         "metrics": [],
         "errors": [],
-        "is_passed": True if not deepsource_issues else False,
+        "is_passed": len(deepsource_issues) == 0,
         "extra_data": {},
     }
     with open(output_path, "w") as file:
