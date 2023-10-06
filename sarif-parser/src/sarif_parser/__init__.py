@@ -108,8 +108,8 @@ def run_sarif_parser(filepath: str, output_path: str, issue_map_path: str) -> No
 
     # Run parser
     deepsource_issues = []
-    for artifact in artifacts:
-        with open(artifact) as file:  # skipcq: PTC-W6004 -- nothing sensitive here
+    for artifact_path in artifacts:
+        with open(artifact_path) as file:  # skipcq: PTC-W6004 -- nothing sensitive here
             artifact = json.load(file)
 
         sarif_data = json.loads(artifact["data"])
