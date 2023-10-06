@@ -109,8 +109,25 @@ def artifact_path(tmp_path: Path) -> str:
     return file_path.as_posix()
 
 
-def test_cli(artifact_path: str, capfd: pytest.CaptureFixture[str]) -> None:
-    cli([artifact_path, "--output=/dev/stdout"])
+@pytest.fixture
+def issue_map_path(tmp_path: Path) -> str:
+    issue_map = {
+        "container-security-context-user-group-id": {"issue_code": "KUBESCORE-W1001"}
+    }
+
+    file_path = tmp_path / "issue_map.json"
+    with file_path.open("w") as file:
+        json.dump(issue_map, file)
+
+    return file_path.as_posix()
+
+
+def test_cli(
+    artifact_path: str,
+    issue_map_path: str,
+    capfd: pytest.CaptureFixture[str],
+) -> None:
+    cli([artifact_path, f"--issue-map-path={issue_map_path}", "--output=/dev/stdout"])
     out, err = capfd.readouterr()
     assert err == ""
 

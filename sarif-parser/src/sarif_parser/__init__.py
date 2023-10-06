@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import json
+import os.path
 from typing import Any, TypedDict
 
 
@@ -29,17 +30,13 @@ class LineColumn(TypedDict):
 def parse(
     sarif_data: dict[str, Any],
     work_dir: str = "",
-    issue_map_path: str | None = None,
+    issue_map: dict[str, Any] | None = None,
 ) -> list[Issue]:
     """Parses a SARIF file and returns a list of DeepSource issues."""
-    deepsource_issues: list[Issue] = []
-
-    if issue_map_path is not None:
-        with open(issue_map_path) as file:
-            issue_map = json.load(file)
-    else:
+    if issue_map is None:
         issue_map = {}
 
+    deepsource_issues: list[Issue] = []
     for run in sarif_data["runs"]:
         for issue in run["results"]:
             assert len(issue["locations"]) == 1
@@ -89,3 +86,43 @@ def parse(
             deepsource_issues.append(deepsource_issue)
 
     return deepsource_issues
+
+
+def run_sarif_parser(filepath: str, output_path: str, issue_map_path: str) -> None:
+    """Parse SARIF files from given filepath, and save JSON output in output path."""
+    # Get list of sarif files
+    if not os.path.exists(filepath):
+        raise RuntimeError(f"{filepath} does not exist.")
+
+    if os.path.isdir(filepath):
+        artifacts = [os.path.join(filepath, file) for file in os.listdir(filepath)]
+    else:
+        artifacts = [filepath]
+
+    # Prepare mapping from SARIF rule IDs to DeepSource issue codes
+    if issue_map_path is not None:
+        with open(issue_map_path) as file:
+            issue_map = json.load(file)
+    else:
+        issue_map = None
+
+    # Run parser
+    deepsource_issues = []
+    for artifact in artifacts:
+        with open(artifact) as file:  # skipcq: PTC-W6004 -- nothing sensitive here
+            artifact = json.load(file)
+
+        sarif_data = json.loads(artifact["data"])
+        work_dir = artifact["metadata"]["work_dir"]
+        issues = parse(sarif_data, work_dir, issue_map)
+        deepsource_issues.extend(issues)
+
+    issues_dict = {
+        "issues": deepsource_issues,
+        "metrics": [],
+        "errors": [],
+        "is_passed": True if not deepsource_issues else False,
+        "extra_data": {},
+    }
+    with open(output_path, "w") as file:
+        json.dump(issues_dict, file)
