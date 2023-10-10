@@ -5,8 +5,6 @@ on:
     branches: [master]
   pull_request:
     branches: [master]
-env:
-  DEEPSOURCE_DSN: ${{ secrets.DEEPSOURCE_DSN }}
 
 jobs:
   build:
@@ -31,6 +29,8 @@ jobs:
         run: tox
 
       - name: Report test coverage to DeepSource
-        run: |
-          curl https://deepsource.io/cli | sh
-          ./bin/deepsource report --analyzer test-coverage --key python --value-file ./coverage.xml
+        uses: deepsourcelabs/test-coverage-action@master
+        with:
+          key: python
+          coverage-file: ./coverage.xml
+          dsn: ${{ secrets.DEEPSOURCE_DSN }}
