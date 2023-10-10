@@ -4,6 +4,10 @@ import os.path
 
 from sarif_parser import run_sarif_parser
 
+import sentry
+
+sentry.initialize()
+
 
 class CommunityAnalyzerArgs:
     analyzer: str
