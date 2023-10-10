@@ -96,7 +96,7 @@ def run_sarif_parser(
     """Parse SARIF files from given filepath, and save JSON output in output path."""
     # Get list of sarif files
     if not os.path.exists(filepath):
-        raise RuntimeError(f"{filepath} does not exist.")
+        raise FileNotFoundError(f"{filepath} does not exist.")
 
     if os.path.isdir(filepath):
         artifacts = [os.path.join(filepath, file) for file in os.listdir(filepath)]

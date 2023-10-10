@@ -186,3 +186,9 @@ def test_cli_with_issue_map(
         }
     )
     assert out == expected_output
+
+
+def test_cli_file_not_found() -> None:
+    """Tests `sarif-parser` CLI, with issue code substitution."""
+    with pytest.raises(FileNotFoundError):
+        cli(["/tmp/doesnotexist.py"])

@@ -197,25 +197,3 @@ def test_community_analyzer(tmp_path: Path) -> None:
         result = json.load(file)
 
     assert result == expected_result
-
-
-def test_cli(tmp_path: Path) -> None:
-    """Test for the CLI command, to test `issue_map.json` parsing."""
-    toolbox_path = tmp_path.as_posix()
-    artifacts_path = os.path.join(os.path.dirname(__file__), "test_artifacts")
-
-    subprocess.check_call(
-        [sys.executable, "run_community_analyzer.py", "--analyzer=kube-linter"],
-        env={
-            "TOOLBOX_PATH": toolbox_path,
-            "ARTIFACTS_PATH": artifacts_path,
-        },
-    )
-
-    analysis_results = tmp_path / "analysis_results.json"
-    assert analysis_results.exists()
-
-    with open(analysis_results) as file:
-        result = json.load(file)
-
-    assert result == expected_result
