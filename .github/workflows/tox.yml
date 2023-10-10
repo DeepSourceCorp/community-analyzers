@@ -5,6 +5,8 @@ on:
     branches: [master]
   pull_request:
     branches: [master]
+env:
+  DEEPSOURCE_DSN: ${{ secrets.DEEPSOURCE_DSN }}
 
 jobs:
   build:
@@ -15,13 +17,25 @@ jobs:
         with:
           ref: ${{ github.event.pull_request.head.sha }}
           fetch-depth: 1
+
       - name: Setup python
         uses: actions/setup-python@v3
         with:
           python-version: 3.11
           architecture: x64
+
       - name: Install dependencies
         run: pip install tox
+
       - name: Run tests and type checking
+        run: tox
+
+      - name: Set up python3.10
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.10'
+  
+      - name: Report test coverage to DeepSource
         run: |
-          tox
+          curl https://deepsource.io/cli | sh
+          ./bin/deepsource report --analyzer test-coverage --key python --value-file ./coverage.xml
