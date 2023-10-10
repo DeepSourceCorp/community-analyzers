@@ -1,4 +1,4 @@
 [report]
 exclude_lines =
   raise AssertionError
-  # pragma: no cover
+  pragma: no cover
