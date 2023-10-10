@@ -30,11 +30,6 @@ jobs:
       - name: Run tests and type checking
         run: tox
 
-      - name: Set up python3.10
-        uses: actions/setup-python@v2
-        with:
-          python-version: '3.10'
-  
       - name: Report test coverage to DeepSource
         run: |
           curl https://deepsource.io/cli | sh
