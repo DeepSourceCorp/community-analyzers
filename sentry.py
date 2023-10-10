@@ -1,9 +1,7 @@
-import logging
 import os
 
 import sentry_sdk
 import sentry_sdk.utils
-from sentry_sdk.integrations.logging import LoggingIntegration
 
 
 def initialize() -> None:
