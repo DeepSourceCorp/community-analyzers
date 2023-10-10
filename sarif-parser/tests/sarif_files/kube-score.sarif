@@ -1,0 +1,387 @@
+{
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "kube-score",
+          "rules": [
+            {
+              "id": "container-security-context-user-group-id",
+              "name": "Container Security Context User Group ID"
+            },
+            {
+              "id": "container-resources",
+              "name": "Container Resources"
+            },
+            {
+              "id": "pod-networkpolicy",
+              "name": "Pod NetworkPolicy"
+            },
+            {
+              "id": "container-image-pull-policy",
+              "name": "Container Image Pull Policy"
+            },
+            {
+              "id": "container-security-context-readonlyrootfilesystem",
+              "name": "Container Security Context ReadOnlyRootFilesystem"
+            },
+            {
+              "id": "container-ephemeral-storage-request-and-limit",
+              "name": "Container Ephemeral Storage Request and Limit"
+            },
+            {
+              "id": "deployment-pod-selector-labels-match-template-metadata-labels",
+              "name": "Deployment Pod Selector labels match template metadata labels"
+            },
+            {
+              "id": "deployment-has-poddisruptionbudget",
+              "name": "Deployment has PodDisruptionBudget"
+            },
+            {
+              "id": "deployment-has-host-podantiaffinity",
+              "name": "Deployment has host PodAntiAffinity"
+            }
+          ]
+        }
+      },
+      "conversion": {
+        "tool": {
+          "driver": {}
+        },
+        "invocation": {
+          "endTimeUtc": "0001-01-01T00:00:00Z",
+          "workingDirectory": {}
+        }
+      },
+      "properties": {},
+      "results": [
+        {
+          "message": {
+            "text": "Container has no configured security context"
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {}
+                },
+                "artifactLocation": {
+                  "uri": "file:///artifacts/asd.yaml"
+                },
+                "contextRegion": {
+                  "snippet": {},
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_confidence": "HIGH",
+            "issue_severity": "HIGH"
+          },
+          "ruleId": "container-security-context-user-group-id"
+        },
+        {
+          "message": {
+            "text": "CPU limit is not set"
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {}
+                },
+                "artifactLocation": {
+                  "uri": "file:///artifacts/asd.yaml"
+                },
+                "contextRegion": {
+                  "snippet": {},
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_confidence": "HIGH",
+            "issue_severity": "HIGH"
+          },
+          "ruleId": "container-resources"
+        },
+        {
+          "message": {
+            "text": "Memory limit is not set"
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {}
+                },
+                "artifactLocation": {
+                  "uri": "file:///artifacts/asd.yaml"
+                },
+                "contextRegion": {
+                  "snippet": {},
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_confidence": "HIGH",
+            "issue_severity": "HIGH"
+          },
+          "ruleId": "container-resources"
+        },
+        {
+          "message": {
+            "text": "CPU request is not set"
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {}
+                },
+                "artifactLocation": {
+                  "uri": "file:///artifacts/asd.yaml"
+                },
+                "contextRegion": {
+                  "snippet": {},
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_confidence": "HIGH",
+            "issue_severity": "HIGH"
+          },
+          "ruleId": "container-resources"
+        },
+        {
+          "message": {
+            "text": "Memory request is not set"
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {}
+                },
+                "artifactLocation": {
+                  "uri": "file:///artifacts/asd.yaml"
+                },
+                "contextRegion": {
+                  "snippet": {},
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_confidence": "HIGH",
+            "issue_severity": "HIGH"
+          },
+          "ruleId": "container-resources"
+        },
+        {
+          "message": {
+            "text": "The pod does not have a matching NetworkPolicy"
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {}
+                },
+                "artifactLocation": {
+                  "uri": "file:///artifacts/asd.yaml"
+                },
+                "contextRegion": {
+                  "snippet": {},
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_confidence": "HIGH",
+            "issue_severity": "HIGH"
+          },
+          "ruleId": "pod-networkpolicy"
+        },
+        {
+          "message": {
+            "text": "ImagePullPolicy is not set to Always"
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {}
+                },
+                "artifactLocation": {
+                  "uri": "file:///artifacts/asd.yaml"
+                },
+                "contextRegion": {
+                  "snippet": {},
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_confidence": "HIGH",
+            "issue_severity": "HIGH"
+          },
+          "ruleId": "container-image-pull-policy"
+        },
+        {
+          "message": {
+            "text": "Container has no configured security context"
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {}
+                },
+                "artifactLocation": {
+                  "uri": "file:///artifacts/asd.yaml"
+                },
+                "contextRegion": {
+                  "snippet": {},
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_confidence": "HIGH",
+            "issue_severity": "HIGH"
+          },
+          "ruleId": "container-security-context-readonlyrootfilesystem"
+        },
+        {
+          "message": {
+            "text": "Ephemeral Storage limit is not set"
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {}
+                },
+                "artifactLocation": {
+                  "uri": "file:///artifacts/asd.yaml"
+                },
+                "contextRegion": {
+                  "snippet": {},
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_confidence": "HIGH",
+            "issue_severity": "HIGH"
+          },
+          "ruleId": "container-ephemeral-storage-request-and-limit"
+        },
+        {
+          "message": {
+            "text": "Deployment selector labels not matching template metadata labels"
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {}
+                },
+                "artifactLocation": {
+                  "uri": "file:///artifacts/asd.yaml"
+                },
+                "contextRegion": {
+                  "snippet": {},
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_confidence": "HIGH",
+            "issue_severity": "HIGH"
+          },
+          "ruleId": "deployment-pod-selector-labels-match-template-metadata-labels"
+        },
+        {
+          "message": {
+            "text": "No matching PodDisruptionBudget was found"
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {}
+                },
+                "artifactLocation": {
+                  "uri": "file:///artifacts/asd.yaml"
+                },
+                "contextRegion": {
+                  "snippet": {},
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_confidence": "HIGH",
+            "issue_severity": "HIGH"
+          },
+          "ruleId": "deployment-has-poddisruptionbudget"
+        },
+        {
+          "message": {
+            "text": "Deployment does not have a host podAntiAffinity set"
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {}
+                },
+                "artifactLocation": {
+                  "uri": "file:///artifacts/asd.yaml"
+                },
+                "contextRegion": {
+                  "snippet": {},
+                  "startLine": 1
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_confidence": "HIGH",
+            "issue_severity": "HIGH"
+          },
+          "ruleId": "deployment-has-host-podantiaffinity"
+        }
+      ]
+    }
+  ],
+  "version": "2.1.0",
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json"
+}

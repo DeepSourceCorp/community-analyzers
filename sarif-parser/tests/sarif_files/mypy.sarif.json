@@ -1,0 +1,36 @@
+[
+  {
+    "issue_code": "incompatible-types-in-assignment",
+    "issue_text": "Incompatible types in assignment (expression has type \"str\", variable has type \"int\")",
+    "location": {
+      "path": "mytest.py",
+      "position": {
+        "begin": {
+          "line": 2,
+          "column": 4
+        },
+        "end": {
+          "line": 2,
+          "column": 4
+        }
+      }
+    }
+  },
+  {
+    "issue_code": "name-not-defined",
+    "issue_text": "Name \"z\" is not defined",
+    "location": {
+      "path": "mytest.py",
+      "position": {
+        "begin": {
+          "line": 3,
+          "column": 4
+        },
+        "end": {
+          "line": 3,
+          "column": 4
+        }
+      }
+    }
+  }
+]
