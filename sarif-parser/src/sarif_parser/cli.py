@@ -7,7 +7,7 @@ from sarif_parser import run_sarif_parser
 class SarifParserArgs:
     filepath: str
     output: str
-    issue_map_path: str
+    issue_map_path: str | None
 
 
 def cli(argv: list[str] | None = None) -> None:

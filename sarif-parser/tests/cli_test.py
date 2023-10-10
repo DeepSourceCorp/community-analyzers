@@ -70,7 +70,35 @@ sarif_json = """
   "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json"
 }
 """
+issue_map = {
+    "container-security-context-user-group-id": {"issue_code": "KUBESCORE-W1001"}
+}
+
 expected_issues = [
+    {
+        "issue_code": "container-security-context-user-group-id",
+        "issue_text": "Container has no configured security context",
+        "location": {
+            "path": "workspace/git/myproject/asd.yaml",
+            "position": {
+                "begin": {"line": 1, "column": 1},
+                "end": {"line": 1, "column": 1},
+            },
+        },
+    },
+    {
+        "issue_code": "container-resources",
+        "issue_text": "CPU limit is not set",
+        "location": {
+            "path": "workspace/git/myproject/asd.yaml",
+            "position": {
+                "begin": {"line": 1, "column": 1},
+                "end": {"line": 1, "column": 1},
+            },
+        },
+    },
+]
+expected_issues_with_issue_map = [
     {
         "issue_code": "KUBESCORE-W1001",
         "issue_text": "Container has no configured security context",
@@ -111,10 +139,6 @@ def artifact_path(tmp_path: Path) -> str:
 
 @pytest.fixture
 def issue_map_path(tmp_path: Path) -> str:
-    issue_map = {
-        "container-security-context-user-group-id": {"issue_code": "KUBESCORE-W1001"}
-    }
-
     file_path = tmp_path / "issue_map.json"
     with file_path.open("w") as file:
         json.dump(issue_map, file)
@@ -127,13 +151,34 @@ def test_cli(
     issue_map_path: str,
     capfd: pytest.CaptureFixture[str],
 ) -> None:
-    cli([artifact_path, f"--issue-map-path={issue_map_path}", "--output=/dev/stdout"])
+    cli([artifact_path, "--output=/dev/stdout"])
     out, err = capfd.readouterr()
     assert err == ""
 
     expected_output = json.dumps(
         {
             "issues": expected_issues,
+            "metrics": [],
+            "errors": [],
+            "is_passed": False,
+            "extra_data": {},
+        }
+    )
+    assert out == expected_output
+
+
+def test_cli_with_issue_map(
+    artifact_path: str,
+    issue_map_path: str,
+    capfd: pytest.CaptureFixture[str],
+) -> None:
+    cli([artifact_path, f"--issue-map-path={issue_map_path}", "--output=/dev/stdout"])
+    out, err = capfd.readouterr()
+    assert err == ""
+
+    expected_output = json.dumps(
+        {
+            "issues": expected_issues_with_issue_map,
             "metrics": [],
             "errors": [],
             "is_passed": False,

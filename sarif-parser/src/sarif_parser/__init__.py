@@ -88,7 +88,11 @@ def parse(
     return deepsource_issues
 
 
-def run_sarif_parser(filepath: str, output_path: str, issue_map_path: str) -> None:
+def run_sarif_parser(
+    filepath: str,
+    output_path: str,
+    issue_map_path: str | None,
+) -> None:
     """Parse SARIF files from given filepath, and save JSON output in output path."""
     # Get list of sarif files
     if not os.path.exists(filepath):
