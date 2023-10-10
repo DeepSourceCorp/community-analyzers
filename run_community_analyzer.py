@@ -16,6 +16,7 @@ def get_issue_map(analyzer_name: str) -> str:
 
 
 def main(argv: list[str] | None = None) -> None:
+    """Runs the CLI."""
     toolbox_path = os.getenv("TOOLBOX_PATH", "/toolbox")
     output_path = os.path.join(toolbox_path, "analysis_results.json")
     artifacts_path = os.getenv("ARTIFACTS_PATH", "/artifacts")

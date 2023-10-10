@@ -128,6 +128,7 @@ WORK_DIR = "/workspace/git/myproject"
 
 @pytest.fixture
 def artifact_path(tmp_path: Path) -> str:
+    """Creates the uploaded artifact containing SARIF data."""
     artifact_data = {"data": sarif_json, "metadata": {"work_dir": "/"}}
 
     file_path = tmp_path / "artifact"
@@ -139,6 +140,7 @@ def artifact_path(tmp_path: Path) -> str:
 
 @pytest.fixture
 def issue_map_path(tmp_path: Path) -> str:
+    """Creates `issue_map.json` file."""
     file_path = tmp_path / "issue_map.json"
     with file_path.open("w") as file:
         json.dump(issue_map, file)
@@ -146,11 +148,8 @@ def issue_map_path(tmp_path: Path) -> str:
     return file_path.as_posix()
 
 
-def test_cli(
-    artifact_path: str,
-    issue_map_path: str,
-    capfd: pytest.CaptureFixture[str],
-) -> None:
+def test_cli(artifact_path: str, capfd: pytest.CaptureFixture[str]) -> None:
+    """Tests `sarif-parser` CLI."""
     cli([artifact_path, "--output=/dev/stdout"])
     out, err = capfd.readouterr()
     assert err == ""
@@ -172,6 +171,7 @@ def test_cli_with_issue_map(
     issue_map_path: str,
     capfd: pytest.CaptureFixture[str],
 ) -> None:
+    """Tests `sarif-parser` CLI, with issue code substitution."""
     cli([artifact_path, f"--issue-map-path={issue_map_path}", "--output=/dev/stdout"])
     out, err = capfd.readouterr()
     assert err == ""

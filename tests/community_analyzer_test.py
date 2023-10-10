@@ -182,6 +182,7 @@ expected_result = {
 
 
 def test_community_analyzer(tmp_path: Path) -> None:
+    """Test for `run_community_analyzer.main()`, to test `issue_map.json` parsing."""
     toolbox_path = tmp_path.as_posix()
     artifacts_path = os.path.join(os.path.dirname(__file__), "test_artifacts")
 
@@ -199,6 +200,7 @@ def test_community_analyzer(tmp_path: Path) -> None:
 
 
 def test_cli(tmp_path: Path) -> None:
+    """Test for the CLI command, to test `issue_map.json` parsing."""
     toolbox_path = tmp_path.as_posix()
     artifacts_path = os.path.join(os.path.dirname(__file__), "test_artifacts")
 
