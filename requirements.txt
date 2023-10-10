@@ -1,1 +1,2 @@
-sarif-parser
+./sarif-parser
+sentry-sdk

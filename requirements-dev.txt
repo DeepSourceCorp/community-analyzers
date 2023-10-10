@@ -1,1 +1,2 @@
--e sarif-parser[dev]
+-e ./sarif-parser[dev]
+sentry-sdk
