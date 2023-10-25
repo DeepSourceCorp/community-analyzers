@@ -1,18 +1,15 @@
-# Build
+# Build and Push the sarif parser image to GCR
 timeout: 5m0s
 
 steps:
-  - name: 'curlimages/curl'
+  - name: 'gcr.io/cloud-builders/docker:20.10.14'
     args:
-      [
-        '--location',
-        '--request', 'POST',
-        '--header', "Authorization: Bearer ${_DATASYNC_SECRET}",
-        '--header', 'Content-Type: application/json',
-        '--data-raw', '{"query":" mutation($input: TriggerAnalyzerSyncInput!){\n    triggerAnalyzerSync(input: $input){\n        ok\n    }\n}","variables":{"input":{"repoName":"community-analyzers","tag":"$TAG_NAME","analyzer_version_map":{\"infer\":\"v1.1.0\",\"kube-linter\":\"0.6.4\"}}}}',
-        'https://app.deepsource.one/internal/graphql/'
-      ]
-substitutions:
-  _DATASYNC_SECRET: datasyncsecret
+    - build
+    - -t
+    - ${_REGISTRY_NAME}:$TAG_NAME
+    - -t
+    - ${_REGISTRY_NAME}:latest  # Also push the image with a `latest` tag
+    - .
+images: ['${_REGISTRY_NAME}:$TAG_NAME', '${_REGISTRY_NAME}:latest']
 options:
   machineType: 'E2_HIGHCPU_8'

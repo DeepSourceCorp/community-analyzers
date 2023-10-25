@@ -1,0 +1,39 @@
+name: Sync community analyzers
+
+on:
+  push:
+    tags:
+      - v.*
+
+env:
+  ENDPOINT: ${{ secrets.SYNC_ENDPOINT_DEV }}
+  DATASYNC_SECRET: ${{ secrets.DATASYNC_SECRET_DEV }}
+
+jobs:
+  sync_analyzers:
+    runs-on: [self-hosted, charmeleon]
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+
+      - name: Send sync signal
+        run: |
+          # Prepare a list of names of all analyzers to sync
+          # These are all the subdirectories under `analyzers/` of the current repository
+          # We only want the names of subdir stored as strings in the array
+          # Expected result: ["infer", "kube-linter"]
+          analyzer_shortcodes=$(echo -n analyzers/*/(/:t) | jq -cRs 'split(" ")')
+
+          # Send a sync signal
+          curl -X POST $SYNC_ENDPOINT -H "Content-Type: application/json" -H "Authorization: Bearer ${DATASYNC_SECRET}" --data-raw '{"query":" mutation($input: TriggerCommunityAnalyzersSyncInput!){\n triggerCommunityAnalyzersSync(input: $input){\n ok\n }\n}","variables":{"input":{"repoRef":'\""$TAG"\"', "analyzerTools":'"$analyzer_shortcodes"'}}}'
+
+          # Print a confirmation message
+          if [ $? -eq 0 ]; then
+            echo "Sync signal sent for $analyzer_shortcodes."
+          else
+            echo "Sync signal failed for $analyzer_shortcodes."
+            # Exit with a non-zero code to fail this GitHub Action pipeline
+            exit 1
+          fi
