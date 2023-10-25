@@ -6,7 +6,7 @@ on:
       - v*
 
 env:
-  ENDPOINT: ${{ secrets.SYNC_ENDPOINT_DEV }}
+  SYNC_ENDPOINT: ${{ secrets.SYNC_ENDPOINT_DEV }}
   DATASYNC_SECRET: ${{ secrets.DATASYNC_SECRET_DEV }}
 
 jobs:
@@ -24,7 +24,7 @@ jobs:
           # These are all the subdirectories under `analyzers/` of the current repository
           # We only want the names of subdir stored as strings in the array
           # Expected result: ["infer", "kube-linter"]
-          analyzer_shortcodes=$(echo -n analyzers/*/'' | jq -cRs 'split(" ")')
+          analyzer_shortcodes=$(echo -n analyzers/* | sed 's:analyzers/::g; s:/$::' | jq -cRs 'split(" ")')
 
           # Send a sync signal
           curl -X POST $SYNC_ENDPOINT -H "Content-Type: application/json" -H "Authorization: Bearer ${DATASYNC_SECRET}" --data-raw '{"query":" mutation($input: TriggerCommunityAnalyzersSyncInput!){\n triggerCommunityAnalyzersSync(input: $input){\n ok\n }\n}","variables":{"input":{"repoRef":'\""$GITHUB_REF_NAME"\"', "analyzerTools":'"$analyzer_shortcodes"'}}}'
