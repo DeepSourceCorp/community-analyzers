@@ -27,7 +27,7 @@ jobs:
           analyzer_shortcodes=$(echo -n analyzers/*/(/:t) | jq -cRs 'split(" ")')
 
           # Send a sync signal
-          curl -X POST $SYNC_ENDPOINT -H "Content-Type: application/json" -H "Authorization: Bearer ${DATASYNC_SECRET}" --data-raw '{"query":" mutation($input: TriggerCommunityAnalyzersSyncInput!){\n triggerCommunityAnalyzersSync(input: $input){\n ok\n }\n}","variables":{"input":{"repoRef":'\""$TAG"\"', "analyzerTools":'"$analyzer_shortcodes"'}}}'
+          curl -X POST $SYNC_ENDPOINT -H "Content-Type: application/json" -H "Authorization: Bearer ${DATASYNC_SECRET}" --data-raw '{"query":" mutation($input: TriggerCommunityAnalyzersSyncInput!){\n triggerCommunityAnalyzersSync(input: $input){\n ok\n }\n}","variables":{"input":{"repoRef":'\""$GITHUB_REF_NAME"\"', "analyzerTools":'"$analyzer_shortcodes"'}}}'
 
           # Print a confirmation message
           if [ $? -eq 0 ]; then
