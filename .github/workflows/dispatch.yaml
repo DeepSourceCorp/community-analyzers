@@ -7,7 +7,7 @@ on:
 
 jobs:
   emit_sync_signal:
-    runs-on: [self-hosted, charmeleon]
+    runs-on: ubuntu-latest
     steps:
       - name: Send sync signal to Asgard
         uses: peter-evans/repository-dispatch@v1

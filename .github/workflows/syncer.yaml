@@ -11,7 +11,7 @@ env:
 
 jobs:
   sync_analyzers:
-    runs-on: [self-hosted, charmeleon]
+    runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v3
