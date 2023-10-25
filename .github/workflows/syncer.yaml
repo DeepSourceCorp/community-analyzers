@@ -18,12 +18,6 @@ jobs:
         with:
           ref: ${{ github.event.pull_request.head.sha }}
 
-      - name: Set up Python 3.11
-        uses: actions/setup-python@v2
-        with:
-          python-version: 3.11
-          architecture: x64
-
       - name: Send sync signal
         run: |
           # Prepare a list of names of all analyzers to sync
@@ -33,7 +27,7 @@ jobs:
           analyzer_shortcodes=$(echo -n analyzers/*/(/:t) | jq -cRs 'split(" ")')
 
           # Send a sync signal
-          curl -X POST $SYNC_ENDPOINT -H "Content-Type: application/json" -H "Authorization: Bearer ${DATASYNC_SECRET}" --data-raw '{"query":" mutation($input: TriggerCommunityAnalyzersSyncInput!){\n    triggerCommunityAnalyzersSync(input: $input){\n        ok\n    }\n}","variables":{"input":{"repoRef":'"$TAG"'', "analyzerTools":'"$analyzer_shortcodes"'}}}'
+          curl -X POST $SYNC_ENDPOINT -H "Content-Type: application/json" -H "Authorization: Bearer ${DATASYNC_SECRET}" --data-raw '{"query":" mutation($input: TriggerCommunityAnalyzersSyncInput!){\n triggerCommunityAnalyzersSync(input: $input){\n ok\n }\n}","variables":{"input":{"repoRef":'\""$TAG"\"', "analyzerTools":'"$analyzer_shortcodes"'}}}'
 
           # Print a confirmation message
           if [ $? -eq 0 ]; then
