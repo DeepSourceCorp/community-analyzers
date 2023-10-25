@@ -24,7 +24,7 @@ jobs:
           # These are all the subdirectories under `analyzers/` of the current repository
           # We only want the names of subdir stored as strings in the array
           # Expected result: ["infer", "kube-linter"]
-          analyzer_shortcodes=$(echo -n analyzers/*/(/:t) | jq -cRs 'split(" ")')
+          analyzer_shortcodes=$(echo -n analyzers/*/'' | jq -cRs 'split(" ")')
 
           # Send a sync signal
           curl -X POST $SYNC_ENDPOINT -H "Content-Type: application/json" -H "Authorization: Bearer ${DATASYNC_SECRET}" --data-raw '{"query":" mutation($input: TriggerCommunityAnalyzersSyncInput!){\n triggerCommunityAnalyzersSync(input: $input){\n ok\n }\n}","variables":{"input":{"repoRef":'\""$GITHUB_REF_NAME"\"', "analyzerTools":'"$analyzer_shortcodes"'}}}'
