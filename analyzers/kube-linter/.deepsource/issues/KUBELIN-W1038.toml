@@ -1,4 +1,3 @@
-
 title = "privileged-ports"
 severity = "major"
 category = "antipattern"

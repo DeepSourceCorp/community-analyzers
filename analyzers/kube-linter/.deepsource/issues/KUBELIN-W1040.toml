@@ -1,5 +1,5 @@
 
-title = "required-annotation-email"
+title = "Invalid email annotation"
 severity = "major"
 category = "antipattern"
 weight = 70

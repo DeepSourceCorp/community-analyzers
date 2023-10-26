@@ -1,5 +1,4 @@
-
-title = "ssh-port"
+title = "Non-SSH services using port 22"
 severity = "major"
 category = "antipattern"
 weight = 70

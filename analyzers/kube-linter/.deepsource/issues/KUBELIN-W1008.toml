@@ -1,8 +1,8 @@
-
-title = "dangling-service"
+title = "Missing deployment for service"
+weight = 70
 severity = "major"
 category = "antipattern"
-weight = 70
+verbose_name = ""
 description = """
 Indicates when services do not have any associated deployments.
 
@@ -10,4 +10,5 @@ Indicates when services do not have any associated deployments.
 
 ## Remediation
 Confirm that your service's selector correctly matches the labels on one of your deployments.
+
 """

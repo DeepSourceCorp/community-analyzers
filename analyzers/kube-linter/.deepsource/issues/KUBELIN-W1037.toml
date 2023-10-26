@@ -1,4 +1,3 @@
-
 title = "privileged-container"
 severity = "major"
 category = "antipattern"

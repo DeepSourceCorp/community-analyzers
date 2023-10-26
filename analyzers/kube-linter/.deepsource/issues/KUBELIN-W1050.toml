@@ -1,5 +1,5 @@
 
-title = "wildcard-in-rules"
+title = "Use of wildcards in `Role` or `ClusterRole` rules"
 severity = "major"
 category = "antipattern"
 weight = 70

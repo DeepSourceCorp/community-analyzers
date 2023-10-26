@@ -1,8 +1,8 @@
-
-title = "exposed-services"
+title = "Forbidden service types for exposed services"
+weight = 70
 severity = "major"
 category = "antipattern"
-weight = 70
+verbose_name = ""
 description = """
 Alert on services for forbidden types
 
@@ -10,4 +10,5 @@ Alert on services for forbidden types
 
 ## Remediation
 Ensure containers are not exposed through a forbidden service type such as NodePort or LoadBalancer.
+
 """

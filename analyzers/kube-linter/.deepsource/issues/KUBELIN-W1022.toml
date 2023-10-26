@@ -1,8 +1,8 @@
-
-title = "latest-tag"
+title = "Invalid container image"
+weight = 70
 severity = "major"
 category = "antipattern"
-weight = 70
+verbose_name = ""
 description = """
 Indicates when a deployment-like object is running a container with an invalid container image
 
@@ -10,4 +10,5 @@ Indicates when a deployment-like object is running a container with an invalid c
 
 ## Remediation
 Use a container image with a specific tag other than latest.
+
 """

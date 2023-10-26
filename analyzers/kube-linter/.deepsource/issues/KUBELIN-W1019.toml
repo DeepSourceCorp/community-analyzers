@@ -1,8 +1,8 @@
-
-title = "host-pid"
+title = "Sharing host's process namespace"
+weight = 70
 severity = "major"
 category = "antipattern"
-weight = 70
+verbose_name = ""
 description = """
 Alert on pods/deployment-likes with sharing host's process namespace
 
@@ -10,4 +10,5 @@ Alert on pods/deployment-likes with sharing host's process namespace
 
 ## Remediation
 Ensure the host's process namespace is not shared.
+
 """

@@ -1,8 +1,8 @@
-
-title = "dangling-ingress"
+title = "Ingress without associated services"
+weight = 70
 severity = "major"
 category = "antipattern"
-weight = 70
+verbose_name = ""
 description = """
 Indicates when ingress do not have any associated services.
 
@@ -10,4 +10,5 @@ Indicates when ingress do not have any associated services.
 
 ## Remediation
 Confirm that your ingress's backend correctly matches the name and port on one of your services.
+
 """

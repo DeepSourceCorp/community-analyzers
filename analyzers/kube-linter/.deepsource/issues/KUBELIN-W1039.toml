@@ -1,4 +1,3 @@
-
 title = "read-secret-from-env-var"
 severity = "major"
 category = "antipattern"

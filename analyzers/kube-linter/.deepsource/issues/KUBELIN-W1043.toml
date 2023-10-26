@@ -1,5 +1,4 @@
-
-title = "sensitive-host-mounts"
+title = "Sensitive host system directories mounted in containers"
 severity = "major"
 category = "antipattern"
 weight = 70

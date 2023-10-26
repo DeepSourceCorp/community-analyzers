@@ -1,10 +1,9 @@
-
-title = "use-namespace"
+title = "Resources deployed to default namespace"
 severity = "major"
 category = "antipattern"
 weight = 70
 description = """
-Indicates when a resource is deployed to the default namespace.   CIS Benchmark 5.7.1: Create administrative boundaries between resources using namespaces. CIS Benchmark 5.7.4: The default namespace should not be used.
+Indicates when a resource is deployed to the default namespace. CIS Benchmark 5.7.1: Create administrative boundaries between resources using namespaces. CIS Benchmark 5.7.4: The default namespace should not be used.
 
 <!--more-->
 

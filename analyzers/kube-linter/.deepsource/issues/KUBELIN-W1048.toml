@@ -1,5 +1,5 @@
 
-title = "unset-memory-requirements"
+title = "Containers without memory resource requests and limits"
 severity = "major"
 category = "antipattern"
 weight = 70

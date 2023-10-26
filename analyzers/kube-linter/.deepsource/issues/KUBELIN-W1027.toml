@@ -1,8 +1,8 @@
-
-title = "no-liveness-probe"
+title = "Missing liveness probe in containers"
+weight = 70
 severity = "major"
 category = "antipattern"
-weight = 70
+verbose_name = ""
 description = """
 Indicates when containers fail to specify a liveness probe.
 
@@ -10,4 +10,5 @@ Indicates when containers fail to specify a liveness probe.
 
 ## Remediation
 Specify a liveness probe in your container. Refer to https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/ for details.
+
 """

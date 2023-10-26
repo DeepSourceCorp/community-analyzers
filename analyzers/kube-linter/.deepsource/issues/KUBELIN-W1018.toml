@@ -1,5 +1,4 @@
-
-title = "host-network"
+title = "Pods sharing host's network namespace"
 severity = "major"
 category = "antipattern"
 weight = 70
