@@ -1,5 +1,5 @@
 
-title = "no-rolling-update-strategy"
+title = "Missing rolling update strategy"
 severity = "major"
 category = "antipattern"
 weight = 70

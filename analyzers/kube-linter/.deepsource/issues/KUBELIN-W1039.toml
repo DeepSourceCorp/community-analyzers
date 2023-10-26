@@ -1,5 +1,4 @@
-
-title = "read-secret-from-env-var"
+title = "Reading secrets from environment variables"
 severity = "major"
 category = "antipattern"
 weight = 70

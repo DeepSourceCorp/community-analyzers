@@ -1,8 +1,7 @@
-
-title = "minimum-three-replicas"
+title = "Insufficient number of replicas"
+weight = 70
 severity = "major"
 category = "antipattern"
-weight = 70
 description = """
 Indicates when a deployment uses less than three replicas
 
@@ -10,4 +9,5 @@ Indicates when a deployment uses less than three replicas
 
 ## Remediation
 Increase the number of replicas in the deployment to at least three to increase the fault tolerance of the deployment.
+
 """

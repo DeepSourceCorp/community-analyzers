@@ -1,8 +1,7 @@
-
-title = "host-ipc"
+title = "Sharing host's IPC namespace"
+weight = 70
 severity = "major"
 category = "antipattern"
-weight = 70
 description = """
 Alert on pods/deployment-likes with sharing host's IPC namespace
 
@@ -10,4 +9,5 @@ Alert on pods/deployment-likes with sharing host's IPC namespace
 
 ## Remediation
 Ensure the host's IPC namespace is not shared.
+
 """

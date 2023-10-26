@@ -1,8 +1,7 @@
-
-title = "deprecated-service-account-field"
+title = "Use of deprecated `serviceAccount` field in deployments"
+weight = 70
 severity = "major"
 category = "antipattern"
-weight = 70
 description = """
 Indicates when deployments use the deprecated serviceAccount field.
 
@@ -10,4 +9,5 @@ Indicates when deployments use the deprecated serviceAccount field.
 
 ## Remediation
 Use the serviceAccountName field instead. If you must specify serviceAccount, ensure values for serviceAccount and serviceAccountName match.
+
 """

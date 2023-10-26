@@ -1,5 +1,5 @@
 
-title = "unsafe-sysctls"
+title = "Unsafe kernel parameters configured in containers"
 severity = "major"
 category = "antipattern"
 weight = 70
@@ -9,5 +9,5 @@ Alert on deployments specifying unsafe sysctls that may lead to severe problems 
 <!--more-->
 
 ## Remediation
-Ensure container does not allow unsafe allocation of system resources by removing unsafe sysctls configurations. For more details see https://kubernetes.io/docs/tasks/administer-cluster/sysctl-cluster/ https://docs.docker.com/engine/reference/commandline/run/#configure-namespaced-kernel-parameters-sysctls-at-runtime.
+Ensure that containers do not allow unsafe allocation of system resources by removing unsafe kernel parameter configurations. For more details, see https://kubernetes.io/docs/tasks/administer-cluster/sysctl-cluster/ and https://docs.docker.com/engine/reference/commandline/run/#configure-namespaced-kernel-parameters-sysctls-at-runtime.
 """

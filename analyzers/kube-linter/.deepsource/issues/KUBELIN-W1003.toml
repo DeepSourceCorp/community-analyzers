@@ -1,8 +1,7 @@
-
-title = "cluster-admin-role-binding"
+title = "`cluster admin` role should be used only where required"
+weight = 70
 severity = "major"
 category = "antipattern"
-weight = 70
 description = """
 CIS Benchmark 5.1.1 Ensure that the cluster-admin role is only used where required
 
@@ -10,4 +9,5 @@ CIS Benchmark 5.1.1 Ensure that the cluster-admin role is only used where requir
 
 ## Remediation
 Create and assign a separate role that has access to specific resources/actions needed for the service account.
+
 """

@@ -1,5 +1,4 @@
-
-title = "writable-host-mount"
+title = "Containers with writable host path mounts"
 severity = "major"
 category = "antipattern"
 weight = 70

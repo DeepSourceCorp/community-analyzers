@@ -1,8 +1,7 @@
-
-title = "dangling-horizontalpodautoscaler"
+title = "Missing `scaleTargetRef` in `HorizontalPodAutoscaler`"
+weight = 70
 severity = "major"
 category = "antipattern"
-weight = 70
 description = """
 Indicates when HorizontalPodAutoscalers target a missing resource.
 
@@ -10,4 +9,5 @@ Indicates when HorizontalPodAutoscalers target a missing resource.
 
 ## Remediation
 Confirm that your HorizontalPodAutoscaler's scaleTargetRef correctly matches one of your deployments.
+
 """

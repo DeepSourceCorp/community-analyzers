@@ -1,8 +1,7 @@
-
-title = "no-anti-affinity"
+title = "Missing inter-pod anti-affinity in deployments with multiple replicas"
+weight = 70
 severity = "major"
 category = "antipattern"
-weight = 70
 description = """
 Indicates when deployments with multiple replicas fail to specify inter-pod anti-affinity, to ensure that the orchestrator attempts to schedule replicas on different nodes.
 
@@ -10,4 +9,5 @@ Indicates when deployments with multiple replicas fail to specify inter-pod anti
 
 ## Remediation
 Specify anti-affinity in your pod specification to ensure that the orchestrator attempts to schedule replicas on different nodes. Using podAntiAffinity, specify a labelSelector that matches pods for the deployment, and set the topologyKey to kubernetes.io/hostname. Refer to https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#inter-pod-affinity-and-anti-affinity for details.
+
 """

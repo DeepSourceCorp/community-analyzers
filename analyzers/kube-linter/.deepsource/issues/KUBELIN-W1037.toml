@@ -1,5 +1,4 @@
-
-title = "privileged-container"
+title = "Containers running in privileged mode"
 severity = "major"
 category = "antipattern"
 weight = 70

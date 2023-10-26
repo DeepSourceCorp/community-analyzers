@@ -1,5 +1,5 @@
 
-title = "required-label-owner"
+title = "Owner object without email annotation"
 severity = "major"
 category = "antipattern"
 weight = 70
