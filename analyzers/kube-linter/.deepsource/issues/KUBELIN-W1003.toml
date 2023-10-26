@@ -2,7 +2,6 @@ title = "`cluster admin` role should be used only where required"
 weight = 70
 severity = "major"
 category = "antipattern"
-verbose_name = ""
 description = """
 CIS Benchmark 5.1.1 Ensure that the cluster-admin role is only used where required
 

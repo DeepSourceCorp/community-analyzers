@@ -1,9 +1,9 @@
-title = "privileged-ports"
+title = "Containers mapping privileged ports"
 severity = "major"
 category = "antipattern"
 weight = 70
 description = """
-Alert on deployments with privileged ports mapped in containers
+Alert on deployments with privileged ports mapped in containers.
 
 <!--more-->
 

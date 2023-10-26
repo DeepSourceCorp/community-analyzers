@@ -2,7 +2,6 @@ title = "Missing inter-pod anti-affinity in deployments with multiple replicas"
 weight = 70
 severity = "major"
 category = "antipattern"
-verbose_name = ""
 description = """
 Indicates when deployments with multiple replicas fail to specify inter-pod anti-affinity, to ensure that the orchestrator attempts to schedule replicas on different nodes.
 

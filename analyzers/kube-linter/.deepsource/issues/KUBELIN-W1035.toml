@@ -2,7 +2,6 @@ title = "Misconfigured `minAvailable` in `PodDisruptionBudget`"
 weight = 70
 severity = "major"
 category = "antipattern"
-verbose_name = ""
 description = """
 Indicates when a PodDisruptionBudget sets a minAvailable value that will always prevent disruptions of pods created by related deployment-like objects.
 

@@ -2,7 +2,6 @@ title = "Missing liveness probe in containers"
 weight = 70
 severity = "major"
 category = "antipattern"
-verbose_name = ""
 description = """
 Indicates when containers fail to specify a liveness probe.
 

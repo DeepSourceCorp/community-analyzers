@@ -2,7 +2,6 @@ title = "Sharing host's IPC namespace"
 weight = 70
 severity = "major"
 category = "antipattern"
-verbose_name = ""
 description = """
 Alert on pods/deployment-likes with sharing host's IPC namespace
 

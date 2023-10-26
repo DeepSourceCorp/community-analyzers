@@ -2,7 +2,6 @@ title = "Missing `dnsConfig` options in deployments"
 weight = 70
 severity = "major"
 category = "antipattern"
-verbose_name = ""
 description = """
 Alert on deployments that have no specified dnsConfig options
 

@@ -2,7 +2,6 @@ title = "Missing node affinity in deployments"
 weight = 70
 severity = "major"
 category = "antipattern"
-verbose_name = ""
 description = """
 Alert on deployments that have no node affinity defined
 

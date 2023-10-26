@@ -2,7 +2,6 @@ title = "Use of deprecated `serviceAccount` field in deployments"
 weight = 70
 severity = "major"
 category = "antipattern"
-verbose_name = ""
 description = """
 Indicates when deployments use the deprecated serviceAccount field.
 
