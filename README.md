@@ -14,6 +14,48 @@ Hub of all open-sourced third-party static analyzers supported by DeepSource.
 
 ## Development Guide
 
+### Adding a new analyzer
+
+To add a new analyzer, create a new directory with the analyzer shortcode under the `analyzers` folder.
+The following are very important to sync analyzers with DeepSource:
+
+1. `.deepsource/analyzer` directory under `analyzer/<analyzer-shortcode>` directory.
+
+    a. It should contain an `analyzer.toml` file with the following fields:
+
+      - `category`: One of "conf" (Configuration-as-code), "lang" (Language), "covg" (Coverage), "sec" (security)
+      - `name`: Name for the Analyzer. Analyzer on DeepSource dashboard and the checks on VCS would show up as this name.
+      - `shortcode`: shortcode for the analyzer. This should be same as of the analyzer's directory name. This is the name of the analyzer in the `.deepsource.toml` file.
+      - `status`: "active" if analyzer should be live else "draft".
+      - `tool_latest_version`: Analyzer's latest version for which issues are synced on DeepSource.
+      - `description`: A readable descrioption for this analyzer.
+
+    b. It should contain am `example.toml` file with a snippet to activate this analyzer in `.deepsource.toml` config.
+
+    c. `logo.svg` file.
+
+
+2. `.deepsource/issues` directory. This contains all issues detected by the analyzer. Each issue's filemane should be `<issue-shortcode>.toml` or `<issue-shortcode.md>` with the following fields:
+
+    - `title`: Title of the issue. No periods are allowed in the title.
+    - `category`: Category of the issue. Allowed values are: "bug-risk", "doc", "style", "antipattern", "coverage", "security", "performance", "typecheck", and, "secrets".
+    - `description`: Description of the issue. This showld explain the problem in as much detail as possible with possible remediation steps.
+    - `severity`: Severity of the issue. Allowed values are: "critical", "major" and "minor".
+
+3. `CI` directory:
+
+Put example configs of all CIs under this directory. These worlflow / CI configs should run the analyzer, create a sarif report and send it to DeepSource.
+Each file should be names as `<provider>.<extention>`. Example: `github.yml`, `circleci.yml`, etc.`
+
+4. `utils` directory:
+
+It should contain all the utilities required for the analyzer like issue genrator, issue-map, etc.
+For example, please check out `analyzers/kube-linter/utils`.
+
+### Syncing analyzers and their issues with DeepSource
+
+Push a tag after merging all the changes to the default (master) branch. The `Sync community analyzers` workflow triggers on tag pushes matching `v*` and will sync the analyzers and their issues with DeepSource.
+
 ### Running tests
 
 - Create and activate a virtual environment
