@@ -1,6 +1,6 @@
 title = "Check DeletionPolicy values for Resources"
 severity = "major"
-category = "antipattern"
+category = "security"
 weight = 70
 tags = ["resources", "deletionpolicy"]
 description = '''

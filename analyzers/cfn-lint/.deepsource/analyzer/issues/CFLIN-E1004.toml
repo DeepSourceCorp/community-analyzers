@@ -1,6 +1,6 @@
 title = "Template description can only be a string"
 severity = "major"
-category = "antipattern"
+category = "typecheck"
 weight = 70
 tags = ["description"]
 description = '''

@@ -1,6 +1,6 @@
 title = "Select validation of parameters"
 severity = "major"
-category = "antipattern"
+category = "bug-risk"
 weight = 70
 tags = ["functions", "select"]
 description = '''

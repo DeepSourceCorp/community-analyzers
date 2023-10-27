@@ -1,6 +1,6 @@
 title = "Check required properties for Lambda if the deployment package is a .zip file"
 severity = "major"
-category = "antipattern"
+category = "typecheck"
 weight = 70
 tags = ["resources", "lambda"]
 description = '''

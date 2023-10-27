@@ -1,6 +1,6 @@
 title = "Check if a list that allows duplicates has any duplicates"
 severity = "major"
-category = "antipattern"
+category = "bug-risk"
 weight = 70
 tags = ["resources", "property", "list"]
 description = '''

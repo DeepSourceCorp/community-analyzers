@@ -1,6 +1,6 @@
 title = "Resource name limit not exceeded"
 severity = "major"
-category = "antipattern"
+category = "performance"
 weight = 70
 tags = ["resources", "limits"]
 description = '''

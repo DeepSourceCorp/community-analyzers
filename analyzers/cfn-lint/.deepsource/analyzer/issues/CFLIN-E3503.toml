@@ -1,6 +1,6 @@
 title = "ValidationDomain is superdomain of DomainName"
 severity = "major"
-category = "antipattern"
+category = "typecheck"
 weight = 70
 tags = ["certificate", "certificatemanager", "domainvalidationoptions", "validationdomain"]
 description = '''

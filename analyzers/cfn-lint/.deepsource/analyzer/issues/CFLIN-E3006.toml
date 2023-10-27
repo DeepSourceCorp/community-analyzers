@@ -1,6 +1,6 @@
 title = "Resources have appropriate names"
 severity = "major"
-category = "antipattern"
+category = "style"
 weight = 70
 tags = ["resources"]
 description = '''

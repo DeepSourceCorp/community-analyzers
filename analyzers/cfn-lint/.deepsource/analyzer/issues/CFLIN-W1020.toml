@@ -1,6 +1,6 @@
 title = "Sub isn't needed if it doesn't have a variable defined"
 severity = "major"
-category = "antipattern"
+category = "typecheck"
 weight = 70
 tags = ["functions", "sub"]
 description = '''

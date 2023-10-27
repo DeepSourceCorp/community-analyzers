@@ -1,6 +1,6 @@
 title = "Validate that SnapStart is properly configured"
 severity = "major"
-category = "antipattern"
+category = "documentation"
 weight = 70
 tags = ["resources", "lambda"]
 description = '''

@@ -1,6 +1,6 @@
 title = "Metadata Interface parameters exist"
 severity = "major"
-category = "antipattern"
+category = "documentation"
 weight = 70
 tags = ["metadata"]
 description = '''

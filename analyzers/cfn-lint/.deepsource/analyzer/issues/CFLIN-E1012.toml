@@ -1,6 +1,6 @@
 title = "Check if Refs exist"
 severity = "major"
-category = "antipattern"
+category = "typecheck"
 weight = 70
 tags = ["functions", "ref"]
 description = '''

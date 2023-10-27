@@ -1,6 +1,6 @@
 title = "Check if ImageId Parameters have the correct type"
 severity = "major"
-category = "antipattern"
+category = "typecheck"
 weight = 70
 tags = ["parameters", "ec2", "imageid"]
 description = '''

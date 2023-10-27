@@ -1,6 +1,6 @@
 title = "Check if a list has duplicate values"
 severity = "major"
-category = "antipattern"
+category = "bug-risk"
 weight = 70
 tags = ["resources", "property", "list"]
 description = '''

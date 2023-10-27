@@ -1,6 +1,6 @@
 title = "Check Fn::If structure for validity"
 severity = "major"
-category = "antipattern"
+category = "bug-risk"
 weight = 70
 tags = ["functions", "if"]
 description = '''

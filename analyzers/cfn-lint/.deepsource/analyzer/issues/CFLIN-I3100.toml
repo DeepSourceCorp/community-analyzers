@@ -1,6 +1,6 @@
 title = "Checks for legacy instance type generations"
 severity = "major"
-category = "antipattern"
+category = "performance"
 weight = 70
 tags = ["resources", "ec2", "rds", "elasticcache", "elasticsearch"]
 description = '''

@@ -1,6 +1,6 @@
 title = "Check if IAM Policies are properly configured"
 severity = "major"
-category = "antipattern"
+category = "security"
 weight = 70
 tags = ["properties", "iam"]
 description = '''

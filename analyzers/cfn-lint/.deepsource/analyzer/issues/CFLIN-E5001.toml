@@ -1,6 +1,6 @@
 title = "Check that Modules resources are valid"
 severity = "major"
-category = "antipattern"
+category = "bug-risk"
 weight = 70
 tags = ["resources", "modules"]
 description = '''

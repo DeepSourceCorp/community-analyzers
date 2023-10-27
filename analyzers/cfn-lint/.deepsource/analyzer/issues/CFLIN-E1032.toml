@@ -1,6 +1,6 @@
 title = "Validates ForEach functions"
 severity = "major"
-category = "antipattern"
+category = "typecheck"
 weight = 70
 tags = ["functions", "foreach"]
 description = '''

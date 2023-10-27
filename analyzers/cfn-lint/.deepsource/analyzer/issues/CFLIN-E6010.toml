@@ -1,6 +1,6 @@
 title = "Output limit not exceeded"
 severity = "major"
-category = "antipattern"
+category = "bug-risk"
 weight = 70
 tags = ["outputs", "limits"]
 description = '''

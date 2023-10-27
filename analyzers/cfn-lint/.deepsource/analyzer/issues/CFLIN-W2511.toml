@@ -1,6 +1,6 @@
 title = "Check IAM Resource Policies syntax"
 severity = "major"
-category = "antipattern"
+category = "security"
 weight = 70
 tags = ["properties", "iam"]
 description = '''

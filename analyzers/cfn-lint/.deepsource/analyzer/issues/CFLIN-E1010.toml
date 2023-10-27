@@ -1,6 +1,6 @@
 title = "GetAtt validation of parameters"
 severity = "major"
-category = "antipattern"
+category = "typecheck"
 weight = 70
 tags = ["functions", "getatt"]
 description = '''

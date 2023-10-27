@@ -1,6 +1,6 @@
 title = "AttributeDefinitions / KeySchemas mismatch"
 severity = "major"
-category = "antipattern"
+category = "bug-risk"
 weight = 70
 tags = ["resources", "dynamodb"]
 description = '''

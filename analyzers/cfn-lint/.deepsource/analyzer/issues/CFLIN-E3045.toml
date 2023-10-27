@@ -1,6 +1,6 @@
 title = "Validate AccessControl are set with OwnershipControls"
 severity = "major"
-category = "antipattern"
+category = "security"
 weight = 70
 tags = ["resources", "s3"]
 description = '''

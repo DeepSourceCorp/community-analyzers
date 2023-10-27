@@ -1,6 +1,6 @@
 title = "Validation NOT function configuration"
 severity = "major"
-category = "antipattern"
+category = "typecheck"
 weight = 70
 tags = ["functions", "not"]
 description = '''

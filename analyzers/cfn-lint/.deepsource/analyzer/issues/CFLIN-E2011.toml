@@ -1,6 +1,6 @@
 title = "Parameter name limit not exceeded"
 severity = "major"
-category = "antipattern"
+category = "performance"
 weight = 70
 tags = ["parameters", "limits"]
 description = '''

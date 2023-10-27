@@ -1,6 +1,6 @@
 title = "Check Fn::Equals structure for validity"
 severity = "major"
-category = "antipattern"
+category = "typecheck"
 weight = 70
 tags = ["functions", "equals"]
 description = '''

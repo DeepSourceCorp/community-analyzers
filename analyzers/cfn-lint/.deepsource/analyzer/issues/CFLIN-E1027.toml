@@ -1,6 +1,6 @@
 title = "Check dynamic references secure strings are in supported locations"
 severity = "major"
-category = "antipattern"
+category = "security"
 weight = 70
 tags = ["functions", "dynamic reference"]
 description = '''

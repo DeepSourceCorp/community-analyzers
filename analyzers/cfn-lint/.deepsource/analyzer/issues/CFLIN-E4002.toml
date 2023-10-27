@@ -1,6 +1,6 @@
 title = "Validate the configuration of the Metadata section"
 severity = "major"
-category = "antipattern"
+category = "typecheck"
 weight = 70
 tags = ["metadata"]
 description = '''

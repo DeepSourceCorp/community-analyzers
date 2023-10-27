@@ -1,6 +1,6 @@
 title = "Mapping limit not exceeded"
 severity = "major"
-category = "antipattern"
+category = "performance"
 weight = 70
 tags = ["mappings", "limits"]
 description = '''

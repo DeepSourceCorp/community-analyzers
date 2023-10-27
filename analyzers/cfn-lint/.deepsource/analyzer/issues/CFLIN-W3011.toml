@@ -1,6 +1,6 @@
 title = "Check resources with UpdateReplacePolicy/DeletionPolicy have both"
 severity = "major"
-category = "antipattern"
+category = "security"
 weight = 70
 tags = ["resources", "updatereplacepolicy", "deletionpolicy"]
 description = '''

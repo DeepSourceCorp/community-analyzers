@@ -1,6 +1,6 @@
 title = "RecordSet HostedZoneName is a superdomain of Name"
 severity = "major"
-category = "antipattern"
+category = "bug-risk"
 weight = 70
 tags = ["resource", "properties", "route53"]
 description = '''

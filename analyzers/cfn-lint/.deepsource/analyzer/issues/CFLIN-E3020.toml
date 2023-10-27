@@ -1,6 +1,6 @@
 title = "Validate Route53 RecordSets"
 severity = "major"
-category = "antipattern"
+category = "bug-risk"
 weight = 70
 tags = ["resources", "route53", "record_set"]
 description = '''

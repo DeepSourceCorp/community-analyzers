@@ -1,6 +1,6 @@
 title = "Check if Password Properties are correctly configured"
 severity = "major"
-category = "antipattern"
+category = "security"
 weight = 70
 tags = ["parameters", "passwords", "security", "dynamic reference"]
 description = '''

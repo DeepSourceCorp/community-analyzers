@@ -1,6 +1,6 @@
 title = "Check State Machine Definition for proper syntax"
 severity = "major"
-category = "antipattern"
+category = "typecheck"
 weight = 70
 tags = ["resources", "stepfunctions"]
 description = '''

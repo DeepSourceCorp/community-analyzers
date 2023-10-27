@@ -1,6 +1,6 @@
 title = "Template description limit"
 severity = "major"
-category = "antipattern"
+category = "performance"
 weight = 70
 tags = ["description", "limits"]
 description = '''

@@ -1,6 +1,6 @@
 title = "Resource EC2 Security Group Ingress Properties"
 severity = "major"
-category = "antipattern"
+category = "security"
 weight = 70
 tags = ["resources", "ec2", "securitygroup"]
 description = '''

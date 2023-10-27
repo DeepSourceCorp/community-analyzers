@@ -1,6 +1,6 @@
 title = "Check Ec2 Ebs Properties"
 severity = "major"
-category = "antipattern"
+category = "typecheck"
 weight = 70
 tags = ["properties", "ec2", "ebs"]
 description = '''

@@ -1,6 +1,6 @@
 title = "Ref validation of value"
 severity = "major"
-category = "antipattern"
+category = "typecheck"
 weight = 70
 tags = ["functions", "ref"]
 description = '''

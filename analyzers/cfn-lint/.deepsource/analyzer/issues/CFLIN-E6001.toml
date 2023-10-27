@@ -1,6 +1,6 @@
 title = "Outputs have appropriate properties"
 severity = "major"
-category = "antipattern"
+category = "documentation"
 weight = 70
 tags = ["outputs"]
 description = '''

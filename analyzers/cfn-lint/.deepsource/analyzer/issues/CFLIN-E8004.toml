@@ -1,6 +1,6 @@
 title = "Check Fn::And structure for validity"
 severity = "major"
-category = "antipattern"
+category = "bug-risk"
 weight = 70
 tags = ["functions", "and"]
 description = '''

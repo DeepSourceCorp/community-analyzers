@@ -1,6 +1,6 @@
 title = "Check if parameters have a valid value based on an allowed pattern"
 severity = "major"
-category = "antipattern"
+category = "typecheck"
 weight = 70
 tags = ["parameters", "resources", "property", "allowed pattern"]
 description = '''

@@ -1,6 +1,6 @@
 title = "Check Elastic Cache Redis Cluster settings"
 severity = "major"
-category = "antipattern"
+category = "security"
 weight = 70
 tags = ["resources", "elasticcache"]
 description = '''

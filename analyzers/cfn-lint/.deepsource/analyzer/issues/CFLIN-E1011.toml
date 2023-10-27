@@ -1,6 +1,6 @@
 title = "FindInMap validation of configuration"
 severity = "major"
-category = "antipattern"
+category = "typecheck"
 weight = 70
 tags = ["functions", "findinmap"]
 description = '''

@@ -1,6 +1,6 @@
 title = "Check if a list has between min and max number of values specified"
 severity = "major"
-category = "antipattern"
+category = "typecheck"
 weight = 70
 tags = ["resources", "property", "list", "size"]
 description = '''

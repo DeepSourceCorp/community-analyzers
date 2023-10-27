@@ -1,6 +1,6 @@
 title = "Resource ELB Properties"
 severity = "major"
-category = "antipattern"
+category = "security"
 weight = 70
 tags = ["properties", "elb"]
 description = '''

@@ -1,6 +1,6 @@
 title = "Base64 validation of parameters"
 severity = "major"
-category = "antipattern"
+category = "bug-risk"
 weight = 70
 tags = ["functions", "base64"]
 description = '''

@@ -1,6 +1,6 @@
 title = "FindInMap keys exist in the map"
 severity = "major"
-category = "antipattern"
+category = "bug-risk"
 weight = 70
 tags = ["functions", "findinmap"]
 description = '''
