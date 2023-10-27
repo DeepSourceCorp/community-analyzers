@@ -1,0 +1,11 @@
+title = "Validates ForEach functions"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["functions", "foreach"]
+description = '''
+Validates that ForEach parameters have a valid configuration
+
+### References:
+[Intrinsic Function Reference Getatt](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-getatt.html)
+'''

@@ -1,0 +1,11 @@
+title = "Join validation of parameters"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["functions", "join"]
+description = '''
+Making sure the join function is properly configured
+
+### References:
+[Intrinsic Function Reference Join](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-join.html)
+'''

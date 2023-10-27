@@ -1,0 +1,11 @@
+title = "FindInMap validation of configuration"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["functions", "findinmap"]
+description = '''
+Making sure the function is a list of appropriate config
+
+### References:
+[Intrinsic Function Reference Findinmap](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-findinmap.html)
+'''

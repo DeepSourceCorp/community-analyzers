@@ -1,0 +1,11 @@
+title = "Select validation of parameters"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["functions", "select"]
+description = '''
+Making sure the Select function is properly configured
+
+### References:
+[Intrinsic Function Reference Select](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-select.html)
+'''

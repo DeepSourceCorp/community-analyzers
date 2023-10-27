@@ -1,0 +1,11 @@
+title = "FindInMap keys exist in the map"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["functions", "findinmap"]
+description = '''
+Checks the keys in a FindInMap to make sure they exist. Check only if the Map Name is a string and if the key is a string.
+
+### References:
+[Intrinsic Function Reference Findinmap](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-findinmap.html)
+'''

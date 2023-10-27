@@ -1,0 +1,11 @@
+title = "Check resources with auto expiring content have explicit retention period"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["resources", "retentionperiod"]
+description = '''
+The behaviour for data retention is different across AWS Services.If no retention period is specified the default for some services is to delete the data after a period of time.This check requires you to explicitly set the retention period for those resources to avoid unexpected data losses
+
+### References:
+[CloudFormation Python Lint](https://github.com/aws-cloudformation/cfn-python-lint)
+'''

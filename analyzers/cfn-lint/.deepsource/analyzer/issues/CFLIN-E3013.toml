@@ -1,0 +1,11 @@
+title = "CloudFront Aliases"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["properties", "cloudfront"]
+description = '''
+CloudFront aliases should contain valid domain names
+
+### References:
+[Aws Properties Cloudfront Distribution Distributionconfig](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cloudfront-distribution-distributionconfig.html#cfn-cloudfront-distribution-distributionconfig-aliases)
+'''

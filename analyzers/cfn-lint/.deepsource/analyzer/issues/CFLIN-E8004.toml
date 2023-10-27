@@ -1,0 +1,11 @@
+title = "Check Fn::And structure for validity"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["functions", "and"]
+description = '''
+Check Fn::And is a list of two elements
+
+### References:
+[Intrinsic Function Reference Conditions](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-conditions.html#intrinsic-function-reference-conditions-and)
+'''

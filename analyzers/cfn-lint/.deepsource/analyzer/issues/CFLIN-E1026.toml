@@ -1,0 +1,11 @@
+title = "Cannot reference resources in the Conditions block of the template"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["conditions", "functions", "ref"]
+description = '''
+Check that any Refs in the Conditions block uses no resources
+
+### References:
+[Intrinsic Function Reference Conditions](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-conditions.html#w2ab2c21c28c21c45)
+'''

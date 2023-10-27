@@ -1,0 +1,11 @@
+title = "Check IAM Permission configuration"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["properties", "iam", "permissions"]
+description = '''
+Check for valid IAM Permissions
+
+### References:
+[Reference_Policies_Elements_Action](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_elements_action.html)
+'''

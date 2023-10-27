@@ -1,0 +1,11 @@
+title = "CodePipeline Stage Actions"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["resources", "codepipeline"]
+description = '''
+See if CodePipeline stage actions are set correctly
+
+### References:
+[Reference Pipeline Structure](https://docs.aws.amazon.com/codepipeline/latest/userguide/reference-pipeline-structure.html#pipeline-requirements)
+'''

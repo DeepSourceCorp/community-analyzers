@@ -1,0 +1,11 @@
+title = "Outputs descriptions can only be strings"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["outputs"]
+description = '''
+Outputs descriptions can only be strings
+
+### References:
+[Outputs Section Structure](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/outputs-section-structure.html)
+'''

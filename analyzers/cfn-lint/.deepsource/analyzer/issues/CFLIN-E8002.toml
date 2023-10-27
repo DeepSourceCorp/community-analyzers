@@ -1,0 +1,11 @@
+title = "Check if the referenced Conditions are defined"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["conditions"]
+description = '''
+Making sure the used conditions are actually defined in the Conditions section
+
+### References:
+[Conditions Section Structure](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/conditions-section-structure.html)
+'''

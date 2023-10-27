@@ -1,0 +1,11 @@
+title = "GetAz validation of parameters"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["functions", "getaz"]
+description = '''
+Making sure the GetAz function is properly configured
+
+### References:
+[Intrinsic Function Reference Getavailabilityzones](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-getavailabilityzones.html)
+'''

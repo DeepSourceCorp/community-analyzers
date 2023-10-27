@@ -1,0 +1,11 @@
+title = "Metadata Interface have appropriate properties"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["metadata"]
+description = '''
+Metadata Interface properties are properly configured
+
+### References:
+[Aws Resource CloudFormation Interface](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudformation-interface.html)
+'''

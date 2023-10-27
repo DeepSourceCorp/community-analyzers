@@ -1,0 +1,11 @@
+title = "Check if parameters have a valid value based on an allowed pattern"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["parameters", "resources", "property", "allowed pattern"]
+description = '''
+Check if parameters have a valid value in a pattern. The Parameter's allowed pattern is based on the usages in property (Ref)
+
+### References:
+[CloudFormation Resource Specification](https://github.com/aws-cloudformation/cfn-python-lint/blob/main/docs/cfn-resource-specification.md#allowedpattern)
+'''

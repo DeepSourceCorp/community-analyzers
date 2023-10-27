@@ -1,0 +1,11 @@
+title = "Check if Serverless Resources have Serverless Transform"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["resources", "transform"]
+description = '''
+Check that a template with Serverless Resources also includes the Serverless Transform
+
+### References:
+[CloudFormation Python Lint](https://github.com/aws-cloudformation/cfn-python-lint)
+'''

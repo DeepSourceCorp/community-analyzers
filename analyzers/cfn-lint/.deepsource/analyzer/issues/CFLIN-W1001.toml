@@ -1,0 +1,11 @@
+title = "Ref/GetAtt to resource that is available when conditions are applied"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["conditions", "resources", "relationships", "ref", "getatt", "sub"]
+description = '''
+Check the Conditions that affect a Ref/GetAtt to make sure the resource being related to is available when there is a resource condition.
+
+### References:
+[Intrinsic Function Reference Ref](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html)
+'''

@@ -1,0 +1,11 @@
+title = "Check required properties for Lambda if the deployment package is a .zip file"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["resources", "lambda"]
+description = '''
+When the package type is Zip, you must also specify the `handler` and `runtime` properties.
+
+### References:
+[Aws Resource Lambda Function](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-function.html)
+'''

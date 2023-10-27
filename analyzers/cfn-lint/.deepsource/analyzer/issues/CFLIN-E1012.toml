@@ -1,0 +1,11 @@
+title = "Check if Refs exist"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["functions", "ref"]
+description = '''
+Making sure the refs exist
+
+### References:
+[Intrinsic Function Reference Ref](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html)
+'''

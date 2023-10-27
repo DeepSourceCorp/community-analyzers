@@ -1,0 +1,11 @@
+title = "CodePipeline Stages"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["properties", "codepipeline"]
+description = '''
+See if CodePipeline stages are set correctly
+
+### References:
+[Reference Pipeline Structure](https://docs.aws.amazon.com/codepipeline/latest/userguide/reference-pipeline-structure.html#pipeline-requirements)
+'''

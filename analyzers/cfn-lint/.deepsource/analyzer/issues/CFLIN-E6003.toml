@@ -1,0 +1,11 @@
+title = "Outputs have values of strings"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["outputs"]
+description = '''
+Making sure the outputs have strings as values
+
+### References:
+[Outputs Section Structure](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/outputs-section-structure.html)
+'''

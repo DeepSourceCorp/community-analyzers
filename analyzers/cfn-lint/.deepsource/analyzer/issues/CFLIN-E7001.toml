@@ -1,0 +1,11 @@
+title = "Mappings are appropriately configured"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["mappings"]
+description = '''
+Check if Mappings are properly configured
+
+### References:
+[Mappings Section Structure](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/mappings-section-structure.html)
+'''

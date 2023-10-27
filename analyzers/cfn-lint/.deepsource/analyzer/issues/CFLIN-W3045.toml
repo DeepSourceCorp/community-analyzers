@@ -1,0 +1,11 @@
+title = "Controlling access to an S3 bucket should be done with bucket policies"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["resources", "s3"]
+description = '''
+Nearly all access control configurations can be more successfully achieved with bucket policies. Consider using bucket policies instead of access control.
+
+### References:
+[About Object Ownership](https://docs.aws.amazon.com/AmazonS3/latest/userguide/about-object-ownership.html)
+'''

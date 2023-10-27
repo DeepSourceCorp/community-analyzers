@@ -1,0 +1,11 @@
+title = "Check at least one essential container is specified"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["properties", "ecs", "task", "container", "fargate"]
+description = '''
+Check that every TaskDefinition specifies at least one essential container
+
+### References:
+[Aws Properties Ecs Taskdefinition Containerdefinitions](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ecs-taskdefinition-containerdefinitions.html#cfn-ecs-taskdefinition-containerdefinition-essential)
+'''

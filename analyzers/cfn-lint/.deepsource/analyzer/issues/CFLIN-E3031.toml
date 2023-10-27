@@ -1,0 +1,11 @@
+title = "Check if property values adhere to a specific pattern"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["resources", "property", "allowed pattern", "regex"]
+description = '''
+Check if properties have a valid value in case of a pattern (Regular Expression)
+
+### References:
+[CloudFormation Resource Specification](https://github.com/awslabs/cfn-python-lint/blob/main/docs/cfn-resource-specification.md#allowedpattern)
+'''

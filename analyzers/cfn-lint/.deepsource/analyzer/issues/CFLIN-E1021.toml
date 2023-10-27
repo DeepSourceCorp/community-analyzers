@@ -1,0 +1,11 @@
+title = "Base64 validation of parameters"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["functions", "base64"]
+description = '''
+Making sure the Base64 function is properly configured
+
+### References:
+[Intrinsic Function Reference Base64](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-base64.html)
+'''

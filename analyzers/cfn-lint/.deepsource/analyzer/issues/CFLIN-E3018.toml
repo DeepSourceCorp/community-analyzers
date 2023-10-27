@@ -1,0 +1,11 @@
+title = "Property is unwanted based on another properties value"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["resources"]
+description = '''
+When certain properties have a certain value it results in other properties not being needed. This rule will validate those unwanted properties are not specified when those values are supplied
+
+### References:
+[]()
+'''

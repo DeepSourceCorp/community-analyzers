@@ -1,0 +1,11 @@
+title = "Check if parameters have a valid value"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["parameters", "resources", "property", "allowed value"]
+description = '''
+Check if parameters have a valid value in case of an enumator. The Parameter's allowed values is based on the usages in property (Ref)
+
+### References:
+[CloudFormation Resource Specification](https://github.com/aws-cloudformation/cfn-python-lint/blob/main/docs/cfn-resource-specification.md#allowedvalue)
+'''

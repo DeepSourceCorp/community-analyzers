@@ -1,0 +1,11 @@
+title = "Check DeletionPolicy values for Resources"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["resources", "deletionpolicy"]
+description = '''
+Check that the DeletionPolicy values are valid
+
+### References:
+[Aws Attribute Deletionpolicy](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-attribute-deletionpolicy.html)
+'''

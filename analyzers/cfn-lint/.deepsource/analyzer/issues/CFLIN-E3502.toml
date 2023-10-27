@@ -1,0 +1,11 @@
+title = "Check if a JSON Object is within size limits"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["resources", "limits", "json"]
+description = '''
+Validate properties that are JSON values so that their length is within the limits
+
+### References:
+[CloudFormation Limits](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cloudformation-limits.html)
+'''

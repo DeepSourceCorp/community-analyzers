@@ -1,0 +1,11 @@
+title = "Check resources with UpdateReplacePolicy/DeletionPolicy have both"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["resources", "updatereplacepolicy", "deletionpolicy"]
+description = '''
+Both UpdateReplacePolicy and DeletionPolicy are needed to protect resources from deletion
+
+### References:
+[Aws Attribute Deletionpolicy](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-attribute-deletionpolicy.html)
+'''

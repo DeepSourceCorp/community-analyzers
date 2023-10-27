@@ -1,0 +1,11 @@
+title = "Outputs have appropriate names"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["outputs"]
+description = '''
+Check if Outputs are properly named (A-Za-z0-9)
+
+### References:
+[Outputs Section Structure](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/outputs-section-structure.html)
+'''

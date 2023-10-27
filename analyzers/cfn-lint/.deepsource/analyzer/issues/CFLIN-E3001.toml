@@ -1,0 +1,11 @@
+title = "Basic CloudFormation Resource Check"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["resources"]
+description = '''
+Making sure the basic CloudFormation resources are properly configured
+
+### References:
+[CloudFormation Python Lint](https://github.com/aws-cloudformation/cfn-python-lint)
+'''

@@ -1,0 +1,11 @@
+title = "Parameter limit not exceeded"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["parameters", "limits"]
+description = '''
+Check the number of Parameters in the template is less than the upper limit
+
+### References:
+[CloudFormation Limits](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cloudformation-limits.html)
+'''

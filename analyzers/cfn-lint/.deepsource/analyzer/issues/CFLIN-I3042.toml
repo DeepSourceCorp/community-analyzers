@@ -1,0 +1,11 @@
+title = "ARNs should use correctly placed Pseudo Parameters"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["resources"]
+description = '''
+Checks Resources if ARNs use correctly placed Pseudo Parameters instead of hardcoded Partition, Region, and Account Number
+
+### References:
+[]()
+'''

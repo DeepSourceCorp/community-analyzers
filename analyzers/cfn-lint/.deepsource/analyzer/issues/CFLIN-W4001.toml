@@ -1,0 +1,11 @@
+title = "Metadata Interface parameters exist"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["metadata"]
+description = '''
+Metadata Interface parameters actually exist
+
+### References:
+[Aws Resource CloudFormation Interface](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudformation-interface.html)
+'''

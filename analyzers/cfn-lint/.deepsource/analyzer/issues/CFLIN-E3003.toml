@@ -1,0 +1,11 @@
+title = "Required Resource properties are missing"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["resources"]
+description = '''
+Making sure that Resources properties that are required exist
+
+### References:
+[CloudFormation Resource Specification](https://github.com/aws-cloudformation/cfn-python-lint/blob/main/docs/cfn-resource-specification.md#required)
+'''

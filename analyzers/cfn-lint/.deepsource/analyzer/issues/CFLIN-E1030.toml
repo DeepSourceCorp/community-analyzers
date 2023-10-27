@@ -1,0 +1,11 @@
+title = "Length validation of parameters"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["functions", "length"]
+description = '''
+Making sure Fn::Length is configured correctly
+
+### References:
+[Intrinsic Function Reference Length](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-length.html)
+'''

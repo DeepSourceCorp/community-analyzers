@@ -1,0 +1,11 @@
+title = "Default value cannot use Refs"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["parameters", "ref"]
+description = '''
+Check if Refs are not used in Parameter Defaults
+
+### References:
+[Parameters Section Structure](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/parameters-section-structure.html)
+'''

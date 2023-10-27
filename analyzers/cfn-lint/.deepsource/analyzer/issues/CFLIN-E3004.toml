@@ -1,0 +1,11 @@
+title = "Resource dependencies are not circular"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["resources", "circularly", "dependson", "ref", "sub", "getatt"]
+description = '''
+Check that Resources are not circularly dependent by DependsOn, Ref, Sub, or GetAtt
+
+### References:
+[CloudFormation Python Lint](https://github.com/aws-cloudformation/cfn-python-lint)
+'''

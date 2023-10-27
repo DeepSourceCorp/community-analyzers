@@ -1,0 +1,11 @@
+title = "Validate AWS Event ScheduleExpression format"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["resources", "events"]
+description = '''
+Validate the formation of the AWS::Event ScheduleExpression
+
+### References:
+[Scheduledevents](https://docs.aws.amazon.com/AmazonCloudWatch/latest/events/ScheduledEvents.html)
+'''

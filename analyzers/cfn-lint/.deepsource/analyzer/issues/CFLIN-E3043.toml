@@ -1,0 +1,11 @@
+title = "Validate parameters for in a nested stack"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["resources", "cloudformation"]
+description = '''
+Evalute if parameters for a nested stack are specified and if parameters are specified for a nested stack that aren't required.
+
+### References:
+[CloudFormation Python Lint](https://github.com/awslabs/cfn-python-lint)
+'''

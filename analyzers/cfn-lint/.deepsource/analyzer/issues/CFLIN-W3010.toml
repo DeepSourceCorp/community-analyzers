@@ -1,0 +1,11 @@
+title = "Availability Zone Parameters should not be hardcoded"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["parameters", "availabilityzone"]
+description = '''
+Check if an Availability Zone property is hardcoded.
+
+### References:
+[CloudFormation Python Lint](https://github.com/aws-cloudformation/cfn-python-lint)
+'''

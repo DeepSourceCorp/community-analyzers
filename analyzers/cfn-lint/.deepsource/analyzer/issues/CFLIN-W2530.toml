@@ -1,0 +1,11 @@
+title = "Validate that SnapStart is properly configured"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["resources", "lambda"]
+description = '''
+To properly leverage SnapStart, you must configure both the lambda function and attach a Lambda version resource
+
+### References:
+[Snapstart](https://docs.aws.amazon.com/lambda/latest/dg/snapstart.html)
+'''

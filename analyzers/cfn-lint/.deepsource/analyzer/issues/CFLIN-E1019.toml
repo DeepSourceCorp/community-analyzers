@@ -1,0 +1,11 @@
+title = "Sub validation of parameters"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["functions", "sub"]
+description = '''
+Making sure the sub function is properly configured
+
+### References:
+[Intrinsic Function Reference Sub](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-sub.html)
+'''

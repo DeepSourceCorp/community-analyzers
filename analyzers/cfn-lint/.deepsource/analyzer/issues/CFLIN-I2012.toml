@@ -1,0 +1,11 @@
+title = "Parameter value limit"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["parameters", "limits"]
+description = '''
+Check if the size of Parameter values in the template is approaching the upper limit
+
+### References:
+[CloudFormation Limits](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cloudformation-limits.html)
+'''

@@ -1,0 +1,11 @@
+title = "ToJsonString validation of parameters"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["functions", "toJsonString"]
+description = '''
+Making sure Fn::ToJsonString is configured correctly
+
+### References:
+[Intrinsic Function Reference](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference.html)
+'''

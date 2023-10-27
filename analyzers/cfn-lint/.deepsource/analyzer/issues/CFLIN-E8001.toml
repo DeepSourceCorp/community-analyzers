@@ -1,0 +1,11 @@
+title = "Conditions have appropriate properties"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["conditions"]
+description = '''
+Check if Conditions are properly configured
+
+### References:
+[Conditions Section Structure](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/conditions-section-structure.html)
+'''

@@ -1,0 +1,11 @@
+title = "Check obsolete DependsOn configuration for Resources"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["resources", "dependson", "ref", "getatt"]
+description = '''
+Check if DependsOn is specified if not needed. A Ref or a Fn::GetAtt already is an implicit dependency.
+
+### References:
+[Optimize Aws CloudFormation Templates](https://aws.amazon.com/blogs/devops/optimize-aws-cloudformation-templates/)
+'''

@@ -1,0 +1,11 @@
+title = "Parameters have appropriate properties"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["parameters"]
+description = '''
+Making sure the parameters are properly configured
+
+### References:
+[Parameters Section Structure](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/parameters-section-structure.html)
+'''

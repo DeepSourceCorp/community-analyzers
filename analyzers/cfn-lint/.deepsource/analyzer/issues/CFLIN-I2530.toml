@@ -1,0 +1,11 @@
+title = "Validate that SnapStart is configured for >= Java11 runtimes"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["resources", "lambda"]
+description = '''
+SnapStart is a no-cost feature that can increase performance up to 10x. Enable SnapStart for Java 11 and greater runtimes
+
+### References:
+[Snapstart](https://docs.aws.amazon.com/lambda/latest/dg/snapstart.html)
+'''

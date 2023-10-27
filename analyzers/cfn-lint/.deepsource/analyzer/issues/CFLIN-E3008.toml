@@ -1,0 +1,11 @@
+title = "Check values of properties for valid Refs and GetAtts"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["resources", "ref", "getatt"]
+description = '''
+Checks resource properties for Ref and GetAtt values
+
+### References:
+[]()
+'''

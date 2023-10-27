@@ -1,0 +1,11 @@
+title = "Mapping name limit"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["mappings", "limits"]
+description = '''
+Check the size of Mapping names in the template is approaching the upper limit
+
+### References:
+[CloudFormation Limits](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cloudformation-limits.html)
+'''
