@@ -1,8 +1,8 @@
-import os
 import ast
 import json
+import os
 from textwrap import dedent
-from urllib.parse import urlparse, unquote
+from urllib.parse import unquote, urlparse
 
 
 def concat_binop(binop):
@@ -39,7 +39,9 @@ def extract_class_attributes(node):
                 if target.id in ["id", "shortdesc", "description", "source_url"]:
                     class_data[target.id] = concat_binop(item.value)
                 elif target.id == "tags":
-                    class_data["tags"] = [concat_binop(element) for element in item.value.elts]
+                    class_data["tags"] = [
+                        concat_binop(element) for element in item.value.elts
+                    ]
     return class_data
 
 
@@ -73,12 +75,12 @@ def extract_page_name(url):
     - str: Formatted page name
     """
     parsed_url = urlparse(url)
-    path_segments = parsed_url.path.strip('/').split('/')
+    path_segments = parsed_url.path.strip("/").split("/")
     if path_segments:
         last_segment = os.path.splitext(path_segments[-1])[0]
-        page_name = unquote(last_segment.replace('-', ' ')).title()
-        page_name = page_name.replace('Cfn', 'CloudFormation')
-        page_name = page_name.replace('Cloudformation', 'CloudFormation')
+        page_name = unquote(last_segment.replace("-", " ")).title()
+        page_name = page_name.replace("Cfn", "CloudFormation")
+        page_name = page_name.replace("Cloudformation", "CloudFormation")
         return page_name
     return None
 
@@ -140,9 +142,9 @@ def extract_attributes_from_directory(directory):
 
     for root, _, files in os.walk(directory):
         for file in files:
-            if file.endswith('.py'):
+            if file.endswith(".py"):
                 file_path = os.path.join(root, file)
-                with open(file_path, 'r', encoding='utf-8') as f:
+                with open(file_path, "r", encoding="utf-8") as f:
                     try:
                         code = f.read()
                         class_data = extract_attributes_from_code(code)
