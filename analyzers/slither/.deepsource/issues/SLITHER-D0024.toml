@@ -1,0 +1,34 @@
+title = "msg.value inside a loop"
+severity = "critical"
+category = "antipattern"
+weight = 70
+description = """
+Detect the use of `msg.value` inside a loop.
+
+<!--more-->
+
+## Exploit Scenario
+
+```solidity
+contract MsgValueInLoop{
+
+    mapping (address => uint256) balances;
+
+    function bad(address[] memory receivers) public payable {
+        for (uint256 i=0; i < receivers.length; i++) {
+            balances[receivers[i]] += msg.value;
+        }
+    }
+
+}
+```
+
+
+## Recommendation
+
+Provide an explicit array of amounts alongside the receivers array, and check that the sum of all amounts matches `msg.value`.
+
+
+## Learn more
+[msg-value-loop](https://github.com/crytic/slither/wiki/Detector-Documentation/#msgvalue-inside-a-loop) on Slither's wiki.
+"""

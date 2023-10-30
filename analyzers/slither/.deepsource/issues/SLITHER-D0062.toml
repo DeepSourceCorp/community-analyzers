@@ -1,0 +1,33 @@
+title = "Missing Zero Address Validation"
+severity = "minor"
+category = "antipattern"
+weight = 50
+description = """
+Detect missing zero address validation.
+
+<!--more-->
+
+## Exploit Scenario
+
+```solidity
+contract C {
+
+  modifier onlyAdmin {
+    if (msg.sender != owner) throw;
+    _;
+  }
+
+  function updateOwner(address newOwner) onlyAdmin external {
+    owner = newOwner;
+  }
+}
+```
+Bob calls `updateOwner` without specifying the `newOwner`, so Bob loses ownership of the contract.
+
+
+## Recommendation
+Check that the address is not zero.
+
+## Learn more
+[missing-zero-check](https://github.com/crytic/slither/wiki/Detector-Documentation#missing-zero-address-validation) on Slither's wiki.
+"""

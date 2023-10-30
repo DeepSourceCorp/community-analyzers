@@ -1,0 +1,34 @@
+title = "Uninitialized storage variables"
+severity = "critical"
+category = "antipattern"
+weight = 70
+description = """
+An uninitialized storage variable will act as a reference to the first state variable, and can override a critical variable.
+
+<!--more-->
+
+## Exploit Scenario
+
+```solidity
+contract Uninitialized{
+    address owner = msg.sender;
+
+    struct St{
+        uint a;
+    }
+
+    function func() {
+        St st;
+        st.a = 0x0;
+    }
+}
+```
+Bob calls `func`. As a result, `owner` is overridden to `0`.
+
+
+## Recommendation
+Initialize all storage variables.
+
+## Learn more
+[uninitialized-storage](https://github.com/crytic/slither/wiki/Detector-Documentation#uninitialized-storage-variables) on Slither's wiki.
+"""

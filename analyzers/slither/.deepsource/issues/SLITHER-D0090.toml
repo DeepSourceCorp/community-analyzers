@@ -1,0 +1,18 @@
+title = "Public function that could be declared external"
+severity = "major"
+category = "performance"
+weight = 60
+description = """
+`public` functions that are never called by the contract should be declared `external`, and its immutable parameters should be located in `calldata` to save gas.
+
+<!--more-->
+
+## Exploit Scenario
+
+
+## Recommendation
+Use the `external` attribute for functions never called from the contract, and change the location of immutable parameters to `calldata` to save gas.
+
+## Learn more
+[external-function](https://github.com/crytic/slither/wiki/Detector-Documentation#public-function-that-could-be-declared-external) on Slither's wiki.
+"""

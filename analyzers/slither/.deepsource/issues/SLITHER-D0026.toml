@@ -1,0 +1,29 @@
+title = "If a `return` is used instead of a `leave`."
+severity = "critical"
+category = "antipattern"
+weight = 70
+description = """
+Detect if a `return` is used where a `leave` should be used.
+
+<!--more-->
+
+## Exploit Scenario
+
+```solidity
+contract C {
+    function f() internal returns (uint a, uint b) {
+        assembly {
+            return (5, 6)
+        }
+    }
+
+}
+```
+The function will halt the execution, instead of returning a two uint.
+
+## Recommendation
+Use the `leave` statement.
+
+## Learn more
+[return-leave](https://github.com/crytic/slither/wiki/Detector-Documentation#incorrect-assembly-return) on Slither's wiki.
+"""

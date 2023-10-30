@@ -1,0 +1,31 @@
+title = "Deletion on mapping containing a structure"
+severity = "major"
+category = "antipattern"
+weight = 60
+description = """
+A deletion in a structure containing a mapping will not delete the mapping (see the [Solidity documentation](https://solidity.readthedocs.io/en/latest/types.html##delete)). The remaining data may be used to compromise the contract.
+
+<!--more-->
+
+## Exploit Scenario
+
+```solidity
+    struct BalancesStruct{
+        address owner;
+        mapping(address => uint) balances;
+    }
+    mapping(address => BalancesStruct) public stackBalance;
+
+    function remove() internal{
+         delete stackBalance[msg.sender];
+    }
+```
+`remove` deletes an item of `stackBalance`.
+The mapping `balances` is never deleted, so `remove` does not work as intended.
+
+## Recommendation
+Use a lock mechanism instead of a deletion to disable structure containing a mapping.
+
+## Learn more
+[mapping-deletion](https://github.com/crytic/slither/wiki/Detector-Documentation#deletion-on-mapping-containing-a-structure) on Slither's wiki.
+"""

@@ -1,0 +1,18 @@
+title = "Low level calls"
+severity = "minor"
+category = "antipattern"
+weight = 50
+description = """
+The use of low-level calls is error-prone. Low-level calls do not check for [code existence](https://solidity.readthedocs.io/en/v0.4.25/control-structures.html#error-handling-assert-require-revert-and-exceptions) or call success.
+
+<!--more-->
+
+## Exploit Scenario
+
+
+## Recommendation
+Avoid low-level calls. Check the call success. If the call is meant for a contract, check for code existence.
+
+## Learn more
+[low-level-calls](https://github.com/crytic/slither/wiki/Detector-Documentation#low-level-calls) on Slither's wiki.
+"""

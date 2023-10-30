@@ -1,0 +1,37 @@
+title = "Unimplemented functions"
+severity = "minor"
+category = "antipattern"
+weight = 50
+description = """
+Detect functions that are not implemented on derived-most contracts.
+
+<!--more-->
+
+## Exploit Scenario
+
+```solidity
+interface BaseInterface {
+    function f1() external returns(uint);
+    function f2() external returns(uint);
+}
+
+interface BaseInterface2 {
+    function f3() external returns(uint);
+}
+
+contract DerivedContract is BaseInterface, BaseInterface2 {
+    function f1() external returns(uint){
+        return 42;
+    }
+}
+```
+`DerivedContract` does not implement `BaseInterface.f2` or `BaseInterface2.f3`.
+As a result, the contract will not properly compile. 
+All unimplemented functions must be implemented on a contract that is meant to be used.
+
+## Recommendation
+Implement all unimplemented functions in any contract you intend to use directly (not simply inherit from).
+
+## Learn more
+[unimplemented-functions](https://github.com/crytic/slither/wiki/Detector-Documentation#unimplemented-functions) on Slither's wiki.
+"""

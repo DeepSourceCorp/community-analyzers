@@ -1,0 +1,40 @@
+title = "Costly operations in a loop"
+severity = "minor"
+category = "antipattern"
+weight = 50
+description = """
+Costly operations inside a loop might waste gas, so optimizations are justified.
+
+<!--more-->
+
+## Exploit Scenario
+
+```solidity
+contract CostlyOperationsInLoop{
+
+    uint loop_count = 100;
+    uint state_variable=0;
+
+    function bad() external{
+        for (uint i=0; i < loop_count; i++){
+            state_variable++;
+        }
+    }
+
+    function good() external{
+      uint local_variable = state_variable;
+      for (uint i=0; i < loop_count; i++){
+        local_variable++;
+      }
+      state_variable = local_variable;
+    }
+}
+```
+Incrementing `state_variable` in a loop incurs a lot of gas because of expensive `SSTOREs`, which might lead to an `out-of-gas`.
+
+## Recommendation
+Use a local variable to hold the loop computation result.
+
+## Learn more
+[costly-loop](https://github.com/crytic/slither/wiki/Detector-Documentation#costly-operations-inside-a-loop) on Slither's wiki.
+"""

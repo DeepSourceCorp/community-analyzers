@@ -1,0 +1,23 @@
+title = "Contract's name reused"
+severity = "critical"
+category = "antipattern"
+weight = 70
+description = """
+If a codebase has two contracts the similar names, the compilation artifacts
+will not contain one of the contracts with the duplicate name.
+
+<!--more-->
+
+## Exploit Scenario
+
+Bob's `truffle` codebase has two contracts named `ERC20`.
+When `truffle compile` runs, only one of the two contracts will generate artifacts in `build/contracts`.
+As a result, the second contract cannot be analyzed.
+
+
+## Recommendation
+Rename the contract.
+
+## Learn more
+[name-reused](https://github.com/crytic/slither/wiki/Detector-Documentation#name-reused) on Slither's wiki.
+"""

@@ -1,0 +1,31 @@
+title = "Missing inheritance"
+severity = "minor"
+category = "antipattern"
+weight = 50
+description = """
+Detect missing inheritance.
+
+<!--more-->
+
+## Exploit Scenario
+
+```solidity
+interface ISomething {
+    function f1() external returns(uint);
+}
+
+contract Something {
+    function f1() external returns(uint){
+        return 42;
+    }
+}
+```
+`Something` should inherit from `ISomething`. 
+
+
+## Recommendation
+Inherit from the missing interface or contract.
+
+## Learn more
+[missing-inheritance](https://github.com/crytic/slither/wiki/Detector-Documentation#missing-inheritance) on Slither's wiki.
+"""

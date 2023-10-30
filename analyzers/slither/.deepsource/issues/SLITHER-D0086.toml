@@ -1,0 +1,18 @@
+title = "Variable names are too similar"
+severity = "minor"
+category = "antipattern"
+weight = 50
+description = """
+Detect variables with names that are too similar.
+
+<!--more-->
+
+## Exploit Scenario
+Bob uses several variables with similar names. As a result, his code is difficult to review.
+
+## Recommendation
+Prevent variables from having similar names.
+
+## Learn more
+[similar-names](https://github.com/crytic/slither/wiki/Detector-Documentation#variable-names-too-similar) on Slither's wiki.
+"""

@@ -1,0 +1,24 @@
+title = "Comparing a variable to itself always returns true or false, depending on comparison"
+severity = "major"
+category = "antipattern"
+weight = 60
+description = """
+A variable compared to itself is probably an error as it will always return `true` for `==`, `>=`, `<=` and always `false` for `<`, `>` and `!=`.
+
+<!--more-->
+
+## Exploit Scenario
+
+```solidity
+    function check(uint a) external returns(bool){
+        return (a >= a);
+    }
+```
+`check` always return true.
+
+## Recommendation
+Remove comparison or compare to different value.
+
+## Learn more
+[tautological-compare](https://github.com/crytic/slither/wiki/Detector-Documentation#tautological-compare) on Slither's wiki.
+"""

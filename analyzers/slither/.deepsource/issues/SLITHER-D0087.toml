@@ -1,0 +1,33 @@
+title = "Conformance to numeric notation best practices"
+severity = "minor"
+category = "antipattern"
+weight = 50
+description = """
+
+Literals with many digits are difficult to read and review.
+
+
+<!--more-->
+
+## Exploit Scenario
+
+```solidity
+contract MyContract{
+    uint 1_ether = 10000000000000000000; 
+}
+```
+
+While `1_ether` looks like `1 ether`, it is `10 ether`. As a result, it's likely to be used incorrectly.
+
+
+## Recommendation
+
+Use:
+- [Ether suffix](https://solidity.readthedocs.io/en/latest/units-and-global-variables.html#ether-units),
+- [Time suffix](https://solidity.readthedocs.io/en/latest/units-and-global-variables.html#time-units), or
+- [The scientific notation](https://solidity.readthedocs.io/en/latest/types.html#rational-and-integer-literals)
+
+
+## Learn more
+[too-many-digits](https://github.com/crytic/slither/wiki/Detector-Documentation#too-many-digits) on Slither's wiki.
+"""

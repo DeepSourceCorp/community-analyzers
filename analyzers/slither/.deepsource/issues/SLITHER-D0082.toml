@@ -1,0 +1,18 @@
+title = "Unused state variables"
+severity = "minor"
+category = "antipattern"
+weight = 50
+description = """
+Unused state variable.
+
+<!--more-->
+
+## Exploit Scenario
+
+
+## Recommendation
+Remove unused state variables.
+
+## Learn more
+[unused-state](https://github.com/crytic/slither/wiki/Detector-Documentation#unused-state-variable) on Slither's wiki.
+"""

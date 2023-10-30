@@ -1,0 +1,18 @@
+title = "Assembly usage"
+severity = "minor"
+category = "antipattern"
+weight = 50
+description = """
+The use of assembly is error-prone and should be avoided.
+
+<!--more-->
+
+## Exploit Scenario
+
+
+## Recommendation
+Do not use `evm` assembly.
+
+## Learn more
+[assembly](https://github.com/crytic/slither/wiki/Detector-Documentation#assembly-usage) on Slither's wiki.
+"""

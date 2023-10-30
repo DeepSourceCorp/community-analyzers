@@ -1,0 +1,39 @@
+title = "Modifying storage array by value"
+severity = "critical"
+category = "antipattern"
+weight = 70
+description = """
+Detect arrays passed to a function that expects reference to a storage array
+
+<!--more-->
+
+## Exploit Scenario
+
+```solidity
+contract Memory {
+    uint[1] public x; // storage
+
+    function f() public {
+        f1(x); // update x
+        f2(x); // do not update x
+    }
+
+    function f1(uint[1] storage arr) internal { // by reference
+        arr[0] = 1;
+    }
+
+    function f2(uint[1] arr) internal { // by value
+        arr[0] = 2;
+    }
+}
+```
+
+Bob calls `f()`. Bob assumes that at the end of the call `x[0]` is 2, but it is 1.
+As a result, Bob's usage of the contract is incorrect.
+
+## Recommendation
+Ensure the correct usage of `memory` and `storage` in the function parameters. Make all the locations explicit.
+
+## Learn more
+[array-by-reference](https://github.com/crytic/slither/wiki/Detector-Documentation#modifying-storage-array-by-value) on Slither's wiki.
+"""

@@ -1,0 +1,18 @@
+title = "If different pragma directives are used"
+severity = "minor"
+category = "antipattern"
+weight = 50
+description = """
+Detect whether different Solidity versions are used.
+
+<!--more-->
+
+## Exploit Scenario
+
+
+## Recommendation
+Use one Solidity version.
+
+## Learn more
+[pragma](https://github.com/crytic/slither/wiki/Detector-Documentation#different-pragma-directives-are-used) on Slither's wiki.
+"""

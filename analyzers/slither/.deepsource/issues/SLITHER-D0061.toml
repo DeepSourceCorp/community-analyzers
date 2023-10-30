@@ -1,0 +1,29 @@
+title = "Dangerous unary expressions"
+severity = "minor"
+category = "antipattern"
+weight = 50
+description = """
+Unary expressions such as `x=+1` probably typos.
+
+<!--more-->
+
+## Exploit Scenario
+
+```Solidity 
+contract Bug{
+    uint public counter;
+
+    function increase() public returns(uint){
+        counter=+1;
+        return counter;
+    }
+}
+```
+`increase()` uses `=+` instead of `+=`, so `counter` will never exceed 1.
+
+## Recommendation
+Remove the unary expression.
+
+## Learn more
+[incorrect-unary](https://github.com/crytic/slither/wiki/Detector-Documentation#dangerous-unary-expressions) on Slither's wiki.
+"""

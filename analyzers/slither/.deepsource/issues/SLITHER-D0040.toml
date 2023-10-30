@@ -1,0 +1,29 @@
+title = "Unused write"
+severity = "major"
+category = "antipattern"
+weight = 60
+description = """
+Detects variables that are written but never read and written again.
+
+<!--more-->
+
+## Exploit Scenario
+
+    ```solidity
+    contract Buggy{
+        function my_func() external initializer{
+            // ...
+            a = b;
+            a = c;
+            // ..
+        }
+    }
+    ```
+    `a` is first asigned to `b`, and then to `c`. As a result the first write does nothing.
+
+## Recommendation
+Fix or remove the writes.
+
+## Learn more
+[write-after-write](https://github.com/crytic/slither/wiki/Detector-Documentation#write-after-write) on Slither's wiki.
+"""

@@ -1,0 +1,26 @@
+title = "Dangerous strict equalities"
+severity = "major"
+category = "antipattern"
+weight = 60
+description = """
+Use of strict equalities that can be easily manipulated by an attacker.
+
+<!--more-->
+
+## Exploit Scenario
+
+```solidity
+contract Crowdsale{
+    function fund_reached() public returns(bool){
+        return this.balance == 100 ether;
+    }
+```
+`Crowdsale` relies on `fund_reached` to know when to stop the sale of tokens.
+`Crowdsale` reaches 100 Ether. Bob sends 0.1 Ether. As a result, `fund_reached` is always false and the `crowdsale` never ends.
+
+## Recommendation
+Don't use strict equality to determine if an account has enough Ether or tokens.
+
+## Learn more
+[incorrect-equality](https://github.com/crytic/slither/wiki/Detector-Documentation#dangerous-strict-equalities) on Slither's wiki.
+"""

@@ -1,0 +1,30 @@
+title = "ABI encodePacked Collision"
+severity = "critical"
+category = "antipattern"
+weight = 70
+description = """
+Detect collision due to dynamic type usages in `abi.encodePacked`
+
+<!--more-->
+
+## Exploit Scenario
+
+```solidity
+contract Sign {
+    function get_hash_for_signature(string name, string doc) external returns(bytes32) {
+        return keccak256(abi.encodePacked(name, doc));
+    }
+}
+```
+Bob calls `get_hash_for_signature` with (`bob`, `This is the content`). The hash returned is used as an ID.
+Eve creates a collision with the ID using (`bo`, `bThis is the content`) and compromises the system.
+
+
+## Recommendation
+Do not use more than one dynamic type in `abi.encodePacked()`
+(see the [Solidity documentation](https://solidity.readthedocs.io/en/v0.5.10/abi-spec.html?highlight=abi.encodePacked#non-standard-packed-modeDynamic)). 
+Use `abi.encode()`, preferably.
+
+## Learn more
+[encode-packed-collision](https://github.com/crytic/slither/wiki/Detector-Documentation#abi-encodePacked-collision) on Slither's wiki.
+"""

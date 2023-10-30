@@ -1,0 +1,26 @@
+title = "Contracts that lock ether"
+severity = "major"
+category = "antipattern"
+weight = 60
+description = """
+Contract with a `payable` function, but without a withdrawal capacity.
+
+<!--more-->
+
+## Exploit Scenario
+
+```solidity
+pragma solidity 0.4.24;
+contract Locked{
+    function receive() payable public{
+    }
+}
+```
+Every Ether sent to `Locked` will be lost.
+
+## Recommendation
+Remove the payable attribute or add a withdraw function.
+
+## Learn more
+[locked-ether](https://github.com/crytic/slither/wiki/Detector-Documentation#contracts-that-lock-ether) on Slither's wiki.
+"""

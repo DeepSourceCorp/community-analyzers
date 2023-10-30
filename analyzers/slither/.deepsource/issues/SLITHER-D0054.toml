@@ -1,0 +1,37 @@
+title = "Local variables shadowing"
+severity = "minor"
+category = "antipattern"
+weight = 50
+description = """
+Detection of shadowing using local variables.
+
+<!--more-->
+
+## Exploit Scenario
+
+```solidity
+pragma solidity ^0.4.24;
+
+contract Bug {
+    uint owner;
+
+    function sensitive_function(address owner) public {
+        // ...
+        require(owner == msg.sender);
+    }
+
+    function alternate_sensitive_function() public {
+        address owner = msg.sender;
+        // ...
+        require(owner == msg.sender);
+    }
+}
+```
+`sensitive_function.owner` shadows `Bug.owner`. As a result, the use of `owner` in `sensitive_function` might be incorrect.
+
+## Recommendation
+Rename the local variables that shadow another component.
+
+## Learn more
+[shadowing-local](https://github.com/crytic/slither/wiki/Detector-Documentation#local-variable-shadowing) on Slither's wiki.
+"""

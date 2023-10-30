@@ -1,0 +1,31 @@
+title = "Uninitialized state variables"
+severity = "critical"
+category = "antipattern"
+weight = 70
+description = """
+Uninitialized state variables.
+
+<!--more-->
+
+## Exploit Scenario
+
+```solidity
+contract Uninitialized{
+    address destination;
+
+    function transfer() payable public{
+        destination.transfer(msg.value);
+    }
+}
+```
+Bob calls `transfer`. As a result, the Ether are sent to the address `0x0` and are lost.
+
+
+## Recommendation
+
+Initialize all the variables. If a variable is meant to be initialized to zero, explicitly set it to zero to improve code readability.
+
+
+## Learn more
+[uninitialized-state](https://github.com/crytic/slither/wiki/Detector-Documentation#uninitialized-state-variables) on Slither's wiki.
+"""

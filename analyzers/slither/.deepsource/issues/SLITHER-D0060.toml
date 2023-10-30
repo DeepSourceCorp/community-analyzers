@@ -1,0 +1,37 @@
+title = "Missing Events Arithmetic"
+severity = "minor"
+category = "antipattern"
+weight = 50
+description = """
+Detect missing events for critical arithmetic parameters.
+
+<!--more-->
+
+## Exploit Scenario
+
+```solidity
+contract C {
+
+    modifier onlyOwner {
+        if (msg.sender != owner) throw;
+        _;
+    }
+
+    function setBuyPrice(uint256 newBuyPrice) onlyOwner public {
+        buyPrice = newBuyPrice;
+    }
+
+    function buy() external {
+     ... // buyPrice is used to determine the number of tokens purchased
+    }    
+}
+```
+`setBuyPrice()` does not emit an event, so it is difficult to track changes in the value of `buyPrice` off-chain. 
+
+
+## Recommendation
+Emit an event for critical parameter changes.
+
+## Learn more
+[events-maths](https://github.com/crytic/slither/wiki/Detector-Documentation#missing-events-arithmetic) on Slither's wiki.
+"""

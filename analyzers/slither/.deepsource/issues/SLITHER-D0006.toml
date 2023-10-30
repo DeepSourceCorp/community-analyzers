@@ -1,0 +1,34 @@
+title = "Multiple constructor schemes"
+severity = "critical"
+category = "antipattern"
+weight = 70
+description = """
+Detect multiple constructor definitions in the same contract (using new and old schemes).
+
+<!--more-->
+
+## Exploit Scenario
+
+```solidity
+contract A {
+    uint x;
+    constructor() public {
+        x = 0;
+    }
+    function A() public {
+        x = 1;
+    }
+
+    function test() public returns(uint) {
+        return x;
+    }
+}
+```
+In Solidity [0.4.22](https://github.com/ethereum/solidity/releases/tag/v0.4.23), a contract with both constructor schemes will compile. The first constructor will take precedence over the second, which may be unintended.
+
+## Recommendation
+Only declare one constructor, preferably using the new scheme `constructor(...)` instead of `function <contractName>(...)`.
+
+## Learn more
+[multiple-constructors](https://github.com/crytic/slither/wiki/Detector-Documentation#multiple-constructor-schemes) on Slither's wiki.
+"""

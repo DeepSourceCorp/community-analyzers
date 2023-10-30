@@ -1,0 +1,50 @@
+title = "A low level callee may consume all callers gas unexpectedly."
+severity = "minor"
+category = "antipattern"
+weight = 50
+description = """
+A low level callee may consume all callers gas unexpectedly.
+
+<!--more-->
+
+## Exploit Scenario
+
+```solidity
+//Modified from https://github.com/nomad-xyz/ExcessivelySafeCall
+contract BadGuy {
+    function youveActivateMyTrapCard() external pure returns (bytes memory) {
+        assembly{
+            revert(0, 1000000)
+        }
+    }
+}
+
+contract Mark {
+    function oops(address badGuy) public{
+        bool success;
+        bytes memory ret;
+
+        // Mark pays a lot of gas for this copy
+        //(success, ret) = badGuy.call{gas:10000}(
+        (success, ret) = badGuy.call(
+            abi.encodeWithSelector(
+                BadGuy.youveActivateMyTrapCard.selector
+            )
+        );
+
+        // Mark may OOG here, preventing local state changes
+        //importantCleanup();
+    }
+}
+
+```
+After Mark calls BadGuy bytes are copied from returndata to memory, the memory expansion cost is paid. This means that when using a standard solidity call, the callee can "returnbomb" the caller, imposing an arbitrary gas cost. 
+Callee unexpectedly makes the caller OOG. 
+
+
+## Recommendation
+Avoid unlimited implicit decoding of returndata.
+
+## Learn more
+[return-bomb](https://github.com/crytic/slither/wiki/Detector-Documentation#return-bomb) on Slither's wiki.
+"""

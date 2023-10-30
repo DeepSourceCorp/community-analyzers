@@ -1,0 +1,31 @@
+title = "Functions that send Ether to arbitrary destinations"
+severity = "critical"
+category = "antipattern"
+weight = 70
+description = """
+Unprotected call to a function sending Ether to an arbitrary address.
+
+<!--more-->
+
+## Exploit Scenario
+
+```solidity
+contract ArbitrarySendEth{
+    address destination;
+    function setDestination(){
+        destination = msg.sender;
+    }
+
+    function withdraw() public{
+        destination.transfer(this.balance);
+    }
+}
+```
+Bob calls `setDestination` and `withdraw`. As a result he withdraws the contract's balance.
+
+## Recommendation
+Ensure that an arbitrary user cannot withdraw unauthorized funds.
+
+## Learn more
+[arbitrary-send-eth](https://github.com/crytic/slither/wiki/Detector-Documentation#functions-that-send-ether-to-arbitrary-destinations) on Slither's wiki.
+"""

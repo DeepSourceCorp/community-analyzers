@@ -1,0 +1,35 @@
+title = "Detected unprotected variables"
+severity = "critical"
+category = "antipattern"
+weight = 70
+description = """
+Detect unprotected variable that are marked protected
+
+<!--more-->
+
+## Exploit Scenario
+
+```solidity
+contract Buggy{
+
+    /// @custom:security write-protection="onlyOwner()"
+    address owner;
+
+    function set_protected() public onlyOwner(){
+        owner = msg.sender;
+    }
+
+    function set_not_protected() public{
+        owner = msg.sender;
+    }
+}    
+```
+`owner` must be always written by function using `onlyOwner` (`write-protection="onlyOwner()"`), however anyone can call `set_not_protected`.
+
+
+## Recommendation
+Add access controls to the vulnerable function
+
+## Learn more
+[protected-vars](https://github.com/crytic/slither/wiki/Detector-Documentation#protected-variables) on Slither's wiki.
+"""

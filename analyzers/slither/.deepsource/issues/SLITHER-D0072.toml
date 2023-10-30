@@ -1,0 +1,29 @@
+title = "Un-indexed ERC20 event parameters"
+severity = "minor"
+category = "antipattern"
+weight = 50
+description = """
+Detects whether events defined by the `ERC20` specification that should have some parameters as `indexed` are missing the `indexed` keyword.
+
+<!--more-->
+
+## Exploit Scenario
+
+```solidity
+contract ERC20Bad {
+    // ...
+    event Transfer(address from, address to, uint value);
+    event Approval(address owner, address spender, uint value);
+
+    // ...
+}
+```
+`Transfer` and `Approval` events should have the 'indexed' keyword on their two first parameters, as defined by the `ERC20` specification.
+Failure to include these keywords will exclude the parameter data in the transaction/block's bloom filter, so external tooling searching for these parameters may overlook them and fail to index logs from this token contract.
+
+## Recommendation
+Add the `indexed` keyword to event parameters that should include it, according to the `ERC20` specification.
+
+## Learn more
+[erc20-indexed](https://github.com/crytic/slither/wiki/Detector-Documentation#unindexed-erc20-event-parameters) on Slither's wiki.
+"""

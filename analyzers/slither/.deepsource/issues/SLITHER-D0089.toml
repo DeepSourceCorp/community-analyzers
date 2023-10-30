@@ -1,0 +1,18 @@
+title = "State variables that could be declared constant"
+severity = "major"
+category = "performance"
+weight = 60
+description = """
+State variables that are not updated following deployment should be declared constant to save gas.
+
+<!--more-->
+
+## Exploit Scenario
+
+
+## Recommendation
+Add the `constant` attribute to state variables that never change.
+
+## Learn more
+[constable-states](https://github.com/crytic/slither/wiki/Detector-Documentation#state-variables-that-could-be-declared-constant) on Slither's wiki.
+"""

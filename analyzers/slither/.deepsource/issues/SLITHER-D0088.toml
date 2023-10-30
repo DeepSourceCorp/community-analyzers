@@ -1,0 +1,50 @@
+title = "Detects `for` loops that use `length` member of some storage array in their loop condition and don't modify it."
+severity = "major"
+category = "performance"
+weight = 60
+description = """
+Detects `for` loops that use `length` member of some storage array in their loop condition and don't modify it. 
+
+<!--more-->
+
+## Exploit Scenario
+
+```solidity
+contract C
+{
+    uint[] array;
+
+    function f() public 
+    {
+        for (uint i = 0; i < array.length; i++)
+        {
+            // code that does not modify length of `array`
+        }
+    }
+}
+```
+Since the `for` loop in `f` doesn't modify `array.length`, it is more gas efficient to cache it in some local variable and use that variable instead, like in the following example:
+
+```solidity
+contract C
+{
+    uint[] array;
+
+    function f() public 
+    {
+        uint array_length = array.length;
+        for (uint i = 0; i < array_length; i++)
+        {
+            // code that does not modify length of `array`
+        }
+    }
+}
+```
+
+
+## Recommendation
+Cache the lengths of storage arrays if they are used and not modified in `for` loops.
+
+## Learn more
+[cache-array-length](https://github.com/crytic/slither/wiki/Detector-Documentation#cache-array-length) on Slither's wiki.
+"""

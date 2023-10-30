@@ -1,0 +1,28 @@
+title = "State variables shadowing from abstract contracts"
+severity = "major"
+category = "antipattern"
+weight = 60
+description = """
+Detection of state variables shadowed from abstract contracts.
+
+<!--more-->
+
+## Exploit Scenario
+
+```solidity
+contract BaseContract{
+    address owner;
+}
+
+contract DerivedContract is BaseContract{
+    address owner;
+}
+```
+`owner` of `BaseContract` is shadowed in `DerivedContract`.
+
+## Recommendation
+Remove the state variable shadowing.
+
+## Learn more
+[shadowing-abstract](https://github.com/crytic/slither/wiki/Detector-Documentation#state-variable-shadowing-from-abstract-contracts) on Slither's wiki.
+"""

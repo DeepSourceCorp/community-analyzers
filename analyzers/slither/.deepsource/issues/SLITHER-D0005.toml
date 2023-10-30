@@ -1,0 +1,28 @@
+title = "The order of parameters in a shift instruction is incorrect."
+severity = "critical"
+category = "antipattern"
+weight = 70
+description = """
+Detect if the values in a shift operation are reversed
+
+<!--more-->
+
+## Exploit Scenario
+
+```solidity
+contract C {
+    function f() internal returns (uint a) {
+        assembly {
+            a := shr(a, 8)
+        }
+    }
+}
+```
+The shift statement will right-shift the constant 8 by `a` bits
+
+## Recommendation
+Swap the order of parameters.
+
+## Learn more
+[incorrect-shift](https://github.com/crytic/slither/wiki/Detector-Documentation#incorrect-shift-in-assembly) on Slither's wiki.
+"""

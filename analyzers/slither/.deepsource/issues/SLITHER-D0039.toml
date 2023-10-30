@@ -1,0 +1,38 @@
+title = "Tautology or contradiction"
+severity = "major"
+category = "antipattern"
+weight = 60
+description = """
+Detects expressions that are tautologies or contradictions.
+
+<!--more-->
+
+## Exploit Scenario
+
+```solidity
+contract A {
+	function f(uint x) public {
+		// ...
+        if (x >= 0) { // bad -- always true
+           // ...
+        }
+		// ...
+	}
+
+	function g(uint8 y) public returns (bool) {
+		// ...
+        return (y < 512); // bad!
+		// ...
+	}
+}
+```
+`x` is a `uint256`, so `x >= 0` will be always true.
+`y` is a `uint8`, so `y <512` will be always true.  
+
+
+## Recommendation
+Fix the incorrect comparison by changing the value type or the comparison.
+
+## Learn more
+[tautology](https://github.com/crytic/slither/wiki/Detector-Documentation#tautology-or-contradiction) on Slither's wiki.
+"""
