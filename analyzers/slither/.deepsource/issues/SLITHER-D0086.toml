@@ -1,7 +1,7 @@
 title = "Variable names are too similar"
 severity = "minor"
 category = "antipattern"
-weight = 50
+weight = 40
 description = """
 Detect variables with names that are too similar.
 

@@ -1,7 +1,7 @@
 title = "Payable functions using `delegatecall` inside a loop"
 severity = "critical"
 category = "antipattern"
-weight = 70
+weight = 80
 description = """
 Detect the use of `delegatecall` inside a loop in a payable function.
 

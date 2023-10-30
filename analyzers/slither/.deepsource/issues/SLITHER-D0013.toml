@@ -1,7 +1,7 @@
 title = "Uninitialized state variables"
 severity = "critical"
 category = "antipattern"
-weight = 70
+weight = 80
 description = """
 Uninitialized state variables.
 

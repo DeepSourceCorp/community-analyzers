@@ -1,7 +1,7 @@
 title = "Function initializing state variables"
 severity = "minor"
 category = "antipattern"
-weight = 50
+weight = 40
 description = """
 Detects the immediate initialization of state variables through function calls that are not pure/constant, or that use non-constant state variable.
 

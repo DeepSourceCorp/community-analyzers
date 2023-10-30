@@ -1,7 +1,7 @@
 title = "Comparison to boolean constant"
 severity = "minor"
 category = "antipattern"
-weight = 50
+weight = 40
 description = """
 Detects the comparison to boolean constants.
 

@@ -1,16 +1,21 @@
 import json
-import os
 
-from detectors import get_all_detector_json
+from constants import ISSUE_MAP_FILE, ISSUE_PREFIX, ZEROES_PADDING_LENGTH
+from detectors import DetectorJson, get_all_detector_json
+from slither.detectors.abstract_detector import DetectorClassification
 
-# path to the `issue_map.json` located in the same directory as this script
-ISSUE_MAP_FILE = os.path.join(os.path.dirname(__file__), "issue_map.json")
-ISSUE_PREFIX = "SLITHER-D"
-ZEROES_PADDING_LENGTH = 4
+__all__ = ["get_issue_map", "generate_mapping"]
 
 
-def _gen_issue_code(detector_idx: int) -> str:
-    return f"{ISSUE_PREFIX}{detector_idx:0{ZEROES_PADDING_LENGTH}d}"
+def _gen_issue_id(detector: DetectorJson) -> str:
+    # ref: https://github.com/crytic/slither/blob/master/slither/utils/output.py#L91
+    impact = DetectorClassification[detector["impact"].upper()].value
+    confidence = DetectorClassification[detector["confidence"].upper()].value
+    return f"{impact}-{confidence}-{detector['check']}"
+
+
+def _gen_issue_code(detector: DetectorJson) -> str:
+    return f"{ISSUE_PREFIX}{detector['index']:0{ZEROES_PADDING_LENGTH}d}"
 
 
 def get_issue_map() -> dict:
@@ -27,9 +32,8 @@ def get_mapping() -> dict:
     # get all Slither detectors
     detectors = get_all_detector_json()
 
-    # create mapping of slither detector's issue code to DeepSource issue code
     return {
-        detector["check"]: {"issue_code": _gen_issue_code(detector["index"])}
+        _gen_issue_id(detector): {"issue_code": _gen_issue_code(detector)}
         for detector in detectors
     }
 

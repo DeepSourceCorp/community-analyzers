@@ -1,7 +1,7 @@
 title = "Conformity to Solidity naming conventions"
 severity = "minor"
 category = "antipattern"
-weight = 50
+weight = 40
 description = """
 
 Solidity defines a [naming convention](https://solidity.readthedocs.io/en/v0.4.25/style-guide.html#naming-conventions) that should be followed.

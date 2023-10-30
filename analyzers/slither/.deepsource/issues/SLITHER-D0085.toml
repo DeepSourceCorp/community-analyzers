@@ -1,7 +1,7 @@
 title = "Reentrancy vulnerabilities through send and transfer"
 severity = "minor"
 category = "antipattern"
-weight = 50
+weight = 40
 description = """
 
 Detection of the [reentrancy bug](https://github.com/trailofbits/not-so-smart-contracts/tree/master/reentrancy).

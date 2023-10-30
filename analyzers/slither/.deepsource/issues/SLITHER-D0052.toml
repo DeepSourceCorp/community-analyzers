@@ -1,7 +1,7 @@
 title = "Modifiers that can return the default value"
 severity = "minor"
 category = "antipattern"
-weight = 50
+weight = 40
 description = """
 If a modifier does not execute `_` or revert, the execution of the function will return the default value, which can be misleading for the caller.
 

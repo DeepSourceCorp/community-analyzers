@@ -1,7 +1,7 @@
 title = "Detected unprotected variables"
 severity = "critical"
 category = "antipattern"
-weight = 70
+weight = 80
 description = """
 Detect unprotected variable that are marked protected
 

@@ -1,7 +1,7 @@
 title = "Detects using-for statement usage when no function from a given library matches a given type"
 severity = "minor"
 category = "antipattern"
-weight = 50
+weight = 40
 description = """
 In Solidity, it is possible to use libraries for certain types, by the `using-for` statement (`using <library> for <type>`). However, the Solidity compiler doesn't check whether a given library has at least one function matching a given type. If it doesn't, such a statement has no effect and may be confusing. 
 

@@ -1,7 +1,7 @@
 title = "Conformance to numeric notation best practices"
 severity = "minor"
 category = "antipattern"
-weight = 50
+weight = 40
 description = """
 
 Literals with many digits are difficult to read and review.

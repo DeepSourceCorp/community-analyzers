@@ -1,7 +1,7 @@
 title = "Unchecked tokens transfer"
 severity = "critical"
 category = "antipattern"
-weight = 70
+weight = 80
 description = """
 The return value of an external transfer/transferFrom call is not checked
 

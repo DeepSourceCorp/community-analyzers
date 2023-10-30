@@ -1,7 +1,7 @@
 title = "Functions that send Ether to arbitrary destinations"
 severity = "critical"
 category = "antipattern"
-weight = 70
+weight = 80
 description = """
 Unprotected call to a function sending Ether to an arbitrary address.
 

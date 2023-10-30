@@ -1,7 +1,7 @@
 title = "State variables shadowing"
 severity = "critical"
 category = "antipattern"
-weight = 70
+weight = 80
 description = """
 Detection of state variables shadowed.
 

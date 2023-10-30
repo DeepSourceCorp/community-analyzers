@@ -1,7 +1,7 @@
 title = "Contract's name reused"
 severity = "critical"
 category = "antipattern"
-weight = 70
+weight = 80
 description = """
 If a codebase has two contracts the similar names, the compilation artifacts
 will not contain one of the contracts with the duplicate name.

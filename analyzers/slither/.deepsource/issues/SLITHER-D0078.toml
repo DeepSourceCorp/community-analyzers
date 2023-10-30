@@ -1,7 +1,7 @@
 title = "If different pragma directives are used"
 severity = "minor"
 category = "antipattern"
-weight = 50
+weight = 40
 description = """
 Detect whether different Solidity versions are used.
 

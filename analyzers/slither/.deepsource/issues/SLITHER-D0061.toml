@@ -1,7 +1,7 @@
 title = "Dangerous unary expressions"
 severity = "minor"
 category = "antipattern"
-weight = 50
+weight = 40
 description = """
 Unary expressions such as `x=+1` probably typos.
 

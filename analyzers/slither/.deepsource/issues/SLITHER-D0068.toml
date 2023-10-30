@@ -1,7 +1,7 @@
 title = "Assert state change"
 severity = "minor"
 category = "antipattern"
-weight = 50
+weight = 40
 description = """
 Incorrect use of `assert()`. See Solidity best [practices](https://solidity.readthedocs.io/en/latest/control-structures.html#id4).
 

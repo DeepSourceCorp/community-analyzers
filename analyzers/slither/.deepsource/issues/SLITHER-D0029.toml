@@ -1,7 +1,7 @@
 title = "Weak PRNG"
 severity = "critical"
 category = "antipattern"
-weight = 70
+weight = 80
 description = """
 Weak PRNG due to a modulo on `block.timestamp`, `now` or `blockhash`. These can be influenced by miners to some extent so they should be avoided.
 

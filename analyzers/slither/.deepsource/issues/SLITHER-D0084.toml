@@ -1,7 +1,7 @@
 title = "Functions that are not used"
 severity = "minor"
 category = "antipattern"
-weight = 50
+weight = 40
 description = """
 Functions that are not sued.
 

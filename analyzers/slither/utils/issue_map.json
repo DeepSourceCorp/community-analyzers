@@ -1,278 +1,278 @@
 {
-    "abiencoderv2-array": {
+    "0-0-abiencoderv2-array": {
         "issue_code": "SLITHER-D0001"
     },
-    "arbitrary-send-erc20": {
+    "0-0-arbitrary-send-erc20": {
         "issue_code": "SLITHER-D0002"
     },
-    "array-by-reference": {
+    "0-0-array-by-reference": {
         "issue_code": "SLITHER-D0003"
     },
-    "encode-packed-collision": {
+    "0-0-encode-packed-collision": {
         "issue_code": "SLITHER-D0004"
     },
-    "incorrect-shift": {
+    "0-0-incorrect-shift": {
         "issue_code": "SLITHER-D0005"
     },
-    "multiple-constructors": {
+    "0-0-multiple-constructors": {
         "issue_code": "SLITHER-D0006"
     },
-    "name-reused": {
+    "0-0-name-reused": {
         "issue_code": "SLITHER-D0007"
     },
-    "protected-vars": {
+    "0-0-protected-vars": {
         "issue_code": "SLITHER-D0008"
     },
-    "public-mappings-nested": {
+    "0-0-public-mappings-nested": {
         "issue_code": "SLITHER-D0009"
     },
-    "rtlo": {
+    "0-0-rtlo": {
         "issue_code": "SLITHER-D0010"
     },
-    "shadowing-state": {
+    "0-0-shadowing-state": {
         "issue_code": "SLITHER-D0011"
     },
-    "suicidal": {
+    "0-0-suicidal": {
         "issue_code": "SLITHER-D0012"
     },
-    "uninitialized-state": {
+    "0-0-uninitialized-state": {
         "issue_code": "SLITHER-D0013"
     },
-    "uninitialized-storage": {
+    "0-0-uninitialized-storage": {
         "issue_code": "SLITHER-D0014"
     },
-    "unprotected-upgrade": {
+    "0-0-unprotected-upgrade": {
         "issue_code": "SLITHER-D0015"
     },
-    "codex": {
+    "0-2-codex": {
         "issue_code": "SLITHER-D0016"
     },
-    "arbitrary-send-erc20-permit": {
+    "0-1-arbitrary-send-erc20-permit": {
         "issue_code": "SLITHER-D0017"
     },
-    "arbitrary-send-eth": {
+    "0-1-arbitrary-send-eth": {
         "issue_code": "SLITHER-D0018"
     },
-    "controlled-array-length": {
+    "0-1-controlled-array-length": {
         "issue_code": "SLITHER-D0019"
     },
-    "controlled-delegatecall": {
+    "0-1-controlled-delegatecall": {
         "issue_code": "SLITHER-D0020"
     },
-    "delegatecall-loop": {
+    "0-1-delegatecall-loop": {
         "issue_code": "SLITHER-D0021"
     },
-    "incorrect-exp": {
+    "0-1-incorrect-exp": {
         "issue_code": "SLITHER-D0022"
     },
-    "incorrect-return": {
+    "0-1-incorrect-return": {
         "issue_code": "SLITHER-D0023"
     },
-    "msg-value-loop": {
+    "0-1-msg-value-loop": {
         "issue_code": "SLITHER-D0024"
     },
-    "reentrancy-eth": {
+    "0-1-reentrancy-eth": {
         "issue_code": "SLITHER-D0025"
     },
-    "return-leave": {
+    "0-1-return-leave": {
         "issue_code": "SLITHER-D0026"
     },
-    "storage-array": {
+    "0-1-storage-array": {
         "issue_code": "SLITHER-D0027"
     },
-    "unchecked-transfer": {
+    "0-1-unchecked-transfer": {
         "issue_code": "SLITHER-D0028"
     },
-    "weak-prng": {
+    "0-1-weak-prng": {
         "issue_code": "SLITHER-D0029"
     },
-    "domain-separator-collision": {
+    "1-0-domain-separator-collision": {
         "issue_code": "SLITHER-D0030"
     },
-    "enum-conversion": {
+    "1-0-enum-conversion": {
         "issue_code": "SLITHER-D0031"
     },
-    "erc20-interface": {
+    "1-0-erc20-interface": {
         "issue_code": "SLITHER-D0032"
     },
-    "erc721-interface": {
+    "1-0-erc721-interface": {
         "issue_code": "SLITHER-D0033"
     },
-    "incorrect-equality": {
+    "1-0-incorrect-equality": {
         "issue_code": "SLITHER-D0034"
     },
-    "locked-ether": {
+    "1-0-locked-ether": {
         "issue_code": "SLITHER-D0035"
     },
-    "mapping-deletion": {
+    "1-0-mapping-deletion": {
         "issue_code": "SLITHER-D0036"
     },
-    "shadowing-abstract": {
+    "1-0-shadowing-abstract": {
         "issue_code": "SLITHER-D0037"
     },
-    "tautological-compare": {
+    "1-0-tautological-compare": {
         "issue_code": "SLITHER-D0038"
     },
-    "tautology": {
+    "1-0-tautology": {
         "issue_code": "SLITHER-D0039"
     },
-    "write-after-write": {
+    "1-0-write-after-write": {
         "issue_code": "SLITHER-D0040"
     },
-    "boolean-cst": {
+    "1-1-boolean-cst": {
         "issue_code": "SLITHER-D0041"
     },
-    "constant-function-asm": {
+    "1-1-constant-function-asm": {
         "issue_code": "SLITHER-D0042"
     },
-    "constant-function-state": {
+    "1-1-constant-function-state": {
         "issue_code": "SLITHER-D0043"
     },
-    "divide-before-multiply": {
+    "1-1-divide-before-multiply": {
         "issue_code": "SLITHER-D0044"
     },
-    "reentrancy-no-eth": {
+    "1-1-reentrancy-no-eth": {
         "issue_code": "SLITHER-D0045"
     },
-    "reused-constructor": {
+    "1-1-reused-constructor": {
         "issue_code": "SLITHER-D0046"
     },
-    "tx-origin": {
+    "1-1-tx-origin": {
         "issue_code": "SLITHER-D0047"
     },
-    "unchecked-lowlevel": {
+    "1-1-unchecked-lowlevel": {
         "issue_code": "SLITHER-D0048"
     },
-    "unchecked-send": {
+    "1-1-unchecked-send": {
         "issue_code": "SLITHER-D0049"
     },
-    "uninitialized-local": {
+    "1-1-uninitialized-local": {
         "issue_code": "SLITHER-D0050"
     },
-    "unused-return": {
+    "1-1-unused-return": {
         "issue_code": "SLITHER-D0051"
     },
-    "incorrect-modifier": {
+    "2-0-incorrect-modifier": {
         "issue_code": "SLITHER-D0052"
     },
-    "shadowing-builtin": {
+    "2-0-shadowing-builtin": {
         "issue_code": "SLITHER-D0053"
     },
-    "shadowing-local": {
+    "2-0-shadowing-local": {
         "issue_code": "SLITHER-D0054"
     },
-    "uninitialized-fptr-cst": {
+    "2-0-uninitialized-fptr-cst": {
         "issue_code": "SLITHER-D0055"
     },
-    "variable-scope": {
+    "2-0-variable-scope": {
         "issue_code": "SLITHER-D0056"
     },
-    "void-cst": {
+    "2-0-void-cst": {
         "issue_code": "SLITHER-D0057"
     },
-    "calls-loop": {
+    "2-1-calls-loop": {
         "issue_code": "SLITHER-D0058"
     },
-    "events-access": {
+    "2-1-events-access": {
         "issue_code": "SLITHER-D0059"
     },
-    "events-maths": {
+    "2-1-events-maths": {
         "issue_code": "SLITHER-D0060"
     },
-    "incorrect-unary": {
+    "2-1-incorrect-unary": {
         "issue_code": "SLITHER-D0061"
     },
-    "missing-zero-check": {
+    "2-1-missing-zero-check": {
         "issue_code": "SLITHER-D0062"
     },
-    "reentrancy-benign": {
+    "2-1-reentrancy-benign": {
         "issue_code": "SLITHER-D0063"
     },
-    "reentrancy-events": {
+    "2-1-reentrancy-events": {
         "issue_code": "SLITHER-D0064"
     },
-    "return-bomb": {
+    "2-1-return-bomb": {
         "issue_code": "SLITHER-D0065"
     },
-    "timestamp": {
+    "2-1-timestamp": {
         "issue_code": "SLITHER-D0066"
     },
-    "assembly": {
+    "3-0-assembly": {
         "issue_code": "SLITHER-D0067"
     },
-    "assert-state-change": {
+    "3-0-assert-state-change": {
         "issue_code": "SLITHER-D0068"
     },
-    "boolean-equal": {
+    "3-0-boolean-equal": {
         "issue_code": "SLITHER-D0069"
     },
-    "cyclomatic-complexity": {
+    "3-0-cyclomatic-complexity": {
         "issue_code": "SLITHER-D0070"
     },
-    "deprecated-standards": {
+    "3-0-deprecated-standards": {
         "issue_code": "SLITHER-D0071"
     },
-    "erc20-indexed": {
+    "3-0-erc20-indexed": {
         "issue_code": "SLITHER-D0072"
     },
-    "function-init-state": {
+    "3-0-function-init-state": {
         "issue_code": "SLITHER-D0073"
     },
-    "incorrect-using-for": {
+    "3-0-incorrect-using-for": {
         "issue_code": "SLITHER-D0074"
     },
-    "low-level-calls": {
+    "3-0-low-level-calls": {
         "issue_code": "SLITHER-D0075"
     },
-    "missing-inheritance": {
+    "3-0-missing-inheritance": {
         "issue_code": "SLITHER-D0076"
     },
-    "naming-convention": {
+    "3-0-naming-convention": {
         "issue_code": "SLITHER-D0077"
     },
-    "pragma": {
+    "3-0-pragma": {
         "issue_code": "SLITHER-D0078"
     },
-    "redundant-statements": {
+    "3-0-redundant-statements": {
         "issue_code": "SLITHER-D0079"
     },
-    "solc-version": {
+    "3-0-solc-version": {
         "issue_code": "SLITHER-D0080"
     },
-    "unimplemented-functions": {
+    "3-0-unimplemented-functions": {
         "issue_code": "SLITHER-D0081"
     },
-    "unused-state": {
+    "3-0-unused-state": {
         "issue_code": "SLITHER-D0082"
     },
-    "costly-loop": {
+    "3-1-costly-loop": {
         "issue_code": "SLITHER-D0083"
     },
-    "dead-code": {
+    "3-1-dead-code": {
         "issue_code": "SLITHER-D0084"
     },
-    "reentrancy-unlimited-gas": {
+    "3-1-reentrancy-unlimited-gas": {
         "issue_code": "SLITHER-D0085"
     },
-    "similar-names": {
+    "3-1-similar-names": {
         "issue_code": "SLITHER-D0086"
     },
-    "too-many-digits": {
+    "3-1-too-many-digits": {
         "issue_code": "SLITHER-D0087"
     },
-    "cache-array-length": {
+    "4-0-cache-array-length": {
         "issue_code": "SLITHER-D0088"
     },
-    "constable-states": {
+    "4-0-constable-states": {
         "issue_code": "SLITHER-D0089"
     },
-    "external-function": {
+    "4-0-external-function": {
         "issue_code": "SLITHER-D0090"
     },
-    "immutable-states": {
+    "4-0-immutable-states": {
         "issue_code": "SLITHER-D0091"
     },
-    "var-read-using-this": {
+    "4-0-var-read-using-this": {
         "issue_code": "SLITHER-D0092"
     }
 }

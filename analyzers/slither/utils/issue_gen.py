@@ -7,7 +7,7 @@ from constants import (
     SLITHER_DETECTOR_CLASSIFICATION_DEEPSOURCE_SEVERITY_MAP,
 )
 from detectors import get_all_detector_json
-from issue_map_gen import generate_mapping, get_issue_map
+from issue_map_gen import _gen_issue_id, generate_mapping, get_issue_map
 
 
 def _get_toml_path(issue_code: str) -> str:
@@ -63,8 +63,8 @@ def update_issue_tomls() -> None:
     # For each Slither detector,
     # create a DeepSource equivalent .toml issue file
     for detector in detectors:
-        issue_name = detector["check"]
-        issue_code = mapping[issue_name]["issue_code"]
+        issue_id = _gen_issue_id(detector)
+        issue_code = mapping[issue_id]["issue_code"]
 
         filepath = _get_toml_path(issue_code)
 
@@ -86,7 +86,7 @@ def update_issue_tomls() -> None:
             description=description,
             exploit_scenario=exploit_scenario,
             recommendation=recommendation,
-            learn_more=f"[{issue_name}]({wiki_url})",
+            learn_more=f"[{detector['check']}]({wiki_url})",
         )
         with open(filepath, "w") as f:
             f.write(content)

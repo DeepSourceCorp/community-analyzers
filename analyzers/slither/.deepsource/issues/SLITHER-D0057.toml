@@ -1,7 +1,7 @@
 title = "Constructor called not implemented"
 severity = "minor"
 category = "antipattern"
-weight = 50
+weight = 40
 description = """
 Detect the call to a constructor that is not implemented
 
