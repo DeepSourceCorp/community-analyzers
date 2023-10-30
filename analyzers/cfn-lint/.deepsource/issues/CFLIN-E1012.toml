@@ -1,4 +1,4 @@
-title = "Check if Refs exist"
+title = "Check if `Refs` exist"
 severity = "major"
 category = "typecheck"
 weight = 70

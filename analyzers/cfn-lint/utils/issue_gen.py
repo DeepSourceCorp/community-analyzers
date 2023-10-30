@@ -101,7 +101,7 @@ def build_toml(issue):
     tags = issue.get("tags", [])
 
     content = f"""\
-    title = {json.dumps(title)}
+    title = {json.dumps(title).capitalize()}
     severity = "major"
     category = "antipattern"
     weight = 70

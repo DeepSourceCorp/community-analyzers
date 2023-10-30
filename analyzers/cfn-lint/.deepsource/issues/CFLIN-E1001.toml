@@ -1,4 +1,4 @@
-title = "Basic CloudFormation Template Configuration"
+title = "Basic CloudFormation template configuration"
 severity = "major"
 category = "antipattern"
 weight = 70

@@ -1,4 +1,4 @@
-title = "FindInMap validation of configuration"
+title = "`FindInMap` validation of configuration"
 severity = "major"
 category = "typecheck"
 weight = 70

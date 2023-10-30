@@ -1,4 +1,4 @@
-title = "Cannot reference resources in the Conditions block of the template"
+title = "Cannot reference resources in the `Conditions` block of the template"
 severity = "major"
 category = "antipattern"
 weight = 70
