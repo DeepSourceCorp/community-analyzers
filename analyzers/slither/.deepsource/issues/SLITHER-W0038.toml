@@ -10,9 +10,9 @@ A variable compared to itself is probably an error as it will always return `tru
 ## Exploit Scenario
 
 ```solidity
-    function check(uint a) external returns(bool){
-        return (a >= a);
-    }
+function check(uint a) external returns(bool){
+    return (a >= a);
+}
 ```
 `check` always return true.
 

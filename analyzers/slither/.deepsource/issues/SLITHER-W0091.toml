@@ -7,9 +7,6 @@ State variables that are not updated following deployment should be declared imm
 
 <!--more-->
 
-## Exploit Scenario
-
-
 ## Recommendation
 Add the `immutable` attribute to state variables that never change or are set only in the constructor.
 

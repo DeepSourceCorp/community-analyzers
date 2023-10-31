@@ -7,9 +7,6 @@ description = """
 
 <!--more-->
 
-## Exploit Scenario
-
-
 ## Recommendation
 Use the `external` attribute for functions never called from the contract, and change the location of immutable parameters to `calldata` to save gas.
 

@@ -11,9 +11,6 @@ Solidity defines a [naming convention](https://solidity.readthedocs.io/en/v0.4.2
 
 <!--more-->
 
-## Exploit Scenario
-
-
 ## Recommendation
 Follow the Solidity [naming convention](https://solidity.readthedocs.io/en/v0.4.25/style-guide.html#naming-conventions).
 

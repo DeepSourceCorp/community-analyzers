@@ -7,9 +7,6 @@ Detect whether different Solidity versions are used.
 
 <!--more-->
 
-## Exploit Scenario
-
-
 ## Recommendation
 Use one Solidity version.
 

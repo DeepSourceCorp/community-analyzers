@@ -9,6 +9,7 @@ __all__ = ["get_all_detector_classes", "get_all_detector_json"]
 
 
 class DetectorJson(TypedDict):
+    # ref: https://github.com/crytic/slither/blob/master/slither/utils/command_line.py#L368
     index: int
     check: str
     title: str
@@ -29,6 +30,6 @@ def get_all_detector_classes() -> List[Type[AbstractDetector]]:
 
 
 def get_all_detector_json() -> List[Dict[str, DetectorJson]]:
-    # ref: https://gitbub.com/crytic/slither/blob/master/slither/utils/command_line.py#L321
+    # ref: https://github.com/crytic/slither/blob/master/slither/utils/command_line.py#L321
     detector_classes = get_all_detector_classes()
     return output_detectors_json(detector_classes)

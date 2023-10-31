@@ -7,9 +7,6 @@ State variables that are not updated following deployment should be declared con
 
 <!--more-->
 
-## Exploit Scenario
-
-
 ## Recommendation
 Add the `constant` attribute to state variables that never change.
 

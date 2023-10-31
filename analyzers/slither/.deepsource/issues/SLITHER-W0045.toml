@@ -12,13 +12,13 @@ Do not report reentrancies that involve Ether (see `reentrancy-eth`).
 ## Exploit Scenario
 
 ```solidity
-    function bug(){
-        require(not_called);
-        if( ! (msg.sender.call() ) ){
-            throw;
-        }
-        not_called = False;
-    }   
+function bug(){
+    require(not_called);
+    if( ! (msg.sender.call() ) ){
+        throw;
+    }
+    not_called = False;
+}   
 ```
 
 

@@ -10,15 +10,15 @@ A deletion in a structure containing a mapping will not delete the mapping (see 
 ## Exploit Scenario
 
 ```solidity
-    struct BalancesStruct{
-        address owner;
-        mapping(address => uint) balances;
-    }
-    mapping(address => BalancesStruct) public stackBalance;
+struct BalancesStruct{
+    address owner;
+    mapping(address => uint) balances;
+}
+mapping(address => BalancesStruct) public stackBalance;
 
-    function remove() internal{
-         delete stackBalance[msg.sender];
-    }
+function remove() internal{
+    delete stackBalance[msg.sender];
+}
 ```
 `remove` deletes an item of `stackBalance`.
 The mapping `balances` is never deleted, so `remove` does not work as intended.

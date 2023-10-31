@@ -28,6 +28,12 @@ def get_toml_content(
     learn_more: str,
 ) -> str:
     """Return the content of the toml file."""
+    exploit_scenario_section = (
+        f"\n\n## Exploit Scenario\n{exploit_scenario}" if exploit_scenario else ""
+    )
+    recommendation_section = (
+        f"\n\n## Recommendation\n{recommendation}" if recommendation else ""
+    )
     content = f'''title = "{title}"
 severity = "{severity}"
 category = "{category}"
@@ -35,13 +41,7 @@ weight = {weight}
 description = """
 {description}
 
-<!--more-->
-
-## Exploit Scenario
-{exploit_scenario}
-
-## Recommendation
-{recommendation}
+<!--more-->{exploit_scenario_section}{recommendation_section}
 
 ## Learn more
 {learn_more} on Slither's wiki.
@@ -72,8 +72,8 @@ def update_issue_tomls() -> None:
         impact = detector["impact"]
         wiki_url = detector["wiki_url"]
         description = detector["description"]
-        exploit_scenario = detector["exploit_scenario"]
-        recommendation = detector["recommendation"]
+        exploit_scenario = dedent(detector["exploit_scenario"])
+        recommendation = dedent(detector["recommendation"])
         severity = SLITHER_DETECTOR_CLASSIFICATION_DEEPSOURCE_SEVERITY_MAP[impact]
         category = SLITHER_DETECTOR_CLASSIFICATION_DEEPSOURCE_CATEGORY_MAP[impact]
         weight = DEEPSOURCE_SEVERITY_WEIGHT_MAP[severity]

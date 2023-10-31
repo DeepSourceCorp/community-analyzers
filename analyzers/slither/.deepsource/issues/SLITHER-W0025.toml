@@ -12,14 +12,14 @@ Do not report reentrancies that don't involve Ether (see `reentrancy-no-eth`)
 ## Exploit Scenario
 
 ```solidity
-    function withdrawBalance(){
-        // send userBalance[msg.sender] Ether to msg.sender
-        // if msg.sender is a contract, it will call its fallback function
-        if( ! (msg.sender.call.value(userBalance[msg.sender])() ) ){
-            throw;
-        }
-        userBalance[msg.sender] = 0;
+function withdrawBalance(){
+    // send userBalance[msg.sender] Ether to msg.sender
+    // if msg.sender is a contract, it will call its fallback function
+    if( ! (msg.sender.call.value(userBalance[msg.sender])() ) ){
+        throw;
     }
+    userBalance[msg.sender] = 0;
+}
 ```
 
 Bob uses the re-entrancy bug to call `withdrawBalance` two times, and withdraw more than its initial deposit to the contract.

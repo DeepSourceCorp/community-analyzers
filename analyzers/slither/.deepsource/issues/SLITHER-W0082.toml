@@ -7,9 +7,6 @@ Unused state variable.
 
 <!--more-->
 
-## Exploit Scenario
-
-
 ## Recommendation
 Remove unused state variables.
 

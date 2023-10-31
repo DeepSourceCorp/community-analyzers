@@ -9,14 +9,14 @@ In Solidity, it is possible to use libraries for certain types, by the `using-fo
 
 ## Exploit Scenario
 
-    ```solidity
-    library L {
-        function f(bool) public pure {}
-    }
+```solidity
+library L {
+    function f(bool) public pure {}
+}
 
-    using L for uint;
-    ```
-    Such a code will compile despite the fact that `L` has no function with `uint` as its first argument.
+using L for uint;
+```
+Such a code will compile despite the fact that `L` has no function with `uint` as its first argument.
 
 ## Recommendation
 Make sure that the libraries used in `using-for` statements have at least one function matching a type used in these statements. 

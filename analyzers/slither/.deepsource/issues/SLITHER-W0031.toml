@@ -10,8 +10,8 @@ Detect out-of-range `enum` conversion (`solc` < `0.4.5`).
 ## Exploit Scenario
 
 ```solidity
-    pragma solidity 0.4.2;
-    contract Test{
+pragma solidity 0.4.2;
+contract Test{
 
     enum E{a}
 

@@ -7,9 +7,6 @@ The use of assembly is error-prone and should be avoided.
 
 <!--more-->
 
-## Exploit Scenario
-
-
 ## Recommendation
 Do not use `evm` assembly.
 

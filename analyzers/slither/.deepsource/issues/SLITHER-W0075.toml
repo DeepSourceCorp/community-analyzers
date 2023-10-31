@@ -7,9 +7,6 @@ The use of low-level calls is error-prone. Low-level calls do not check for [cod
 
 <!--more-->
 
-## Exploit Scenario
-
-
 ## Recommendation
 Avoid low-level calls. Check the call success. If the call is meant for a contract, check for code existence.
 

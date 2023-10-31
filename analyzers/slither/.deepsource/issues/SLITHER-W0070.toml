@@ -7,9 +7,6 @@ Detects functions with high (> 11) cyclomatic complexity.
 
 <!--more-->
 
-## Exploit Scenario
-
-
 ## Recommendation
 Reduce cyclomatic complexity by splitting the function into several smaller subroutines.
 

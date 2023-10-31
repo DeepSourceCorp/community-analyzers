@@ -9,9 +9,6 @@ We also recommend avoiding complex `pragma` statement.
 
 <!--more-->
 
-## Exploit Scenario
-
-
 ## Recommendation
 
 Deploy with any of the following Solidity versions:

@@ -1,278 +1,278 @@
 {
     "0-0-abiencoderv2-array": {
-        "issue_code": "SLITHER-D0001"
+        "issue_code": "SLITHER-W0001"
     },
     "0-0-arbitrary-send-erc20": {
-        "issue_code": "SLITHER-D0002"
+        "issue_code": "SLITHER-W0002"
     },
     "0-0-array-by-reference": {
-        "issue_code": "SLITHER-D0003"
+        "issue_code": "SLITHER-W0003"
     },
     "0-0-encode-packed-collision": {
-        "issue_code": "SLITHER-D0004"
+        "issue_code": "SLITHER-W0004"
     },
     "0-0-incorrect-shift": {
-        "issue_code": "SLITHER-D0005"
+        "issue_code": "SLITHER-W0005"
     },
     "0-0-multiple-constructors": {
-        "issue_code": "SLITHER-D0006"
+        "issue_code": "SLITHER-W0006"
     },
     "0-0-name-reused": {
-        "issue_code": "SLITHER-D0007"
+        "issue_code": "SLITHER-W0007"
     },
     "0-0-protected-vars": {
-        "issue_code": "SLITHER-D0008"
+        "issue_code": "SLITHER-W0008"
     },
     "0-0-public-mappings-nested": {
-        "issue_code": "SLITHER-D0009"
+        "issue_code": "SLITHER-W0009"
     },
     "0-0-rtlo": {
-        "issue_code": "SLITHER-D0010"
+        "issue_code": "SLITHER-W0010"
     },
     "0-0-shadowing-state": {
-        "issue_code": "SLITHER-D0011"
+        "issue_code": "SLITHER-W0011"
     },
     "0-0-suicidal": {
-        "issue_code": "SLITHER-D0012"
+        "issue_code": "SLITHER-W0012"
     },
     "0-0-uninitialized-state": {
-        "issue_code": "SLITHER-D0013"
+        "issue_code": "SLITHER-W0013"
     },
     "0-0-uninitialized-storage": {
-        "issue_code": "SLITHER-D0014"
+        "issue_code": "SLITHER-W0014"
     },
     "0-0-unprotected-upgrade": {
-        "issue_code": "SLITHER-D0015"
+        "issue_code": "SLITHER-W0015"
     },
     "0-2-codex": {
-        "issue_code": "SLITHER-D0016"
+        "issue_code": "SLITHER-W0016"
     },
     "0-1-arbitrary-send-erc20-permit": {
-        "issue_code": "SLITHER-D0017"
+        "issue_code": "SLITHER-W0017"
     },
     "0-1-arbitrary-send-eth": {
-        "issue_code": "SLITHER-D0018"
+        "issue_code": "SLITHER-W0018"
     },
     "0-1-controlled-array-length": {
-        "issue_code": "SLITHER-D0019"
+        "issue_code": "SLITHER-W0019"
     },
     "0-1-controlled-delegatecall": {
-        "issue_code": "SLITHER-D0020"
+        "issue_code": "SLITHER-W0020"
     },
     "0-1-delegatecall-loop": {
-        "issue_code": "SLITHER-D0021"
+        "issue_code": "SLITHER-W0021"
     },
     "0-1-incorrect-exp": {
-        "issue_code": "SLITHER-D0022"
+        "issue_code": "SLITHER-W0022"
     },
     "0-1-incorrect-return": {
-        "issue_code": "SLITHER-D0023"
+        "issue_code": "SLITHER-W0023"
     },
     "0-1-msg-value-loop": {
-        "issue_code": "SLITHER-D0024"
+        "issue_code": "SLITHER-W0024"
     },
     "0-1-reentrancy-eth": {
-        "issue_code": "SLITHER-D0025"
+        "issue_code": "SLITHER-W0025"
     },
     "0-1-return-leave": {
-        "issue_code": "SLITHER-D0026"
+        "issue_code": "SLITHER-W0026"
     },
     "0-1-storage-array": {
-        "issue_code": "SLITHER-D0027"
+        "issue_code": "SLITHER-W0027"
     },
     "0-1-unchecked-transfer": {
-        "issue_code": "SLITHER-D0028"
+        "issue_code": "SLITHER-W0028"
     },
     "0-1-weak-prng": {
-        "issue_code": "SLITHER-D0029"
+        "issue_code": "SLITHER-W0029"
     },
     "1-0-domain-separator-collision": {
-        "issue_code": "SLITHER-D0030"
+        "issue_code": "SLITHER-W0030"
     },
     "1-0-enum-conversion": {
-        "issue_code": "SLITHER-D0031"
+        "issue_code": "SLITHER-W0031"
     },
     "1-0-erc20-interface": {
-        "issue_code": "SLITHER-D0032"
+        "issue_code": "SLITHER-W0032"
     },
     "1-0-erc721-interface": {
-        "issue_code": "SLITHER-D0033"
+        "issue_code": "SLITHER-W0033"
     },
     "1-0-incorrect-equality": {
-        "issue_code": "SLITHER-D0034"
+        "issue_code": "SLITHER-W0034"
     },
     "1-0-locked-ether": {
-        "issue_code": "SLITHER-D0035"
+        "issue_code": "SLITHER-W0035"
     },
     "1-0-mapping-deletion": {
-        "issue_code": "SLITHER-D0036"
+        "issue_code": "SLITHER-W0036"
     },
     "1-0-shadowing-abstract": {
-        "issue_code": "SLITHER-D0037"
+        "issue_code": "SLITHER-W0037"
     },
     "1-0-tautological-compare": {
-        "issue_code": "SLITHER-D0038"
+        "issue_code": "SLITHER-W0038"
     },
     "1-0-tautology": {
-        "issue_code": "SLITHER-D0039"
+        "issue_code": "SLITHER-W0039"
     },
     "1-0-write-after-write": {
-        "issue_code": "SLITHER-D0040"
+        "issue_code": "SLITHER-W0040"
     },
     "1-1-boolean-cst": {
-        "issue_code": "SLITHER-D0041"
+        "issue_code": "SLITHER-W0041"
     },
     "1-1-constant-function-asm": {
-        "issue_code": "SLITHER-D0042"
+        "issue_code": "SLITHER-W0042"
     },
     "1-1-constant-function-state": {
-        "issue_code": "SLITHER-D0043"
+        "issue_code": "SLITHER-W0043"
     },
     "1-1-divide-before-multiply": {
-        "issue_code": "SLITHER-D0044"
+        "issue_code": "SLITHER-W0044"
     },
     "1-1-reentrancy-no-eth": {
-        "issue_code": "SLITHER-D0045"
+        "issue_code": "SLITHER-W0045"
     },
     "1-1-reused-constructor": {
-        "issue_code": "SLITHER-D0046"
+        "issue_code": "SLITHER-W0046"
     },
     "1-1-tx-origin": {
-        "issue_code": "SLITHER-D0047"
+        "issue_code": "SLITHER-W0047"
     },
     "1-1-unchecked-lowlevel": {
-        "issue_code": "SLITHER-D0048"
+        "issue_code": "SLITHER-W0048"
     },
     "1-1-unchecked-send": {
-        "issue_code": "SLITHER-D0049"
+        "issue_code": "SLITHER-W0049"
     },
     "1-1-uninitialized-local": {
-        "issue_code": "SLITHER-D0050"
+        "issue_code": "SLITHER-W0050"
     },
     "1-1-unused-return": {
-        "issue_code": "SLITHER-D0051"
+        "issue_code": "SLITHER-W0051"
     },
     "2-0-incorrect-modifier": {
-        "issue_code": "SLITHER-D0052"
+        "issue_code": "SLITHER-W0052"
     },
     "2-0-shadowing-builtin": {
-        "issue_code": "SLITHER-D0053"
+        "issue_code": "SLITHER-W0053"
     },
     "2-0-shadowing-local": {
-        "issue_code": "SLITHER-D0054"
+        "issue_code": "SLITHER-W0054"
     },
     "2-0-uninitialized-fptr-cst": {
-        "issue_code": "SLITHER-D0055"
+        "issue_code": "SLITHER-W0055"
     },
     "2-0-variable-scope": {
-        "issue_code": "SLITHER-D0056"
+        "issue_code": "SLITHER-W0056"
     },
     "2-0-void-cst": {
-        "issue_code": "SLITHER-D0057"
+        "issue_code": "SLITHER-W0057"
     },
     "2-1-calls-loop": {
-        "issue_code": "SLITHER-D0058"
+        "issue_code": "SLITHER-W0058"
     },
     "2-1-events-access": {
-        "issue_code": "SLITHER-D0059"
+        "issue_code": "SLITHER-W0059"
     },
     "2-1-events-maths": {
-        "issue_code": "SLITHER-D0060"
+        "issue_code": "SLITHER-W0060"
     },
     "2-1-incorrect-unary": {
-        "issue_code": "SLITHER-D0061"
+        "issue_code": "SLITHER-W0061"
     },
     "2-1-missing-zero-check": {
-        "issue_code": "SLITHER-D0062"
+        "issue_code": "SLITHER-W0062"
     },
     "2-1-reentrancy-benign": {
-        "issue_code": "SLITHER-D0063"
+        "issue_code": "SLITHER-W0063"
     },
     "2-1-reentrancy-events": {
-        "issue_code": "SLITHER-D0064"
+        "issue_code": "SLITHER-W0064"
     },
     "2-1-return-bomb": {
-        "issue_code": "SLITHER-D0065"
+        "issue_code": "SLITHER-W0065"
     },
     "2-1-timestamp": {
-        "issue_code": "SLITHER-D0066"
+        "issue_code": "SLITHER-W0066"
     },
     "3-0-assembly": {
-        "issue_code": "SLITHER-D0067"
+        "issue_code": "SLITHER-W0067"
     },
     "3-0-assert-state-change": {
-        "issue_code": "SLITHER-D0068"
+        "issue_code": "SLITHER-W0068"
     },
     "3-0-boolean-equal": {
-        "issue_code": "SLITHER-D0069"
+        "issue_code": "SLITHER-W0069"
     },
     "3-0-cyclomatic-complexity": {
-        "issue_code": "SLITHER-D0070"
+        "issue_code": "SLITHER-W0070"
     },
     "3-0-deprecated-standards": {
-        "issue_code": "SLITHER-D0071"
+        "issue_code": "SLITHER-W0071"
     },
     "3-0-erc20-indexed": {
-        "issue_code": "SLITHER-D0072"
+        "issue_code": "SLITHER-W0072"
     },
     "3-0-function-init-state": {
-        "issue_code": "SLITHER-D0073"
+        "issue_code": "SLITHER-W0073"
     },
     "3-0-incorrect-using-for": {
-        "issue_code": "SLITHER-D0074"
+        "issue_code": "SLITHER-W0074"
     },
     "3-0-low-level-calls": {
-        "issue_code": "SLITHER-D0075"
+        "issue_code": "SLITHER-W0075"
     },
     "3-0-missing-inheritance": {
-        "issue_code": "SLITHER-D0076"
+        "issue_code": "SLITHER-W0076"
     },
     "3-0-naming-convention": {
-        "issue_code": "SLITHER-D0077"
+        "issue_code": "SLITHER-W0077"
     },
     "3-0-pragma": {
-        "issue_code": "SLITHER-D0078"
+        "issue_code": "SLITHER-W0078"
     },
     "3-0-redundant-statements": {
-        "issue_code": "SLITHER-D0079"
+        "issue_code": "SLITHER-W0079"
     },
     "3-0-solc-version": {
-        "issue_code": "SLITHER-D0080"
+        "issue_code": "SLITHER-W0080"
     },
     "3-0-unimplemented-functions": {
-        "issue_code": "SLITHER-D0081"
+        "issue_code": "SLITHER-W0081"
     },
     "3-0-unused-state": {
-        "issue_code": "SLITHER-D0082"
+        "issue_code": "SLITHER-W0082"
     },
     "3-1-costly-loop": {
-        "issue_code": "SLITHER-D0083"
+        "issue_code": "SLITHER-W0083"
     },
     "3-1-dead-code": {
-        "issue_code": "SLITHER-D0084"
+        "issue_code": "SLITHER-W0084"
     },
     "3-1-reentrancy-unlimited-gas": {
-        "issue_code": "SLITHER-D0085"
+        "issue_code": "SLITHER-W0085"
     },
     "3-1-similar-names": {
-        "issue_code": "SLITHER-D0086"
+        "issue_code": "SLITHER-W0086"
     },
     "3-1-too-many-digits": {
-        "issue_code": "SLITHER-D0087"
+        "issue_code": "SLITHER-W0087"
     },
     "4-0-cache-array-length": {
-        "issue_code": "SLITHER-D0088"
+        "issue_code": "SLITHER-W0088"
     },
     "4-0-constable-states": {
-        "issue_code": "SLITHER-D0089"
+        "issue_code": "SLITHER-W0089"
     },
     "4-0-external-function": {
-        "issue_code": "SLITHER-D0090"
+        "issue_code": "SLITHER-W0090"
     },
     "4-0-immutable-states": {
-        "issue_code": "SLITHER-D0091"
+        "issue_code": "SLITHER-W0091"
     },
     "4-0-var-read-using-this": {
-        "issue_code": "SLITHER-D0092"
+        "issue_code": "SLITHER-W0092"
     }
 }

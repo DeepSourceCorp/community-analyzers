@@ -10,10 +10,10 @@ Detect when `msg.sender` is not used as `from` in transferFrom and permit is use
 ## Exploit Scenario
 
 ```solidity
-    function bad(address from, uint256 value, uint256 deadline, uint8 v, bytes32 r, bytes32 s, address to) public {
-        erc20.permit(from, address(this), value, deadline, v, r, s);
-        erc20.transferFrom(from, to, value);
-    }
+function bad(address from, uint256 value, uint256 deadline, uint8 v, bytes32 r, bytes32 s, address to) public {
+    erc20.permit(from, address(this), value, deadline, v, r, s);
+    erc20.transferFrom(from, to, value);
+}
 ```
 If an ERC20 token does not implement permit and has a fallback function e.g. WETH, transferFrom allows an attacker to transfer all tokens approved for this contract.
 

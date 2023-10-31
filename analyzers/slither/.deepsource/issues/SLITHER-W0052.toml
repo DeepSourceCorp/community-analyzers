@@ -10,14 +10,14 @@ If a modifier does not execute `_` or revert, the execution of the function will
 ## Exploit Scenario
 
 ```solidity
-    modidfier myModif(){
-        if(..){
-           _;
-        }
+modidfier myModif(){
+    if(..){
+        _;
     }
-    function get() myModif returns(uint){
+}
+function get() myModif returns(uint){
 
-    }
+}
 ```
 If the condition in `myModif` is false, the execution of `get()` will return 0.
 
