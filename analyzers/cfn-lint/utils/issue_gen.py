@@ -1,11 +1,11 @@
+import argparse
 import ast
 import json
 import os
-from textwrap import dedent
-from urllib.parse import unquote, urlparse
-import argparse
 from pathlib import Path
-from typing import List, Dict, Optional, Union
+from textwrap import dedent
+from typing import Dict, List, Optional, Union
+from urllib.parse import unquote, urlparse
 
 
 def concat_binop(binop: ast.AST) -> str:
@@ -45,7 +45,9 @@ def extract_page_name(url: str) -> Optional[str]:
     if path_segments:
         last_segment = os.path.splitext(path_segments[-1])[0]
         page_name = unquote(last_segment.replace("-", " ")).title()
-        return page_name.replace("Cfn", "CloudFormation").replace("Cloudformation", "CloudFormation")
+        return page_name.replace("Cfn", "CloudFormation").replace(
+            "Cloudformation", "CloudFormation"
+        )
     return None
 
 
@@ -77,7 +79,9 @@ def write_to_file(issue: Dict[str, Union[str, List[str]]]) -> None:
         file.write(build_toml(issue))
 
 
-def extract_attributes_from_directory(directory: str) -> List[Dict[str, Union[str, List[str]]]]:
+def extract_attributes_from_directory(
+    directory: str,
+) -> List[Dict[str, Union[str, List[str]]]]:
     all_classes_data = []
     for root, _, files in os.walk(directory):
         for file in files:
@@ -95,14 +99,18 @@ def extract_attributes_from_directory(directory: str) -> List[Dict[str, Union[st
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Extract attributes from Python files in a given directory.")
-    parser.add_argument("--root_directory", help="Root directory of the cfn-lint repository.")
+    parser = argparse.ArgumentParser(
+        description="Extract attributes from Python files in a given directory."
+    )
+    parser.add_argument(
+        "--root_directory", help="Root directory of the cfn-lint repository."
+    )
     args = parser.parse_args()
 
     directory = Path(args.root_directory)
     path = Path("cfn-lint/src/cfnlint/rules")
     rules_directory = directory / path
-    
+
     attributes_list = extract_attributes_from_directory(rules_directory)
     for attributes in attributes_list:
         write_to_file(attributes)
