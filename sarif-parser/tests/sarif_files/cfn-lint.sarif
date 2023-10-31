@@ -1,0 +1,229 @@
+{
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "cfn-lint",
+          "rules": [
+            {
+              "id": "E3002",
+              "fullDescription": {
+                "text": "Making sure that resources properties are properly configured"
+              },
+              "helpUri": "https://github.com/aws-cloudformation/cfn-python-lint/blob/main/docs/cfn-resource-specification.md#properties",
+              "shortDescription": {
+                "text": "Resource properties are invalid"
+              }
+            },
+            {
+              "id": "E3045",
+              "fullDescription": {
+                "text": "When using AccessControl other than private you must also configure OwnershipControls. The default is bucket owner enforced which disables ACLs."
+              },
+              "helpUri": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/about-object-ownership.html",
+              "shortDescription": {
+                "text": "Validate AccessControl are set with OwnershipControls"
+              }
+            },
+            {
+              "id": "E3030",
+              "fullDescription": {
+                "text": "Check if properties have a valid value in case of an enumator"
+              },
+              "helpUri": "https://github.com/aws-cloudformation/cfn-python-lint/blob/main/docs/cfn-resource-specification.md#allowedvalue",
+              "shortDescription": {
+                "text": "Check if properties have a valid value"
+              }
+            },
+            {
+              "id": "W3045",
+              "fullDescription": {
+                "text": "Nearly all access control configurations can be more successfully achieved with bucket policies. Consider using bucket policies instead of access control."
+              },
+              "helpUri": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/about-object-ownership.html",
+              "shortDescription": {
+                "text": "Controlling access to an S3 bucket should be done with bucket policies"
+              }
+            }
+          ],
+          "version": "0.83.0",
+          "informationUri": "https://github.com/aws-cloudformation/cfn-lint",
+          "shortDescription": {
+            "text": "Validates AWS CloudFormation templates against the resource specification and additional checks."
+          }
+        }
+      },
+      "results": [
+        {
+          "message": {
+            "text": "You must specify a valid value for AccessControl (SuperPrivate). Valid values are [\"AuthenticatedRead\", \"AwsExecRead\", \"BucketOwnerFullControl\", \"BucketOwnerRead\", \"LogDeliveryWrite\", \"Private\", \"PublicRead\", \"PublicReadWrite\"]"
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "endColumn": 20,
+                  "endLine": 10,
+                  "startColumn": 7,
+                  "startLine": 10
+                },
+                "artifactLocation": {
+                  "uri": "invalid.yaml",
+                  "uriBaseId": "EXECUTIONROOT"
+                }
+              }
+            }
+          ],
+          "ruleId": "E3030"
+        },
+        {
+          "message": {
+            "text": "A bucket with AccessControl set should also have OwnershipControl configured"
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "endColumn": 20,
+                  "endLine": 10,
+                  "startColumn": 7,
+                  "startLine": 10
+                },
+                "artifactLocation": {
+                  "uri": "invalid.yaml",
+                  "uriBaseId": "EXECUTIONROOT"
+                }
+              }
+            }
+          ],
+          "ruleId": "E3045"
+        },
+        {
+          "message": {
+            "text": "Consider using AWS::S3::BucketPolicy instead of AccessControl"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "endColumn": 20,
+                  "endLine": 10,
+                  "startColumn": 7,
+                  "startLine": 10
+                },
+                "artifactLocation": {
+                  "uri": "invalid.yaml",
+                  "uriBaseId": "EXECUTIONROOT"
+                }
+              }
+            }
+          ],
+          "ruleId": "W3045"
+        },
+        {
+          "message": {
+            "text": "Invalid Property Resources/MyS3Bucket/Properties/BucketNaming. Did you mean BucketName?"
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "endColumn": 19,
+                  "endLine": 11,
+                  "startColumn": 7,
+                  "startLine": 11
+                },
+                "artifactLocation": {
+                  "uri": "invalid.yaml",
+                  "uriBaseId": "EXECUTIONROOT"
+                }
+              }
+            }
+          ],
+          "ruleId": "E3002"
+        },
+        {
+          "message": {
+            "text": "Invalid Property Resources/MyEC2Instance/Properties/InstanceTypez. Did you mean InstanceType?"
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "endColumn": 20,
+                  "endLine": 16,
+                  "startColumn": 7,
+                  "startLine": 16
+                },
+                "artifactLocation": {
+                  "uri": "invalid.yaml",
+                  "uriBaseId": "EXECUTIONROOT"
+                }
+              }
+            }
+          ],
+          "ruleId": "E3002"
+        },
+        {
+          "message": {
+            "text": "Invalid Property Resources/MyEC2Instance/Properties/KeyPair"
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "endColumn": 14,
+                  "endLine": 18,
+                  "startColumn": 7,
+                  "startLine": 18
+                },
+                "artifactLocation": {
+                  "uri": "invalid.yaml",
+                  "uriBaseId": "EXECUTIONROOT"
+                }
+              }
+            }
+          ],
+          "ruleId": "E3002"
+        },
+        {
+          "message": {
+            "text": "Invalid Property Resources/MySecurityGroup/Properties/SecurityGroupEntrance"
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "endColumn": 28,
+                  "endLine": 26,
+                  "startColumn": 7,
+                  "startLine": 26
+                },
+                "artifactLocation": {
+                  "uri": "invalid.yaml",
+                  "uriBaseId": "EXECUTIONROOT"
+                }
+              }
+            }
+          ],
+          "ruleId": "E3002"
+        }
+      ],
+      "originalUriBaseIds": {
+        "EXECUTIONROOT": {
+          "description": {
+            "text": "The directory in which cfn-lint was run."
+          }
+        }
+      }
+    }
+  ],
+  "version": "2.1.0",
+  "$schema": "https://docs.oasis-open.org/sarif/sarif/v2.1.0/cos02/schemas/sarif-schema-2.1.0.json"
+}
