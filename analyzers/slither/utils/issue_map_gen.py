@@ -1,26 +1,18 @@
+import itertools
 import json
 from typing import Dict
 
-from constants import ISSUE_MAP_FILE, ISSUE_PREFIX, ZEROES_PADDING_LENGTH
-from detectors import DetectorJson, get_all_detector_classes, get_all_detector_json
+from constants import ISSUE_MAP_FILE, ISSUE_PREFIX
+from detectors import get_all_detector_json
 
 __all__ = ["get_issue_map", "generate_mapping"]
 
 
-def _gen_issue_id(detector: DetectorJson) -> str:
-    # ref: https://github.com/crytic/slither/blob/master/slither/utils/output.py#L90
-    detectors_classes = get_all_detector_classes()
-    detector_class = next(
-        (d for d in detectors_classes if d.ARGUMENT == detector["check"])
-    )
-    impact = detector_class.IMPACT.value
-    confidence = detector_class.CONFIDENCE.value
-    # ref: https://github.com/crytic/slither/blob/master/slither/utils/output.py#L91-L97
-    return f"{impact}-{confidence}-{detector['check']}"
-
-
-def _gen_issue_code(detector: DetectorJson) -> str:
-    return f"{ISSUE_PREFIX}{detector['index']:0{ZEROES_PADDING_LENGTH}d}"
+def _get_next_code(mapping: Dict[str, Dict[str, str]]) -> str:
+    """Return the next available issue code."""
+    num_issues = len(mapping.keys())  # get the number of issues already in the mapping
+    next_code = 1001 + num_issues  # issue code series starts from `1001`
+    yield from itertools.count(next_code)
 
 
 def get_issue_map() -> Dict[str, Dict[str, str]]:
@@ -35,13 +27,21 @@ def get_mapping() -> Dict[str, Dict[str, str]]:
     # {
     #     "0-0-abiencoderv2-array": {"issue_code": "SLITHER-W0001"},
     # }
-    # get all Slither detectors
+    issue_map = get_issue_map()
+    generate_code = _get_next_code(issue_map)
     detectors = get_all_detector_json()
 
-    return {
-        _gen_issue_id(detector): {"issue_code": _gen_issue_code(detector)}
-        for detector in detectors
-    }
+    if len(detectors) > len(issue_map):
+        # if the no. of issues in the mapping is less than the no. of detectors,
+        # then generate the mapping only for the new detectors
+        for detector in detectors:
+            if detector["rule_id"] not in issue_map:
+                next_code = next(generate_code)
+                issue_map[detector["rule_id"]] = {
+                    "issue_code": f"{ISSUE_PREFIX}{next_code}"
+                }
+
+    return issue_map
 
 
 def generate_mapping() -> None:

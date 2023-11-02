@@ -8,7 +8,6 @@ from slither.detectors.abstract_detector import (
 __all__ = [
     "ISSUE_MAP_FILE",
     "ISSUE_PREFIX",
-    "ZEROES_PADDING_LENGTH",
     "DEEPSOURCE_SEVERITY_WEIGHT_MAP",
     "SLITHER_DETECTOR_CLASSIFICATION_DEEPSOURCE_SEVERITY_MAP",
     "SLITHER_DETECTOR_CLASSIFICATION_DEEPSOURCE_CATEGORY_MAP",
@@ -17,7 +16,6 @@ __all__ = [
 # path to the `issue_map.json` located in the same directory as this script
 ISSUE_MAP_FILE = os.path.join(os.path.dirname(__file__), "issue_map.json")
 ISSUE_PREFIX = "SLITHER-W"
-ZEROES_PADDING_LENGTH = 4
 
 
 DEEPSOURCE_SEVERITY_WEIGHT_MAP = {

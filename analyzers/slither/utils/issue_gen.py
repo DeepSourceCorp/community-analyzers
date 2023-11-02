@@ -7,7 +7,7 @@ from constants import (
     SLITHER_DETECTOR_CLASSIFICATION_DEEPSOURCE_SEVERITY_MAP,
 )
 from detectors import get_all_detector_json
-from issue_map_gen import _gen_issue_id, generate_mapping, get_issue_map
+from issue_map_gen import generate_mapping, get_issue_map
 
 
 def _get_toml_path(issue_code: str) -> str:
@@ -34,6 +34,8 @@ def get_toml_content(
     recommendation_section = (
         f"\n\n## Recommendation\n{recommendation}" if recommendation else ""
     )
+    learn_more_section = f"\n\n## Learn more\n{learn_more} on Slither's wiki."
+
     content = f'''title = "{title}"
 severity = "{severity}"
 category = "{category}"
@@ -41,12 +43,10 @@ weight = {weight}
 description = """
 {description}
 
-<!--more-->{exploit_scenario_section}{recommendation_section}
-
-## Learn more
-{learn_more} on Slither's wiki.
+<!--more-->{exploit_scenario_section}{recommendation_section}{learn_more_section}
 """
     '''
+
     return dedent(content)
 
 
@@ -54,7 +54,7 @@ def update_issue_tomls() -> None:
     """
     Create issue toml files.
     """
-    # Generates mapping if doesn't exist
+    # Generates mapping if doesn't exist and then read it
     generate_mapping()
     mapping = get_issue_map()
 
@@ -63,8 +63,8 @@ def update_issue_tomls() -> None:
     # For each Slither detector,
     # create a DeepSource equivalent .toml issue file
     for detector in detectors:
-        issue_id = _gen_issue_id(detector)
-        issue_code = mapping[issue_id]["issue_code"]
+        rule_id = detector["rule_id"]
+        issue_code = mapping[rule_id]["issue_code"]
 
         filepath = _get_toml_path(issue_code)
 
