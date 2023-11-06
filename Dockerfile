@@ -7,7 +7,7 @@ RUN mkdir -p /home/runner /app /artifacts /toolbox \
 
 RUN apk add --no-cache git grep
 
-COPY ./sarif-parser /toolbox/sarif-parser
+COPY . /toolbox/
 
 RUN pip install --no-cache-dir /toolbox/sarif-parser
 

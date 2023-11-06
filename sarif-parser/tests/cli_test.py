@@ -188,7 +188,28 @@ def test_cli_with_issue_map(
     assert out == expected_output
 
 
+def test_cli_with_invalid_issue_map_path(
+    artifact_path: str,
+    capfd: pytest.CaptureFixture[str],
+) -> None:
+    """Tests `sarif-parser` CLI, with an invalid issue_map path"""
+    cli([artifact_path, "--issue-map-path=some/invalid/path", "--output=/dev/stdout"])
+    out, err = capfd.readouterr()
+    assert err == ""
+
+    expected_output = json.dumps(
+        {
+            "issues": expected_issues,  # without issues map since we have passed an invalid path
+            "metrics": [],
+            "errors": [],
+            "is_passed": False,
+            "extra_data": {},
+        }
+    )
+    assert out == expected_output
+
+
 def test_cli_file_not_found() -> None:
     """Tests `sarif-parser` CLI, with issue code substitution."""
     with pytest.raises(FileNotFoundError):
-        cli(["/tmp/doesnotexist.py"])
+        cli(["/some/doesnotexist.py"])
