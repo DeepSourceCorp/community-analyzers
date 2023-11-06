@@ -3,24 +3,26 @@ import os
 import tempfile
 from contextlib import contextmanager
 from pathlib import Path
-from typing import Iterator, Dict, Any
+from typing import Any, Dict, Iterator
 
 import run_community_analyzer
 
 
-def make_artifact(report_path: str, workdir: str="") -> str:
+def make_artifact(report_path: str, workdir: str = "") -> str:
     """Return an artifact file for the given report, with the given workdir."""
     artifact_path = tempfile.NamedTemporaryFile().name
     # skipcq: PTC-W0064  # Report path is safe
     with open(report_path) as report_file:
         data = report_file.read()
     with open(artifact_path, "w") as artifact_file:
-        json.dump({'data': data, 'metadata': {'work_dir': workdir}}, artifact_file)
+        json.dump({"data": data, "metadata": {"work_dir": workdir}}, artifact_file)
     return artifact_path
 
 
 @contextmanager
-def parse_single_artifact(report_path: str, report_name: str) -> Iterator[Dict[str, Any]]:
+def parse_single_artifact(
+    report_path: str, report_name: str
+) -> Iterator[Dict[str, Any]]:
     """Run community analyzer on a single artifact and return the deepsource result object."""
     artifact_path = make_artifact(report_path)
     toolbox_path = tempfile.gettempdir()

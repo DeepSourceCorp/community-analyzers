@@ -1,15 +1,16 @@
-import os
 import logging
+import os
 
 import sentry_sdk
 import sentry_sdk.utils
 
-
 logger = logging.getLogger("community_analyzer")
 # Configure the logging format to also include file, linenum.
-logging.basicConfig(format='%(asctime)s,%(msecs)03d %(levelname)-8s [%(filename)s:%(lineno)d] %(message)s',
-    datefmt='%Y-%m-%d:%H:%M:%S',
-    level=logging.DEBUG)
+logging.basicConfig(
+    format="%(asctime)s,%(msecs)03d %(levelname)-8s [%(filename)s:%(lineno)d] %(message)s",
+    datefmt="%Y-%m-%d:%H:%M:%S",
+    level=logging.DEBUG,
+)
 
 
 def initialize() -> None:
