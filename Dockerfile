@@ -9,6 +9,5 @@ RUN apk add --no-cache git grep
 
 COPY . /toolbox/
 
-RUN pip install --no-cache-dir /toolbox/sarif-parser
-
+RUN pip install --no-cache-dir /toolbox/sarif-parser -r /toolbox/requirements.txt
 USER runner
