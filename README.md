@@ -34,7 +34,6 @@ The following are very important to sync analyzers with DeepSource:
 
     c. `logo.svg` file.
 
-
 2. `.deepsource/issues` directory. This contains all issues detected by the analyzer. Each issue's filemane should be `<issue-shortcode>.toml` or `<issue-shortcode.md>` with the following fields:
 
     - `title`: Title of the issue. No periods are allowed in the title.
@@ -44,13 +43,16 @@ The following are very important to sync analyzers with DeepSource:
 
 3. `CI` directory:
 
-Put example configs of all CIs under this directory. These worlflow / CI configs should run the analyzer, create a sarif report and send it to DeepSource.
-Each file should be names as `<provider>.<extention>`. Example: `github.yml`, `circleci.yml`, etc.`
+  Put example configs of all CIs under this directory. These worlflow / CI configs should run the analyzer, create a sarif report and send it to DeepSource.
+  Each file should be names as `<provider>.<extention>`. Example: `github.yml`, `circleci.yml`, etc.`
 
 4. `utils` directory:
 
-It should contain all the utilities required for the analyzer like issue genrator, issue-map, etc.
-For example, please check out `analyzers/kube-linter/utils`.
+  It should contain all the utilities required for the analyzer like issue genrator, issue-map, etc.
+  For example, please check out `analyzers/kube-linter/utils`.
+
+5. Add a sample sarif report from the analyzer in `tests/fixtures` directory. The file should be named as `<analyzer-shortcode>.sarif`.
+`test_report_parsing` parses all sarif reports under the given directory and checks if the issues are parsed correctly. It is important for that particular test to pass.
 
 ### Syncing analyzers and their issues with DeepSource
 

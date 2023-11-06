@@ -5,6 +5,8 @@ import json
 import os.path
 from typing import Any, TypedDict
 
+import sentry
+
 
 class Issue(TypedDict):
     issue_code: str
@@ -104,11 +106,17 @@ def run_sarif_parser(
         artifacts = [filepath]
 
     # Prepare mapping from SARIF rule IDs to DeepSource issue codes
-    if issue_map_path is not None:
-        with open(issue_map_path) as file:
-            issue_map = json.load(file)
-    else:
-        issue_map = None
+    issue_map = None
+    if issue_map_path:
+        try:
+            with open(issue_map_path) as file:
+                issue_map = json.load(file)
+        except FileNotFoundError:
+            # It is not mandatory for an analyzer to have an issue map.
+            # But, log this as an info.
+            sentry.raise_info(
+                f"Could not find issue map at {issue_map_path} for analyzer."
+            )
 
     # Run parser
     deepsource_issues = []

@@ -7,8 +7,11 @@ RUN mkdir -p /home/runner /app /artifacts /toolbox \
 
 RUN apk add --no-cache git grep
 
-COPY ./sarif-parser /toolbox/sarif-parser
+COPY . /toolbox/
+# Change working dir to toolbox since we'd be invoking community analyzer from there.
+WORKDIR /toolbox
 
-RUN pip install --no-cache-dir /toolbox/sarif-parser
+# Install parser and the required dependencies
+RUN pip install --no-cache-dir -r requirements.txt
 
 USER runner
