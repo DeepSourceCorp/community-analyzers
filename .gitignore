@@ -8,3 +8,6 @@ venv*
 **/*.egg-info
 **/build
 **/dist
+coverage.xml
+.env
+**/.DS_Store
