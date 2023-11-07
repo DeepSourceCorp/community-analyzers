@@ -39,7 +39,7 @@ jobs:
           curl https://deepsource.io/cli | sh
 
           # Send the report to DeepSource
-          ./bin/deepsource report --analyzer slither --value-file ${{ steps.slither.outputs.sarif }}
+          ./bin/deepsource report --analyzer slither --analyzer-type community --value-file ${{ steps.slither.outputs.sarif }}
 
       # Ensure the workflow eventually fails if files did not pass slither checks.
       - name: Verify slither-action succeeded
