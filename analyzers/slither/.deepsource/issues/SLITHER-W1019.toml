@@ -1,4 +1,5 @@
 title = "Tainted array length assignment"
+verbose_name = "controlled-array-length"
 severity = "critical"
 category = "antipattern"
 weight = 80

@@ -1,4 +1,5 @@
 title = "Deletion on mapping containing a structure"
+verbose_name = "mapping-deletion"
 severity = "major"
 category = "antipattern"
 weight = 60

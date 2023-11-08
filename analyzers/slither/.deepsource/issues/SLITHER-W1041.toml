@@ -1,4 +1,5 @@
 title = "Misuse of Boolean constant"
+verbose_name = "boolean-cst"
 severity = "major"
 category = "antipattern"
 weight = 60

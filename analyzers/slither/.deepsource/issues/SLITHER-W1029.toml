@@ -1,4 +1,5 @@
 title = "Weak PRNG"
+verbose_name = "weak-prng"
 severity = "critical"
 category = "antipattern"
 weight = 80

@@ -1,4 +1,5 @@
 title = "Unused return values"
+verbose_name = "unused-return"
 severity = "major"
 category = "antipattern"
 weight = 60

@@ -1,4 +1,5 @@
 title = "transferFrom uses arbitrary from with permit"
+verbose_name = "arbitrary-send-erc20-permit"
 severity = "critical"
 category = "antipattern"
 weight = 80

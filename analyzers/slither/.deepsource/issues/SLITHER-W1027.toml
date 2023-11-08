@@ -1,4 +1,5 @@
 title = "Signed storage integer array compiler bug"
+verbose_name = "storage-array"
 severity = "critical"
 category = "antipattern"
 weight = 80

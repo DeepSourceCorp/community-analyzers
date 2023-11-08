@@ -1,4 +1,5 @@
 title = "Incorrect ERC721 interfaces"
+verbose_name = "erc721-interface"
 severity = "major"
 category = "antipattern"
 weight = 60

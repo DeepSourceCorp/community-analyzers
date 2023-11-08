@@ -1,4 +1,5 @@
 title = "Incorrect Solidity version"
+verbose_name = "solc-version"
 severity = "minor"
 category = "antipattern"
 weight = 40

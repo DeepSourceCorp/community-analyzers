@@ -1,4 +1,5 @@
 title = "Constant functions changing the state"
+verbose_name = "constant-function-state"
 severity = "major"
 category = "antipattern"
 weight = 60

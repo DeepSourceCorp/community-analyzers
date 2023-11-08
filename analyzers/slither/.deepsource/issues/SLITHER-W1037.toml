@@ -1,4 +1,5 @@
 title = "State variables shadowing from abstract contracts"
+verbose_name = "shadowing-abstract"
 severity = "major"
 category = "antipattern"
 weight = 60

@@ -1,4 +1,5 @@
 title = "Detects using-for statement usage when no function from a given library matches a given type"
+verbose_name = "incorrect-using-for"
 severity = "minor"
 category = "antipattern"
 weight = 40

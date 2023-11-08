@@ -1,4 +1,5 @@
 title = "State variables that could be declared constant"
+verbose_name = "constable-states"
 severity = "major"
 category = "performance"
 weight = 60

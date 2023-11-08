@@ -1,4 +1,5 @@
 title = "Incorrect exponentiation"
+verbose_name = "incorrect-exp"
 severity = "critical"
 category = "antipattern"
 weight = 80

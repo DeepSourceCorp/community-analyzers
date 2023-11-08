@@ -1,4 +1,5 @@
 title = "Unimplemented functions"
+verbose_name = "unimplemented-functions"
 severity = "minor"
 category = "antipattern"
 weight = 40

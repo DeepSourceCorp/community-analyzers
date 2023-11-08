@@ -1,4 +1,5 @@
 title = "Comparison to boolean constant"
+verbose_name = "boolean-equal"
 severity = "minor"
 category = "antipattern"
 weight = 40

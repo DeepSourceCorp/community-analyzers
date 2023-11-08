@@ -1,4 +1,5 @@
 title = "Use Codex to find vulnerabilities."
+verbose_name = "codex"
 severity = "critical"
 category = "antipattern"
 weight = 80

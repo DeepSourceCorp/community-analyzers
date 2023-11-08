@@ -1,4 +1,5 @@
 title = "Unchecked tokens transfer"
+verbose_name = "unchecked-transfer"
 severity = "critical"
 category = "antipattern"
 weight = 80

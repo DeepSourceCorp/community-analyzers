@@ -1,4 +1,5 @@
 title = "Missing Zero Address Validation"
+verbose_name = "missing-zero-check"
 severity = "minor"
 category = "antipattern"
 weight = 40

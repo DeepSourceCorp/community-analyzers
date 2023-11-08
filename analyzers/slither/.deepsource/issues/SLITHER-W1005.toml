@@ -1,4 +1,5 @@
 title = "The order of parameters in a shift instruction is incorrect."
+verbose_name = "incorrect-shift"
 severity = "critical"
 category = "antipattern"
 weight = 80

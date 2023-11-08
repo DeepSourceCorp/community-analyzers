@@ -1,4 +1,5 @@
 title = "Deprecated Solidity Standards"
+verbose_name = "deprecated-standards"
 severity = "minor"
 category = "antipattern"
 weight = 40

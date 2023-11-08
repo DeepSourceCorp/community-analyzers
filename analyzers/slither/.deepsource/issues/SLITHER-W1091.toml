@@ -1,4 +1,5 @@
 title = "State variables that could be declared immutable"
+verbose_name = "immutable-states"
 severity = "major"
 category = "performance"
 weight = 60

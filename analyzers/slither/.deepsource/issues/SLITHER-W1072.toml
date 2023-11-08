@@ -1,4 +1,5 @@
 title = "Un-indexed ERC20 event parameters"
+verbose_name = "erc20-indexed"
 severity = "minor"
 category = "antipattern"
 weight = 40

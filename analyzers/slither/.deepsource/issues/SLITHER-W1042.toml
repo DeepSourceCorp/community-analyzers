@@ -1,4 +1,5 @@
 title = "Constant functions using assembly code"
+verbose_name = "constant-function-asm"
 severity = "major"
 category = "antipattern"
 weight = 60

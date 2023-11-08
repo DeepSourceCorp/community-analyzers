@@ -1,4 +1,5 @@
 title = "ABI encodePacked Collision"
+verbose_name = "encode-packed-collision"
 severity = "critical"
 category = "antipattern"
 weight = 80

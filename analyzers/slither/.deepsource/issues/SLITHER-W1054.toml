@@ -1,4 +1,5 @@
 title = "Local variables shadowing"
+verbose_name = "shadowing-local"
 severity = "minor"
 category = "antipattern"
 weight = 40

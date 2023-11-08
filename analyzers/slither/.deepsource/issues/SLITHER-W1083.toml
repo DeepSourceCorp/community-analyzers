@@ -1,4 +1,5 @@
 title = "Costly operations in a loop"
+verbose_name = "costly-loop"
 severity = "minor"
 category = "antipattern"
 weight = 40

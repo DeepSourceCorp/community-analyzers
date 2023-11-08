@@ -1,4 +1,5 @@
 title = "Unchecked low-level calls"
+verbose_name = "unchecked-lowlevel"
 severity = "major"
 category = "antipattern"
 weight = 60

@@ -1,4 +1,5 @@
 title = "Detects ERC20 tokens that have a function whose signature collides with EIP-2612's DOMAIN_SEPARATOR()"
+verbose_name = "domain-separator-collision"
 severity = "major"
 category = "antipattern"
 weight = 60

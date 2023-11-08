@@ -1,4 +1,5 @@
 title = "Variable names are too similar"
+verbose_name = "similar-names"
 severity = "minor"
 category = "antipattern"
 weight = 40

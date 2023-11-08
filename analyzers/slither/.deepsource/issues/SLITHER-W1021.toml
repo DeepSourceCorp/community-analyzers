@@ -1,4 +1,5 @@
 title = "Payable functions using `delegatecall` inside a loop"
+verbose_name = "delegatecall-loop"
 severity = "critical"
 category = "antipattern"
 weight = 80

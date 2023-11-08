@@ -1,4 +1,5 @@
 title = "Reentrancy vulnerabilities (theft of ethers)"
+verbose_name = "reentrancy-eth"
 severity = "critical"
 category = "antipattern"
 weight = 80

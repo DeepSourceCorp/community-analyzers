@@ -1,4 +1,5 @@
 title = "Constructor called not implemented"
+verbose_name = "void-cst"
 severity = "minor"
 category = "antipattern"
 weight = 40

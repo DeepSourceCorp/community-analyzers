@@ -1,4 +1,5 @@
 title = "Modifiers that can return the default value"
+verbose_name = "incorrect-modifier"
 severity = "minor"
 category = "antipattern"
 weight = 40

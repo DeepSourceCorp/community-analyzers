@@ -1,4 +1,5 @@
 title = "Functions that are not used"
+verbose_name = "dead-code"
 severity = "minor"
 category = "antipattern"
 weight = 40

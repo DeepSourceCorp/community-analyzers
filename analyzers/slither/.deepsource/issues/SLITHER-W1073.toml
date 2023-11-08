@@ -1,4 +1,5 @@
 title = "Function initializing state variables"
+verbose_name = "function-init-state"
 severity = "minor"
 category = "antipattern"
 weight = 40

@@ -1,4 +1,5 @@
 title = "Incorrect ERC20 interfaces"
+verbose_name = "erc20-interface"
 severity = "major"
 category = "antipattern"
 weight = 60

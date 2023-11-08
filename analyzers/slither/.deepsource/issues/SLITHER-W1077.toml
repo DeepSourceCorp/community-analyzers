@@ -1,4 +1,5 @@
 title = "Conformity to Solidity naming conventions"
+verbose_name = "naming-convention"
 severity = "minor"
 category = "antipattern"
 weight = 40

@@ -1,4 +1,5 @@
 title = "Right-To-Left-Override control character is used"
+verbose_name = "rtlo"
 severity = "critical"
 category = "antipattern"
 weight = 80

@@ -1,4 +1,5 @@
 title = "Multiple calls in a loop"
+verbose_name = "calls-loop"
 severity = "minor"
 category = "antipattern"
 weight = 40

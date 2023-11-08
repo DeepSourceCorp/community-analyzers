@@ -1,4 +1,5 @@
 title = "A low level callee may consume all callers gas unexpectedly."
+verbose_name = "return-bomb"
 severity = "minor"
 category = "antipattern"
 weight = 40

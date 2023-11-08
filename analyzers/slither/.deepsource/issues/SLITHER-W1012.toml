@@ -1,4 +1,5 @@
 title = "Functions allowing anyone to destruct the contract"
+verbose_name = "suicidal"
 severity = "critical"
 category = "antipattern"
 weight = 80

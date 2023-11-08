@@ -1,4 +1,5 @@
 title = "msg.value inside a loop"
+verbose_name = "msg-value-loop"
 severity = "critical"
 category = "antipattern"
 weight = 80

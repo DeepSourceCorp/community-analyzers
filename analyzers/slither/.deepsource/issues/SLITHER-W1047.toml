@@ -1,4 +1,5 @@
 title = "Dangerous usage of `tx.origin`"
+verbose_name = "tx-origin"
 severity = "major"
 category = "antipattern"
 weight = 60

@@ -1,4 +1,5 @@
 title = "Contracts that lock ether"
+verbose_name = "locked-ether"
 severity = "major"
 category = "antipattern"
 weight = 60

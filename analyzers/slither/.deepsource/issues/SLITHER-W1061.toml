@@ -1,4 +1,5 @@
 title = "Dangerous unary expressions"
+verbose_name = "incorrect-unary"
 severity = "minor"
 category = "antipattern"
 weight = 40

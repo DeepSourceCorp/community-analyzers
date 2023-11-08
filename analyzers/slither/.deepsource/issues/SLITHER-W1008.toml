@@ -1,4 +1,5 @@
 title = "Detected unprotected variables"
+verbose_name = "protected-vars"
 severity = "critical"
 category = "antipattern"
 weight = 80

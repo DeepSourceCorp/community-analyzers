@@ -1,4 +1,5 @@
 title = "Unchecked send"
+verbose_name = "unchecked-send"
 severity = "major"
 category = "antipattern"
 weight = 60

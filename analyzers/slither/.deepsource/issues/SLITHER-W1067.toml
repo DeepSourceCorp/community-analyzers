@@ -1,4 +1,5 @@
 title = "Assembly usage"
+verbose_name = "assembly"
 severity = "minor"
 category = "antipattern"
 weight = 40

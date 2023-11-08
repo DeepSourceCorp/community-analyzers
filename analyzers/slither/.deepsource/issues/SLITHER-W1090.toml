@@ -1,4 +1,5 @@
 title = "Public function that could be declared external"
+verbose_name = "external-function"
 severity = "major"
 category = "performance"
 weight = 60

@@ -1,4 +1,5 @@
 title = "Comparing a variable to itself always returns true or false, depending on comparison"
+verbose_name = "tautological-compare"
 severity = "major"
 category = "antipattern"
 weight = 60

@@ -1,4 +1,5 @@
 title = "Reentrancy vulnerabilities through send and transfer"
+verbose_name = "reentrancy-unlimited-gas"
 severity = "minor"
 category = "antipattern"
 weight = 40

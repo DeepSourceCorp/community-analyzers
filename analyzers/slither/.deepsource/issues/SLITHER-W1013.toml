@@ -1,4 +1,5 @@
 title = "Uninitialized state variables"
+verbose_name = "uninitialized-state"
 severity = "critical"
 category = "antipattern"
 weight = 80

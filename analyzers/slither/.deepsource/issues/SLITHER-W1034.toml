@@ -1,4 +1,5 @@
 title = "Dangerous strict equalities"
+verbose_name = "incorrect-equality"
 severity = "major"
 category = "antipattern"
 weight = 60

@@ -1,4 +1,5 @@
 title = "Tautology or contradiction"
+verbose_name = "tautology"
 severity = "major"
 category = "antipattern"
 weight = 60

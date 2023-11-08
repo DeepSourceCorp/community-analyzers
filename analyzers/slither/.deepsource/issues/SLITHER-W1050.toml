@@ -1,4 +1,5 @@
 title = "Uninitialized local variables"
+verbose_name = "uninitialized-local"
 severity = "major"
 category = "antipattern"
 weight = 60

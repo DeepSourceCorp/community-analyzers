@@ -1,4 +1,5 @@
 title = "Built-in symbol shadowing"
+verbose_name = "shadowing-builtin"
 severity = "minor"
 category = "antipattern"
 weight = 40

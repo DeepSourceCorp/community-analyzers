@@ -1,4 +1,5 @@
 title = "Missing Events Access Control"
+verbose_name = "events-access"
 severity = "minor"
 category = "antipattern"
 weight = 40

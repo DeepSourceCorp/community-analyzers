@@ -1,4 +1,5 @@
 title = "Reused base constructor"
+verbose_name = "reused-constructor"
 severity = "major"
 category = "antipattern"
 weight = 60

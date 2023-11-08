@@ -1,4 +1,5 @@
 title = "If different pragma directives are used"
+verbose_name = "pragma"
 severity = "minor"
 category = "antipattern"
 weight = 40

@@ -1,4 +1,5 @@
 title = "Unprotected upgradeable contract"
+verbose_name = "unprotected-upgrade"
 severity = "critical"
 category = "antipattern"
 weight = 80

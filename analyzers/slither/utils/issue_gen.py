@@ -19,6 +19,7 @@ def _get_toml_path(issue_code: str) -> str:
 
 def get_toml_content(
     title: str,
+    verbose_name: str,
     severity: str,
     category: str,
     weight: int,
@@ -37,6 +38,7 @@ def get_toml_content(
     learn_more_section = f"\n\n## Learn more\n{learn_more} on Slither's wiki."
 
     content = f'''title = "{title}"
+verbose_name = "{verbose_name}"
 severity = "{severity}"
 category = "{category}"
 weight = {weight}
@@ -69,6 +71,7 @@ def update_issue_tomls() -> None:
         filepath = _get_toml_path(issue_code)
 
         title = detector["title"]
+        check_name = detector["check"]
         impact = detector["impact"]
         wiki_url = detector["wiki_url"]
         description = detector["description"]
@@ -80,13 +83,14 @@ def update_issue_tomls() -> None:
 
         content = get_toml_content(
             title=title,
+            verbose_name=check_name,
             severity=severity,
             category=category,
             weight=weight,
             description=description,
             exploit_scenario=exploit_scenario,
             recommendation=recommendation,
-            learn_more=f"[{detector['check']}]({wiki_url})",
+            learn_more=f"[{check_name}]({wiki_url})",
         )
         with open(filepath, "w") as f:
             f.write(content)

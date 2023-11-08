@@ -1,4 +1,5 @@
 title = "Uninitialized function pointer calls in constructors"
+verbose_name = "uninitialized-fptr-cst"
 severity = "minor"
 category = "antipattern"
 weight = 40

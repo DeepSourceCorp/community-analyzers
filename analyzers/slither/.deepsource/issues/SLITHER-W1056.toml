@@ -1,4 +1,5 @@
 title = "Local variables used prior their declaration"
+verbose_name = "variable-scope"
 severity = "minor"
 category = "antipattern"
 weight = 40

@@ -1,4 +1,5 @@
 title = "Multiple constructor schemes"
+verbose_name = "multiple-constructors"
 severity = "critical"
 category = "antipattern"
 weight = 80

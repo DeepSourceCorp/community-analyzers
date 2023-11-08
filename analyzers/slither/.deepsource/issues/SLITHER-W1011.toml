@@ -1,4 +1,5 @@
 title = "State variables shadowing"
+verbose_name = "shadowing-state"
 severity = "critical"
 category = "antipattern"
 weight = 80

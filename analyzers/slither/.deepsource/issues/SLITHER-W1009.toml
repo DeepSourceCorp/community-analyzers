@@ -1,4 +1,5 @@
 title = "Public mappings with nested variables"
+verbose_name = "public-mappings-nested"
 severity = "critical"
 category = "antipattern"
 weight = 80

@@ -1,4 +1,5 @@
 title = "Low level calls"
+verbose_name = "low-level-calls"
 severity = "minor"
 category = "antipattern"
 weight = 40

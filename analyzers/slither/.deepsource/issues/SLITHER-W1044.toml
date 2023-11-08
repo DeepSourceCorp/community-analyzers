@@ -1,4 +1,5 @@
 title = "Imprecise arithmetic operations order"
+verbose_name = "divide-before-multiply"
 severity = "major"
 category = "antipattern"
 weight = 60

@@ -1,4 +1,5 @@
 title = "Contract reads its own variable using `this`"
+verbose_name = "var-read-using-this"
 severity = "major"
 category = "performance"
 weight = 60

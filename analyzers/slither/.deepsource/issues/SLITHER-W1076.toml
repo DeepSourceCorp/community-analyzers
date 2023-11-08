@@ -1,4 +1,5 @@
 title = "Missing inheritance"
+verbose_name = "missing-inheritance"
 severity = "minor"
 category = "antipattern"
 weight = 40

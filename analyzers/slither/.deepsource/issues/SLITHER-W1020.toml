@@ -1,4 +1,5 @@
 title = "Controlled delegatecall destination"
+verbose_name = "controlled-delegatecall"
 severity = "critical"
 category = "antipattern"
 weight = 80
