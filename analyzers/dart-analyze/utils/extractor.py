@@ -112,7 +112,7 @@ class IssueExtractor:
         for part in title_parts:
             sanitized_parts.append(part.lstrip(CHARS_TO_LSTRIP).strip(CHARS_TO_STRIP))
 
-        return " ".join(sanitized_parts)
+        return " ".join(sanitized_parts).replace('"', r"\"")
 
     def get_rule_description(self, contents: str) -> str | None:
         """
