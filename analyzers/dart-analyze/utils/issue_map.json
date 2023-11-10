@@ -1,0 +1,686 @@
+{
+    "prefer_interpolation_to_compose_strings": {
+        "issue_code": "DRT-W1001"
+    },
+    "overridden_fields": {
+        "issue_code": "DRT-W1002"
+    },
+    "avoid_init_to_null": {
+        "issue_code": "DRT-W1003"
+    },
+    "prefer_typing_uninitialized_variables": {
+        "issue_code": "DRT-W1004"
+    },
+    "hash_and_equals": {
+        "issue_code": "DRT-W1005"
+    },
+    "prefer_mixin": {
+        "issue_code": "DRT-W1006"
+    },
+    "lines_longer_than_80_chars": {
+        "issue_code": "DRT-W1007"
+    },
+    "parameter_assignments": {
+        "issue_code": "DRT-W1008"
+    },
+    "always_put_required_named_parameters_first": {
+        "issue_code": "DRT-W1009"
+    },
+    "prefer_single_quotes": {
+        "issue_code": "DRT-W1010"
+    },
+    "avoid_return_types_on_setters": {
+        "issue_code": "DRT-W1011"
+    },
+    "combinators_ordering": {
+        "issue_code": "DRT-W1012"
+    },
+    "cascade_invocations": {
+        "issue_code": "DRT-W1013"
+    },
+    "prefer_expression_function_bodies": {
+        "issue_code": "DRT-W1014"
+    },
+    "prefer_collection_literals": {
+        "issue_code": "DRT-W1015"
+    },
+    "unnecessary_library_directive": {
+        "issue_code": "DRT-W1016"
+    },
+    "unsafe_html": {
+        "issue_code": "DRT-W1017"
+    },
+    "throw_in_finally": {
+        "issue_code": "DRT-W1018"
+    },
+    "use_string_buffers": {
+        "issue_code": "DRT-W1019"
+    },
+    "avoid_double_and_int_checks": {
+        "issue_code": "DRT-W1020"
+    },
+    "eol_at_end_of_file": {
+        "issue_code": "DRT-W1021"
+    },
+    "always_require_non_null_named_parameters": {
+        "issue_code": "DRT-W1022"
+    },
+    "cancel_subscriptions": {
+        "issue_code": "DRT-W1023"
+    },
+    "only_throw_errors": {
+        "issue_code": "DRT-W1024"
+    },
+    "avoid_final_parameters": {
+        "issue_code": "DRT-W1025"
+    },
+    "prefer_asserts_with_message": {
+        "issue_code": "DRT-W1026"
+    },
+    "prefer_if_null_operators": {
+        "issue_code": "DRT-W1027"
+    },
+    "unrelated_type_equality_checks": {
+        "issue_code": "DRT-W1028"
+    },
+    "list_remove_unrelated_type": {
+        "issue_code": "DRT-W1029"
+    },
+    "avoid_classes_with_only_static_members": {
+        "issue_code": "DRT-W1030"
+    },
+    "prefer_final_parameters": {
+        "issue_code": "DRT-W1031"
+    },
+    "discarded_futures": {
+        "issue_code": "DRT-W1032"
+    },
+    "library_private_types_in_public_api": {
+        "issue_code": "DRT-W1033"
+    },
+    "prefer_null_aware_operators": {
+        "issue_code": "DRT-W1034"
+    },
+    "null_check_on_nullable_type_parameter": {
+        "issue_code": "DRT-W1035"
+    },
+    "tighten_type_of_initializing_formals": {
+        "issue_code": "DRT-W1036"
+    },
+    "avoid_slow_async_io": {
+        "issue_code": "DRT-W1037"
+    },
+    "unnecessary_overrides": {
+        "issue_code": "DRT-W1038"
+    },
+    "prefer_inlined_adds": {
+        "issue_code": "DRT-W1039"
+    },
+    "noop_primitive_operations": {
+        "issue_code": "DRT-W1040"
+    },
+    "unnecessary_null_in_if_null_operators": {
+        "issue_code": "DRT-W1041"
+    },
+    "avoid_empty_else": {
+        "issue_code": "DRT-W1042"
+    },
+    "no_default_cases": {
+        "issue_code": "DRT-W1043"
+    },
+    "unnecessary_to_list_in_spreads": {
+        "issue_code": "DRT-W1044"
+    },
+    "unnecessary_raw_strings": {
+        "issue_code": "DRT-W1045"
+    },
+    "use_named_constants": {
+        "issue_code": "DRT-W1046"
+    },
+    "use_function_type_syntax_for_parameters": {
+        "issue_code": "DRT-W1047"
+    },
+    "unawaited_futures": {
+        "issue_code": "DRT-W1048"
+    },
+    "avoid_types_as_parameter_names": {
+        "issue_code": "DRT-W1049"
+    },
+    "unnecessary_statements": {
+        "issue_code": "DRT-W1050"
+    },
+    "prefer_asserts_in_initializer_lists": {
+        "issue_code": "DRT-W1051"
+    },
+    "avoid_unnecessary_containers": {
+        "issue_code": "DRT-W1052"
+    },
+    "unnecessary_const": {
+        "issue_code": "DRT-W1053"
+    },
+    "prefer_adjacent_string_concatenation": {
+        "issue_code": "DRT-W1054"
+    },
+    "prefer_contains": {
+        "issue_code": "DRT-W1055"
+    },
+    "cast_nullable_to_non_nullable": {
+        "issue_code": "DRT-W1056"
+    },
+    "use_string_in_part_of_directives": {
+        "issue_code": "DRT-W1057"
+    },
+    "use_build_context_synchronously": {
+        "issue_code": "DRT-W1058"
+    },
+    "unnecessary_string_escapes": {
+        "issue_code": "DRT-W1059"
+    },
+    "prefer_equal_for_default_values": {
+        "issue_code": "DRT-W1060"
+    },
+    "unnecessary_lambdas": {
+        "issue_code": "DRT-W1061"
+    },
+    "avoid_types_on_closure_parameters": {
+        "issue_code": "DRT-W1062"
+    },
+    "unnecessary_nullable_for_final_variable_declarations": {
+        "issue_code": "DRT-W1063"
+    },
+    "unnecessary_string_interpolations": {
+        "issue_code": "DRT-W1064"
+    },
+    "avoid_type_to_string": {
+        "issue_code": "DRT-W1065"
+    },
+    "no_literal_bool_comparisons": {
+        "issue_code": "DRT-W1066"
+    },
+    "file_names": {
+        "issue_code": "DRT-W1067"
+    },
+    "avoid_as": {
+        "issue_code": "DRT-W1068"
+    },
+    "unnecessary_breaks": {
+        "issue_code": "DRT-W1069"
+    },
+    "type_annotate_public_apis": {
+        "issue_code": "DRT-W1070"
+    },
+    "matching_super_parameters": {
+        "issue_code": "DRT-W1071"
+    },
+    "avoid_null_checks_in_equality_operators": {
+        "issue_code": "DRT-W1072"
+    },
+    "avoid_renaming_method_parameters": {
+        "issue_code": "DRT-W1073"
+    },
+    "prefer_if_elements_to_conditional_expressions": {
+        "issue_code": "DRT-W1074"
+    },
+    "avoid_catching_errors": {
+        "issue_code": "DRT-W1075"
+    },
+    "no_wildcard_variable_uses": {
+        "issue_code": "DRT-W1076"
+    },
+    "null_closures": {
+        "issue_code": "DRT-W1077"
+    },
+    "prefer_const_constructors": {
+        "issue_code": "DRT-W1078"
+    },
+    "invariant_booleans": {
+        "issue_code": "DRT-W1079"
+    },
+    "unnecessary_brace_in_string_interps": {
+        "issue_code": "DRT-W1080"
+    },
+    "avoid_shadowing_type_parameters": {
+        "issue_code": "DRT-W1081"
+    },
+    "use_rethrow_when_possible": {
+        "issue_code": "DRT-W1082"
+    },
+    "collection_methods_unrelated_type": {
+        "issue_code": "DRT-W1083"
+    },
+    "super_goes_last": {
+        "issue_code": "DRT-W1084"
+    },
+    "prefer_bool_in_asserts": {
+        "issue_code": "DRT-W1085"
+    },
+    "avoid_function_literals_in_foreach_calls": {
+        "issue_code": "DRT-W1086"
+    },
+    "unnecessary_await_in_return": {
+        "issue_code": "DRT-W1087"
+    },
+    "unnecessary_null_checks": {
+        "issue_code": "DRT-W1088"
+    },
+    "avoid_print": {
+        "issue_code": "DRT-W1089"
+    },
+    "prefer_iterable_whereType": {
+        "issue_code": "DRT-W1090"
+    },
+    "prefer_final_locals": {
+        "issue_code": "DRT-W1091"
+    },
+    "use_test_throws_matchers": {
+        "issue_code": "DRT-W1092"
+    },
+    "unnecessary_late": {
+        "issue_code": "DRT-W1093"
+    },
+    "annotate_overrides": {
+        "issue_code": "DRT-W1094"
+    },
+    "unnecessary_null_aware_assignments": {
+        "issue_code": "DRT-W1095"
+    },
+    "unnecessary_getters_setters": {
+        "issue_code": "DRT-W1096"
+    },
+    "join_return_with_assignment": {
+        "issue_code": "DRT-W1097"
+    },
+    "no_adjacent_strings_in_list": {
+        "issue_code": "DRT-W1098"
+    },
+    "control_flow_in_finally": {
+        "issue_code": "DRT-W1099"
+    },
+    "sized_box_for_whitespace": {
+        "issue_code": "DRT-W1100"
+    },
+    "public_member_api_docs": {
+        "issue_code": "DRT-W1101"
+    },
+    "library_prefixes": {
+        "issue_code": "DRT-W1102"
+    },
+    "avoid_returning_null_for_future": {
+        "issue_code": "DRT-W1103"
+    },
+    "provide_deprecation_message": {
+        "issue_code": "DRT-W1104"
+    },
+    "prefer_for_elements_to_map_fromIterable": {
+        "issue_code": "DRT-W1105"
+    },
+    "enable_null_safety": {
+        "issue_code": "DRT-W1106"
+    },
+    "prefer_conditional_assignment": {
+        "issue_code": "DRT-W1107"
+    },
+    "unnecessary_this": {
+        "issue_code": "DRT-W1108"
+    },
+    "prefer_is_empty": {
+        "issue_code": "DRT-W1109"
+    },
+    "dangling_library_doc_comments": {
+        "issue_code": "DRT-W1110"
+    },
+    "prefer_constructors_over_static_methods": {
+        "issue_code": "DRT-W1111"
+    },
+    "prefer_relative_imports": {
+        "issue_code": "DRT-W1112"
+    },
+    "use_raw_strings": {
+        "issue_code": "DRT-W1113"
+    },
+    "prefer_final_fields": {
+        "issue_code": "DRT-W1114"
+    },
+    "avoid_web_libraries_in_flutter": {
+        "issue_code": "DRT-W1115"
+    },
+    "use_to_and_as_if_applicable": {
+        "issue_code": "DRT-W1116"
+    },
+    "prefer_double_quotes": {
+        "issue_code": "DRT-W1117"
+    },
+    "unnecessary_final": {
+        "issue_code": "DRT-W1118"
+    },
+    "empty_statements": {
+        "issue_code": "DRT-W1119"
+    },
+    "avoid_private_typedef_functions": {
+        "issue_code": "DRT-W1120"
+    },
+    "require_trailing_commas": {
+        "issue_code": "DRT-W1121"
+    },
+    "exhaustive_cases": {
+        "issue_code": "DRT-W1122"
+    },
+    "constant_identifier_names": {
+        "issue_code": "DRT-W1123"
+    },
+    "avoid_void_async": {
+        "issue_code": "DRT-W1124"
+    },
+    "test_types_in_equals": {
+        "issue_code": "DRT-W1125"
+    },
+    "prefer_const_constructors_in_immutables": {
+        "issue_code": "DRT-W1126"
+    },
+    "prefer_foreach": {
+        "issue_code": "DRT-W1127"
+    },
+    "camel_case_types": {
+        "issue_code": "DRT-W1128"
+    },
+    "valid_regexps": {
+        "issue_code": "DRT-W1129"
+    },
+    "unnecessary_null_aware_operator_on_extension_on_nullable": {
+        "issue_code": "DRT-W1130"
+    },
+    "always_put_control_body_on_new_line": {
+        "issue_code": "DRT-W1131"
+    },
+    "prefer_void_to_null": {
+        "issue_code": "DRT-W1132"
+    },
+    "sort_unnamed_constructors_first": {
+        "issue_code": "DRT-W1133"
+    },
+    "no_duplicate_case_values": {
+        "issue_code": "DRT-W1134"
+    },
+    "avoid_returning_null_for_void": {
+        "issue_code": "DRT-W1135"
+    },
+    "no_self_assignments": {
+        "issue_code": "DRT-W1136"
+    },
+    "avoid_positional_boolean_parameters": {
+        "issue_code": "DRT-W1137"
+    },
+    "unreachable_from_main": {
+        "issue_code": "DRT-W1138"
+    },
+    "avoid_single_cascade_in_expression_statements": {
+        "issue_code": "DRT-W1139"
+    },
+    "unnecessary_constructor_name": {
+        "issue_code": "DRT-W1140"
+    },
+    "conditional_uri_does_not_exist": {
+        "issue_code": "DRT-W1141"
+    },
+    "prefer_is_not_empty": {
+        "issue_code": "DRT-W1142"
+    },
+    "directives_ordering": {
+        "issue_code": "DRT-W1143"
+    },
+    "prefer_const_declarations": {
+        "issue_code": "DRT-W1144"
+    },
+    "avoid_multiple_declarations_per_line": {
+        "issue_code": "DRT-W1145"
+    },
+    "void_checks": {
+        "issue_code": "DRT-W1146"
+    },
+    "prefer_spread_collections": {
+        "issue_code": "DRT-W1147"
+    },
+    "non_constant_identifier_names": {
+        "issue_code": "DRT-W1148"
+    },
+    "use_decorated_box": {
+        "issue_code": "DRT-W1149"
+    },
+    "prefer_generic_function_type_aliases": {
+        "issue_code": "DRT-W1150"
+    },
+    "no_runtimeType_toString": {
+        "issue_code": "DRT-W1151"
+    },
+    "sort_constructors_first": {
+        "issue_code": "DRT-W1152"
+    },
+    "deprecated_consistency": {
+        "issue_code": "DRT-W1153"
+    },
+    "annotate_redeclares": {
+        "issue_code": "DRT-W1154"
+    },
+    "use_if_null_to_convert_nulls_to_bools": {
+        "issue_code": "DRT-W1155"
+    },
+    "recursive_getters": {
+        "issue_code": "DRT-W1156"
+    },
+    "avoid_returning_this": {
+        "issue_code": "DRT-W1157"
+    },
+    "camel_case_extensions": {
+        "issue_code": "DRT-W1158"
+    },
+    "empty_constructor_bodies": {
+        "issue_code": "DRT-W1159"
+    },
+    "use_setters_to_change_properties": {
+        "issue_code": "DRT-W1160"
+    },
+    "comment_references": {
+        "issue_code": "DRT-W1161"
+    },
+    "always_use_package_imports": {
+        "issue_code": "DRT-W1162"
+    },
+    "prefer_null_aware_method_calls": {
+        "issue_code": "DRT-W1163"
+    },
+    "use_enums": {
+        "issue_code": "DRT-W1164"
+    },
+    "implementation_imports": {
+        "issue_code": "DRT-W1165"
+    },
+    "await_only_futures": {
+        "issue_code": "DRT-W1166"
+    },
+    "sort_child_properties_last": {
+        "issue_code": "DRT-W1167"
+    },
+    "omit_local_variable_types": {
+        "issue_code": "DRT-W1168"
+    },
+    "flutter_style_todos": {
+        "issue_code": "DRT-W1169"
+    },
+    "diagnostic_describe_all_properties": {
+        "issue_code": "DRT-W1170"
+    },
+    "avoid_relative_lib_imports": {
+        "issue_code": "DRT-W1171"
+    },
+    "do_not_use_environment": {
+        "issue_code": "DRT-W1172"
+    },
+    "package_prefixed_library_names": {
+        "issue_code": "DRT-W1173"
+    },
+    "avoid_unused_constructor_parameters": {
+        "issue_code": "DRT-W1174"
+    },
+    "invalid_case_patterns": {
+        "issue_code": "DRT-W1175"
+    },
+    "unnecessary_parenthesis": {
+        "issue_code": "DRT-W1176"
+    },
+    "avoid_equals_and_hash_code_on_mutable_classes": {
+        "issue_code": "DRT-W1177"
+    },
+    "no_logic_in_create_state": {
+        "issue_code": "DRT-W1178"
+    },
+    "prefer_int_literals": {
+        "issue_code": "DRT-W1179"
+    },
+    "no_leading_underscores_for_library_prefixes": {
+        "issue_code": "DRT-W1180"
+    },
+    "slash_for_doc_comments": {
+        "issue_code": "DRT-W1181"
+    },
+    "use_colored_box": {
+        "issue_code": "DRT-W1182"
+    },
+    "sized_box_shrink_expand": {
+        "issue_code": "DRT-W1183"
+    },
+    "avoid_returning_null": {
+        "issue_code": "DRT-W1184"
+    },
+    "avoid_implementing_value_types": {
+        "issue_code": "DRT-W1185"
+    },
+    "prefer_initializing_formals": {
+        "issue_code": "DRT-W1186"
+    },
+    "type_literal_in_constant_pattern": {
+        "issue_code": "DRT-W1187"
+    },
+    "type_init_formals": {
+        "issue_code": "DRT-W1188"
+    },
+    "unnecessary_new": {
+        "issue_code": "DRT-W1189"
+    },
+    "library_names": {
+        "issue_code": "DRT-W1190"
+    },
+    "use_is_even_rather_than_modulo": {
+        "issue_code": "DRT-W1191"
+    },
+    "avoid_redundant_argument_values": {
+        "issue_code": "DRT-W1192"
+    },
+    "leading_newlines_in_multiline_strings": {
+        "issue_code": "DRT-W1193"
+    },
+    "no_leading_underscores_for_local_identifiers": {
+        "issue_code": "DRT-W1194"
+    },
+    "literal_only_boolean_expressions": {
+        "issue_code": "DRT-W1195"
+    },
+    "prefer_function_declarations_over_variables": {
+        "issue_code": "DRT-W1196"
+    },
+    "use_key_in_widget_constructors": {
+        "issue_code": "DRT-W1197"
+    },
+    "prefer_const_literals_to_create_immutables": {
+        "issue_code": "DRT-W1198"
+    },
+    "implicit_reopen": {
+        "issue_code": "DRT-W1199"
+    },
+    "avoid_js_rounded_ints": {
+        "issue_code": "DRT-W1200"
+    },
+    "prefer_is_not_operator": {
+        "issue_code": "DRT-W1201"
+    },
+    "empty_catches": {
+        "issue_code": "DRT-W1202"
+    },
+    "avoid_annotating_with_dynamic": {
+        "issue_code": "DRT-W1203"
+    },
+    "avoid_escaping_inner_quotes": {
+        "issue_code": "DRT-W1204"
+    },
+    "always_declare_return_types": {
+        "issue_code": "DRT-W1205"
+    },
+    "iterable_contains_unrelated_type": {
+        "issue_code": "DRT-W1206"
+    },
+    "prefer_final_in_for_each": {
+        "issue_code": "DRT-W1207"
+    },
+    "use_full_hex_values_for_flutter_colors": {
+        "issue_code": "DRT-W1208"
+    },
+    "avoid_field_initializers_in_const_classes": {
+        "issue_code": "DRT-W1209"
+    },
+    "avoid_catches_without_on_clauses": {
+        "issue_code": "DRT-W1210"
+    },
+    "missing_whitespace_between_adjacent_strings": {
+        "issue_code": "DRT-W1211"
+    },
+    "avoid_bool_literals_in_conditional_expressions": {
+        "issue_code": "DRT-W1212"
+    },
+    "avoid_dynamic_calls": {
+        "issue_code": "DRT-W1213"
+    },
+    "implicit_call_tearoffs": {
+        "issue_code": "DRT-W1214"
+    },
+    "deprecated_member_use_from_same_package": {
+        "issue_code": "DRT-W1215"
+    },
+    "curly_braces_in_flow_control_structures": {
+        "issue_code": "DRT-W1216"
+    },
+    "package_api_docs": {
+        "issue_code": "DRT-W1217"
+    },
+    "always_specify_types": {
+        "issue_code": "DRT-W1218"
+    },
+    "close_sinks": {
+        "issue_code": "DRT-W1219"
+    },
+    "avoid_setters_without_getters": {
+        "issue_code": "DRT-W1220"
+    },
+    "use_super_parameters": {
+        "issue_code": "DRT-W1221"
+    },
+    "one_member_abstracts": {
+        "issue_code": "DRT-W1222"
+    },
+    "library_annotations": {
+        "issue_code": "DRT-W1223"
+    },
+    "use_late_for_private_fields_and_variables": {
+        "issue_code": "DRT-W1224"
+    },
+    "sort_pub_dependencies": {
+        "issue_code": "DRT-W1225"
+    },
+    "package_names": {
+        "issue_code": "DRT-W1226"
+    },
+    "secure_pubspec_urls": {
+        "issue_code": "DRT-W1227"
+    },
+    "depend_on_referenced_packages": {
+        "issue_code": "DRT-W1228"
+    }
+}
