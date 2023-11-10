@@ -1,0 +1,19 @@
+
+title = "Use generic function type syntax for parameters."
+verbose_name = "use_function_type_syntax_for_parameters"
+severity = "major"
+category = "antipattern"
+weight = 70
+description = """
+Use generic function type syntax for parameters.
+
+**BAD:**
+```dart
+Iterable<T> where(bool predicate(T element)) {}
+```
+
+**GOOD:**
+```dart
+Iterable<T> where(bool Function(T) predicate) {}
+```
+"""

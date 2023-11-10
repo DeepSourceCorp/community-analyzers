@@ -1,0 +1,29 @@
+
+title = "Put required named parameters first."
+verbose_name = "always_put_required_named_parameters_first"
+severity = "major"
+category = "antipattern"
+weight = 70
+description = """
+**DO** specify `required` on named parameter before other named parameters.
+
+**BAD:**
+```dart
+m({b, c, required a}) ;
+```
+
+**GOOD:**
+```dart
+m({required a, b, c}) ;
+```
+
+**BAD:**
+```dart
+m({b, c, @required a}) ;
+```
+
+**GOOD:**
+```dart
+m({@required a, b, c}) ;
+```
+"""

@@ -1,0 +1,29 @@
+
+title = "Await only futures."
+verbose_name = "await_only_futures"
+severity = "major"
+category = "antipattern"
+weight = 70
+description = """
+**AVOID** using await on anything which is not a future.
+
+Await is allowed on the types: `Future<X>`, `FutureOr<X>`, `Future<X>?`, 
+`FutureOr<X>?` and `dynamic`.
+
+Further, using `await null` is specifically allowed as a way to introduce a
+microtask delay.
+
+**BAD:**
+```dart
+main() async {
+  print(await 23);
+}
+```
+**GOOD:**
+```dart
+main() async {
+  await null; // If a delay is really intended.
+  print(23);
+}
+```
+"""

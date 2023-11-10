@@ -1,0 +1,24 @@
+
+title = "Use contains for `List` and `String` instances."
+verbose_name = "prefer_contains"
+severity = "major"
+category = "antipattern"
+weight = 70
+description = """
+**DON'T** use `indexOf` to see if a collection contains an element.
+
+Calling `indexOf` to see if a collection contains something is difficult to read
+and may have poor performance.
+
+Instead, prefer `contains`.
+
+**BAD:**
+```dart
+if (lunchBox.indexOf('sandwich') == -1) return 'so hungry...';
+```
+
+**GOOD:**
+```dart
+if (!lunchBox.contains('sandwich')) return 'so hungry...';
+```
+"""

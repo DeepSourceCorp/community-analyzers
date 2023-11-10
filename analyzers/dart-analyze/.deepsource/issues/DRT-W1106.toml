@@ -1,0 +1,22 @@
+
+title = "Do use sound null safety."
+verbose_name = "enable_null_safety"
+severity = "major"
+category = "antipattern"
+weight = 70
+description = """
+**DO** use sound null safety, by not specifying a dart version lower than `2.12`.
+
+**BAD:**
+```dart
+// @dart=2.8
+a() {
+}
+```
+
+**GOOD:**
+```dart
+b() {
+}
+```
+"""

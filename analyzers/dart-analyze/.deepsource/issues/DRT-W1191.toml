@@ -1,0 +1,21 @@
+
+title = "Prefer intValue.isOdd/isEven instead of checking the result of % 2."
+verbose_name = "use_is_even_rather_than_modulo"
+severity = "major"
+category = "antipattern"
+weight = 70
+description = """
+**PREFER** the use of intValue.isOdd/isEven to check for evenness.
+
+**BAD:**
+```dart
+bool isEven = 1 % 2 == 0;
+bool isOdd = 13 % 2 == 1;
+```
+
+**GOOD:**
+```dart
+bool isEven = 1.isEven;
+bool isOdd = 13.isOdd;
+```
+"""

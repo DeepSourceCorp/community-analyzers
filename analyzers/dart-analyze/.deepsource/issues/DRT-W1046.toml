@@ -1,0 +1,19 @@
+
+title = "Use predefined named constants."
+verbose_name = "use_named_constants"
+severity = "major"
+category = "antipattern"
+weight = 70
+description = """
+Where possible, use already defined const values.
+
+**BAD:**
+```dart
+const Duration(seconds: 0);
+```
+
+**GOOD:**
+```dart
+Duration.zero;
+```
+"""

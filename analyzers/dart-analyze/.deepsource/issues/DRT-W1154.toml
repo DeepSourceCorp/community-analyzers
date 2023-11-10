@@ -1,0 +1,42 @@
+
+title = "Annotate redeclared members."
+verbose_name = "annotate_redeclares"
+severity = "major"
+category = "antipattern"
+weight = 70
+description = """
+**DO** annotate redeclared members.
+
+This practice improves code readability and helps protect against
+unintentionally redeclaring members or being surprised when a member ceases to
+redeclare (due for example to a rename refactoring).
+
+**BAD:**
+```dart
+class C {
+  void f() { }
+}
+
+extension type E(C c) implements C {
+  void f() {
+    ...
+  }
+}
+```
+
+**GOOD:**
+```dart
+import 'package:meta/meta.dart';
+
+class C {
+  void f() { }
+}
+
+extension type E(C c) implements C {
+  @redeclare
+  void f() {
+    ...
+  }
+}
+```
+"""

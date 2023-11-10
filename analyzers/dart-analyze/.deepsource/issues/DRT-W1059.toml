@@ -1,0 +1,21 @@
+
+title = "Remove unnecessary backslashes in strings."
+verbose_name = "unnecessary_string_escapes"
+severity = "major"
+category = "antipattern"
+weight = 70
+description = """
+Remove unnecessary backslashes in strings.
+
+**BAD:**
+```dart
+'this string contains 2 \"double quotes\" ';
+"this string contains 2 \'single quotes\' ";
+```
+
+**GOOD:**
+```dart
+'this string contains 2 "double quotes" ';
+"this string contains 2 'single quotes' ";
+```
+"""

@@ -1,0 +1,30 @@
+
+title = "Prefer const over final for declarations."
+verbose_name = "prefer_const_declarations"
+severity = "major"
+category = "antipattern"
+weight = 70
+description = """
+**PREFER** using `const` for const declarations.
+
+Const declarations are more hot-reload friendly and allow to use const
+constructors if an instantiation references this declaration.
+
+**BAD:**
+```dart
+final o = const <int>[];
+
+class A {
+  static final o = const <int>[];
+}
+```
+
+**GOOD:**
+```dart
+const o = <int>[];
+
+class A {
+  static const o = <int>[];
+}
+```
+"""
