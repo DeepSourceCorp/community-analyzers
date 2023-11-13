@@ -1,6 +1,7 @@
 """sarif-parser - Parse SARIF reports and covert them to DeepSource issues."""
 from __future__ import annotations
 
+import hashlib
 import json
 import os.path
 from typing import Any, TypedDict
@@ -90,6 +91,18 @@ def parse(
     return deepsource_issues
 
 
+def results_hash(sarif_data: dict[str, Any]) -> str:
+    """Returns a hash of the results in the SARIF file."""
+    # Extract results from SARIF daa. We take hash only for results.
+    run_results = {}
+    for idx, result in enumerate(sarif_data["runs"]):
+        run_results[idx] = result["results"]
+    results_str = json.dumps(run_results, sort_keys=True)
+
+    # Calculate a checksum of the results
+    return hashlib.sha256(results_str.encode(), usedforsecurity=False).hexdigest()
+
+
 def run_sarif_parser(
     filepath: str,
     output_path: str,
@@ -101,7 +114,12 @@ def run_sarif_parser(
         raise FileNotFoundError(f"{filepath} does not exist.")
 
     if os.path.isdir(filepath):
-        artifacts = [os.path.join(filepath, file) for file in os.listdir(filepath)]
+        # Get list of files in directory, sorted by modification time (newest first)
+        artifacts = sorted(
+            (os.path.join(filepath, file) for file in os.listdir(filepath)),
+            key=os.path.getmtime,
+            reverse=True,
+        )
     else:
         artifacts = [filepath]
 
@@ -120,11 +138,20 @@ def run_sarif_parser(
 
     # Run parser
     deepsource_issues = []
+    artifact_hashes = set()
     for artifact_path in artifacts:
         with open(artifact_path) as file:  # skipcq: PTC-W6004 -- nothing sensitive here
             artifact = json.load(file)
 
         sarif_data = json.loads(artifact["data"])
+        sarif_hash = results_hash(sarif_data)
+
+        if sarif_hash in artifact_hashes:
+            # Skip this artifact, as it is a duplicate
+            continue
+        else:
+            artifact_hashes.add(sarif_hash)
+
         work_dir = artifact["metadata"]["work_dir"]
         issues = parse(sarif_data, work_dir, issue_map)
         deepsource_issues.extend(issues)
