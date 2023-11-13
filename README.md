@@ -68,7 +68,7 @@ Push a tag after merging all the changes to the default (master) branch. The `Sy
 ### The test suite
 
 There are minimal tests for the `run_community_analyzer.py` wrapper in
-`tests/community_analyzer_test.py` that do sanity checks, to ensure that the
+`tests/test_community_analyzer.py` that do sanity checks, to ensure that the
 issue map is being respected, etc.
 
 For the SARIF parser itself, the test suite expects you to create two files in
