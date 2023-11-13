@@ -1,16 +1,17 @@
 import json
 import os
-import shutil
 import pathlib
-
+import shutil
 from contextlib import contextmanager
-from typing import Iterator, Dict, Any
+from typing import Any, Dict, Iterator
 
 import run_community_analyzer
 
 
 @contextmanager
-def patch_env_values(toolbox_path: pathlib.Path, artifacts_path: pathlib.Path) -> Iterator[None]:
+def patch_env_values(
+    toolbox_path: pathlib.Path, artifacts_path: pathlib.Path
+) -> Iterator[None]:
     """Context manager to patch the ARTIFACTS_PATH environment variable"""
     old_artifacts_path = os.getenv("ARTIFACTS_PATH")
     old_toolbox_path = os.getenv("TOOLBOX_PATH")
@@ -19,13 +20,16 @@ def patch_env_values(toolbox_path: pathlib.Path, artifacts_path: pathlib.Path) -
     try:
         yield
     finally:
-        os.environ["ARTIFACTS_PATH"] = old_artifacts_path or ''
-        os.environ["TOOLBOX_PATH"] = old_toolbox_path or ''
+        os.environ["ARTIFACTS_PATH"] = old_artifacts_path or ""
+        os.environ["TOOLBOX_PATH"] = old_toolbox_path or ""
 
 
 def freeze_dict(unfrozen: Dict[str, Any]) -> frozenset[tuple[str, object] | object]:
     """Recursively freeze a dictionary."""
-    return frozenset((key, freeze_dict(value) if isinstance(value, dict) else value) for key, value in unfrozen.items())
+    return frozenset(
+        (key, freeze_dict(value) if isinstance(value, dict) else value)
+        for key, value in unfrozen.items()
+    )
 
 
 def test_duplicate_artifacts(tmp_path: pathlib.Path) -> None:
@@ -47,7 +51,7 @@ def test_duplicate_artifacts(tmp_path: pathlib.Path) -> None:
         run_community_analyzer.main(["--analyzer=kube-linter"])
 
     # Make sure there are no duplicates in the results
-    with open (toolbox_path / "analysis_results.json") as fp:
+    with open(toolbox_path / "analysis_results.json") as fp:
         analysis_results = json.load(fp)
         issues_raised = analysis_results["issues"]
 

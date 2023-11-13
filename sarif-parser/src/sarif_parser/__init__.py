@@ -4,7 +4,7 @@ from __future__ import annotations
 import hashlib
 import json
 import os.path
-from typing import Any, TypedDict, Union, Sequence
+from typing import Any, Sequence, TypedDict, Union
 
 import sentry
 
@@ -28,6 +28,7 @@ class IssuePosition(TypedDict):
 class LineColumn(TypedDict):
     line: int
     column: int
+
 
 def parse(
     sarif_data: dict[str, Any],
@@ -77,10 +78,10 @@ def parse(
                 # This issue isn't sanitised. Send an alert.
                 sentry.raise_info(
                     f"Could not find issue code for rule {issue_code} in issue map.",
-                    context= {
+                    context={
                         "tool": run.get("tool", {}).get("driver", {}).get("name"),
                         "version": run.get("tool", {}).get("driver", {}).get("version"),
-                        }
+                    },
                 )
 
             deepsource_issue = Issue(
