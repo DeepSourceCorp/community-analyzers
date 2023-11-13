@@ -24,14 +24,6 @@ def patch_env_values(
         os.environ["TOOLBOX_PATH"] = old_toolbox_path or ""
 
 
-def freeze_dict(unfrozen: Dict[str, Any]) -> frozenset[tuple[str, object] | object]:
-    """Recursively freeze a dictionary."""
-    return frozenset(
-        (key, freeze_dict(value) if isinstance(value, dict) else value)
-        for key, value in unfrozen.items()
-    )
-
-
 def test_duplicate_artifacts(tmp_path: pathlib.Path) -> None:
     """Make sure results are not duplicated when same artifacts are reported more than"""
     # create a temporary directory to store duplicate artifacts
@@ -55,10 +47,10 @@ def test_duplicate_artifacts(tmp_path: pathlib.Path) -> None:
         analysis_results = json.load(fp)
         issues_raised = analysis_results["issues"]
 
-    issues_set = {freeze_dict(issue) for issue in issues_raised}
+    issues_set = {str(issue) for issue in issues_raised}
 
     # assert that all the issues raised are unique
     assert len(issues_raised) == len(issues_set)
     # Make sure the issues are same
     for issue in issues_raised:
-        assert freeze_dict(issue) in issues_set
+        assert str(issue) in issues_set
