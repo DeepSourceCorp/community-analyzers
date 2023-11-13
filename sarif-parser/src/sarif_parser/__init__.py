@@ -72,7 +72,7 @@ def parse(
             )
 
             issue_code = issue["ruleId"]
-            if issue_map and issue_code in issue_map:
+            if issue_code in issue_map:
                 issue_code = issue_map[issue_code]["issue_code"]
             else:
                 # This issue isn't sanitised. Send an alert.
