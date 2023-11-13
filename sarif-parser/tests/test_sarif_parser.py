@@ -2,8 +2,8 @@ import json
 import os.path
 
 import pytest
-from io import StringIO
-from unittest.mock import patch, call
+from pathlib import Path
+from unittest.mock import patch, call, MagicMock
 
 
 import sarif_parser
@@ -50,7 +50,7 @@ def test_sarif_parser(sarif_file_path: str, deepsource_file_path: str) -> None:
 
 @patch("sentry.raise_info")
 # skipcq: PYL-W0613
-def test_sarif_parser_no_issue_map(mocked_run, sarif_file_path: str, deepsource_file_path: str, tmp_path: StringIO) -> None:
+def test_sarif_parser_no_issue_map(mocked_run: MagicMock, sarif_file_path: str, deepsource_file_path: str, tmp_path: Path) -> None:
     """Assert that sentry.raise_info is called when issue map is not found."""
     artifacts_path = tmp_path / "artifacts"
     artifacts_path.mkdir()
@@ -68,7 +68,7 @@ def test_sarif_parser_no_issue_map(mocked_run, sarif_file_path: str, deepsource_
     assert mocked_run.has_calls([no_issue_map_call, single_unsanitised_issue_call])
 
 
-def test_artifact_hashing(sarif_file_path: str, deepsource_file_path: str, tmp_path: StringIO) -> None:
+def test_artifact_hashing(sarif_file_path: str, deepsource_file_path: str, tmp_path: Path) -> None:
     """End to end tests for when same artifacts are present in the directory."""
     artifacts_path = tmp_path / "artifacts"
     artifacts_path.mkdir()

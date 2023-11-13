@@ -4,7 +4,7 @@ from __future__ import annotations
 import hashlib
 import json
 import os.path
-from typing import Any, TypedDict
+from typing import Any, TypedDict, Union, Sequence
 
 import sentry
 
@@ -112,8 +112,8 @@ def results_hash(sarif_data: dict[str, Any]) -> str:
 
 
 def run_sarif_parser(
-    filepath: str,
-    output_path: str,
+    filepath: Union[str, os.PathLike[str]],
+    output_path: Union[str, os.PathLike[str]],
     issue_map_path: str | None,
 ) -> None:
     """Parse SARIF files from given filepath, and save JSON output in output path."""
@@ -122,10 +122,9 @@ def run_sarif_parser(
         raise FileNotFoundError(f"{filepath} does not exist.")
 
     if os.path.isdir(filepath):
-        # Get list of files in directory, sorted by modification time (newest first)
-        artifacts = sorted(
+        # Get list of files in directory, sorted by name in the reversed order
+        artifacts: Sequence[str | os.PathLike[str]] = sorted(
             (os.path.join(filepath, file) for file in os.listdir(filepath)),
-            key=os.path.getmtime,
             reverse=True,
         )
     else:
