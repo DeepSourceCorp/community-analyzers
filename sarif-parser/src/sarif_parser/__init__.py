@@ -29,7 +29,6 @@ class LineColumn(TypedDict):
     line: int
     column: int
 
-
 def parse(
     sarif_data: dict[str, Any],
     work_dir: str = "",
@@ -72,8 +71,17 @@ def parse(
             )
 
             issue_code = issue["ruleId"]
-            if issue_code in issue_map:
+            if issue_map and issue_code in issue_map:
                 issue_code = issue_map[issue_code]["issue_code"]
+            else:
+                # This issue isn't sanitised. Send an alert.
+                sentry.raise_info(
+                    f"Could not find issue code for rule {issue_code} in issue map.",
+                    context= {
+                        "tool": run.get("tool", {}).get("driver", {}).get("name"),
+                        "version": run.get("tool", {}).get("driver", {}).get("version"),
+                        }
+                )
 
             deepsource_issue = Issue(
                 issue_code=issue_code,
