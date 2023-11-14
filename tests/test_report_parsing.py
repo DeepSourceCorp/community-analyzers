@@ -78,7 +78,9 @@ def test_sarif_parser() -> None:
             missing_ids = []
             assert result
             assert result["issues"] is not None
-            missing_ids = {issue["issue_code"] for issue in result["issues"]} - active_issues
+            missing_ids = {
+                issue["issue_code"] for issue in result["issues"]
+            } - active_issues
 
             if missing_ids:
                 raise AssertionError(
