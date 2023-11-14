@@ -1,14 +1,14 @@
 import json
 import os
 import tempfile
+import tomllib as toml
 from contextlib import contextmanager
 from pathlib import Path
 from typing import Any, Dict, Iterator, Set
 
-import run_community_analyzer
+import frontmatter  # type: ignore[import-untyped]
 
-import tomllib as toml
-import frontmatter # type: ignore[import-untyped]
+import run_community_analyzer
 
 
 def make_artifact(report_path: str, workdir: str = "") -> str:
