@@ -10,3 +10,4 @@ Indicates when a resource is deployed to the default namespace. CIS Benchmark 5.
 ## Remediation
 Create namespaces for objects in your deployment.
 """
+verbose_name = "use-namespace"

@@ -10,3 +10,4 @@ Indicates when containers mount a host path as writable.
 ## Remediation
 Set containers to mount host paths as readOnly, if you need to access files on the host.
 """
+verbose_name = "writable-host-mount"

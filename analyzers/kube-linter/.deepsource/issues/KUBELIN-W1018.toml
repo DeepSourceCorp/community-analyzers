@@ -10,3 +10,4 @@ Alert on pods/deployment-likes with sharing host's network namespace
 ## Remediation
 Ensure the host's network namespace is not shared.
 """
+verbose_name = "host-network"

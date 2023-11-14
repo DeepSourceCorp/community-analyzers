@@ -11,3 +11,4 @@ Indicates when pods reference a service account that is not found.
 Create the missing service account, or refer to an existing service account.
 
 """
+verbose_name = "non-existent-service-account"

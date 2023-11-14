@@ -4,10 +4,11 @@ from textwrap import dedent
 from issue_map_gen import generate_mapping, get_issue_map, get_issues_json
 
 
-def get_toml_content(title, description, remediation) -> str:
+def get_toml_content(title, verbose_name, description, remediation) -> str:
     """Return the content of the toml file."""
     content = f'''
     title = "{title}"
+    verbose_name = "{verbose_name}"
     severity = "major"
     category = "antipattern"
     weight = 70
@@ -44,7 +45,7 @@ def update_issue_tomls() -> None:
 
         description = issue["description"]
         remediation = issue["remediation"]
-        content = get_toml_content(issue_name, description, remediation)
+        content = get_toml_content(issue_name, issue_name, description, remediation)
         with open(filepath, "w") as f:
             f.write(content)
 

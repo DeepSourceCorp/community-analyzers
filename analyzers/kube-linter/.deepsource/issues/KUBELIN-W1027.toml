@@ -11,3 +11,4 @@ Indicates when containers fail to specify a liveness probe.
 Specify a liveness probe in your container. Refer to https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/ for details.
 
 """
+verbose_name = "no-liveness-probe"

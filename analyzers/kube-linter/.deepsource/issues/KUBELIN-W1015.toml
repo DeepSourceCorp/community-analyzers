@@ -11,3 +11,4 @@ Indicates when objects use a secret in an environment variable.
 
 Do not use raw secrets in environment variables. Instead, either mount the secret as a file or use a secretKeyRef. Refer to https://kubernetes.io/docs/concepts/configuration/secret/#using-secrets for details.
 """
+verbose_name = "env-var-secret"

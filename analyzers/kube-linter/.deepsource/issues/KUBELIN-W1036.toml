@@ -11,3 +11,4 @@ Alert on containers of allowing privilege escalation that could gain more privil
 Ensure containers do not allow privilege escalation by setting allowPrivilegeEscalation=false, privileged=false and removing CAP_SYS_ADMIN capability. See https://kubernetes.io/docs/tasks/configure-pod-container/security-context/ for more details.
 
 """
+verbose_name = "privilege-escalation-container"

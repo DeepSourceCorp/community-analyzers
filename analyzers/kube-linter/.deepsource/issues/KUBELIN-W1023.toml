@@ -11,3 +11,4 @@ Indicates when a deployment uses less than three replicas
 Increase the number of replicas in the deployment to at least three to increase the fault tolerance of the deployment.
 
 """
+verbose_name = "minimum-three-replicas"

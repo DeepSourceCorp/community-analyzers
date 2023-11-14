@@ -11,3 +11,4 @@ Indicates when objects do not have an email annotation with an owner label.
 ## Remediation
 Add an email annotation to your object with the name of the object's owner.
 """
+verbose_name = "required-label-owner"

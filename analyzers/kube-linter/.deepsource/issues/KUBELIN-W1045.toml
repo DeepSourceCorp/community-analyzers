@@ -10,3 +10,5 @@ Alert on deployments with unsafe /proc mount (procMount=Unmasked) that will bypa
 
 ## Remediation
 Ensure container does not unsafely exposes parts of /proc by setting procMount=Default.  Unmasked ProcMount bypasses the default masking behavior of the container runtime. See https://kubernetes.io/docs/concepts/security/pod-security-standards/ for more details.
+"""
+verbose_name = "unsafe-proc-mount"
