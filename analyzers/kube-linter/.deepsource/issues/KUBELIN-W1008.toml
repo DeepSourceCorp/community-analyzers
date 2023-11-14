@@ -11,3 +11,4 @@ Indicates when services do not have any associated deployments.
 Confirm that your service's selector correctly matches the labels on one of your deployments.
 
 """
+verbose_name = "dangling-service"

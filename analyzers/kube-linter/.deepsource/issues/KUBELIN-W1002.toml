@@ -11,3 +11,4 @@ Indicates when a subject (Group/User/ServiceAccount) has access to Secrets. CIS 
 Where possible, remove get, list and watch access to secret objects in the cluster.
 
 """
+verbose_name = "access-to-secrets"

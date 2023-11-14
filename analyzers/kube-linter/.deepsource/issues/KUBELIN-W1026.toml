@@ -11,3 +11,4 @@ Indicates when objects use deprecated API versions under extensions/v1beta.
 Migrate using the apps/v1 API versions for the objects. Refer to https://kubernetes.io/blog/2019/07/18/api-deprecations-in-1-16/ for details.
 
 """
+verbose_name = "no-extensions-v1beta"

@@ -10,3 +10,4 @@ Alert on deployments with sensitive host system directories mounted in container
 ## Remediation
 Ensure sensitive host system directories are not mounted in containers by removing those Volumes and VolumeMounts.
 """
+verbose_name = "sensitive-host-mounts"

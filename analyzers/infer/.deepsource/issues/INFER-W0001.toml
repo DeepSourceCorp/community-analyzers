@@ -1,5 +1,6 @@
 
 title = "infer-title"
+verbose_name = "infer-verbose-name"
 severity = "major"
 category = "antipattern"
 weight = 70

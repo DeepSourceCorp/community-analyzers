@@ -11,3 +11,4 @@ Indicates when containers do not drop NET_RAW capability
 NET_RAW makes it so that an application within the container is able to craft raw packets, use raw sockets, and bind to any address. Remove this capability in the containers under containers security contexts.
 
 """
+verbose_name = "drop-net-raw-capability"

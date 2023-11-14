@@ -11,3 +11,4 @@ Alert on pods/deployment-likes with sharing host's process namespace
 Ensure the host's process namespace is not shared.
 
 """
+verbose_name = "host-pid"
