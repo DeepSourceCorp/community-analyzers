@@ -11,3 +11,4 @@ Indicates when pods use the default service account.
 Create a dedicated service account for your pod. Refer to https://kubernetes.io/docs/tasks/configure-pod-container/configure-service-account/ for details.
 
 """
+verbose_name = "default-service-account"

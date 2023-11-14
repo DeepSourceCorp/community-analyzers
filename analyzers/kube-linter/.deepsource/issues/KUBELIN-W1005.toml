@@ -11,3 +11,4 @@ Indicates when ingress do not have any associated services.
 Confirm that your ingress's backend correctly matches the name and port on one of your services.
 
 """
+verbose_name = "dangling-ingress"

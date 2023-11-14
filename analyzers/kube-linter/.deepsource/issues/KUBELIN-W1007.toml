@@ -11,3 +11,4 @@ Indicates when NetworkPolicyPeer in Egress/Ingress rules -in the Spec of Network
 Confirm that your NetworkPolicy's Ingress/Egress peer's podselector correctly matches the labels on one of your deployments.
 
 """
+verbose_name = "dangling-networkpolicypeer-podselector"

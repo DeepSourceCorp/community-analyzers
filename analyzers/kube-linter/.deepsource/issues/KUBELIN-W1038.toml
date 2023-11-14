@@ -10,3 +10,4 @@ Alert on deployments with privileged ports mapped in containers.
 ## Remediation
 Ensure privileged ports [0, 1024] are not mapped within containers.
 """
+verbose_name = "privileged-ports"

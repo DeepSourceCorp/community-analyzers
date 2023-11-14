@@ -11,3 +11,4 @@ Indicates when deployments with multiple replicas fail to specify inter-pod anti
 Specify anti-affinity in your pod specification to ensure that the orchestrator attempts to schedule replicas on different nodes. Using podAntiAffinity, specify a labelSelector that matches pods for the deployment, and set the topologyKey to kubernetes.io/hostname. Refer to https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#inter-pod-affinity-and-anti-affinity for details.
 
 """
+verbose_name = "no-anti-affinity"

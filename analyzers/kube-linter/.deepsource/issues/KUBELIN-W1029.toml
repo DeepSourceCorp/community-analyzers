@@ -11,3 +11,4 @@ Indicates when containers are running without a read-only root filesystem.
 Set readOnlyRootFilesystem to true in the container securityContext.
 
 """
+verbose_name = "no-read-only-root-fs"

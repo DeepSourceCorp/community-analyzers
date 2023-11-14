@@ -11,3 +11,4 @@ Indicates when deployment selectors fail to match the pod template labels.
 Confirm that your deployment selector correctly matches the labels in its pod template.
 
 """
+verbose_name = "mismatching-selector"

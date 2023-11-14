@@ -11,3 +11,4 @@ Check that duplicate named env vars aren't passed to a deployment like.
 Confirm that your DeploymentLike doesn't have duplicate env vars names.
 
 """
+verbose_name = "duplicate-env-var"

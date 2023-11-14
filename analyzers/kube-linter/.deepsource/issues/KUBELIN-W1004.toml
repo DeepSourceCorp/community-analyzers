@@ -11,3 +11,4 @@ Indicates when HorizontalPodAutoscalers target a missing resource.
 Confirm that your HorizontalPodAutoscaler's scaleTargetRef correctly matches one of your deployments.
 
 """
+verbose_name = "dangling-horizontalpodautoscaler"
