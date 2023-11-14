@@ -11,3 +11,4 @@ Indicates when objects do not have an email annotation with a valid email addres
 ## Remediation
 Add an email annotation to your object with the email address of the object's owner.
 """
+verbose_name = "required-annotation-email"

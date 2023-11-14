@@ -11,3 +11,4 @@ Alert on services for forbidden types
 Ensure containers are not exposed through a forbidden service type such as NodePort or LoadBalancer.
 
 """
+verbose_name = "exposed-services"

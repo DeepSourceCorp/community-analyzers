@@ -11,3 +11,4 @@ Indicates when a deployment-like object is running a container with an invalid c
 Use a container image with a specific tag other than latest.
 
 """
+verbose_name = "latest-tag"

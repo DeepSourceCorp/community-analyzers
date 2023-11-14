@@ -11,3 +11,4 @@ Indicates when deployments use the deprecated serviceAccount field.
 Use the serviceAccountName field instead. If you must specify serviceAccount, ensure values for serviceAccount and serviceAccountName match.
 
 """
+verbose_name = "deprecated-service-account-field"

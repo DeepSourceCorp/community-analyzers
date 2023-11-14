@@ -11,3 +11,4 @@ Indicate when a wildcard is used in Role or ClusterRole rules. CIS Benchmark 5.1
 ## Remediation
 Where possible replace any use of wildcards in clusterroles and roles with specific objects or actions.
 """
+verbose_name = "wildcard-in-rules"

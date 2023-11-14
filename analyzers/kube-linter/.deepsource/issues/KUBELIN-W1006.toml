@@ -11,3 +11,4 @@ Indicates when networkpolicies do not have any associated deployments.
 Confirm that your networkPolicy's podselector correctly matches the labels on one of your deployments.
 
 """
+verbose_name = "dangling-networkpolicy"

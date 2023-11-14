@@ -10,3 +10,4 @@ Indicates when deployments have containers running in privileged mode.
 ## Remediation
 Do not run your container as privileged unless it is required.
 """
+verbose_name = "privileged-container"
