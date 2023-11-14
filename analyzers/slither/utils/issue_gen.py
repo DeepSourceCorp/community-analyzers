@@ -70,7 +70,7 @@ def update_issue_tomls() -> None:
 
         filepath = _get_toml_path(issue_code)
 
-        title = detector["title"]
+        title = detector["title"].removesuffix(".")
         check_name = detector["check"]
         impact = detector["impact"]
         wiki_url = detector["wiki_url"]

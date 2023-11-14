@@ -1,4 +1,4 @@
-title = "If a `return` is incorrectly used in assembly mode."
+title = "If a `return` is incorrectly used in assembly mode"
 verbose_name = "incorrect-return"
 severity = "critical"
 category = "antipattern"

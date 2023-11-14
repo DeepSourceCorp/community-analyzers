@@ -1,4 +1,4 @@
-title = "If a `return` is used instead of a `leave`."
+title = "If a `return` is used instead of a `leave`"
 verbose_name = "return-leave"
 severity = "critical"
 category = "antipattern"
