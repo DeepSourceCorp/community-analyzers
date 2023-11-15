@@ -1,2 +1,3 @@
 ./sarif-parser
 sentry-sdk
+python-frontmatter
