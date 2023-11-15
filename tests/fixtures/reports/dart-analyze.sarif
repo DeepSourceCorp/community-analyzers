@@ -1,0 +1,434 @@
+{
+  "version": "2.1.0",
+  "runs": [
+    {
+      "versionControlProvenance": [
+        {}
+      ],
+      "originalUriBaseIds": {
+        "SRCROOT": {
+          "uri": "file:///Users/user/code/samples/command_line",
+          "description": {
+            "text": "The root directory for the source files."
+          }
+        }
+      },
+      "tool": {
+        "driver": {
+          "name": "dart analyze",
+          "informationUri": "https://dart.dev/tools/dart-analyze",
+          "rules": [
+            {
+              "id": "undefined_annotation",
+              "name": "undefined_annotation"
+            },
+            {
+              "id": "undefined_method",
+              "name": "undefined_method"
+            },
+            {
+              "id": "include_file_not_found",
+              "name": "include_file_not_found"
+            },
+            {
+              "id": "undefined_identifier",
+              "name": "undefined_identifier"
+            },
+            {
+              "id": "undefined_class",
+              "name": "undefined_class"
+            },
+            {
+              "id": "uri_does_not_exist",
+              "name": "uri_does_not_exist"
+            },
+            {
+              "id": "undefined_function",
+              "name": "undefined_function"
+            }
+          ]
+        }
+      },
+      "results": [
+        {
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "bin/github_activity.dart",
+                  "uriBaseId": "SRCROOT"
+                },
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 8
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Target of URI doesn't exist: 'package:cli_app/github_activity.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist."
+          },
+          "ruleId": "uri_does_not_exist"
+        },
+        {
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "bin/github_activity.dart",
+                  "uriBaseId": "SRCROOT"
+                },
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 8
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Target of URI doesn't exist: 'package:cli_app/src/formatter.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist."
+          },
+          "ruleId": "uri_does_not_exist"
+        },
+        {
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "bin/github_activity.dart",
+                  "uriBaseId": "SRCROOT"
+                },
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 17
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "The function 'parseOptions' isn't defined. Try importing the library that defines 'parseOptions', correcting the name to the name of an existing function, or defining a function named 'parseOptions'."
+          },
+          "ruleId": "undefined_function"
+        },
+        {
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "bin/github_activity.dart",
+                  "uriBaseId": "SRCROOT"
+                },
+                "region": {
+                  "startLine": 22,
+                  "startColumn": 17
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "The function 'ActivityService' isn't defined. Try importing the library that defines 'ActivityService', correcting the name to the name of an existing function, or defining a function named 'ActivityService'."
+          },
+          "ruleId": "undefined_function"
+        },
+        {
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "bin/github_activity.dart",
+                  "uriBaseId": "SRCROOT"
+                },
+                "region": {
+                  "startLine": 35,
+                  "startColumn": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Undefined class 'EventFormatter'. Try changing the name to the name of an existing class, or creating a class with the name 'EventFormatter'."
+          },
+          "ruleId": "undefined_class"
+        },
+        {
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "bin/github_activity.dart",
+                  "uriBaseId": "SRCROOT"
+                },
+                "region": {
+                  "startLine": 35,
+                  "startColumn": 30
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Undefined class 'Options'. Try changing the name to the name of an existing class, or creating a class with the name 'Options'."
+          },
+          "ruleId": "undefined_class"
+        },
+        {
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "bin/github_activity.dart",
+                  "uriBaseId": "SRCROOT"
+                },
+                "region": {
+                  "startLine": 37,
+                  "startColumn": 12
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "The function 'MarkdownEventFormatter' isn't defined. Try importing the library that defines 'MarkdownEventFormatter', correcting the name to the name of an existing function, or defining a function named 'MarkdownEventFormatter'."
+          },
+          "ruleId": "undefined_function"
+        },
+        {
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "bin/github_activity.dart",
+                  "uriBaseId": "SRCROOT"
+                },
+                "region": {
+                  "startLine": 39,
+                  "startColumn": 10
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "The function 'DefaultEventFormatter' isn't defined. Try importing the library that defines 'DefaultEventFormatter', correcting the name to the name of an existing function, or defining a function named 'DefaultEventFormatter'."
+          },
+          "ruleId": "undefined_function"
+        },
+        {
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "bin/github_activity.dart",
+                  "uriBaseId": "SRCROOT"
+                },
+                "region": {
+                  "startLine": 49,
+                  "startColumn": 3
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Undefined name 'parser'. Try correcting the name to one that is defined, or defining the name."
+          },
+          "ruleId": "undefined_identifier"
+        },
+        {
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "lib/github_activity.dart",
+                  "uriBaseId": "SRCROOT"
+                },
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 8
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Target of URI doesn't exist: 'package:github/github.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist."
+          },
+          "ruleId": "uri_does_not_exist"
+        },
+        {
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "lib/github_activity.dart",
+                  "uriBaseId": "SRCROOT"
+                },
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 1
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Undefined class 'Authentication'. Try changing the name to the name of an existing class, or creating a class with the name 'Authentication'."
+          },
+          "ruleId": "undefined_class"
+        },
+        {
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "lib/github_activity.dart",
+                  "uriBaseId": "SRCROOT"
+                },
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 12
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Undefined name 'Authentication'. Try correcting the name to one that is defined, or defining the name."
+          },
+          "ruleId": "undefined_identifier"
+        },
+        {
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "lib/github_activity.dart",
+                  "uriBaseId": "SRCROOT"
+                },
+                "region": {
+                  "startLine": 23,
+                  "startColumn": 10
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Undefined name 'Authentication'. Try correcting the name to one that is defined, or defining the name."
+          },
+          "ruleId": "undefined_identifier"
+        },
+        {
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "lib/github_activity.dart",
+                  "uriBaseId": "SRCROOT"
+                },
+                "region": {
+                  "startLine": 52,
+                  "startColumn": 18
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "The method 'GitHub' isn't defined for the type 'ActivityService'. Try correcting the name to the name of an existing method, or defining a method named 'GitHub'."
+          },
+          "ruleId": "undefined_method"
+        },
+        {
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "lib/github_activity.dart",
+                  "uriBaseId": "SRCROOT"
+                },
+                "region": {
+                  "startLine": 66,
+                  "startColumn": 21
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Undefined class 'Event'. Try changing the name to the name of an existing class, or creating a class with the name 'Event'."
+          },
+          "ruleId": "undefined_class"
+        },
+        {
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "lib/src/formatter.dart",
+                  "uriBaseId": "SRCROOT"
+                },
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 8
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Target of URI doesn't exist: 'package:github/github.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist."
+          },
+          "ruleId": "uri_does_not_exist"
+        },
+        {
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "lib/src/formatter.dart",
+                  "uriBaseId": "SRCROOT"
+                },
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 8
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "Target of URI doesn't exist: 'package:intl/intl.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist."
+          },
+          "ruleId": "uri_does_not_exist"
+        },
+        {
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "analysis_options.yaml",
+                  "uriBaseId": "SRCROOT"
+                },
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 10
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "The include file 'package:lints/recommended.yaml' in '/Users/user/code/samples/command_line/analysis_options.yaml' can't be found when analyzing '/Users/user/code/samples/command_line'."
+          },
+          "ruleId": "include_file_not_found"
+        }
+      ]
+    }
+  ]
+}
