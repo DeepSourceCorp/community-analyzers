@@ -41,9 +41,6 @@ def update_issues(issues: List[Issue]) -> None:
 
 
 if __name__ == "__main__":
-    issues = []
-    with tempfile.TemporaryDirectory() as d:
-        extractor = IssueExtractor(d)
-        issues = extractor.issues
-
+    extractor = IssueExtractor()
+    issues = extractor.issues
     update_issues(issues=issues)

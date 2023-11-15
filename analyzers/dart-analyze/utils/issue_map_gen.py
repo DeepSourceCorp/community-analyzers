@@ -48,9 +48,6 @@ def generate_mapping(issues: List[Issue]) -> Dict[str, Dict[str, str]]:
 
 
 if __name__ == "__main__":
-    issues = []
-    with tempfile.TemporaryDirectory() as d:
-        extractor = IssueExtractor(d)
-        issues = extractor.issues
-
+    extractor = IssueExtractor()
+    issues = extractor.issues
     generate_mapping(issues=issues)
