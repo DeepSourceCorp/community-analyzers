@@ -41,10 +41,10 @@ class IssueExtractor:
         rules = self.fetch_rules()
         self._issues = [
             Issue(
-                rule["name"],
-                rule["description"].rstrip("."),
-                rule["details"],
-                self.GROUP_CATEGORY_MAP.get(rule["group"]),
+                self.get_code(rule),
+                self.get_title(rule),
+                self.get_description(rule),
+                self.get_category(rule),
             )
             for rule in rules
             if rule["state"] == "stable"
@@ -59,3 +59,22 @@ class IssueExtractor:
             raise Exception(f"Failed to fetch rules {response.code}")
 
         return json.loads(response.read())
+
+    @classmethod
+    def get_code(cls, rule: dict) -> str:
+        """Extracts the rule code"""
+        return rule["name"]
+
+    @classmethod
+    def get_title(cls, rule: dict) -> str:
+        """Extract & sanitize the rule title."""
+        return rule["description"].rstrip(".").replace('"', r"\"")
+
+    def get_description(cls, rule: dict) -> str:
+        """Extracts the description from the rule"""
+        return rule["details"]
+
+    @classmethod
+    def get_category(cls, rule: dict) -> str:
+        """Extracts and returns the category mapped to the rule"""
+        return cls.GROUP_CATEGORY_MAP.get(rule["group"])
