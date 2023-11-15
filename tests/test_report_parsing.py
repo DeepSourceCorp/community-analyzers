@@ -75,7 +75,7 @@ def test_sarif_parser() -> None:
         report_path = Path(reports_base_dir, report).as_posix()
 
         with parse_single_artifact(report_path, report_tool) as result:
-            missing_ids = []
+            missing_ids = set()
             assert result
             assert result["issues"] is not None
             missing_ids = {
