@@ -9,12 +9,13 @@ from typing import Any, Dict, Iterator, Set
 import frontmatter  # type: ignore[import-untyped]
 
 import run_community_analyzer
+from testutils import extract_filepaths_from_sarif, temp_analysis_config
 
 
 def make_artifact(report_path: str, workdir: str = "") -> str:
     """Return an artifact file for the given report, with the given workdir."""
     artifact_path = tempfile.NamedTemporaryFile().name
-    # skipcq: PTC-W0064  # Report path is safe
+    # skipcq: PTC-W6004  # Report path is safe
     with open(report_path) as report_file:
         data = report_file.read()
     with open(artifact_path, "w") as artifact_file:
@@ -26,13 +27,23 @@ def make_artifact(report_path: str, workdir: str = "") -> str:
 def parse_single_artifact(
     report_path: str, report_name: str
 ) -> Iterator[Dict[str, Any]]:
-    """Run community analyzer on a single artifact and return the deepsource result object."""
+    """
+    Run community analyzer on a single artifact and return the deepsource result object.
+    """
     artifact_path = make_artifact(report_path)
+    artifact_filepaths = extract_filepaths_from_sarif(
+        json.loads(json.load(open(artifact_path))["data"])
+    )
     toolbox_path = tempfile.gettempdir()
     os.environ["ARTIFACTS_PATH"] = artifact_path
     os.environ["TOOLBOX_PATH"] = toolbox_path
     output_path = Path(toolbox_path, "analysis_results.json").as_posix()
-    run_community_analyzer.main([f"--analyzer={report_name}"])
+
+    with temp_analysis_config(
+        Path(toolbox_path, "analysis_config.json").as_posix(), artifact_filepaths
+    ):
+        run_community_analyzer.main([f"--analyzer={report_name}"])
+
     with open(output_path) as output_file:
         yield json.load(output_file)
 
@@ -63,9 +74,11 @@ def get_issue_codes_for_tool(report_tool: str) -> Set[str]:
 
 
 def test_sarif_parser() -> None:
-    """End to end test to make sure the SARIF parser throws no errors while parsing reports."""
-    # We parse all reports in `tests/fixtures/reports` and try to make a deepsource report out of it.
-    # There shouldn't be any errors while parsing the reports.
+    """
+    End to end test to make sure the SARIF parser throws no errors while parsing reports.
+    """
+    # We parse all reports in `tests/fixtures/reports` and try to make a deepsource
+    # report out of it. There shouldn't be any errors while parsing the reports.
     # All test reports are present in the `tests/fixtures/reports` directory.
     reports_base_dir = Path.joinpath(Path(__file__).parent, "fixtures", "reports")
     reports = os.listdir(reports_base_dir)

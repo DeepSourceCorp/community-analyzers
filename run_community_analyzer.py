@@ -1,4 +1,5 @@
 import argparse
+import json
 import os
 import os.path
 
@@ -19,6 +20,23 @@ def get_issue_map(analyzer_name: str) -> str:
     return os.path.join(analyzers_dir, analyzer_name, "utils", "issue_map.json")
 
 
+def get_files_to_analyze() -> set[str]:
+    """
+    Read the analysis config to get the list of files to analyze.
+    Always raise issues only in these files.
+    """
+    toolbox_path = os.getenv("TOOLBOX_PATH", "/toolbox")
+    analysis_config_path = os.path.join(toolbox_path, "analysis_config.json")
+
+    if not os.path.exists(analysis_config_path):
+        raise ValueError(f"Could not find analysis config at {analysis_config_path}.")
+
+    with open(analysis_config_path) as file:
+        analysis_config = json.load(file)
+
+    return set(analysis_config["files"])
+
+
 def main(argv: list[str] | None = None) -> None:
     """Runs the CLI."""
     toolbox_path = os.getenv("TOOLBOX_PATH", "/toolbox")
@@ -35,7 +53,10 @@ def main(argv: list[str] | None = None) -> None:
 
     analyzer_name = args.analyzer
     issue_map_path = get_issue_map(analyzer_name)
-    run_sarif_parser(artifacts_path, output_path, issue_map_path)
+    modified_files = get_files_to_analyze()
+    run_sarif_parser(
+        artifacts_path, output_path, issue_map_path, modified_files=modified_files
+    )
 
 
 if __name__ == "__main__":
