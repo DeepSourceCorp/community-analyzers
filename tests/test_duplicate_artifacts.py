@@ -5,6 +5,8 @@ import shutil
 from contextlib import contextmanager
 from typing import Any, Dict, Iterator
 
+from testutils import extract_filepaths_from_sarif, temp_analysis_config
+
 import run_community_analyzer
 
 
@@ -38,8 +40,18 @@ def test_duplicate_artifacts(tmp_path: pathlib.Path) -> None:
     shutil.copy(artifact_path, artifacts_dir / "artifact_2")
     shutil.copy(artifact_path, artifacts_dir / "artifact_3")
 
+    # Extract filepaths from the sarif report to be used in the analysis config
+    with open(artifact_path) as fp:
+        data = json.load(fp)
+        sarif_data = json.loads(data["data"])
+        modified_filepath = extract_filepaths_from_sarif(sarif_data)
+
+    temp_analysis_config_path = os.path.join(toolbox_path, "analysis_config.json")
+
     # Run the community analyzer on the artifact directory
-    with patch_env_values(toolbox_path, artifacts_dir):
+    with patch_env_values(toolbox_path, artifacts_dir), temp_analysis_config(
+        temp_analysis_config_path, modified_filepath
+    ):
         run_community_analyzer.main(["--analyzer=kube-linter"])
 
     # Make sure there are no duplicates in the results
