@@ -3,7 +3,6 @@ import os
 from pathlib import Path
 
 import pytest
-
 from testutils import extract_filepaths_from_deepsource_json, temp_analysis_config
 
 import run_community_analyzer
@@ -195,7 +194,9 @@ def test_community_analyzer(tmp_path: Path) -> None:
     # Case: when analysis config is not present, it should raise an error.
     with pytest.raises(ValueError) as exe:
         run_community_analyzer.main(["--analyzer=kube-linter"])
-    assert str(exe.value) == f"Could not find analysis config at {analysis_config_path}."
+    assert (
+        str(exe.value) == f"Could not find analysis config at {analysis_config_path}."
+    )
 
     # Case: all files from the report are present in the analysis config.
     with temp_analysis_config(analysis_config_path, modified_files):
@@ -212,7 +213,9 @@ def test_community_analyzer(tmp_path: Path) -> None:
     # Case: only a subset of files from the report are present in the analysis config.
     # Note: There are 7 issues in this file in our report fixture.
     # See `expected_result`.
-    modified_files = ["charts/runner/templates/tests/test-connection.yaml",]
+    modified_files = [
+        "charts/runner/templates/tests/test-connection.yaml",
+    ]
     with temp_analysis_config(analysis_config_path, modified_files):
         run_community_analyzer.main(["--analyzer=kube-linter"])
 
@@ -225,4 +228,7 @@ def test_community_analyzer(tmp_path: Path) -> None:
     assert len(result["issues"]) == 7
 
     for issue in result["issues"]:
-        assert issue["location"]["path"] == "charts/runner/templates/tests/test-connection.yaml"
+        assert (
+            issue["location"]["path"]
+            == "charts/runner/templates/tests/test-connection.yaml"
+        )
