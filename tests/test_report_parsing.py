@@ -7,9 +7,9 @@ from pathlib import Path
 from typing import Any, Dict, Iterator, Set
 
 import frontmatter  # type: ignore[import-untyped]
+from testutils import extract_filepaths_from_sarif, temp_analysis_config
 
 import run_community_analyzer
-from testutils import extract_filepaths_from_sarif, temp_analysis_config
 
 
 def make_artifact(report_path: str, workdir: str = "") -> str:

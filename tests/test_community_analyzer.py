@@ -2,9 +2,9 @@ import json
 import os
 from pathlib import Path
 
-import run_community_analyzer
 from testutils import extract_filepaths_from_deepsource_json, temp_analysis_config
 
+import run_community_analyzer
 
 expected_result = {
     "is_passed": False,
@@ -185,7 +185,7 @@ def test_community_analyzer(tmp_path: Path) -> None:
     """Test for `run_community_analyzer.main()`, to test `issue_map.json` parsing."""
     toolbox_path = tmp_path.as_posix()
     artifacts_path = os.path.join(os.path.dirname(__file__), "test_artifacts")
-    analysis_config_path = os.path.join(toolbox_path , "analysis_config.json")
+    analysis_config_path = os.path.join(toolbox_path, "analysis_config.json")
     modified_files = extract_filepaths_from_deepsource_json(expected_result)
 
     os.environ["TOOLBOX_PATH"] = toolbox_path

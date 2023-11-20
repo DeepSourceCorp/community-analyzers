@@ -5,8 +5,9 @@ import shutil
 from contextlib import contextmanager
 from typing import Any, Dict, Iterator
 
-import run_community_analyzer
 from testutils import extract_filepaths_from_sarif, temp_analysis_config
+
+import run_community_analyzer
 
 
 @contextmanager

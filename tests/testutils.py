@@ -1,20 +1,19 @@
-import os
 import json
-
-from typing import Any, Iterator
-
+import os
 from contextlib import contextmanager
+from typing import Any, Iterator
 
 
 def extract_filepaths_from_sarif(
-        sarif: dict[str, Any],
-        trim_workdir: bool=False,
-        workdir: str | None = None) -> list[str]:
+    sarif: dict[str, Any], trim_workdir: bool = False, workdir: str | None = None
+) -> list[str]:
     """Extracts filepaths from a SARIF file."""
     filepaths = []
     for run in sarif["runs"]:
         for result in run["results"]:
-            filepath = result["locations"][0]["physicalLocation"]["artifactLocation"]["uri"]
+            filepath = result["locations"][0]["physicalLocation"]["artifactLocation"][
+                "uri"
+            ]
 
             if trim_workdir:
                 filepath = filepath.replace(workdir, "")
@@ -24,7 +23,9 @@ def extract_filepaths_from_sarif(
     return filepaths
 
 
-def extract_filepaths_from_deepsource_json(deepsource_json: dict[str, Any]) -> list[str]:
+def extract_filepaths_from_deepsource_json(
+    deepsource_json: dict[str, Any]
+) -> list[str]:
     """Extracts filepaths from a DeepSource JSON file."""
     filepaths = []
     for issue in deepsource_json["issues"]:
@@ -34,7 +35,9 @@ def extract_filepaths_from_deepsource_json(deepsource_json: dict[str, Any]) -> l
 
 
 @contextmanager
-def temp_analysis_config(config_path: str | os.PathLike[str] , files: list[str]) -> Iterator[None]:
+def temp_analysis_config(
+    config_path: str | os.PathLike[str], files: list[str]
+) -> Iterator[None]:
     """
     Prepare a minimal analysis config, by only populating `files` field and place it
     in the provided config path.
