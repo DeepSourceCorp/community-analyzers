@@ -4,9 +4,7 @@ from contextlib import contextmanager
 from typing import Any, Iterator
 
 
-def extract_filepaths_from_sarif(
-    sarif: dict[str, Any], trim_workdir: bool = False, workdir: str | None = None
-) -> list[str]:
+def extract_filepaths_from_sarif(sarif: dict[str, Any]) -> list[str]:
     """Extracts filepaths from a SARIF file."""
     filepaths = []
     for run in sarif["runs"]:
@@ -14,9 +12,6 @@ def extract_filepaths_from_sarif(
             filepath = result["locations"][0]["physicalLocation"]["artifactLocation"][
                 "uri"
             ]
-
-            if trim_workdir:
-                filepath = filepath.replace(workdir, "")
 
             filepaths.append(filepath)
 
