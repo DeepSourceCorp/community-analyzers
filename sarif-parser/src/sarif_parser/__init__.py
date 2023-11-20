@@ -34,12 +34,15 @@ def parse(
     sarif_data: dict[str, Any],
     work_dir: str = "",
     issue_map: dict[str, Any] | None = None,
+    *,
+    modified_files: set[str] | None = None,
 ) -> list[Issue]:
     """Parses a SARIF file and returns a list of DeepSource issues."""
     if issue_map is None:
         issue_map = {}
 
     deepsource_issues: list[Issue] = []
+
     for run in sarif_data["runs"]:
         for issue in run["results"]:
             assert len(issue["locations"]) == 1
@@ -51,6 +54,10 @@ def parse(
             issue_path = issue_path.removeprefix(work_dir)
             # remove leading "/" if any
             issue_path = issue_path.removeprefix("/")
+
+            # Check if this issue is in the list of files to analyze
+            if modified_files is not None and issue_path not in modified_files:
+                continue
 
             start_line = location.get("contextRegion", {}).get(
                 "startLine"
@@ -116,6 +123,8 @@ def run_sarif_parser(
     filepath: Union[str, os.PathLike[str]],
     output_path: Union[str, os.PathLike[str]],
     issue_map_path: str | None,
+    *,
+    modified_files: set[str] | None = None,
 ) -> None:
     """Parse SARIF files from given filepath, and save JSON output in output path."""
     # Get list of sarif files
@@ -157,11 +166,11 @@ def run_sarif_parser(
         if sarif_hash in artifact_hashes:
             # Skip this artifact, as it is a duplicate
             continue
-        else:
-            artifact_hashes.add(sarif_hash)
+
+        artifact_hashes.add(sarif_hash)
 
         work_dir = artifact["metadata"]["work_dir"]
-        issues = parse(sarif_data, work_dir, issue_map)
+        issues = parse(sarif_data, work_dir, issue_map, modified_files=modified_files)
         deepsource_issues.extend(issues)
 
     issues_dict = {
