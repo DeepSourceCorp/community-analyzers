@@ -2,6 +2,9 @@ import json
 import os
 from pathlib import Path
 
+import pytest
+from testutils import extract_filepaths_from_deepsource_json, temp_analysis_config
+
 import run_community_analyzer
 
 expected_result = {
@@ -183,10 +186,21 @@ def test_community_analyzer(tmp_path: Path) -> None:
     """Test for `run_community_analyzer.main()`, to test `issue_map.json` parsing."""
     toolbox_path = tmp_path.as_posix()
     artifacts_path = os.path.join(os.path.dirname(__file__), "test_artifacts")
-
+    analysis_config_path = os.path.join(toolbox_path, "analysis_config.json")
+    modified_files = extract_filepaths_from_deepsource_json(expected_result)
     os.environ["TOOLBOX_PATH"] = toolbox_path
     os.environ["ARTIFACTS_PATH"] = artifacts_path
-    run_community_analyzer.main(["--analyzer=kube-linter"])
+
+    # Case: when analysis config is not present, it should raise an error.
+    with pytest.raises(ValueError) as exe:
+        run_community_analyzer.main(["--analyzer=kube-linter"])
+    assert (
+        str(exe.value) == f"Could not find analysis config at {analysis_config_path}."
+    )
+
+    # Case: all files from the report are present in the analysis config.
+    with temp_analysis_config(analysis_config_path, modified_files):
+        run_community_analyzer.main(["--analyzer=kube-linter"])
 
     analysis_results = tmp_path / "analysis_results.json"
     assert analysis_results.exists()
@@ -195,3 +209,26 @@ def test_community_analyzer(tmp_path: Path) -> None:
         result = json.load(file)
 
     assert result == expected_result
+
+    # Case: only a subset of files from the report are present in the analysis config.
+    # Note: There are 7 issues in this file in our report fixture.
+    # See `expected_result`.
+    modified_files = [
+        "charts/runner/templates/tests/test-connection.yaml",
+    ]
+    with temp_analysis_config(analysis_config_path, modified_files):
+        run_community_analyzer.main(["--analyzer=kube-linter"])
+
+    analysis_results = tmp_path / "analysis_results.json"
+    assert analysis_results.exists()
+
+    with open(analysis_results) as file:
+        result = json.load(file)
+
+    assert len(result["issues"]) == 7
+
+    for issue in result["issues"]:
+        assert (
+            issue["location"]["path"]
+            == "charts/runner/templates/tests/test-connection.yaml"
+        )
