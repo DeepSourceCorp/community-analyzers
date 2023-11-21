@@ -9,7 +9,11 @@ __all__ = ["get_all_detector_classes", "get_all_detector_json"]
 
 
 class DetectorJson(TypedDict):
-    # ref: https://github.com/crytic/slither/blob/master/slither/utils/command_line.py#L368
+    """
+    Represents a Slither detector.
+    ref: https://github.com/crytic/slither/blob/master/slither/utils/command_line.py#L368
+    """
+
     rule_id: str  # custom param
     index: int
     check: str
@@ -23,7 +27,10 @@ class DetectorJson(TypedDict):
 
 
 def _gen_rule_id(detector_class: Type[AbstractDetector]) -> str:
-    # ref: https://github.com/crytic/slither/blob/master/slither/utils/output.py#L91-L97
+    """
+    Generate unique rule ID for a Slither detector.
+    ref: https://github.com/crytic/slither/blob/master/slither/utils/output.py#L91-L97
+    """
     impact = detector_class.IMPACT.value
     confidence = detector_class.CONFIDENCE.value
     check_name = detector_class.ARGUMENT
@@ -31,7 +38,10 @@ def _gen_rule_id(detector_class: Type[AbstractDetector]) -> str:
 
 
 def get_all_detector_classes() -> List[Type[AbstractDetector]]:
-    # ref: https://github.com/crytic/slither/blob/master/tests/utils.py#L7
+    """
+    Returns list of classes for all of Slither's detectors.
+    ref: https://github.com/crytic/slither/blob/master/tests/utils.py#L7
+    """
     detectors = [getattr(all_detectors, name) for name in dir(all_detectors)]
     return [
         d for d in detectors if inspect.isclass(d) and issubclass(d, AbstractDetector)
@@ -39,7 +49,10 @@ def get_all_detector_classes() -> List[Type[AbstractDetector]]:
 
 
 def get_all_detector_json() -> List[Dict[str, DetectorJson]]:
-    # ref: https://github.com/crytic/slither/blob/master/slither/utils/command_line.py#L321
+    """
+    Returns list of `DetectorJson` dicts for all of Slither's detectors.
+    ref: https://github.com/crytic/slither/blob/master/slither/utils/command_line.py#L321
+    """
     detectors_classes = get_all_detector_classes()
     detectors_jsons = output_detectors_json(detectors_classes)
     detector_class2json_map = {

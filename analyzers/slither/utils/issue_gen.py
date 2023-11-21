@@ -11,6 +11,7 @@ from issue_map_gen import generate_mapping, get_issue_map
 
 
 def _get_toml_path(issue_code: str) -> str:
+    """Returns the file path to a issue toml for given `issue_code`."""
     return os.path.join(
         os.path.dirname(os.path.dirname(__file__)),
         f".deepsource/issues/{issue_code}.toml",
@@ -53,9 +54,7 @@ description = """
 
 
 def update_issue_tomls() -> None:
-    """
-    Create issue toml files.
-    """
+    """Create issue toml files."""
     # Generates mapping if doesn't exist and then read it
     generate_mapping()
     mapping = get_issue_map()
