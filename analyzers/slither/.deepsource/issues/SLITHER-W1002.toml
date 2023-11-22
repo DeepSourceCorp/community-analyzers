@@ -1,0 +1,27 @@
+title = "transferFrom uses arbitrary `from`"
+verbose_name = "arbitrary-send-erc20"
+severity = "critical"
+category = "antipattern"
+weight = 80
+description = """
+Detect when `msg.sender` is not used as `from` in transferFrom.
+
+<!--more-->
+
+## Exploit Scenario
+
+```solidity
+function a(address from, address to, uint256 amount) public {
+    erc20.transferFrom(from, to, am);
+}
+```
+Alice approves this contract to spend her ERC20 tokens. Bob can call `a` and specify Alice's address as the `from` parameter in `transferFrom`, allowing him to transfer Alice's tokens to himself.
+
+## Recommendation
+
+Use `msg.sender` as `from` in transferFrom.
+
+
+## Learn more
+[arbitrary-send-erc20](https://github.com/crytic/slither/wiki/Detector-Documentation#arbitrary-from-in-transferfrom) on Slither's wiki.
+"""

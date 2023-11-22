@@ -1,0 +1,27 @@
+title = "Controlled delegatecall destination"
+verbose_name = "controlled-delegatecall"
+severity = "critical"
+category = "antipattern"
+weight = 80
+description = """
+`Delegatecall` or `callcode` to an address controlled by the user.
+
+<!--more-->
+
+## Exploit Scenario
+
+```solidity
+contract Delegatecall{
+    function delegate(address to, bytes data){
+        to.delegatecall(data);
+    }
+}
+```
+Bob calls `delegate` and delegates the execution to his malicious contract. As a result, Bob withdraws the funds of the contract and destructs it.
+
+## Recommendation
+Avoid using `delegatecall`. Use only trusted destinations.
+
+## Learn more
+[controlled-delegatecall](https://github.com/crytic/slither/wiki/Detector-Documentation#controlled-delegatecall) on Slither's wiki.
+"""

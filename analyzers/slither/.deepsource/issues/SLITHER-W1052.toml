@@ -1,0 +1,30 @@
+title = "Modifiers that can return the default value"
+verbose_name = "incorrect-modifier"
+severity = "minor"
+category = "antipattern"
+weight = 40
+description = """
+If a modifier does not execute `_` or revert, the execution of the function will return the default value, which can be misleading for the caller.
+
+<!--more-->
+
+## Exploit Scenario
+
+```solidity
+modidfier myModif(){
+    if(..){
+        _;
+    }
+}
+function get() myModif returns(uint){
+
+}
+```
+If the condition in `myModif` is false, the execution of `get()` will return 0.
+
+## Recommendation
+All the paths in a modifier must execute `_` or revert.
+
+## Learn more
+[incorrect-modifier](https://github.com/crytic/slither/wiki/Detector-Documentation#incorrect-modifier) on Slither's wiki.
+"""

@@ -1,0 +1,19 @@
+title = "Use Codex to find vulnerabilities"
+verbose_name = "codex"
+severity = "critical"
+category = "antipattern"
+weight = 80
+description = """
+Use [codex](https://openai.com/blog/openai-codex/) to find vulnerabilities
+
+<!--more-->
+
+## Exploit Scenario
+N/A
+
+## Recommendation
+Review codex's message.
+
+## Learn more
+[codex](https://github.com/crytic/slither/wiki/Detector-Documentation#codex) on Slither's wiki.
+"""

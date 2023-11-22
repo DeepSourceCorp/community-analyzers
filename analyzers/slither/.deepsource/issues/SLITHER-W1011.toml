@@ -1,0 +1,43 @@
+title = "State variables shadowing"
+verbose_name = "shadowing-state"
+severity = "critical"
+category = "antipattern"
+weight = 80
+description = """
+Detection of state variables shadowed.
+
+<!--more-->
+
+## Exploit Scenario
+
+```solidity
+contract BaseContract{
+    address owner;
+
+    modifier isOwner(){
+        require(owner == msg.sender);
+        _;
+    }
+
+}
+
+contract DerivedContract is BaseContract{
+    address owner;
+
+    constructor(){
+        owner = msg.sender;
+    }
+
+    function withdraw() isOwner() external{
+        msg.sender.transfer(this.balance);
+    }
+}
+```
+`owner` of `BaseContract` is never assigned and the modifier `isOwner` does not work.
+
+## Recommendation
+Remove the state variable shadowing.
+
+## Learn more
+[shadowing-state](https://github.com/crytic/slither/wiki/Detector-Documentation#state-variable-shadowing) on Slither's wiki.
+"""

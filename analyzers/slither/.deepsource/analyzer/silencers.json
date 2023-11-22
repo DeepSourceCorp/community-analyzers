@@ -1,0 +1,10 @@
+[
+    {
+        "extension": ".sol$",
+        "comment_identifier": "//"
+    },
+    {
+        "extension": ".vy$",
+        "comment_identifier": "#"
+    }
+]

@@ -1,0 +1,38 @@
+title = "Misuse of Boolean constant"
+verbose_name = "boolean-cst"
+severity = "major"
+category = "antipattern"
+weight = 60
+description = """
+Detects the misuse of a Boolean constant.
+
+<!--more-->
+
+## Exploit Scenario
+
+```solidity
+contract A {
+	function f(uint x) public {
+		// ...
+        if (false) { // bad!
+           // ...
+        }
+		// ...
+	}
+
+	function g(bool b) public returns (bool) {
+		// ...
+        return (b || true); // bad!
+		// ...
+	}
+}
+```
+Boolean constants in code have only a few legitimate uses. 
+Other uses (in complex expressions, as conditionals) indicate either an error or, most likely, the persistence of faulty code.
+
+## Recommendation
+Verify and simplify the condition.
+
+## Learn more
+[boolean-cst](https://github.com/crytic/slither/wiki/Detector-Documentation#misuse-of-a-boolean-constant) on Slither's wiki.
+"""

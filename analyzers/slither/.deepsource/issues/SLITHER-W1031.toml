@@ -1,0 +1,31 @@
+title = "Detect dangerous enum conversion"
+verbose_name = "enum-conversion"
+severity = "major"
+category = "antipattern"
+weight = 60
+description = """
+Detect out-of-range `enum` conversion (`solc` < `0.4.5`).
+
+<!--more-->
+
+## Exploit Scenario
+
+```solidity
+pragma solidity 0.4.2;
+contract Test{
+
+    enum E{a}
+
+    function bug(uint a) public returns(E){
+        return E(a);
+    }
+}
+```
+Attackers can trigger unexpected behaviour by calling `bug(1)`.
+
+## Recommendation
+Use a recent compiler version. If `solc` <`0.4.5` is required, check the `enum` conversion range.
+
+## Learn more
+[enum-conversion](https://github.com/crytic/slither/wiki/Detector-Documentation#dangerous-enum-conversion) on Slither's wiki.
+"""

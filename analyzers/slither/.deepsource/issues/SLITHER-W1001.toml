@@ -1,0 +1,31 @@
+title = "Storage abiencoderv2 array"
+verbose_name = "abiencoderv2-array"
+severity = "critical"
+category = "antipattern"
+weight = 80
+description = """
+`solc` versions `0.4.7`-`0.5.9` contain a [compiler bug](https://blog.ethereum.org/2019/06/25/solidity-storage-array-bugs) leading to incorrect ABI encoder usage.
+
+<!--more-->
+
+## Exploit Scenario
+
+```solidity
+contract A {
+    uint[2][3] bad_arr = [[1, 2], [3, 4], [5, 6]];
+
+    /* Array of arrays passed to abi.encode is vulnerable */
+    function bad() public {                                                                                          
+        bytes memory b = abi.encode(bad_arr);
+    }
+}
+```
+`abi.encode(bad_arr)` in a call to `bad()` will incorrectly encode the array as `[[1, 2], [2, 3], [3, 4]]` and lead to unintended behavior.
+
+
+## Recommendation
+Use a compiler >= `0.5.10`.
+
+## Learn more
+[abiencoderv2-array](https://github.com/crytic/slither/wiki/Detector-Documentation#storage-abiencoderv2-array) on Slither's wiki.
+"""

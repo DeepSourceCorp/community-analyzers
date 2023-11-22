@@ -1,0 +1,31 @@
+title = "Uninitialized function pointer calls in constructors"
+verbose_name = "uninitialized-fptr-cst"
+severity = "minor"
+category = "antipattern"
+weight = 40
+description = """
+solc versions `0.4.5`-`0.4.26` and `0.5.0`-`0.5.8` contain a compiler bug leading to unexpected behavior when calling uninitialized function pointers in constructors.
+
+<!--more-->
+
+## Exploit Scenario
+
+```solidity
+contract bad0 {
+
+  constructor() public {
+    /* Uninitialized function pointer */
+    function(uint256) internal returns(uint256) a;
+    a(10);
+  }
+
+}
+```
+The call to `a(10)` will lead to unexpected behavior because function pointer `a` is not initialized in the constructor.
+
+## Recommendation
+Initialize function pointers before calling. Avoid function pointers if possible.
+
+## Learn more
+[uninitialized-fptr-cst](https://github.com/crytic/slither/wiki/Detector-Documentation#uninitialized-function-pointers-in-constructors) on Slither's wiki.
+"""

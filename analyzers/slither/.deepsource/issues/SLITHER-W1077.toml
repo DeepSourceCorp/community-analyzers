@@ -1,0 +1,20 @@
+title = "Conformity to Solidity naming conventions"
+verbose_name = "naming-convention"
+severity = "minor"
+category = "antipattern"
+weight = 40
+description = """
+
+Solidity defines a [naming convention](https://solidity.readthedocs.io/en/v0.4.25/style-guide.html#naming-conventions) that should be followed.
+#### Rule exceptions
+- Allow constant variable name/symbol/decimals to be lowercase (`ERC20`).
+- Allow `_` at the beginning of the `mixed_case` match for private variables and unused parameters.
+
+<!--more-->
+
+## Recommendation
+Follow the Solidity [naming convention](https://solidity.readthedocs.io/en/v0.4.25/style-guide.html#naming-conventions).
+
+## Learn more
+[naming-convention](https://github.com/crytic/slither/wiki/Detector-Documentation#conformance-to-solidity-naming-conventions) on Slither's wiki.
+"""

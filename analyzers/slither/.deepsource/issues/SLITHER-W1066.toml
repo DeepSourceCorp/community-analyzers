@@ -1,0 +1,19 @@
+title = "Dangerous usage of `block.timestamp`"
+verbose_name = "timestamp"
+severity = "minor"
+category = "antipattern"
+weight = 40
+description = """
+Dangerous usage of `block.timestamp`. `block.timestamp` can be manipulated by miners.
+
+<!--more-->
+
+## Exploit Scenario
+"Bob's contract relies on `block.timestamp` for its randomness. Eve is a miner and manipulates `block.timestamp` to exploit Bob's contract.
+
+## Recommendation
+Avoid relying on `block.timestamp`.
+
+## Learn more
+[timestamp](https://github.com/crytic/slither/wiki/Detector-Documentation#block-timestamp) on Slither's wiki.
+"""

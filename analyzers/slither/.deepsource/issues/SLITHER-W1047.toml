@@ -1,0 +1,28 @@
+title = "Dangerous usage of `tx.origin`"
+verbose_name = "tx-origin"
+severity = "major"
+category = "antipattern"
+weight = 60
+description = """
+`tx.origin`-based protection can be abused by a malicious contract if a legitimate user interacts with the malicious contract.
+
+<!--more-->
+
+## Exploit Scenario
+
+```solidity
+contract TxOrigin {
+    address owner = msg.sender;
+
+    function bug() {
+        require(tx.origin == owner);
+    }
+```
+Bob is the owner of `TxOrigin`. Bob calls Eve's contract. Eve's contract calls `TxOrigin` and bypasses the `tx.origin` protection.
+
+## Recommendation
+Do not use `tx.origin` for authorization.
+
+## Learn more
+[tx-origin](https://github.com/crytic/slither/wiki/Detector-Documentation#dangerous-usage-of-txorigin) on Slither's wiki.
+"""

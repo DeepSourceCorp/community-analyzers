@@ -1,0 +1,49 @@
+title = "Reused base constructor"
+verbose_name = "reused-constructor"
+severity = "major"
+category = "antipattern"
+weight = 60
+description = """
+Detects if the same base constructor is called with arguments from two different locations in the same inheritance hierarchy.
+
+<!--more-->
+
+## Exploit Scenario
+
+```solidity
+pragma solidity ^0.4.0;
+
+contract A{
+    uint num = 5;
+    constructor(uint x) public{
+        num += x;
+    }
+}
+
+contract B is A{
+    constructor() A(2) public { /* ... */ }
+}
+
+contract C is A {
+    constructor() A(3) public { /* ... */ }
+}
+
+contract D is B, C {
+    constructor() public { /* ... */ }
+}
+
+contract E is B {
+    constructor() A(1) public { /* ... */ }
+}
+```
+The constructor of `A` is called multiple times in `D` and `E`:
+- `D` inherits from `B` and `C`, both of which construct `A`.
+- `E` only inherits from `B`, but `B` and `E` construct `A`.
+.
+
+## Recommendation
+Remove the duplicate constructor call.
+
+## Learn more
+[reused-constructor](https://github.com/crytic/slither/wiki/Detector-Documentation#reused-base-constructors) on Slither's wiki.
+"""

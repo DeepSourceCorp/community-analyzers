@@ -1,0 +1,25 @@
+title = "Detects ERC20 tokens that have a function whose signature collides with EIP-2612's DOMAIN_SEPARATOR()"
+verbose_name = "domain-separator-collision"
+severity = "major"
+category = "antipattern"
+weight = 60
+description = """
+An ERC20 token has a function whose signature collides with EIP-2612's DOMAIN_SEPARATOR(), causing unanticipated behavior for contracts using `permit` functionality.
+
+<!--more-->
+
+## Exploit Scenario
+
+```solidity
+contract Contract{
+    function some_collisions() external() {}
+}
+```
+`some_collision` clashes with EIP-2612's DOMAIN_SEPARATOR() and will interfere with contract's using `permit`.
+
+## Recommendation
+Remove or rename the function that collides with DOMAIN_SEPARATOR().
+
+## Learn more
+[domain-separator-collision](https://github.com/crytic/slither/wiki/Detector-Documentation#domain-separator-collision) on Slither's wiki.
+"""

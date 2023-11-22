@@ -1,0 +1,35 @@
+title = "If a `return` is incorrectly used in assembly mode"
+verbose_name = "incorrect-return"
+severity = "critical"
+category = "antipattern"
+weight = 80
+description = """
+Detect if `return` in an assembly block halts unexpectedly the execution.
+
+<!--more-->
+
+## Exploit Scenario
+
+```solidity
+contract C {
+    function f() internal returns (uint a, uint b) {
+        assembly {
+            return (5, 6)
+        }
+    }
+
+    function g() returns (bool){
+        f();
+        return true;
+    }
+}
+```
+The return statement in `f` will cause execution in `g` to halt.
+The function will return 6 bytes starting from offset 5, instead of returning a boolean.
+
+## Recommendation
+Use the `leave` statement.
+
+## Learn more
+[incorrect-return](https://github.com/crytic/slither/wiki/Detector-Documentation#incorrect-assembly-return) on Slither's wiki.
+"""

@@ -1,0 +1,19 @@
+title = "Public mappings with nested variables"
+verbose_name = "public-mappings-nested"
+severity = "critical"
+category = "antipattern"
+weight = 80
+description = """
+Prior to Solidity 0.5, a public mapping with nested structures returned [incorrect values](https://github.com/ethereum/solidity/issues/5520).
+
+<!--more-->
+
+## Exploit Scenario
+Bob interacts with a contract that has a public mapping with nested structures. The values returned by the mapping are incorrect, breaking Bob's usage
+
+## Recommendation
+Do not use public mapping with nested structures.
+
+## Learn more
+[public-mappings-nested](https://github.com/crytic/slither/wiki/Detector-Documentation#public-mappings-with-nested-variables) on Slither's wiki.
+"""

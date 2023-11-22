@@ -1,0 +1,49 @@
+# ref: https://github.com/crytic/slither-action#how-to-use-1
+# A copy-paste Github Actions config to run Slither and report the artifact to DeepSource
+name: Slither Analysis
+
+on:
+  # Note that both `push` and `pull_request` triggers should be present for GitHub to consistently present slither
+  # SARIF reports.
+  push:
+    branches: [ main, master ]
+  pull_request:
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      security-events: write
+    env:
+        DEEPSOURCE_DSN: ${{ secrets.DEEPSOURCE_DSN }}
+    steps:
+      - uses: actions/checkout@v3
+        with:
+            ref: ${{ github.event.pull_request.head.sha }}
+
+      - name: Run Slither
+        uses: crytic/slither-action@v0.3.0
+        id: slither
+        with:
+          # The following is the latest version of slither-analyzer supported by DeepSource
+          slither-version: 0.10.0
+          # The following makes slither produce scan analysis in SARIF format
+          sarif: ./slither.sarif
+        # required to let the SARIF upload step run even if Slither finds issues
+        continue-on-error: true
+
+      - name: Upload SARIF report files to DeepSource
+        run: |
+          # Install the CLI
+          curl https://deepsource.io/cli | sh
+
+          # Send the report to DeepSource
+          ./bin/deepsource report --analyzer slither --analyzer-type community --value-file ${{ steps.slither.outputs.sarif }}
+
+      # Ensure the workflow eventually fails if files did not pass slither checks.
+      - name: Verify slither-action succeeded
+        shell: bash
+        run: |
+          echo "If this step fails, slither found issues. Check the output of the scan step above."
+          [[ "${{ steps.slither.outcome }}" == "success" ]]

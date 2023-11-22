@@ -1,0 +1,7 @@
+# Analyzer Profile
+category = "lang"
+name = "Slither"
+shortcode = "slither"
+status = "active"
+tool_latest_version = "0.10.0"
+description = "Slither is a Solidity & Vyper static analysis framework developed by Crytic, a blockchain security group by Trail of Bits."

@@ -1,0 +1,219 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "Slither",
+          "informationUri": "https://github.com/crytic/slither",
+          "version": "0.10.0",
+          "rules": [
+            {
+              "id": "0-0-uninitialized-state",
+              "name": "uninitialized-state",
+              "properties": {
+                "precision": "very-high",
+                "security-severity": "8.0"
+              },
+              "shortDescription": {
+                "text": "Uninitialized state variables"
+              },
+              "help": {
+                "text": "\nInitialize all the variables. If a variable is meant to be initialized to zero, explicitly set it to zero to improve code readability.\n"
+              }
+            },
+            {
+              "id": "3-0-solc-version",
+              "name": "solc-version",
+              "properties": {
+                "precision": "very-high",
+                "security-severity": "0.0"
+              },
+              "shortDescription": {
+                "text": "Incorrect versions of Solidity"
+              },
+              "help": {
+                "text": "\nDeploy with any of the following Solidity versions:\n- 0.8.18\n\nThe recommendations take into account:\n- Risks related to recent releases\n- Risks of complex code generation changes\n- Risks of new language features\n- Risks of known bugs\n\nUse a simple pragma version that allows any of these versions.\nConsider using the latest version of Solidity for testing."
+              }
+            },
+            {
+              "id": "3-0-naming-convention",
+              "name": "naming-convention",
+              "properties": {
+                "precision": "very-high",
+                "security-severity": "0.0"
+              },
+              "shortDescription": {
+                "text": "Conformance to Solidity naming conventions"
+              },
+              "help": {
+                "text": "Follow the Solidity [naming convention](https://solidity.readthedocs.io/en/v0.4.25/style-guide.html#naming-conventions)."
+              }
+            },
+            {
+              "id": "4-0-constable-states",
+              "name": "constable-states",
+              "properties": {
+                "precision": "very-high",
+                "security-severity": "0.0"
+              },
+              "shortDescription": {
+                "text": "State variables that could be declared constant"
+              },
+              "help": {
+                "text": "Add the `constant` attribute to state variables that never change."
+              }
+            }
+          ]
+        }
+      },
+      "results": [
+        {
+          "ruleId": "0-0-uninitialized-state",
+          "message": {
+            "text": "ERC20Buggy._totalSupply (ERC20.sol#4) is never initialized. It is used in:\n\t- ERC20Buggy.totalSupply() (ERC20.sol#37-39)\n",
+            "markdown": "[ERC20Buggy._totalSupply](ERC20.sol#L4) is never initialized. It is used in:\n\t- [ERC20Buggy.totalSupply()](ERC20.sol#L37-L39)\n"
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ERC20.sol"
+                },
+                "region": {
+                  "startLine": 4,
+                  "endLine": 4
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "id": "7b17182a44bd3c13866e3e4e585393fc09a25a2e6715512184572d49f8bf8df5"
+          }
+        },
+        {
+          "ruleId": "3-0-naming-convention",
+          "message": {
+            "text": "Variable ERC20Buggy._balanceOf (ERC20.sol#5) is not in mixedCase\n",
+            "markdown": "Variable [ERC20Buggy._balanceOf](ERC20.sol#L5) is not in mixedCase\n"
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ERC20.sol"
+                },
+                "region": {
+                  "startLine": 5,
+                  "endLine": 5
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "id": "02e6097efd3009dcc27b8a5527eebbc4721e969ab7956639b08a21eee86c73b7"
+          }
+        },
+        {
+          "ruleId": "3-0-naming-convention",
+          "message": {
+            "text": "Variable ERC20Buggy._allowance (ERC20.sol#6) is not in mixedCase\n",
+            "markdown": "Variable [ERC20Buggy._allowance](ERC20.sol#L6) is not in mixedCase\n"
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ERC20.sol"
+                },
+                "region": {
+                  "startLine": 6,
+                  "endLine": 6
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "id": "6032a0270bf2adbbcd0067c061e63c3a73c6f09d90d0a46cad330394988cb9b9"
+          }
+        },
+        {
+          "ruleId": "3-0-naming-convention",
+          "message": {
+            "text": "Parameter ERC20Buggy.approve(address,uint256)._spender (ERC20.sol#24) is not in mixedCase\n",
+            "markdown": "Parameter [ERC20Buggy.approve(address,uint256)._spender](ERC20.sol#L24) is not in mixedCase\n"
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ERC20.sol"
+                },
+                "region": {
+                  "startLine": 24,
+                  "endLine": 24
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "id": "6b595b8907c5207c1885cc0ac0852e8ccbda8f149c200fc6b584ad003187fc2c"
+          }
+        },
+        {
+          "ruleId": "3-0-naming-convention",
+          "message": {
+            "text": "Variable ERC20Buggy._totalSupply (ERC20.sol#4) is not in mixedCase\n",
+            "markdown": "Variable [ERC20Buggy._totalSupply](ERC20.sol#L4) is not in mixedCase\n"
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ERC20.sol"
+                },
+                "region": {
+                  "startLine": 4,
+                  "endLine": 4
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "id": "9a6a5111def54fca1801e2b40299e74a855a80a7813ffdb0d19ee923cc1f032f"
+          }
+        },
+        {
+          "ruleId": "4-0-constable-states",
+          "message": {
+            "text": "ERC20Buggy._totalSupply (ERC20.sol#4) should be constant \n",
+            "markdown": "[ERC20Buggy._totalSupply](ERC20.sol#L4) should be constant \n"
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ERC20.sol"
+                },
+                "region": {
+                  "startLine": 4,
+                  "endLine": 4
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "id": "f6a9d2e5c554c22bd038ce28139c911c7a0893017d8e9054cbaaf6a084b71c39"
+          }
+        }
+      ]
+    }
+  ]
+}
