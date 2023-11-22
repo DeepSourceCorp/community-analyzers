@@ -1,0 +1,26 @@
+title = "Incorrect ERC20 interfaces"
+verbose_name = "erc20-interface"
+severity = "major"
+category = "antipattern"
+weight = 60
+description = """
+Incorrect return values for `ERC20` functions. A contract compiled with Solidity > 0.4.22 interacting with these functions will fail to execute them, as the return value is missing.
+
+<!--more-->
+
+## Exploit Scenario
+
+```solidity
+contract Token{
+    function transfer(address to, uint value) external;
+    //...
+}
+```
+`Token.transfer` does not return a boolean. Bob deploys the token. Alice creates a contract that interacts with it but assumes a correct `ERC20` interface implementation. Alice's contract is unable to interact with Bob's contract.
+
+## Recommendation
+Set the appropriate return values and types for the defined `ERC20` functions.
+
+## Learn more
+[erc20-interface](https://github.com/crytic/slither/wiki/Detector-Documentation#incorrect-erc20-interface) on Slither's wiki.
+"""

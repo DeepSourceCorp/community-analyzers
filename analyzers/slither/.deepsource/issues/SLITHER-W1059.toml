@@ -1,0 +1,34 @@
+title = "Missing Events Access Control"
+verbose_name = "events-access"
+severity = "minor"
+category = "antipattern"
+weight = 40
+description = """
+Detect missing events for critical access control parameters
+
+<!--more-->
+
+## Exploit Scenario
+
+```solidity
+contract C {
+
+  modifier onlyAdmin {
+    if (msg.sender != owner) throw;
+    _;
+  }
+
+  function updateOwner(address newOwner) onlyAdmin external {
+    owner = newOwner;
+  }
+}
+```
+`updateOwner()` has no event, so it is difficult to track off-chain owner changes.
+
+
+## Recommendation
+Emit an event for critical parameter changes.
+
+## Learn more
+[events-access](https://github.com/crytic/slither/wiki/Detector-Documentation#missing-events-access-control) on Slither's wiki.
+"""

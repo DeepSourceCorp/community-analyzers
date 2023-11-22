@@ -1,0 +1,27 @@
+title = "Detects using-for statement usage when no function from a given library matches a given type"
+verbose_name = "incorrect-using-for"
+severity = "minor"
+category = "antipattern"
+weight = 40
+description = """
+In Solidity, it is possible to use libraries for certain types, by the `using-for` statement (`using <library> for <type>`). However, the Solidity compiler doesn't check whether a given library has at least one function matching a given type. If it doesn't, such a statement has no effect and may be confusing. 
+
+<!--more-->
+
+## Exploit Scenario
+
+```solidity
+library L {
+    function f(bool) public pure {}
+}
+
+using L for uint;
+```
+Such a code will compile despite the fact that `L` has no function with `uint` as its first argument.
+
+## Recommendation
+Make sure that the libraries used in `using-for` statements have at least one function matching a type used in these statements. 
+
+## Learn more
+[incorrect-using-for](https://github.com/crytic/slither/wiki/Detector-Documentation#incorrect-using-for-usage) on Slither's wiki.
+"""

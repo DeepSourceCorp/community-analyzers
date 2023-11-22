@@ -1,0 +1,29 @@
+title = "Unchecked low-level calls"
+verbose_name = "unchecked-lowlevel"
+severity = "major"
+category = "antipattern"
+weight = 60
+description = """
+The return value of a low-level call is not checked.
+
+<!--more-->
+
+## Exploit Scenario
+
+```solidity
+contract MyConc{
+    function my_func(address payable dst) public payable{
+        dst.call.value(msg.value)("");
+    }
+}
+```
+The return value of the low-level call is not checked, so if the call fails, the Ether will be locked in the contract.
+If the low level is used to prevent blocking operations, consider logging failed calls.
+
+
+## Recommendation
+Ensure that the return value of a low-level call is checked or logged.
+
+## Learn more
+[unchecked-lowlevel](https://github.com/crytic/slither/wiki/Detector-Documentation#unchecked-low-level-calls) on Slither's wiki.
+"""

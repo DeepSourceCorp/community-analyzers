@@ -1,0 +1,33 @@
+title = "Unchecked tokens transfer"
+verbose_name = "unchecked-transfer"
+severity = "critical"
+category = "antipattern"
+weight = 80
+description = """
+The return value of an external transfer/transferFrom call is not checked
+
+<!--more-->
+
+## Exploit Scenario
+
+```solidity
+contract Token {
+    function transferFrom(address _from, address _to, uint256 _value) public returns (bool success);
+}
+contract MyBank{  
+    mapping(address => uint) balances;
+    Token token;
+    function deposit(uint amount) public{
+        token.transferFrom(msg.sender, address(this), amount);
+        balances[msg.sender] += amount;
+    }
+}
+```
+Several tokens do not revert in case of failure and return false. If one of these tokens is used in `MyBank`, `deposit` will not revert if the transfer fails, and an attacker can call `deposit` for free..
+
+## Recommendation
+Use `SafeERC20`, or ensure that the transfer/transferFrom return value is checked.
+
+## Learn more
+[unchecked-transfer](https://github.com/crytic/slither/wiki/Detector-Documentation#unchecked-transfer) on Slither's wiki.
+"""

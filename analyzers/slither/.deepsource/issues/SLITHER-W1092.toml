@@ -1,0 +1,28 @@
+title = "Contract reads its own variable using `this`"
+verbose_name = "var-read-using-this"
+severity = "major"
+category = "performance"
+weight = 60
+description = """
+The contract reads its own variable using `this`, adding overhead of an unnecessary STATICCALL.
+
+<!--more-->
+
+## Exploit Scenario
+
+```solidity
+contract C {
+    mapping(uint => address) public myMap;
+    function test(uint x) external returns(address) {
+        return this.myMap(x);
+    }
+}
+```
+
+
+## Recommendation
+Read the variable directly from storage instead of calling the contract.
+
+## Learn more
+[var-read-using-this](https://github.com/crytic/slither/wiki/Detector-Documentation#public-variable-read-in-external-context) on Slither's wiki.
+"""

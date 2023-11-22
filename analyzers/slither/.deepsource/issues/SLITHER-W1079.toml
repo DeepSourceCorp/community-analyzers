@@ -1,0 +1,37 @@
+title = "Redundant statements"
+verbose_name = "redundant-statements"
+severity = "minor"
+category = "antipattern"
+weight = 40
+description = """
+Detect the usage of redundant statements that have no effect.
+
+<!--more-->
+
+## Exploit Scenario
+
+```solidity
+contract RedundantStatementsContract {
+
+    constructor() public {
+        uint; // Elementary Type Name
+        bool; // Elementary Type Name
+        RedundantStatementsContract; // Identifier
+    }
+
+    function test() public returns (uint) {
+        uint; // Elementary Type Name
+        assert; // Identifier
+        test; // Identifier
+        return 777;
+    }
+}
+```
+Each commented line references types/identifiers, but performs no action with them, so no code will be generated for such statements and they can be removed.
+
+## Recommendation
+Remove redundant statements if they congest code but offer no value.
+
+## Learn more
+[redundant-statements](https://github.com/crytic/slither/wiki/Detector-Documentation#redundant-statements) on Slither's wiki.
+"""

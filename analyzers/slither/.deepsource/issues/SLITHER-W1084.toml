@@ -1,0 +1,25 @@
+title = "Functions that are not used"
+verbose_name = "dead-code"
+severity = "minor"
+category = "antipattern"
+weight = 40
+description = """
+Functions that are not sued.
+
+<!--more-->
+
+## Exploit Scenario
+
+```solidity
+contract Contract{
+    function dead_code() internal() {}
+}
+```
+`dead_code` is not used in the contract, and make the code's review more difficult.
+
+## Recommendation
+Remove unused functions.
+
+## Learn more
+[dead-code](https://github.com/crytic/slither/wiki/Detector-Documentation#dead-code) on Slither's wiki.
+"""

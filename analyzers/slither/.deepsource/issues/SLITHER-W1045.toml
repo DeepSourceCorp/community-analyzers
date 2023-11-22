@@ -1,0 +1,31 @@
+title = "Reentrancy vulnerabilities (no theft of ethers)"
+verbose_name = "reentrancy-no-eth"
+severity = "major"
+category = "antipattern"
+weight = 60
+description = """
+
+Detection of the [reentrancy bug](https://github.com/trailofbits/not-so-smart-contracts/tree/master/reentrancy).
+Do not report reentrancies that involve Ether (see `reentrancy-eth`).
+
+<!--more-->
+
+## Exploit Scenario
+
+```solidity
+function bug(){
+    require(not_called);
+    if( ! (msg.sender.call() ) ){
+        throw;
+    }
+    not_called = False;
+}   
+```
+
+
+## Recommendation
+Apply the [`check-effects-interactions` pattern](http://solidity.readthedocs.io/en/v0.4.21/security-considerations.html#re-entrancy).
+
+## Learn more
+[reentrancy-no-eth](https://github.com/crytic/slither/wiki/Detector-Documentation#reentrancy-vulnerabilities-1) on Slither's wiki.
+"""

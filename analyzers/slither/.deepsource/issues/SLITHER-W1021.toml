@@ -1,0 +1,39 @@
+title = "Payable functions using `delegatecall` inside a loop"
+verbose_name = "delegatecall-loop"
+severity = "critical"
+category = "antipattern"
+weight = 80
+description = """
+Detect the use of `delegatecall` inside a loop in a payable function.
+
+<!--more-->
+
+## Exploit Scenario
+
+```solidity
+contract DelegatecallInLoop{
+
+    mapping (address => uint256) balances;
+
+    function bad(address[] memory receivers) public payable {
+        for (uint256 i = 0; i < receivers.length; i++) {
+            address(this).delegatecall(abi.encodeWithSignature("addBalance(address)", receivers[i]));
+        }
+    }
+
+    function addBalance(address a) public payable {
+        balances[a] += msg.value;
+    } 
+
+}
+```
+When calling `bad` the same `msg.value` amount will be accredited multiple times.
+
+## Recommendation
+
+Carefully check that the function called by `delegatecall` is not payable/doesn't use `msg.value`.
+
+
+## Learn more
+[delegatecall-loop](https://github.com/crytic/slither/wiki/Detector-Documentation/#payable-functions-using-delegatecall-inside-a-loop) on Slither's wiki.
+"""

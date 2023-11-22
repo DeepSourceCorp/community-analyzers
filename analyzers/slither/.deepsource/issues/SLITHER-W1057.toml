@@ -1,0 +1,26 @@
+title = "Constructor called not implemented"
+verbose_name = "void-cst"
+severity = "minor"
+category = "antipattern"
+weight = 40
+description = """
+Detect the call to a constructor that is not implemented
+
+<!--more-->
+
+## Exploit Scenario
+
+```solidity
+contract A{}
+contract B is A{
+    constructor() public A(){}
+}
+```
+When reading `B`'s constructor definition, we might assume that `A()` initiates the contract, but no code is executed.
+
+## Recommendation
+Remove the constructor call.
+
+## Learn more
+[void-cst](https://github.com/crytic/slither/wiki/Detector-Documentation#void-constructor) on Slither's wiki.
+"""

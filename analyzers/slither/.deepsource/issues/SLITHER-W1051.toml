@@ -1,0 +1,28 @@
+title = "Unused return values"
+verbose_name = "unused-return"
+severity = "major"
+category = "antipattern"
+weight = 60
+description = """
+The return value of an external call is not stored in a local or state variable.
+
+<!--more-->
+
+## Exploit Scenario
+
+```solidity
+contract MyConc{
+    using SafeMath for uint;   
+    function my_func(uint a, uint b) public{
+        a.add(b);
+    }
+}
+```
+`MyConc` calls `add` of `SafeMath`, but does not store the result in `a`. As a result, the computation has no effect.
+
+## Recommendation
+Ensure that all the return values of the function calls are used.
+
+## Learn more
+[unused-return](https://github.com/crytic/slither/wiki/Detector-Documentation#unused-return) on Slither's wiki.
+"""

@@ -1,0 +1,41 @@
+title = "Local variables used prior their declaration"
+verbose_name = "variable-scope"
+severity = "minor"
+category = "antipattern"
+weight = 40
+description = """
+Detects the possible usage of a variable before the declaration is stepped over (either because it is later declared, or declared in another scope).
+
+<!--more-->
+
+## Exploit Scenario
+
+```solidity
+contract C {
+    function f(uint z) public returns (uint) {
+        uint y = x + 9 + z; // 'z' is used pre-declaration
+        uint x = 7;
+
+        if (z % 2 == 0) {
+            uint max = 5;
+            // ...
+        }
+
+        // 'max' was intended to be 5, but it was mistakenly declared in a scope and not assigned (so it is zero).
+        for (uint i = 0; i < max; i++) {
+            x += 1;
+        }
+
+        return x;
+    }
+}
+```
+In the case above, the variable `x` is used before its declaration, which may result in unintended consequences. 
+Additionally, the for-loop uses the variable `max`, which is declared in a previous scope that may not always be reached. This could lead to unintended consequences if the user mistakenly uses a variable prior to any intended declaration assignment. It also may indicate that the user intended to reference a different variable.
+
+## Recommendation
+Move all variable declarations prior to any usage of the variable, and ensure that reaching a variable declaration does not depend on some conditional if it is used unconditionally.
+
+## Learn more
+[variable-scope](https://github.com/crytic/slither/wiki/Detector-Documentation#pre-declaration-usage-of-local-variables) on Slither's wiki.
+"""

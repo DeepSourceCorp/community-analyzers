@@ -1,0 +1,31 @@
+title = "Assert state change"
+verbose_name = "assert-state-change"
+severity = "minor"
+category = "antipattern"
+weight = 40
+description = """
+Incorrect use of `assert()`. See Solidity best [practices](https://solidity.readthedocs.io/en/latest/control-structures.html#id4).
+
+<!--more-->
+
+## Exploit Scenario
+
+```solidity
+contract A {
+
+  uint s_a;
+
+  function bad() public {
+    assert((s_a += 1) > 10);
+  }
+}
+```
+The assert in `bad()` increments the state variable `s_a` while checking for the condition.
+
+
+## Recommendation
+Use `require` for invariants modifying the state.
+
+## Learn more
+[assert-state-change](https://github.com/crytic/slither/wiki/Detector-Documentation#assert-state-change) on Slither's wiki.
+"""
