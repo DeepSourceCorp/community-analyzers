@@ -57,9 +57,9 @@ class DiagnosticRulesParser:
                     line = self.next_line()
                     if line.startswith("#"):
                         break
-                    title += line.strip(" \n_")
+                    title += line.strip(" \n_") + " "
                     self.consume()
-
+                title = title.strip()
                 # Everything after heading 4 to the next heading 3
                 # i.e. the next issue definition can be considered
                 # to be the issue description
