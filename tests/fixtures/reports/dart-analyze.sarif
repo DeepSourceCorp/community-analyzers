@@ -27,10 +27,6 @@
               "name": "undefined_method"
             },
             {
-              "id": "include_file_not_found",
-              "name": "include_file_not_found"
-            },
-            {
               "id": "undefined_identifier",
               "name": "undefined_identifier"
             },
@@ -407,27 +403,6 @@
           },
           "ruleId": "uri_does_not_exist"
         },
-        {
-          "level": "warning",
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "analysis_options.yaml",
-                  "uriBaseId": "SRCROOT"
-                },
-                "region": {
-                  "startLine": 1,
-                  "startColumn": 10
-                }
-              }
-            }
-          ],
-          "message": {
-            "text": "The include file 'package:lints/recommended.yaml' in '/Users/user/code/samples/command_line/analysis_options.yaml' can't be found when analyzing '/Users/user/code/samples/command_line'."
-          },
-          "ruleId": "include_file_not_found"
-        }
       ]
     }
   ]
