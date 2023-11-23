@@ -12,3 +12,4 @@ coverage.xml
 .env
 **/.DS_Store
 .vscode
+.python-version
