@@ -42,7 +42,11 @@ def update_issues(issues: List[Issue]) -> None:
             f.write(content)
 
 
-if __name__ == "__main__":
+def main():
     extractor = IssueExtractor()
     issues = extractor.issues
     update_issues(issues=issues)
+
+
+if __name__ == "__main__":
+    main()

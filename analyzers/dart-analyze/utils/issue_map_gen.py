@@ -49,7 +49,11 @@ def generate_mapping(issues: List[Issue]) -> Dict[str, Dict[str, str]]:
     return issue_map
 
 
-if __name__ == "__main__":
+def main():
     extractor = IssueExtractor()
     issues = extractor.issues
     generate_mapping(issues=issues)
+
+
+if __name__ == "__main__":
+    main()

@@ -104,7 +104,7 @@ class IssueExtractor:
         "pub": "antipattern",
     }
 
-    def __init__(self):
+    def __init__(self) -> None:
         """
         Extracts dart analyze issues.
 
@@ -129,7 +129,7 @@ class IssueExtractor:
 
     def fetch_diagnostic_rules(self) -> List[Issue]:
         """Fetches the list of diagnostic rules"""
-        response = urlopen(self.DIAGNOSTIC_RULES_URL)
+        response = urlopen(self.DIAGNOSTIC_RULES_URL)  # skipcq: BAN-B310
         if response.code != 200:
             raise Exception(f"Failed to fetch diagnostic rules {response.code}")
 
@@ -138,7 +138,7 @@ class IssueExtractor:
 
     def fetch_linter_rules(self) -> List[Issue]:
         """Fetches the list of linter rules."""
-        response = urlopen(self.LINTER_RULES_URL)
+        response = urlopen(self.LINTER_RULES_URL)  # skipcq: BAN-B310
         if response.code != 200:
             raise Exception(f"Failed to fetch linter rules {response.code}")
 
