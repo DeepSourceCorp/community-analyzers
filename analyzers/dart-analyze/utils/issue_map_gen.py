@@ -49,7 +49,8 @@ def generate_mapping(issues: List[Issue]) -> Dict[str, Dict[str, str]]:
     return issue_map
 
 
-def main():
+def main() -> None:
+    """Entrypoint for this script."""
     extractor = IssueExtractor()
     issues = extractor.issues
     generate_mapping(issues=issues)

@@ -42,7 +42,8 @@ def update_issues(issues: List[Issue]) -> None:
             f.write(content)
 
 
-def main():
+def main() -> None:
+    """Entrypoint for this script."""
     extractor = IssueExtractor()
     issues = extractor.issues
     update_issues(issues=issues)
