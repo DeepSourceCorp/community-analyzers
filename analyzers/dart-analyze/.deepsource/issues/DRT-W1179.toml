@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "unnecessary_lambdas"
-description = """
+description = '''
 **DON'T** create a lambda when a tear-off will do.
 
 **BAD:**
@@ -18,6 +18,4 @@ names.forEach((name) {
 ```dart
 names.forEach(print);
 ```
-
-
-"""
+'''

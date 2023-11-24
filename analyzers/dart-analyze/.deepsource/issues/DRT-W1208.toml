@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "use_test_throws_matchers"
-description = """
+description = '''
 Use the `throwsA` matcher instead of try-catch with `fail()`.
 
 **BAD:**
@@ -41,6 +41,4 @@ await expectLater(
   throwsA(isA<Error>().having((Error error) => error.message, 'message', contains('some message'))),
 );
 ```
-
-
-"""
+'''

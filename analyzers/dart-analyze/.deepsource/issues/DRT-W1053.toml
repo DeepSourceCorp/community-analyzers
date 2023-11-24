@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "avoid_field_initializers_in_const_classes"
-description = """
+description = '''
 **AVOID** field initializers in const classes.
 
 Instead of `final x = const expr;`, you should write `get x => const expr;` and
@@ -26,6 +26,4 @@ class A {
   const A();
 }
 ```
-
-
-"""
+'''

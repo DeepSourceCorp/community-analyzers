@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "use_string_buffers"
-description = """
+description = '''
 **DO** use string buffers to compose strings.
 
 In most cases, using a string buffer is preferred for composing strings due to
@@ -31,6 +31,4 @@ String foo() {
   return buffer.toString();
 }
 ```
-
-
-"""
+'''

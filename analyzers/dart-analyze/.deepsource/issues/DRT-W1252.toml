@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "cast_from_null_always_fails"
-description = """
+description = '''
 The analyzer produces this diagnostic when an expression whose type is
 `Null` is being cast to a non-nullable type.
 
@@ -28,4 +28,4 @@ void f(Null n) {
   n;
 }
 ```
-"""
+'''

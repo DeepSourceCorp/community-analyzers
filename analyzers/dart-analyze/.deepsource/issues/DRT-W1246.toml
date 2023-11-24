@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "built_in_identifier_as_type"
-description = """
+description = '''
 The analyzer produces this diagnostic when a built-in identifier is used
 where a type name is expected.
 
@@ -24,4 +24,4 @@ Replace the built-in identifier with the name of a valid type:
 ```dart
 List<int> x;
 ```
-"""
+'''

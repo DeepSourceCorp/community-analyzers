@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "list_element_type_not_assignable"
-description = """
+description = '''
 The analyzer produces this diagnostic when the type of an element in a list
 literal isn't assignable to the element type of the list.
 
@@ -38,4 +38,4 @@ list to allow all of the different types of objects it needs to contain:
 ```dart
 List<num> x = [1, 2.5, 3];
 ```
-"""
+'''

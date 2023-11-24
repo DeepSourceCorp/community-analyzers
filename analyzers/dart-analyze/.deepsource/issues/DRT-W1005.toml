@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "avoid_relative_lib_imports"
-description = """
+description = '''
 **DO** avoid relative imports for files in `lib/`.
 
 When mixing relative and absolute imports it's possible to create confusion
@@ -32,6 +32,4 @@ import 'baz.dart';
 
 ...
 ```
-
-
-"""
+'''

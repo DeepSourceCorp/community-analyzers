@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "expression_in_map"
-description = """
+description = '''
 The analyzer produces this diagnostic when the analyzer finds an
 expression, rather than a map entry, in what appears to be a map literal.
 
@@ -25,4 +25,4 @@ For example:
 ```dart
 var map = <String, int>{'a': 0, 'b': 1, 'c': 2};
 ```
-"""
+'''

@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "conflicting_constructor_and_static_member"
-description = """
+description = '''
 The analyzer produces this diagnostic when a named constructor and either a
 static method or static field have the same name. Both are accessed using
 the name of the class, so having the same name makes the reference
@@ -35,4 +35,4 @@ class C {
 #### Common fixes
 
 Rename either the member or the constructor.
-"""
+'''

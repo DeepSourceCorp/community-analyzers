@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "sdk_version_async_exported_from_core"
-description = """
+description = '''
 The analyzer produces this diagnostic when either the class `Future` or
 `Stream` is referenced in a library that doesn't import `dart:async` in
 code that has an SDK constraint whose lower bound is less than 2.1.0. In
@@ -46,4 +46,4 @@ import 'dart:async';
 
 void f(Future f) {}
 ```
-"""
+'''

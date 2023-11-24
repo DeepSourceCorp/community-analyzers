@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "const_set_element_not_primitive_equality"
-description = """
+description = '''
 The analyzer produces this diagnostic when the class of object used as an
 element in a constant set literal implements either the `==` operator, the
 getter `hashCode`, or both. The implementation of constant sets uses both
@@ -67,4 +67,4 @@ class C {
 
 final set = {C()};
 ```
-"""
+'''

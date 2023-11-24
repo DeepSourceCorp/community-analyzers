@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "relational_pattern_operand_type_not_assignable"
-description = """
+description = '''
 The analyzer produces this diagnostic when the operand of a relational
 pattern has a type that isn't assignable to the parameter of the operator
 that will be invoked.
@@ -69,4 +69,4 @@ void f(C c) {
   }
 }
 ```
-"""
+'''

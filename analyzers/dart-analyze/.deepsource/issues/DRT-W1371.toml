@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "final_not_initialized_constructor"
-description = """
+description = '''
 The analyzer produces this diagnostic when a class defines one or more
 final instance fields without initializers and has at least one constructor
 that doesn't initialize those fields. All final instance fields must be
@@ -84,4 +84,4 @@ class C {
   C();
 }
 ```
-"""
+'''

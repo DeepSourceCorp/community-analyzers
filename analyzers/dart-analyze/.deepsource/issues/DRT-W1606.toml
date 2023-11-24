@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "return_without_value"
-description = """
+description = '''
 The analyzer produces this diagnostic when it finds a `return` statement
 without an expression in a function that declares a return type.
 
@@ -28,4 +28,4 @@ int f() {
   return 0;
 }
 ```
-"""
+'''

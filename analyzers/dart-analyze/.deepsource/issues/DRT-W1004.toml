@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "avoid_print"
-description = """
+description = '''
 **DO** avoid `print` calls in production code.
 
 For production code, consider using a logging framework.
@@ -47,5 +47,4 @@ void f(int x) {
   ...
 }
 ```
-
-"""
+'''

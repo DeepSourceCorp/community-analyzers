@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "library_annotations"
-description = """
+description = '''
 Attach library annotations to library directives, rather than
 some other library-level element.
 
@@ -30,5 +30,4 @@ void main() {}
 **NOTE:** An unnamed library, like `library;` above, is only supported in Dart
 2.19 and later. Code which might run in earlier versions of Dart will need to
 provide a name in the `library` directive.
-
-"""
+'''

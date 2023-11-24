@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "annotate_overrides"
-description = """
+description = '''
 **DO** annotate overridden methods and fields.
 
 This practice improves code readability and helps protect against
@@ -35,6 +35,4 @@ class Husky extends Dog {
   void bark() {}
 }
 ```
-
-
-"""
+'''

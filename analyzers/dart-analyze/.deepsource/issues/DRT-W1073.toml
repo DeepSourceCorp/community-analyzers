@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "avoid_unused_constructor_parameters"
-description = """
+description = '''
 **AVOID** defining unused parameters in constructors.
 
 **BAD:**
@@ -21,6 +21,4 @@ class BadTwo {
   }
 }
 ```
-
-
-"""
+'''

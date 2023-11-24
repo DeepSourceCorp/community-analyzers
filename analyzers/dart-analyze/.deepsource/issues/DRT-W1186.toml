@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "unnecessary_nullable_for_final_variable_declarations"
-description = """
+description = '''
 Use a non-nullable type for a final variable initialized with a non-nullable
 value.
 
@@ -17,6 +17,4 @@ final int? i = 1;
 ```dart
 final int i = 1;
 ```
-
-
-"""
+'''

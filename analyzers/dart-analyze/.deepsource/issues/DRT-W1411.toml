@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "invalid_assignment"
-description = """
+description = '''
 The analyzer produces this diagnostic when the static type of an expression
 that is assigned to a variable isn't assignable to the type of the
 variable.
@@ -40,4 +40,4 @@ compatible with the type of the value being assigned:
 int i = 0;
 int s = i;
 ```
-"""
+'''

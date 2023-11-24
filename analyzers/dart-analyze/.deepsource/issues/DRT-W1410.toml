@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "invalid_annotation_target"
-description = """
+description = '''
 The analyzer produces this diagnostic when an annotation is applied to a
 kind of declaration that it doesn't support.
 
@@ -23,4 +23,4 @@ int x = 0;
 #### Common fixes
 
 Remove the annotation from the declaration.
-"""
+'''

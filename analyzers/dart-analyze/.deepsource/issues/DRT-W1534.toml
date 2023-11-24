@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "non_type_in_catch_clause"
-description = """
+description = '''
 The analyzer produces this diagnostic when the identifier following the
 `on` in a `catch` clause is defined to be something other than a type.
 
@@ -36,4 +36,4 @@ void f() {
   }
 }
 ```
-"""
+'''

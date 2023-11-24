@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "secure_pubspec_urls"
-description = """
+description = '''
 **DO** Use secure urls in `pubspec.yaml`.
 
 Use `https` instead of `http` or `git:`.
@@ -23,6 +23,4 @@ git:
 ```yaml
 repository: https://github.com/dart-lang/example
 ```
-
-
-"""
+'''

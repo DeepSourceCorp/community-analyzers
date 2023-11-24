@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "dead_code_on_catch_subtype"
-description = """
+description = '''
 The analyzer produces this diagnostic when a `catch` clause is found that
 can't be executed because it is after a `catch` clause that catches either
 the same type or a supertype of the clause's type. The first `catch` clause
@@ -48,4 +48,4 @@ void f() {
   }
 }
 ```
-"""
+'''

@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "unnecessary_parenthesis"
-description = """
+description = '''
 **AVOID** using parentheses when not needed.
 
 **BAD:**
@@ -32,5 +32,4 @@ include:
 * logical expressions - parentheses can improve the readability of the implicit
   grouping defined by precedence. For example, the expression
   `(a && b) || c && d`.
-
-"""
+'''

@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "avoid_return_types_on_setters"
-description = """
+description = '''
 **AVOID** return types on setters.
 
 As setters do not return a value, declaring the return type of one is redundant.
@@ -18,6 +18,4 @@ void set speed(int ms);
 ```dart
 set speed(int ms);
 ```
-
-
-"""
+'''

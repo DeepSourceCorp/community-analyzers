@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "unnecessary_non_null_assertion"
-description = """
+description = '''
 The analyzer produces this diagnostic when the operand of the `!` operator
 can't be `null`.
 
@@ -27,4 +27,4 @@ int f(int x) {
   return x;
 }
 ```
-"""
+'''

@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "for_in_of_invalid_type"
-description = """
+description = '''
 The analyzer produces this diagnostic when the expression following `in` in
 a for-in loop has a type that isn't a subclass of `Iterable`.
 
@@ -32,4 +32,4 @@ void f(Map<String, String> m) {
   }
 }
 ```
-"""
+'''

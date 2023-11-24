@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "prefer_initializing_formals"
-description = """
+description = '''
 **DO** use initializing formals when possible.
 
 Using initializing formals when possible makes your code more terse.
@@ -76,5 +76,4 @@ class Bid {
  Bid.pass() : amount = null;
 }
 ```
-
-"""
+'''

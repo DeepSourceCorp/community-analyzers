@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "unrelated_type_equality_checks"
-description = """
+description = '''
 **DON'T** Compare references of unrelated types for equality.
 
 Comparing references of a type where neither is a subtype of the other most
@@ -117,6 +117,4 @@ abstract class Mixin {}
 
 class DerivedClass2 extends ClassBase with Mixin {}
 ```
-
-
-"""
+'''

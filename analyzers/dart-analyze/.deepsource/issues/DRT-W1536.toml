@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "non_void_return_for_setter"
-description = """
+description = '''
 The analyzer produces this diagnostic when a setter is defined with a
 return type other than `void`.
 
@@ -28,4 +28,4 @@ class C {
   set p(int i) => 0;
 }
 ```
-"""
+'''

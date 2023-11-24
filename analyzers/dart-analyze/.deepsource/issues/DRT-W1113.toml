@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "omit_local_variable_types"
-description = """
+description = '''
 **DON'T** redundantly type annotate initialized local variables.
 
 Local variables, especially in modern code where functions tend to be small,
@@ -53,5 +53,4 @@ Widget build(BuildContext context) {
   return result;
 }
 ```
-
-"""
+'''

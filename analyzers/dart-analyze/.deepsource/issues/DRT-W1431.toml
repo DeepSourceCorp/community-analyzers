@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "invalid_override"
-description = """
+description = '''
 The analyzer produces this diagnostic when a member of a class is found
 that overrides a member from a supertype and the override isn't valid. An
 override is valid if all of these are true:
@@ -59,4 +59,4 @@ class B extends A {
   void m2(String s) {}
 }
 ```
-"""
+'''

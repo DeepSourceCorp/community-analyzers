@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "argument_type_not_assignable_to_error_handler"
-description = """
+description = '''
 The analyzer produces this diagnostic when an invocation of
 `Future.catchError` has an argument that is a function whose parameters
 aren't compatible with the arguments that will be passed to the function
@@ -55,4 +55,4 @@ void f(Future<int> f) {
   f.catchError((Object error) => 0);
 }
 ```
-"""
+'''

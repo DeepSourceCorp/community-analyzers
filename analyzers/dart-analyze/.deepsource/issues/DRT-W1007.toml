@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "avoid_type_to_string"
-description = """
+description = '''
 **DO** avoid calls to <Type>.toString() in production code, since it does not
 contractually return the user-defined name of the Type (or underlying class).
 Development-mode compilers where code size is not a concern use the full name,
@@ -39,6 +39,4 @@ Object baz(Thing myThing) {
   return getThingFromDatabase(key: myThing.thingTypeKey);
 }
 ```
-
-
-"""
+'''

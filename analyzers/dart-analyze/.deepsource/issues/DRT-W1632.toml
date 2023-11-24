@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "super_formal_parameter_without_associated_positional"
-description = """
+description = '''
 The analyzer produces this diagnostic when there's a positional super
 parameter in a constructor and the implicitly or explicitly invoked super
 constructor doesn't have a positional parameter at the corresponding
@@ -73,4 +73,4 @@ class B extends A {
   B(super.x, int y);
 }
 ```
-"""
+'''

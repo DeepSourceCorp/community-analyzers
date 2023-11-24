@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "not_enough_positional_arguments"
-description = """
+description = '''
 The analyzer produces this diagnostic when a method or function invocation
 has fewer positional arguments than the number of required positional
 parameters.
@@ -31,4 +31,4 @@ void g() {
   f(0, 1);
 }
 ```
-"""
+'''

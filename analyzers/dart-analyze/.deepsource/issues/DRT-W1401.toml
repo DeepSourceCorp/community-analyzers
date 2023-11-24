@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "instance_member_access_from_static"
-description = """
+description = '''
 The analyzer produces this diagnostic when a static method contains an
 unqualified reference to an instance member.
 
@@ -50,4 +50,4 @@ class C {
   }
 }
 ```
-"""
+'''

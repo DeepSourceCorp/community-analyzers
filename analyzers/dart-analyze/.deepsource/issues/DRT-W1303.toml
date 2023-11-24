@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "duplicate_constructor"
-description = """
+description = '''
 The analyzer produces this diagnostic when a class declares more than one
 unnamed constructor or when it declares more than one constructor with the
 same name.
@@ -74,4 +74,4 @@ class C {
   C.m();
 }
 ```
-"""
+'''

@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "unused_catch_stack"
-description = """
+description = '''
 The analyzer produces this diagnostic when the stack trace parameter in a
 `catch` clause isn't referenced within the body of the `catch` block.
 
@@ -37,4 +37,4 @@ void f() {
   }
 }
 ```
-"""
+'''

@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "public_member_api_docs"
-description = """
+description = '''
 **DO** document all public members.
 
 All non-overriding public members should be documented with `///` doc-style
@@ -50,6 +50,4 @@ class Sub extends Base {
 Note that consistent with `dart doc`, an exception to the rule is made when
 documented getters have corresponding undocumented setters.  In this case the
 setters inherit the docs from the getters.
-
-
-"""
+'''

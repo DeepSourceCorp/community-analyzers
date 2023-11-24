@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "mixin_application_no_concrete_super_invoked_member"
-description = """
+description = '''
 The analyzer produces this diagnostic when a [mixin application][] contains
 an invocation of a member from its superclass, and there's no concrete
 member of that name in the mixin application's superclass.
@@ -70,4 +70,4 @@ mixin M on A {
 
 abstract class B extends A with M {}
 ```
-"""
+'''

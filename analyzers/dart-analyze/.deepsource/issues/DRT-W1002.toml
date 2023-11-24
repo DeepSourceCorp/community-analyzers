@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "avoid_dynamic_calls"
-description = """
+description = '''
 **DO** avoid method calls or accessing properties on an object that is either
 explicitly or implicitly statically typed "dynamic". Dynamic calls are treated
 slightly different in every runtime environment and compiler, but most
@@ -80,6 +80,4 @@ void functionTypeWithParameters(Function() function) {
   function();
 }
 ```
-
-
-"""
+'''

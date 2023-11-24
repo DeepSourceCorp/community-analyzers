@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "unnecessary_null_in_if_null_operators"
-description = """
+description = '''
 **AVOID** using `null` as an operand in `if null` operators.
 
 Using `null` in an `if null` operator is redundant, regardless of which side
@@ -20,6 +20,4 @@ var y = null ?? 1;
 ```dart
 var x = a ?? 1;
 ```
-
-
-"""
+'''

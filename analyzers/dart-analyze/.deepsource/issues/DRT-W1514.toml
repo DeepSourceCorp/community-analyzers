@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "non_constant_list_element"
-description = """
+description = '''
 The analyzer produces this diagnostic when an element in a constant list
 literal isn't a constant value. The list literal can be constant either
 explicitly (because it's prefixed by the `const` keyword) or implicitly
@@ -40,4 +40,4 @@ before the list literal:
 var x = 2;
 var y = <int>[0, 1, x];
 ```
-"""
+'''

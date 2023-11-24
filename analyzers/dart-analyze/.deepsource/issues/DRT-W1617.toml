@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "sdk_version_ui_as_code"
-description = """
+description = '''
 The analyzer produces this diagnostic when a for, if, or spread element is
 found in code that has an SDK constraint whose lower bound is less than
 2.3.0. Using a for, if, or spread element wasn't supported in earlier
@@ -52,4 +52,4 @@ List<int> _initializeDigits() {
   return digits;
 }
 ```
-"""
+'''

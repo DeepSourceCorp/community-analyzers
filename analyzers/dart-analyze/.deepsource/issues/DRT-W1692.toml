@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "unused_catch_clause"
-description = """
+description = '''
 The analyzer produces this diagnostic when a `catch` clause is found, and
 neither the exception parameter nor the optional stack trace parameter are
 used in the `catch` block.
@@ -36,4 +36,4 @@ void f() {
   }
 }
 ```
-"""
+'''

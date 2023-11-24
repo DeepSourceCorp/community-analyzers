@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "dead_null_aware_expression"
-description = """
+description = '''
 The analyzer produces this diagnostic in two cases.
 
 The first is when the left operand of an `??` operator can't be `null`.
@@ -76,4 +76,4 @@ class C {
   }
 }
 ```
-"""
+'''

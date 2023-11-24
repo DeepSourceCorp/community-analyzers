@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "invalid_non_virtual_annotation"
-description = """
+description = '''
 The analyzer produces this diagnostic when the `nonVirtual` annotation is
 found on a declaration other than a member of a class, mixin, or enum, or
 if the member isn't a concrete instance member.
@@ -74,4 +74,4 @@ abstract class C {
   static void m() {}
 }
 ```
-"""
+'''

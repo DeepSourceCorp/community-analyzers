@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "field_must_be_external_in_struct"
-description = """
+description = '''
 The analyzer produces this diagnostic when a field in a subclass of either
 `Struct` or `Union` isn't marked as being `external`.
 
@@ -36,4 +36,4 @@ final class C extends Struct {
   external int a;
 }
 ```
-"""
+'''

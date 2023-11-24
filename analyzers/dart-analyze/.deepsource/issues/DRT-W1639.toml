@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "switch_expression_not_assignable"
-description = """
+description = '''
 The analyzer produces this diagnostic when the type of the expression in a
 `switch` statement isn't assignable to the type of the expressions in the
 `case` clauses.
@@ -48,4 +48,4 @@ void f(String s) {
   }
 }
 ```
-"""
+'''

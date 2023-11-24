@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "shared_deferred_prefix"
-description = """
+description = '''
 The analyzer produces this diagnostic when a prefix in a deferred import is
 also used as a prefix in other imports (whether deferred or not). The
 prefix in a deferred import can't be shared with other imports because the
@@ -41,4 +41,4 @@ import 'dart:convert' as convert;
 
 var y = convert.json.encode(x.min(0, 1));
 ```
-"""
+'''

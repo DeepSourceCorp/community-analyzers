@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "unqualified_reference_to_static_member_of_extended_type"
-description = """
+description = '''
 The analyzer produces this diagnostic when an undefined name is found, and
 the name is the same as a static member of the extended type or one of its
 superclasses.
@@ -59,4 +59,4 @@ extension E on C {
   void m() {}
 }
 ```
-"""
+'''

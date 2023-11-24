@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "unsafe_html"
-description = """
+description = '''
 **AVOID**
 
 * assigning directly to the `href` field of an AnchorElement
@@ -22,5 +22,4 @@ description = """
 ```dart
 var script = ScriptElement()..src = 'foo.js';
 ```
-
-"""
+'''

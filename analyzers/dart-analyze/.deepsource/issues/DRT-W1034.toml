@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "use_key_in_widget_constructors"
-description = """
+description = '''
 **DO** use key in widget constructors.
 
 It's a good practice to expose the ability to provide a key when creating public
@@ -22,5 +22,4 @@ class MyPublicWidget extends StatelessWidget {
   MyPublicWidget({super.key});
 }
 ```
-
-"""
+'''

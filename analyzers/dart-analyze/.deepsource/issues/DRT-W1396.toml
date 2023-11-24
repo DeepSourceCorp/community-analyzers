@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "initializer_for_non_existent_field"
-description = """
+description = '''
 The analyzer produces this diagnostic when a constructor initializes a
 field that isn't declared in the class containing the constructor.
 Constructors can't initialize fields that aren't declared and fields that
@@ -46,4 +46,4 @@ class C {
   C() : x = 0;
 }
 ```
-"""
+'''

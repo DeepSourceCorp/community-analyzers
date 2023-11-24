@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "unnecessary_null_aware_operator_on_extension_on_nullable"
-description = """
+description = '''
 Avoid null aware operators for members defined in an extension on a nullable type.
 
 **BAD:**
@@ -24,6 +24,4 @@ extension E on int? {
 }
 f(int? i) => i.m();
 ```
-
-
-"""
+'''

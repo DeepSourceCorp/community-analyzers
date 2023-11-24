@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "private_optional_parameter"
-description = """
+description = '''
 The analyzer produces this diagnostic when the name of a named parameter
 starts with an underscore.
 
@@ -28,4 +28,4 @@ class C {
   void m({int x = 0}) {}
 }
 ```
-"""
+'''

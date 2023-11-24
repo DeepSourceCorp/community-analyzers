@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "use_rethrow_when_possible"
-description = """
+description = '''
 **DO** use rethrow to rethrow a caught exception.
 
 As Dart provides rethrow as a feature, it should be used to improve terseness
@@ -29,6 +29,4 @@ try {
   handle(e);
 }
 ```
-
-
-"""
+'''

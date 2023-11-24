@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "not_assigned_potentially_non_nullable_local_variable"
-description = """
+description = '''
 The analyzer produces this diagnostic when a local variable is referenced
 and has all these characteristics:
 - Has a type that's [potentially non-nullable][].
@@ -112,4 +112,4 @@ int h(bool b) {
   return 0;
 }
 ```
-"""
+'''

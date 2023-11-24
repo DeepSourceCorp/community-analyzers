@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "external_with_initializer"
-description = """
+description = '''
 The analyzer produces this diagnostic when a field or variable marked with
 the keyword `external` has an initializer, or when an external field is
 initialized in a constructor.
@@ -46,4 +46,4 @@ class C {
   external final int x;
 }
 ```
-"""
+'''

@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "not_map_spread"
-description = """
+description = '''
 The analyzer produces this diagnostic when the static type of the
 expression of a spread element that appears in a map literal doesn't
 implement the type `Map`.
@@ -27,4 +27,4 @@ map:
 var l =  <String>['a', 'b'];
 var m = <int, String>{...l.asMap()};
 ```
-"""
+'''

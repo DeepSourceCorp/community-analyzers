@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "prefer_double_quotes"
-description = """
+description = '''
 **DO** use double quotes where they wouldn't require additional escapes.
 
 That means strings with a double quote may use apostrophes so that the double
@@ -34,6 +34,4 @@ useStrings(
     'nested ${a ? "strings" : "can"} be wrapped by a double quote',
     "and nested ${a ? 'strings' : 'can be double quoted themselves'}");
 ```
-
-
-"""
+'''

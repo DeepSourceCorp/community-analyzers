@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "const_spread_expected_map"
-description = """
+description = '''
 The analyzer produces this diagnostic when the expression of a spread
 operator in a constant map evaluates to something other than a map.
 
@@ -26,4 +26,4 @@ Change the expression to something that evaluates to a constant map:
 const Map<String, int> map1 = {};
 const Map<String, int> map2 = {...map1};
 ```
-"""
+'''

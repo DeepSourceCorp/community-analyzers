@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "class_used_as_mixin"
-description = """
+description = '''
 The analyzer produces this diagnostic when a class that is neither a
 `mixin class` nor a `mixin` is used in a `with` clause.
 
@@ -33,4 +33,4 @@ If the class needs to be both a class and a mixin, then add `mixin`:
 mixin class M {}
 class C with M {}
 ```
-"""
+'''

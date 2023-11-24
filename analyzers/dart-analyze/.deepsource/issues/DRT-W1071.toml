@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "avoid_types_on_closure_parameters"
-description = """
+description = '''
 **AVOID** annotating types for function expression parameters.
 
 Annotating types for function expression parameters is usually unnecessary
@@ -20,6 +20,4 @@ var names = people.map((Person person) => person.name);
 ```dart
 var names = people.map((person) => person.name);
 ```
-
-
-"""
+'''

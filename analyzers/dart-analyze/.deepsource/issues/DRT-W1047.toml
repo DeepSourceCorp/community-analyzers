@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "avoid_catches_without_on_clauses"
-description = """
+description = '''
 **AVOID** catches without on clauses.
 
 Using catch clauses without on clauses make your code prone to encountering
@@ -29,6 +29,4 @@ on Exception catch(e) {
   doSomething(e);
 }
 ```
-
-
-"""
+'''

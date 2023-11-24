@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "prefer_spread_collections"
-description = """
+description = '''
 Use spread collections when possible.
 
 Collection literals are excellent when you want to create a new collection out 
@@ -60,5 +60,4 @@ print(['a', ...ints.map((i) => i.toString()), 'c');
 var things;
 var l = ['a', ...?things];
 ```
-
-"""
+'''

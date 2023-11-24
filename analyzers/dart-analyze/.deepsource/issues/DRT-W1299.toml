@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "deprecated_new_in_comment_reference"
-description = """
+description = '''
 The analyzer produces this diagnostic when a comment reference (the name
 of a declaration enclosed in square brackets in a documentation comment)
 uses the keyword `new` to refer to a constructor. This form is deprecated.
@@ -51,4 +51,4 @@ class C {
   C.c();
 }
 ```
-"""
+'''

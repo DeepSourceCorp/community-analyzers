@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "field_initialized_in_parameter_and_initializer"
-description = """
+description = '''
 The analyzer produces this diagnostic when a field is initialized in both
 the parameter list and in the initializer list of a constructor.
 
@@ -56,4 +56,4 @@ class C {
   C(int g) : f = g * 2;
 }
 ```
-"""
+'''

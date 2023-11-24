@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "mixin_application_concrete_super_invoked_member_type"
-description = """
+description = '''
 The analyzer produces this diagnostic when a mixin that invokes a method
 using `super` is used in a class where the concrete implementation of that
 method has a different signature than the signature defined for that method
@@ -98,4 +98,4 @@ mixin M on I {
 
 abstract class C extends B with M {}
 ```
-"""
+'''

@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "unused_local_variable"
-description = """
+description = '''
 The analyzer produces this diagnostic when a local variable is declared but
 never read, even if it's written in one or more places.
 
@@ -24,4 +24,4 @@ void main() {
 If the variable isn't needed, then remove it.
 
 If the variable was intended to be used, then add the missing code.
-"""
+'''

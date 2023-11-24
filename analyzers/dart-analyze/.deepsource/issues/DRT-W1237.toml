@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "assignment_to_function"
-description = """
+description = '''
 The analyzer produces this diagnostic when the name of a function appears
 on the left-hand side of an assignment expression.
 
@@ -45,4 +45,4 @@ void g() {
   f = () {};
 }
 ```
-"""
+'''

@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "use_colored_box"
-description = """
+description = '''
 **DO** use `ColoredBox` when `Container` has only a `Color`.
 
 A `Container` is a heavier Widget than a `ColoredBox`, and as bonus,
@@ -29,5 +29,4 @@ Widget buildArea() {
   );
 }
 ```
-
-"""
+'''

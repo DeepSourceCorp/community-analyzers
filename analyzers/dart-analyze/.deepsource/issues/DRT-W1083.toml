@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "curly_braces_in_flow_control_structures"
-description = """
+description = '''
 **DO** use curly braces for all flow control structures.
 
 Doing so avoids the [dangling else](https://en.wikipedia.org/wiki/Dangling_else)
@@ -42,6 +42,4 @@ if (overflowChars != other.overflowChars) {
   return overflowChars < other.overflowChars;
 }
 ```
-
-
-"""
+'''

@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "sdk_version_bool_operator_in_const_context"
-description = """
+description = '''
 The analyzer produces this diagnostic when any use of the `&`, `|`, or `^`
 operators on the class `bool` inside a [constant context][] is found in
 code that has an SDK constraint whose lower bound is less than 2.3.2. Using
@@ -50,4 +50,4 @@ const bool a = true;
 const bool b = false;
 bool c = a & b;
 ```
-"""
+'''

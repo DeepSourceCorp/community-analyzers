@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "unnecessary_brace_in_string_interps"
-description = """
+description = '''
 **AVOID** using braces in interpolation when not needed.
 
 If you're just interpolating a simple identifier, and it's not immediately
@@ -19,6 +19,4 @@ print("Hi, ${name}!");
 ```dart
 print("Hi, $name!");
 ```
-
-
-"""
+'''

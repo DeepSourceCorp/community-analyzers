@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "library_private_types_in_public_api"
-description = """
+description = '''
 **AVOID** using library private types in public APIs.
 
 For the purposes of this lint, a public API is considered to be any top-level or
@@ -30,6 +30,4 @@ class _Private {}
 ```dart
 f(String s) { ... }
 ```
-
-
-"""
+'''

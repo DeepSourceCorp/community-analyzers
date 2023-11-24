@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "control_flow_in_finally"
-description = """
+description = '''
 **AVOID** control flow leaving finally blocks.
 
 Using control flow in finally blocks will inevitably cause unexpected behavior
@@ -75,6 +75,4 @@ class Ok {
   }
 }
 ```
-
-
-"""
+'''

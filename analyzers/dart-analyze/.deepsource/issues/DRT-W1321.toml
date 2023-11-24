@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "empty_record_type_with_comma"
-description = """
+description = '''
 The analyzer produces this diagnostic when a record type that has no
 fields has a trailing comma. Empty record types can't contain a comma.
 
@@ -31,4 +31,4 @@ types of those fields:
 ```dart
 void f((int, int) r) {}
 ```
-"""
+'''

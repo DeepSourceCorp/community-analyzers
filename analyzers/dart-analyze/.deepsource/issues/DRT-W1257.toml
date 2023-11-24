@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "concrete_class_has_enum_superinterface"
-description = """
+description = '''
 The analyzer produces this diagnostic when a concrete class indirectly has
 the class `Enum` as a superinterface.
 
@@ -49,4 +49,4 @@ abstract class A implements Enum {}
 
 class B {}
 ```
-"""
+'''

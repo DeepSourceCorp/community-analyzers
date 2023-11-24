@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "sized_box_shrink_expand"
-description = """
+description = '''
 Use `SizedBox.shrink(...)` and `SizedBox.expand(...)` constructors
 appropriately.
 
@@ -51,5 +51,4 @@ Widget buildLogo() {
   );
 }
 ```
-
-"""
+'''

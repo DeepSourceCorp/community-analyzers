@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "prefer_null_aware_method_calls"
-description = """
+description = '''
 Instead of checking nullability of a function/method `f` before calling it you
 can use `f?.call()`.
 
@@ -17,6 +17,4 @@ if (f != null) f!();
 ```dart
 f?.call();
 ```
-
-
-"""
+'''

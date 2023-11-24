@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "relational_pattern_operator_return_type_not_assignable_to_bool"
-description = """
+description = '''
 The analyzer produces this diagnostic when a relational pattern references
 an operator that doesn't produce a value of type `bool`.
 
@@ -69,4 +69,4 @@ void f(C c1) {
   if (c1 case > c2) {}
 }
 ```
-"""
+'''

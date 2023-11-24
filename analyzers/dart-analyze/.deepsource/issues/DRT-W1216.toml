@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "abstract_sealed_class"
-description = """
+description = '''
 The analyzer produces this diagnostic when a class is declared using both
 the modifier `abstract` and the modifier `sealed`. Sealed classes are
 implicitly abstract, so explicitly using both modifiers is not allowed.
@@ -33,4 +33,4 @@ If the class should be both abstract and sealed, then remove the
 ```dart
 sealed class C {}
 ```
-"""
+'''

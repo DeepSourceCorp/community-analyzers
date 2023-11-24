@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "invalid_use_of_null_value"
-description = """
+description = '''
 The analyzer produces this diagnostic when an expression whose value will
 always be `null` is dereferenced.
 
@@ -29,4 +29,4 @@ int f(String? x) {
   return x!.length;
 }
 ```
-"""
+'''

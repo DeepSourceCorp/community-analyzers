@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "subtype_of_base_or_final_is_not_base_final_or_sealed"
-description = """
+description = '''
 The analyzer produces this diagnostic when a class or mixin has a direct
 or indirect supertype that is either `base` or `final`, but the class or
 mixin itself isn't marked either `base`, `final`, or `sealed`.
@@ -28,4 +28,4 @@ Add either `base`, `final` or `sealed` to the class or mixin declaration:
 base class A {}
 final class B extends A {}
 ```
-"""
+'''

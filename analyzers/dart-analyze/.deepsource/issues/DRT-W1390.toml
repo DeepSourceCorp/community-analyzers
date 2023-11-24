@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "import_internal_library"
-description = """
+description = '''
 The analyzer produces this diagnostic when it finds an import whose `dart:`
 URI references an internal library.
 
@@ -20,4 +20,4 @@ import 'dart:_interceptors';
 #### Common fixes
 
 Remove the import directive.
-"""
+'''

@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "always_use_package_imports"
-description = """
+description = '''
 **DO** avoid relative imports for files in `lib/`.
 
 When mixing relative and absolute imports it's possible to create confusion
@@ -37,6 +37,4 @@ import 'package:foo/baz.dart';
 import 'package:foo/src/baz.dart';
 ...
 ```
-
-
-"""
+'''

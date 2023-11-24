@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "invalid_use_of_internal_member"
-description = """
+description = '''
 The analyzer produces this diagnostic when a reference to a declaration
 that is annotated with the [`internal`][meta-internal] annotation is found
 outside the package containing the declaration.
@@ -33,4 +33,4 @@ void f(C c) {}
 #### Common fixes
 
 Remove the reference to the internal declaration.
-"""
+'''

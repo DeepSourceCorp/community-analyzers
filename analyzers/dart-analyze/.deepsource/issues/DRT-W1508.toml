@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "non_bool_operand"
-description = """
+description = '''
 The analyzer produces this diagnostic when one of the operands of either
 the `&&` or `||` operator doesn't have the type `bool`.
 
@@ -26,4 +26,4 @@ Change the operand to a Boolean value:
 int a = 3;
 bool b = a == 0 || a > 1;
 ```
-"""
+'''

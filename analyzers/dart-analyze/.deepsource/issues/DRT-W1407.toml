@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "invalid_annotation"
-description = """
+description = '''
 The analyzer produces this diagnostic when an annotation is found that is
 using something that is neither a variable marked as `const` or the
 invocation of a `const` constructor.
@@ -69,4 +69,4 @@ int v = 0;
 void f() {
 }
 ```
-"""
+'''

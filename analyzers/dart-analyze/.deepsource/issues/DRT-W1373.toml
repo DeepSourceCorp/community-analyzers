@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "for_in_of_invalid_element_type"
-description = """
+description = '''
 The analyzer produces this diagnostic when the `Iterable` or `Stream` in a
 for-in loop has an element type that can't be assigned to the loop
 variable.
@@ -46,4 +46,4 @@ void f() {
   }
 }
 ```
-"""
+'''

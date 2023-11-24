@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "late_final_local_already_assigned"
-description = """
+description = '''
 The analyzer produces this diagnostic when the analyzer can prove that a
 local variable marked as both `late` and `final` was already assigned a
 value at the point where another assignment occurs.
@@ -50,4 +50,4 @@ int f() {
   return v;
 }
 ```
-"""
+'''

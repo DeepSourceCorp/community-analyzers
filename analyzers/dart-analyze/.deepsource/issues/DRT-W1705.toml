@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "use_of_void_result"
-description = """
+description = '''
 The analyzer produces this diagnostic when it finds an expression whose
 type is `void`, and the expression is used in a place where a value is
 expected, such as before a member access or on the right-hand side of an
@@ -27,4 +27,4 @@ void g() {
 
 Either rewrite the code so that the expression has a value or rewrite the
 code so that it doesn't depend on the value.
-"""
+'''

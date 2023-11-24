@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "rest_element_in_map_pattern"
-description = """
+description = '''
 The analyzer produces this diagnostic when a map pattern contains a rest
 pattern. Map patterns match a map with more keys
 than those explicitly given in the pattern (as long as the given keys match),
@@ -30,4 +30,4 @@ void f(Map<int, String> x) {
   if (x case {0: _}) {}
 }
 ```
-"""
+'''

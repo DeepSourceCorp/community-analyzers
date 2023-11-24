@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "map_key_type_not_assignable"
-description = """
+description = '''
 The analyzer produces this diagnostic when a key of a key-value pair in a
 map literal has a type that isn't assignable to the key type of the map.
 
@@ -31,4 +31,4 @@ If the type of the key is correct, then change the key type of the map:
 ```dart
 var m = <int, String>{2 : 'a'};
 ```
-"""
+'''

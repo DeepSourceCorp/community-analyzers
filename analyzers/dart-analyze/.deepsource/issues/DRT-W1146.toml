@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "prefer_interpolation_to_compose_strings"
-description = """
+description = '''
 **PREFER** using interpolation to compose strings and values.
 
 Using interpolation when composing strings and values is usually easier to write
@@ -19,6 +19,4 @@ and read than concatenation.
 ```dart
 'Hello, ${person.name} from ${person.city}.'
 ```
-
-
-"""
+'''

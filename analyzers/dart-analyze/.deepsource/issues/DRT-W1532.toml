@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "non_sync_factory"
-description = """
+description = '''
 The analyzer produces this diagnostic when the body of a factory
 constructor is marked with `async`, `async*`, or `sync*`. All constructors,
 including factory constructors, are required to return an instance of the
@@ -49,4 +49,4 @@ class C {
   C._();
 }
 ```
-"""
+'''

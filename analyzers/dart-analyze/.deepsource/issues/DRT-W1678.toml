@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "unnecessary_dev_dependency"
-description = """
+description = '''
 The analyzer produces this diagnostic when there's an entry under
 `dev_dependencies` for a package that is also listed under `dependencies`.
 The packages under `dependencies` are available to all of the code in the
@@ -33,4 +33,4 @@ name: example
 dependencies:
   meta: ^1.0.2
 ```
-"""
+'''

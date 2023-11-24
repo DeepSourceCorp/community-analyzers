@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "library_prefixes"
-description = """
+description = '''
 **DO** use `lowercase_with_underscores` when specifying a library prefix.
 
 **BAD:**
@@ -22,6 +22,4 @@ import 'dart:json' as json;
 import 'package:js/js.dart' as js;
 import 'package:javascript_utils/javascript_utils.dart' as js_utils;
 ```
-
-
-"""
+'''

@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "unnecessary_import"
-description = """
+description = '''
 The analyzer produces this diagnostic when an import isn't needed because
 all of the names that are imported and referenced within the importing
 library are also visible through another import.
@@ -43,4 +43,4 @@ If the import isn't needed, then remove it.
 If some of the names imported by this import are intended to be used but
 aren't yet, and if those names aren't imported by other imports, then add
 the missing references to those names.
-"""
+'''

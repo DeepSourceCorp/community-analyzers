@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "non_constant_map_element"
-description = """
+description = '''
 The analyzer produces this diagnostic when an `if` element or a spread
 element in a constant map isn't a constant element.
 
@@ -44,4 +44,4 @@ keyword:
 bool notConst = true;
 var map = <int, int>{if (notConst) 1 : 2};
 ```
-"""
+'''

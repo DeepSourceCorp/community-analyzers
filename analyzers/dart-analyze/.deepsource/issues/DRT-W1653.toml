@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "unchecked_use_of_nullable_value"
-description = """
+description = '''
 The analyzer produces this diagnostic when an expression whose type is
 [potentially non-nullable][] is dereferenced without first verifying that
 the value isn't `null`.
@@ -58,4 +58,4 @@ void f(String? s) {
   }
 }
 ```
-"""
+'''

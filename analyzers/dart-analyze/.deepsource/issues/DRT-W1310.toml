@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "duplicate_import"
-description = """
+description = '''
 The analyzer produces this diagnostic when an import directive is found
 that is the same as an import before it in the file. The second import
 doesn't add value and should be removed.
@@ -29,4 +29,4 @@ import 'package:meta/meta.dart';
 
 @sealed class C {}
 ```
-"""
+'''

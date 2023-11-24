@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "mixin_on_sealed_class"
-description = """
+description = '''
 The analyzer produces this diagnostic when the superclass constraint of a
 mixin is a class from a different package that was marked as
 [`sealed`][meta-sealed]. Classes that are sealed can't be extended,
@@ -35,4 +35,4 @@ mixin M on C {}
 If the classes that use the mixin don't need to be subclasses of the sealed
 class, then consider adding a field and delegating to the wrapped instance
 of the sealed class.
-"""
+'''

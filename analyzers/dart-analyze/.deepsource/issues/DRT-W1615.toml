@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "sdk_version_never"
-description = """
+description = '''
 The analyzer produces this diagnostic when a reference to the class `Never`
 is found in code that has an SDK constraint whose lower bound is less than
 2.12.0. This class wasn't defined in earlier versions, so this code won't
@@ -43,4 +43,4 @@ not reference this class:
 ```dart
 dynamic x;
 ```
-"""
+'''

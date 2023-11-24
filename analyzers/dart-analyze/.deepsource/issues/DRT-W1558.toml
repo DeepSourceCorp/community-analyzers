@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "override_on_non_overriding_member"
-description = """
+description = '''
 The analyzer produces this diagnostic when a class member is annotated with
 the `@override` annotation, but the member isn't declared in any of the
 supertypes of the class.
@@ -37,4 +37,4 @@ If the member is intended to override a member that was removed from the
 superclass, then consider removing the member from the subclass.
 
 If the member can't be removed, then remove the annotation.
-"""
+'''

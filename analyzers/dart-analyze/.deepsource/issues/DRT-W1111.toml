@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "null_check_on_nullable_type_parameter"
-description = """
+description = '''
 **DON'T** use null check on a potentially nullable type parameter.
 
 Given a generic type parameter `T` which has a nullable bound (e.g. the default
@@ -31,6 +31,4 @@ T run<T>(T callback()) {
   return result as T;
 }
 ```
-
-
-"""
+'''

@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "must_be_immutable"
-description = """
+description = '''
 The analyzer produces this diagnostic when an immutable class defines one
 or more instance fields that aren't final. A class is immutable if it's
 marked as being immutable using the annotation
@@ -53,4 +53,4 @@ class C {
   C(this.x);
 }
 ```
-"""
+'''

@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "field_initializer_redirecting_constructor"
-description = """
+description = '''
 The analyzer produces this diagnostic when a redirecting constructor
 initializes a field in the object. This isn't allowed because the instance
 that has the field hasn't been created at the point at which it should be
@@ -67,4 +67,4 @@ class C {
   C.zero() : this(0);
 }
 ```
-"""
+'''

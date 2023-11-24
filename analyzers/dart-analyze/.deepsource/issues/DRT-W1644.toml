@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "top_level_cycle"
-description = """
+description = '''
 The analyzer produces this diagnostic when a top-level variable has no type
 annotation and the variable's initializer refers to the variable, either
 directly or indirectly.
@@ -42,4 +42,4 @@ Note, however, that while this code doesn't produce any diagnostics, it
 will produce a stack overflow at runtime unless at least one of the
 variables is assigned a value that doesn't depend on the other variables
 before any of the variables in the cycle are referenced.
-"""
+'''

@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "enum_with_name_values"
-description = """
+description = '''
 The analyzer produces this diagnostic when an enum is declared to have the
 name `values`. This isn't allowed because the enum has an implicit static
 field named `values`, and the two would collide.
@@ -23,4 +23,4 @@ enum values {
 #### Common fixes
 
 Rename the enum to something other than `values`.
-"""
+'''

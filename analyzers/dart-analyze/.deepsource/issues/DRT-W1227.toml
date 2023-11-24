@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "assert_in_redirecting_constructor"
-description = """
+description = '''
 The analyzer produces this diagnostic when a redirecting constructor (a
 constructor that redirects to another constructor in the same class) has an
 assert in the initializer list.
@@ -45,4 +45,4 @@ class C {
   C.name() {}
 }
 ```
-"""
+'''

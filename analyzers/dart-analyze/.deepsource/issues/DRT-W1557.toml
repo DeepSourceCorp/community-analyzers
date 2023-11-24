@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "optional_parameter_in_operator"
-description = """
+description = '''
 The analyzer produces this diagnostic when one or more of the parameters in
 an operator declaration are optional.
 
@@ -28,4 +28,4 @@ class C {
   C operator +(C other) => this;
 }
 ```
-"""
+'''

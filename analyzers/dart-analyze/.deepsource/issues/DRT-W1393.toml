@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "inconsistent_inheritance"
-description = """
+description = '''
 The analyzer produces this diagnostic when a class inherits two or more
 conflicting signatures for a member and doesn't provide an implementation
 that satisfies all the inherited signatures.
@@ -46,4 +46,4 @@ class C extends A implements B {
   void m({int a, int b}) {}
 }
 ```
-"""
+'''

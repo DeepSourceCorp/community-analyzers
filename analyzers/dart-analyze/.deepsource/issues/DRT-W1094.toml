@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "implementation_imports"
-description = """
+description = '''
 From the the [pub package layout doc](https://dart.dev/tools/pub/package-layout#implementation-files):
 
 **DON'T** import implementation files from another package.
@@ -26,6 +26,4 @@ might change in ways that could break your code.
 // In 'road_runner'
 import 'package:acme/src/internals.dart';
 ```
-
-
-"""
+'''

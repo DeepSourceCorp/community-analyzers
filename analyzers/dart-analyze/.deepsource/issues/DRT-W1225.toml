@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "argument_type_not_assignable"
-description = """
+description = '''
 The analyzer produces this diagnostic when the static type of an argument
 can't be assigned to the static type of the corresponding parameter.
 
@@ -52,4 +52,4 @@ an exception thrown at runtime if you're wrong, then add an explicit cast:
 String f(String x) => x;
 String g(num y) => f(y as String);
 ```
-"""
+'''

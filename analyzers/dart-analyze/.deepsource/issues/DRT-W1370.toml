@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "final_not_initialized"
-description = """
+description = '''
 The analyzer produces this diagnostic when a final field or variable isn't
 initialized.
 
@@ -45,4 +45,4 @@ class C {
   C(int y) : x = y * 2;
 }
 ```
-"""
+'''

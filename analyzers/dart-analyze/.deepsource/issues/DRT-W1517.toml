@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "non_constant_map_pattern_key"
-description = """
+description = '''
 The analyzer produces this diagnostic when a key in a map pattern isn't a
 constant expression.
 
@@ -36,4 +36,4 @@ class A {
   const A();
 }
 ```
-"""
+'''

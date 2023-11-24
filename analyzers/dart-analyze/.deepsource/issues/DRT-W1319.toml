@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "empty_record_literal_with_comma"
-description = """
+description = '''
 The analyzer produces this diagnostic when a record literal that has no
 fields has a trailing comma. Empty record literals can't contain a comma.
 
@@ -31,4 +31,4 @@ expressions used to compute the values of those fields:
 ```dart
 var r = (3, 4);
 ```
-"""
+'''

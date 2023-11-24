@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "case_expression_type_implements_equals"
-description = """
+description = '''
 The analyzer produces this diagnostic when the type of the expression
 following the keyword `case` has an implementation of the `==` operator
 other than the one in `Object`.
@@ -97,4 +97,4 @@ void f(C c) {
   }
 }
 ```
-"""
+'''

@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "no_wildcard_variable_uses"
-description = """
+description = '''
 **DON'T** use wildcard parameters or variables.
 
 Wildcard parameters and local variables
@@ -35,5 +35,4 @@ for (var _ in [1, 2, 3]) count++;
 ```dart
 var [a, _, b, _] = [1, 2, 3, 4];
 ```
-
-"""
+'''

@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "unnecessary_string_interpolations"
-description = """
+description = '''
 **DON'T** use string interpolation if there's only a string expression in it.
 
 **BAD:**
@@ -18,6 +18,4 @@ String o = '$message';
 String message;
 String o = message;
 ```
-
-
-"""
+'''

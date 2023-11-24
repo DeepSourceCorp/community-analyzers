@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "invalid_platforms_field"
-description = """
+description = '''
 The analyzer produces this diagnostic when a top-level `platforms`
 field is specified, but its value is not a map with keys.
 To learn more about specifying your package's supported platforms,
@@ -42,4 +42,4 @@ platforms:
   web:
   ios:
 ```
-"""
+'''

@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "unnecessary_await_in_return"
-description = """
+description = '''
 Avoid returning an awaited expression when the expression type is assignable to
 the function's return type.
 
@@ -26,6 +26,4 @@ Future<int> f2() {
   return future;
 }
 ```
-
-
-"""
+'''

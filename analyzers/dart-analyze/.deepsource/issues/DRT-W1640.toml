@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "tearoff_of_generative_constructor_of_abstract_class"
-description = """
+description = '''
 The analyzer produces this diagnostic when a generative constructor from an
 abstract class is being torn off. This isn't allowed because it isn't valid
 to create an instance of an abstract class, which means that there isn't
@@ -28,4 +28,4 @@ void f() {
 #### Common fixes
 
 Tear off the constructor of a concrete class.
-"""
+'''

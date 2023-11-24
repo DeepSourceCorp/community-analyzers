@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "continue_label_invalid"
-description = """
+description = '''
 The analyzer produces this diagnostic when the label in a `continue`
 statement resolves to a label on a `switch` statement.
 
@@ -26,4 +26,4 @@ void f(int i) {
 
 Find a different way to achieve the control flow you need; for example, by
 introducing a loop that re-executes the `switch` statement.
-"""
+'''

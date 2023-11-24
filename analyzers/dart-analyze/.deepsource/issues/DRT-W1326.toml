@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "enum_with_abstract_member"
-description = """
+description = '''
 The analyzer produces this diagnostic when a member of an enum is found
 that doesn't have a concrete implementation. Enums aren't allowed to
 contain abstract members.
@@ -33,4 +33,4 @@ enum E {
   void m() {}
 }
 ```
-"""
+'''

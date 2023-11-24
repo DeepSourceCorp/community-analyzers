@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "prefer_final_locals"
-description = """
+description = '''
 **DO** prefer declaring variables as final if they are not reassigned later in
 the code.
 
@@ -36,6 +36,4 @@ void mutableCase() {
   print(label);
 }
 ```
-
-
-"""
+'''

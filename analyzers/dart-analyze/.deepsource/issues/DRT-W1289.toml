@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "default_value_in_function_type"
-description = """
+description = '''
 The analyzer produces this diagnostic when a function type associated with
 a parameter includes optional parameters that have a default value. This
 isn't allowed because the default values of parameters aren't part of the
@@ -28,4 +28,4 @@ Remove the default value from the function-type's parameter:
 void f(void Function([int p]) g) {
 }
 ```
-"""
+'''

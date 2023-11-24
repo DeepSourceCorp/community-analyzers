@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "subtype_of_disallowed_type"
-description = """
+description = '''
 The analyzer produces this diagnostic when one of the restricted classes is
 used in either an `extends`, `implements`, `with`, or `on` clause. The
 classes `bool`, `double`, `FutureOr`, `int`, `Null`, `num`, and `String`
@@ -55,4 +55,4 @@ type, and possibly the whole clause:
 ```dart
 class B {}
 ```
-"""
+'''

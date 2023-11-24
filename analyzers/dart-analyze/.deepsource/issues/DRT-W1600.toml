@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "rethrow_outside_catch"
-description = """
+description = '''
 The analyzer produces this diagnostic when a `rethrow` statement is outside
 a `catch` clause. The `rethrow` statement is used to throw a caught
 exception again, but there's no caught exception outside of a `catch`
@@ -44,4 +44,4 @@ void f() {
   throw UnsupportedError('Not yet implemented');
 }
 ```
-"""
+'''

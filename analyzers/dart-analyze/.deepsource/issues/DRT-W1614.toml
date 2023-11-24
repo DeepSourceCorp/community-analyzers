@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "sdk_version_is_expression_in_const_context"
-description = """
+description = '''
 The analyzer produces this diagnostic when an `is` expression inside a
 [constant context][] is found in code that has an SDK constraint whose
 lower bound is less than 2.3.2. Using an `is` expression in a
@@ -48,4 +48,4 @@ code so that the `is` expression isn't in a
 const Object x = 4;
 var y = x is int ? 0 : 1;
 ```
-"""
+'''

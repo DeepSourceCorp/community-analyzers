@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "always_put_required_named_parameters_first"
-description = """
+description = '''
 **DO** specify `required` on named parameter before other named parameters.
 
 **BAD:**
@@ -26,6 +26,4 @@ m({b, c, @required a}) ;
 ```dart
 m({@required a, b, c}) ;
 ```
-
-
-"""
+'''

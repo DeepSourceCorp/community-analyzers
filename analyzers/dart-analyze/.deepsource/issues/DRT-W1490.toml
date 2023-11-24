@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "mixin_instantiate"
-description = """
+description = '''
 The analyzer produces this diagnostic when a mixin is instantiated.
 
 #### Example
@@ -22,4 +22,4 @@ var m = M();
 
 If you intend to use an instance of a class, then use the name of that
 class in place of the name of the mixin.
-"""
+'''

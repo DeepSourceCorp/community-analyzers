@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "non_constant_default_value_from_deferred_library"
-description = """
+description = '''
 The analyzer produces this diagnostic when the default value of an optional
 parameter uses a constant from a library imported using a deferred import.
 Default values need to be available at compile time, and constants from
@@ -47,4 +47,4 @@ value:
 ```dart
 void f({int x = 0}) {}
 ```
-"""
+'''

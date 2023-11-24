@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "cast_from_nullable_always_fails"
-description = """
+description = '''
 The analyzer produces this diagnostic when a local variable that has a
 nullable type hasn't been assigned and is cast to a non-nullable type.
 Because the variable hasn't been assigned it has the default value of
@@ -45,4 +45,4 @@ void f() {
   print(x);
 }
 ```
-"""
+'''

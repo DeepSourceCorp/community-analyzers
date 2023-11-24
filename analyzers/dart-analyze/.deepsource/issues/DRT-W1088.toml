@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "empty_catches"
-description = """
+description = '''
 **AVOID** empty catch blocks.
 
 In general, empty catch blocks should be avoided.  In cases where they are
@@ -39,6 +39,4 @@ try {
   doSomething(e);
 }
 ```
-
-
-"""
+'''

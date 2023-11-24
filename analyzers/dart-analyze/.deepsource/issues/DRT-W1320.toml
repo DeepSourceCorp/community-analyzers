@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "empty_record_type_named_fields_list"
-description = """
+description = '''
 The analyzer produces this diagnostic when a record type has an empty list
 of named fields.
 
@@ -32,4 +32,4 @@ braces:
 ```dart
 void f((int, int) r) {}
 ```
-"""
+'''

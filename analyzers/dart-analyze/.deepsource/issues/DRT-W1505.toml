@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "non_bool_condition"
-description = """
+description = '''
 The analyzer produces this diagnostic when a condition, such as an `if` or
 `while` loop, doesn't have the static type `bool`.
 
@@ -32,4 +32,4 @@ void f(int x) {
   }
 }
 ```
-"""
+'''

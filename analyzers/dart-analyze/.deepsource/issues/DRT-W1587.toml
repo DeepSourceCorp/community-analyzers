@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "redirect_generative_to_non_generative_constructor"
-description = """
+description = '''
 The analyzer produces this diagnostic when a generative constructor
 redirects to a factory constructor.
 
@@ -41,4 +41,4 @@ class C {
   C.b();
 }
 ```
-"""
+'''

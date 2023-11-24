@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "empty_map_pattern"
-description = """
+description = '''
 The analyzer produces this diagnostic when a map pattern is empty.
 
 #### Example
@@ -37,4 +37,4 @@ void f(Map<int, String> x) {
   if (x case Map(isEmpty: true)) {}
 }
 ```
-"""
+'''

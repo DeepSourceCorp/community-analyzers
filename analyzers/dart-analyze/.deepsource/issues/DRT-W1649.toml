@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "type_parameter_referenced_by_static"
-description = """
+description = '''
 The analyzer produces this diagnostic when a static member references a
 type parameter that is declared for the class. Type parameters only have
 meaning for instances of the class.
@@ -40,4 +40,4 @@ class C<T> {
 
 Note, however, that there isn't a relationship between `T` and `S`, so this
 second option changes the semantics from what was likely to be intended.
-"""
+'''

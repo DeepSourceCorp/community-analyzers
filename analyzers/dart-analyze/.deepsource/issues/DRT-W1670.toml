@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "undefined_operator"
-description = """
+description = '''
 The analyzer produces this diagnostic when a user-definable operator is
 invoked on an object for which the operator isn't defined.
 
@@ -30,4 +30,4 @@ class C {
 
 C f(C c) => c + 2;
 ```
-"""
+'''

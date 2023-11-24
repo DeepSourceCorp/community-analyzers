@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "expected_two_map_type_arguments"
-description = """
+description = '''
 The analyzer produces this diagnostic when a map literal has either one or
 more than two type arguments.
 
@@ -24,4 +24,4 @@ Remove all except two of the type arguments:
 ```dart
 var m = <int, String>{};
 ```
-"""
+'''

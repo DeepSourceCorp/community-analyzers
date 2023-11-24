@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "avoid_final_parameters"
-description = """
+description = '''
 **AVOID** declaring parameters as final.
 
 Declaring parameters as final can lead to unnecessarily verbose code, especially
@@ -43,6 +43,4 @@ void badExpression(int value) => print(value); // OK
 ```dart
 [1, 4, 6, 8].forEach((value) => print(value + 2)); // OK
 ```
-
-
-"""
+'''

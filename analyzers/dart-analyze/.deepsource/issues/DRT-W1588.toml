@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "redirect_to_abstract_class_constructor"
-description = """
+description = '''
 The analyzer produces this diagnostic when a constructor redirects to a
 constructor in an abstract class.
 
@@ -37,4 +37,4 @@ class B implements A {}
 
 Otherwise, change the factory constructor so that it either redirects to a
 constructor in a concrete class, or has a concrete implementation.
-"""
+'''

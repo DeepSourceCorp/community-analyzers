@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "undefined_extension_method"
-description = """
+description = '''
 The analyzer produces this diagnostic when an extension override is used to
 invoke a method, but the method isn't defined by the specified extension.
 The analyzer also produces this diagnostic when a static method is
@@ -91,4 +91,4 @@ void f() {
   E('c').b();
 }
 ```
-"""
+'''

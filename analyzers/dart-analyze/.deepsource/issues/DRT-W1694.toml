@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "unused_element"
-description = """
+description = '''
 The analyzer produces this diagnostic when a private declaration isn't
 referenced in the library that contains the declaration. The following
 kinds of declarations are analyzed:
@@ -55,4 +55,4 @@ class C {
 ```
 
 If the declaration is intended to be used, then add the code to use it.
-"""
+'''

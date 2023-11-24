@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "prefer_relative_imports"
-description = """
+description = '''
 **PREFER** relative imports for files in `lib/`.
 
 When mixing relative and absolute imports it's possible to create confusion
@@ -21,6 +21,4 @@ import 'package:my_package/bar.dart';
 ```dart
 import 'bar.dart';
 ```
-
-
-"""
+'''

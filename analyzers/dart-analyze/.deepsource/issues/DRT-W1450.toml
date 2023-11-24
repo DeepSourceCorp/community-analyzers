@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "invalid_visible_outside_template_annotation"
-description = """
+description = '''
 The analyzer produces this diagnostic when the `@visibleOutsideTemplate`
 annotation is used incorrectly. This annotation is only meant to annotate
 members of a class, enum, or mixin that has the `@visibleForTemplate`
@@ -61,4 +61,4 @@ annotation, remove the annotation:
 ```dart
 class C {}
 ```
-"""
+'''

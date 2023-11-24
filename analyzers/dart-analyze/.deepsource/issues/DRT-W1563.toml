@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "part_of_unnamed_library"
-description = """
+description = '''
 The analyzer produces this diagnostic when a library that doesn't have a
 `library` directive (and hence has no name) contains a `part` directive
 and the `part of` directive in the [part file][] uses a name to specify
@@ -35,4 +35,4 @@ by URI:
 ```dart
 part of 'test.dart';
 ```
-"""
+'''

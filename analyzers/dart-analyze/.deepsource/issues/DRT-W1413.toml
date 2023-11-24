@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "invalid_exception_value"
-description = """
+description = '''
 The analyzer produces this diagnostic when an invocation of the method
 `Pointer.fromFunction` or `NativeCallable.isolateLocal`
 has a second argument (the exceptional return
@@ -45,4 +45,4 @@ void g() {
   Pointer.fromFunction<T>(f);
 }
 ```
-"""
+'''

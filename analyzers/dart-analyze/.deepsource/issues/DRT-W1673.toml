@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "undefined_setter"
-description = """
+description = '''
 The analyzer produces this diagnostic when it encounters an identifier that
 appears to be the name of a setter but either isn't defined or isn't
 visible in the scope in which the identifier is being referenced.
@@ -37,4 +37,4 @@ class C {
   }
 }
 ```
-"""
+'''

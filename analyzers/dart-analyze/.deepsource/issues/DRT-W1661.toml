@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "undefined_extension_operator"
-description = """
+description = '''
 The analyzer produces this diagnostic when an operator is invoked on a
 specific extension when that extension doesn't implement the operator.
 
@@ -43,4 +43,4 @@ var x = '' * 4;
 
 extension E on String {}
 ```
-"""
+'''

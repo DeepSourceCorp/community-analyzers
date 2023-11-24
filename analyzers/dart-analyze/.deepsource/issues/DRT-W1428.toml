@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "invalid_modifier_on_setter"
-description = """
+description = '''
 The analyzer produces this diagnostic when the body of a setter is prefixed
 by one of the following modifiers: `async`, `async*`, or `sync*`. Setter
 bodies must be synchronous.
@@ -38,4 +38,4 @@ class C {
   void x(int i) async {}
 }
 ```
-"""
+'''

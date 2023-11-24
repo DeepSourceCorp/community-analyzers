@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "constant_pattern_with_non_constant_expression"
-description = """
+description = '''
 The analyzer produces this diagnostic when a constant pattern has an
 expression that isn't a valid constant.
 
@@ -44,4 +44,4 @@ void f(int e, int i) {
   if (e == i) {}
 }
 ```
-"""
+'''

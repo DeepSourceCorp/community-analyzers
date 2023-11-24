@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "set_element_type_not_assignable"
-description = """
+description = '''
 The analyzer produces this diagnostic when an element in a set literal has
 a type that isn't assignable to the element type of the set.
 
@@ -32,4 +32,4 @@ If the type of the element is wrong, then change the element:
 ```dart
 var s = <int>{'0'.length};
 ```
-"""
+'''

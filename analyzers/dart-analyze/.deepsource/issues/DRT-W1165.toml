@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "sort_constructors_first"
-description = """
+description = '''
 **DO** sort constructor declarations before other members.
 
 **BAD:**
@@ -24,6 +24,4 @@ abstract class Animation<T> {
   void addListener(VoidCallback listener);
 }
 ```
-
-
-"""
+'''

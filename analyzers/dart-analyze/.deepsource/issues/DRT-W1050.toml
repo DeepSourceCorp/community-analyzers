@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "avoid_double_and_int_checks"
-description = """
+description = '''
 **AVOID** to check if type is double or int.
 
 When compiled to JS, integer values are represented as floats. That can lead to
@@ -32,6 +32,4 @@ f(dynamic x) {
   }
 }
 ```
-
-
-"""
+'''

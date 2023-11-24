@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "implicit_super_initializer_missing_arguments"
-description = """
+description = '''
 The analyzer produces this diagnostic when a constructor implicitly
 invokes the unnamed constructor from the superclass, the unnamed
 constructor of the superclass has a required parameter, and there's no
@@ -82,4 +82,4 @@ class B extends A {
   B() : super(0);
 }
 ```
-"""
+'''

@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "prefer_inlined_adds"
-description = """
+description = '''
 Declare elements in list literals inline, rather than using `add` and 
 `addAll` methods where possible.
 
@@ -20,5 +20,4 @@ var l2 = ['a']..addAll(['b', 'c']);
 var l = ['a', 'b', 'c'];
 var l2 = ['a', 'b', 'c'];
 ```
-
-"""
+'''

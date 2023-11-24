@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "extra_positional_arguments_could_be_named"
-description = """
+description = '''
 The analyzer produces this diagnostic when a method or function invocation
 has more positional arguments than the method or function allows, but the
 method or function defines named parameters.
@@ -43,4 +43,4 @@ void g() {
   f(1, 2);
 }
 ```
-"""
+'''

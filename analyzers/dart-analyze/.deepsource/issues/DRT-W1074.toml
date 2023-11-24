@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "avoid_void_async"
-description = """
+description = '''
 **DO** mark async functions as returning Future<void>.
 
 When declaring an async method or function which does not return a value,
@@ -35,5 +35,4 @@ void main() async {
   await f();
 }
 ```
-
-"""
+'''

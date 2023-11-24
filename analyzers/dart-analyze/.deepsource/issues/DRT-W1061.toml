@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "avoid_positional_boolean_parameters"
-description = """
+description = '''
 **AVOID** positional boolean parameters.
 
 Positional boolean parameters are a bad practice because they are very
@@ -26,6 +26,4 @@ Task.repeating();
 ListBox(scroll: true, showScrollbars: true);
 Button(ButtonState.enabled);
 ```
-
-
-"""
+'''

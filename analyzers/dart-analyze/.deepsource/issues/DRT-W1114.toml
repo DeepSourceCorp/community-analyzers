@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "one_member_abstracts"
-description = """
+description = '''
 From [Effective Dart](https://dart.dev/effective-dart/design#avoid-defining-a-one-member-abstract-class-when-a-simple-function-will-do):
 
 **AVOID** defining a one-member abstract class when a simple function will do.
@@ -26,6 +26,4 @@ abstract class Predicate {
 ```dart
 typedef Predicate = bool Function(item);
 ```
-
-
-"""
+'''

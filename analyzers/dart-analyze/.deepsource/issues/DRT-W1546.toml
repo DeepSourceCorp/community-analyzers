@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "no_combined_super_signature"
-description = """
+description = '''
 The analyzer produces this diagnostic when there is a method declaration
 for which one or more types needs to be inferred, and those types can't be
 inferred because none of the overridden methods has a function type that is
@@ -54,4 +54,4 @@ abstract class C implements A, B {
   C m(Object a);
 }
 ```
-"""
+'''

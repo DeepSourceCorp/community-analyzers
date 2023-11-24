@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "extra_size_annotation_carray"
-description = """
+description = '''
 The analyzer produces this diagnostic when a field in a subclass of
 `Struct` has more than one annotation describing the size of the native
 array.
@@ -38,4 +38,4 @@ final class C extends Struct {
   external Array<Uint8> a0;
 }
 ```
-"""
+'''

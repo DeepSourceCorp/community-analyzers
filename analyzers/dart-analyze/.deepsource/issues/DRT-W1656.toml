@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "undefined_constructor_in_initializer"
-description = """
+description = '''
 The analyzer produces this diagnostic when a superclass constructor is
 invoked in the initializer list of a constructor, but the superclass
 doesn't define the constructor being invoked.
@@ -61,4 +61,4 @@ class B extends A {
   B() : super.m();
 }
 ```
-"""
+'''

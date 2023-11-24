@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "sdk_version_as_expression_in_const_context"
-description = """
+description = '''
 The analyzer produces this diagnostic when an `as` expression inside a
 [constant context][] is found in code that has an SDK constraint whose
 lower bound is less than 2.3.2. Using an `as` expression in a
@@ -47,4 +47,4 @@ expression isn't in a [constant context][]:
 num x = 3;
 int y = x as int;
 ```
-"""
+'''

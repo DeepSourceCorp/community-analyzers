@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "not_initialized_non_nullable_instance_field"
-description = """
+description = '''
 The analyzer produces this diagnostic when a field is declared and has all
 these characteristics:
 - Has a type that's [potentially non-nullable][]
@@ -70,4 +70,4 @@ class C {
   late int x;
 }
 ```
-"""
+'''

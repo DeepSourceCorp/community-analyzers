@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "nullable_type_in_with_clause"
-description = """
+description = '''
 The analyzer produces this diagnostic when a class or mixin declaration has
 a `with` clause, and a mixin is followed by a `?`.
 
@@ -33,4 +33,4 @@ Remove the question mark from the type:
 mixin M {}
 class C with M {}
 ```
-"""
+'''

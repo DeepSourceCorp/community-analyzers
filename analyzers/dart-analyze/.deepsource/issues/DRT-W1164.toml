@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "sort_child_properties_last"
-description = """
+description = '''
 Sort child properties last in widget instance creations.  This improves
 readability and plays nicest with UI as Code visualization in IDEs with UI as
 Code Guides in editors (such as IntelliJ) where Properties in the correct order
@@ -71,6 +71,4 @@ return Scaffold(
 
 Exception: It's allowed to have parameter with a function expression after the
 `child` property.
-
-
-"""
+'''

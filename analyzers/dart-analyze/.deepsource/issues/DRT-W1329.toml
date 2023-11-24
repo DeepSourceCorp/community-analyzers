@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "equal_elements_in_set"
-description = """
+description = '''
 The analyzer produces this diagnostic when an element in a non-constant set
 is the same as a previous element in the same set. If two elements are the
 same, then the second value is ignored, which makes having both elements
@@ -43,4 +43,4 @@ var s = <int>{a};
 Note that literal sets preserve the order of their elements, so the choice
 of which element to remove might affect the order in which elements are
 returned by an iterator.
-"""
+'''

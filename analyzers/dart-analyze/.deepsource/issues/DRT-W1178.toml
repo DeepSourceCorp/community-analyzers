@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "unnecessary_getters_setters"
-description = """
+description = '''
 From [Effective Dart](https://dart.dev/effective-dart/usage#dont-wrap-a-field-in-a-getter-and-setter-unnecessarily):
 
 **AVOID** wrapping fields in getters and setters just to be "safe".
@@ -37,6 +37,4 @@ class Box {
   var contents;
 }
 ```
-
-
-"""
+'''

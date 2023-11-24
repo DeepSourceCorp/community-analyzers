@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "label_undefined"
-description = """
+description = '''
 The analyzer produces this diagnostic when it finds a reference to a label
 that isn't defined in the scope of the `break` or `continue` statement that
 is referencing it.
@@ -56,4 +56,4 @@ void f() {
   }
 }
 ```
-"""
+'''

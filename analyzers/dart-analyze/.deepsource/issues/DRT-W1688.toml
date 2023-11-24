@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "unnecessary_type_check"
-description = """
+description = '''
 The analyzer produces this diagnostic when the value of a type check (using
 either `is` or `is!`) is known at compile time.
 
@@ -32,4 +32,4 @@ type check with its known value or completely remove it:
 ```dart
 bool f<T>(T a) => true;
 ```
-"""
+'''

@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "undefined_prefixed_name"
-description = """
+description = '''
 The analyzer produces this diagnostic when a prefixed identifier is found
 where the prefix is valid, but the identifier isn't declared in any of the
 libraries imported using that prefix.
@@ -29,4 +29,4 @@ import for the library.
 
 If the name is wrong, then change it to one of the names that's declared in
 the imported libraries.
-"""
+'''

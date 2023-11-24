@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "missing_annotation_on_struct_field"
-description = """
+description = '''
 The analyzer produces this diagnostic when a field in a subclass of
 `Struct` or `Union` whose type requires an annotation doesn't have one.
 The Dart types `int`, `double`, and `Array` are used to represent multiple
@@ -38,4 +38,4 @@ final class C extends Struct {
   external int x;
 }
 ```
-"""
+'''

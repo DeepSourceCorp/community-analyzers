@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "unnecessary_constructor_name"
-description = """
+description = '''
 **PREFER** using the default unnamed Constructor over `.new`.
 
 Given a class `C`, the named unnamed constructor `C.new` refers to the same
@@ -31,5 +31,4 @@ var a = A();
 var aa = A.ok();
 var makeA = A.new;
 ```
-
-"""
+'''

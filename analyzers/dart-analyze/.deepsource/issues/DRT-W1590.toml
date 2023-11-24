@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "redirect_to_invalid_return_type"
-description = """
+description = '''
 The analyzer produces this diagnostic when a factory constructor redirects
 to a constructor whose return type isn't a subtype of the type that the
 factory constructor is declared to produce.
@@ -53,4 +53,4 @@ class C {
   factory C() = A;
 }
 ```
-"""
+'''

@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "platform_value_disallowed"
-description = """
+description = '''
 The analyzer produces this diagnostic when a key in the `platforms` map
 has a value.
 To learn more about specifying your package's supported platforms,
@@ -33,4 +33,4 @@ platforms:
 
 Values for keys in the `platforms` field are currently reserved for
 potential future behavior.
-"""
+'''

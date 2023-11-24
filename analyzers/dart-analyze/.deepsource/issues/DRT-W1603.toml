@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "return_of_do_not_store"
-description = """
+description = '''
 The analyzer produces this diagnostic when a value that is annotated with
 the [`doNotStore`][meta-doNotStore] annotation is returned from a method,
 getter, or function that doesn't have the same annotation.
@@ -49,4 +49,4 @@ int f() => 0;
 
 int g() => 0;
 ```
-"""
+'''

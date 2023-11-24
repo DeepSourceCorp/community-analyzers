@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "main_has_too_many_required_positional_parameters"
-description = """
+description = '''
 The analyzer produces this diagnostic when a function named `main` has more
 than two required positional parameters.
 
@@ -39,4 +39,4 @@ If the function isn't an entry point, then change the name of the function:
 ```dart
 void f(List<String> args, int x, int y) {}
 ```
-"""
+'''

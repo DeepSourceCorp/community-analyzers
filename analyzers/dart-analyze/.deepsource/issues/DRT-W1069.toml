@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "avoid_shadowing_type_parameters"
-description = """
+description = '''
 **AVOID** shadowing type parameters.
 
 **BAD:**
@@ -20,6 +20,4 @@ class A<T> {
   void fn<U>() {}
 }
 ```
-
-
-"""
+'''

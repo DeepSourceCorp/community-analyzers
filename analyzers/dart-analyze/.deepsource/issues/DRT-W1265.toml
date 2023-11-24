@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "const_constructor_param_type_mismatch"
-description = """
+description = '''
 The analyzer produces this diagnostic when the runtime type of a constant
 value can't be assigned to the static type of a constant constructor's
 parameter.
@@ -45,4 +45,4 @@ void f() {
   const C('$i');
 }
 ```
-"""
+'''

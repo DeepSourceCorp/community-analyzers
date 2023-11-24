@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "only_throw_errors"
-description = """
+description = '''
 **DO** throw only instances of classes that extend `dart.core.Error` or
 `dart.core.Exception`.
 
@@ -26,6 +26,4 @@ void throwArgumentError() {
   throw error; // OK
 }
 ```
-
-
-"""
+'''

@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "avoid_empty_else"
-description = """
+description = '''
 **AVOID** empty else statements.
 
 **BAD:**
@@ -14,6 +14,4 @@ if (x > y)
 else ;
   print("2");
 ```
-
-
-"""
+'''

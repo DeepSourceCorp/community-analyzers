@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "invalid_null_aware_operator"
-description = """
+description = '''
 The analyzer produces this diagnostic when a null-aware operator (`?.`,
 `?..`, `?[`, `?..[`, or `...?`) is used on a receiver that's known to be
 non-nullable.
@@ -71,4 +71,4 @@ int getLength(String s) {
 
 (Note that the return type was also changed to be non-nullable, which might
 not be appropriate in some cases.)
-"""
+'''

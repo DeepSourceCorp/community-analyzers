@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "non_final_field_in_enum"
-description = """
+description = '''
 The analyzer produces this diagnostic when an instance field in an enum
 isn't marked as `final`.
 
@@ -41,4 +41,4 @@ enum E {
   c
 }
 ```
-"""
+'''

@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "use_function_type_syntax_for_parameters"
-description = """
+description = '''
 Use generic function type syntax for parameters.
 
 **BAD:**
@@ -16,6 +16,4 @@ Iterable<T> where(bool predicate(T element)) {}
 ```dart
 Iterable<T> where(bool Function(T) predicate) {}
 ```
-
-
-"""
+'''

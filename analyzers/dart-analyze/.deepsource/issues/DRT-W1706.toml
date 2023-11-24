@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "values_declaration_in_enum"
-description = """
+description = '''
 The analyzer produces this diagnostic when an enum declaration defines a
 member named `values`, whether the member is an enum constant, an instance
 member, or a static member.
@@ -35,4 +35,4 @@ enum E {
   void getValues() {}
 }
 ```
-"""
+'''

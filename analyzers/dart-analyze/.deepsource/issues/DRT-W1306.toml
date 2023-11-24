@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "duplicate_field_formal_parameter"
-description = """
+description = '''
 The analyzer produces this diagnostic when there's more than one
 initializing formal parameter for the same field in a constructor's
 parameter list. It isn't useful to assign a value that will immediately be
@@ -34,4 +34,4 @@ class C {
   C(this.f) {}
 }
 ```
-"""
+'''

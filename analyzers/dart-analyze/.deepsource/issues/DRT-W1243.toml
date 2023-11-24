@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "body_might_complete_normally_catch_error"
-description = """
+description = '''
 The analyzer produces this diagnostic when the closure passed to the
 `onError` parameter of the `Future.catchError` method is required to
 return a non-`null` value (because of the `Future`s type argument) but can
@@ -43,4 +43,4 @@ void g(Future<void> f) {
   f.catchError((e, st) {});
 }
 ```
-"""
+'''

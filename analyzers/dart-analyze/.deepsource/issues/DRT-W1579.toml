@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "private_setter"
-description = """
+description = '''
 The analyzer produces this diagnostic when a private setter is used in a
 library where it isn't visible.
 
@@ -41,4 +41,4 @@ class A {
 
 If you aren't able to make the setter public, then find a different way to
 implement the code.
-"""
+'''

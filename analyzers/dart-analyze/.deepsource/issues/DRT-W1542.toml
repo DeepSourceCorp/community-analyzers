@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "not_initialized_non_nullable_variable"
-description = """
+description = '''
 The analyzer produces this diagnostic when a static field or top-level
 variable has a type that's non-nullable and doesn't have an initializer.
 Fields and variables that don't have an initializer are normally
@@ -55,4 +55,4 @@ class C {
   static late int f;
 }
 ```
-"""
+'''

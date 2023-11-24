@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "const_with_non_constant_argument"
-description = """
+description = '''
 The analyzer produces this diagnostic when a const constructor is invoked
 with an argument that isn't a constant expression.
 
@@ -32,4 +32,4 @@ class C {
 }
 C f(int i) => C(i);
 ```
-"""
+'''

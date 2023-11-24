@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "nullable_type_in_on_clause"
-description = """
+description = '''
 The analyzer produces this diagnostic when a mixin declaration uses an `on`
 clause to specify a superclass constraint, and the class that's specified
 is followed by a `?`.
@@ -35,4 +35,4 @@ Remove the question mark from the type:
 class C {}
 mixin M on C {}
 ```
-"""
+'''

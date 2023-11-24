@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "prefer_if_null_operators"
-description = """
+description = '''
 **PREFER** using if null operators instead of null checks in conditional
 expressions.
 
@@ -17,6 +17,4 @@ v = a == null ? b : a;
 ```dart
 v = a ?? b;
 ```
-
-
-"""
+'''

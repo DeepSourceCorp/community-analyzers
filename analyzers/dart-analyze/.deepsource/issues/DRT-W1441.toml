@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "invalid_uri"
-description = """
+description = '''
 The analyzer produces this diagnostic when a URI in a directive doesn't
 conform to the syntax of a valid URI.
 
@@ -20,4 +20,4 @@ import '#';
 #### Common fixes
 
 Replace the invalid URI with a valid URI.
-"""
+'''

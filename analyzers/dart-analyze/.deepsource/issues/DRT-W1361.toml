@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "field_initializer_factory_constructor"
-description = """
+description = '''
 The analyzer produces this diagnostic when a factory constructor has an
 initializing formal parameter. Factory constructors can't assign values to
 fields because no instance is created; hence, there is no field to assign.
@@ -33,4 +33,4 @@ class C {
   factory C(int f) => throw 0;
 }
 ```
-"""
+'''

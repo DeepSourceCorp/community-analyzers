@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "prefer_for_elements_to_map_fromIterable"
-description = """
+description = '''
 When building maps from iterables, it is preferable to use 'for' elements.
 
 Using 'for' elements brings several benefits including:
@@ -43,5 +43,4 @@ final pizzaRecipients = {
     if (student.isPassing) student.id: student,
 };
 ```
-
-"""
+'''

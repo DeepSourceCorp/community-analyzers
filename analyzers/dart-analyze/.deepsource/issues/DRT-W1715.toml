@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "wrong_number_of_type_arguments_method"
-description = """
+description = '''
 The analyzer produces this diagnostic when a method or function is invoked
 with a different number of type arguments than the number of type
 parameters specified in its declaration. There must either be no type
@@ -46,4 +46,4 @@ class C {
 
 int f(C c) => c.m(2);
 ```
-"""
+'''

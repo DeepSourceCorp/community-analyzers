@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "unawaited_futures"
-description = """
+description = '''
 **DO** await functions that return a `Future` inside of an async function body.
 
 It's easy to forget await in async methods as naming conventions usually don't
@@ -31,6 +31,4 @@ void main() async {
   unawaited(doSomething()); // Explicitly-ignored fire-and-forget.
 }
 ```
-
-
-"""
+'''

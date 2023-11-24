@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "avoid_single_cascade_in_expression_statements"
-description = """
+description = '''
 **AVOID** single cascade in expression statements.
 
 **BAD:**
@@ -16,6 +16,4 @@ o..m();
 ```dart
 o.m();
 ```
-
-
-"""
+'''

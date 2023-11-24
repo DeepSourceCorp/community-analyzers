@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "undefined_super_member"
-description = """
+description = '''
 The analyzer produces this diagnostic when an inherited member (method,
 getter, setter, or operator) is referenced using `super`, but there's no
 member with that name in the superclass chain.
@@ -43,4 +43,4 @@ remove the `super.`.
 
 If the member isn't defined, then either add the member to one of the
 superclasses or remove the invocation.
-"""
+'''

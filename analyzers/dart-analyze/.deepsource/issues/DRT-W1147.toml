@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "prefer_is_empty"
-description = """
+description = '''
 **DON'T** use `length` to see if a collection is empty.
 
 The `Iterable` contract does not require that a collection know its length or be
@@ -25,6 +25,4 @@ if (words.length != 0) return words.join(' ');
 if (lunchBox.isEmpty) return 'so hungry...';
 if (words.isNotEmpty) return words.join(' ');
 ```
-
-
-"""
+'''

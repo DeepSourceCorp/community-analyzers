@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "unnecessary_const"
-description = """
+description = '''
 **AVOID** repeating const keyword in a const context.
 
 **BAD:**
@@ -24,6 +24,4 @@ m(){
   final b = const [A()];
 }
 ```
-
-
-"""
+'''

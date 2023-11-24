@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "avoid_renaming_method_parameters"
-description = """
+description = '''
 **DON'T** rename parameters of overridden methods.
 
 Methods that override another method, but do not have their own documentation
@@ -33,6 +33,4 @@ abstract class B extends A {
   m(a);
 }
 ```
-
-
-"""
+'''

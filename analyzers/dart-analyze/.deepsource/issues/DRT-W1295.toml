@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "deprecated_colon_for_default_value"
-description = """
+description = '''
 The analyzer produces this diagnostic when a colon (`:`) is used as the
 separator before the default value of an optional named parameter.
 While this syntax is allowed, it is deprecated in favor of
@@ -26,4 +26,4 @@ Replace the colon with an equal sign.
 ```dart
 void f({int i = 0}) {}
 ```
-"""
+'''

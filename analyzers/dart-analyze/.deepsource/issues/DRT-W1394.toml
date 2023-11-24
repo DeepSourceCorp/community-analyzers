@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "inconsistent_language_version_override"
-description = """
+description = '''
 The analyzer produces this diagnostic when a [part file][] has a language
 version override comment that specifies a different language version than
 the one being used for the library to which the part belongs.
@@ -39,4 +39,4 @@ If necessary, either adjust the language version override in the defining
 compilation unit to be appropriate for the code in the part, or migrate
 the code in the [part file][] to be consistent with the new language
 version.
-"""
+'''

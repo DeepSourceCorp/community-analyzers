@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "always_declare_return_types"
-description = """
+description = '''
 **DO** declare method return types.
 
 When declaring a method or function *always* specify a return type.
@@ -35,6 +35,4 @@ class _Foo {
 
 typedef predicate = bool Function(Object o);
 ```
-
-
-"""
+'''

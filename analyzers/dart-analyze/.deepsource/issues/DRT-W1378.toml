@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "getter_not_subtype_setter_types"
-description = """
+description = '''
 The analyzer produces this diagnostic when the return type of a getter
 isn't a subtype of the type of the parameter of a setter with the same
 name.
@@ -47,4 +47,4 @@ class C {
   set x(int y) {}
 }
 ```
-"""
+'''

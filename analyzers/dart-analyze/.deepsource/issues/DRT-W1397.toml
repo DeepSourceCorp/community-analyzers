@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "initializer_for_static_field"
-description = """
+description = '''
 The analyzer produces this diagnostic when a static field is initialized
 in a constructor using either an initializing formal parameter or an
 assignment in the initializer list.
@@ -54,4 +54,4 @@ class C {
   }
 }
 ```
-"""
+'''

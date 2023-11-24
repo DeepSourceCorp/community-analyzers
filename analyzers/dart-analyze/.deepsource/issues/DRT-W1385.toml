@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "implements_repeated"
-description = """
+description = '''
 The analyzer produces this diagnostic when a single class is specified more
 than once in an `implements` clause.
 
@@ -26,4 +26,4 @@ Remove all except one occurrence of the class name:
 class A {}
 class B implements A {}
 ```
-"""
+'''

@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "constant_identifier_names"
-description = """
+description = '''
 **PREFER** using lowerCamelCase for constant names.
 
 In new code, use `lowerCamelCase` for constant variables, including enum values.
@@ -33,6 +33,4 @@ class Dice {
   static final numberGenerator = Random();
 }
 ```
-
-
-"""
+'''

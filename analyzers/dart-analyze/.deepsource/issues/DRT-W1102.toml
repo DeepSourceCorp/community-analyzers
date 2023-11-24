@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "lines_longer_than_80_chars"
-description = """
+description = '''
 **AVOID** lines longer than 80 characters
 
 Readability studies show that long lines of text are harder to read because your
@@ -25,5 +25,4 @@ We make an exception for URIs and file paths. When those occur in comments or
 strings (usually in imports and exports), they may remain on a single line even
 if they go over the line limit. This makes it easier to search source files for
 a given path.
-
-"""
+'''

@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "sized_box_for_whitespace"
-description = """
+description = '''
 Use SizedBox to add whitespace to a layout.
 
 A `Container` is a heavier Widget than a `SizedBox`, and as bonus, `SizedBox`
@@ -39,5 +39,4 @@ Widget buildRow() {
   );
 }
 ```
-
-"""
+'''

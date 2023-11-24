@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "no_generative_constructors_in_superclass"
-description = """
+description = '''
 The analyzer produces this diagnostic when a class that has at least one
 generative constructor (whether explicit or implicit) has a superclass
 that doesn't have any generative constructors. Every generative
@@ -62,4 +62,4 @@ class A {
 
 class B implements A {}
 ```
-"""
+'''

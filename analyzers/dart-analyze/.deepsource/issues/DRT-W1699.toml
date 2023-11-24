@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "unused_result"
-description = """
+description = '''
 The analyzer produces this diagnostic when a function annotated with
 [`useResult`][meta-useResult] is invoked, and the value returned by that
 function isn't used. The value is considered to be used if a member of the
@@ -69,4 +69,4 @@ void f(C c) {
   c.b();
 }
 ```
-"""
+'''

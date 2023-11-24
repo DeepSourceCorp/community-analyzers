@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "use_named_constants"
-description = """
+description = '''
 Where possible, use already defined const values.
 
 **BAD:**
@@ -16,6 +16,4 @@ const Duration(seconds: 0);
 ```dart
 Duration.zero;
 ```
-
-
-"""
+'''

@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "non_bool_expression"
-description = """
+description = '''
 The analyzer produces this diagnostic when the first expression in an
 assert has a type other than `bool`.
 
@@ -28,4 +28,4 @@ void f(int p) {
   assert(p > 0);
 }
 ```
-"""
+'''

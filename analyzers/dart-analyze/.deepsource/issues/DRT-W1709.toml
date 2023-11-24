@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "wrong_number_of_parameters_for_operator"
-description = """
+description = '''
 The analyzer produces this diagnostic when a declaration of an operator has
 the wrong number of parameters.
 
@@ -28,4 +28,4 @@ class C {
   int operator +(a) => 0;
 }
 ```
-"""
+'''

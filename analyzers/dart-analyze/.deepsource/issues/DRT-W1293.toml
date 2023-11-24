@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "definitely_unassigned_late_local_variable"
-description = """
+description = '''
 The analyzer produces this diagnostic when [definite assignment][] analysis
 shows that a local variable that's marked as `late` is read before being
 assigned.
@@ -32,4 +32,4 @@ void f(bool b) {
   print(x);
 }
 ```
-"""
+'''

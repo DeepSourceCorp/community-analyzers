@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "extension_declares_member_of_object"
-description = """
+description = '''
 The analyzer produces this diagnostic when an extension declaration
 declares a member with the same name as a member declared in the class
 `Object`. Such a member can never be used because the member in `Object` is
@@ -31,4 +31,4 @@ extension E on String {
   String displayString() => this;
 }
 ```
-"""
+'''

@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "avoid_implementing_value_types"
-description = """
+description = '''
 **DON'T** implement classes that override `==`.
 
 The `==` operator is contractually required to be an equivalence relation;
@@ -78,6 +78,4 @@ void main() {
   });
 }
 ```
-
-
-"""
+'''

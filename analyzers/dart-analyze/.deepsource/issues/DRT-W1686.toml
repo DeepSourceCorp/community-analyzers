@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "unnecessary_question_mark"
-description = """
+description = '''
 The analyzer produces this diagnostic when either the type `dynamic` or the
 type `Null` is followed by a question mark. Both of these types are
 inherently nullable so the question mark doesn't change the semantics.
@@ -25,4 +25,4 @@ Remove the unneeded question mark:
 ```dart
 dynamic x;
 ```
-"""
+'''

@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "subtype_of_ffi_class"
-description = """
+description = '''
 The analyzer produces this diagnostic when a class extends any FFI class
 other than `Struct` or `Union`, or implements or mixes in any FFI class.
 `Struct` and `Union` are the only FFI classes that can be subtyped, and
@@ -43,4 +43,4 @@ references to FFI classes:
 ```dart
 final class C {}
 ```
-"""
+'''

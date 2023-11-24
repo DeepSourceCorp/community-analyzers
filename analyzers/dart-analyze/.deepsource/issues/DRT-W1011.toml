@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "close_sinks"
-description = """
+description = '''
 **DO** invoke `close` on instances of `dart.core.Sink`.
 
 Closing instances of Sink prevents memory leaks and unexpected behavior.
@@ -53,6 +53,4 @@ void someFunctionOK() {
 This rule does not track all patterns of Sink instantiations and
 closures. See [linter#1381](https://github.com/dart-lang/linter/issues/1381)
 for more information.
-
-
-"""
+'''

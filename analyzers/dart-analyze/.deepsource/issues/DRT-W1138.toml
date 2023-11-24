@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "prefer_foreach"
-description = """
+description = '''
 **DO** use `forEach` if you are only going to apply a function or a method
 to all the elements of an iterable.
 
@@ -33,6 +33,4 @@ for (final v in myList) {
 
 myList.forEach(foo().f); // But this one invokes foo() just once.
 ```
-
-
-"""
+'''

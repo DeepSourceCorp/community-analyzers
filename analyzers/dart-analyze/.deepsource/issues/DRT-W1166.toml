@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "sort_unnamed_constructors_first"
-description = """
+description = '''
 **DO** sort unnamed constructor declarations first, before named ones.
 
 **BAD:**
@@ -24,6 +24,4 @@ abstract class CancelableFuture<T> implements Future<T>  {
   ...
 }
 ```
-
-
-"""
+'''

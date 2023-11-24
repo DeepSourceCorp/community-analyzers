@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "unnecessary_to_list_in_spreads"
-description = """
+description = '''
 Unnecessary `toList()` in spreads.
 
 **BAD:**
@@ -20,6 +20,4 @@ children: <Widget>[
   ...['foo', 'bar', 'baz'].map((String s) => Text(s)),
 ]
 ```
-
-
-"""
+'''

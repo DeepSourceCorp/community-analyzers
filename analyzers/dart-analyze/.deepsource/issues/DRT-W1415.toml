@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "invalid_export_of_internal_element_indirectly"
-description = """
+description = '''
 The analyzer produces this diagnostic when a [public library][] exports a
 top-level function  with a return type or at least one parameter type that
 is marked with the [`internal`][meta-internal] annotation.
@@ -39,4 +39,4 @@ signature public types.
 If the function doesn't need to be exported, then stop exporting it,
 either by removing it from the `show` clause, adding it to the `hide`
 clause, or by removing the export.
-"""
+'''

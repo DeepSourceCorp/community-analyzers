@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "require_trailing_commas"
-description = """
+description = '''
 **DO** use trailing commas for all function calls and declarations unless the
 function call or definition, from the start of the function name up to the
 closing parenthesis, fits in a single line.
@@ -34,6 +34,4 @@ parameter does not fit entirely on one line.
 
 **NOTE:** This lint rule assumes `dart format` has been run over the code and
 may produce false positives until that has happened.
-
-
-"""
+'''

@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "uri_with_interpolation"
-description = """
+description = '''
 The analyzer produces this diagnostic when the string literal in an
 `import`, `export`, or `part` directive contains an interpolation. The
 resolution of the URIs in directives must happen before the declarations
@@ -31,4 +31,4 @@ import 'dart:math';
 
 var zero = min(0, 0);
 ```
-"""
+'''

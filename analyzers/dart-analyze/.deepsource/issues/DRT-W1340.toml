@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "export_of_non_library"
-description = """
+description = '''
 The analyzer produces this diagnostic when an export directive references a
 part rather than a library.
 
@@ -29,4 +29,4 @@ export 'part.dart';
 
 Either remove the export directive, or change the URI to be the URI of the
 library containing the part.
-"""
+'''

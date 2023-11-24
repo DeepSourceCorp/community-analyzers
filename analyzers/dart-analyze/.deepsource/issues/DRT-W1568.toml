@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "pattern_constant_from_deferred_library"
-description = """
+description = '''
 The analyzer produces this diagnostic when a pattern contains a value
 declared in a different library, and that library is imported using a
 deferred import. Constants are evaluated at compile time, but values from
@@ -79,4 +79,4 @@ void f(int x) {
   }
 }
 ```
-"""
+'''

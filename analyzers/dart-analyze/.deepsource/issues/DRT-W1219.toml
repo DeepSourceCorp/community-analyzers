@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "ambiguous_extension_member_access"
-description = """
+description = '''
 When code refers to a member of an object (for example, `o.m()` or `o.m` or
 `o[i]`) where the static type of `o` doesn't declare the member (`m` or
 `[]`, for example), then the analyzer tries to find the member in an
@@ -57,4 +57,4 @@ void f(String s) {
   print(E2(s).charCount);
 }
 ```
-"""
+'''

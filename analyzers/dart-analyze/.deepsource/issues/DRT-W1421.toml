@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "invalid_field_type_in_struct"
-description = """
+description = '''
 The analyzer produces this diagnostic when a field in a subclass of
 `Struct` has a type other than `int`, `double`, `Array`, `Pointer`, or
 subtype of `Struct` or `Union`.
@@ -43,4 +43,4 @@ final class C extends Struct {
   external int i;
 }
 ```
-"""
+'''

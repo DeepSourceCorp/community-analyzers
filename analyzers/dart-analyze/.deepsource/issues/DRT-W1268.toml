@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "const_constructor_with_non_final_field"
-description = """
+description = '''
 The analyzer produces this diagnostic when a constructor is marked as a
 const constructor, but the constructor is defined in a class that has at
 least one non-final instance field (either directly or by inheritance).
@@ -44,4 +44,4 @@ class C {
   C(this.x);
 }
 ```
-"""
+'''

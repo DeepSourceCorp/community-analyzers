@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "unnecessary_no_such_method"
-description = """
+description = '''
 The analyzer produces this diagnostic when there's a declaration of
 `noSuchMethod`, the only thing the declaration does is invoke the
 overridden declaration, and the overridden declaration isn't the
@@ -46,4 +46,4 @@ class A {
 }
 class B extends A {}
 ```
-"""
+'''

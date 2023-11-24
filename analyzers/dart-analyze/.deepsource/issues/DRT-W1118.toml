@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "package_prefixed_library_names"
-description = """
+description = '''
 **DO** prefix library names with the package name and a dot-separated path.
 
 This guideline helps avoid the warnings you get when two libraries have the same
@@ -36,6 +36,4 @@ library my_package.example.foo.bar;
 // In lib/src/private.dart
 library my_package.src.private;
 ```
-
-
-"""
+'''

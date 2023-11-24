@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "non_constant_relational_pattern_expression"
-description = """
+description = '''
 The analyzer produces this diagnostic when the value in a relational
 pattern expression isn't a constant expression.
 
@@ -32,4 +32,4 @@ void f(int x) {
   if (x case > a) {}
 }
 ```
-"""
+'''

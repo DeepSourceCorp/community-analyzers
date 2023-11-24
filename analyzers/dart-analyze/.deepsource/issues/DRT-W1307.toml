@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "duplicate_field_name"
-description = """
+description = '''
 The analyzer produces this diagnostic when either a record literal or a
 record type annotation contains a field whose name is the same as a
 previously declared field in the same literal or type.
@@ -33,4 +33,4 @@ Rename one or both of the fields:
 ```dart
 var r = (a: 1, b: 2);
 ```
-"""
+'''

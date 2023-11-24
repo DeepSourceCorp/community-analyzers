@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "unnecessary_null_assert_pattern"
-description = """
+description = '''
 The analyzer produces this diagnostic when a null-assert pattern is used
 to match a value that isn't nullable.
 
@@ -28,4 +28,4 @@ void f(int x) {
   if (x case var a when a > 0) {}
 }
 ```
-"""
+'''

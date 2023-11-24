@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "prefix_identifier_not_followed_by_dot"
-description = """
+description = '''
 The analyzer produces this diagnostic when an import prefix is used by
 itself, without accessing any of the names declared in the libraries
 associated with the prefix. Prefixes aren't variables, and therefore can't
@@ -37,4 +37,4 @@ void f() {
 ```
 
 If the name is wrong, then correct the name.
-"""
+'''

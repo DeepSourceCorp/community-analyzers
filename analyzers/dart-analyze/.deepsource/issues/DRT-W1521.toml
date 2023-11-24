@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "non_constant_type_argument"
-description = """
+description = '''
 The analyzer produces this diagnostic when the type arguments to a method
 are required to be known at compile time, but a type parameter, whose
 value can't be known at compile time, is used as a type argument.
@@ -43,4 +43,4 @@ class C {
   }
 }
 ```
-"""
+'''

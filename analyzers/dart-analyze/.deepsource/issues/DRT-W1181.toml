@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "unnecessary_library_directive"
-description = """
+description = '''
 **DO** use library directives if you want to document a library and/or annotate 
 a library.
 
@@ -26,5 +26,4 @@ library;
 
 NOTE: Due to limitations with this lint, libraries with parts will not be
 flagged for unnecessary library directives.
-
-"""
+'''

@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "avoid_equals_and_hash_code_on_mutable_classes"
-description = """
+description = '''
 From [Effective Dart](https://dart.dev/effective-dart/design#avoid-defining-custom-equality-for-mutable-classes):
 
 **AVOID** overloading operator == and hashCode on classes not marked `@immutable`.
@@ -51,6 +51,4 @@ class C {
   int get hashCode => key.hashCode;
 }
 ```
-
-
-"""
+'''

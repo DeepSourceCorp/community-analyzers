@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "const_with_non_const"
-description = """
+description = '''
 The analyzer produces this diagnostic when the keyword `const` is used to
 invoke a constructor that isn't marked with `const`.
 
@@ -44,4 +44,4 @@ class A {
 
 A f() => A();
 ```
-"""
+'''

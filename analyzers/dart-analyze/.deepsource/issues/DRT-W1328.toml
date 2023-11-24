@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "equal_elements_in_const_set"
-description = """
+description = '''
 The analyzer produces this diagnostic when two elements in a constant set
 literal have the same value. The set can only contain each value once,
 which means that one of the values is unnecessary.
@@ -29,4 +29,4 @@ const Set<String> set = {'a'};
 Note that literal sets preserve the order of their elements, so the choice
 of which element to remove might affect the order in which elements are
 returned by an iterator.
-"""
+'''

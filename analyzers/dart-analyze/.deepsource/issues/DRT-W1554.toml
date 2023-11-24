@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "null_check_always_fails"
-description = """
+description = '''
 The analyzer produces this diagnostic when the null check operator (`!`)
 is used on an expression whose value can only be `null`. In such a case
 the operator always throws an exception, which likely isn't the intended
@@ -37,4 +37,4 @@ void f() {
 
 Null g() => null;
 ```
-"""
+'''

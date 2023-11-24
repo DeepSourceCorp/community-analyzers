@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "avoid_null_checks_in_equality_operators"
-description = """
+description = '''
 **DON'T** check for null in custom == operators.
 
 As null is a special value, no instance of any class (other than `Null`) can be
@@ -31,6 +31,4 @@ class Person {
   operator ==(Object? other) => other is Person && name == other.name;
 }
 ```
-
-
-"""
+'''

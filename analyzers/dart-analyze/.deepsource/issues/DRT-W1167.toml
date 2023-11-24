@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "tighten_type_of_initializing_formals"
-description = """
+description = '''
 Tighten the type of an initializing formal if a non-null assert exists. This
 allows the type system to catch problems rather than have them only be caught at
 run-time.
@@ -35,5 +35,4 @@ class C extends B {
   B(String super.b);
 }
 ```
-
-"""
+'''

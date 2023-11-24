@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "wrong_number_of_type_arguments_extension"
-description = """
+description = '''
 The analyzer produces this diagnostic when an extension that has type
 parameters is used and type arguments are provided, but the number of type
 arguments isn't the same as the number of type parameters.
@@ -39,4 +39,4 @@ void f(List<int> p) {
   E<int>(p).len;
 }
 ```
-"""
+'''

@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "invalid_internal_annotation"
-description = """
+description = '''
 The analyzer produces this diagnostic when a declaration is annotated with
 the [`internal`][meta-internal] annotation and that declaration is either
 in a [public library][] or has a private name.
@@ -54,4 +54,4 @@ Otherwise, remove the use of the annotation:
 ```dart
 class C {}
 ```
-"""
+'''

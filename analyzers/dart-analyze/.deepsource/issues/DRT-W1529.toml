@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "non_native_function_type_argument_to_pointer"
-description = """
+description = '''
 The analyzer produces this diagnostic when the method `asFunction` is
 invoked on a pointer to a native function, but the signature of the native
 function isn't a valid C function signature.
@@ -46,4 +46,4 @@ class C {
   }
 }
 ```
-"""
+'''

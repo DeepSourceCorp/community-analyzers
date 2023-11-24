@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "use_is_even_rather_than_modulo"
-description = """
+description = '''
 **PREFER** the use of intValue.isOdd/isEven to check for evenness.
 
 **BAD:**
@@ -18,6 +18,4 @@ bool isOdd = 13 % 2 == 1;
 bool isEven = 1.isEven;
 bool isOdd = 13.isOdd;
 ```
-
-
-"""
+'''

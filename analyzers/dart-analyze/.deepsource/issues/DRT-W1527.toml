@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "non_generative_constructor"
-description = """
+description = '''
 The analyzer produces this diagnostic when the initializer list of a
 constructor invokes a constructor from the superclass, and the invoked
 constructor is a factory constructor. Only a generative constructor can be
@@ -43,4 +43,4 @@ class B extends A {
 
 If the generative constructor is the unnamed constructor, and if there are
 no arguments being passed to it, then you can remove the super invocation.
-"""
+'''

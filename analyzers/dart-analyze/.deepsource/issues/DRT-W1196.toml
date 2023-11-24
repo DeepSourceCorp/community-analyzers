@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "use_decorated_box"
-description = """
+description = '''
 **DO** use `DecoratedBox` when `Container` has only a `Decoration`.
 
 A `Container` is a heavier Widget than a `DecoratedBox`, and as bonus,
@@ -39,5 +39,4 @@ Widget buildArea() {
   );
 }
 ```
-
-"""
+'''

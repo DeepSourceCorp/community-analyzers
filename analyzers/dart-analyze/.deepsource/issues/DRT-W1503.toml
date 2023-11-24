@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "new_with_undefined_constructor_default"
-description = """
+description = '''
 The analyzer produces this diagnostic when an unnamed constructor is
 invoked on a class that defines named constructors but the class doesn't
 have an unnamed constructor.
@@ -45,4 +45,4 @@ class A {
 
 A f() => A();
 ```
-"""
+'''

@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "cascade_invocations"
-description = """
+description = '''
 **DO** Use the cascading style when successively invoking methods on the same
 reference.
 
@@ -41,6 +41,4 @@ someReference
     ..aProperty = value
     ..secondMethod();
 ```
-
-
-"""
+'''

@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "import_deferred_library_with_load_function"
-description = """
+description = '''
 The analyzer produces this diagnostic when a library that declares a
 function named `loadLibrary` is imported using a deferred import. A
 deferred import introduces an implicit function named `loadLibrary`. This
@@ -69,4 +69,4 @@ void f() {
   a.Library();
 }
 ```
-"""
+'''

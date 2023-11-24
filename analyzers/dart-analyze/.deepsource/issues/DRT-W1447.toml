@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "invalid_use_of_visible_for_testing_member"
-description = """
+description = '''
 The analyzer produces this diagnostic when a member annotated with
 `@visibleForTesting` is referenced anywhere other than the library in
 which it is declared or in a library in the `test` directory.
@@ -53,4 +53,4 @@ class C {
   void m() {}
 }
 ```
-"""
+'''

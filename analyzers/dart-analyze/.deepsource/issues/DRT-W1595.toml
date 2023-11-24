@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "referenced_before_declaration"
-description = """
+description = '''
 The analyzer produces this diagnostic when a variable is referenced before
 it's declared. In Dart, variables are visible everywhere in the block in
 which they are declared, but can only be referenced after they are
@@ -48,4 +48,4 @@ void f(int i) {
   print(x);
 }
 ```
-"""
+'''

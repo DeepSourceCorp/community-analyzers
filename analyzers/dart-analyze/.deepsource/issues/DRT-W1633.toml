@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "super_invocation_not_last"
-description = """
+description = '''
 The analyzer produces this diagnostic when the initializer list of a
 constructor contains an invocation of a constructor in the superclass, but
 the invocation isn't the last item in the initializer list.
@@ -38,4 +38,4 @@ class B extends A {
   B(int x) : assert(x >= 0), super(x);
 }
 ```
-"""
+'''

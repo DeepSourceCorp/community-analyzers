@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "supertype_expands_to_type_parameter"
-description = """
+description = '''
 The analyzer produces this diagnostic when a type alias that expands to a
 type parameter is used in an `extends`, `implements`, `with`, or `on`
 clause.
@@ -30,4 +30,4 @@ typedef T<S> = S;
 
 class C extends Object {}
 ```
-"""
+'''

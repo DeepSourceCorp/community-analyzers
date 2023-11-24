@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "mixin_of_non_class"
-description = """
+description = '''
 The analyzer produces this diagnostic when a name in a `with` clause is
 defined to be something other than a mixin or a class.
 
@@ -29,4 +29,4 @@ typedef F = int Function(String);
 
 class C {}
 ```
-"""
+'''

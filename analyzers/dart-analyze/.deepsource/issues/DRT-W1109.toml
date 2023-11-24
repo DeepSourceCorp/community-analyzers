@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "non_constant_identifier_names"
-description = """
+description = '''
 **DO** name non-constant identifiers using lowerCamelCase.
 
 Class members, top-level definitions, variables, parameters, named parameters
@@ -21,6 +21,4 @@ align(clearItems) {
   // ...
 }
 ```
-
-
-"""
+'''

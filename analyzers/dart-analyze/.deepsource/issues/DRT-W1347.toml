@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "extension_declares_instance_field"
-description = """
+description = '''
 The analyzer produces this diagnostic when an instance field declaration is
 found in an extension. It isn't valid to define an instance field because
 extensions can only add behavior, not state.
@@ -24,4 +24,4 @@ extension E on String {
 
 Remove the field, make it a static field, or convert it to be a getter,
 setter, or method.
-"""
+'''

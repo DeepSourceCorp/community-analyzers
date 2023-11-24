@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "conflicting_type_variable_and_member"
-description = """
+description = '''
 The analyzer produces this diagnostic when a class, mixin, or extension
 declaration declares a type parameter with the same name as one of the
 members of the class, mixin, or extension that declares it.
@@ -29,4 +29,4 @@ class C<T> {
   int total = 0;
 }
 ```
-"""
+'''

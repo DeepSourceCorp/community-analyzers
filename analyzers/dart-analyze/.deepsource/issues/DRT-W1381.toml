@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "illegal_concrete_enum_member"
-description = """
+description = '''
 The analyzer produces this diagnostic when either an enum declaration, a
 class that implements `Enum`, or a mixin with a superclass constraint of
 `Enum`, declares or inherits a concrete instance member named either
@@ -64,4 +64,4 @@ enum E {
   int get getIndex => 0;
 }
 ```
-"""
+'''

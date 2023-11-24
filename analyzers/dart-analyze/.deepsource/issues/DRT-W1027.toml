@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "prefer_void_to_null"
-description = """
+description = '''
 **DON'T** use the type Null where void would work.
 
 **BAD:**
@@ -36,5 +36,4 @@ for any type of map or list:
 <Null>[];
 <int, Null>{};
 ```
-
-"""
+'''

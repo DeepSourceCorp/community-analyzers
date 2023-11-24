@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "illegal_enum_values"
-description = """
+description = '''
 The analyzer produces this diagnostic when either a class that implements
 `Enum` or a mixin with a superclass constraint of `Enum` has an instance
 member named `values`.
@@ -40,4 +40,4 @@ abstract class C implements Enum {
   int get value => 0;
 }
 ```
-"""
+'''

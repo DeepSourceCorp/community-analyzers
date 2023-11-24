@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "valid_regexps"
-description = """
+description = '''
 **DO** use valid regular expression syntax when creating regular expression
 instances.
 
@@ -20,6 +20,4 @@ print(RegExp(r'(').hasMatch('foo()'));
 ```dart
 print(RegExp(r'\(').hasMatch('foo()'));
 ```
-
-
-"""
+'''

@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "avoid_returning_null_for_void"
-description = """
+description = '''
 **AVOID** returning null for void.
 
 In a large variety of languages `void` as return type is used to indicate that
@@ -32,6 +32,4 @@ Future<void> f2() async {
   return;
 }
 ```
-
-
-"""
+'''

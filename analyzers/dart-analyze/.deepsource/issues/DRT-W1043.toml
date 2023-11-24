@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "always_specify_types"
-description = """
+description = '''
 From the [style guide for the flutter repo](https://flutter.dev/style-guide/):
 
 **DO** specify type annotations.
@@ -47,6 +47,4 @@ main() {
   Key s = Key(); // OK!
 }
 ```
-
-
-"""
+'''

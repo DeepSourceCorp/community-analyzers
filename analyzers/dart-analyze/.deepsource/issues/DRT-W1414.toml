@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "invalid_export_of_internal_element"
-description = """
+description = '''
 The analyzer produces this diagnostic when a [public library][] exports a
 declaration that is marked with the [`internal`][meta-internal]
 annotation.
@@ -37,4 +37,4 @@ export 'src/a.dart' hide One;
 ```
 
 If the export isn't needed, then remove it.
-"""
+'''

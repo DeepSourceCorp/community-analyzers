@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "invalid_reference_to_generative_enum_constructor"
-description = """
+description = '''
 The analyzer produces this diagnostic when a generative constructor
 defined on an enum is used anywhere other than to create one of the enum
 constants or as the target of a redirection from another constructor in
@@ -54,4 +54,4 @@ enum E {
 
 E f() => E.c(2);
 ```
-"""
+'''

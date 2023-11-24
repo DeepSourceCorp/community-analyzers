@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "const_constructor_with_non_const_super"
-description = """
+description = '''
 The analyzer produces this diagnostic when a constructor that is marked as
 `const` invokes a constructor from its superclass that isn't marked as
 `const`.
@@ -70,4 +70,4 @@ class B extends A {
   B() : super.nonConst();
 }
 ```
-"""
+'''

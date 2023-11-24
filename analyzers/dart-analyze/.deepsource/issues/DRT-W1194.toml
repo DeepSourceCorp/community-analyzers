@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "unreachable_from_main"
-description = """
+description = '''
 Any member declared in an executable library should be used directly inside that
 library.  An executable library is a library that contains a `main` top-level
 function or that contains a top-level function annotated with
@@ -29,6 +29,4 @@ main() {
 }
 void f() {}
 ```
-
-
-"""
+'''

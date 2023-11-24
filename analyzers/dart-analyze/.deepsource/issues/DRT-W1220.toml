@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "ambiguous_import"
-description = """
+description = '''
 The analyzer produces this diagnostic when a name is referenced that is
 declared in two or more imported libraries.
 
@@ -64,4 +64,4 @@ import 'b.dart' as b;
 
 void f(a.C c1, b.C c2) {}
 ```
-"""
+'''

@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "extension_conflicting_static_and_instance"
-description = """
+description = '''
 The analyzer produces this diagnostic when an extension declaration
 contains both an instance member and a static member that have the same
 name. The instance member and the static member can't have the same name
@@ -33,4 +33,4 @@ extension E on Object {
   static int b() => 0;
 }
 ```
-"""
+'''

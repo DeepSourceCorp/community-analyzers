@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "empty_struct"
-description = """
+description = '''
 The analyzer produces this diagnostic when a subclass of `Struct` or
 `Union` doesn't have any fields. Having an empty `Struct` or `Union`
 isn't supported.
@@ -50,4 +50,4 @@ extends clause:
 ```dart
 class C {}
 ```
-"""
+'''

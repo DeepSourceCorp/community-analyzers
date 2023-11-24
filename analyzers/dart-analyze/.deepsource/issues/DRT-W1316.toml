@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "duplicate_shown_name"
-description = """
+description = '''
 The analyzer produces this diagnostic when a name occurs multiple times in
 a `show` clause. Repeating the name is unnecessary.
 
@@ -38,4 +38,4 @@ import 'dart:math' show min;
 
 var x = min(2, min(0, 1));
 ```
-"""
+'''

@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "missing_exception_value"
-description = """
+description = '''
 The analyzer produces this diagnostic when an invocation of the method
 `Pointer.fromFunction` or `NativeCallable.isolateLocal`
 doesn't have a second argument (the exceptional
@@ -42,4 +42,4 @@ void g() {
   Pointer.fromFunction<Int8 Function(Int8)>(f, 0);
 }
 ```
-"""
+'''

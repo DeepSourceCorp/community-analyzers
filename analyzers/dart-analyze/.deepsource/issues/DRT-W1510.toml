@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "non_constant_case_expression"
-description = """
+description = '''
 The analyzer produces this diagnostic when the expression in a `case`
 clause isn't a constant expression.
 
@@ -34,4 +34,4 @@ void f(int i, int j) {
   }
 }
 ```
-"""
+'''

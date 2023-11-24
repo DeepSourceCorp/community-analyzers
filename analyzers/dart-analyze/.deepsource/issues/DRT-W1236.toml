@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "assignment_to_final_no_setter"
-description = """
+description = '''
 The analyzer produces this diagnostic when a reference to a setter is
 found; there is no setter defined for the type; but there is a getter
 defined with the same name.
@@ -54,4 +54,4 @@ void f(C c) {
   c.x = 1;
 }
 ```
-"""
+'''

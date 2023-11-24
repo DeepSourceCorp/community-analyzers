@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "assignment_to_method"
-description = """
+description = '''
 The analyzer produces this diagnostic when the target of an assignment is a
 method.
 
@@ -26,4 +26,4 @@ class C {
 #### Common fixes
 
 Rewrite the code so that there isn't an assignment to a method.
-"""
+'''

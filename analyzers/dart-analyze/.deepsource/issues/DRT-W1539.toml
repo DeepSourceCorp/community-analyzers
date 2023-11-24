@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "not_binary_operator"
-description = """
+description = '''
 The analyzer produces this diagnostic when an operator that can only be
 used as a unary operator is used as a binary operator.
 
@@ -24,4 +24,4 @@ Replace the operator with the correct binary operator:
 ```dart
 var a = 5 - 3;
 ```
-"""
+'''

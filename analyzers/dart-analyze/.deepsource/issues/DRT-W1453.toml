@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "invocation_of_non_function_expression"
-description = """
+description = '''
 The analyzer produces this diagnostic when a function invocation is found,
 but the name being referenced isn't the name of a function, or when the
 expression computing the function doesn't compute a function.
@@ -45,4 +45,4 @@ int f() => x;
 
 var y = f();
 ```
-"""
+'''

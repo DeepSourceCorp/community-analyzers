@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "non_exhaustive_switch_expression"
-description = """
+description = '''
 The analyzer produces this diagnostic when a `switch` expression is
 missing a case for one or more of the possible values that could flow
 through it.
@@ -54,4 +54,4 @@ String f(E e) => switch (e) {
 Be aware that a wildcard pattern will handle any values added to the type
 in the future. You will lose the ability to have the compiler warn you if
 the `switch` needs to be updated to account for newly added types.
-"""
+'''

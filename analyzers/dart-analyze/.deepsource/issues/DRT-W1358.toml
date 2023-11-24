@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "field_initialized_by_multiple_initializers"
-description = """
+description = '''
 The analyzer produces this diagnostic when the initializer list of a
 constructor initializes a field more than once. There is no value to allow
 both initializers because only the last value is preserved.
@@ -33,4 +33,4 @@ class C {
   C() : f = 0;
 }
 ```
-"""
+'''

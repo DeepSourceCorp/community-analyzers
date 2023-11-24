@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "path_pubspec_does_not_exist"
-description = """
+description = '''
 The analyzer produces this diagnostic when a dependency has a `path` key
 that references a directory that doesn't contain a `pubspec.yaml` file.
 
@@ -31,4 +31,4 @@ name: local_package
 ```
 
 If the path is wrong, then replace it with the correct path.
-"""
+'''

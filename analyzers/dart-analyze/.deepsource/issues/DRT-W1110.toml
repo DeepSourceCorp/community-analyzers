@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "noop_primitive_operations"
-description = """
+description = '''
 Some operations on primitive types are idempotent and can be removed.
 
 **BAD:**
@@ -25,5 +25,4 @@ string = 'hello\n'
 
 'string with ${x.toString()}';
 ```
-
-"""
+'''

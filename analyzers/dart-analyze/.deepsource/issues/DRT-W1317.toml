@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "duplicate_variable_pattern"
-description = """
+description = '''
 The analyzer produces this diagnostic when a branch of a logical-and
 pattern declares a variable that is already declared in an earlier branch
 of the same pattern.
@@ -45,4 +45,4 @@ void f((int, int) r) {
   }
 }
 ```
-"""
+'''

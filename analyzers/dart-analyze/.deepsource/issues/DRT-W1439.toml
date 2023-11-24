@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "invalid_super_formal_parameter_location"
-description = """
+description = '''
 The analyzer produces this diagnostic when a super parameter is used
 anywhere other than a non-redirecting generative constructor.
 
@@ -82,4 +82,4 @@ class D extends A {
   void m(int x) {}
 }
 ```
-"""
+'''

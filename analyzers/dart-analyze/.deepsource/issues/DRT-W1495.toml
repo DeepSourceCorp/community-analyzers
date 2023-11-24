@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "multiple_redirecting_constructor_invocations"
-description = """
+description = '''
 The analyzer produces this diagnostic when a constructor redirects to more
 than one other constructor in the same class (using `this`).
 
@@ -32,4 +32,4 @@ class C {
   C.b();
 }
 ```
-"""
+'''

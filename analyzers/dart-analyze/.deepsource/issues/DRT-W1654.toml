@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "undefined_annotation"
-description = """
+description = '''
 The analyzer produces this diagnostic when a name that isn't defined is
 used as an annotation.
 
@@ -38,4 +38,4 @@ void f() {}
 ```
 
 Otherwise, remove the annotation.
-"""
+'''

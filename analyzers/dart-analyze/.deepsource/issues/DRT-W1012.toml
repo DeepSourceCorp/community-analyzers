@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "collection_methods_unrelated_type"
-description = """
+description = '''
 **DON'T** invoke certain collection method with an argument with an unrelated
 type.
 
@@ -55,6 +55,4 @@ void someFunction() {
   set.remove(1); // OK
 }
 ```
-
-
-"""
+'''

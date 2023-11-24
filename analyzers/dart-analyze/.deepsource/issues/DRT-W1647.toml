@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "type_argument_not_matching_bounds"
-description = """
+description = '''
 The analyzer produces this diagnostic when a type argument isn't the same
 as or a subclass of the bounds of the corresponding type parameter.
 
@@ -28,4 +28,4 @@ class A<E extends num> {}
 
 var a = A<int>();
 ```
-"""
+'''

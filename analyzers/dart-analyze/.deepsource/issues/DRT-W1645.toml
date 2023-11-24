@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "type_alias_cannot_reference_itself"
-description = """
+description = '''
 The analyzer produces this diagnostic when a typedef refers to itself,
 either directly or indirectly.
 
@@ -27,4 +27,4 @@ to themselves:
 typedef F = void Function(G);
 typedef G = void Function(int);
 ```
-"""
+'''

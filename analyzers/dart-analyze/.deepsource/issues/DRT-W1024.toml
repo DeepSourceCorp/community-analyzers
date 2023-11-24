@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "no_self_assignments"
-description = """
+description = '''
 **DON'T** assign a variable to itself. Usually this is a mistake.
 
 **BAD:**
@@ -103,6 +103,4 @@ class C {
   }
 }
 ```
-
-
-"""
+'''

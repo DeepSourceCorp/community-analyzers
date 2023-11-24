@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "cancel_subscriptions"
-description = """
+description = '''
 **DO** invoke `cancel` on instances of `dart.async.StreamSubscription`.
 
 Cancelling instances of StreamSubscription prevents memory leaks and unexpected
@@ -54,6 +54,4 @@ void someFunctionOK() {
 This rule does not track all patterns of StreamSubscription instantiations and
 cancellations. See [linter#317](https://github.com/dart-lang/linter/issues/317)
 for more information.
-
-
-"""
+'''

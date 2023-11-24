@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "invalid_visible_for_overriding_annotation"
-description = """
+description = '''
 The analyzer produces this diagnostic when anything other than a public
 instance member of a class is annotated with
 [`visibleForOverriding`][meta-visibleForOverriding]. Because only public
@@ -30,4 +30,4 @@ Remove the annotation:
 ```dart
 class C {}
 ```
-"""
+'''

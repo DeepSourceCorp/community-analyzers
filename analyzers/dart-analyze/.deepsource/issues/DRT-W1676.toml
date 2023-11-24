@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "unknown_platform"
-description = """
+description = '''
 The analyzer produces this diagnostic when an unknown platform name is
 used as a key in the `platforms` map.
 To learn more about specifying your package's supported platforms,
@@ -44,4 +44,4 @@ platforms:
   web:
   windows:
 ```
-"""
+'''

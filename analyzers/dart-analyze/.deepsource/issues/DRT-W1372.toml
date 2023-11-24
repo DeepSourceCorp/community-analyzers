@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "flutter_field_not_map"
-description = """
+description = '''
 The analyzer produces this diagnostic when the value of the `flutter` key
 isn't a map.
 
@@ -35,4 +35,4 @@ If you don't need to specify Flutter-specific options, then remove the
 {% prettify yaml tag=pre+code %}
 name: example
 ```
-"""
+'''

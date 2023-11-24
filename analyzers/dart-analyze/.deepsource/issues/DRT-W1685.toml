@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "unnecessary_null_comparison"
-description = """
+description = '''
 The analyzer produces this diagnostic when it finds an equality comparison
 (either `==` or `!=`) with one operand of `null` and the other operand
 can't be `null`. Such comparisons are always either `true` or `false`, so
@@ -54,4 +54,4 @@ void f(int x) {
   print(x);
 }
 ```
-"""
+'''

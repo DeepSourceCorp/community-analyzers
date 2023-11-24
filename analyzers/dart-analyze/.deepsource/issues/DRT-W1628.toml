@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "subtype_of_struct_class"
-description = """
+description = '''
 The analyzer produces this diagnostic when a class extends, implements, or
 mixes in a class that extends either `Struct` or `Union`. Classes can only
 extend either `Struct` or `Union` directly.
@@ -47,4 +47,4 @@ final class C extends Struct {
   external Pointer g;
 }
 ```
-"""
+'''

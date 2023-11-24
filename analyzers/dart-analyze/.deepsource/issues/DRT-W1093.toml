@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "flutter_style_todos"
-description = """
+description = '''
 **DO** use Flutter TODO format.
 
 From the [Flutter docs](https://github.com/flutter/flutter/wiki/Style-guide-for-Flutter-repo#comments):
@@ -16,6 +16,4 @@ From the [Flutter docs](https://github.com/flutter/flutter/wiki/Style-guide-for-
 // TODO(username): message.
 // TODO(username): message, https://URL-to-issue.
 ```
-
-
-"""
+'''

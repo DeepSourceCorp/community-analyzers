@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "non_abstract_class_inherits_abstract_member"
-description = """
+description = '''
 The analyzer produces this diagnostic when a concrete class inherits one or
 more abstract members, and doesn't provide or inherit an implementation for
 at least one of those abstract members.
@@ -62,4 +62,4 @@ abstract class A {
 
 abstract class B extends A {}
 ```
-"""
+'''

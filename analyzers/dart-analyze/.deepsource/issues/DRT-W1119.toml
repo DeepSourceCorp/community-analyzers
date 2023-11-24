@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "parameter_assignments"
-description = """
+description = '''
 **DON'T** assign new values to parameters of methods or functions.
 
 Assigning new values to parameters is generally a bad practice unless an
@@ -70,6 +70,4 @@ class A {
   }
 }
 ```
-
-
-"""
+'''

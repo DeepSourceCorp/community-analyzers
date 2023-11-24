@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "use_to_and_as_if_applicable"
-description = """
+description = '''
 From [Effective Dart](https://dart.dev/effective-dart/design#prefer-naming-a-method-to___-if-it-copies-the-objects-state-to-a-new-object):
 
 **PREFER** naming a method `to___()` if it copies the object's state to a new
@@ -39,6 +39,4 @@ class Bar {
   }
 }
 ```
-
-
-"""
+'''

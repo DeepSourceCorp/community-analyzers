@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "invalid_annotation_from_deferred_library"
-description = """
+description = '''
 The analyzer produces this diagnostic when a constant from a library that
 is imported using a deferred import is used as an annotation. Annotations
 are evaluated at compile time, and constants from deferred libraries aren't
@@ -45,4 +45,4 @@ annotation with a different constant:
 @deprecated
 void f() {}
 ```
-"""
+'''

@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "invalid_use_of_type_outside_library"
-description = """
+description = '''
 The analyzer produces this diagnostic when an `extends`, `implements`,
 `with`, or `on` clause uses a class or mixin in a way that isn't allowed
 given the modifiers on that class or mixin's declaration.
@@ -47,4 +47,4 @@ type, and possibly the whole clause:
 ```dart
 class B {}
 ```
-"""
+'''

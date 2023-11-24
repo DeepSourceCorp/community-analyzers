@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "redirect_to_invalid_function_type"
-description = """
+description = '''
 The analyzer produces this diagnostic when a factory constructor attempts
 to redirect to another constructor, but the two have incompatible
 parameters. The parameters are compatible if all of the parameters of the
@@ -69,4 +69,4 @@ class B implements A {
   B(int x);
 }
 ```
-"""
+'''

@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "subtype_of_deferred_class"
-description = """
+description = '''
 The analyzer produces this diagnostic when a type (class or mixin) is a
 subtype of a class from a library being imported using a deferred import.
 The supertypes of a type must be compiled at the same time as the type, and
@@ -41,4 +41,4 @@ import 'a.dart' as a;
 
 class B extends a.A {}
 ```
-"""
+'''

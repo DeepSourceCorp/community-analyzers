@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "use_raw_strings"
-description = """
+description = '''
 A raw string can be used to avoid escaping only backslashes and dollars.
 
 **BAD:**
@@ -16,6 +16,4 @@ var s = 'A string with only \\ and \$';
 ```dart
 var s = r'A string with only \ and $';
 ```
-
-
-"""
+'''

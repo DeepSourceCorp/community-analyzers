@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "abi_specific_integer_mapping_extra"
-description = """
+description = '''
 The analyzer produces this diagnostic when a class that extends
 `AbiSpecificInteger` has more than one `AbiSpecificIntegerMapping`
 annotation.
@@ -37,4 +37,4 @@ final class C extends AbiSpecificInteger {
   const C();
 }
 ```
-"""
+'''

@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "unnecessary_null_aware_assignments"
-description = """
+description = '''
 **AVOID** `null` in null-aware assignment.
 
 Using `null` on the right-hand side of a null-aware assignment effectively makes
@@ -21,6 +21,4 @@ x ??= null;
 var x;
 x ??= 1;
 ```
-
-
-"""
+'''

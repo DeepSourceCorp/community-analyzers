@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "non_bool_negation_expression"
-description = """
+description = '''
 The analyzer produces this diagnostic when the operand of the unary
 negation operator (`!`) doesn't have the type `bool`.
 
@@ -26,4 +26,4 @@ Replace the operand with an expression that has the type `bool`:
 int x = 0;
 bool y = !(x > 0);
 ```
-"""
+'''

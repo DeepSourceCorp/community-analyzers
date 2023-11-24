@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "uri_has_not_been_generated"
-description = """
+description = '''
 The analyzer produces this diagnostic when an import, export, or part
 directive is found where the URI refers to a file that doesn't exist and
 the name of the file ends with a pattern that's commonly produced by code
@@ -32,4 +32,4 @@ file.
 
 If the file isn't a generated file, then check the spelling of the URI or
 create the file.
-"""
+'''

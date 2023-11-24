@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "ambiguous_export"
-description = """
+description = '''
 The analyzer produces this diagnostic when two or more export directives
 cause the same name to be exported from multiple libraries.
 
@@ -46,4 +46,4 @@ except one of the directives:
 export 'a.dart';
 export 'b.dart' hide C;
 ```
-"""
+'''

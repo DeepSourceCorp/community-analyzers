@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "argument_must_be_a_constant"
-description = """
+description = '''
 The analyzer produces this diagnostic when an invocation of either
 `Pointer.asFunction` or `DynamicLibrary.lookupFunction` has an `isLeaf`
 argument whose value isn't a constant expression.
@@ -54,4 +54,4 @@ int Function(int) fromPointer(Pointer<NativeFunction<Int8 Function(Int8)>> p) {
   return p.asFunction(isLeaf: true);
 }
 ```
-"""
+'''

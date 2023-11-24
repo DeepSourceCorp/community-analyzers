@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "undefined_enum_constructor"
-description = """
+description = '''
 The analyzer produces this diagnostic when the constructor invoked to
 initialize an enum constant doesn't exist.
 
@@ -85,4 +85,4 @@ enum E {
   const E.x();
 }
 ```
-"""
+'''

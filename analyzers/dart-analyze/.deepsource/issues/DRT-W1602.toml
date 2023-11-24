@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "return_in_generator"
-description = """
+description = '''
 The analyzer produces this diagnostic when a generator function (one whose
 body is marked with either `async*` or `sync*`) uses either a `return`
 statement to return a value or implicitly returns a value because of using
@@ -56,4 +56,4 @@ int f() {
   return 3;
 }
 ```
-"""
+'''

@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "mismatched_annotation_on_struct_field"
-description = """
+description = '''
 The analyzer produces this diagnostic when the annotation on a field in a
 subclass of `Struct` or `Union` doesn't match the Dart type of the field.
 
@@ -47,4 +47,4 @@ final class C extends Struct {
   external double x;
 }
 ```
-"""
+'''

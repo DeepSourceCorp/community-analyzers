@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "cast_to_non_type"
-description = """
+description = '''
 The analyzer produces this diagnostic when the name following the `as` in a
 cast expression is defined to be something other than a type.
 
@@ -26,4 +26,4 @@ Replace the name with the name of a type:
 num x = 0;
 int y = x as int;
 ```
-"""
+'''

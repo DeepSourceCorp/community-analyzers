@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "deprecated_member_use"
-description = """
+description = '''
 The analyzer produces this diagnostic when a deprecated library or class
 member is used in a different package.
 
@@ -23,4 +23,4 @@ void f(C c) {
 
 The documentation for declarations that are annotated with `@deprecated`
 should indicate what code to use in place of the deprecated code.
-"""
+'''

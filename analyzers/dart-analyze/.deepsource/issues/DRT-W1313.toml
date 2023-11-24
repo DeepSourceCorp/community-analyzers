@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "duplicate_pattern_assignment_variable"
-description = """
+description = '''
 The analyzer produces this diagnostic when a single pattern variable is
 assigned a value more than once in the same pattern assignment.
 
@@ -44,4 +44,4 @@ int f((int, int) r) {
   return a;
 }
 ```
-"""
+'''

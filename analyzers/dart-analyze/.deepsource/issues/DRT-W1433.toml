@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "invalid_pattern_variable_in_shared_case_scope"
-description = """
+description = '''
 The analyzer produces this diagnostic when multiple case clauses in a
 switch statement share a body, and at least one of them declares a
 variable that is referenced in the shared statements, but the variable is
@@ -148,4 +148,4 @@ void f(Object? x) {
   }
 }
 ```
-"""
+'''

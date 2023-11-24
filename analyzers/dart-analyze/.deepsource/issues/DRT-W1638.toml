@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "switch_case_completes_normally"
-description = """
+description = '''
 The analyzer produces this diagnostic when the statements following a
 `case` label in a `switch` statement could fall through to the next `case`
 or `default` label.
@@ -35,4 +35,4 @@ following at the end of the current list of statements:
 - a `break` statement,
 - a `continue`, or
 - an invocation of a function or method whose return type is `Never`.
-"""
+'''

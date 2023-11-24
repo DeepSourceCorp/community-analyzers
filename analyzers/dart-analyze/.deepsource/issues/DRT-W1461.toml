@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "main_first_positional_parameter_type"
-description = """
+description = '''
 The analyzer produces this diagnostic when the first positional parameter
 of a function named `main` isn't a supertype of `List<String>`.
 
@@ -31,4 +31,4 @@ If the function isn't an entry point, then change the name of the function:
 ```dart
 void f(List<int> args) {}
 ```
-"""
+'''

@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "abstract_super_member_reference"
-description = """
+description = '''
 The analyzer produces this diagnostic when an inherited member is
 referenced using `super`, but there is no concrete implementation of the
 member in the superclass chain. Abstract members can't be invoked.
@@ -27,4 +27,4 @@ class B extends A {
 
 Remove the invocation of the abstract member, possibly replacing it with an
 invocation of a concrete member.
-"""
+'''

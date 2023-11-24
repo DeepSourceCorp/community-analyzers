@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "missing_whitespace_between_adjacent_strings"
-description = """
+description = '''
 Add a trailing whitespace to prevent missing whitespace between adjacent
 strings.
 
@@ -24,6 +24,4 @@ var s =
   'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed '
   'do eiusmod tempor incididunt ut labore et dolore magna';
 ```
-
-
-"""
+'''

@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "size_annotation_dimensions"
-description = """
+description = '''
 The analyzer produces this diagnostic when the number of dimensions
 specified in an `Array` annotation doesn't match the number of nested
 arrays specified by the type of a field.
@@ -50,4 +50,4 @@ final class C extends Struct {
   external Array<Array<Uint8>> a0;
 }
 ```
-"""
+'''

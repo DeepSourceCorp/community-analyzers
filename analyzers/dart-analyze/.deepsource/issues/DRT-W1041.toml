@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "always_put_control_body_on_new_line"
-description = """
+description = '''
 From the [style guide for the flutter repo](https://flutter.dev/style-guide/):
 
 **DO** separate the control structure expression from its statement.
@@ -41,6 +41,4 @@ while (condition)
 Note that this rule can conflict with the
 [Dart formatter](https://dart.dev/tools/dart-format), and should not be enabled
 when the Dart formatter is used.
-
-
-"""
+'''

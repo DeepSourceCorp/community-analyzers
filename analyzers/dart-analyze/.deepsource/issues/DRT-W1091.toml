@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "exhaustive_cases"
-description = """
+description = '''
 Switching on instances of enum-like classes should be exhaustive.
 
 Enum-like classes are defined as concrete (non-abstract) classes that have:
@@ -64,5 +64,4 @@ void ok(EnumLike e) {
   }
 }
 ```
-
-"""
+'''

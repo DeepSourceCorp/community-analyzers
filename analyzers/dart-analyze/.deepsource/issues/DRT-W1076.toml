@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "camel_case_extensions"
-description = """
+description = '''
 From [Effective Dart](https://dart.dev/effective-dart/style#do-name-extensions-using-uppercamelcase):
 
 **DO** name extensions using `UpperCamelCase`.
@@ -22,5 +22,4 @@ extension SmartIterable<T> on Iterable<T> {
   // ...
 }
 ```
-
-"""
+'''

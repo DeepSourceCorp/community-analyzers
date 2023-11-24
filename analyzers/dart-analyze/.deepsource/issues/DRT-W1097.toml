@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "leading_newlines_in_multiline_strings"
-description = """
+description = '''
 Multiline strings are easier to read when they start with a newline (a newline
 starting a multiline string is ignored).
 
@@ -26,6 +26,4 @@ var s1 = '''
 
 var s2 = '''This one-liner multiline string is ok. It usually allows to escape both ' and " in the string.''';
 ```
-
-
-"""
+'''

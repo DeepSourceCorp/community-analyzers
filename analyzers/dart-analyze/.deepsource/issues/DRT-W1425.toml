@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "invalid_language_version_override"
-description = """
+description = '''
 The analyzer produces this diagnostic when a comment that appears to be an
 attempt to specify a language version override doesn't conform to the
 requirements for such a comment. For more information, see
@@ -28,4 +28,4 @@ the comment to follow the correct format:
 ```dart
 // @dart = 2.13
 ```
-"""
+'''

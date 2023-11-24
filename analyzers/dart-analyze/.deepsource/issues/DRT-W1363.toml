@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "field_initializer_not_assignable"
-description = """
+description = '''
 The analyzer produces this diagnostic when the initializer list of a
 constructor initializes a field to a value that isn't assignable to the
 field.
@@ -45,4 +45,4 @@ class C {
   C() : s = 0;
 }
 ```
-"""
+'''

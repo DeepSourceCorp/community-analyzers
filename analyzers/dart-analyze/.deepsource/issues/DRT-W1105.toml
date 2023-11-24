@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "no_leading_underscores_for_library_prefixes"
-description = """
+description = '''
 **DON'T** use a leading underscore for library prefixes.
 There is no concept of "private" for library prefixes. When one of those has a
 name that starts with an underscore, it sends a confusing signal to the reader. 
@@ -19,5 +19,4 @@ import 'dart:core' as _core;
 ```dart
 import 'dart:core' as core;
 ```
-
-"""
+'''

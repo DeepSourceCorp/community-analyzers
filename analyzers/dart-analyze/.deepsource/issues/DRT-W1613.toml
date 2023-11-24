@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "sdk_version_gt_gt_gt_operator"
-description = """
+description = '''
 The analyzer produces this diagnostic when the operator `>>>` is used in
 code that has an SDK constraint whose lower bound is less than 2.14.0. This
 operator wasn't supported in earlier versions, so this code won't be able
@@ -51,4 +51,4 @@ int logicalShiftRight(int leftOperand, int rightOperand) {
   return leftOperand ~/ divisor;
 }
 ```
-"""
+'''

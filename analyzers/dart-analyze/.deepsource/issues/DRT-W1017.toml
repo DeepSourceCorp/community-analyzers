@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "discarded_futures"
-description = """
+description = '''
 Making asynchronous calls in non-`async` functions is usually the sign of a
 programming error.  In general these functions should be marked `async` and such
 futures should likely be awaited (as enforced by `unawaited_futures`).
@@ -34,5 +34,4 @@ Future<void> deleteDir(String path) async {}
 
 Future<void> createDir(String path) async {}
 ```
-
-"""
+'''

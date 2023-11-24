@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "refutable_pattern_in_irrefutable_context"
-description = """
+description = '''
 The analyzer produces this diagnostic when a [refutable pattern][] is used
 in a context where only an [irrefutable pattern][] is allowed.
 
@@ -34,4 +34,4 @@ void f(int? x) {
 #### Common fixes
 
 Rewrite the code to not use a refutable pattern in an irrefutable context.
-"""
+'''

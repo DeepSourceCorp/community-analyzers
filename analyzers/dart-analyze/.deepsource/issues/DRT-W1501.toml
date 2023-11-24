@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "must_return_void"
-description = """
+description = '''
 The analyzer produces this diagnostic when you pass a function
 that doesn't return `void` to the `NativeCallable.listener` constructor.
 
@@ -43,4 +43,4 @@ void g() {
   NativeCallable<Void Function(Int32)>.listener(f);
 }
 ```
-"""
+'''

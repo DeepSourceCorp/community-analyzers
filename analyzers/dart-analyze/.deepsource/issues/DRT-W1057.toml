@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "avoid_init_to_null"
-description = """
+description = '''
 From [Effective Dart](https://dart.dev/effective-dart/usage#dont-explicitly-initialize-variables-to-null):
 
 **DON'T** explicitly initialize variables to `null`.
@@ -47,6 +47,4 @@ Item? bestDeal(List<Item> cart) {
   return bestItem;
 }
 ```
-
-
-"""
+'''

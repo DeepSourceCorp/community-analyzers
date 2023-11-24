@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "field_initializing_formal_not_assignable"
-description = """
+description = '''
 The analyzer produces this diagnostic when the type of an initializing
 formal parameter isn't assignable to the type of the field being
 initialized.
@@ -60,4 +60,4 @@ class C {
   C(String s) : f = int.parse(s);
 }
 ```
-"""
+'''

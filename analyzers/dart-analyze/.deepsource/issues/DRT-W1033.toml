@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "use_build_context_synchronously"
-description = """
+description = '''
 **DON'T** use BuildContext across asynchronous gaps.
 
 Storing `BuildContext` for later usage can easily lead to difficult to diagnose
@@ -38,5 +38,4 @@ void onButtonTapped() async {
   Navigator.of(context).pop();
 }
 ```
-
-"""
+'''

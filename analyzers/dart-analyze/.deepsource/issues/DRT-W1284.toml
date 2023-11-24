@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "dead_code"
-description = """
+description = '''
 The analyzer produces this diagnostic when code is found that won't be
 executed because execution will never reach the code.
 
@@ -50,4 +50,4 @@ void f({bool skipPrinting = true}) {
   print('here');
 }
 ```
-"""
+'''

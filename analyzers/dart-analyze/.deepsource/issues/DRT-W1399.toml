@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "instance_access_to_static_member"
-description = """
+description = '''
 The analyzer produces this diagnostic when an access operator is used to
 access a static member through an instance of the class.
 
@@ -36,4 +36,4 @@ class C {
   static int zero = 0;
 }
 ```
-"""
+'''

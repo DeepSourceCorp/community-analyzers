@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "late_final_field_with_const_constructor"
-description = """
+description = '''
 The analyzer produces this diagnostic when a class that has at least one
 `const` constructor also has a field marked both `late` and `final`.
 
@@ -44,4 +44,4 @@ class A {
   A();
 }
 ```
-"""
+'''

@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "type_init_formals"
-description = """
+description = '''
 From [Effective Dart](https://dart.dev/effective-dart/design#dont-type-annotate-initializing-formals):
 
 **DON'T** type annotate initializing formals.
@@ -57,6 +57,4 @@ class B extends A {
   B(super.a);
 }
 ```
-
-
-"""
+'''

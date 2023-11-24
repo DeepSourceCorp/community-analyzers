@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "comment_references"
-description = """
+description = '''
 **DO** reference only in scope identifiers in doc comments.
 
 If you surround things like variable, method, or type names in square brackets,
@@ -52,6 +52,4 @@ references. The linter rule may report comment references which cannot be
 resolved by the analyzer, but which Dartdoc can. See
 [dartdoc#1142](https://github.com/dart-lang/linter/issues/1142) for more
 information.
-
-
-"""
+'''

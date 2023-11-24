@@ -182,7 +182,7 @@ class IssueExtractor:
     @classmethod
     def get_linter_rule_description(cls, rule: dict) -> str:
         """Extracts the description from the rule"""
-        return rule["details"]
+        return rule["details"].strip()
 
     @classmethod
     def get_linter_rule_category(cls, rule: dict) -> str:

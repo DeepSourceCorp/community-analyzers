@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "sdk_version_ui_as_code_in_const_context"
-description = """
+description = '''
 The analyzer produces this diagnostic when an if or spread element inside
 a [constant context][] is found in code that has an SDK constraint whose
 lower bound is less than 2.5.0. Using an if or spread element inside a
@@ -54,4 +54,4 @@ If that isn't possible, change the code so that the element isn't in a
 const a = [1, 2];
 var b = [...a];
 ```
-"""
+'''

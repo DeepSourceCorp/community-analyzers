@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "invalid_visibility_annotation"
-description = """
+description = '''
 The analyzer produces this diagnostic when either the `visibleForTemplate`
 or [`visibleForTesting`][meta-visibleForTesting] annotation is applied to
 a non-public declaration.
@@ -43,4 +43,4 @@ void someFunction() {}
 
 void f() => someFunction();
 ```
-"""
+'''

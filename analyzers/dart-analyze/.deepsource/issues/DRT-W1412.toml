@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "invalid_dependency"
-description = """
+description = '''
 The analyzer produces this diagnostic when a package under either
 `dependencies` or `dev_dependencies` isn't a pub, `git`, or `path` based
 dependency.
@@ -46,4 +46,4 @@ dependencies:
       url: http://your-package-server.com
     version: ^1.4.0
 ```
-"""
+'''

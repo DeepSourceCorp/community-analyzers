@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "default_value_in_redirecting_factory_constructor"
-description = """
+description = '''
 The analyzer produces this diagnostic when a factory constructor that
 redirects to another constructor specifies a default value for an optional
 parameter.
@@ -51,4 +51,4 @@ class B implements A {
   B([int x = 1]) {}
 }
 ```
-"""
+'''

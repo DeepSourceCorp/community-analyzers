@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "undefined_class"
-description = """
+description = '''
 The analyzer produces this diagnostic when it encounters an identifier that
 appears to be the name of a class but either isn't defined or isn't visible
 in the scope in which it's being referenced.
@@ -33,4 +33,4 @@ void f(Point p) {}
 
 If the class is defined but isn't visible, then you probably need to add an
 import.
-"""
+'''

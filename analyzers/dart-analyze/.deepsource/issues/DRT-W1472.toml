@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "missing_dependency"
-description = """
+description = '''
 The analyzer produces this diagnostic when there's a package that has been
 imported in the source but is not listed as a dependency of the
 importing package.
@@ -31,4 +31,4 @@ dependencies:
   meta: ^1.0.2
   path: any
 ```
-"""
+'''

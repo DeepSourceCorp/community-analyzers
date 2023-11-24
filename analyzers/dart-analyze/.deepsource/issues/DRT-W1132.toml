@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "prefer_expression_function_bodies"
-description = """
+description = '''
 **CONSIDER** using => for short members whose body is a single return statement.
 
 **BAD:**
@@ -42,6 +42,4 @@ bool ready(num time) => minTime == null || minTime <= time;
 ```dart
 containsValue(String value) => getValues().contains(value);
 ```
-
-
-"""
+'''

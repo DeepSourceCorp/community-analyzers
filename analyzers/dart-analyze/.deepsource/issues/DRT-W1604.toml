@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "return_of_invalid_type"
-description = """
+description = '''
 The analyzer produces this diagnostic when a method or function returns a
 value whose type isn't assignable to the declared return type.
 
@@ -31,4 +31,4 @@ If the value is correct, then change the return type to match:
 ```dart
 int f() => 3;
 ```
-"""
+'''

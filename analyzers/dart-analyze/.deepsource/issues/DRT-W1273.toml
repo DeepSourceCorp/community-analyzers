@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "const_map_key_not_primitive_equality"
-description = """
+description = '''
 The analyzer produces this diagnostic when the class of object used as a
 key in a constant map literal implements either the `==` operator, the
 getter `hashCode`, or both. The implementation of constant maps uses both
@@ -67,4 +67,4 @@ class C {
 
 final map = {C() : 0};
 ```
-"""
+'''

@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "part_of_non_part"
-description = """
+description = '''
 The analyzer produces this diagnostic when a part directive is found and
 the referenced file doesn't have a part-of directive.
 
@@ -40,4 +40,4 @@ directive with an import directive:
 ```dart
 import 'a.dart';
 ```
-"""
+'''

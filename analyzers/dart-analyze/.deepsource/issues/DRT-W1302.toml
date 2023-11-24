@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "division_optimization"
-description = """
+description = '''
 The analyzer produces this diagnostic when the result of dividing two
 numbers is converted to an integer using `toInt`. Dart has a built-in
 integer division operator that is both more efficient and more concise.
@@ -25,4 +25,4 @@ Use the integer division operator (`~/`):
 ```dart
 int divide(num x, num y) => x ~/ y;
 ```
-"""
+'''

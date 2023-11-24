@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "use_of_native_extension"
-description = """
+description = '''
 The analyzer produces this diagnostic when a library is imported using the
 `dart-ext` scheme.
 
@@ -21,4 +21,4 @@ import 'dart-ext:x';
 
 Rewrite the code to use `dart:ffi` as a way of invoking the contents of the
 native library.
-"""
+'''

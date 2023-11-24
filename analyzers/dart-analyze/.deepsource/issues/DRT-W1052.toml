@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "avoid_escaping_inner_quotes"
-description = """
+description = '''
 Avoid escaping inner quotes by converting surrounding quotes.
 
 **BAD:**
@@ -16,6 +16,4 @@ var s = 'It\'s not fun';
 ```dart
 var s = "It's not fun";
 ```
-
-
-"""
+'''

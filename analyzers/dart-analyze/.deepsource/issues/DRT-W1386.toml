@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "implements_super_class"
-description = """
+description = '''
 The analyzer produces this diagnostic when a class is listed in the
 `extends` clause of a class declaration and also in either the
 `implements` or `with` clause of the same declaration.
@@ -48,4 +48,4 @@ class A {}
 
 class B implements A {}
 ```
-"""
+'''

@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "missing_name"
-description = """
+description = '''
 The analyzer produces this diagnostic when there's no top-level `name` key.
 The `name` key provides the name of the package, which is required.
 
@@ -27,4 +27,4 @@ name: example
 dependencies:
   meta: ^1.0.2
 ```
-"""
+'''

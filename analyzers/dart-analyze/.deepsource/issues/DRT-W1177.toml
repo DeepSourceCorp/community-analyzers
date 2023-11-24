@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "unnecessary_final"
-description = """
+description = '''
 The analyzer produces this diagnostic when either a field initializing
 parameter or a super parameter in a constructor has the keyword `final`.
 In both cases the keyword is unnecessary because the parameter is
@@ -49,4 +49,4 @@ class B extends A {
   B(super.value);
 }
 ```
-"""
+'''

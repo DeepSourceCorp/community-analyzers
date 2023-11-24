@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "expected_one_list_type_arguments"
-description = """
+description = '''
 The analyzer produces this diagnostic when a list literal has more than one
 type argument.
 
@@ -24,4 +24,4 @@ Remove all except one of the type arguments:
 ```dart
 var l = <int>[];
 ```
-"""
+'''

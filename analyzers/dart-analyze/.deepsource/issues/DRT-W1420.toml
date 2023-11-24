@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "invalid_field_name"
-description = """
+description = '''
 The analyzer produces this diagnostic when either a record literal or a
 record type annotation has a field whose name is invalid. The name is
 invalid if it is:
@@ -67,4 +67,4 @@ Rename the field:
 ```dart
 var r = (a: 1, d: 4);
 ```
-"""
+'''

@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "depend_on_referenced_packages"
-description = """
+description = '''
 **DO** depend on referenced packages.
 
 When importing a package, add a dependency on it to your pubspec.
@@ -35,6 +35,4 @@ import 'package:a/a.dart';
 dependencies:
   a: ^1.0.0
 ```
-
-
-"""
+'''

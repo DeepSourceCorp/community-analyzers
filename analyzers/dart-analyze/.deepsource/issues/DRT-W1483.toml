@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "missing_variable_pattern"
-description = """
+description = '''
 The analyzer produces this diagnostic when one branch of a logical-or
 pattern doesn't declare a variable that is declared on the other branch of
 the same pattern.
@@ -62,4 +62,4 @@ void f((int, int) r) {
   }
 }
 ```
-"""
+'''

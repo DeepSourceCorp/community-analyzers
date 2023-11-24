@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "part_of_different_library"
-description = """
+description = '''
 The analyzer produces this diagnostic when a library attempts to include a
 file as a part of itself when the other file is a part of a different
 library.
@@ -33,4 +33,4 @@ URI in the part directive to be the URI of the other file.
 If the [part file][] should be a part of this library, then update the URI
 (or library name) in the part-of directive to be the URI (or name) of the
 correct library.
-"""
+'''

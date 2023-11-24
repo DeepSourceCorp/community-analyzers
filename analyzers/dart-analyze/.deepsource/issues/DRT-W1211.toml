@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "abi_specific_integer_invalid"
-description = """
+description = '''
 The analyzer produces this diagnostic when a class that extends
 `AbiSpecificInteger` doesn't meet all of the following requirements:
 - there must be exactly one constructor
@@ -89,4 +89,4 @@ final class C extends AbiSpecificInteger {
   const C();
 }
 ```
-"""
+'''

@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "asset_field_not_list"
-description = """
+description = '''
 The analyzer produces this diagnostic when the value of the `asset` key
 isn't a list.
 
@@ -29,4 +29,4 @@ flutter:
   assets:
     - assets/
 ```
-"""
+'''

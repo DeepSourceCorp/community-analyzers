@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "prefer_collection_literals"
-description = """
+description = '''
 **DO** use collection literals when possible.
 
 **BAD:**
@@ -45,5 +45,4 @@ void printHashSet(LinkedHashSet<int> ids) => printSet(ids);
 void printMap(Map map) => print('$map!');
 void printHashMap(LinkedHashMap map) => printMap(map);
 ```
-
-"""
+'''

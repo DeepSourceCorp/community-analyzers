@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "sdk_version_eq_eq_operator_in_const_context"
-description = """
+description = '''
 The analyzer produces this diagnostic when the operator `==` is used on a
 non-primitive type inside a [constant context][] is found in code that has
 an SDK constraint whose lower bound is less than 2.3.2. Using this operator
@@ -51,4 +51,4 @@ const C a = null;
 const C b = null;
 bool same = a == b;
 ```
-"""
+'''

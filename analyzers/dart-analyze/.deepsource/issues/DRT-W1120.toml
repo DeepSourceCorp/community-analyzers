@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "prefer_adjacent_string_concatenation"
-description = """
+description = '''
 **DO** use adjacent strings to concatenate string literals.
 
 **BAD:**
@@ -20,6 +20,4 @@ raiseAlarm(
     'ERROR: Parts of the spaceship are on fire. Other '
     'parts are overrun by martians. Unclear which are which.');
 ```
-
-
-"""
+'''

@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "uri_does_not_exist"
-description = """
+description = '''
 The analyzer produces this diagnostic when an import, export, or part
 directive is found where the URI refers to a file that doesn't exist.
 
@@ -22,4 +22,4 @@ import 'lib.dart';
 If the URI was mistyped or invalid, then correct the URI.
 
 If the URI is correct, then create the file.
-"""
+'''

@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "non_constant_map_value"
-description = """
+description = '''
 The analyzer produces this diagnostic when a value in a constant map
 literal isn't a constant value.
 
@@ -33,4 +33,4 @@ keyword:
 var a = 'a';
 var m = {0: a};
 ```
-"""
+'''

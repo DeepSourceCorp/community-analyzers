@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "invalid_type_argument_in_const_literal"
-description = """
+description = '''
 The analyzer produces this diagnostic when a type parameter is used as a
 type argument in a list, map, or set literal that is prefixed by `const`.
 This isn't allowed because the value of the type parameter (the actual type
@@ -48,4 +48,4 @@ runtime, then remove the keyword `const`:
 ```dart
 List<T> newList<T>() => <T>[];
 ```
-"""
+'''

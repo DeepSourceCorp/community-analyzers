@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "undefined_enum_constant"
-description = """
+description = '''
 The analyzer produces this diagnostic when it encounters an identifier that
 appears to be the name of an enum constant, and the name either isn't
 defined or isn't visible in the scope in which it's being referenced.
@@ -39,4 +39,4 @@ enum E {a, b}
 
 var e = E.b;
 ```
-"""
+'''

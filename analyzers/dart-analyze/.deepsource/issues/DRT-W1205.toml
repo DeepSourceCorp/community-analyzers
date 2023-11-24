@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "use_setters_to_change_properties"
-description = """
+description = '''
 **DO** use a setter for operations that conceptually change a property.
 
 **BAD:**
@@ -18,6 +18,4 @@ button.setVisible(false);
 rectangle.width = 3;
 button.visible = false;
 ```
-
-
-"""
+'''

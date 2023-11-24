@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "instantiate_enum"
-description = """
+description = '''
 The analyzer produces this diagnostic when an enum is instantiated. It's
 invalid to create an instance of an enum by invoking a constructor; only
 the instances named in the declaration of the enum can exist.
@@ -34,4 +34,4 @@ var e = E.a;
 ```
 
 If you intend to use an instance of a class, then use the name of that class in place of the name of the enum.
-"""
+'''

@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "combinators_ordering"
-description = """
+description = '''
 **DO** sort combinator names alphabetically.
 
 **BAD:**
@@ -18,6 +18,4 @@ export 'a.dart' show B, A hide D, C;
 import 'a.dart' show A, B hide C, D;
 export 'a.dart' show A, B hide C, D;
 ```
-
-
-"""
+'''

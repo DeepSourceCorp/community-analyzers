@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "super_formal_parameter_without_associated_named"
-description = """
+description = '''
 The analyzer produces this diagnostic when there's a named super parameter
 in a constructor and the implicitly or explicitly invoked super
 constructor doesn't have a named parameter with the same name.
@@ -68,4 +68,4 @@ class B extends A {
   B({int? y});
 }
 ```
-"""
+'''

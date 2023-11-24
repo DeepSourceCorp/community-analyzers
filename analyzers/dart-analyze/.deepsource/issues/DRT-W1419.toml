@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "invalid_factory_name_not_a_class"
-description = """
+description = '''
 The analyzer produces this diagnostic when the name of a factory
 constructor isn't the same as the name of the surrounding class.
 
@@ -68,4 +68,4 @@ class C {
   static A a() => throw 0;
 }
 ```
-"""
+'''

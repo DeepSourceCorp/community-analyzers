@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "body_might_complete_normally"
-description = """
+description = '''
 The analyzer produces this diagnostic when a method or function has a
 return type that's [potentially non-nullable][] but would implicitly return
 `null` if control reached the end of the function.
@@ -74,4 +74,4 @@ class C<T> {
   }
 }
 ```
-"""
+'''

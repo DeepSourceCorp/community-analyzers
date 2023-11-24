@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "map_entry_not_in_map"
-description = """
+description = '''
 The analyzer produces this diagnostic when a map entry (a key/value pair)
 is found in a set literal.
 
@@ -37,4 +37,4 @@ included in the set:
 ```dart
 var collection = <String>{'a', 'b'};
 ```
-"""
+'''

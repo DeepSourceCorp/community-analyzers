@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "unused_shown_name"
-description = """
+description = '''
 The analyzer produces this diagnostic when a show combinator includes a
 name that isn't used within the library. Because it isn't referenced, the
 name can be removed.
@@ -29,4 +29,4 @@ import 'dart:math' show min;
 
 var x = min(0, 1);
 ```
-"""
+'''

@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "missing_named_pattern_field_name"
-description = """
+description = '''
 The analyzer produces this diagnostic when, within an object pattern, the
 specification of a property and the pattern used to match the property's
 value doesn't have either:
@@ -66,4 +66,4 @@ void f(C c) {
   }
 }
 ```
-"""
+'''

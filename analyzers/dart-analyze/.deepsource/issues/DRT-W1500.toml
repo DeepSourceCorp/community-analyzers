@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "must_call_super"
-description = """
+description = '''
 The analyzer produces this diagnostic when a method that overrides a method
 that is annotated as [`mustCallSuper`][meta-mustCallSuper] doesn't invoke
 the overridden method as required.
@@ -47,4 +47,4 @@ class B extends A {
   }
 }
 ```
-"""
+'''

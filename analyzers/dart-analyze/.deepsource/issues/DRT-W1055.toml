@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "avoid_function_literals_in_foreach_calls"
-description = """
+description = '''
 **AVOID** using `forEach` with a function literal.
 
 The `for` loop enables a developer to be clear and explicit as to their intent.
@@ -26,5 +26,4 @@ for (var person in people) {
   ...
 }
 ```
-
-"""
+'''

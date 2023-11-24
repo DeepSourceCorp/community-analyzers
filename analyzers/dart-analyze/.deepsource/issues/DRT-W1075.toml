@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "await_only_futures"
-description = """
+description = '''
 **AVOID** using await on anything which is not a future.
 
 Await is allowed on the types: `Future<X>`, `FutureOr<X>`, `Future<X>?`, 
@@ -26,5 +26,4 @@ main() async {
   print(23);
 }
 ```
-
-"""
+'''

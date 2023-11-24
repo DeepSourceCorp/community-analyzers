@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "import_of_non_library"
-description = """
+description = '''
 The analyzer produces this diagnostic when a [part file][] is imported
 into a library.
 
@@ -29,4 +29,4 @@ import 'part.dart';
 
 Import the library that contains the [part file][] rather than the
 [part file][] itself.
-"""
+'''

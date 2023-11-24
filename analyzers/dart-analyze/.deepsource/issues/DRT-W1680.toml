@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "unnecessary_nan_comparison"
-description = """
+description = '''
 The analyzer produces this diagnostic when a value is compared to
 `double.nan` using either `==` or `!=`.
 
@@ -33,4 +33,4 @@ Use the getter `double.isNaN` instead:
 ```dart
 bool isNaN(double d) => d.isNaN;
 ```
-"""
+'''

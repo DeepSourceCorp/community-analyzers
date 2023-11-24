@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "subtype_of_sealed_class"
-description = """
+description = '''
 The analyzer produces this diagnostic when a sealed class (one that either
 has the [`sealed`][meta-sealed] annotation or inherits or mixes in a
 sealed class) is referenced in either the `extends`, `implements`, or
@@ -48,4 +48,4 @@ class B extends A {}
 If the class needs to be a subtype of the sealed class, then either change
 the sealed class so that it's no longer sealed or move the subclass into
 the same package as the sealed class.
-"""
+'''

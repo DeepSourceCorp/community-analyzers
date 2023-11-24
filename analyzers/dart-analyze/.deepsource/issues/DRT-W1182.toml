@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "unnecessary_new"
-description = """
+description = '''
 **AVOID** new keyword to create instances.
 
 **BAD:**
@@ -22,6 +22,4 @@ m(){
   final a = A();
 }
 ```
-
-
-"""
+'''

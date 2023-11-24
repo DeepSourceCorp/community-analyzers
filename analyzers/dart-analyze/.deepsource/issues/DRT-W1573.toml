@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "positional_super_formal_parameter_with_positional_argument"
-description = """
+description = '''
 The analyzer produces this diagnostic when some, but not all, of the
 positional parameters provided to the constructor of the superclass are
 using a super parameter.
@@ -61,4 +61,4 @@ class B extends A {
   B(int x, int y) : super(x, y);
 }
 ```
-"""
+'''

@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "invalid_annotation_constant_value_from_deferred_library"
-description = """
+description = '''
 The analyzer produces this diagnostic when a constant defined in a library
 that is imported as a deferred library is referenced in the argument list
 of an annotation. Annotations are evaluated at compile time, and values
@@ -49,4 +49,4 @@ void f () {}
 If the import is required to be deferred and there's another constant that
 is appropriate, then use that constant in place of the constant from the
 deferred library.
-"""
+'''

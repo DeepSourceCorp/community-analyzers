@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "prefer_const_constructors"
-description = """
+description = '''
 **PREFER** using `const` for instantiating constant constructors.
 
 If a constructor can be invoked as const to produce a canonicalized instance,
@@ -42,6 +42,4 @@ class A {
 
 A foo(int x) => new A(x);
 ```
-
-
-"""
+'''

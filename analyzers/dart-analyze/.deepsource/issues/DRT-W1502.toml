@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "name_not_string"
-description = """
+description = '''
 The analyzer produces this diagnostic when the top-level `name` key has a
 value that isn't a string.
 
@@ -25,4 +25,4 @@ Replace the value with a string:
 {% prettify yaml tag=pre+code %}
 name: example
 ```
-"""
+'''

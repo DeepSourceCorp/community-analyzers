@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "must_be_a_native_function_type"
-description = """
+description = '''
 The analyzer produces this diagnostic when an invocation of either
 `Pointer.fromFunction`, `DynamicLibrary.lookupFunction`,
 or a `NativeCallable` constructor, has a type
@@ -45,4 +45,4 @@ class C<T extends Function> {
   }
 }
 ```
-"""
+'''

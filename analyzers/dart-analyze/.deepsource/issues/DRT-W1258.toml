@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "concrete_class_with_abstract_member"
-description = """
+description = '''
 The analyzer produces this diagnostic when a member of a concrete class is
 found that doesn't have a concrete implementation. Concrete classes aren't
 allowed to contain abstract members.
@@ -39,4 +39,4 @@ abstract class C {
   void m();
 }
 ```
-"""
+'''

@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "asset_directory_does_not_exist"
-description = """
+description = '''
 The analyzer produces this diagnostic when an asset list contains a value
 referencing a directory that doesn't exist.
 
@@ -27,4 +27,4 @@ If the path is correct, then create a directory at that path.
 
 If the path isn't correct, then change the path to match the path of the
 directory containing the assets.
-"""
+'''

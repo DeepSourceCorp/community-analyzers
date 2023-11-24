@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "non_constant_default_value"
-description = """
+description = '''
 The analyzer produces this diagnostic when an optional parameter, either
 named or positional, has a default value that isn't a compile-time
 constant.
@@ -39,4 +39,4 @@ void f([int value]) {
   value ??= defaultValue;
 }
 ```
-"""
+'''

@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "pattern_type_mismatch_in_irrefutable_context"
-description = """
+description = '''
 The analyzer produces this diagnostic when the type of the value on the
 right-hand side of a pattern assignment or pattern declaration doesn't
 match the type required by the pattern being used to match it.
@@ -32,4 +32,4 @@ void f(String x) {
   print(a);
 }
 ```
-"""
+'''

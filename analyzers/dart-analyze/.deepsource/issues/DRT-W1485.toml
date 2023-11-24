@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "mixin_application_not_implemented_interface"
-description = """
+description = '''
 The analyzer produces this diagnostic when a mixin that has a superclass
 constraint is used in a [mixin application][] with a superclass that
 doesn't implement the required constraint.
@@ -35,4 +35,4 @@ mixin M on A {}
 
 class X = A with M;
 ```
-"""
+'''

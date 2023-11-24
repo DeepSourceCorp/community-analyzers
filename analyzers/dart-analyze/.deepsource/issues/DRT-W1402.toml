@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "instantiate_abstract_class"
-description = """
+description = '''
 The analyzer produces this diagnostic when it finds a constructor
 invocation and the constructor is declared in an abstract class. Even
 though you can't create an instance of an abstract class, abstract classes
@@ -25,4 +25,4 @@ var c = new C();
 
 If there's a concrete subclass of the abstract class that can be used, then
 create an instance of the concrete subclass.
-"""
+'''

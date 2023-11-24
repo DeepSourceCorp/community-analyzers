@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "prefer_conditional_assignment"
-description = """
+description = '''
 **PREFER** using `??=` over testing for null.
 
 As Dart has the `??=` operator, it is advisable to use it where applicable to
@@ -26,6 +26,4 @@ String get fullName {
   return _fullName ??= getFullUserName(this);
 }
 ```
-
-
-"""
+'''

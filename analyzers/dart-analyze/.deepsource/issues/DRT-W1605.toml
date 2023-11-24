@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "return_of_invalid_type_from_closure"
-description = """
+description = '''
 The analyzer produces this diagnostic when the static type of a returned
 expression isn't assignable to the return type that the closure is required
 to have.
@@ -27,4 +27,4 @@ of the correct type, possibly by converting the existing value:
 ```dart
 String Function(String) f = (s) => 3.toString();
 ```
-"""
+'''

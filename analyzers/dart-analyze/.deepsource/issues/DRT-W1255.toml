@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "collection_element_from_deferred_library"
-description = """
+description = '''
 The analyzer produces this diagnostic when a collection literal that is
 either explicitly (because it's prefixed by the `const` keyword) or
 implicitly (because it appears in a [constant context][]) a constant
@@ -58,4 +58,4 @@ suitable value:
 ```dart
 var l = const [0];
 ```
-"""
+'''

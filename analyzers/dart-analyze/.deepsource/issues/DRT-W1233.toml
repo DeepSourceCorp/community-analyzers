@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "assignment_to_const"
-description = """
+description = '''
 The analyzer produces this diagnostic when it finds an assignment to a
 top-level variable, a static field, or a local variable that has the
 `const` modifier. The value of a compile-time constant can't be changed at
@@ -48,4 +48,4 @@ void f() {
   print(v);
 }
 ```
-"""
+'''

@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "super_in_extension"
-description = """
+description = '''
 The analyzer produces this diagnostic when a member declared inside an
 extension uses the `super` keyword . Extensions aren't classes and don't
 have superclasses, so the `super` keyword serves no purpose.
@@ -29,4 +29,4 @@ extension E on Object {
   String get displayString => toString();
 }
 ```
-"""
+'''

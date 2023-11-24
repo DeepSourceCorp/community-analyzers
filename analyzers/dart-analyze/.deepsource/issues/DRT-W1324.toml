@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "enum_constant_with_non_const_constructor"
-description = """
+description = '''
 The analyzer produces this diagnostic when an enum constant is being
 created using either a factory constructor or a generative constructor
 that isn't marked as being `const`.
@@ -35,4 +35,4 @@ enum E {
   const E._();
 }
 ```
-"""
+'''

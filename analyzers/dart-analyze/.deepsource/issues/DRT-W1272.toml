@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "const_instance_field"
-description = """
+description = '''
 The analyzer produces this diagnostic when an instance field is marked as
 being const.
 
@@ -37,4 +37,4 @@ class C {
   static const int f = 3;
 }
 ```
-"""
+'''

@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "camel_case_types"
-description = """
+description = '''
 From [Effective Dart](https://dart.dev/effective-dart/style#do-name-types-using-uppercamelcase):
 
 **DO** name types using UpperCamelCase.
@@ -24,6 +24,4 @@ class HttpRequest {
 
 typedef num Adder(num x, num y);
 ```
-
-
-"""
+'''

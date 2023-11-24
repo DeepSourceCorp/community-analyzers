@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "avoid_catching_errors"
-description = """
+description = '''
 **DON'T** explicitly catch Error or types that implement it.
 
 Errors differ from Exceptions in that Errors can be analyzed and prevented prior
@@ -27,6 +27,4 @@ try {
   doSomething(e);
 }
 ```
-
-
-"""
+'''

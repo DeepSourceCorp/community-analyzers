@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "unreachable_switch_case"
-description = """
+description = '''
 The analyzer produces this diagnostic when a `case` clause in a `switch`
 statement doesn't match anything because all of the matchable values are
 matched by an earlier `case` clause.
@@ -39,4 +39,4 @@ void f(int x) {
   }
 }
 ```
-"""
+'''

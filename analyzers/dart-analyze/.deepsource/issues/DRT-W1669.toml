@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "undefined_named_parameter"
-description = """
+description = '''
 The analyzer produces this diagnostic when a method or function invocation
 has a named argument, but the method or function being invoked doesn't
 define a parameter with the same name.
@@ -67,4 +67,4 @@ void f(C c) {
   c.m(a: 1);
 }
 ```
-"""
+'''

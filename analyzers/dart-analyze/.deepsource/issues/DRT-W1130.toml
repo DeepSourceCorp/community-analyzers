@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "prefer_contains"
-description = """
+description = '''
 **DON'T** use `indexOf` to see if a collection contains an element.
 
 Calling `indexOf` to see if a collection contains something is difficult to read
@@ -21,6 +21,4 @@ if (lunchBox.indexOf('sandwich') == -1) return 'so hungry...';
 ```dart
 if (!lunchBox.contains('sandwich')) return 'so hungry...';
 ```
-
-
-"""
+'''

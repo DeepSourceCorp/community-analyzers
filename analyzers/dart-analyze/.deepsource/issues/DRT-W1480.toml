@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "missing_required_param"
-description = """
+description = '''
 The analyzer produces this diagnostic when a method or function with a
 named parameter that is annotated as being required is invoked without
 providing a value for the parameter.
@@ -37,4 +37,4 @@ void g() {
   f(x: 2);
 }
 ```
-"""
+'''

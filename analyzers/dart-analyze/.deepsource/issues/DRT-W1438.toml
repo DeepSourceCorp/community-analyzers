@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "invalid_sealed_annotation"
-description = """
+description = '''
 The analyzer produces this diagnostic when a declaration other than a
 class declaration has the `@sealed` annotation on it.
 
@@ -31,4 +31,4 @@ class A {
   void m() {}
 }
 ```
-"""
+'''

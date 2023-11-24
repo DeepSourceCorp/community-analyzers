@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "non_const_call_to_literal_constructor"
-description = """
+description = '''
 The analyzer produces this diagnostic when a constructor that has the
 [`literal`][meta-literal] annotation is invoked without using the `const`
 keyword, but all of the arguments to the constructor are constants. The
@@ -40,4 +40,4 @@ class C {
 
 void f() => const C();
 ```
-"""
+'''

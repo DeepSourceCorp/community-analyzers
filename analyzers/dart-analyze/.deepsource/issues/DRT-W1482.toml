@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "missing_size_annotation_carray"
-description = """
+description = '''
 The analyzer produces this diagnostic when a field in a subclass of either
 `Struct` or `Union` has a type of `Array` but doesn't have a single
 `Array` annotation indicating the dimensions of the array.
@@ -36,4 +36,4 @@ final class C extends Struct {
   external Array<Uint8> a0;
 }
 ```
-"""
+'''

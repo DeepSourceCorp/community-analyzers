@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "assignment_to_final"
-description = """
+description = '''
 The analyzer produces this diagnostic when it finds an invocation of a
 setter, but there's no setter because the field with the same name was
 declared to be `final` or `const`.
@@ -37,4 +37,4 @@ f(C c) {
   c.v = 1;
 }
 ```
-"""
+'''

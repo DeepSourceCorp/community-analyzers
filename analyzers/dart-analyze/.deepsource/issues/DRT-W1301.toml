@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "disallowed_type_instantiation_expression"
-description = """
+description = '''
 The analyzer produces this diagnostic when an expression with a value that
 is anything other than one of the allowed kinds of values is followed by
 type arguments. The allowed kinds of values are:
@@ -37,4 +37,4 @@ void f() {
   print(i);
 }
 ```
-"""
+'''

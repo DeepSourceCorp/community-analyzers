@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "instance_member_access_from_factory"
-description = """
+description = '''
 The analyzer produces this diagnostic when a factory constructor contains
 an unqualified reference to an instance member. In a generative
 constructor, the instance of the class is created and initialized before
@@ -41,4 +41,4 @@ class C {
   C._(this.x);
 }
 ```
-"""
+'''

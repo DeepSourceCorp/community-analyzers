@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "annotation_on_pointer_field"
-description = """
+description = '''
 The analyzer produces this diagnostic when a field that's declared in a
 subclass of `Struct` and has the type `Pointer` also has an annotation
 associated with it.
@@ -37,4 +37,4 @@ final class C extends Struct {
   external Pointer<Int8> p;
 }
 ```
-"""
+'''

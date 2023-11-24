@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "creation_with_non_type"
-description = """
+description = '''
 The analyzer produces this diagnostic when an instance creation using
 either `new` or `const` specifies a name that isn't defined as a class.
 
@@ -44,4 +44,4 @@ void g() {
   f();
 }
 ```
-"""
+'''

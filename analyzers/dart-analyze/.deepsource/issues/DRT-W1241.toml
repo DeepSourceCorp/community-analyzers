@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "await_in_late_local_variable_initializer"
-description = """
+description = '''
 The analyzer produces this diagnostic when a local variable that has the
 `late` modifier uses an `await` expression in the initializer.
 
@@ -39,4 +39,4 @@ Future<int> f() async {
   return v;
 }
 ```
-"""
+'''

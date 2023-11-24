@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "unnecessary_cast"
-description = """
+description = '''
 The analyzer produces this diagnostic when the value being cast is already
 known to be of the type that it's being cast to.
 
@@ -32,4 +32,4 @@ void f(num n) {
   }
 }
 ```
-"""
+'''

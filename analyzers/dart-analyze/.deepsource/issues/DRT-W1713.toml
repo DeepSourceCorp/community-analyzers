@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "wrong_number_of_type_arguments_enum"
-description = """
+description = '''
 The analyzer produces this diagnostic when an enum constant in an enum
 that has type parameters is instantiated and type arguments are provided,
 but the number of type arguments isn't the same as the number of type
@@ -41,4 +41,4 @@ enum E<T> {
   c<int>()
 }
 ```
-"""
+'''

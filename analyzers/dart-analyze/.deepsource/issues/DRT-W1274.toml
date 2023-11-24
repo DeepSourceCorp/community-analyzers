@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "const_not_initialized"
-description = """
+description = '''
 The analyzer produces this diagnostic when a variable that is declared to
 be a constant doesn't have an initializer.
 
@@ -23,4 +23,4 @@ Add an initializer:
 ```dart
 const c = 'c';
 ```
-"""
+'''

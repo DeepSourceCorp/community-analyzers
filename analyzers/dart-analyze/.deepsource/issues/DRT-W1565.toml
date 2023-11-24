@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "path_not_posix"
-description = """
+description = '''
 The analyzer produces this diagnostic when a dependency has a `path` key
 whose value is a string, but isn't a POSIX-style path.
 
@@ -23,4 +23,4 @@ dependencies:
 #### Common fixes
 
 Convert the path to a POSIX path.
-"""
+'''

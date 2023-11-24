@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "overridden_fields"
-description = """
+description = '''
 **DON'T** override fields.
 
 Overriding fields is almost always done unintentionally.  Regardless, it is a
@@ -55,6 +55,4 @@ class LogPrintHandler implements BaseLoggingHandler {
   Derived transformer; // OK
 }
 ```
-
-
-"""
+'''

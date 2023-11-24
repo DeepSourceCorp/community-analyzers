@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "deprecated_consistency"
-description = """
+description = '''
 **DO** apply `@Deprecated()` consistently:
 
 - if a class is deprecated, its constructors should also be deprecated.
@@ -45,5 +45,4 @@ class C extends B {
   C({@deprecated super.field});
 }
 ```
-
-"""
+'''

@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "wrong_number_of_type_arguments_constructor"
-description = """
+description = '''
 The analyzer produces this diagnostic when type arguments are provided
 after the name of a named constructor. Constructors can't declare type
 parameters, so invocations can only provide the type arguments associated
@@ -45,4 +45,4 @@ class C<T> {
 }
 C f() => C.named();
 ```
-"""
+'''

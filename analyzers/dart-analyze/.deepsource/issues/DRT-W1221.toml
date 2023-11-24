@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "ambiguous_set_or_map_literal_both"
-description = """
+description = '''
 Because map and set literals use the same delimiters (`{` and `}`), the
 analyzer looks at the type arguments and the elements to determine which
 kind of literal you meant. When there are no type arguments, then the
@@ -51,4 +51,4 @@ of the list as keys that map to themselves:
 union(Map<String, String> a, List<String> b, Map<String, String> c) =>
     {...a, for (String s in b) s: s, ...c};
 ```
-"""
+'''

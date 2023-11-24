@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "extension_as_expression"
-description = """
+description = '''
 The analyzer produces this diagnostic when the name of an extension is used
 in an expression other than in an extension override or to qualify an
 access to a static member of the extension. Because classes define a type,
@@ -36,4 +36,4 @@ extension E on int {
 
 var x = E.m();
 ```
-"""
+'''

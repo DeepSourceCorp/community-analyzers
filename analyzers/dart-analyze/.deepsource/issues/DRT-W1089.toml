@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "empty_constructor_bodies"
-description = """
+description = '''
 From [Effective Dart](https://dart.dev/effective-dart/usage#do-use--instead-of--for-empty-constructor-bodies):
 
 **DO** use `;` instead of `{}` for empty constructor bodies.
@@ -28,6 +28,4 @@ class Point {
   Point(this.x, this.y);
 }
 ```
-
-
-"""
+'''

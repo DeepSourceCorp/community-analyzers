@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "unused_label"
-description = """
+description = '''
 The analyzer produces this diagnostic when a label that isn't used is
 found.
 
@@ -45,4 +45,4 @@ void f(int limit) {
   }
 }
 ```
-"""
+'''

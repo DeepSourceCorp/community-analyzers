@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "avoid_bool_literals_in_conditional_expressions"
-description = """
+description = '''
 **AVOID** bool literals in conditional expressions.
 
 **BAD:**
@@ -22,6 +22,4 @@ condition || boolExpression
 !condition || boolExpression
 condition && boolExpression
 ```
-
-
-"""
+'''

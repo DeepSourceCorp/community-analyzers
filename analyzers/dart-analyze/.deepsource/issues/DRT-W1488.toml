@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "mixin_class_declares_constructor"
-description = """
+description = '''
 The analyzer produces this diagnostic when a class is used as a mixin and
 the mixed-in class defines a constructor.
 
@@ -54,4 +54,4 @@ class A {
 
 class B extends A {}
 ```
-"""
+'''

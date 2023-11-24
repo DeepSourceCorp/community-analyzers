@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "ambiguous_set_or_map_literal_either"
-description = """
+description = '''
 Because map and set literals use the same delimiters (`{` and `}`), the
 analyzer looks at the type arguments and the elements to determine which
 kind of literal you meant. When there are no type arguments and all of the
@@ -71,4 +71,4 @@ union(a, b) {
   return x;
 }
 ```
-"""
+'''

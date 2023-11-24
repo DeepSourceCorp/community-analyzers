@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "unnecessary_overrides"
-description = """
+description = '''
 **DON'T** override a method to do a super method invocation with same parameters.
 
 **BAD:**
@@ -37,6 +37,4 @@ It's valid to override a member in the following cases:
 * if the member is not annotated with `@protected`, and the super member is.
 
 `noSuchMethod` is a special method and is not checked by this rule.
-
-
-"""
+'''

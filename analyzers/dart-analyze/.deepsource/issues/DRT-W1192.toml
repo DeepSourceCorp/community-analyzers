@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "unnecessary_this"
-description = """
+description = '''
 From [Effective Dart](https://dart.dev/effective-dart/usage#dont-use-this-when-not-needed-to-avoid-shadowing):
 
 **DON'T** use `this` when not needed to avoid shadowing.
@@ -38,6 +38,4 @@ class Box {
   }
 }
 ```
-
-
-"""
+'''

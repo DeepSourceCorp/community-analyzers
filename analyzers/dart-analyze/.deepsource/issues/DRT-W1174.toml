@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "unnecessary_breaks"
-description = """
+description = '''
 Only use a `break` in a non-empty switch case statement if you need to break
 before the end of the case body.  Dart does not support fallthrough execution
 for non-empty cases, so `break`s at the end of non-empty switch case statements
@@ -52,5 +52,4 @@ switch (1) {
 NOTE: This lint only reports unnecessary breaks in libraries with a
 [language version](https://dart.dev/guides/language/evolution#language-versioning)
 of 3.0 or greater. Explicit breaks are still required in Dart 2.19 and below.
-
-"""
+'''

@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "missing_override_of_must_be_overridden"
-description = """
+description = '''
 The analyzer produces this diagnostic when an instance member that has the
 `@mustBeOverridden` annotation isn't overridden in a subclass.
 
@@ -54,4 +54,4 @@ class A {
 
 class B extends A {}
 ```
-"""
+'''

@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "invalid_return_type_for_catch_error"
-description = """
+description = '''
 The analyzer produces this diagnostic when an invocation of
 `Future.catchError` has an argument whose return type isn't compatible with
 the type returned by the instance of `Future`. At runtime, the method
@@ -52,4 +52,4 @@ void f(Future<String> future, String Function(dynamic, StackTrace) callback) {
   future.catchError(callback);
 }
 ```
-"""
+'''

@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "creation_of_struct_or_union"
-description = """
+description = '''
 The analyzer produces this diagnostic when a subclass of either `Struct`
 or `Union` is instantiated using a generative constructor.
 
@@ -49,4 +49,4 @@ void f() {
   calloc.free(pointer);
 }
 ```
-"""
+'''

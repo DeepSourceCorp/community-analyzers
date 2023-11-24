@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "deprecated_field"
-description = """
+description = '''
 The analyzer produces this diagnostic when a key is used in a
 `pubspec.yaml` file that was deprecated. Unused keys take up space and
 might imply semantics that are no longer valid.
@@ -26,4 +26,4 @@ Remove the deprecated key:
 ```dart
 name: example
 ```
-"""
+'''

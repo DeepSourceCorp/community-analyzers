@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "avoid_returning_this"
-description = """
+description = '''
 **AVOID** returning this from methods just to enable a fluent interface.
 
 Returning `this` from a method is redundant; Dart has a cascade operator which
@@ -32,6 +32,4 @@ var buffer = StringBuffer()
   ..write('two')
   ..write('three');
 ```
-
-
-"""
+'''

@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "unnecessary_late"
-description = """
+description = '''
 **DO** not specify the `late` modifier for top-level and static variables
 when the declaration contains an initializer. 
 
@@ -34,5 +34,4 @@ class GoodExample {
   late String goodStatic;
 }
 ```
-
-"""
+'''

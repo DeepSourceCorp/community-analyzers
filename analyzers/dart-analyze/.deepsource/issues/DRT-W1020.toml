@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "literal_only_boolean_expressions"
-description = """
+description = '''
 **DON'T** test for conditions composed only by literals, since the value can be
 inferred at compile time.
 
@@ -83,5 +83,4 @@ void good() {
   }
 }
 ```
-
-"""
+'''

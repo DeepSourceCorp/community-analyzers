@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "positional_field_in_object_pattern"
-description = """
+description = '''
 The analyzer produces this diagnostic when an object pattern contains a
 field without specifying the getter name. Object pattern fields match
 against values that the object's getters return. Without a getter name
@@ -32,4 +32,4 @@ void f(Object o) {
   if (o case String(length: 1)) {}
 }
 ```
-"""
+'''

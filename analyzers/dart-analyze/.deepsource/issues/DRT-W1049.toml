@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "avoid_classes_with_only_static_members"
-description = """
+description = '''
 From [Effective Dart](https://dart.dev/effective-dart/design#avoid-defining-a-class-that-contains-only-static-members):
 
 **AVOID** defining a class that contains only static members.
@@ -34,6 +34,4 @@ DateTime mostRecent(List<DateTime> dates) {
 
 const _favoriteMammal = 'weasel';
 ```
-
-
-"""
+'''

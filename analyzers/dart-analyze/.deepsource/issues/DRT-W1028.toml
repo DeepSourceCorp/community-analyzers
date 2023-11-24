@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "test_types_in_equals"
-description = """
+description = '''
 **DO** test type arguments in operator ==(Object other).
 
 Not testing types might result in null pointer exceptions which will be
@@ -59,6 +59,4 @@ class Good {
   }
 }
 ```
-
-
-"""
+'''

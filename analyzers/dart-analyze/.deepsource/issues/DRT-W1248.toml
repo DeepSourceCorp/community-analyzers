@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "case_block_not_terminated"
-description = """
+description = '''
 The analyzer produces this diagnostic when the last statement in a `case`
 block isn't one of the required terminators: `break`, `continue`,
 `rethrow`, `return`, or `throw`.
@@ -40,4 +40,4 @@ void f(int x) {
   }
 }
 ```
-"""
+'''

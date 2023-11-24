@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "eol_at_end_of_file"
-description = """
+description = '''
 **DO** put a single newline at the end of non-empty files.
 
 **BAD:**
@@ -19,5 +19,4 @@ b {
 }
     <-- newline
 ```
-
-"""
+'''

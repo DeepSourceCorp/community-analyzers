@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "prefer_final_parameters"
-description = """
+description = '''
 **DO** prefer declaring parameters as final if they are not reassigned in
 the function body.
 
@@ -53,6 +53,4 @@ void mutableParameter(String label) { // OK
   print(label);
 }
 ```
-
-
-"""
+'''

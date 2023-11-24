@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "expected_one_list_pattern_type_arguments"
-description = """
+description = '''
 The analyzer produces this diagnostic when a list pattern has more than
 one type argument. List patterns can have either zero type arguments or
 one type argument, but can't have more than one.
@@ -29,4 +29,4 @@ void f(Object x) {
   if (x case <int>[0]) {}
 }
 ```
-"""
+'''

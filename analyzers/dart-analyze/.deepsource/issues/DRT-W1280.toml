@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "const_with_type_parameters"
-description = """
+description = '''
 The analyzer produces this diagnostic when a type parameter is used as a
 type argument in a `const` invocation of a constructor. This isn't allowed
 because the value of the type parameter (the actual type that will be used
@@ -46,4 +46,4 @@ class C<T> {
 
 C<T> newC<T>() => C<T>();
 ```
-"""
+'''

@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "no_adjacent_strings_in_list"
-description = """
+description = '''
 **DON'T** use adjacent strings in a list.
 
 This can indicate a forgotten comma.
@@ -26,6 +26,4 @@ List<String> list = <String>[
   'c',
 ];
 ```
-
-
-"""
+'''

@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "const_initialized_with_non_constant_value"
-description = """
+description = '''
 The analyzer produces this diagnostic when a value that isn't statically
 known to be a constant is assigned to a variable that's declared to be a
 `const` variable.
@@ -36,4 +36,4 @@ modifier from the variable, possibly using `final` in its place:
 var x = 0;
 final y = x;
 ```
-"""
+'''

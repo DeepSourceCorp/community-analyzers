@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "label_in_outer_scope"
-description = """
+description = '''
 The analyzer produces this diagnostic when a `break` or `continue`
 statement references a label that is declared in a method or function
 containing the function in which the `break` or `continue` statement
@@ -61,4 +61,4 @@ void f() {
   }
 }
 ```
-"""
+'''

@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "sdk_version_extension_methods"
-description = """
+description = '''
 The analyzer produces this diagnostic when an extension declaration or an
 extension override is found in code that has an SDK constraint whose lower
 bound is less than 2.6.0. Using extensions wasn't supported in earlier
@@ -52,4 +52,4 @@ void sayHello(String s) {
   print('Hello $s');
 }
 ```
-"""
+'''

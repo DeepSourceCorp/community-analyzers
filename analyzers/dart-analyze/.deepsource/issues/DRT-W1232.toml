@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "assignment_of_do_not_store"
-description = """
+description = '''
 The analyzer produces this diagnostic when the value of a function
 (including methods and getters) that is explicitly or implicitly marked by
 the [`doNotStore`][meta-doNotStore] annotation is stored in either a field
@@ -28,4 +28,4 @@ var x = f();
 
 Replace references to the field or variable with invocations of the
 function producing the value.
-"""
+'''

@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "mixin_inherits_from_not_object"
-description = """
+description = '''
 The analyzer produces this diagnostic when a class that extends a class
 other than `Object` is used as a mixin.
 
@@ -59,4 +59,4 @@ class B extends A with M {}
 
 class C extends A with M {}
 ```
-"""
+'''

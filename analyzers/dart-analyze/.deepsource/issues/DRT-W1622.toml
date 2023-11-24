@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "static_access_to_instance_member"
-description = """
+description = '''
 The analyzer produces this diagnostic when a class name is used to access
 an instance field. Instance fields don't exist on a class; they exist only
 on an instance of the class.
@@ -51,4 +51,4 @@ class C {
 
 int f(C c) => c.b;
 ```
-"""
+'''

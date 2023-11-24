@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "prefer_iterable_whereType"
-description = """
+description = '''
 **PREFER** `iterable.whereType<T>()` over `iterable.where((e) => e is T)`.
 
 **BAD:**
@@ -16,6 +16,4 @@ iterable.where((e) => e is MyClass);
 ```dart
 iterable.whereType<MyClass>();
 ```
-
-
-"""
+'''

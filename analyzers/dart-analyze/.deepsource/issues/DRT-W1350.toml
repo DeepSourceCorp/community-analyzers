@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "extension_override_argument_not_assignable"
-description = """
+description = '''
 The analyzer produces this diagnostic when the argument to an extension
 override isn't assignable to the type being extended by the extension.
 
@@ -40,4 +40,4 @@ void f() {
 If there's a different extension that's valid for the type of the argument,
 then either replace the name of the extension or unwrap the argument so
 that the correct extension is found.
-"""
+'''

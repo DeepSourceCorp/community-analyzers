@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "invalid_override_of_non_virtual_member"
-description = """
+description = '''
 The analyzer produces this diagnostic when a member of a class, mixin, or
 enum overrides a member that has the `@nonVirtual` annotation on it.
 
@@ -58,4 +58,4 @@ class B extends A {
   void m() {}
 }
 ```
-"""
+'''

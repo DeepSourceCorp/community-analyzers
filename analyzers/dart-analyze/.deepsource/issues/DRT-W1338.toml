@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "export_internal_library"
-description = """
+description = '''
 The analyzer produces this diagnostic when it finds an export whose `dart:`
 URI references an internal library.
 
@@ -20,4 +20,4 @@ export 'dart:_interceptors';
 #### Common fixes
 
 Remove the export directive.
-"""
+'''

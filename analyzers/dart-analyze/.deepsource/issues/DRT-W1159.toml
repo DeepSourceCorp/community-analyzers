@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "recursive_getters"
-description = """
+description = '''
 **DON'T** create recursive getters.
 
 Recursive getters are getters which return themselves as a value.  This is
@@ -26,6 +26,4 @@ int get otherField {
 ```dart
 int get field => _field;
 ```
-
-
-"""
+'''

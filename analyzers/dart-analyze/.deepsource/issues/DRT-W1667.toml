@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "undefined_identifier_await"
-description = """
+description = '''
 The analyzer produces this diagnostic when the name `await` is used in a
 method or function body without being declared, and the body isn't marked
 with the `async` keyword. The name `await` only introduces an await
@@ -27,4 +27,4 @@ Add the keyword `async` to the function body:
 ```dart
 void f(p) async { await p; }
 ```
-"""
+'''

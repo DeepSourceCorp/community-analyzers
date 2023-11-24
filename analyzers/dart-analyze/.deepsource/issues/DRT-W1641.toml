@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "text_direction_code_point_in_comment"
-description = """
+description = '''
 The analyzer produces this diagnostic when it encounters source that
 contains text direction Unicode code points. These code points cause
 source code in either a string literal or a comment to be interpreted
@@ -35,4 +35,4 @@ then remove them:
 ```dart
 var label = 'Interactive text';
 ```
-"""
+'''

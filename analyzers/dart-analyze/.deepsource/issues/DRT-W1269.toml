@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "const_deferred_class"
-description = """
+description = '''
 The analyzer produces this diagnostic when a class from a library that is
 imported using a deferred import is used to create a `const` object.
 Constants are evaluated at compile time, and classes from deferred
@@ -43,4 +43,4 @@ import 'dart:convert' as convert;
 
 const json2 = convert.JsonCodec();
 ```
-"""
+'''

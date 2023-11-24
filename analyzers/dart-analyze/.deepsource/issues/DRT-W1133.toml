@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "prefer_final_fields"
-description = """
+description = '''
 **DO** prefer declaring private fields as final if they are not reassigned later
 in the library.
 
@@ -71,5 +71,4 @@ class NotAssignedInAllConstructors {
   NotAssignedInAllConstructors.withDefault() : _label = 'Hello';
 }
 ```
-
-"""
+'''

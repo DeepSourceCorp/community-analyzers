@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "expected_two_map_pattern_type_arguments"
-description = """
+description = '''
 The analyzer produces this diagnostic when a map pattern has either one
 type argument or more than two type arguments. Map patterns can have
 either two type arguments or zero type arguments, but can't have any other
@@ -30,4 +30,4 @@ void f(Object x) {
   if (x case <int, int>{0: _}) {}
 }
 ```
-"""
+'''

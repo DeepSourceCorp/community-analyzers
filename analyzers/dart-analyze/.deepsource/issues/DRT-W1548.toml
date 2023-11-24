@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "nullable_type_in_catch_clause"
-description = """
+description = '''
 The analyzer produces this diagnostic when the type following `on` in a
 `catch` clause is a nullable type. It isn't valid to specify a nullable
 type because it isn't possible to catch `null` (because it's a runtime
@@ -36,4 +36,4 @@ void f() {
   }
 }
 ```
-"""
+'''

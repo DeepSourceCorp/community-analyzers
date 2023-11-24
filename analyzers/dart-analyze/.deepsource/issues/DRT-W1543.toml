@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "not_iterable_spread"
-description = """
+description = '''
 The analyzer produces this diagnostic when the static type of the
 expression of a spread element that appears in either a list literal or a
 set literal doesn't implement the type `Iterable`.
@@ -27,4 +27,4 @@ iterable object:
 var m = <String, int>{'a': 0, 'b': 1};
 var s = <String>{...m.keys};
 ```
-"""
+'''

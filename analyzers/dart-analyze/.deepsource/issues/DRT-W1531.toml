@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "non_sized_type_argument"
-description = """
+description = '''
 The analyzer produces this diagnostic when the type argument for the class
 `Array` isn't one of the valid types: either a native integer, `Float`,
 `Double`, `Pointer`, or subtype of `Struct`, `Union`, or
@@ -38,4 +38,4 @@ final class C extends Struct {
   external Array<Uint8> a0;
 }
 ```
-"""
+'''

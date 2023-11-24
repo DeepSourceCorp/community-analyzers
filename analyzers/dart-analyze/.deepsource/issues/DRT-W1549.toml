@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "nullable_type_in_extends_clause"
-description = """
+description = '''
 The analyzer produces this diagnostic when a class declaration uses an
 `extends` clause to specify a superclass, and the superclass is followed by
 a `?`.
@@ -34,4 +34,4 @@ Remove the question mark from the type:
 class A {}
 class B extends A {}
 ```
-"""
+'''

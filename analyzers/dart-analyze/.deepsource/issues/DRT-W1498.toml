@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "must_be_a_subtype"
-description = """
+description = '''
 The analyzer produces this diagnostic in two cases:
 - In an invocation of `Pointer.fromFunction`, or a
   `NativeCallable` constructor where the type argument
@@ -62,4 +62,4 @@ void g() {
   Pointer.fromFunction<T>(f, 5);
 }
 ```
-"""
+'''

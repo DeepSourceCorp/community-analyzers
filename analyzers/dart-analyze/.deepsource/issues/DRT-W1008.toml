@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "avoid_types_as_parameter_names"
-description = """
+description = '''
 **AVOID** using a parameter name that is the same as an existing type.
 
 **BAD:**
@@ -16,6 +16,4 @@ m(f(int));
 ```dart
 m(f(int v));
 ```
-
-
-"""
+'''

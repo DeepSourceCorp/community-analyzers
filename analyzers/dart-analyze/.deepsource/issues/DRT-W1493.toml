@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "mixin_super_class_constraint_deferred_class"
-description = """
+description = '''
 The analyzer produces this diagnostic when a superclass constraint of a
 mixin is imported from a deferred library.
 
@@ -36,4 +36,4 @@ constraint:
 ```dart
 mixin M<T> {}
 ```
-"""
+'''

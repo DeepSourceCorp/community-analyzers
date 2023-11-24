@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "directives_ordering"
-description = """
+description = '''
 **DO** follow the directive ordering conventions in
 [Effective Dart](https://dart.dev/effective-dart/style#ordering):
 
@@ -102,5 +102,4 @@ import 'package:foo/bar.dart'; // OK
 import 'a.dart'; // OK
 import 'a/b.dart'; // OK
 ```
-
-"""
+'''

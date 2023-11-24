@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "implicit_call_tearoffs"
-description = """
+description = '''
 **DO**
 Explicitly tear off `.call` methods from objects when assigning to a Function
 type. There is less magic with an explicit tear off. Future language versions
@@ -33,6 +33,4 @@ void callIt(void Function() f) {
 
 callIt(Callable().call);
 ```
-
-
-"""
+'''

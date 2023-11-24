@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "missing_return"
-description = """
+description = '''
 Any function or method that doesn't end with either an explicit return or a
 throw implicitly returns `null`. This is rarely the desired behavior. The
 analyzer produces this diagnostic when it finds an implicit return.
@@ -26,4 +26,4 @@ int f(int x) {
 
 Add a `return` statement that makes the return value explicit, even if
 `null` is the appropriate value.
-"""
+'''

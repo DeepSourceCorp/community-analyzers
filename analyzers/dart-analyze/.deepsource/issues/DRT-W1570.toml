@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "pattern_variable_assignment_inside_guard"
-description = """
+description = '''
 The analyzer produces this diagnostic when a pattern variable is assigned
 a value inside a guard (`when`) clause.
 
@@ -44,4 +44,4 @@ void f(int x) {
   }
 }
 ```
-"""
+'''

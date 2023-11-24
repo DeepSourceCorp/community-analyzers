@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "type_annotate_public_apis"
-description = """
+description = '''
 From [Effective Dart](https://dart.dev/effective-dart/design#do-type-annotate-fields-and-top-level-variables-if-the-type-isnt-obvious):
 
 **PREFER** type annotating public APIs.
@@ -38,6 +38,4 @@ Future<bool> install(PackageId id, String destination) {
 ```
 
 With types, all of this is clarified.
-
-
-"""
+'''

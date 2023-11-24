@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "non_generative_implicit_constructor"
-description = """
+description = '''
 The analyzer produces this diagnostic when a class has an implicit
 generative constructor and the superclass has an explicit unnamed factory
 constructor. The implicit constructor in the subclass implicitly invokes
@@ -67,4 +67,4 @@ class A {
 
 class B implements A {}
 ```
-"""
+'''

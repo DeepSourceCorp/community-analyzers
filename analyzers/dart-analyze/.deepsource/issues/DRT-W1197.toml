@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "use_enums"
-description = """
+description = '''
 Classes that look like enumerations should be declared as `enum`s.
 
 **DO** use enums where appropriate.
@@ -50,5 +50,4 @@ enum LogPriority {
   const LogPriority.unknown(String prefix) : this(-1, prefix);
 }
 ```
-
-"""
+'''

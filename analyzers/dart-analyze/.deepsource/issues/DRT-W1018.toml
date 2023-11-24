@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "empty_statements"
-description = """
+description = '''
 **AVOID** empty statements.
 
 Empty statements almost always indicate a bug.
@@ -32,6 +32,4 @@ Better to avoid the empty statement altogether.
 if (complicated.expression.foo())
   bar();
 ```
-
-
-"""
+'''

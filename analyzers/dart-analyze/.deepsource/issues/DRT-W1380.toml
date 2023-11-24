@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "illegal_async_return_type"
-description = """
+description = '''
 The analyzer produces this diagnostic when the body of a function has the
 `async` modifier even though the return type of the function isn't
 assignable to `Future`.
@@ -37,4 +37,4 @@ If the function should be synchronous, then remove the `async` modifier:
 ```dart
 int f() => 0;
 ```
-"""
+'''

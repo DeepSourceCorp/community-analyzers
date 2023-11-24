@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "file_names"
-description = """
+description = '''
 **DO** name source files using `lowercase_with_underscores`.
 
 Some file systems are not case-sensitive, so many projects require filenames to
@@ -33,6 +33,4 @@ Files without a strict `.dart` extension are ignored.  For example:
 
 The lint `library_names` can be used to enforce the same kind of naming on the
 library.
-
-
-"""
+'''

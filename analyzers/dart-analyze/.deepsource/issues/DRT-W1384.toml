@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "implements_non_class"
-description = """
+description = '''
 The analyzer produces this diagnostic when a name used in the `implements`
 clause of a class or mixin declaration is defined to be something other
 than a class or mixin.
@@ -32,4 +32,4 @@ declared.
 Otherwise, either replace the name in the `implements` clause with the name
 of an existing class or mixin, or remove the name from the `implements`
 clause.
-"""
+'''

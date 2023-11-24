@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "unnecessary_set_literal"
-description = """
+description = '''
 The analyzer produces this diagnostic when a function that has a return
 type of `void`, `Future<void>`, or `FutureOr<void>` uses an expression
 function body (`=>`) and the returned value is a literal set containing a
@@ -39,4 +39,4 @@ void f() {
 
 void g(void Function() p) {}
 ```
-"""
+'''

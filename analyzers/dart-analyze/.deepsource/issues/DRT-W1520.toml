@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "non_constant_set_element"
-description = """
+description = '''
 The analyzer produces this diagnostic when a constant set literal contains
 an element that isn't a compile-time constant.
 
@@ -35,4 +35,4 @@ var i = 0;
 
 var s = {i};
 ```
-"""
+'''

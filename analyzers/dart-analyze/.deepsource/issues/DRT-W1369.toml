@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "bug-risk"
 verbose_name = "final_initialized_in_declaration_and_constructor"
-description = """
+description = '''
 The analyzer produces this diagnostic when a final field is initialized
 twice: once where it's declared and once by a constructor's parameter.
 
@@ -44,4 +44,4 @@ class C {
   C(this.f);
 }
 ```
-"""
+'''

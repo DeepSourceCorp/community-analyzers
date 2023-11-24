@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "use_string_in_part_of_directives"
-description = """
+description = '''
 From [Effective Dart](https://dart.dev/effective-dart/usage#do-use-strings-in-part-of-directives):
 
 **DO** use strings in `part of` directives.
@@ -20,6 +20,4 @@ part of my_library;
 ```dart
 part of '../../my_library.dart';
 ```
-
-
-"""
+'''
