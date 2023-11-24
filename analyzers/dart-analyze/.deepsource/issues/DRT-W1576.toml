@@ -1,5 +1,5 @@
 
-title = "The prefix '{0}' can't be used here because it's shadowed by a local declaration"
+title = "Prefix shadowed by a local declaration"
 weight = 70
 severity = "major"
 category = "bug-risk"

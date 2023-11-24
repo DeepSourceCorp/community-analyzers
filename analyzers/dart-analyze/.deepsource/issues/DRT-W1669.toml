@@ -1,5 +1,4 @@
-
-title = "The named parameter '{0}' isn't defined"
+title = "Undefined named parameter in method or function invocation"
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -67,4 +66,5 @@ void f(C c) {
   c.m(a: 1);
 }
 ```
+
 '''

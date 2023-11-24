@@ -1,5 +1,4 @@
-
-title = "The body might complete normally, causing 'null' to be returned, but the return type, '{0}', is a potentially non-nullable type"
+title = "Potential implicit return of `null` in method with non-nullable return type"
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -74,4 +73,5 @@ class C<T> {
   }
 }
 ```
+
 '''

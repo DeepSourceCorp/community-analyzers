@@ -1,5 +1,4 @@
-
-title = "'{0}' must have a method body because '{1}' isn't abstract"
+title = "Missing method body in non-abstract class"
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -39,4 +38,5 @@ abstract class C {
   void m();
 }
 ```
+
 '''

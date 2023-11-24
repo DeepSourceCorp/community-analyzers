@@ -1,5 +1,4 @@
-
-title = "'{0}' can only be implemented once"
+title = "Duplicate class in 'implements' clause"
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -26,4 +25,5 @@ Remove all except one occurrence of the class name:
 class A {}
 class B implements A {}
 ```
+
 '''

@@ -1,5 +1,4 @@
-
-title = "Invalid mapping to '{0}'; only mappings to 'Int8', 'Int16', 'Int32', 'Int64', 'Uint8', 'Uint16', 'UInt32', and 'Uint64' are supported"
+title = "Invalid mapping type in `AbiSpecificIntegerMapping` annotation"
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -43,4 +42,5 @@ final class C extends AbiSpecificInteger {
   const C();
 }
 ```
+
 '''

@@ -1,5 +1,5 @@
 
-title = "'{0}' isn't a function"
+title = "Invocation of a non-function"
 weight = 70
 severity = "major"
 category = "bug-risk"

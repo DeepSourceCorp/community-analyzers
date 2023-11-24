@@ -1,5 +1,4 @@
-
-title = "The variable '{0}' doesn't have the same type and/or finality in all cases that share this body.  The variable '{0}' is available in some, but not all cases that share this body.  The variable '{0}' is not available because there is a label or 'default' case"
+title = "Inconsistent variable declaration in switch statement cases"
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -148,4 +147,5 @@ void f(Object? x) {
   }
 }
 ```
+
 '''

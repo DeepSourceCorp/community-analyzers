@@ -1,5 +1,4 @@
-
-title = "Target of URI doesn't exist: '{0}'"
+title = "Invalid file reference"
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -22,4 +21,5 @@ import 'lib.dart';
 If the URI was mistyped or invalid, then correct the URI.
 
 If the URI is correct, then create the file.
+
 '''

@@ -1,5 +1,4 @@
-
-title = "The method '{0}' isn't defined for the '{1}' function type.  The method '{0}' isn't defined for the type '{1}'"
+title = "Undefined or inaccessible method"
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -27,4 +26,5 @@ fixing the spelling of the method:
 ```dart
 int f(List<int> l) => l.removeLast();
 ```
+
 '''

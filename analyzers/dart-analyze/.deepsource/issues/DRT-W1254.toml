@@ -1,5 +1,5 @@
 
-title = "The class '{0}' can't be used as a mixin because it's neither a mixin class nor a mixin"
+title = "Invalid usage of non-mixin class as a mixin"
 weight = 70
 severity = "major"
 category = "bug-risk"

@@ -1,5 +1,4 @@
-
-title = "The name '{0}' isn't defined, so it can't be used in an 'is' expression"
+title = "Undefined name in type test expression"
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -32,4 +31,5 @@ void f(Object o) {
   }
 }
 ```
+
 '''

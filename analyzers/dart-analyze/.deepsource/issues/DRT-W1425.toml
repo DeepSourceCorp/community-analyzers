@@ -1,5 +1,4 @@
-
-title = "The Dart language version override comment can't be followed by any non-whitespace characters.  The Dart language version override comment must be specified with a version number, like '2.0', after the '=' character.  The Dart language version override comment must be specified with an '=' character.  The Dart language version override comment must be specified with exactly two slashes.  The Dart language version override comment must be specified with the word 'dart' in all lower case.  The Dart language version override number can't be prefixed with a letter.  The Dart language version override number must begin with '@dart'.  The language version override can't specify a version greater than the latest known language version: {0}.{1}.  The language version override must be specified before any declaration or directive"
+title = "Invalid Dart language version override comment format"
 weight = 70
 severity = "major"
 category = "bug-risk"

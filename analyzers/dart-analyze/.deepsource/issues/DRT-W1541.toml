@@ -1,5 +1,4 @@
-
-title = "Non-nullable instance field '{0}' must be initialized"
+title = "Uninitialized non-nullable instance field"
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -70,4 +69,5 @@ class C {
   late int x;
 }
 ```
+
 '''

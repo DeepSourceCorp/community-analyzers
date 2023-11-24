@@ -1,5 +1,4 @@
-
-title = "The parameter type '{0}' is incompatible with the field type '{1}'"
+title = "Incompatible types for field and initializing formal parameter"
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -60,4 +59,5 @@ class C {
   C(String s) : f = int.parse(s);
 }
 ```
+
 '''

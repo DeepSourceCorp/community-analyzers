@@ -1,5 +1,4 @@
-
-title = "'{0}' is deprecated and shouldn't be used.  '{0}' is deprecated and shouldn't be used. {1}"
+title = "Deprecated member used in the same package"
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -23,4 +22,5 @@ var y = x;
 The fix depends on what's been deprecated and what the replacement is. The
 documentation for deprecated declarations should indicate what code to use
 in place of the deprecated code.
+
 '''

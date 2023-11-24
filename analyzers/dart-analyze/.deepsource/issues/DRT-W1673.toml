@@ -1,5 +1,5 @@
 
-title = "The setter '{0}' isn't defined for the '{1}' function type.  The setter '{0}' isn't defined for the type '{1}'"
+title = "Undefined setter"
 weight = 70
 severity = "major"
 category = "bug-risk"

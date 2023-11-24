@@ -1,5 +1,4 @@
-
-title = "The field name '{0}' is already used in this record"
+title = "Duplicate field name in record literal or type annotation"
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -33,4 +32,5 @@ Rename one or both of the fields:
 ```dart
 var r = (a: 1, b: 2);
 ```
+
 '''

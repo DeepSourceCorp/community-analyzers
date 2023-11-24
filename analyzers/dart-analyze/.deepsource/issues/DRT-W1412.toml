@@ -1,5 +1,4 @@
-
-title = "Publishable packages can't have '{0}' dependencies"
+title = "Unsupported package dependency"
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -46,4 +45,5 @@ dependencies:
       url: http://your-package-server.com
     version: ^1.4.0
 ```
+
 '''

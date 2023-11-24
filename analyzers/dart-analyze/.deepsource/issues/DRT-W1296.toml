@@ -1,5 +1,4 @@
-
-title = "The ability to import '{0}' indirectly is deprecated"
+title = "Avoid importing deprecated names from libraries"
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -51,4 +50,5 @@ A? a;
 
 If the name isn't available, then look for instructions from the library
 author or contact them directly to find out how to update your code.
+
 '''

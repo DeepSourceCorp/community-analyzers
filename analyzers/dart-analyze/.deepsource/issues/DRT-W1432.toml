@@ -1,5 +1,4 @@
-
-title = "The member '{0}' is declared non-virtual in '{1}' and can't be overridden in subclasses"
+title = "Invalid override of member with '@nonVirtual' annotation"
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -58,4 +57,5 @@ class B extends A {
   void m() {}
 }
 ```
+
 '''

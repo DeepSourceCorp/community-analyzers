@@ -1,5 +1,4 @@
-
-title = "This 'onError' handler must return a value assignable to '{0}', but ends without returning a value"
+title = "Invalid return type for `onError` handler"
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -43,4 +42,5 @@ void g(Future<void> f) {
   f.catchError((e, st) {});
 }
 ```
+
 '''

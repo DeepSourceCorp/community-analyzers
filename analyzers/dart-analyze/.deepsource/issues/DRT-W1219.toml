@@ -1,5 +1,4 @@
-
-title = "A member named '{0}' is defined in {1}, and none are more specific"
+title = "Ambiguous member reference"
 weight = 70
 severity = "major"
 category = "bug-risk"

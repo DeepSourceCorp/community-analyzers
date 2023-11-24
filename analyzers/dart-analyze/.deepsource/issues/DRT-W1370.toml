@@ -1,5 +1,5 @@
 
-title = "The final variable '{0}' must be initialized"
+title = "Final variable must be initialized"
 weight = 70
 severity = "major"
 category = "bug-risk"

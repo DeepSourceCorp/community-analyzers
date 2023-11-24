@@ -1,5 +1,4 @@
-
-title = "The instance member '{0}' can't be accessed in an initializer"
+title = "Invalid reference to instance member in constructor"
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -49,4 +48,5 @@ class C {
   int get defaultX => 0;
 }
 ```
+
 '''

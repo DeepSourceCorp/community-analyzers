@@ -1,5 +1,5 @@
 
-title = "The matched value type '{0}' can never be equal to this constant of type '{1}'"
+title = "Mismatch between constant pattern and value type"
 weight = 70
 severity = "major"
 category = "bug-risk"

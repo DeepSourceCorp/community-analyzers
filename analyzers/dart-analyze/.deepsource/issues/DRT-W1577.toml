@@ -1,5 +1,4 @@
-
-title = "The private name '{0}', defined by '{1}', conflicts with the same name defined by '{2}'"
+title = "Conflicting private member names in mixins"
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -45,4 +44,5 @@ class C extends Object with A, B {}
 
 If you need both of the mixins, then rename the conflicting member in one
 of the two mixins.
+
 '''

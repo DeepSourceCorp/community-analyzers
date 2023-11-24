@@ -1,5 +1,5 @@
 
-title = "The library '{0}' doesn't export a member with the hidden name '{1}'"
+title = "Invalid name in hide combinator for imported library"
 weight = 70
 severity = "major"
 category = "bug-risk"

@@ -1,5 +1,4 @@
-
-title = "1 positional argument expected by '{0}', but 0 found.  1 positional argument expected, but 0 found.  {0} positional arguments expected by '{2}', but {1} found.  {0} positional arguments expected, but {1} found"
+title = "Missing positional arguments in function invocation"
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -31,4 +30,5 @@ void g() {
   f(0, 1);
 }
 ```
+
 '''

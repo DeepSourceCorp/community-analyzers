@@ -1,5 +1,5 @@
 
-title = "The type of the argument to the extension override '{0}' isn't assignable to the extended type '{1}'"
+title = "Extension override argument is not assignable"
 weight = 70
 severity = "major"
 category = "bug-risk"

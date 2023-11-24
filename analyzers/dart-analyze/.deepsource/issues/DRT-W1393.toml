@@ -1,5 +1,4 @@
-
-title = "Superinterfaces don't have a valid override for '{0}': {1}"
+title = "Conflicting method signatures in inherited classes"
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -46,4 +45,5 @@ class C extends A implements B {
   void m({int a, int b}) {}
 }
 ```
+
 '''

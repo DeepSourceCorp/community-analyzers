@@ -1,5 +1,4 @@
-
-title = "The type of '{0}' can't be inferred because it depends on itself through the cycle: {1}"
+title = "Self-referencing variables with no type annotation"
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -42,4 +41,5 @@ Note, however, that while this code doesn't produce any diagnostics, it
 will produce a stack overflow at runtime unless at least one of the
 variables is assigned a value that doesn't depend on the other variables
 before any of the variables in the cycle are referenced.
+
 '''

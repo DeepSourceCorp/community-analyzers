@@ -1,5 +1,4 @@
-
-title = "The imported library '{0}' can't have a part-of directive"
+title = "Avoid importing part files directly"
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -29,4 +28,5 @@ import 'part.dart';
 
 Import the library that contains the [part file][] rather than the
 [part file][] itself.
+
 '''

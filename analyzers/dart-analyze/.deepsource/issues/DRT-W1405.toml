@@ -1,5 +1,5 @@
 
-title = "The integer literal is being used as a double, but can't be represented as a 64-bit double without overflow or loss of precision: '{0}'"
+title = "Integer literal imprecise as a double"
 weight = 70
 severity = "major"
 category = "bug-risk"

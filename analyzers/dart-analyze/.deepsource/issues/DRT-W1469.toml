@@ -1,5 +1,5 @@
 
-title = "Fields of type '{0}' in a subclass of '{1}' must have an annotation indicating the native type"
+title = "Missing annotation for fields in subclasses of `Struct` or `Union`"
 weight = 70
 severity = "major"
 category = "bug-risk"

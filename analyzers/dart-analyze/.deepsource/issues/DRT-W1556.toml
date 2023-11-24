@@ -1,5 +1,4 @@
-
-title = "The type '{0}' can be included in the superclass constraints only once"
+title = "Duplicate superclass constraint in mixin"
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -43,4 +42,5 @@ mixin M on A {
 class A {}
 class B {}
 ```
+
 '''

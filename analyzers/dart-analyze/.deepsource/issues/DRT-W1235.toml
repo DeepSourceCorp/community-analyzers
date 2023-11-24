@@ -1,5 +1,4 @@
-
-title = "The final variable '{0}' can only be set once"
+title = "Final variable cannot be reassigned"
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -33,4 +32,5 @@ void f() {
   print(x);
 }
 ```
+
 '''

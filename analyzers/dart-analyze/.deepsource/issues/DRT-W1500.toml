@@ -1,5 +1,4 @@
-
-title = "This method overrides a method annotated as '@mustCallSuper' in '{0}', but doesn't invoke the overridden method"
+title = "Missing invocation of overridden method"
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -47,4 +46,5 @@ class B extends A {
   }
 }
 ```
+
 '''

@@ -1,5 +1,4 @@
-
-title = "The class doesn't have a concrete implementation of the super-invoked member '{0}'.  The class doesn't have a concrete implementation of the super-invoked setter '{0}'"
+title = "Missing concrete implementation of super-invoked member"
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -70,4 +69,5 @@ mixin M on A {
 
 abstract class B extends A with M {}
 ```
+
 '''

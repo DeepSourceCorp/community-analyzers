@@ -1,5 +1,4 @@
-
-title = "A yielded value of type '{0}' must be assignable to '{1}'.  The type '{0}' implied by the 'yield*' expression must be assignable to '{1}'"
+title = "Mismatch between yielded value type and return type"
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -42,4 +41,5 @@ Iterable<String> get zero sync* {
   yield '0';
 }
 ```
+
 '''

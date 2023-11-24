@@ -1,5 +1,5 @@
 
-title = "The return type of the function passed to 'NativeCallable.listener' must be 'void' rather than '{0}'"
+title = "Function passed to 'NativeCallable.listener' must return 'void'"
 weight = 70
 severity = "major"
 category = "bug-risk"

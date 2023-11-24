@@ -1,5 +1,4 @@
-
-title = "The non-nullable local variable '{0}' must be assigned before it can be used"
+title = "Non-nullable local variable must be assigned before use"
 weight = 70
 severity = "major"
 category = "bug-risk"

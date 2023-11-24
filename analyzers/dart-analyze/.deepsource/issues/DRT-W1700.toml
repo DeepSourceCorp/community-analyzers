@@ -1,5 +1,4 @@
-
-title = "The name {0} is shown, but isn't used"
+title = "Unused name in show combinator"
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -29,4 +28,5 @@ import 'dart:math' show min;
 
 var x = min(0, 1);
 ```
+
 '''

@@ -1,5 +1,5 @@
 
-title = "'{0}' can't be used to name both a type variable and a member in this class.  '{0}' can't be used to name both a type variable and a member in this enum.  '{0}' can't be used to name both a type variable and a member in this extension.  '{0}' can't be used to name both a type variable and a member in this mixin"
+title = "Conflicting type variable and member"
 weight = 70
 severity = "major"
 category = "bug-risk"

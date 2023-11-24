@@ -1,5 +1,4 @@
-
-title = "The parameter '{0}' isn't defined by '{1}'"
+title = "Undefined parameter name in `UseResult.unless` annotation"
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -32,4 +31,5 @@ import 'package:meta/meta.dart';
 @UseResult.unless(parameterDefined: 'a')
 int f([int? a]) => a ?? 0;
 ```
+
 '''

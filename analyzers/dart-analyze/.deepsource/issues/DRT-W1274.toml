@@ -1,5 +1,5 @@
 
-title = "The constant '{0}' must be initialized"
+title = "Constant must be initialized"
 weight = 70
 severity = "major"
 category = "bug-risk"

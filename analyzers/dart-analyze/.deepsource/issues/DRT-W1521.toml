@@ -1,5 +1,4 @@
-
-title = "The type arguments to '{0}' must be known at compile time, so they can't be type parameters"
+title = "Invalid use of type parameter as a type argument"
 weight = 70
 severity = "major"
 category = "bug-risk"

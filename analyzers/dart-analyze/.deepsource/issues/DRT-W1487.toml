@@ -1,5 +1,4 @@
-
-title = "The class '{0}' can't be declared a mixin because it extends a class other than 'Object'"
+title = "Mixin class can only extend `Object`"
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -54,4 +53,5 @@ mixin M {}
 
 Depending on the members of the subclass this might require adding an `on`
 clause to the mixin.
+
 '''

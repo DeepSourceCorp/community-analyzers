@@ -1,5 +1,4 @@
-
-title = "A value of type '{0}' can't be returned from the constructor '{2}' because it has a return type of '{1}'.  A value of type '{0}' can't be returned from the function '{2}' because it has a return type of '{1}'.  A value of type '{0}' can't be returned from the method '{2}' because it has a return type of '{1}'"
+title = "Return value type mismatch"
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -31,4 +30,5 @@ If the value is correct, then change the return type to match:
 ```dart
 int f() => 3;
 ```
+
 '''

@@ -1,5 +1,4 @@
-
-title = "The field '{0}' can't be initialized by multiple parameters in the same constructor"
+title = "Multiple initializing parameters for the same field in a constructor"
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -34,4 +33,5 @@ class C {
   C(this.f) {}
 }
 ```
+
 '''

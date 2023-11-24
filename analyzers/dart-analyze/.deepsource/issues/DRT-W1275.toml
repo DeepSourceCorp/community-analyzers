@@ -1,5 +1,4 @@
-
-title = "<a id=\"const_set_element_type_implements_equals\" aria-hidden=\"true\"></a>_(Previously known as `const_set_element_type_implements_equals`)  An element in a constant set can't override the '==' operator, or 'hashCode', but the type '{0}' does"
+title = "Invalid implementation of `==` or `hashCode` in a constant set element"
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -67,4 +66,5 @@ class C {
 
 final set = {C()};
 ```
+
 '''

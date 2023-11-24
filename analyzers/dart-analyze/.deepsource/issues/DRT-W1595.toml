@@ -1,5 +1,4 @@
-
-title = "Local variable '{0}' can't be referenced before it is declared"
+title = "Variable referenced before declaration"
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -48,4 +47,5 @@ void f(int i) {
   print(x);
 }
 ```
+
 '''

@@ -1,5 +1,4 @@
-
-title = "'{0}' can't be used as a superclass constraint.  Classes and mixins can't implement '{0}'.  Classes can't extend '{0}'.  Classes can't mixin '{0}'"
+title = "Restricted classes used in inheritance and implementation clauses"
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -55,4 +54,5 @@ type, and possibly the whole clause:
 ```dart
 class B {}
 ```
+
 '''

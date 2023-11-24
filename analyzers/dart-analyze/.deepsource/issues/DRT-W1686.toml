@@ -1,5 +1,4 @@
-
-title = "The '?' is unnecessary because '{0}' is nullable without it"
+title = "Unnecessary '?' for nullable types"
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -25,4 +24,5 @@ Remove the unneeded question mark:
 ```dart
 dynamic x;
 ```
+
 '''

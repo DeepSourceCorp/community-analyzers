@@ -1,5 +1,4 @@
-
-title = "The return type '{0}' isn't a '{1}', as required by the closure's context"
+title = "Incompatible return type for closure"
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -27,4 +26,5 @@ of the correct type, possibly by converting the existing value:
 ```dart
 String Function(String) f = (s) => 3.toString();
 ```
+
 '''
