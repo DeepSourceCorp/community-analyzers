@@ -1,0 +1,24 @@
+
+title = "Don't assign to void"
+verbose_name = "void_checks"
+category = "antipattern"
+severity = "major"
+weight = 70
+description = """
+**DON'T** assign to void.
+
+**BAD:**
+```dart
+class A<T> {
+  T value;
+  void test(T arg) { }
+}
+
+void main() {
+  A<void> a = A<void>();
+  a.value = 1; // LINT
+  a.test(1); // LINT
+}
+```
+
+"""

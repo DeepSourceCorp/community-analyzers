@@ -1,0 +1,27 @@
+
+title = "Unnecessary new keyword"
+verbose_name = "unnecessary_new"
+category = "antipattern"
+severity = "major"
+weight = 70
+description = """
+**AVOID** new keyword to create instances.
+
+**BAD:**
+```dart
+class A { A(); }
+m(){
+  final a = new A();
+}
+```
+
+**GOOD:**
+```dart
+class A { A(); }
+m(){
+  final a = A();
+}
+```
+
+
+"""

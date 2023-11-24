@@ -1,0 +1,37 @@
+
+title = "Avoid empty statements"
+verbose_name = "empty_statements"
+category = "bug-risk"
+severity = "major"
+weight = 70
+description = """
+**AVOID** empty statements.
+
+Empty statements almost always indicate a bug.
+
+For example,
+
+**BAD:**
+```dart
+if (complicated.expression.foo());
+  bar();
+```
+
+Formatted with `dart format` the bug becomes obvious:
+
+```dart
+if (complicated.expression.foo()) ;
+bar();
+
+```
+
+Better to avoid the empty statement altogether.
+
+**GOOD:**
+```dart
+if (complicated.expression.foo())
+  bar();
+```
+
+
+"""

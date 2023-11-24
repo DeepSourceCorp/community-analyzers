@@ -1,0 +1,32 @@
+
+title = "The value of the 'asset' field is expected to be a list of relative file paths"
+verbose_name = "asset_field_not_list"
+category = "bug-risk"
+severity = "major"
+weight = 70
+description = """
+The analyzer produces this diagnostic when the value of the `asset` key
+isn't a list.
+
+#### Example
+
+The following code produces this diagnostic because the value of the assets
+key is a string when a list is expected:
+
+{% prettify yaml tag=pre+code %}
+name: example
+flutter:
+  assets: [!assets/!]
+```
+
+#### Common fixes
+
+Change the value of the asset list so that it's a list:
+
+{% prettify yaml tag=pre+code %}
+name: example
+flutter:
+  assets:
+    - assets/
+```
+"""

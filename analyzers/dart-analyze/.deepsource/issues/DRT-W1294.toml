@@ -1,0 +1,31 @@
+
+title = "The value of the '{0}' field is expected to be a map"
+verbose_name = "dependencies_field_not_map"
+category = "bug-risk"
+severity = "major"
+weight = 70
+description = """
+The analyzer produces this diagnostic when the value of either the
+`dependencies` or `dev_dependencies` key isn't a map.
+
+#### Example
+
+The following code produces this diagnostic because the value of the
+top-level `dependencies` key is a list:
+
+{% prettify yaml tag=pre+code %}
+name: example
+dependencies:
+  [!- meta!]
+```
+
+#### Common fixes
+
+Use a map as the value of the `dependencies` key:
+
+{% prettify yaml tag=pre+code %}
+name: example
+dependencies:
+  meta: ^1.0.2
+```
+"""

@@ -1,0 +1,53 @@
+
+title = "Dead code"
+verbose_name = "dead_code"
+category = "bug-risk"
+severity = "major"
+weight = 70
+description = """
+The analyzer produces this diagnostic when code is found that won't be
+executed because execution will never reach the code.
+
+#### Example
+
+The following code produces this diagnostic because the invocation of
+`print` occurs after the function has returned:
+
+```dart
+void f() {
+  return;
+  [!print('here');!]
+}
+```
+
+#### Common fixes
+
+If the code isn't needed, then remove it:
+
+```dart
+void f() {
+  return;
+}
+```
+
+If the code needs to be executed, then either move the code to a place
+where it will be executed:
+
+```dart
+void f() {
+  print('here');
+  return;
+}
+```
+
+Or, rewrite the code before it, so that it can be reached:
+
+```dart
+void f({bool skipPrinting = true}) {
+  if (skipPrinting) {
+    return;
+  }
+  print('here');
+}
+```
+"""

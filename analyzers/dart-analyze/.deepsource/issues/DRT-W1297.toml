@@ -1,0 +1,29 @@
+
+title = "The '{0}' field is no longer used and can be removed"
+verbose_name = "deprecated_field"
+category = "bug-risk"
+severity = "major"
+weight = 70
+description = """
+The analyzer produces this diagnostic when a key is used in a
+`pubspec.yaml` file that was deprecated. Unused keys take up space and
+might imply semantics that are no longer valid.
+
+#### Example
+
+The following code produces this diagnostic because the `author` key is no
+longer being used:
+
+```dart
+name: example
+author: 'Dash'
+```
+
+#### Common fixes
+
+Remove the deprecated key:
+
+```dart
+name: example
+```
+"""

@@ -1,0 +1,41 @@
+
+title = "Duplicate hidden name"
+verbose_name = "duplicate_hidden_name"
+category = "bug-risk"
+severity = "major"
+weight = 70
+description = """
+The analyzer produces this diagnostic when a name occurs multiple times in
+a `hide` clause. Repeating the name is unnecessary.
+
+#### Example
+
+The following code produces this diagnostic because the name `min` is
+hidden more than once:
+
+```dart
+import 'dart:math' hide min, [!min!];
+
+var x = pi;
+```
+
+#### Common fixes
+
+If the name was mistyped in one or more places, then correct the mistyped
+names:
+
+```dart
+import 'dart:math' hide max, min;
+
+var x = pi;
+```
+
+If the name wasn't mistyped, then remove the unnecessary name from the
+list:
+
+```dart
+import 'dart:math' hide min;
+
+var x = pi;
+```
+"""

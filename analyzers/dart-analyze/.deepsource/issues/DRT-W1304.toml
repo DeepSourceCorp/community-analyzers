@@ -1,0 +1,29 @@
+
+title = "The name '{0}' is already defined"
+verbose_name = "duplicate_definition"
+category = "bug-risk"
+severity = "major"
+weight = 70
+description = """
+The analyzer produces this diagnostic when a name is declared, and there is
+a previous declaration with the same name in the same scope.
+
+#### Example
+
+The following code produces this diagnostic because the name `x` is
+declared twice:
+
+```dart
+int x = 0;
+int [!x!] = 1;
+```
+
+#### Common fixes
+
+Choose a different name for one of the declarations.
+
+```dart
+int x = 0;
+int y = 1;
+```
+"""

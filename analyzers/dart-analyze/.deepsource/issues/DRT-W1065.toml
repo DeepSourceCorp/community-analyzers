@@ -1,0 +1,23 @@
+
+title = "Avoid return types on setters"
+verbose_name = "avoid_return_types_on_setters"
+category = "antipattern"
+severity = "major"
+weight = 70
+description = """
+**AVOID** return types on setters.
+
+As setters do not return a value, declaring the return type of one is redundant.
+
+**BAD:**
+```dart
+void set speed(int ms);
+```
+
+**GOOD:**
+```dart
+set speed(int ms);
+```
+
+
+"""

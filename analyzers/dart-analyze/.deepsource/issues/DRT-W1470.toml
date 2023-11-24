@@ -1,0 +1,15 @@
+
+title = "Required library '{0}' is missing"
+verbose_name = "missing_dart_library"
+category = "bug-risk"
+severity = "major"
+weight = 70
+description = """
+The analyzer produces this diagnostic when either the Dart or Flutter SDK
+isn't installed correctly, and, as a result, one of the `dart:` libraries
+can't be found.
+
+#### Common fixes
+
+Reinstall the Dart or Flutter SDK.
+"""

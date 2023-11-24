@@ -1,0 +1,30 @@
+
+title = "Undefined name 'await' in function body not marked with 'async'"
+verbose_name = "undefined_identifier_await"
+category = "bug-risk"
+severity = "major"
+weight = 70
+description = """
+The analyzer produces this diagnostic when the name `await` is used in a
+method or function body without being declared, and the body isn't marked
+with the `async` keyword. The name `await` only introduces an await
+expression in an asynchronous function.
+
+#### Example
+
+The following code produces this diagnostic because the name `await` is
+used in the body of `f` even though the body of `f` isn't marked with the
+`async` keyword:
+
+```dart
+void f(p) { [!await!] p; }
+```
+
+#### Common fixes
+
+Add the keyword `async` to the function body:
+
+```dart
+void f(p) async { await p; }
+```
+"""

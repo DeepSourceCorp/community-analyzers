@@ -1,0 +1,32 @@
+
+title = "'{0}' can't be used to name both a type variable and a member in this class.  '{0}' can't be used to name both a type variable and a member in this enum.  '{0}' can't be used to name both a type variable and a member in this extension.  '{0}' can't be used to name both a type variable and a member in this mixin"
+verbose_name = "conflicting_type_variable_and_member"
+category = "bug-risk"
+severity = "major"
+weight = 70
+description = """
+The analyzer produces this diagnostic when a class, mixin, or extension
+declaration declares a type parameter with the same name as one of the
+members of the class, mixin, or extension that declares it.
+
+#### Example
+
+The following code produces this diagnostic because the type parameter `T`
+has the same name as the field `T`:
+
+```dart
+class C<[!T!]> {
+  int T = 0;
+}
+```
+
+#### Common fixes
+
+Rename either the type parameter or the member with which it conflicts:
+
+```dart
+class C<T> {
+  int total = 0;
+}
+```
+"""

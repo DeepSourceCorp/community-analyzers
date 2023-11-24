@@ -1,0 +1,26 @@
+
+title = "Avoid null in null-aware assignment"
+verbose_name = "unnecessary_null_aware_assignments"
+category = "antipattern"
+severity = "major"
+weight = 70
+description = """
+**AVOID** `null` in null-aware assignment.
+
+Using `null` on the right-hand side of a null-aware assignment effectively makes
+the assignment redundant.
+
+**BAD:**
+```dart
+var x;
+x ??= null;
+```
+
+**GOOD:**
+```dart
+var x;
+x ??= 1;
+```
+
+
+"""

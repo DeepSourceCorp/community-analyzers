@@ -1,0 +1,28 @@
+
+title = "The value of the 'name' field is required to be a string"
+verbose_name = "name_not_string"
+category = "bug-risk"
+severity = "major"
+weight = 70
+description = """
+The analyzer produces this diagnostic when the top-level `name` key has a
+value that isn't a string.
+
+#### Example
+
+The following code produces this diagnostic because the value following the
+`name` key is a list:
+
+{% prettify yaml tag=pre+code %}
+name:
+  [!- example!]
+```
+
+#### Common fixes
+
+Replace the value with a string:
+
+{% prettify yaml tag=pre+code %}
+name: example
+```
+"""

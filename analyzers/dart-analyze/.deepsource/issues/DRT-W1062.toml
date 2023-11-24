@@ -1,0 +1,23 @@
+
+title = "Avoid private typedef functions"
+verbose_name = "avoid_private_typedef_functions"
+category = "antipattern"
+severity = "major"
+weight = 70
+description = """
+**AVOID** private typedef functions used only once. Prefer inline function
+syntax.
+
+**BAD:**
+```dart
+typedef void _F();
+m(_F f);
+```
+
+**GOOD:**
+```dart
+m(void Function() f);
+```
+
+
+"""

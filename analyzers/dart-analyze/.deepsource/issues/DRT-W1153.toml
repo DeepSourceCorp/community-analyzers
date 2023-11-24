@@ -1,0 +1,22 @@
+
+title = "Prefer using null aware operators"
+verbose_name = "prefer_null_aware_operators"
+category = "antipattern"
+severity = "major"
+weight = 70
+description = """
+**PREFER** using null aware operators instead of null checks in conditional
+expressions.
+
+**BAD:**
+```dart
+v = a == null ? null : a.b;
+```
+
+**GOOD:**
+```dart
+v = a?.b;
+```
+
+
+"""

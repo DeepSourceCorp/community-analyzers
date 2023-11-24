@@ -1,0 +1,30 @@
+
+title = "Don't compare booleans to boolean literals"
+verbose_name = "no_literal_bool_comparisons"
+category = "antipattern"
+severity = "major"
+weight = 70
+description = """
+From [Effective Dart](https://dart.dev/effective-dart/usage#dont-use-true-or-false-in-equality-operations):
+
+**DON'T** use `true` or `false` in equality operations.
+
+This lint applies only if the expression is of a non-nullable `bool` type.
+
+**BAD:**
+```dart
+if (someBool == true) {
+}
+while (someBool == false) {
+}
+```
+
+**GOOD:**
+```dart
+if (someBool) {
+}
+while (!someBool) {
+}
+```
+
+"""

@@ -1,0 +1,50 @@
+
+title = "Abstract fields can't have initializers"
+verbose_name = "abstract_field_initializer"
+category = "bug-risk"
+severity = "major"
+weight = 70
+description = """
+The analyzer produces this diagnostic when a field that has the `abstract`
+modifier also has an initializer.
+
+#### Examples
+
+The following code produces this diagnostic because `f` is marked as
+`abstract` and has an initializer:
+
+```dart
+abstract class C {
+  abstract int [!f!] = 0;
+}
+```
+
+The following code produces this diagnostic because `f` is marked as
+`abstract` and there's an initializer in the constructor:
+
+```dart
+abstract class C {
+  abstract int f;
+
+  C() : [!f!] = 0;
+}
+```
+
+#### Common fixes
+
+If the field must be abstract, then remove the initializer:
+
+```dart
+abstract class C {
+  abstract int f;
+}
+```
+
+If the field isn't required to be abstract, then remove the keyword:
+
+```dart
+abstract class C {
+  int f = 0;
+}
+```
+"""

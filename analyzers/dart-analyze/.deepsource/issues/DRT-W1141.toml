@@ -1,0 +1,21 @@
+
+title = "Prefer if elements to conditional expressions where possible"
+verbose_name = "prefer_if_elements_to_conditional_expressions"
+category = "antipattern"
+severity = "major"
+weight = 70
+description = """
+When building collections, it is preferable to use `if` elements rather than
+conditionals.
+
+**BAD:**
+```dart
+var list = ['a', 'b', condition ? 'c' : null].where((e) => e != null).toList();
+```
+
+**GOOD:**
+```dart
+var list = ['a', 'b', if (condition) 'c'];
+```
+
+"""

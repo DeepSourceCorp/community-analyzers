@@ -1,0 +1,35 @@
+
+title = "The name '{0}' isn't defined, so it can't be used in an 'is' expression"
+verbose_name = "type_test_with_undefined_name"
+category = "bug-risk"
+severity = "major"
+weight = 70
+description = """
+The analyzer produces this diagnostic when the name following the `is` in a
+type test expression isn't defined.
+
+#### Example
+
+The following code produces this diagnostic because the name `Srting` isn't
+defined:
+
+```dart
+void f(Object o) {
+  if (o is [!Srting!]) {
+    // ...
+  }
+}
+```
+
+#### Common fixes
+
+Replace the name with the name of a type:
+
+```dart
+void f(Object o) {
+  if (o is String) {
+    // ...
+  }
+}
+```
+"""

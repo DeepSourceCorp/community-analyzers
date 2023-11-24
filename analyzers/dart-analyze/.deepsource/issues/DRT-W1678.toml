@@ -1,0 +1,36 @@
+
+title = "The dev dependency on {0} is unnecessary because there is also a normal dependency on that package"
+verbose_name = "unnecessary_dev_dependency"
+category = "bug-risk"
+severity = "major"
+weight = 70
+description = """
+The analyzer produces this diagnostic when there's an entry under
+`dev_dependencies` for a package that is also listed under `dependencies`.
+The packages under `dependencies` are available to all of the code in the
+package, so there's no need to also list them under `dev_dependencies`.
+
+#### Example
+
+The following code produces this diagnostic because the package `meta` is
+listed under both `dependencies` and `dev_dependencies`:
+
+{% prettify yaml tag=pre+code %}
+name: example
+dependencies:
+  meta: ^1.0.2
+dev_dependencies:
+  [!meta!]: ^1.0.2
+```
+
+#### Common fixes
+
+Remove the entry under `dev_dependencies` (and the `dev_dependencies` key
+if that's the only package listed there):
+
+{% prettify yaml tag=pre+code %}
+name: example
+dependencies:
+  meta: ^1.0.2
+```
+"""

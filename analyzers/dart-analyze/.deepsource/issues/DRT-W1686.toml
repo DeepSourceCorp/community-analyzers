@@ -1,0 +1,28 @@
+
+title = "The '?' is unnecessary because '{0}' is nullable without it"
+verbose_name = "unnecessary_question_mark"
+category = "bug-risk"
+severity = "major"
+weight = 70
+description = """
+The analyzer produces this diagnostic when either the type `dynamic` or the
+type `Null` is followed by a question mark. Both of these types are
+inherently nullable so the question mark doesn't change the semantics.
+
+#### Example
+
+The following code produces this diagnostic because the question mark
+following `dynamic` isn't necessary:
+
+```dart
+dynamic[!?!] x;
+```
+
+#### Common fixes
+
+Remove the unneeded question mark:
+
+```dart
+dynamic x;
+```
+"""

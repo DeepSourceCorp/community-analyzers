@@ -1,0 +1,38 @@
+
+title = "Prefer final in for-each loop variable if reference is not reassigned"
+verbose_name = "prefer_final_in_for_each"
+category = "antipattern"
+severity = "major"
+weight = 70
+description = """
+**DO** prefer declaring for-each loop variables as final if they are not
+reassigned later in the code.
+
+Declaring for-each loop variables as final when possible is a good practice
+because it helps avoid accidental reassignments and allows the compiler to do
+optimizations.
+
+**BAD:**
+```dart
+for (var element in elements) { // LINT
+  print('Element: $element');
+}
+```
+
+**GOOD:**
+```dart
+for (final element in elements) {
+  print('Element: $element');
+}
+```
+
+**GOOD:**
+```dart
+for (var element in elements) {
+  element = element + element;
+  print('Element: $element');
+}
+```
+
+
+"""

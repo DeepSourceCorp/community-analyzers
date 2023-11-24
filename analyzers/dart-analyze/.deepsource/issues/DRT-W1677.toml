@@ -1,0 +1,35 @@
+
+title = "Unnecessary cast"
+verbose_name = "unnecessary_cast"
+category = "bug-risk"
+severity = "major"
+weight = 70
+description = """
+The analyzer produces this diagnostic when the value being cast is already
+known to be of the type that it's being cast to.
+
+#### Example
+
+The following code produces this diagnostic because `n` is already known to
+be an `int` as a result of the `is` test:
+
+```dart
+void f(num n) {
+  if (n is int) {
+    ([!n as int!]).isEven;
+  }
+}
+```
+
+#### Common fixes
+
+Remove the unnecessary cast:
+
+```dart
+void f(num n) {
+  if (n is int) {
+    n.isEven;
+  }
+}
+```
+"""

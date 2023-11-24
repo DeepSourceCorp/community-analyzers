@@ -1,0 +1,42 @@
+
+title = "Static members from supertypes must be qualified by the name of the defining type"
+verbose_name = "unqualified_reference_to_non_local_static_member"
+category = "bug-risk"
+severity = "major"
+weight = 70
+description = """
+The analyzer produces this diagnostic when code in one class references a
+static member in a superclass without prefixing the member's name with the
+name of the superclass. Static members can only be referenced without a
+prefix in the class in which they're declared.
+
+#### Example
+
+The following code produces this diagnostic because the static field `x` is
+referenced in the getter `g` without prefixing it with the name of the
+defining class:
+
+```dart
+class A {
+  static int x = 3;
+}
+
+class B extends A {
+  int get g => [!x!];
+}
+```
+
+#### Common fixes
+
+Prefix the name of the static member with the name of the declaring class:
+
+```dart
+class A {
+  static int x = 3;
+}
+
+class B extends A {
+  int get g => A.x;
+}
+```
+"""

@@ -1,0 +1,30 @@
+
+title = "Join return statement with assignment when possible"
+verbose_name = "join_return_with_assignment"
+category = "antipattern"
+severity = "major"
+weight = 70
+description = """
+**DO** join return statement with assignment when possible.
+
+**BAD:**
+```dart
+class A {
+  B _lazyInstance;
+  static B get instance {
+    _lazyInstance ??= B(); // LINT
+    return _lazyInstance;
+  }
+}
+```
+
+**GOOD:**
+```dart
+class A {
+  B _lazyInstance;
+  static B get instance => _lazyInstance ??= B();
+}
+```
+
+
+"""
