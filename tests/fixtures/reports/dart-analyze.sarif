@@ -402,7 +402,7 @@
             "text": "Target of URI doesn't exist: 'package:intl/intl.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist."
           },
           "ruleId": "uri_does_not_exist"
-        },
+        }
       ]
     }
   ]
