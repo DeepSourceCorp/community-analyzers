@@ -15,7 +15,7 @@ The following code produces this diagnostic because `l` isn't a `Map`:
 
 ```dart
 var l =  <String>['a', 'b'];
-var m = <int, String>{...[!l!]};
+var m = <int, String>{...l};
 ```
 
 #### Common fixes

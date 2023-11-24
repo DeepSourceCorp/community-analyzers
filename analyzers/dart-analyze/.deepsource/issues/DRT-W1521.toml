@@ -25,7 +25,7 @@ typedef T = int Function(int);
 
 class C<R extends T> {
   void m(Pointer<NativeFunction<T>> p) {
-    p.asFunction<[!R!]>();
+    p.asFunction<R>();
   }
 }
 ```

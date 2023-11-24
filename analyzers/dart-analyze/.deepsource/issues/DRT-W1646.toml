@@ -21,7 +21,7 @@ parameter `f` is imported from a deferred library:
 ```dart
 import 'dart:io' deferred as io;
 
-void f([!io.File!] f) {}
+void f(io.File f) {}
 ```
 
 #### Common fixes

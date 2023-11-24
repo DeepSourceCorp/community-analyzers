@@ -17,7 +17,7 @@ a method named `n`:
 ```dart
 class C {
   void m() {
-    super.[!n!]();
+    super.n();
   }
 }
 ```
@@ -28,7 +28,7 @@ a getter named `g`:
 ```dart
 class C {
   void m() {
-    super.[!g!];
+    super.g;
   }
 }
 ```

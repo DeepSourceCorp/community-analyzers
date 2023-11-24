@@ -17,7 +17,7 @@ even though it appears in an implicitly constant list literal:
 
 ```dart
 var x = 2;
-var y = const <int>[0, 1, [!x!]];
+var y = const <int>[0, 1, x];
 ```
 
 #### Common fixes

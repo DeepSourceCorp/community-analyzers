@@ -19,7 +19,7 @@ return an `int` while `callback` is declared to return a `String`, and
 
 ```dart
 void f(Future<int> future, String Function(dynamic, StackTrace) callback) {
-  future.catchError([!callback!]);
+  future.catchError(callback);
 }
 ```
 
@@ -29,7 +29,7 @@ return a `String`:
 
 ```dart
 void f(Future<String> future) {
-  future.catchError((error, stackTrace) => [!3!]);
+  future.catchError((error, stackTrace) => 3);
 }
 ```
 

@@ -14,7 +14,7 @@ The following code produces this diagnostic because the operator `~` can
 only be used as a unary operator:
 
 ```dart
-var a = 5 [!~!] 3;
+var a = 5 ~ 3;
 ```
 
 #### Common fixes

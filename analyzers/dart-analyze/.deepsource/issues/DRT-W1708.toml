@@ -15,7 +15,7 @@ The following code produces this diagnostic because the value of `x` is an
 
 ```dart
 const Object x = 0;
-const String y = [!x!];
+const String y = x;
 ```
 
 #### Common fixes

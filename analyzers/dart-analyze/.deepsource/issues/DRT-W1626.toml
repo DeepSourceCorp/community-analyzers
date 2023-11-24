@@ -20,7 +20,7 @@ The following code produces this diagnostic because the class `C` extends
 ```dart
 import 'dart:ffi';
 
-final class C extends [!Double!] {}
+final class C extends Double {}
 ```
 
 #### Common fixes

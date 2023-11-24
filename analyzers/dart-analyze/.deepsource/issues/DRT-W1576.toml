@@ -19,7 +19,7 @@ shadowed by the parameter `a`:
 import 'dart:async' as a;
 
 a.Future? f(int a) {
-  [!a!].Future? x;
+  a.Future? x;
   return x;
 }
 ```

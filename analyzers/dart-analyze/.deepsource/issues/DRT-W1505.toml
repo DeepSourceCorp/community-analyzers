@@ -15,7 +15,7 @@ The following code produces this diagnostic because `x` has the static type
 
 ```dart
 void f(int x) {
-  if ([!x!]) {
+  if (x) {
     // ...
   }
 }

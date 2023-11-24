@@ -14,7 +14,7 @@ The following code produces this diagnostic because `'#'` isn't a valid
 URI:
 
 ```dart
-import [!'#'!];
+import '#';
 ```
 
 #### Common fixes

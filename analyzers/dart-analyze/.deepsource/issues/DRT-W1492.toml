@@ -27,7 +27,7 @@ diagnostic:
 ```dart
 import 'package:p/p.dart';
 
-[!mixin M on C {}!]
+mixin M on C {}
 ```
 
 #### Common fixes

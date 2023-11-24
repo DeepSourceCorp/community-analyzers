@@ -20,7 +20,7 @@ mixin M {
   int x = 0;
 }
 
-enum E with [!M!] {
+enum E with M {
   a
 }
 ```

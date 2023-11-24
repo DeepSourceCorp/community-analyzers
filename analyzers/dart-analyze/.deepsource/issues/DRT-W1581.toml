@@ -18,7 +18,7 @@ The following code produces this diagnostic because the record literal has
 one positional field but doesn't have a trailing comma:
 
 ```dart
-var r = const (1[!)!];
+var r = const (1);
 ```
 
 #### Common fixes

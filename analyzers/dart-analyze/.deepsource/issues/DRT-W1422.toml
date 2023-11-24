@@ -25,7 +25,7 @@ corresponding parameter of type `num`:
 class A {
   int add(int a) => a;
 }
-class [!B!] extends A {
+class B extends A {
   int add(num a);
 }
 ```

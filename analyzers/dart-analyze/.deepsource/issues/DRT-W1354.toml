@@ -21,7 +21,7 @@ import 'dart:ffi';
 
 final class C extends Struct {
   @Int32()
-  [!@Int16()!]
+  @Int16()
   external int x;
 }
 ```

@@ -15,7 +15,7 @@ The following code produces this diagnostic because the unnamed
 constructor is being referenced using `new C`:
 
 ```dart
-/// See [[!new!] C].
+/// See [new C].
 class C {
   C();
 }
@@ -25,7 +25,7 @@ The following code produces this diagnostic because the constructor named
 `c` is being referenced using `new C.c`:
 
 ```dart
-/// See [[!new!] C.c].
+/// See [new C.c].
 class C {
   C.c();
 }

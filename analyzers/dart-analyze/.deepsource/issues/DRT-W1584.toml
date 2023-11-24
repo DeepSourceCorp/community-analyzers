@@ -15,8 +15,8 @@ constructors `C.a` and `C.b` each redirect to the other:
 
 ```dart
 class C {
-  C.a() : [!this.b()!];
-  C.b() : [!this.a()!];
+  C.a() : this.b();
+  C.b() : this.a();
 }
 ```
 
@@ -25,10 +25,10 @@ constructors `A` and `B` each redirect to the other:
 
 ```dart
 abstract class A {
-  factory A() = [!B!];
+  factory A() = B;
 }
 class B implements A {
-  factory B() = [!A!];
+  factory B() = A;
   B.named();
 }
 ```

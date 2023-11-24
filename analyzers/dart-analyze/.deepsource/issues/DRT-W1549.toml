@@ -23,7 +23,7 @@ type, and nullable types can't be used in an `extends` clause:
 
 ```dart
 class A {}
-class B extends [!A?!] {}
+class B extends A? {}
 ```
 
 #### Common fixes

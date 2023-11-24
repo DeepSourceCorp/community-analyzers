@@ -23,7 +23,7 @@ included multiple times:
 library lib;
 
 part 'part.dart';
-part [!'part.dart'!];
+part 'part.dart';
 ```
 
 #### Common fixes

@@ -19,7 +19,7 @@ been initialized:
 ```dart
 int f() {
   final int x;
-  return [!x!];
+  return x;
 }
 ```
 

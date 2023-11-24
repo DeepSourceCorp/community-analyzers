@@ -18,7 +18,7 @@ have the same value:
 ```dart
 const a = 1;
 const b = 1;
-var m = <int, String>{a: 'a', [!b!]: 'b'};
+var m = <int, String>{a: 'a', b: 'b'};
 ```
 
 #### Common fixes

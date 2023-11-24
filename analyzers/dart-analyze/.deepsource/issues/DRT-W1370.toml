@@ -14,7 +14,7 @@ The following code produces this diagnostic because `x` doesn't have an
 initializer:
 
 ```dart
-final [!x!];
+final x;
 ```
 
 #### Common fixes

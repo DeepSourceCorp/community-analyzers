@@ -22,7 +22,7 @@ If the file `lib.g.dart` doesn't exist, the following code produces this
 diagnostic:
 
 ```dart
-import [!'lib.g.dart'!];
+import 'lib.g.dart';
 ```
 
 #### Common fixes

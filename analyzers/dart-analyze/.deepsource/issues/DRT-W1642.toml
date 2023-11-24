@@ -17,7 +17,7 @@ The following code produces this diagnostic twice because there are
 hidden characters at the start and end of the label string:
 
 ```dart
-var label = '[!I!]nteractive text[!'!];
+var label = 'Interactive text';
 ```
 
 #### Common fixes

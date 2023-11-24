@@ -17,7 +17,7 @@ The following code produces this diagnostic because `e` isn't referenced:
 void f() {
   try {
     int.parse(';');
-  } on FormatException catch ([!e!]) {
+  } on FormatException catch (e) {
     // ignored
   }
 }

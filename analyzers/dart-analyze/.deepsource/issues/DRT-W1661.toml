@@ -14,7 +14,7 @@ The following code produces this diagnostic because the extension `E`
 doesn't define the operator `*`:
 
 ```dart
-var x = E('') [!*!] 4;
+var x = E('') * 4;
 
 extension E on String {}
 ```

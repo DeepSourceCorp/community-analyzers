@@ -34,7 +34,7 @@ exported from `b.dart` in some future version:
 ```dart
 import 'b.dart';
 
-[!A!]? a;
+A? a;
 ```
 
 #### Common fixes

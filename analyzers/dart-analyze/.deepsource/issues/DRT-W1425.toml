@@ -17,7 +17,7 @@ be lowercase in such a comment and because there's no equal sign between
 the word `dart` and the version number:
 
 ```dart
-[!// @Dart 2.13!]
+// @Dart 2.13
 ```
 
 #### Common fixes

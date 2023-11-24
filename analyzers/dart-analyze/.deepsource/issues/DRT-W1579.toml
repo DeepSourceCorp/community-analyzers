@@ -25,7 +25,7 @@ private setter `_f` even though the setter isn't visible:
 import 'a.dart';
 
 void f() {
-  A.[!_f!] = 0;
+  A._f = 0;
 }
 ```
 

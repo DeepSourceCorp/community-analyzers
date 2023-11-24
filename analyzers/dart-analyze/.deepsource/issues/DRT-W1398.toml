@@ -19,7 +19,7 @@ defined:
 class C {
   int y;
 
-  C([!this.x!]);
+  C(this.x);
 }
 ```
 

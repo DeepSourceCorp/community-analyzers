@@ -16,7 +16,7 @@ function `f` has the 'sync*' modifier even though the return type `int`
 isn't a supertype of `Iterable`:
 
 ```dart
-[!int!] f() sync* {}
+int f() sync* {}
 ```
 
 #### Common fixes

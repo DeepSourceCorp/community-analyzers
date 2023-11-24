@@ -21,7 +21,7 @@ extension E on int {
 }
 
 void f(int i) {
-  print([!E(i)!]);
+  print(E(i));
 }
 ```
 

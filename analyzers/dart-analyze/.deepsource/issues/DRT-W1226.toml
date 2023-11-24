@@ -21,7 +21,7 @@ required to take at least one parameter:
 
 ```dart
 void f(Future<int> f) {
-  f.catchError([!() => 0!]);
+  f.catchError(() => 0);
 }
 ```
 
@@ -31,7 +31,7 @@ two required parameters:
 
 ```dart
 void f(Future<int> f) {
-  f.catchError([!(one, two, three) => 0!]);
+  f.catchError((one, two, three) => 0);
 }
 ```
 
@@ -41,7 +41,7 @@ a type that is compatible with `Object`:
 
 ```dart
 void f(Future<int> f) {
-  f.catchError([!(String error) => 0!]);
+  f.catchError((String error) => 0);
 }
 ```
 

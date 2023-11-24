@@ -25,7 +25,7 @@ extension F on String {
 }
 
 void f() {
-  E('c').[!b!] = 'd';
+  E('c').b = 'd';
 }
 ```
 
@@ -36,7 +36,7 @@ doesn't declare a static setter named `a`:
 extension E on String {}
 
 void f() {
-  E.[!a!] = 3;
+  E.a = 3;
 }
 ```
 

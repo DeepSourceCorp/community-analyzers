@@ -18,7 +18,7 @@ and an `int` can't be assigned to a field of type `String`:
 class C {
   String s;
 
-  C() : s = [!0!];
+  C() : s = 0;
 }
 ```
 

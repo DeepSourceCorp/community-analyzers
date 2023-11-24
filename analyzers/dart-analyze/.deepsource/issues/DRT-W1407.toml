@@ -19,7 +19,7 @@ a `const` variable:
 ```dart
 var v = 0;
 
-[!@v!]
+@v
 void f() {
 }
 ```
@@ -27,7 +27,7 @@ void f() {
 The following code produces this diagnostic because `f` isn't a variable:
 
 ```dart
-[!@f!]
+@f
 void f() {
 }
 ```
@@ -36,7 +36,7 @@ The following code produces this diagnostic because `f` isn't a
 constructor:
 
 ```dart
-[!@f()!]
+@f()
 void f() {
 }
 ```
@@ -44,7 +44,7 @@ void f() {
 The following code produces this diagnostic because `g` is a getter:
 
 ```dart
-[!@g!]
+@g
 int get g => 0;
 ```
 

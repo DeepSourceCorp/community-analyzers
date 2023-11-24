@@ -15,7 +15,7 @@ field, but it's being accessed as if it were an instance field:
 
 ```dart
 void f(C c) {
-  c.[!zero!];
+  c.zero;
 }
 
 class C {

@@ -22,7 +22,7 @@ have a part-of directive:
 ```dart
 library lib;
 
-import [!'part.dart'!];
+import 'part.dart';
 ```
 
 #### Common fixes

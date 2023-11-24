@@ -22,7 +22,7 @@ class A {
 }
 
 class B extends A {
-  const B() : [!super.nonConst()!];
+  const B() : super.nonConst();
 }
 ```
 

@@ -17,7 +17,7 @@ any of the supertypes of `C`:
 ```dart
 class C {
   @override
-  String [!m!]() => '';
+  String m() => '';
 }
 ```
 

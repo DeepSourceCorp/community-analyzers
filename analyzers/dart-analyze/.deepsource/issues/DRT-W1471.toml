@@ -18,13 +18,13 @@ The following code produces this diagnostic because `x` can't be `null`,
 and no non-`null` default value is specified:
 
 ```dart
-void f([int [!x!]]) {}
+void f([int x]) {}
 ```
 
 As does this:
 
 ```dart
-void g({int [!x!]}) {}
+void g({int x}) {}
 ```
 
 #### Common fixes

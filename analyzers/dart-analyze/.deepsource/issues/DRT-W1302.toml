@@ -15,7 +15,7 @@ The following code produces this diagnostic because the result of dividing
 `x` and `y` is converted to an integer using `toInt`:
 
 ```dart
-int divide(num x, num y) => [!(x / y).toInt()!];
+int divide(num x, num y) => (x / y).toInt();
 ```
 
 #### Common fixes

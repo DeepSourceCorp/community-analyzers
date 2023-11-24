@@ -21,7 +21,7 @@ class C {
   const C();
 }
 
-[!@C!]
+@C
 var x;
 ```
 

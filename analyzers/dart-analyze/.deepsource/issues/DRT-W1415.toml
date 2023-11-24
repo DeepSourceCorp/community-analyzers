@@ -28,7 +28,7 @@ parameter of type `IntFunction`, and `IntFunction` is only intended to be
 used internally:
 
 ```dart
-[!export 'src/a.dart' show f;!]
+export 'src/a.dart' show f;
 ```
 
 #### Common fixes

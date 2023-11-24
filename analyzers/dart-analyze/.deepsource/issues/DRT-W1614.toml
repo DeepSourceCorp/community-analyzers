@@ -26,7 +26,7 @@ this diagnostic:
 
 ```dart
 const Object x = 4;
-const y = [!x is int!] ? 0 : 1;
+const y = x is int ? 0 : 1;
 ```
 
 #### Common fixes

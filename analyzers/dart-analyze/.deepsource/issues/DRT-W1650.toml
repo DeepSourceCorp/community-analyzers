@@ -17,7 +17,7 @@ The following code produces this diagnostic because the bound of `T` is
 `T`:
 
 ```dart
-class C<[!T!] extends T> {}
+class C<T extends T> {}
 ```
 
 The following code produces this diagnostic because the bound of `T1` is
@@ -25,7 +25,7 @@ The following code produces this diagnostic because the bound of `T1` is
 be `T1`:
 
 ```dart
-class C<[!T1!] extends T2, T2 extends T1> {}
+class C<T1 extends T2, T2 extends T1> {}
 ```
 
 #### Common fixes

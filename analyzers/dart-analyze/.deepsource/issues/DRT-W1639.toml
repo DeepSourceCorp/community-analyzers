@@ -16,7 +16,7 @@ The following code produces this diagnostic because the type of `s`
 
 ```dart
 void f(String s) {
-  switch ([!s!]) {
+  switch (s) {
     case 0:
       break;
   }

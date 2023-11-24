@@ -25,7 +25,7 @@ extension F on String {
 }
 
 void f() {
-  E('c').[!b!]();
+  E('c').b();
 }
 ```
 
@@ -35,7 +35,7 @@ doesn't declare a static method named `a`:
 ```dart
 extension E on String {}
 
-var x = E.[!a!]();
+var x = E.a();
 ```
 
 #### Common fixes

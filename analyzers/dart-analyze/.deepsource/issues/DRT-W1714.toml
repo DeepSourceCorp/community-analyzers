@@ -21,7 +21,7 @@ extension E<T> on List<T> {
 }
 
 void f(List<int> p) {
-  E[!<int, String>!](p).len;
+  E<int, String>(p).len;
 }
 ```
 

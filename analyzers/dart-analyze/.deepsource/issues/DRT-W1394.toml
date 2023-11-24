@@ -23,7 +23,7 @@ must have the same language version as the defining compilation unit:
 
 ```dart
 // @dart = 2.15
-part [!'part.dart'!];
+part 'part.dart';
 ```
 
 #### Common fixes

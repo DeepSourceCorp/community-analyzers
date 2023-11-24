@@ -20,7 +20,7 @@ The following code produces this diagnostic because there is no
 import 'package:angular_meta/angular_meta.dart';
 
 class C {
-  [!@visibleOutsideTemplate!]
+  @visibleOutsideTemplate
   int m() {
     return 1;
   }
@@ -33,7 +33,7 @@ a class declaration, not a member of a class, enum, or mixin:
 ```dart
 import 'package:angular_meta/angular_meta.dart';
 
-[!@visibleOutsideTemplate!]
+@visibleOutsideTemplate
 class C {}
 ```
 

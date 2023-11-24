@@ -15,7 +15,7 @@ The following code produces this diagnostic because the class `C` is
 declared using both `abstract` and `sealed`:
 
 ```dart
-abstract [!sealed!] class C {}
+abstract sealed class C {}
 ```
 
 #### Common fixes

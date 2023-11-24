@@ -16,7 +16,7 @@ The following code produces this diagnostic because the prefix `x` is used
 as the prefix for a deferred import and is also used for one other import:
 
 ```dart
-import 'dart:math' [!deferred!] as x;
+import 'dart:math' deferred as x;
 import 'dart:convert' as x;
 
 var y = x.json.encode(x.min(0, 1));

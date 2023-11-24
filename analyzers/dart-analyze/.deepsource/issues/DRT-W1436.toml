@@ -16,7 +16,7 @@ The following code produces this diagnostic because `v` is a top-level
 variable:
 
 ```dart
-C f() => [!this!];
+C f() => this;
 
 class C {}
 ```

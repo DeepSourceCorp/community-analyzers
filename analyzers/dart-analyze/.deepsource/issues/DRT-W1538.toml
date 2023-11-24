@@ -14,7 +14,7 @@ The following code produces this diagnostic because `f` is a function:
 
 ```dart
 f() {}
-g([!f!] v) {}
+g(f v) {}
 ```
 
 #### Common fixes

@@ -32,7 +32,7 @@ void f(Object? x) {
   switch (x) {
     case int a when a > 0:
     case 0:
-      [!a!];
+      a;
   }
 }
 ```
@@ -46,7 +46,7 @@ void f(Object? x) {
   switch (x) {
     case int a when a > 0:
     default:
-      [!a!];
+      a;
   }
 }
 ```
@@ -60,7 +60,7 @@ void f(Object? x) {
   switch (x) {
     someLabel:
     case int a when a > 0:
-      [!a!];
+      a;
     case int b when b < 0:
       continue someLabel;
   }
@@ -76,7 +76,7 @@ void f(Object? x) {
   switch (x) {
     case int a when a < 0:
     case num a when a > 0:
-      [!a!];
+      a;
   }
 }
 ```
@@ -90,7 +90,7 @@ void f(Object? x) {
   switch (x) {
     case final int a when a < 0:
     case int a when a > 0:
-      [!a!];
+      a;
   }
 }
 ```

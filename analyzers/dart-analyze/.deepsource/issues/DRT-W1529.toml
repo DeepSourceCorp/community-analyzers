@@ -25,7 +25,7 @@ typedef F = int Function(int);
 
 class C {
   void f(Pointer<NativeFunction<FNative>> p) {
-    p.asFunction<[!F!]>();
+    p.asFunction<F>();
   }
 }
 ```

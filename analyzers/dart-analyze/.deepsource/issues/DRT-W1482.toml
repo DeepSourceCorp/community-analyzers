@@ -20,7 +20,7 @@ have an `Array` annotation:
 import 'dart:ffi';
 
 final class C extends Struct {
-  external [!Array<Uint8>!] a0;
+  external Array<Uint8> a0;
 }
 ```
 

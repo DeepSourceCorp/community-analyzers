@@ -15,7 +15,7 @@ twice:
 
 ```dart
 void f(Map<String, int> x) {
-  if (x case {'a': 1, [!'a'!]: 2}) {}
+  if (x case {'a': 1, 'a': 2}) {}
 }
 ```
 

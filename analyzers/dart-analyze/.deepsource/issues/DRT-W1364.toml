@@ -18,7 +18,7 @@ formal parameter `this.x` is being used in the method `m`:
 class A {
   int x = 0;
 
-  m([[!this.x!] = 0]) {}
+  m([this.x = 0]) {}
 }
 ```
 

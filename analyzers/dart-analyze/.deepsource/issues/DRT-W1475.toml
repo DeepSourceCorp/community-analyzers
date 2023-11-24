@@ -21,7 +21,7 @@ doesn't have a type annotation:
 import 'dart:ffi';
 
 final class C extends Struct {
-  external var [!str!];
+  external var str;
 
   @Int32()
   external int i;

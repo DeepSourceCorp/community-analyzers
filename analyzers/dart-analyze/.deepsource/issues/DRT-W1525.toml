@@ -19,7 +19,7 @@ type:
 enum E { one, two, three }
 
 void f(E e) {
-  [!switch!] (e) {
+  switch (e) {
     case E.one:
     case E.two:
   }

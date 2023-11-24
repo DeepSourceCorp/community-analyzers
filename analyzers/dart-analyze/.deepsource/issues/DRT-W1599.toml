@@ -17,7 +17,7 @@ a rest pattern:
 
 ```dart
 void f(Map<int, String> x) {
-  if (x case {0: _, [!...!]}) {}
+  if (x case {0: _, ...}) {}
 }
 ```
 

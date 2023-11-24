@@ -16,7 +16,7 @@ The following code produces this diagnostic:
 ```dart
 var defaultValue = 3;
 
-void f([int value = [!defaultValue!]]) {}
+void f([int value = defaultValue]) {}
 ```
 
 #### Common fixes

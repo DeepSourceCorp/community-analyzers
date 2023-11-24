@@ -14,7 +14,7 @@ The following code produces this diagnostic because `_interceptors` is an
 internal library:
 
 ```dart
-export [!'dart:_interceptors'!];
+export 'dart:_interceptors';
 ```
 
 #### Common fixes

@@ -15,7 +15,7 @@ value:
 
 ```dart
 int a = 3;
-bool b = [!a!] || a > 1;
+bool b = a || a > 1;
 ```
 
 #### Common fixes

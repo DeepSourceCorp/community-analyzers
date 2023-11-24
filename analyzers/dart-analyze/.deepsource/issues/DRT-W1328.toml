@@ -15,7 +15,7 @@ The following code produces this diagnostic because the string `'a'` is
 specified twice:
 
 ```dart
-const Set<String> set = {'a', [!'a'!]};
+const Set<String> set = {'a', 'a'};
 ```
 
 #### Common fixes

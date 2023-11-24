@@ -19,7 +19,7 @@ initializing `x`, but `x` isn't a field in the class:
 class C {
   int y;
 
-  C() : [!x = 0!];
+  C() : x = 0;
 }
 ```
 

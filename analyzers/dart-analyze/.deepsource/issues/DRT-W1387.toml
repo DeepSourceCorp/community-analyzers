@@ -23,7 +23,7 @@ class A {
 }
 
 class B extends A {
-  [!B!]();
+  B();
 }
 ```
 
@@ -38,7 +38,7 @@ class A {
 }
 
 class B extends A {
-  [!B!]();
+  B();
 }
 ```
 

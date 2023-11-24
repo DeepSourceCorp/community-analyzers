@@ -14,7 +14,7 @@ The following code produces this diagnostic because the record type has an
 empty list of named fields:
 
 ```dart
-void f((int, int, {[!}!]) r) {}
+void f((int, int, {}) r) {}
 ```
 
 #### Common fixes

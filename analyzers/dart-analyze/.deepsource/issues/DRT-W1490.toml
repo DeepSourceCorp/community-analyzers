@@ -15,7 +15,7 @@ instantiated:
 ```dart
 mixin M {}
 
-var m = [!M!]();
+var m = M();
 ```
 
 #### Common fixes

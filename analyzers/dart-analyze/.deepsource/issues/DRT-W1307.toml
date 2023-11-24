@@ -15,7 +15,7 @@ The following code produces this diagnostic because the record literal has
 two fields named `a`:
 
 ```dart
-var r = (a: 1, [!a!]: 2);
+var r = (a: 1, a: 2);
 ```
 
 The following code produces this diagnostic because the record type
@@ -23,7 +23,7 @@ annotation has two fields named `a`, one a positional field and the other
 a named field:
 
 ```dart
-void f((int a, {int [!a!]}) r) {}
+void f((int a, {int a}) r) {}
 ```
 
 #### Common fixes

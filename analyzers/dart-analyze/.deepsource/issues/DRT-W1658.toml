@@ -16,7 +16,7 @@ constructor defined in `E`:
 
 ```dart
 enum E {
-  [!c!]();
+  c();
 
   const E.x();
 }
@@ -28,7 +28,7 @@ constructor named `x` defined in `E`:
 
 ```dart
 enum E {
-  c.[!x!]();
+  c.x();
 
   const E.y();
 }

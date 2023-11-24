@@ -16,7 +16,7 @@ The following code produces this diagnostic because the list pattern
 
 ```dart
 void f(Object x) {
-  if (x case [!<int, int>!][0]) {}
+  if (x case <int, int>[0]) {}
 }
 ```
 

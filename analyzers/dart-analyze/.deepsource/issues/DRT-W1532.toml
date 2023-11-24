@@ -17,7 +17,7 @@ constructor is marked with `async`:
 
 ```dart
 class C {
-  factory C() [!async!] {
+  factory C() async {
     return C._();
   }
   C._();

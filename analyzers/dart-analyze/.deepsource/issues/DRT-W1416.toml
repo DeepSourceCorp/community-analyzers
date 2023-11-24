@@ -20,7 +20,7 @@ extension E on String {
 }
 
 void f() {
-  E[!()!].join('b');
+  E().join('b');
 }
 ```
 
@@ -33,7 +33,7 @@ extension E on String {
 }
 
 void f() {
-  E[!('a', 'b')!].join('c');
+  E('a', 'b').join('c');
 }
 ```
 

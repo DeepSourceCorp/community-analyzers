@@ -16,7 +16,7 @@ constructor for `C` is marked as being `async`:
 
 ```dart
 class C {
-  C() [!async!] {}
+  C() async {}
 }
 ```
 

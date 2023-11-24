@@ -17,7 +17,7 @@ generator and is using `return` to return a value:
 
 ```dart
 Iterable<int> f() sync* {
-  [!return!] 3;
+  return 3;
 }
 ```
 
@@ -25,7 +25,7 @@ The following code produces this diagnostic because the function `f` is a
 generator and is implicitly returning a value:
 
 ```dart
-Stream<int> f() async* [!=>!] 3;
+Stream<int> f() async* => 3;
 ```
 
 #### Common fixes

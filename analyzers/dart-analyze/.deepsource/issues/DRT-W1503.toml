@@ -19,7 +19,7 @@ class A {
   A.a();
 }
 
-A f() => [!A!]();
+A f() => A();
 ```
 
 #### Common fixes

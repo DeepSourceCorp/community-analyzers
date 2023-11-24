@@ -17,7 +17,7 @@ doesn't define a `call` method:
 extension E on String {}
 
 void f() {
-  [!E('')!]();
+  E('')();
 }
 ```
 

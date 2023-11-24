@@ -17,7 +17,7 @@ and the named constructor `foo` have the same name:
 
 ```dart
 class C {
-  C.[!foo!]();
+  C.foo();
   static int foo = 0;
 }
 ```
@@ -27,7 +27,7 @@ and the named constructor `foo` have the same name:
 
 ```dart
 class C {
-  C.[!foo!]();
+  C.foo();
   static void foo() {}
 }
 ```

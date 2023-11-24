@@ -17,7 +17,7 @@ constant named `c`:
 ```dart
 enum E {a, b}
 
-var e = E.[!c!];
+var e = E.c;
 ```
 
 #### Common fixes

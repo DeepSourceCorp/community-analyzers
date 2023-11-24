@@ -27,7 +27,7 @@ class `C`, which isn't intended to be used outside the package `p`:
 ```dart
 import 'package:p/src/p.dart';
 
-void f([!C!] c) {}
+void f(C c) {}
 ```
 
 #### Common fixes

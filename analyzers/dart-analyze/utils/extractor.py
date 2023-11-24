@@ -50,6 +50,7 @@ class DiagnosticRulesParser:
             # All issue definitions start with issue code being a
             # heading 3 and the issue code being on that line itself.
             if line.startswith("### "):
+                in_code_block = False
                 code = line.strip("# \n")
                 title = ""
                 description = ""
@@ -69,15 +70,29 @@ class DiagnosticRulesParser:
                 # to be the issue description
                 while not self.exhausted:
                     line = self.next_line()
+
                     if line.startswith("### "):
                         break
+
                     if line.startswith("#### Description"):
                         self.consume()
                         continue
+
+                    # Handle code blocks
                     if "{% prettify dart tag=pre+code %}" in line:
+                        in_code_block = True
                         line = "```dart"
                     elif "{% endprettify %}" in line:
+                        in_code_block = False
                         line = "```"
+
+                    if in_code_block:
+                        # If the line we're extracting is part of a code block
+                        # then we need to remove '[!' & '!]' from the line. This
+                        # syntax is used to for showing squiggly lines in the docs.
+                        # We don't support this hence we remove it.
+                        line = line.replace("[!", "").replace("!]", "")
+
                     description += f"{line}\n"
                     self.consume()
                 description = description.strip()

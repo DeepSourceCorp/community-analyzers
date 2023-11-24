@@ -17,7 +17,7 @@ class `C` is invalid:
 class C {}
 
 void f() {
-  [!C!] = null;
+  C = null;
 }
 ```
 

@@ -16,7 +16,7 @@ The following code produces this diagnostic because `Function` is used as
 the superclass of `F`:
 
 ```dart
-class F extends [!Function!] {}
+class F extends Function {}
 ```
 
 #### Common fixes

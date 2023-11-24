@@ -17,7 +17,7 @@ the enum `E` has a super constructor invocation in the initializer list:
 enum E {
   e;
 
-  const E() : [!super!]();
+  const E() : super();
 }
 ```
 

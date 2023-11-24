@@ -18,7 +18,7 @@ instantiated:
 // @dart = 2.16
 enum E {a}
 
-var e = [!E!]();
+var e = E();
 ```
 
 #### Common fixes

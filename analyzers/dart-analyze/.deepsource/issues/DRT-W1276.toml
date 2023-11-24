@@ -16,7 +16,7 @@ The following code produces this diagnostic because the value of `list1` is
 
 ```dart
 const List<int> list1 = null;
-const List<int> list2 = [...[!list1!]];
+const List<int> list2 = [...list1];
 ```
 
 #### Common fixes

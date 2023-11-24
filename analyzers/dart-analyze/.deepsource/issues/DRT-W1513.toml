@@ -27,7 +27,7 @@ library imported using a deferred import:
 ```dart
 import 'a.dart' deferred as a;
 
-void f({int x = a.[!zero!]}) {}
+void f({int x = a.zero}) {}
 ```
 
 #### Common fixes

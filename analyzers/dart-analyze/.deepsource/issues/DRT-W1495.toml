@@ -15,7 +15,7 @@ constructor in `C` is redirecting to both `this.a` and `this.b`:
 
 ```dart
 class C {
-  C() : this.a(), [!this.b()!];
+  C() : this.a(), this.b();
   C.a();
   C.b();
 }

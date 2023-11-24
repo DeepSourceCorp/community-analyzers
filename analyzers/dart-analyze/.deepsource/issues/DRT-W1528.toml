@@ -24,7 +24,7 @@ class A {
   A.named();
 }
 
-class [!B!] extends A {}
+class B extends A {}
 ```
 
 #### Common fixes

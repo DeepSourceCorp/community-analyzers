@@ -15,7 +15,7 @@ The following code produces this diagnostic because `j` isn't a constant:
 ```dart
 void f(int i, int j) {
   switch (i) {
-    case [!j!]:
+    case j:
       // ...
       break;
   }

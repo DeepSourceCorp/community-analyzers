@@ -17,7 +17,7 @@ The following code produces this diagnostic because the map pattern
 
 ```dart
 void f(Object x) {
-  if (x case [!<int>!]{0: _}) {}
+  if (x case <int>{0: _}) {}
 }
 ```
 

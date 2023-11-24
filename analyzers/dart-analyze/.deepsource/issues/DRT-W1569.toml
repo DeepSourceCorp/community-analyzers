@@ -16,7 +16,7 @@ The following code produces this diagnostic because `x` might not be a
 
 ```dart
 void f(Object x) {
-  var [!String(length: a)!] = x;
+  var String(length: a) = x;
   print(a);
 }
 ```

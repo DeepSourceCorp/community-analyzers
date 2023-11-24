@@ -17,7 +17,7 @@ The following code produces this diagnostic because there's no
 ```dart
 import 'dart:ffi';
 
-final class [!C!] extends AbiSpecificInteger {
+final class C extends AbiSpecificInteger {
   const C();
 }
 ```

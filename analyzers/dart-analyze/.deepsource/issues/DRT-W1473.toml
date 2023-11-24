@@ -20,7 +20,7 @@ isn't handled:
 enum E { e1, e2 }
 
 void f(E e) {
-  [!switch (e)!] {
+  switch (e) {
     case E.e1:
       break;
   }

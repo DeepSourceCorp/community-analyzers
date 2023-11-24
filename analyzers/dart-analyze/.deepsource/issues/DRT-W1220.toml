@@ -30,7 +30,7 @@ The following code produces this diagnostic:
 import 'a.dart';
 import 'b.dart';
 
-void f([!C!] c1, [!C!] c2) {}
+void f(C c1, C c2) {}
 ```
 
 #### Common fixes

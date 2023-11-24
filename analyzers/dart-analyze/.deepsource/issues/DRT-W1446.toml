@@ -32,7 +32,7 @@ import 'a.dart';
 
 class B extends A {
   void b() {
-    [!a!]();
+    a();
   }
 }
 ```

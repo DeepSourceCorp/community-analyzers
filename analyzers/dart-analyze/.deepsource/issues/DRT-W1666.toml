@@ -15,7 +15,7 @@ The following code produces this diagnostic because the name `rihgt` isn't
 defined:
 
 ```dart
-int min(int left, int right) => left <= [!rihgt!] ? left : right;
+int min(int left, int right) => left <= rihgt ? left : right;
 ```
 
 #### Common fixes

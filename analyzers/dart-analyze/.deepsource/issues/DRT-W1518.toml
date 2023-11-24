@@ -14,7 +14,7 @@ The following code produces this diagnostic because `a` isn't a constant:
 
 ```dart
 var a = 'a';
-var m = const {0: [!a!]};
+var m = const {0: a};
 ```
 
 #### Common fixes

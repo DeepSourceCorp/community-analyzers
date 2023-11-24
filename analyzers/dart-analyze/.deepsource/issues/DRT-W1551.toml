@@ -24,7 +24,7 @@ and nullable types can't be used in an `on` clause:
 
 ```dart
 class C {}
-mixin M on [!C?!] {}
+mixin M on C? {}
 ```
 
 #### Common fixes

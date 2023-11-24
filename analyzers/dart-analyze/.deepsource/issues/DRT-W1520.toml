@@ -15,7 +15,7 @@ The following code produces this diagnostic because `i` isn't a constant:
 ```dart
 var i = 0;
 
-var s = const {[!i!]};
+var s = const {i};
 ```
 
 #### Common fixes

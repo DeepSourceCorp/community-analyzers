@@ -15,7 +15,7 @@ The following code produces this diagnostic because the identifier
 `removeMiddle` isn't defined:
 
 ```dart
-int f(List<int> l) => l.[!removeMiddle!]();
+int f(List<int> l) => l.removeMiddle();
 ```
 
 #### Common fixes

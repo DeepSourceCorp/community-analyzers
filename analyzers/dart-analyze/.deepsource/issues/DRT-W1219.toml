@@ -33,7 +33,7 @@ extension E2 on String {
 }
 
 void f(String s) {
-  print(s.[!charCount!]);
+  print(s.charCount);
 }
 ```
 

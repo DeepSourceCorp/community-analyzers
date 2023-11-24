@@ -15,7 +15,7 @@ return type of `int`:
 
 ```dart
 class C {
-  [!int!] set p(int i) => 0;
+  int set p(int i) => 0;
 }
 ```
 

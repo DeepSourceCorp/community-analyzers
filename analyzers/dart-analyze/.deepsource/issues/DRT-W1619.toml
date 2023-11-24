@@ -15,7 +15,7 @@ literal `'0'` is `String`, which isn't assignable to `int`, the element
 type of the set:
 
 ```dart
-var s = <int>{[!'0'!]};
+var s = <int>{'0'};
 ```
 
 #### Common fixes

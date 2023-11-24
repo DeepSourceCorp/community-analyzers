@@ -18,7 +18,7 @@ initialized twice:
 class C {
   int f;
 
-  C() : f = 0, [!f!] = 1;
+  C() : f = 0, f = 1;
 }
 ```
 

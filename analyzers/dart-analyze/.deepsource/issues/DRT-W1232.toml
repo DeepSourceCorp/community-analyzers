@@ -21,7 +21,7 @@ import 'package:meta/meta.dart';
 @doNotStore
 int f() => 1;
 
-var x = [!f()!];
+var x = f();
 ```
 
 #### Common fixes

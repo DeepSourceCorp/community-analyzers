@@ -16,7 +16,7 @@ import prefix and the name of a function:
 ```dart
 import 'dart:math' as f;
 
-int [!f!]() => f.min(0, 1);
+int f() => f.min(0, 1);
 ```
 
 #### Common fixes

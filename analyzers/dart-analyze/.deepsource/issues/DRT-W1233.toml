@@ -19,7 +19,7 @@ value even though it has the `const` modifier:
 const c = 0;
 
 void f() {
-  [!c!] = 1;
+  c = 1;
   print(c);
 }
 ```

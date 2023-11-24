@@ -17,7 +17,7 @@ The following code produces this diagnostic because the `case` label with
 ```dart
 void f(int a) {
   switch (a) {
-    [!case!] 0:
+    case 0:
       print(0);
     default:
       return;

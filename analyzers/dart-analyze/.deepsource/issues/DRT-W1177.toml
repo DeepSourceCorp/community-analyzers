@@ -19,7 +19,7 @@ parameter has the keyword `final`:
 class A {
   int value;
 
-  A([!final!] this.value);
+  A(final this.value);
 }
 ```
 
@@ -32,7 +32,7 @@ class A {
 }
 
 class B extends A {
-  B([!final!] super.value);
+  B(final super.value);
 }
 ```
 

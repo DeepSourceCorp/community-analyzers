@@ -14,7 +14,7 @@ The following code produces this diagnostic because `import` can't be used
 as a type because it's a built-in identifier:
 
 ```dart
-[!import!]<int> x;
+import<int> x;
 ```
 
 #### Common fixes

@@ -17,7 +17,7 @@ rather than a class:
 int f() => 0;
 
 void g() {
-  new [!f!]();
+  new f();
 }
 ```
 

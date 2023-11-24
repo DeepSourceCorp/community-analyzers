@@ -28,7 +28,7 @@ Assuming that no code in the library references `_C`, the following code
 produces this diagnostic:
 
 ```dart
-class [!_C!] {}
+class _C {}
 ```
 
 Assuming that no code in the library passes a value for `y` in any
@@ -36,7 +36,7 @@ invocation of `_m`, the following code produces this diagnostic:
 
 ```dart
 class C {
-  void _m(int x, [int [!y!]]) {}
+  void _m(int x, [int y]) {}
 
   void n() => _m(0);
 }

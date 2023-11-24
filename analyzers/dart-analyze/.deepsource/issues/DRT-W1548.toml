@@ -19,7 +19,7 @@ specified to allow `null` when `null` can't be thrown:
 void f() {
   try {
     // ...
-  } on [!FormatException?!] {
+  } on FormatException? {
   }
 }
 ```

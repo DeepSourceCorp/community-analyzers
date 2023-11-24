@@ -15,7 +15,7 @@ The following code produces this diagnostic because the field
 
 ```dart
 class C {
-  final String [!_originalValue!];
+  final String _originalValue;
   final String _currentValue;
 
   C(this._originalValue) : _currentValue = _originalValue;

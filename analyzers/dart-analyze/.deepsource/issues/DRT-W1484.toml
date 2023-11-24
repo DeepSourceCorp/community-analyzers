@@ -39,7 +39,7 @@ mixin M on I {
   }
 }
 
-abstract class C extends B with [!M!] {}
+abstract class C extends B with M {}
 ```
 
 #### Common fixes

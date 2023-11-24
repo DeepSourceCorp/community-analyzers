@@ -19,8 +19,8 @@ The following code produces this diagnostic:
 void f() {
   try {
   } catch (e) {
-  } [!on String {
-  }!]
+  } on String {
+  }
 }
 ```
 

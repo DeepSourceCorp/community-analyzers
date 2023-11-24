@@ -17,7 +17,7 @@ doesn't have a case for the value `E.three`:
 ```dart
 enum E { one, two, three }
 
-String f(E e) => [!switch!] (e) {
+String f(E e) => switch (e) {
     E.one => 'one',
     E.two => 'two',
   };

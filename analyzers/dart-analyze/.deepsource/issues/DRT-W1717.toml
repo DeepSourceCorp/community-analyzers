@@ -19,7 +19,7 @@ returning a string from the iterable:
 
 ```dart
 Iterable<int> get zero sync* {
-  yield [!'0'!];
+  yield '0';
 }
 ```
 

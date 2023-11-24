@@ -16,7 +16,7 @@ The following code produces this diagnostic because `s` might be `null`:
 
 ```dart
 void f(String? s) {
-  throw [!s!];
+  throw s;
 }
 ```
 

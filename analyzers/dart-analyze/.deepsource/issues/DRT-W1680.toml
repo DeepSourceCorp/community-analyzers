@@ -23,7 +23,7 @@ The following code produces this diagnostic because `d` is being compared
 to `double.nan`:
 
 ```dart
-bool isNaN(double d) => d [!== double.nan!];
+bool isNaN(double d) => d == double.nan;
 ```
 
 #### Common fixes

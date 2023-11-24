@@ -23,7 +23,7 @@ The following code produces this diagnostic because `x` can't be `null`:
 
 ```dart
 int f(int x) {
-  return x ?? [!0!];
+  return x ?? 0;
 }
 ```
 
@@ -34,7 +34,7 @@ class C {
   int f = -1;
 
   void m(int x) {
-    f ??= [!x!];
+    f ??= x;
   }
 }
 ```

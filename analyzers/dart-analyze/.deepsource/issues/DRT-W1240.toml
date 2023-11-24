@@ -17,7 +17,7 @@ for-in loop:
 
 ```dart
 void f(list) {
-  [!await!] for (var e in list) {
+  await for (var e in list) {
     print(e);
   }
 }

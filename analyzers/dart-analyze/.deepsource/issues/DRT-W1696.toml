@@ -15,7 +15,7 @@ The following code produces this diagnostic because nothing defined in
 `dart:async` is referenced in the library:
 
 ```dart
-import [!'dart:async'!];
+import 'dart:async';
 
 void main() {}
 ```

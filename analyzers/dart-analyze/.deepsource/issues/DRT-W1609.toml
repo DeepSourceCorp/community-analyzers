@@ -28,7 +28,7 @@ diagnostic:
 ```dart
 const bool a = true;
 const bool b = false;
-const bool c = a [!&!] b;
+const bool c = a & b;
 ```
 
 #### Common fixes

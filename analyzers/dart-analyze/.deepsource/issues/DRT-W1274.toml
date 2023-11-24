@@ -13,7 +13,7 @@ be a constant doesn't have an initializer.
 The following code produces this diagnostic because `c` isn't initialized:
 
 ```dart
-const [!c!];
+const c;
 ```
 
 #### Common fixes

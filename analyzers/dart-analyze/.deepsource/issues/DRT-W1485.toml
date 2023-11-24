@@ -20,7 +20,7 @@ class A {}
 
 mixin M on A {}
 
-class X = Object with [!M!];
+class X = Object with M;
 ```
 
 #### Common fixes

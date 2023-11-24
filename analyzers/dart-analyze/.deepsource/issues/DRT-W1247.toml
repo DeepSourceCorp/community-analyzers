@@ -16,7 +16,7 @@ The following code produces this diagnostic because `mixin` is a built-in
 identifier:
 
 ```dart
-extension [!mixin!] on int {}
+extension mixin on int {}
 ```
 
 #### Common fixes

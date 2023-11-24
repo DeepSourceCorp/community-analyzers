@@ -17,7 +17,7 @@ initialized twice:
 class C {
   final int f = 0;
 
-  C(this.[!f!]);
+  C(this.f);
 }
 ```
 

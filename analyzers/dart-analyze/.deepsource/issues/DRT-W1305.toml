@@ -16,7 +16,7 @@ being exported twice:
 
 ```dart
 export 'package:meta/meta.dart';
-export [!'package:meta/meta.dart'!];
+export 'package:meta/meta.dart';
 ```
 
 #### Common fixes

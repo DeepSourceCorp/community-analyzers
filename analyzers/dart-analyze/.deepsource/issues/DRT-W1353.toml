@@ -17,7 +17,7 @@ is assigned a value in an initializer:
 ```dart
 class C {
   external int x;
-  C() : [!x!] = 0;
+  C() : x = 0;
 }
 ```
 
@@ -26,7 +26,7 @@ has an initializer:
 
 ```dart
 class C {
-  external final int [!x!] = 0;
+  external final int x = 0;
 }
 ```
 
@@ -34,7 +34,7 @@ The following code produces this diagnostic because the external top level
 variable `x` has an initializer:
 
 ```dart
-external final int [!x!] = 0;
+external final int x = 0;
 ```
 
 #### Common fixes

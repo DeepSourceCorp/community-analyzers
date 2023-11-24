@@ -19,7 +19,7 @@ The following code produces this diagnostic because the annotation
 import 'dart:ffi';
 
 final class C extends Struct {
-  [!@Double()!]
+  @Double()
   external int x;
 }
 ```

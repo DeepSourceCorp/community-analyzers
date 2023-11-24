@@ -21,7 +21,7 @@ of `null`, but is referenced before a value was assigned to it:
 ```dart
 String f() {
   int x;
-  return [!x!].toString();
+  return x.toString();
 }
 ```
 
@@ -34,7 +34,7 @@ int g(bool b) {
   if (b) {
     x = 1;
   }
-  return [!x!] * 2;
+  return x * 2;
 }
 ```
 
@@ -49,7 +49,7 @@ int h(bool b) {
     x = 1;
   }
   if (b) {
-    return [!x!] * 2;
+    return x * 2;
   }
   return 0;
 }

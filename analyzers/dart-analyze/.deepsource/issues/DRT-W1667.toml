@@ -17,7 +17,7 @@ used in the body of `f` even though the body of `f` isn't marked with the
 `async` keyword:
 
 ```dart
-void f(p) { [!await!] p; }
+void f(p) { await p; }
 ```
 
 #### Common fixes

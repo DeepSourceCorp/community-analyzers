@@ -16,7 +16,7 @@ The following code produces this diagnostic because the invocation of
 ```dart
 void f() {
   return;
-  [!print('here');!]
+  print('here');
 }
 ```
 

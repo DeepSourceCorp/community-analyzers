@@ -18,7 +18,7 @@ the class `C`:
 ```dart
 typedef T<S> = S;
 
-class C extends [!T!]<Object> {}
+class C extends T<Object> {}
 ```
 
 #### Common fixes

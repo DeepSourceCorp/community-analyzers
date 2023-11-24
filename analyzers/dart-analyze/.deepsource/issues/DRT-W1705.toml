@@ -19,7 +19,7 @@ object on which `toString` can be invoked:
 void f() {}
 
 void g() {
-  [!f()!].toString();
+  f().toString();
 }
 ```
 

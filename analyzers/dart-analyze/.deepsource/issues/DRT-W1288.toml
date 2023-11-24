@@ -14,7 +14,7 @@ Assuming the following code is opted in to null safety, it produces this
 diagnostic because it uses the default `List` constructor:
 
 ```dart
-var l = [!List<int>!]();
+var l = List<int>();
 ```
 
 #### Common fixes

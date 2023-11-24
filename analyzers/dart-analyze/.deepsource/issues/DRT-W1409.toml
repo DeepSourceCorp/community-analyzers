@@ -22,7 +22,7 @@ being used as an annotation when the library `dart:math` is imported as
 ```dart
 import 'dart:math' deferred as math;
 
-@[!math.pi!]
+@math.pi
 void f() {}
 ```
 

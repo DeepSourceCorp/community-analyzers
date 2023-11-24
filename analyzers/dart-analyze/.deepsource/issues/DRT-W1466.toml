@@ -14,7 +14,7 @@ The following code produces this diagnostic because `2` is an `int`, but
 the keys of the map are required to be `String`s:
 
 ```dart
-var m = <String, String>{[!2!] : 'a'};
+var m = <String, String>{2 : 'a'};
 ```
 
 #### Common fixes

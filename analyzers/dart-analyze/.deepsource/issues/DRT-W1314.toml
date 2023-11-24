@@ -17,7 +17,7 @@ is matched twice in the same record pattern:
 ```dart
 void f(({int a, int b}) r) {
   switch (r) {
-    case (a: 1, [!a!]: 2):
+    case (a: 1, a: 2):
       return;
   }
 }
@@ -29,7 +29,7 @@ matched twice in the same object pattern:
 ```dart
 void f(Object o) {
   switch (o) {
-    case C(f: 1, [!f!]: 2):
+    case C(f: 1, f: 2):
       return;
   }
 }

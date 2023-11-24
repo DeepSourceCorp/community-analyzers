@@ -17,28 +17,28 @@ The following code produces this diagnostic because `String` is used in an
 `extends` clause:
 
 ```dart
-class A extends [!String!] {}
+class A extends String {}
 ```
 
 The following code produces this diagnostic because `String` is used in an
 `implements` clause:
 
 ```dart
-class B implements [!String!] {}
+class B implements String {}
 ```
 
 The following code produces this diagnostic because `String` is used in a
 `with` clause:
 
 ```dart
-class C with [!String!] {}
+class C with String {}
 ```
 
 The following code produces this diagnostic because `String` is used in an
 `on` clause:
 
 ```dart
-mixin M on [!String!] {}
+mixin M on String {}
 ```
 
 #### Common fixes

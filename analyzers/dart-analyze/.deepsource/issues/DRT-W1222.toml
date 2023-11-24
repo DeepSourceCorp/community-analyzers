@@ -22,7 +22,7 @@ literal or a set literal.
 The following code produces this diagnostic:
 
 ```dart
-union(a, b) => [!{...a, ...b}!];
+union(a, b) => {...a, ...b};
 ```
 
 The problem occurs because there are no type arguments, and there is no
@@ -58,7 +58,7 @@ original code looks like this:
 
 ```dart
 union(a, b) {
-  var x = [!{...a, ...b}!];
+  var x = {...a, ...b};
   return x;
 }
 ```

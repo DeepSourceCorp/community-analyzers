@@ -19,7 +19,7 @@ The following code produces this diagnostic:
 class C {
   final String value;
 
-  [!C!]();
+  C();
 }
 ```
 

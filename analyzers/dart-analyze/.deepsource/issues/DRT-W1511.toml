@@ -31,7 +31,7 @@ import 'a.dart' deferred as a;
 
 void f(int x) {
   switch (x) {
-    case a.[!zero!]:
+    case a.zero:
       // ...
       break;
   }

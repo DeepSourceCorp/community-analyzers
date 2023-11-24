@@ -15,7 +15,7 @@ assigned a value inside the guard clause:
 
 ```dart
 void f(int x) {
-  if (x case var a when ([!a!] = 1) > 0) {
+  if (x case var a when (a = 1) > 0) {
     print(a);
   }
 }

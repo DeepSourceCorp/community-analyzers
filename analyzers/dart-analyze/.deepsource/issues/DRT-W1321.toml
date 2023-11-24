@@ -14,7 +14,7 @@ The following code produces this diagnostic because the empty record type
 has a trailing comma:
 
 ```dart
-void f(([!,!]) r) {}
+void f((,) r) {}
 ```
 
 #### Common fixes

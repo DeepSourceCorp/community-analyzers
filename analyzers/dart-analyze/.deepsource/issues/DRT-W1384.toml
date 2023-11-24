@@ -16,7 +16,7 @@ rather than a class or mixin:
 
 ```dart
 var x;
-class C implements [!x!] {}
+class C implements x {}
 ```
 
 #### Common fixes

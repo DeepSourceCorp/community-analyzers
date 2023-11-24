@@ -15,7 +15,7 @@ The following code produces this diagnostic:
 
 ```dart
 var m = <String, int>{'a': 0, 'b': 1};
-var s = <String>{...[!m!]};
+var s = <String>{...m};
 ```
 
 #### Common fixes

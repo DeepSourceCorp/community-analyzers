@@ -18,7 +18,7 @@ The following code produces this diagnostic because `f` is a function:
 C f() => throw 0;
 
 class C {
-  factory C() = [!f!];
+  factory C() = f;
 }
 ```
 

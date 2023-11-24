@@ -17,7 +17,7 @@ isn't a subtype of `String` (the type of `s`):
 ```dart
 void f(String s) {
   switch (s) {
-    case [!1!]:
+    case 1:
       break;
   }
 }

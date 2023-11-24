@@ -17,7 +17,7 @@ matched (`x`) is `int`, and a Boolean can never match an integer:
 
 ```dart
 void f(int x) {
-  if (x case [!true!]) {}
+  if (x case true) {}
 }
 ```
 

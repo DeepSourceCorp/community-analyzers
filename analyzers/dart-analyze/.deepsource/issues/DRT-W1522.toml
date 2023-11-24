@@ -23,7 +23,7 @@ class C {
   const C();
 }
 
-C f() => [!C()!];
+C f() => C();
 ```
 
 #### Common fixes

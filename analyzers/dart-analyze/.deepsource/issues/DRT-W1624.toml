@@ -28,7 +28,7 @@ is declared in a deferred library:
 ```dart
 import 'a.dart' deferred as a;
 
-class B extends [!a.A!] {}
+class B extends a.A {}
 ```
 
 #### Common fixes

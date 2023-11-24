@@ -15,7 +15,7 @@ expected to return an `int`, but no value is being returned:
 
 ```dart
 int f() {
-  [!return!];
+  return;
 }
 ```
 

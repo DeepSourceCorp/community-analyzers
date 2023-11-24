@@ -14,7 +14,7 @@ The following code produces this diagnostic because the name `undefined`
 isn't defined:
 
 ```dart
-[!@undefined!]
+@undefined
 void f() {}
 ```
 

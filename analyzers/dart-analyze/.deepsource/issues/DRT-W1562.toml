@@ -20,7 +20,7 @@ The following code produces this diagnostic because `a.dart` doesn't
 contain a part-of directive:
 
 ```dart
-part [!'a.dart'!];
+part 'a.dart';
 ```
 
 #### Common fixes

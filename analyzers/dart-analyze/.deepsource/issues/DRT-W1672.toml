@@ -17,7 +17,7 @@ doesn't have a parameter named `b`:
 ```dart
 import 'package:meta/meta.dart';
 
-@UseResult.unless(parameterDefined: [!'b'!])
+@UseResult.unless(parameterDefined: 'b')
 int f([int? a]) => a ?? 0;
 ```
 

@@ -14,7 +14,7 @@ The following code produces this diagnostic because `x` can't be `null`:
 
 ```dart
 int f(int x) {
-  return x[!!!];
+  return x!;
 }
 ```
 

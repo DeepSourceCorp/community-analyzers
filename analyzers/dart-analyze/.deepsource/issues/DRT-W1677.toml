@@ -16,7 +16,7 @@ be an `int` as a result of the `is` test:
 ```dart
 void f(num n) {
   if (n is int) {
-    ([!n as int!]).isEven;
+    (n as int).isEven;
   }
 }
 ```

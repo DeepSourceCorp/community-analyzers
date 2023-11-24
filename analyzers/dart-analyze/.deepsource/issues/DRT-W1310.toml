@@ -15,7 +15,7 @@ The following code produces this diagnostic:
 
 ```dart
 import 'package:meta/meta.dart';
-import [!'package:meta/meta.dart'!];
+import 'package:meta/meta.dart';
 
 @sealed class C {}
 ```

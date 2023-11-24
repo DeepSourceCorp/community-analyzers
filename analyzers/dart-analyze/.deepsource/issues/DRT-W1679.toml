@@ -30,7 +30,7 @@ imported from `a.dart`, is also imported from `b.dart`. Removing the import
 of `a.dart` leaves the semantics unchanged:
 
 ```dart
-import [!'a.dart'!];
+import 'a.dart';
 import 'b.dart';
 
 void f(A a, B b) {}

@@ -14,7 +14,7 @@ The following code produces this diagnostic because `f` has a return type
 of `String` but is returning an `int`:
 
 ```dart
-String f() => [!3!];
+String f() => 3;
 ```
 
 #### Common fixes

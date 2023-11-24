@@ -19,7 +19,7 @@ The following code produces this diagnostic because the type of `p` is
 
 ```dart
 void f(dynamic list) {
-  [!list.fold!]<int>;
+  list.fold<int>;
 }
 ```
 

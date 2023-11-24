@@ -17,7 +17,7 @@ see whether the value of `s` is `null` by using a type check:
 
 ```dart
 void f(String? s) {
-  if ([!s is Null!]) {
+  if (s is Null) {
     return;
   }
   print(s);
@@ -30,7 +30,7 @@ check:
 
 ```dart
 void f(String? s) {
-  if ([!s is! Null!]) {
+  if (s is! Null) {
     print(s);
   }
 }

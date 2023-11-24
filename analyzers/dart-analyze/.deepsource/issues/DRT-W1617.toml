@@ -25,7 +25,7 @@ In the package that has that pubspec, code like the following produces
 this diagnostic:
 
 ```dart
-var digits = [[!for (int i = 0; i < 10; i++) i!]];
+var digits = [for (int i = 0; i < 10; i++) i];
 ```
 
 #### Common fixes

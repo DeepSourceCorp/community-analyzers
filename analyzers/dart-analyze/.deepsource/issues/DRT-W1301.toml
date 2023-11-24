@@ -22,7 +22,7 @@ variable, which isn't one of the allowed cases:
 int i = 1;
 
 void f() {
-  print([!i!]<int>);
+  print(i<int>);
 }
 ```
 

@@ -19,7 +19,7 @@ an instance getter named `index`:
 enum E {
   v;
 
-  int get [!index!] => 0;
+  int get index => 0;
 }
 ```
 
@@ -28,7 +28,7 @@ implements `Enum`, declares an instance field named `hashCode`:
 
 ```dart
 abstract class C implements Enum {
-  int [!hashCode!] = 0;
+  int hashCode = 0;
 }
 ```
 
@@ -40,7 +40,7 @@ getter named `hashCode`:
 abstract class A implements Enum {}
 
 abstract class C implements A {
-  int get [!hashCode!] => 0;
+  int get hashCode => 0;
 }
 ```
 
@@ -49,7 +49,7 @@ has `Enum` in the `on` clause, declares an explicit operator named `==`:
 
 ```dart
 mixin M on Enum {
-  bool operator [!==!](Object? other) => false;
+  bool operator ==(Object? other) => false;
 }
 ```
 

@@ -16,21 +16,21 @@ The following code produces this diagnostic because the type parameter `T`
 is being used as a type argument when creating a constant list:
 
 ```dart
-List<T> newList<T>() => const <[!T!]>[];
+List<T> newList<T>() => const <T>[];
 ```
 
 The following code produces this diagnostic because the type parameter `T`
 is being used as a type argument when creating a constant map:
 
 ```dart
-Map<String, T> newSet<T>() => const <String, [!T!]>{};
+Map<String, T> newSet<T>() => const <String, T>{};
 ```
 
 The following code produces this diagnostic because the type parameter `T`
 is being used as a type argument when creating a constant set:
 
 ```dart
-Set<T> newSet<T>() => const <[!T!]>{};
+Set<T> newSet<T>() => const <T>{};
 ```
 
 #### Common fixes

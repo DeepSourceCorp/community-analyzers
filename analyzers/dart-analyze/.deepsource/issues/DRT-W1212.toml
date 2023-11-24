@@ -18,7 +18,7 @@ The following code produces this diagnostic because there are two
 import 'dart:ffi';
 
 @AbiSpecificIntegerMapping({Abi.macosX64 : Int8()})
-@[!AbiSpecificIntegerMapping!]({Abi.linuxX64 : Uint16()})
+@AbiSpecificIntegerMapping({Abi.linuxX64 : Uint16()})
 final class C extends AbiSpecificInteger {
   const C();
 }

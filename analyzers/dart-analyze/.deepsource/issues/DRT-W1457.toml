@@ -21,7 +21,7 @@ The following code produces this diagnostic because the `final` variable
 int f() {
   late final int v;
   v = 0;
-  [!v!] += 1;
+  v += 1;
   return v;
 }
 ```

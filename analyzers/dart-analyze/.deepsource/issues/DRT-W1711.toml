@@ -22,7 +22,7 @@ annotation:
 ```dart
 class C<E> {}
 
-void f([!C<int, int>!] x) {}
+void f(C<int, int> x) {}
 ```
 
 The following code produces this diagnostic because `C` declares one type
@@ -31,7 +31,7 @@ parameter, but two type arguments are provided when creating an instance:
 ```dart
 class C<E> {}
 
-var c = [!C<int, int>!]();
+var c = C<int, int>();
 ```
 
 #### Common fixes

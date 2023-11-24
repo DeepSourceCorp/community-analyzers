@@ -16,7 +16,7 @@ parameters but is invoked with 3 arguments:
 ```dart
 void f(int a, int b) {}
 void g() {
-  f(1, 2, [!3!]);
+  f(1, 2, 3);
 }
 ```
 

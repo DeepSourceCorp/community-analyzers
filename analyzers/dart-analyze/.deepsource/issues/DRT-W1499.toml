@@ -19,7 +19,7 @@ final:
 import 'package:meta/meta.dart';
 
 @immutable
-class [!C!] {
+class C {
   int x;
 
   C(this.x);

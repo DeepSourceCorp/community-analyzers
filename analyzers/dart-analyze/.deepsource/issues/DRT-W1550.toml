@@ -23,7 +23,7 @@ type, and nullable types can't be used in an `implements` clause:
 
 ```dart
 class A {}
-class B implements [!A?!] {}
+class B implements A? {}
 ```
 
 #### Common fixes

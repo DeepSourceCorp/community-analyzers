@@ -21,7 +21,7 @@ class:
 class C<T> {
   C.named();
 }
-C f() => C.named[!<String>!]();
+C f() => C.named<String>();
 ```
 
 #### Common fixes

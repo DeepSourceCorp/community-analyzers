@@ -16,7 +16,7 @@ function `f` has the `async` modifier even though the return type isn't
 assignable to `Future`:
 
 ```dart
-[!int!] f() async {
+int f() async {
   return 0;
 }
 ```

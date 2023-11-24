@@ -20,7 +20,7 @@ initializer:
 import 'dart:ffi';
 
 final class C extends Struct {
-  Pointer [!p!] = nullptr;
+  Pointer p = nullptr;
 }
 ```
 

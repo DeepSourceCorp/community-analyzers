@@ -15,7 +15,7 @@ The following code produces this diagnostic because the constructor for `C`
 isn't a const constructor:
 
 ```dart
-[!@C()!]
+@C()
 void f() {
 }
 

@@ -14,7 +14,7 @@ The following code produces this diagnostic because `dart:math` doesn't
 define the name `String`:
 
 ```dart
-import 'dart:math' show min, [!String!];
+import 'dart:math' show min, String;
 
 var x = min(0, 1);
 ```

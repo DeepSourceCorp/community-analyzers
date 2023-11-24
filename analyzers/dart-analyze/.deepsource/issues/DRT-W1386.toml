@@ -17,7 +17,7 @@ in both the `extends` and `implements` clauses for the class `B`:
 ```dart
 class A {}
 
-class B extends A implements [!A!] {}
+class B extends A implements A {}
 ```
 
 The following code produces this diagnostic because the class `A` is used
@@ -26,7 +26,7 @@ in both the `extends` and `with` clauses for the class `B`:
 ```dart
 mixin class A {}
 
-class B extends A with [!A!] {}
+class B extends A with A {}
 ```
 
 #### Common fixes

@@ -26,7 +26,7 @@ this diagnostic:
 
 ```dart
 const num n = 3;
-const int i = [!n as int!];
+const int i = n as int;
 ```
 
 #### Common fixes

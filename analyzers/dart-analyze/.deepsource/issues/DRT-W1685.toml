@@ -17,7 +17,7 @@ The following code produces this diagnostic because `x` can never be
 
 ```dart
 void f(int x) {
-  if (x [!!= null!]) {
+  if (x != null) {
     print(x);
   }
 }
@@ -28,7 +28,7 @@ The following code produces this diagnostic because `x` can never be
 
 ```dart
 void f(int x) {
-  if (x [!== null!]) {
+  if (x == null) {
     throw ArgumentError("x can't be null");
   }
 }

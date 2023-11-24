@@ -22,7 +22,7 @@ The following code produces this diagnostic because a library that null
 safe is importing a library that isn't null safe:
 
 ```dart
-import [!'a.dart'!];
+import 'a.dart';
 
 A? f() => null;
 ```

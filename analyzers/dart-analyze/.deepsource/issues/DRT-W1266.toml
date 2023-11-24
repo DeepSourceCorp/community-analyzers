@@ -17,7 +17,7 @@ initialized to a non-constant value:
 String x = '3';
 class C {
   final String s = x;
-  [!const!] C();
+  const C();
 }
 ```
 

@@ -14,7 +14,7 @@ The following code produces this diagnostic because `F` depends on itself
 indirectly through `G`:
 
 ```dart
-typedef [!F!] = void Function(G);
+typedef F = void Function(G);
 typedef G = void Function(F);
 ```
 

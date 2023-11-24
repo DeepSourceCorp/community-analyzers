@@ -14,7 +14,7 @@ The following code produces this diagnostic because `List<int>` isn't a
 supertype of `List<String>`:
 
 ```dart
-void main([!List<int>!] args) {}
+void main(List<int> args) {}
 ```
 
 #### Common fixes

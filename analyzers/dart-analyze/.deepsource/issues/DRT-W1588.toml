@@ -16,7 +16,7 @@ abstract class:
 
 ```dart
 class A {
-  factory A() = [!B!];
+  factory A() = B;
 }
 
 abstract class B implements A {}

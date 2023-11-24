@@ -29,7 +29,7 @@ The following code produces this diagnostic because the named extension is
 visible to the library:
 
 ```dart
-import [!'a.dart'!] deferred as a;
+import 'a.dart' deferred as a;
 
 void f() {
   a.C();

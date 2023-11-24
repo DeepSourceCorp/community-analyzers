@@ -15,7 +15,7 @@ is used in the initializer for `v`, a local variable that is marked `late`:
 
 ```dart
 Future<int> f() async {
-  late var v = [!await!] 42;
+  late var v = await 42;
   return v;
 }
 ```

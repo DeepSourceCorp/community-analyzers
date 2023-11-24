@@ -15,7 +15,7 @@ redirects to the constructor `C.b`, but `C.b` isn't defined:
 
 ```dart
 class C {
-  C.a() : [!this.b()!];
+  C.a() : this.b();
 }
 ```
 

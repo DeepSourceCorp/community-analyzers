@@ -21,7 +21,7 @@ define a const constructor:
 import 'dart:ffi';
 
 @AbiSpecificIntegerMapping({Abi.macosX64 : Int8()})
-final class [!C!] extends AbiSpecificInteger {
+final class C extends AbiSpecificInteger {
 }
 ```
 
@@ -32,7 +32,7 @@ a `const` constructor:
 import 'dart:ffi';
 
 @AbiSpecificIntegerMapping({Abi.macosX64 : Int8()})
-final class [!C!] extends AbiSpecificInteger {
+final class C extends AbiSpecificInteger {
   C();
 }
 ```
@@ -44,7 +44,7 @@ multiple constructors:
 import 'dart:ffi';
 
 @AbiSpecificIntegerMapping({Abi.macosX64 : Int8()})
-final class [!C!] extends AbiSpecificInteger {
+final class C extends AbiSpecificInteger {
   const C.zero();
   const C.one();
 }
@@ -57,7 +57,7 @@ a field:
 import 'dart:ffi';
 
 @AbiSpecificIntegerMapping({Abi.macosX64 : Int8()})
-final class [!C!] extends AbiSpecificInteger {
+final class C extends AbiSpecificInteger {
   final int i;
 
   const C(this.i);
@@ -71,7 +71,7 @@ type parameter:
 import 'dart:ffi';
 
 @AbiSpecificIntegerMapping({Abi.macosX64 : Int8()})
-final class [!C!]<T> extends AbiSpecificInteger { // type parameters
+final class C<T> extends AbiSpecificInteger { // type parameters
   const C();
 }
 ```

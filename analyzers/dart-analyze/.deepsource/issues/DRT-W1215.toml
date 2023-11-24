@@ -15,7 +15,7 @@ The following code produces this diagnostic because `f` is marked as
 
 ```dart
 abstract class C {
-  abstract int [!f!] = 0;
+  abstract int f = 0;
 }
 ```
 
@@ -26,7 +26,7 @@ The following code produces this diagnostic because `f` is marked as
 abstract class C {
   abstract int f;
 
-  C() : [!f!] = 0;
+  C() : f = 0;
 }
 ```
 

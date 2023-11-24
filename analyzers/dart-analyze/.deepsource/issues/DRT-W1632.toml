@@ -27,7 +27,7 @@ class A {
 }
 
 class B extends A {
-  B(super.[!x!]);
+  B(super.x);
 }
 ```
 
@@ -42,7 +42,7 @@ class A {
 }
 
 class B extends A {
-  B(super.x, super.[!y!]);
+  B(super.x, super.y);
 }
 ```
 

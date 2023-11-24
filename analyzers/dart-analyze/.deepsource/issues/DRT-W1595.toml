@@ -20,7 +20,7 @@ is declared:
 
 ```dart
 void f() {
-  print([!i!]);
+  print(i);
   int i = 5;
 }
 ```

@@ -21,7 +21,7 @@ class Factory {
   C c = C();
 
   @factory
-  C [!createC!]() => c;
+  C createC() => c;
 }
 
 class C {}

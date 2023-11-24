@@ -17,7 +17,7 @@ class C {
   final int i;
   const C(this.i);
 }
-C f(int i) => const C([!i!]);
+C f(int i) => const C(i);
 ```
 
 #### Common fixes

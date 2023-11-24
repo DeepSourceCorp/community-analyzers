@@ -17,7 +17,7 @@ has the modifier `mixin`, extends `A`:
 ```dart
 class A {}
 
-mixin class B extends [!A!] {}
+mixin class B extends A {}
 ```
 
 #### Common fixes

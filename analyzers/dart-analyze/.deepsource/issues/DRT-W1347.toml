@@ -16,7 +16,7 @@ field:
 
 ```dart
 extension E on String {
-  String [!s!];
+  String s;
 }
 ```
 

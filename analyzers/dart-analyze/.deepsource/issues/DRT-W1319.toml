@@ -14,7 +14,7 @@ The following code produces this diagnostic because the empty record
 literal has a trailing comma:
 
 ```dart
-var r = ([!,!]);
+var r = (,);
 ```
 
 #### Common fixes

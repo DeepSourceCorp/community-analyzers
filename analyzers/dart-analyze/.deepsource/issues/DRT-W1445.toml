@@ -27,7 +27,7 @@ implemented outside of the library where it's defined:
 ```dart
 import 'a.dart';
 
-final class B implements [!A!] {}
+final class B implements A {}
 ```
 
 #### Common fixes

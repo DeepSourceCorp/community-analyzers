@@ -18,7 +18,7 @@ throw:
 
 ```dart
 void f() {
-  [!g()!!];
+  g()!;
 }
 
 Null g() => null;

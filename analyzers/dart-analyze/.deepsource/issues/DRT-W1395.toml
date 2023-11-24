@@ -20,7 +20,7 @@ defined to be an `int` on one branch and a `double` on the other:
 
 ```dart
 void f(Object? x) {
-  if (x case (int a) || (double [!a!])) {
+  if (x case (int a) || (double a)) {
     print(a);
   }
 }
@@ -31,7 +31,7 @@ The following code produces this diagnostic because the variable `a` is
 
 ```dart
 void f(Object? x) {
-  if (x case (final int a) || (int [!a!])) {
+  if (x case (final int a) || (int a)) {
     print(a);
   }
 }

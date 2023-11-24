@@ -18,7 +18,7 @@ class C {
   int x;
 
   static int m() {
-    return [!x!];
+    return x;
   }
 }
 ```

@@ -15,7 +15,7 @@ have a single parameter corresponding to the right operand:
 
 ```dart
 class C {
-  int operator [!+!](a, b) => 0;
+  int operator +(a, b) => 0;
 }
 ```
 

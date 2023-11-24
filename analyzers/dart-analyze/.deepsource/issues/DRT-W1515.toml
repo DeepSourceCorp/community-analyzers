@@ -15,7 +15,7 @@ spread a non-constant map:
 
 ```dart
 var notConst = <int, int>{};
-var map = const <int, int>{...[!notConst!]};
+var map = const <int, int>{...notConst};
 ```
 
 Similarly, the following code produces this diagnostic because the
@@ -23,7 +23,7 @@ condition in the `if` element isn't a constant expression:
 
 ```dart
 bool notConst = true;
-var map = const <int, int>{if ([!notConst!]) 1 : 2};
+var map = const <int, int>{if (notConst) 1 : 2};
 ```
 
 #### Common fixes

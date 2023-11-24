@@ -18,7 +18,7 @@ initializer list:
 class C {
   int f;
 
-  C(this.f) : [!f!] = 0;
+  C(this.f) : f = 0;
 }
 ```
 

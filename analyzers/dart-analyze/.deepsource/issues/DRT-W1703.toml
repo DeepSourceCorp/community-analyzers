@@ -17,7 +17,7 @@ The following code produces this diagnostic because the string in the
 `import` directive contains an interpolation:
 
 ```dart
-import [!'dart:$m'!];
+import 'dart:$m';
 
 const m = 'math';
 ```

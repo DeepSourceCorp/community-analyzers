@@ -17,7 +17,7 @@ is declared to not return `null`:
 
 ```dart
 class C {
-  int [!m!](int t) {
+  int m(int t) {
     print(t);
   }
 }
@@ -30,7 +30,7 @@ method is effectively declared to not return `null`:
 
 ```dart
 class C<T> {
-  T [!m!](T t) {
+  T m(T t) {
     print(t);
   }
 }

@@ -15,7 +15,7 @@ The following code produces this diagnostic because the class `A` is
 declared to be a subtype of `B`, and `B` is a subtype of `A`:
 
 ```dart
-class [!A!] extends B {}
+class A extends B {}
 class B implements A {}
 ```
 

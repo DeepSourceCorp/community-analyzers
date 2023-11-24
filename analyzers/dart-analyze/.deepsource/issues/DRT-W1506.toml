@@ -15,7 +15,7 @@ The following code produces this diagnostic because the type of `p` is
 
 ```dart
 void f(int p) {
-  assert([!p!]);
+  assert(p);
 }
 ```
 

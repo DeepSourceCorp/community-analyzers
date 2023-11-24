@@ -16,7 +16,7 @@ The following code produces this diagnostic because the body of the setter
 
 ```dart
 class C {
-  set x(int i) [!async!] {}
+  set x(int i) async {}
 }
 ```
 

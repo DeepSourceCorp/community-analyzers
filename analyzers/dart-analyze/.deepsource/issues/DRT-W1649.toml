@@ -16,7 +16,7 @@ The following code produces this diagnostic because the static method
 
 ```dart
 class C<T> {
-  static bool hasType(Object o) => o is [!T!];
+  static bool hasType(Object o) => o is T;
 }
 ```
 

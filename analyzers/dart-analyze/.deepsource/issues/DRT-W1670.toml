@@ -16,7 +16,7 @@ define the operator `+`:
 ```dart
 class C {}
 
-C f(C c) => c [!+!] 2;
+C f(C c) => c + 2;
 ```
 
 #### Common fixes

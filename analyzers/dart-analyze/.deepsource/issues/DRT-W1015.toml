@@ -15,7 +15,7 @@ The following code produces this diagnostic because `x` is deprecated:
 ```dart
 @deprecated
 var x = 0;
-var y = [!x!];
+var y = x;
 ```
 
 #### Common fixes

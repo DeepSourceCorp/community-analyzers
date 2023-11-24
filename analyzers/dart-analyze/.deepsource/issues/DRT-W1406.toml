@@ -15,7 +15,7 @@ The following code produces this diagnostic because the value can't be
 represented in 64 bits:
 
 ```dart
-var x = [!9223372036854775810!];
+var x = 9223372036854775810;
 ```
 
 #### Common fixes

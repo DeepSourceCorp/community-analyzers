@@ -16,7 +16,7 @@ The following code produces this diagnostic because `Piont` isn't defined:
 ```dart
 class Point {}
 
-void f([!Piont!] p) {}
+void f(Piont p) {}
 ```
 
 #### Common fixes

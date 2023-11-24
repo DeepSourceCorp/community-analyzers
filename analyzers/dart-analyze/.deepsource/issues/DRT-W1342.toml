@@ -16,7 +16,7 @@ function:
 ```dart
 void f() {}
 
-class C extends [!f!] {}
+class C extends f {}
 ```
 
 #### Common fixes

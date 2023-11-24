@@ -15,7 +15,7 @@ The following code produces this diagnostic because the function `max`
 isn't used:
 
 ```dart
-import 'dart:math' show min, [!max!];
+import 'dart:math' show min, max;
 
 var x = min(0, 1);
 ```

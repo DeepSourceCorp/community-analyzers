@@ -22,7 +22,7 @@ the factory constructor:
 class C {
   int x;
   factory C() {
-    return C._([!x!]);
+    return C._(x);
   }
   C._(this.x);
 }

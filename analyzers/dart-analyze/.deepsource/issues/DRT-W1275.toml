@@ -25,7 +25,7 @@ class C {
   bool operator ==(Object other) => true;
 }
 
-const set = {[!C()!]};
+const set = {C()};
 ```
 
 The following code produces this diagnostic because the constant set
@@ -39,7 +39,7 @@ class C {
   int get hashCode => 3;
 }
 
-const map = {[!C()!]};
+const map = {C()};
 ```
 
 #### Common fixes

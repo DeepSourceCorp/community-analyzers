@@ -15,7 +15,7 @@ The following code produces this diagnostic because the question mark
 following `dynamic` isn't necessary:
 
 ```dart
-dynamic[!?!] x;
+dynamic? x;
 ```
 
 #### Common fixes

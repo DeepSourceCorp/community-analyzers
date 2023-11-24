@@ -19,7 +19,7 @@ cast to a non-nullable type (`int`) when it's known to have the value
 ```dart
 void f() {
   num? x;
-  [!x!] as int;
+  x as int;
   print(x);
 }
 ```

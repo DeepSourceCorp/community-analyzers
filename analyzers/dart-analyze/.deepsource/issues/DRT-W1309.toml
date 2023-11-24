@@ -19,7 +19,7 @@ doesn't need to be ignored on a specific line:
 ```dart
 // ignore_for_file: unused_local_variable
 void f() {
-  // ignore: [!unused_local_variable!]
+  // ignore: unused_local_variable
   var x = 0;
 }
 ```
@@ -29,7 +29,7 @@ The following code produces this diagnostic because the diagnostic named
 
 ```dart
 void f() {
-  // ignore: unused_local_variable, [!unused_local_variable!]
+  // ignore: unused_local_variable, unused_local_variable
   var x = 0;
 }
 ```

@@ -17,7 +17,7 @@ element type of `String`, and `String` can't be assigned to the type of `e`
 
 ```dart
 void f() {
-  for (int e in [!<String>[]!]) {
+  for (int e in <String>[]) {
     print(e);
   }
 }

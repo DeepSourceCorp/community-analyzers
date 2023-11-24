@@ -15,7 +15,7 @@ defined:
 
 ```dart
 void f(Object o) {
-  if (o is [!Srting!]) {
+  if (o is Srting) {
     // ...
   }
 }

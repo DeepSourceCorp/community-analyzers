@@ -15,7 +15,7 @@ The following code produces this diagnostic because the type parameter `C`
 has the same name as the class `C` of which it's a part:
 
 ```dart
-class C<[!C!]> {}
+class C<C> {}
 ```
 
 #### Common fixes

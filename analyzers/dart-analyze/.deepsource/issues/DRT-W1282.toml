@@ -24,7 +24,7 @@ final class C extends Struct {
 }
 
 void f() {
-  [!C!]();
+  C();
 }
 ```
 

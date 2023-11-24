@@ -21,7 +21,7 @@ parameter of type `Handle`, but the `isLeaf` argument is `true`:
 import 'dart:ffi';
 
 void f(Pointer<NativeFunction<Void Function(Handle)>> p) {
-  [!p.asFunction<void Function(Object)>(isLeaf: true)!];
+  p.asFunction<void Function(Object)>(isLeaf: true);
 }
 ```
 

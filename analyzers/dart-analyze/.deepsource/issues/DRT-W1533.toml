@@ -15,7 +15,7 @@ a type:
 
 ```dart
 var x = 0;
-List<[!x!]> xList = [];
+List<x> xList = [];
 ```
 
 #### Common fixes

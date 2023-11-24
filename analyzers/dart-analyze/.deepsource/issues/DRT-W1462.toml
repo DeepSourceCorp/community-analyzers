@@ -14,7 +14,7 @@ The following code produces this diagnostic because the function named
 `main` has a required named parameter (`x`):
 
 ```dart
-void [!main!]({required int x}) {}
+void main({required int x}) {}
 ```
 
 #### Common fixes

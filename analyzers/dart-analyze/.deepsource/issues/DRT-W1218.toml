@@ -27,7 +27,7 @@ exported from both `a.dart` and `b.dart`:
 
 ```dart
 export 'a.dart';
-export [!'b.dart'!];
+export 'b.dart';
 ```
 
 #### Common fixes

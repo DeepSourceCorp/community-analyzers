@@ -18,7 +18,7 @@ The following code produces this diagnostic because the record type has
 one positional field, but doesn't have a trailing comma:
 
 ```dart
-void f((int[!)!] r) {}
+void f((int) r) {}
 ```
 
 #### Common fixes

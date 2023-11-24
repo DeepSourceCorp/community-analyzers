@@ -17,7 +17,7 @@ both redirects to `C.b` and invokes a constructor from the superclass:
 
 ```dart
 class C {
-  C.a() : this.b(), [!super()!];
+  C.a() : this.b(), super();
   C.b();
 }
 ```

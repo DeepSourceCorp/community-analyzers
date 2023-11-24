@@ -14,7 +14,7 @@ The following code produces this diagnostic because `A` is included twice
 in the superclass constraints for `M`:
 
 ```dart
-mixin M on A, [!A!] {
+mixin M on A, A {
 }
 
 class A {}

@@ -30,7 +30,7 @@ tests:
 import 'c.dart';
 
 void f(C c) {
-  c.[!m!]();
+  c.m();
 }
 ```
 

@@ -22,7 +22,7 @@ being initialized using the constant `math.pi` from the library
 ```dart
 import 'dart:math' deferred as math;
 
-const pi = math.[!pi!];
+const pi = math.pi;
 ```
 
 #### Common fixes

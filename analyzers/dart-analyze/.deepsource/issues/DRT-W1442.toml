@@ -17,7 +17,7 @@ covariant:
 
 ```dart
 extension E on String {
-  void a([!covariant!] int i) {}
+  void a(covariant int i) {}
 }
 ```
 

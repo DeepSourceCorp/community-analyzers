@@ -15,7 +15,7 @@ be `null`, but it's being cast to a non-nullable type:
 
 ```dart
 void f(Null n) {
-  [!n as int!];
+  n as int;
 }
 ```
 

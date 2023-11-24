@@ -15,7 +15,7 @@ default value can never be used.
 The following code generates this diagnostic:
 
 ```dart
-void log({required String [!message!] = 'no message'}) {}
+void log({required String message = 'no message'}) {}
 ```
 
 #### Common fixes

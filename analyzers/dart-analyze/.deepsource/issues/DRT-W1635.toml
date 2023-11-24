@@ -16,7 +16,7 @@ in an extension:
 
 ```dart
 extension E on Object {
-  String get displayString => [!super!].toString();
+  String get displayString => super.toString();
 }
 ```
 

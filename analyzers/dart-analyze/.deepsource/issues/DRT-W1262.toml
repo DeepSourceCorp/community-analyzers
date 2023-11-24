@@ -15,7 +15,7 @@ The following code produces this diagnostic because the type parameter `T`
 has the same name as the field `T`:
 
 ```dart
-class C<[!T!]> {
+class C<T> {
   int T = 0;
 }
 ```

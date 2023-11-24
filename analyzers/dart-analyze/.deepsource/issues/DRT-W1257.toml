@@ -16,7 +16,7 @@ has `Enum` as a superinterface as a result of implementing `A`:
 ```dart
 abstract class A implements Enum {}
 
-class [!B!] implements A {}
+class B implements A {}
 ```
 
 #### Common fixes

@@ -16,7 +16,7 @@ is being initialized by a factory constructor:
 
 ```dart
 enum E {
-  [!e!]();
+  e();
 
   factory E() => e;
 }

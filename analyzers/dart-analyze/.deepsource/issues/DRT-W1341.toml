@@ -13,7 +13,7 @@ expression, rather than a map entry, in what appears to be a map literal.
 The following code produces this diagnostic:
 
 ```dart
-var map = <String, int>{'a': 0, 'b': 1, [!'c'!]};
+var map = <String, int>{'a': 0, 'b': 1, 'c'};
 ```
 
 #### Common fixes

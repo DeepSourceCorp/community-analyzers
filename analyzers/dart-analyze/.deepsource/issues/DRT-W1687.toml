@@ -22,7 +22,7 @@ passed to `g` has a return type of `void`, but is returning a set:
 
 ```dart
 void f() {
-  g(() => [!{1}!]);
+  g(() => {1});
 }
 
 void g(void Function() p) {}

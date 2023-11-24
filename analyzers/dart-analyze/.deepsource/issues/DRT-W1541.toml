@@ -18,7 +18,7 @@ initialized to `null` when it isn't allowed to be `null`:
 
 ```dart
 class C {
-  int [!x!];
+  int x;
 }
 ```
 
@@ -33,7 +33,7 @@ class C {
 
   C(this.x);
 
-  [!C!].n();
+  C.n();
 }
 ```
 

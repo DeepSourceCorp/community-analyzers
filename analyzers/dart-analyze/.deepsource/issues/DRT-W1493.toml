@@ -16,7 +16,7 @@ constraint of `math.Random` is imported from a deferred library:
 ```dart
 import 'dart:async' deferred as async;
 
-mixin M<T> on [!async.Stream<T>!] {}
+mixin M<T> on async.Stream<T> {}
 ```
 
 #### Common fixes

@@ -19,7 +19,7 @@ extends `Struct`, doesn't declare any fields:
 ```dart
 import 'dart:ffi';
 
-final class [!C!] extends Struct {}
+final class C extends Struct {}
 ```
 
 #### Common fixes

@@ -15,7 +15,7 @@ The following code produces this diagnostic because `String` has no member
 named `len`:
 
 ```dart
-int f(String s) => s.[!len!];
+int f(String s) => s.len;
 ```
 
 #### Common fixes

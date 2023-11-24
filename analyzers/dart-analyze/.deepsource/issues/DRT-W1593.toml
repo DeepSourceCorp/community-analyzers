@@ -15,7 +15,7 @@ is marked as `const` but redirects to the constructor `C.b`, which isn't:
 
 ```dart
 class C {
-  const C.a() : this.[!b!]();
+  const C.a() : this.b();
   C.b();
 }
 ```

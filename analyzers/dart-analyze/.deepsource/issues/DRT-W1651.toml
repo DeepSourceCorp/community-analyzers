@@ -17,7 +17,7 @@ a parameter, not a type:
 typedef B = int Function(int);
 
 void f(Object a, B b) {
-  if (a is [!b!]) {
+  if (a is b) {
     return;
   }
 }

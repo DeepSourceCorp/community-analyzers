@@ -16,7 +16,7 @@ The following code produces this diagnostic because the constant pattern
 ```dart
 void f(int e, int i) {
   switch (e) {
-    case [!i!]:
+    case i:
       break;
   }
 }

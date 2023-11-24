@@ -14,7 +14,7 @@ The following code produces this diagnostic because the literal has a map
 entry even though it's a set literal:
 
 ```dart
-var collection = <String>{[!'a' : 'b'!]};
+var collection = <String>{'a' : 'b'};
 ```
 
 #### Common fixes

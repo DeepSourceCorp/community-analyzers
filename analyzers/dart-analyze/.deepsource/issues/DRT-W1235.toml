@@ -16,7 +16,7 @@ can't have a value assigned to it after it was initialized:
 ```dart
 void f() {
   final x = 0;
-  [!x!] = 3;
+  x = 3;
   print(x);
 }
 ```

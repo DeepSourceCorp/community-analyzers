@@ -17,7 +17,7 @@ subtype of `A`, and `A` is a `base` class, but `B` is neither `base`,
 
 ```dart
 base class A {}
-class [!B!] extends A {}
+class B extends A {}
 ```
 
 #### Common fixes

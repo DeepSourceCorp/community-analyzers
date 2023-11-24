@@ -17,7 +17,7 @@ by `Object`:
 
 ```dart
 extension E on String {
-  String [!toString!]() => this;
+  String toString() => this;
 }
 ```
 

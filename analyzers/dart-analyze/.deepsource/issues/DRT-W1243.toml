@@ -18,7 +18,7 @@ with an explicit `return`, causing it to implicitly return `null`:
 
 ```dart
 void g(Future<int> f) {
-  f.catchError((e, st) [!{!]});
+  f.catchError((e, st) {});
 }
 ```
 

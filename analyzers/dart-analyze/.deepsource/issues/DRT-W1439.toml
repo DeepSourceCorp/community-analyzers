@@ -19,7 +19,7 @@ class A {
 }
 
 class B extends A {
-  B.b([!super!].x) : this._();
+  B.b(super.x) : this._();
   B._() : super(0);
 }
 ```
@@ -33,7 +33,7 @@ class A {
 }
 
 class C extends A {
-  factory C.c([!super!].x) => C._();
+  factory C.c(super.x) => C._();
   C._() : super(0);
 }
 ```
@@ -49,7 +49,7 @@ class A {
 class D extends A {
   D() : super(0);
 
-  void m([!super!].x) {}
+  void m(super.x) {}
 }
 ```
 

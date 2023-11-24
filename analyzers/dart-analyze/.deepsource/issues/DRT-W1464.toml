@@ -14,7 +14,7 @@ The following code produces this diagnostic because the name `main` is
 being used to declare a top-level variable:
 
 ```dart
-var [!main!] = 3;
+var main = 3;
 ```
 
 #### Common fixes

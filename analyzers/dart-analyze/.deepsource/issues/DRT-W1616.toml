@@ -24,7 +24,7 @@ In the package that has that pubspec, code like the following produces this
 diagnostic:
 
 ```dart
-var s = [!<int>{}!];
+var s = <int>{};
 ```
 
 #### Common fixes

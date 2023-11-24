@@ -19,7 +19,7 @@ The following code produces this diagnostic because an array dimension of
 import 'dart:ffi';
 
 final class MyStruct extends Struct {
-  @Array([!-8!])
+  @Array(-8)
   external Array<Uint8> a0;
 }
 ```

@@ -15,7 +15,7 @@ referenced anywhere in the method:
 
 ```dart
 void f(int limit) {
-  [!loop:!] for (int i = 0; i < limit; i++) {
+  loop: for (int i = 0; i < limit; i++) {
     print(i);
   }
 }

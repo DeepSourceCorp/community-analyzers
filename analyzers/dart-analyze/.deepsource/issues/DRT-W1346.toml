@@ -17,7 +17,7 @@ declaration in `E`:
 
 ```dart
 extension E on String {
-  [!E!]() : super();
+  E() : super();
 }
 ```
 

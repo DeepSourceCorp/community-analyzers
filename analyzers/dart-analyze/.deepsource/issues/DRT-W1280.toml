@@ -20,7 +20,7 @@ class C<T> {
   const C();
 }
 
-C<T> newC<T>() => const C<[!T!]>();
+C<T> newC<T>() => const C<T>();
 ```
 
 #### Common fixes

@@ -16,7 +16,7 @@ The following code produces this diagnostic because a colon is being used
 before the default value of the optional parameter `i`:
 
 ```dart
-void f({int i [!:!] 0}) {}
+void f({int i : 0}) {}
 ```
 
 #### Common fixes

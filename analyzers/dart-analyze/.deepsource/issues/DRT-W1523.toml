@@ -17,7 +17,7 @@ isn't marked as being `const`:
 enum E {
   e;
 
-  [!E!]();
+  E();
 }
 ```
 

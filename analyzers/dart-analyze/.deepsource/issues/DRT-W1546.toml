@@ -27,7 +27,7 @@ abstract class B {
 }
 
 abstract class C implements A, B {
-  [!m!](a);
+  m(a);
 }
 ```
 

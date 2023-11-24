@@ -14,7 +14,7 @@ The following code produces this diagnostic because `2.5` is a double, and
 the list can hold only integers:
 
 ```dart
-List<int> x = [1, [!2.5!], 3];
+List<int> x = [1, 2.5, 3];
 ```
 
 #### Common fixes

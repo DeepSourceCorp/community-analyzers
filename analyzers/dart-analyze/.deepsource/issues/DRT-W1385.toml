@@ -15,7 +15,7 @@ twice:
 
 ```dart
 class A {}
-class B implements A, [!A!] {}
+class B implements A, A {}
 ```
 
 #### Common fixes

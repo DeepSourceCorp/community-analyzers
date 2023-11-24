@@ -17,7 +17,7 @@ operator, `a`, isn't a constant:
 final a = 0;
 
 void f(int x) {
-  if (x case > [!a!]) {}
+  if (x case > a) {}
 }
 ```
 

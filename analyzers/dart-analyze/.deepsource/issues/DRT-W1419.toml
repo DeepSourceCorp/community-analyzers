@@ -17,7 +17,7 @@ constructor (`A`) isn't the same as the surrounding class (`C`):
 class A {}
 
 class C {
-  factory [!A!]() => throw 0;
+  factory A() => throw 0;
 }
 ```
 

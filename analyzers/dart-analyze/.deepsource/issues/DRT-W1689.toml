@@ -22,7 +22,7 @@ class A {
 }
 
 class B extends A {
-  int get g => [!x!];
+  int get g => x;
 }
 ```
 

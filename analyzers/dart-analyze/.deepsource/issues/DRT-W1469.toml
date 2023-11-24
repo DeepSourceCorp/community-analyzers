@@ -22,7 +22,7 @@ have an annotation indicating the underlying width of the integer value:
 import 'dart:ffi';
 
 final class C extends Struct {
-  external [!int!] x;
+  external int x;
 }
 ```
 

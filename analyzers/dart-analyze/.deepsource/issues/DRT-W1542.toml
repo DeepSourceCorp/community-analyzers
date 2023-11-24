@@ -18,7 +18,7 @@ initialized to `null`:
 
 ```dart
 class C {
-  static int [!f!];
+  static int f;
 }
 ```
 
@@ -26,7 +26,7 @@ Similarly, the following code produces this diagnostic because the
 top-level variable `v` can't be initialized to `null`:
 
 ```dart
-int [!v!];
+int v;
 ```
 
 #### Common fixes

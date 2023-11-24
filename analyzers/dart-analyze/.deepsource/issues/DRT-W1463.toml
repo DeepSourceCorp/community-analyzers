@@ -14,7 +14,7 @@ The following code produces this diagnostic because the function `main` has
 three required positional parameters:
 
 ```dart
-void [!main!](List<String> args, int x, int y) {}
+void main(List<String> args, int x, int y) {}
 ```
 
 #### Common fixes

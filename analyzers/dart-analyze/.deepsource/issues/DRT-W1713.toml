@@ -18,7 +18,7 @@ two type parameters:
 
 ```dart
 enum E<T, U> {
-  c[!<int>!]()
+  c<int>()
 }
 ```
 

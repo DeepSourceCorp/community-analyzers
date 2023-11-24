@@ -15,7 +15,7 @@ The following code produces this diagnostic because the class `A` has a
 
 ```dart
 class A {
-  [!late!] final int f;
+  late final int f;
 
   const A();
 }

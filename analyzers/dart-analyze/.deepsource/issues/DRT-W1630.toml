@@ -20,7 +20,7 @@ class A {
 }
 
 class B extends A {
-  B(String super.[!x!]);
+  B(String super.x);
 }
 ```
 

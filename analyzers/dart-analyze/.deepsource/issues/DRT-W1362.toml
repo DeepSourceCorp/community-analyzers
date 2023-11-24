@@ -23,7 +23,7 @@ final class C extends Struct {
   @Int32()
   int f;
 
-  C() : [!f = 0!];
+  C() : f = 0;
 }
 ```
 

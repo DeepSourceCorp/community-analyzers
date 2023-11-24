@@ -18,7 +18,7 @@ the type parameter `T`:
 ```dart
 import 'dart:ffi';
 
-final class [!S!]<T> extends Struct {
+final class S<T> extends Struct {
   external Pointer notEmpty;
 }
 ```

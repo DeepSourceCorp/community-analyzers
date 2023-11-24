@@ -19,7 +19,7 @@ void f(int i) {
     l: case 0:
       break;
     case 1:
-      break [!l!];
+      break l;
   }
 }
 ```

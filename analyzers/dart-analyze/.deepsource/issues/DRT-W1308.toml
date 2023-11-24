@@ -14,7 +14,7 @@ The following code produces this diagnostic because the name `min` is
 hidden more than once:
 
 ```dart
-import 'dart:math' hide min, [!min!];
+import 'dart:math' hide min, min;
 
 var x = pi;
 ```

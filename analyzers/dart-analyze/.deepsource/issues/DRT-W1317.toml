@@ -16,7 +16,7 @@ declared in both branches of the logical-and pattern:
 
 ```dart
 void f((int, int) r) {
-  if (r case (var a, 0) && (0, var [!a!])) {
+  if (r case (var a, 0) && (0, var a)) {
     print(a);
   }
 }

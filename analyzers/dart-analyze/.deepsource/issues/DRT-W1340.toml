@@ -22,7 +22,7 @@ a part, and only libraries can be exported:
 ```dart
 library lib;
 
-export [!'part.dart'!];
+export 'part.dart';
 ```
 
 #### Common fixes

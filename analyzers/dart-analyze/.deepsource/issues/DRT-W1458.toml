@@ -28,7 +28,7 @@ returns a `Handle`, but the `isLeaf` argument is `true`:
 import 'dart:ffi';
 
 void f(Pointer<NativeFunction<Handle Function()>> p) {
-  [!p.asFunction<Object Function()>(isLeaf: true)!];
+  p.asFunction<Object Function()>(isLeaf: true);
 }
 ```
 

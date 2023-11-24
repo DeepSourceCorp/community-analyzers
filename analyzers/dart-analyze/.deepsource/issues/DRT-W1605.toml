@@ -16,7 +16,7 @@ function that returns a `String`, but the closure assigned to it returns an
 `int`:
 
 ```dart
-String Function(String) f = (s) => [!3!];
+String Function(String) f = (s) => 3;
 ```
 
 #### Common fixes

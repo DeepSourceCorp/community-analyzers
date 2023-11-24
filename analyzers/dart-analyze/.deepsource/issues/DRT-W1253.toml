@@ -15,7 +15,7 @@ a type:
 
 ```dart
 num x = 0;
-int y = x as [!x!];
+int y = x as x;
 ```
 
 #### Common fixes

@@ -16,7 +16,7 @@ function type:
 ```dart
 typedef F = int Function(String);
 
-class C with [!F!] {}
+class C with F {}
 ```
 
 #### Common fixes

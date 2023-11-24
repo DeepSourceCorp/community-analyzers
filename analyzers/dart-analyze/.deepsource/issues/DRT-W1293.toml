@@ -17,7 +17,7 @@ value before being read:
 ```dart
 void f(bool b) {
   late int x;
-  print([!x!]);
+  print(x);
 }
 ```
 

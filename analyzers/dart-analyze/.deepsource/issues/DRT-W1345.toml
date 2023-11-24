@@ -15,7 +15,7 @@ have a body:
 
 ```dart
 extension E on String {
-  int [!a!]();
+  int a();
 }
 ```
 

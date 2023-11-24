@@ -16,7 +16,7 @@ the logical-or pattern doesn't declare the variable `a`:
 
 ```dart
 void f((int, int) r) {
-  if (r case (var a, 0) || [!(0, _)!]) {
+  if (r case (var a, 0) || (0, _)) {
     print(a);
   }
 }

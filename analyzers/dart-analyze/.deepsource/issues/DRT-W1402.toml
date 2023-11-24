@@ -18,7 +18,7 @@ class:
 ```dart
 abstract class C {}
 
-var c = new [!C!]();
+var c = new C();
 ```
 
 #### Common fixes

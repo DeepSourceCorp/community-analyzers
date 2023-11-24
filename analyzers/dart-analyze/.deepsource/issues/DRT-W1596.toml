@@ -27,7 +27,7 @@ declaration, which doesn't allow refutable patterns:
 
 ```dart
 void f(int? x) {
-  var ([!_?!]) = x;
+  var (_?) = x;
 }
 ```
 

@@ -18,7 +18,7 @@ declarations for the unnamed constructor:
 class C {
   C();
 
-  [!C!]();
+  C();
 }
 ```
 
@@ -29,7 +29,7 @@ declarations for the constructor named `m`:
 class C {
   C.m();
 
-  [!C.m!]();
+  C.m();
 }
 ```
 

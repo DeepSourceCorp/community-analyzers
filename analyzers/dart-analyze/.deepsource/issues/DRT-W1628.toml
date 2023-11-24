@@ -23,7 +23,7 @@ final class S extends Struct {
   external Pointer f;
 }
 
-final class C extends [!S!] {
+final class C extends S {
   external Pointer g;
 }
 ```

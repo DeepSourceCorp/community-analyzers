@@ -17,7 +17,7 @@ function `f` is invalid:
 void f() {}
 
 void g() {
-  [!f!] = () {};
+  f = () {};
 }
 ```
 

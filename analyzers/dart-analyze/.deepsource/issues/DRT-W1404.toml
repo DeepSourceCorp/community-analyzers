@@ -20,7 +20,7 @@ a type parameter:
 typedef A<T> = T;
 
 void f() {
-  const [!A!]<int>();
+  const A<int>();
 }
 ```
 

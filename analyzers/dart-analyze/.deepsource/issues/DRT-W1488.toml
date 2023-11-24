@@ -19,7 +19,7 @@ class A {
   A();
 }
 
-class B with [!A!] {}
+class B with A {}
 ```
 
 #### Common fixes

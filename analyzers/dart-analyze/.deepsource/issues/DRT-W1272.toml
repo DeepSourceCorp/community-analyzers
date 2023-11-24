@@ -15,7 +15,7 @@ field:
 
 ```dart
 class C {
-  [!const!] int f = 3;
+  const int f = 3;
 }
 ```
 

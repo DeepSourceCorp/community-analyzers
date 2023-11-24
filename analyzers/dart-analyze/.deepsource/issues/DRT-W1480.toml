@@ -20,7 +20,7 @@ import 'package:meta/meta.dart';
 void f({@required int x}) {}
 
 void g() {
-  [!f!]();
+  f();
 }
 ```
 

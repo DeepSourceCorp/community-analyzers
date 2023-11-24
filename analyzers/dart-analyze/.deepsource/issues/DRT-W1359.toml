@@ -17,7 +17,7 @@ The following code produces this diagnostic because `f` is :
 ```dart
 class C {
   final int f = 0;
-  C() : [!f!] = 1;
+  C() : f = 1;
 }
 ```
 

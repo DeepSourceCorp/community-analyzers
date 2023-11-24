@@ -19,7 +19,7 @@ class A {
   A.n();
 }
 class B extends A {
-  B() : [!super()!];
+  B() : super();
 }
 ```
 
@@ -31,7 +31,7 @@ class A {
   A.n();
 }
 class B extends A {
-  B() : [!super.m()!];
+  B() : super.m();
 }
 ```
 

@@ -19,7 +19,7 @@ being used as if it were a variable:
 import 'dart:math' as math;
 
 void f() {
-  print([!math!]);
+  print(math);
 }
 ```
 

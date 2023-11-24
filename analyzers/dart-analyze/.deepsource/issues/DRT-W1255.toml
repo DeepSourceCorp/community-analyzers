@@ -29,7 +29,7 @@ literal contains `a.zero`, which is imported using a `deferred` import:
 ```dart
 import 'a.dart' deferred as a;
 
-var l = const [a.[!zero!]];
+var l = const [a.zero];
 ```
 
 #### Common fixes

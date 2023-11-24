@@ -16,7 +16,7 @@ The following code produces this diagnostic because the integer value
 `9223372036854775807` can't be represented exactly as a double:
 
 ```dart
-double x = [!9223372036854775807!];
+double x = 9223372036854775807;
 ```
 
 #### Common fixes

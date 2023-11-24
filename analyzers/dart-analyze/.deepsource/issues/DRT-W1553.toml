@@ -19,7 +19,7 @@ non-nullable type `String`:
 
 ```dart
 Future<String> f() {
-  return Future.value([!null!]);
+  return Future.value(null);
 }
 ```
 

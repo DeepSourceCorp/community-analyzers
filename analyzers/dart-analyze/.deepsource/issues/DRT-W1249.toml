@@ -28,7 +28,7 @@ class C {
 
 void f(C c) {
   switch (c) {
-    case [!C(0)!]:
+    case C(0):
       break;
   }
 }

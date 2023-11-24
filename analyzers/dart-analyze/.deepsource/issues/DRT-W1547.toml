@@ -23,7 +23,7 @@ class A {
   factory A.none() => throw '';
 }
 
-class B extends [!A!] {}
+class B extends A {}
 ```
 
 #### Common fixes

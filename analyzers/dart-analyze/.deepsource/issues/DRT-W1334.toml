@@ -14,7 +14,7 @@ The following code produces this diagnostic because the list literal has
 two type arguments when it can have at most one:
 
 ```dart
-var l = [!<int, int>!][];
+var l = <int, int>[];
 ```
 
 #### Common fixes

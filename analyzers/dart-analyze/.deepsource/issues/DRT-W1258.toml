@@ -16,7 +16,7 @@ method but `C` isn't an abstract class:
 
 ```dart
 class C {
-  [!void m();!]
+  void m();
 }
 ```
 

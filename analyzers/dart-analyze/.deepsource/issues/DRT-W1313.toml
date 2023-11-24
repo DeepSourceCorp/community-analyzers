@@ -16,7 +16,7 @@ assigned twice in the pattern `(a, a)`:
 ```dart
 int f((int, int) r) {
   int a;
-  (a, [!a!]) = r;
+  (a, a) = r;
   return a;
 }
 ```

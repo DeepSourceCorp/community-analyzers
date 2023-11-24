@@ -24,7 +24,7 @@ diagnostic because the `export` directive is exporting a name that is only
 intended to be used internally:
 
 ```dart
-[!export 'src/a.dart';!]
+export 'src/a.dart';
 ```
 
 #### Common fixes

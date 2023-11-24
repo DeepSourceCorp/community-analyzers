@@ -20,7 +20,7 @@ class C {
 }
 
 void f(C c) {
-  c.m([!a!]: 1);
+  c.m(a: 1);
 }
 ```
 

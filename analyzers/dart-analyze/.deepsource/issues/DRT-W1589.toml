@@ -19,7 +19,7 @@ doesn't declare a parameter that the constructor for `B` requires:
 
 ```dart
 abstract class A {
-  factory A() = [!B!];
+  factory A() = B;
 }
 
 class B implements A {
@@ -34,7 +34,7 @@ allow:
 
 ```dart
 abstract class A {
-  factory A(int x, {int y}) = [!B!];
+  factory A(int x, {int y}) = B;
 }
 
 class B implements A {

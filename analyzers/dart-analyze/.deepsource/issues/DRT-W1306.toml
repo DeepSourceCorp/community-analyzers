@@ -19,7 +19,7 @@ in the parameter list:
 class C {
   int f;
 
-  C(this.f, this.[!f!]) {}
+  C(this.f, this.f) {}
 }
 ```
 

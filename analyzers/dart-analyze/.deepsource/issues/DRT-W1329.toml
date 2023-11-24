@@ -18,7 +18,7 @@ twice:
 ```dart
 const a = 1;
 const b = 1;
-var s = <int>{a, [!b!]};
+var s = <int>{a, b};
 ```
 
 #### Common fixes

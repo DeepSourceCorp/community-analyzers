@@ -22,7 +22,7 @@ enum E {
   const E(int x);
 }
 
-E f() => const [!E!](2);
+E f() => const E(2);
 ```
 
 #### Common fixes

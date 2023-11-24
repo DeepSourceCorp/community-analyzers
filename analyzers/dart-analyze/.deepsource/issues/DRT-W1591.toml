@@ -15,7 +15,7 @@ constructor in `A` redirects to a constructor in `B` that doesn't exist:
 
 ```dart
 class A {
-  factory A() = [!B.name!];
+  factory A() = B.name;
 }
 
 class B implements A {

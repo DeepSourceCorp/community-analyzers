@@ -21,7 +21,7 @@ subclass of `Struct`:
 import 'dart:ffi';
 
 final class C extends Struct {
-  external [!String!] s;
+  external String s;
 
   @Int32()
   external int i;

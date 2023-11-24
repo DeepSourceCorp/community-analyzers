@@ -19,7 +19,7 @@ class A {}
 
 class B extends A {}
 
-class C with [!B!] {}
+class C with B {}
 ```
 
 #### Common fixes

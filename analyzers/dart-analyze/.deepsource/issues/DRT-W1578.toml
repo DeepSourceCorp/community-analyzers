@@ -15,7 +15,7 @@ The following code produces this diagnostic because the named parameter
 
 ```dart
 class C {
-  void m({int [!_x!] = 0}) {}
+  void m({int _x = 0}) {}
 }
 ```
 

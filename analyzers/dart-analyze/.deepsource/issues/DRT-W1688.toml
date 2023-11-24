@@ -14,7 +14,7 @@ The following code produces this diagnostic because the test `a is Object?`
 is always `true`:
 
 ```dart
-bool f<T>(T a) => [!a is Object?!];
+bool f<T>(T a) => a is Object?;
 ```
 
 #### Common fixes

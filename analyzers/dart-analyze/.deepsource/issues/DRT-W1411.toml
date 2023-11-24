@@ -17,7 +17,7 @@ initializer (`int`) isn't assignable to the type of the variable
 
 ```dart
 int i = 0;
-String s = [!i!];
+String s = i;
 ```
 
 #### Common fixes

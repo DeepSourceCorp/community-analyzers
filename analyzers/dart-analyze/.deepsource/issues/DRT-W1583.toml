@@ -15,8 +15,8 @@ The following code produces this diagnostic twice because both of the
 constants are defined in terms of the other:
 
 ```dart
-const [!secondsPerHour!] = minutesPerHour * 60;
-const [!minutesPerHour!] = secondsPerHour / 60;
+const secondsPerHour = minutesPerHour * 60;
+const minutesPerHour = secondsPerHour / 60;
 ```
 
 #### Common fixes

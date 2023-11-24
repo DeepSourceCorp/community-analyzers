@@ -21,7 +21,7 @@ an instance member named `values`:
 ```dart
 enum E {
   v;
-  void [!values!]() {}
+  void values() {}
 }
 ```
 

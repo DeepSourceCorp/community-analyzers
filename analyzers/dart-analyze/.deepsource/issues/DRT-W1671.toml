@@ -18,7 +18,7 @@ define anything named `a`:
 import 'dart:core' as p;
 
 void f() {
-  p.[!a!];
+  p.a;
 }
 ```
 

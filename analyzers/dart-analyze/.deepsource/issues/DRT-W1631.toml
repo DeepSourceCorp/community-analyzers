@@ -23,7 +23,7 @@ class A {
 }
 
 class B extends A {
-  B({super.[!y!]});
+  B({super.y});
 }
 ```
 

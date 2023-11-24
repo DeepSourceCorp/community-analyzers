@@ -15,7 +15,7 @@ operator `[]=` has a return type of `int`:
 
 ```dart
 class C {
-  [!int!] operator []=(int index, int value) => 0;
+  int operator []=(int index, int value) => 0;
 }
 ```
 

@@ -15,7 +15,7 @@ must be a `bool`:
 
 ```dart
 int x = 0;
-bool y = ![!x!];
+bool y = !x;
 ```
 
 #### Common fixes

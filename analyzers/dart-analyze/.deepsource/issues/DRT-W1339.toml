@@ -22,7 +22,7 @@ The following code produces this diagnostic because it's exporting symbols
 from an opted-out library:
 
 ```dart
-export [!'optedOut.dart'!];
+export 'optedOut.dart';
 
 class C {}
 ```

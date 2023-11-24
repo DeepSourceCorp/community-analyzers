@@ -14,7 +14,7 @@ If the file `lib.dart` doesn't exist, the following code produces this
 diagnostic:
 
 ```dart
-import [!'lib.dart'!];
+import 'lib.dart';
 ```
 
 #### Common fixes

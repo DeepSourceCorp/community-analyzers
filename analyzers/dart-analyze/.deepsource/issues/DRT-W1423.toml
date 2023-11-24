@@ -16,7 +16,7 @@ the generic function type used to define `F`, uses the inline function
 type syntax:
 
 ```dart
-typedef F = int Function(int f[!(!]String s));
+typedef F = int Function(int f(String s));
 ```
 
 #### Common fixes

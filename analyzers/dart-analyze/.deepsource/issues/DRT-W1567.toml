@@ -20,7 +20,7 @@ class C {
   var x = 0;
 
   void f((int, int) r) {
-    ([!x!], _) = r;
+    (x, _) = r;
   }
 }
 ```

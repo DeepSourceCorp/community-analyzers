@@ -16,7 +16,7 @@ annotation isn't defined to be valid for top-level variables:
 ```dart
 import 'package:meta/meta.dart';
 
-@[!optionalTypeArgs!]
+@optionalTypeArgs
 int x = 0;
 ```
 

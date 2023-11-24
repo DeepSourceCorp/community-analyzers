@@ -15,7 +15,7 @@ constructor `C.a` redirects to the factory constructor `C.b`:
 
 ```dart
 class C {
-  C.a() : [!this.b()!];
+  C.a() : this.b();
   factory C.b() => C.a();
 }
 ```

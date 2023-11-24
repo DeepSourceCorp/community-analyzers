@@ -15,7 +15,7 @@ The following code produces this diagnostic because the value of `map1` is
 
 ```dart
 const Map<String, int> map1 = null;
-const Map<String, int> map2 = {...[!map1!]};
+const Map<String, int> map2 = {...map1};
 ```
 
 #### Common fixes

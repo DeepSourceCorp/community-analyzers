@@ -16,7 +16,7 @@ function `f` has the 'async*' modifier even though the return type `int`
 isn't a supertype of `Stream`:
 
 ```dart
-[!int!] f() async* {}
+int f() async* {}
 ```
 
 #### Common fixes

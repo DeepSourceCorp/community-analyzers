@@ -16,7 +16,7 @@ subclass of `num`:
 ```dart
 class A<E extends num> {}
 
-var a = A<[!String!]>();
+var a = A<String>();
 ```
 
 #### Common fixes

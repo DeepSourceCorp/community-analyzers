@@ -15,7 +15,7 @@ two required parameters:
 
 ```dart
 class C {
-  set [!s!](int x, int y) {}
+  set s(int x, int y) {}
 }
 ```
 
@@ -24,7 +24,7 @@ one optional parameter:
 
 ```dart
 class C {
-  set [!s!]([int x]) {}
+  set s([int x]) {}
 }
 ```
 

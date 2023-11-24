@@ -16,7 +16,7 @@ The following code produces this diagnostic because the key `1` is used
 twice:
 
 ```dart
-const map = <int, String>{1: 'a', 2: 'b', [!1!]: 'c', 4: 'd'};
+const map = <int, String>{1: 'a', 2: 'b', 1: 'c', 4: 'd'};
 ```
 
 #### Common fixes

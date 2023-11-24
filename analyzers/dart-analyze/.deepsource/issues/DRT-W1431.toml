@@ -28,7 +28,7 @@ class A {
 }
 
 class B extends A {
-  void [!m!](String s) {}
+  void m(String s) {}
 }
 ```
 

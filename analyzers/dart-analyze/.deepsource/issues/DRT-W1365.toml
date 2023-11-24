@@ -22,7 +22,7 @@ class C {
 
   C(this.f);
 
-  C.zero([!this.f!]) : this(f);
+  C.zero(this.f) : this(f);
 }
 ```
 
@@ -36,7 +36,7 @@ class C {
 
   C(this.f);
 
-  C.zero() : [!f = 0!], this(1);
+  C.zero() : f = 0, this(1);
 }
 ```
 

@@ -15,7 +15,7 @@ constant:
 
 ```dart
 void f(Object x) {
-  if (x case {[!A()!]: 0}) {}
+  if (x case {A(): 0}) {}
 }
 
 class A {

@@ -24,7 +24,7 @@ the [part file][] doesn't have a name even though the [part file][] uses a
 name to specify which library it's a part of:
 
 ```dart
-part [!'part_file.dart'!];
+part 'part_file.dart';
 ```
 
 #### Common fixes

@@ -14,7 +14,7 @@ The following code produces this diagnostic because the map literal has
 three type arguments when it can have either two or zero:
 
 ```dart
-var m = [!<int, String, int>!]{};
+var m = <int, String, int>{};
 ```
 
 #### Common fixes

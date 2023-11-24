@@ -15,7 +15,7 @@ The following code produces this diagnostic because `m` is a `Map`, and
 
 ```dart
 void f(Map<String, String> m) {
-  for (String s in [!m!]) {
+  for (String s in m) {
     print(s);
   }
 }

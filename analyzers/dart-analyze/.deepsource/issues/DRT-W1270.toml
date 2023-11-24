@@ -16,7 +16,7 @@ be `const`:
 
 ```dart
 var x = 0;
-const y = [!x!];
+const y = x;
 ```
 
 #### Common fixes

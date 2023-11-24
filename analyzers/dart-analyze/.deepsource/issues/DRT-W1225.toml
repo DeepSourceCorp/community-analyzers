@@ -15,7 +15,7 @@ assigned to a `String`:
 
 ```dart
 String f(String x) => x;
-String g(num y) => f([!y!]);
+String g(num y) => f(y);
 ```
 
 #### Common fixes

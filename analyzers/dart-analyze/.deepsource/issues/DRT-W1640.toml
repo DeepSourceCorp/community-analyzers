@@ -21,7 +21,7 @@ abstract class C {
 }
 
 void f() {
-  [!C.new!];
+  C.new;
 }
 ```
 

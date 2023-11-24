@@ -16,7 +16,7 @@ nor a mixin:
 ```dart
 typedef F = void Function();
 
-mixin M on [!F!] {}
+mixin M on F {}
 ```
 
 #### Common fixes

@@ -24,7 +24,7 @@ class C {
 const dynamic i = 0;
 
 void f() {
-  const C([!i!]);
+  const C(i);
 }
 ```
 

@@ -15,7 +15,7 @@ has the same name as the enclosing enum `E`:
 
 ```dart
 enum E {
-  [!E!]
+  E
 }
 ```
 

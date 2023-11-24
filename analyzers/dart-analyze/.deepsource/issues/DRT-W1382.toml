@@ -16,7 +16,7 @@ implements `Enum`, declares an instance field named `values`:
 
 ```dart
 abstract class C implements Enum {
-  int get [!values!] => 0;
+  int get values => 0;
 }
 ```
 
@@ -28,7 +28,7 @@ abstract class A {
   int values() => 0;
 }
 
-abstract class [!B!] extends A implements Enum {}
+abstract class B extends A implements Enum {}
 ```
 
 #### Common fixes

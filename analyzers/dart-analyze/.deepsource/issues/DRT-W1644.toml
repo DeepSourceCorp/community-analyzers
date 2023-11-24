@@ -17,7 +17,7 @@ so the type of the other can't be inferred:
 
 ```dart
 var x = y;
-var y = [!x!];
+var y = x;
 ```
 
 #### Common fixes

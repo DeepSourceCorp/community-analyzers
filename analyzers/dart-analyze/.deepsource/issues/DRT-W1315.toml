@@ -17,7 +17,7 @@ patterns in the list pattern:
 
 ```dart
 void f(List<int> x) {
-  if (x case [0, ..., [!...!]]) {}
+  if (x case [0, ..., ...]) {}
 }
 ```
 

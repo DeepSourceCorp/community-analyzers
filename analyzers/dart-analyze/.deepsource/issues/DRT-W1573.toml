@@ -30,7 +30,7 @@ class A {
 }
 
 class B extends A {
-  B(int x, super.[!y!]) : super(x);
+  B(int x, super.y) : super(x);
 }
 ```
 

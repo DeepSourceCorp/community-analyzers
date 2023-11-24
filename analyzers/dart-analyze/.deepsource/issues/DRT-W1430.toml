@@ -15,7 +15,7 @@ The following code produces this diagnostic because `s` can't be `null`:
 
 ```dart
 int? getLength(String s) {
-  return s[!?.!]length;
+  return s?.length;
 }
 ```
 
@@ -23,7 +23,7 @@ The following code produces this diagnostic because `a` can't be `null`:
 
 ```dart
 var a = [];
-var b = [[!...?!]a];
+var b = [...?a];
 ```
 
 The following code produces this diagnostic because `s?.length` can't
@@ -31,7 +31,7 @@ return `null`:
 
 ```dart
 void f(String? s) {
-  s?.length[!?.!]isEven;
+  s?.length?.isEven;
 }
 ```
 
@@ -49,7 +49,7 @@ The following code produces this diagnostic because `s` can't be `null`.
 ```dart
 void f(Object? o) {
   var s = o as String;
-  s[!?.!]length;
+  s?.length;
 }
 ```
 
