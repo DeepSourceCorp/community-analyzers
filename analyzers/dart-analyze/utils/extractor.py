@@ -6,6 +6,8 @@ from urllib.request import urlopen
 
 @dataclass
 class Issue:
+    """Represents a dart analyze rule."""
+
     code: str
     title: str
     description: str
@@ -13,7 +15,9 @@ class Issue:
 
 
 class DiagnosticRulesParser:
-    def __init__(self, text: str):
+    """A simple wrapper that parses dart's diagnostic rules from a markdown file."""
+
+    def __init__(self, text: str) -> None:
         """
         A simple wrapper that parses a diagnostic rules
         from a markdown file.
@@ -25,19 +29,19 @@ class DiagnosticRulesParser:
         self.pos = 0
 
     @property
-    def exhausted(self):
+    def exhausted(self) -> bool:
         """Whether the text content has been exhausted or not."""
         return self.pos >= len(self.lines)
 
-    def next_line(self):
+    def next_line(self) -> str:
         """Returns the next line to be parsed."""
         return self.lines[self.pos]
 
-    def consume(self):
+    def consume(self) -> None:
         """Consumes the current line and moves to the next line."""
         self.pos += 1
 
-    def get_issues(self) -> dict:
+    def get_issues(self) -> List[dict]:
         """Parses the the given text and extracts issue definitions."""
         issues = []
         while not self.exhausted:
@@ -88,6 +92,8 @@ class DiagnosticRulesParser:
 
 
 class IssueExtractor:
+    """Extracts dart's diagnostic and linter rules."""
+
     LINTER_RULES_URL = (
         "https://github.com/dart-lang/site-www/raw/main/src/_data/linter_rules.json"
     )
@@ -158,6 +164,7 @@ class IssueExtractor:
         """Extract & sanitize the rule title."""
         return rule["description"].rstrip(".").replace('"', r"\"")
 
+    @classmethod
     def get_linter_rule_description(cls, rule: dict) -> str:
         """Extracts the description from the rule"""
         return rule["details"]
@@ -165,4 +172,4 @@ class IssueExtractor:
     @classmethod
     def get_linter_rule_category(cls, rule: dict) -> str:
         """Extracts and returns the category mapped to the rule"""
-        return cls.GROUP_CATEGORY_MAP.get(rule["group"])
+        return cls.GROUP_CATEGORY_MAP[rule["group"]]

@@ -1,5 +1,4 @@
 import os
-import tempfile
 from typing import List
 
 from constants import ISSUE_MD_TEMPLATE
@@ -7,7 +6,9 @@ from extractor import Issue, IssueExtractor
 from issue_map_gen import generate_mapping
 
 
-def get_issue_content(title, description, category, verbose_name) -> str:
+def get_issue_content(
+    title: str, description: str, category: str, verbose_name: str
+) -> str:
     """Return the content of the toml file."""
     return ISSUE_MD_TEMPLATE.format(
         title=title,
@@ -18,6 +19,7 @@ def get_issue_content(title, description, category, verbose_name) -> str:
 
 
 def get_issue_filepath(issue_code: str) -> str:
+    """Returns the file path of the given issue code."""
     return os.path.join(
         os.path.dirname(os.path.dirname(__file__)),
         f".deepsource/issues/{issue_code}.md",

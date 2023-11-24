@@ -1,4 +1,4 @@
-# A copy-paste Github Actions config to run kube-linter and report the artifact to DeepSource
+# A copy-paste Github Actions config to run dart-analyze and report the artifact to DeepSource
 name: Scan with dart-analyze
 
 on:
