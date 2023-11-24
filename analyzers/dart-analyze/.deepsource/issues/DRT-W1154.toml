@@ -4,7 +4,7 @@ weight = 70
 severity = "major"
 category = "antipattern"
 verbose_name = "prefer_single_quotes"
-description = '''
+description = """
 **DO** use single quotes where they wouldn't require additional escapes.
 
 That means strings with an apostrophe may use double quotes so that the
@@ -21,7 +21,7 @@ Arguably strings within string interpolations should be its own type of lint.
 useStrings(
     "should be single quote",
     r"should be single quote",
-    r"""should be single quotes""")
+    r\"""should be single quotes\""")
 ```
 
 **GOOD:**
@@ -34,4 +34,4 @@ useStrings(
     "nested ${a ? 'strings' : 'can'} be wrapped by a double quote",
     'and nested ${a ? "strings" : "can be double quoted themselves"}');
 ```
-'''
+"""
