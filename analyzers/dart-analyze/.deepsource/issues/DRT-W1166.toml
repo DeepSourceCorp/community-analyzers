@@ -1,9 +1,9 @@
 
 title = "Sort unnamed constructor declarations first"
-verbose_name = "sort_unnamed_constructors_first"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "sort_unnamed_constructors_first"
 description = """
 **DO** sort unnamed constructor declarations first, before named ones.
 

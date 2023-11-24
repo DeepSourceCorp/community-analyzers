@@ -1,9 +1,9 @@
 
 title = "A member named 'values' can't be declared in an enum"
-verbose_name = "values_declaration_in_enum"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "values_declaration_in_enum"
 description = """
 The analyzer produces this diagnostic when an enum declaration defines a
 member named `values`, whether the member is an enum constant, an instance

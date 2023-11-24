@@ -1,9 +1,9 @@
 
 title = "The getter name is not specified explicitly, and the pattern is not a variable"
-verbose_name = "missing_named_pattern_field_name"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "missing_named_pattern_field_name"
 description = """
 The analyzer produces this diagnostic when, within an object pattern, the
 specification of a property and the pattern used to match the property's

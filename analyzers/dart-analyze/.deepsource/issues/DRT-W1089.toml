@@ -1,9 +1,9 @@
 
 title = "Use `;` instead of `{}` for empty constructor bodies"
-verbose_name = "empty_constructor_bodies"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "empty_constructor_bodies"
 description = """
 From [Effective Dart](https://dart.dev/effective-dart/usage#do-use--instead-of--for-empty-constructor-bodies):
 

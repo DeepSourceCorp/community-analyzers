@@ -1,9 +1,9 @@
 
 title = "The class '{0}' can't be declared a mixin because it extends a class other than 'Object'"
-verbose_name = "mixin_class_declaration_extends_not_object"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "mixin_class_declaration_extends_not_object"
 description = """
 The analyzer produces this diagnostic when a class that is marked with
 the `mixin` modifier extends a class other than `Object`. A mixin class

@@ -1,9 +1,9 @@
 
 title = "Equality operator `==` invocation with references of unrelated types"
-verbose_name = "unrelated_type_equality_checks"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "unrelated_type_equality_checks"
 description = """
 **DON'T** Compare references of unrelated types for equality.
 

@@ -1,9 +1,9 @@
 
 title = "The variable '{0}' is already assigned in this pattern"
-verbose_name = "duplicate_pattern_assignment_variable"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "duplicate_pattern_assignment_variable"
 description = """
 The analyzer produces this diagnostic when a single pattern variable is
 assigned a value more than once in the same pattern assignment.

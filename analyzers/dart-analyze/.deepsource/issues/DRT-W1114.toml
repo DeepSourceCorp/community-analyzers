@@ -1,9 +1,9 @@
 
 title = "Avoid defining a one-member abstract class when a simple function will do"
-verbose_name = "one_member_abstracts"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "one_member_abstracts"
 description = """
 From [Effective Dart](https://dart.dev/effective-dart/design#avoid-defining-a-one-member-abstract-class-when-a-simple-function-will-do):
 

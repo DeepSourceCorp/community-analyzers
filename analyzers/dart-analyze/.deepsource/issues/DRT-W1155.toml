@@ -1,9 +1,9 @@
 
 title = "Use spread collections when possible"
-verbose_name = "prefer_spread_collections"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "prefer_spread_collections"
 description = """
 Use spread collections when possible.
 

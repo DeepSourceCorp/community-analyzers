@@ -1,9 +1,9 @@
 
 title = "This 'onError' handler must return a value assignable to '{0}', but ends without returning a value"
-verbose_name = "body_might_complete_normally_catch_error"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "body_might_complete_normally_catch_error"
 description = """
 The analyzer produces this diagnostic when the closure passed to the
 `onError` parameter of the `Future.catchError` method is required to

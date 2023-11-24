@@ -1,9 +1,9 @@
 
 title = "The final variable '{0}' can't be read because it's potentially unassigned at this point"
-verbose_name = "read_potentially_unassigned_final"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "read_potentially_unassigned_final"
 description = """
 The analyzer produces this diagnostic when a final local variable that
 isn't initialized at the declaration site is read at a point where the

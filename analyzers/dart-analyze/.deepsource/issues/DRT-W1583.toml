@@ -1,9 +1,9 @@
 
 title = "The compile-time constant expression depends on itself"
-verbose_name = "recursive_compile_time_constant"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "recursive_compile_time_constant"
 description = """
 The analyzer produces this diagnostic when the value of a compile-time
 constant is defined in terms of itself, either directly or indirectly,

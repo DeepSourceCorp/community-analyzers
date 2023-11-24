@@ -1,9 +1,9 @@
 
 title = "'{0}' can't be used as a superclass constraint.  Classes and mixins can't implement '{0}'.  Classes can't extend '{0}'.  Classes can't mixin '{0}'"
-verbose_name = "subtype_of_disallowed_type"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "subtype_of_disallowed_type"
 description = """
 The analyzer produces this diagnostic when one of the restricted classes is
 used in either an `extends`, `implements`, `with`, or `on` clause. The

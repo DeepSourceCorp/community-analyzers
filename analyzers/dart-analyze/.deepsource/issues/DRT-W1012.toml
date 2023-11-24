@@ -1,9 +1,9 @@
 
 title = "Invocation of various collection methods with arguments of unrelated types"
-verbose_name = "collection_methods_unrelated_type"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "collection_methods_unrelated_type"
 description = """
 **DON'T** invoke certain collection method with an argument with an unrelated
 type.

@@ -1,9 +1,9 @@
 
 title = "'{0}' isn't a function"
-verbose_name = "invocation_of_non_function"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "invocation_of_non_function"
 description = """
 The analyzer produces this diagnostic when it finds a function invocation,
 but the name of the function being invoked is defined to be something other

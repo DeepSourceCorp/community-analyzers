@@ -1,9 +1,9 @@
 
 title = "'{0}' can't be used in both the 'extends' and 'implements' clauses.  '{0}' can't be used in both the 'extends' and 'with' clauses"
-verbose_name = "implements_super_class"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "implements_super_class"
 description = """
 The analyzer produces this diagnostic when a class is listed in the
 `extends` clause of a class declaration and also in either the

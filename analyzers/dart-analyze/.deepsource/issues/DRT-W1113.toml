@@ -1,9 +1,9 @@
 
 title = "Omit type annotations for local variables"
-verbose_name = "omit_local_variable_types"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "omit_local_variable_types"
 description = """
 **DON'T** redundantly type annotate initialized local variables.
 

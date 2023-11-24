@@ -1,9 +1,9 @@
 
 title = "Use interpolation to compose strings and values"
-verbose_name = "prefer_interpolation_to_compose_strings"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "prefer_interpolation_to_compose_strings"
 description = """
 **PREFER** using interpolation to compose strings and values.
 

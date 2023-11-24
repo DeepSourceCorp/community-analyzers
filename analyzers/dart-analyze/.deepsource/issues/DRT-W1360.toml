@@ -1,9 +1,9 @@
 
 title = "Fields can't be initialized in both the parameter list and the initializers"
-verbose_name = "field_initialized_in_parameter_and_initializer"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "field_initialized_in_parameter_and_initializer"
 description = """
 The analyzer produces this diagnostic when a field is initialized in both
 the parameter list and in the initializer list of a constructor.

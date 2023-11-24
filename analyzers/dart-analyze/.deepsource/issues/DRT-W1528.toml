@@ -1,9 +1,9 @@
 
 title = "The unnamed constructor of superclass '{0}' (called by the default constructor of '{1}') must be a generative constructor, but factory found"
-verbose_name = "non_generative_implicit_constructor"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "non_generative_implicit_constructor"
 description = """
 The analyzer produces this diagnostic when a class has an implicit
 generative constructor and the superclass has an explicit unnamed factory

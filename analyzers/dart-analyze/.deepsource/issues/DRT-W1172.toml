@@ -1,9 +1,9 @@
 
 title = "Unnecessary await keyword in return"
-verbose_name = "unnecessary_await_in_return"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "unnecessary_await_in_return"
 description = """
 Avoid returning an awaited expression when the expression type is assignable to
 the function's return type.

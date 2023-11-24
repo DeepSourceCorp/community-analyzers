@@ -1,9 +1,9 @@
 
 title = "The declaration named 'main' must be a function"
-verbose_name = "main_is_not_function"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "main_is_not_function"
 description = """
 The analyzer produces this diagnostic when a library contains a declaration
 of the name `main` that isn't the declaration of a top-level function.

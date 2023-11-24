@@ -1,9 +1,9 @@
 
 title = "The '?' is unnecessary because '{0}' is nullable without it"
-verbose_name = "unnecessary_question_mark"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "unnecessary_question_mark"
 description = """
 The analyzer produces this diagnostic when either the type `dynamic` or the
 type `Null` is followed by a question mark. Both of these types are

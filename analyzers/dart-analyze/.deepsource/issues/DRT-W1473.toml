@@ -1,9 +1,9 @@
 
 title = "Missing case clause for '{0}'"
-verbose_name = "missing_enum_constant_in_switch"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "missing_enum_constant_in_switch"
 description = """
 The analyzer produces this diagnostic when a `switch` statement for an enum
 doesn't include an option for one of the values in the enum.

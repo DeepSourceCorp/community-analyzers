@@ -1,9 +1,9 @@
 
 title = "The operator '{0}' isn't defined for the extension '{1}'"
-verbose_name = "undefined_extension_operator"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "undefined_extension_operator"
 description = """
 The analyzer produces this diagnostic when an operator is invoked on a
 specific extension when that extension doesn't implement the operator.

@@ -1,9 +1,9 @@
 
 title = "Avoid unnecessary containers"
-verbose_name = "avoid_unnecessary_containers"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "avoid_unnecessary_containers"
 description = """
 **AVOID** wrapping widgets in unnecessary containers.
 

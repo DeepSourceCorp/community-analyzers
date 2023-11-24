@@ -1,9 +1,9 @@
 
 title = "The element type '{0}' can't be assigned to the map value type '{1}'"
-verbose_name = "map_value_type_not_assignable"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "map_value_type_not_assignable"
 description = """
 The analyzer produces this diagnostic when a value of a key-value pair in a
 map literal has a type that isn't assignable to the value type of the

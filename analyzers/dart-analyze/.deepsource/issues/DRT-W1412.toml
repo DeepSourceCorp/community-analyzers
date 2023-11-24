@@ -1,9 +1,9 @@
 
 title = "Publishable packages can't have '{0}' dependencies"
-verbose_name = "invalid_dependency"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "invalid_dependency"
 description = """
 The analyzer produces this diagnostic when a package under either
 `dependencies` or `dev_dependencies` isn't a pub, `git`, or `path` based

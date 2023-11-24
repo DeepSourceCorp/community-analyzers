@@ -1,9 +1,9 @@
 
 title = "An extension override can't be used to access a static member from an extension"
-verbose_name = "extension_override_access_to_static_member"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "extension_override_access_to_static_member"
 description = """
 The analyzer produces this diagnostic when an extension override is the
 receiver of the invocation of a static member. Similar to static members in

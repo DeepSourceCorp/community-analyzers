@@ -1,9 +1,9 @@
 
 title = "No associated positional super constructor parameter"
-verbose_name = "super_formal_parameter_without_associated_positional"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "super_formal_parameter_without_associated_positional"
 description = """
 The analyzer produces this diagnostic when there's a positional super
 parameter in a constructor and the implicitly or explicitly invoked super

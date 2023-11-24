@@ -1,9 +1,9 @@
 
 title = "The class doesn't have a concrete implementation of the super-invoked member '{0}'.  The class doesn't have a concrete implementation of the super-invoked setter '{0}'"
-verbose_name = "mixin_application_no_concrete_super_invoked_member"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "mixin_application_no_concrete_super_invoked_member"
 description = """
 The analyzer produces this diagnostic when a [mixin application][] contains
 an invocation of a member from its superclass, and there's no concrete

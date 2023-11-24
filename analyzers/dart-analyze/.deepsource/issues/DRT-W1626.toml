@@ -1,9 +1,9 @@
 
 title = "The class '{0}' can't extend '{1}'.  The class '{0}' can't implement '{1}'.  The class '{0}' can't mix in '{1}'"
-verbose_name = "subtype_of_ffi_class"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "subtype_of_ffi_class"
 description = """
 The analyzer produces this diagnostic when a class extends any FFI class
 other than `Struct` or `Union`, or implements or mixes in any FFI class.

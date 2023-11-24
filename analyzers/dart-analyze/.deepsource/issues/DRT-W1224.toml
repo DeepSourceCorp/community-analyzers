@@ -1,9 +1,9 @@
 
 title = "Argument '{0}' must be a constant"
-verbose_name = "argument_must_be_a_constant"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "argument_must_be_a_constant"
 description = """
 The analyzer produces this diagnostic when an invocation of either
 `Pointer.asFunction` or `DynamicLibrary.lookupFunction` has an `isLeaf`

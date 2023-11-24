@@ -1,9 +1,9 @@
 
 title = "Constant values from a deferred library can't be used in patterns"
-verbose_name = "pattern_constant_from_deferred_library"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "pattern_constant_from_deferred_library"
 description = """
 The analyzer produces this diagnostic when a pattern contains a value
 declared in a different library, and that library is imported using a

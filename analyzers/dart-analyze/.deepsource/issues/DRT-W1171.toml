@@ -1,9 +1,9 @@
 
 title = "`Future` results in `async` function bodies must be `await`ed or marked `unawaited` using `dart:async`"
-verbose_name = "unawaited_futures"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "unawaited_futures"
 description = """
 **DO** await functions that return a `Future` inside of an async function body.
 

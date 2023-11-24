@@ -1,9 +1,9 @@
 
 title = "Required named parameters can't have a default value"
-verbose_name = "default_value_on_required_parameter"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "default_value_on_required_parameter"
 description = """
 The analyzer produces this diagnostic when a named parameter has both the
 `required` modifier and a default value. If the parameter is required, then

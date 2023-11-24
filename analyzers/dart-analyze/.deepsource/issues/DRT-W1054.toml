@@ -1,9 +1,9 @@
 
 title = "Avoid final for parameter declarations"
-verbose_name = "avoid_final_parameters"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "avoid_final_parameters"
 description = """
 **AVOID** declaring parameters as final.
 

@@ -1,9 +1,9 @@
 
 title = "Classes extending 'AbiSpecificInteger' must have exactly one 'AbiSpecificIntegerMapping' annotation specifying the mapping from ABI to a 'NativeType' integer with a fixed size"
-verbose_name = "abi_specific_integer_mapping_extra"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "abi_specific_integer_mapping_extra"
 description = """
 The analyzer produces this diagnostic when a class that extends
 `AbiSpecificInteger` has more than one `AbiSpecificIntegerMapping`

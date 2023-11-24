@@ -1,9 +1,9 @@
 
 title = "Avoid returning null for void"
-verbose_name = "avoid_returning_null_for_void"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "avoid_returning_null_for_void"
 description = """
 **AVOID** returning null for void.
 

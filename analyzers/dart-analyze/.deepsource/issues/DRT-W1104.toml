@@ -1,9 +1,9 @@
 
 title = "Missing whitespace between adjacent strings"
-verbose_name = "missing_whitespace_between_adjacent_strings"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "missing_whitespace_between_adjacent_strings"
 description = """
 Add a trailing whitespace to prevent missing whitespace between adjacent
 strings.

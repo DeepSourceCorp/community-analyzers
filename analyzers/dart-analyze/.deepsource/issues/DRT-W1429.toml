@@ -1,9 +1,9 @@
 
 title = "The annotation '@nonVirtual' can only be applied to a concrete instance member"
-verbose_name = "invalid_non_virtual_annotation"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "invalid_non_virtual_annotation"
 description = """
 The analyzer produces this diagnostic when the `nonVirtual` annotation is
 found on a declaration other than a member of a class, mixin, or enum, or

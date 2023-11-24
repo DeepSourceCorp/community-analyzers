@@ -1,9 +1,9 @@
 
 title = "Can't have a late final field in a class with a generative const constructor"
-verbose_name = "late_final_field_with_const_constructor"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "late_final_field_with_const_constructor"
 description = """
 The analyzer produces this diagnostic when a class that has at least one
 `const` constructor also has a field marked both `late` and `final`.

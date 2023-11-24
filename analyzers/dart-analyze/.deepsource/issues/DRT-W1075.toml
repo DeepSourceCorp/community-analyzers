@@ -1,9 +1,9 @@
 
 title = "Await only futures"
-verbose_name = "await_only_futures"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "await_only_futures"
 description = """
 **AVOID** using await on anything which is not a future.
 

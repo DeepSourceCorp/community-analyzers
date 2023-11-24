@@ -1,9 +1,9 @@
 
 title = "Arguments of a constant creation must be constant expressions"
-verbose_name = "const_with_non_constant_argument"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "const_with_non_constant_argument"
 description = """
 The analyzer produces this diagnostic when a const constructor is invoked
 with an argument that isn't a constant expression.

@@ -1,9 +1,9 @@
 
 title = "The constructor '{0}.{1}' doesn't have type parameters"
-verbose_name = "wrong_number_of_type_arguments_constructor"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "wrong_number_of_type_arguments_constructor"
 description = """
 The analyzer produces this diagnostic when type arguments are provided
 after the name of a named constructor. Constructors can't declare type

@@ -1,9 +1,9 @@
 
 title = "The operator x ~/ y is more efficient than (x / y).toInt()"
-verbose_name = "division_optimization"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "division_optimization"
 description = """
 The analyzer produces this diagnostic when the result of dividing two
 numbers is converted to an integer using `toInt`. Dart has a built-in

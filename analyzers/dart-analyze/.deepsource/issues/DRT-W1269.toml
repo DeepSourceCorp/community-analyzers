@@ -1,9 +1,9 @@
 
 title = "Deferred classes can't be created with 'const'"
-verbose_name = "const_deferred_class"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "const_deferred_class"
 description = """
 The analyzer produces this diagnostic when a class from a library that is
 imported using a deferred import is used to create a `const` object.

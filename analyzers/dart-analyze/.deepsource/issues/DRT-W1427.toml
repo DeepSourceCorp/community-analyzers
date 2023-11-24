@@ -1,9 +1,9 @@
 
 title = "The modifier '{0}' can't be applied to the body of a constructor"
-verbose_name = "invalid_modifier_on_constructor"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "invalid_modifier_on_constructor"
 description = """
 The analyzer produces this diagnostic when the body of a constructor is
 prefixed by one of the following modifiers: `async`, `async*`, or `sync*`.

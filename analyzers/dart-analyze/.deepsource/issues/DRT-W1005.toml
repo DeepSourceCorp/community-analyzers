@@ -1,9 +1,9 @@
 
 title = "Avoid relative imports for files in `lib/`"
-verbose_name = "avoid_relative_lib_imports"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "avoid_relative_lib_imports"
 description = """
 **DO** avoid relative imports for files in `lib/`.
 

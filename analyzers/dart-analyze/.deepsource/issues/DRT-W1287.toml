@@ -1,9 +1,9 @@
 
 title = "The left operand can't be null, so the right operand is never executed"
-verbose_name = "dead_null_aware_expression"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "dead_null_aware_expression"
 description = """
 The analyzer produces this diagnostic in two cases.
 

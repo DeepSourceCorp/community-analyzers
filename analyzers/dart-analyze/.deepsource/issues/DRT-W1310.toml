@@ -1,9 +1,9 @@
 
 title = "Duplicate import"
-verbose_name = "duplicate_import"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "duplicate_import"
 description = """
 The analyzer produces this diagnostic when an import directive is found
 that is the same as an import before it in the file. The second import

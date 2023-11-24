@@ -1,9 +1,9 @@
 
 title = "Field formal parameters can only be used in a constructor.  Initializing formal parameters can only be used in constructors"
-verbose_name = "field_initializer_outside_constructor"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "field_initializer_outside_constructor"
 description = """
 The analyzer produces this diagnostic when an initializing formal
 parameter is used in the parameter list for anything other than a

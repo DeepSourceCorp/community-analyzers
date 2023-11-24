@@ -1,9 +1,9 @@
 
 title = "This literal must be either a map or a set, but the elements don't have enough information for type inference to work"
-verbose_name = "ambiguous_set_or_map_literal_either"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "ambiguous_set_or_map_literal_either"
 description = """
 Because map and set literals use the same delimiters (`{` and `}`), the
 analyzer looks at the type arguments and the elements to determine which

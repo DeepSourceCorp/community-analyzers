@@ -1,9 +1,9 @@
 
 title = "The parameter '{0}' can't have a value of 'null' because of its type, but the implicit default value is 'null'.  With null safety, use the 'required' keyword, not the '@required' annotation"
-verbose_name = "missing_default_value_for_parameter"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "missing_default_value_for_parameter"
 description = """
 The analyzer produces this diagnostic when an optional parameter, whether
 positional or named, has a [potentially non-nullable][] type and doesn't

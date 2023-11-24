@@ -1,9 +1,9 @@
 
 title = "Unreachable top-level members in executable libraries"
-verbose_name = "unreachable_from_main"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "unreachable_from_main"
 description = """
 Any member declared in an executable library should be used directly inside that
 library.  An executable library is a library that contains a `main` top-level

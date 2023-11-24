@@ -1,9 +1,9 @@
 
 title = "Avoid annotating types for function expression parameters"
-verbose_name = "avoid_types_on_closure_parameters"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "avoid_types_on_closure_parameters"
 description = """
 **AVOID** annotating types for function expression parameters.
 

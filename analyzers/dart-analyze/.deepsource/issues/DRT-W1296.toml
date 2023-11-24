@@ -1,9 +1,9 @@
 
 title = "The ability to import '{0}' indirectly is deprecated"
-verbose_name = "deprecated_export_use"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "deprecated_export_use"
 description = """
 The analyzer produces this diagnostic when one library imports a name from
 a second library, and the second library exports the name from a third

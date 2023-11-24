@@ -1,9 +1,9 @@
 
 title = "List literals require one type argument or none, but {0} found"
-verbose_name = "expected_one_list_type_arguments"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "expected_one_list_type_arguments"
 description = """
 The analyzer produces this diagnostic when a list literal has more than one
 type argument.

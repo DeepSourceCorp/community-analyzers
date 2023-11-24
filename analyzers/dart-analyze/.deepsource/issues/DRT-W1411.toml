@@ -1,9 +1,9 @@
 
 title = "A value of type '{0}' can't be assigned to a variable of type '{1}'"
-verbose_name = "invalid_assignment"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "invalid_assignment"
 description = """
 The analyzer produces this diagnostic when the static type of an expression
 that is assigned to a variable isn't assignable to the type of the

@@ -1,9 +1,9 @@
 
 title = "Factory method '{0}' doesn't return a newly allocated object"
-verbose_name = "invalid_factory_method_impl"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "invalid_factory_method_impl"
 description = """
 The analyzer produces this diagnostic when a method that is annotated with
 the [`factory`][meta-factory] annotation doesn't return a newly allocated

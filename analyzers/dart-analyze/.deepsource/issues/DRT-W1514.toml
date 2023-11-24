@@ -1,9 +1,9 @@
 
 title = "The values in a const list literal must be constants"
-verbose_name = "non_constant_list_element"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "non_constant_list_element"
 description = """
 The analyzer produces this diagnostic when an element in a constant list
 literal isn't a constant value. The list literal can be constant either

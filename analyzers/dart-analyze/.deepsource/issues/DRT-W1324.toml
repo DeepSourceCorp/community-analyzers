@@ -1,9 +1,9 @@
 
 title = "The invoked constructor isn't a 'const' constructor"
-verbose_name = "enum_constant_with_non_const_constructor"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "enum_constant_with_non_const_constructor"
 description = """
 The analyzer produces this diagnostic when an enum constant is being
 created using either a factory constructor or a generative constructor

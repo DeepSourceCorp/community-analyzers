@@ -1,9 +1,9 @@
 
 title = "Extension methods weren't supported until version 2.6.0, but this code is required to be able to run on earlier versions"
-verbose_name = "sdk_version_extension_methods"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "sdk_version_extension_methods"
 description = """
 The analyzer produces this diagnostic when an extension declaration or an
 extension override is found in code that has an SDK constraint whose lower

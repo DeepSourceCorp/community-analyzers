@@ -1,9 +1,9 @@
 
 title = "Avoid method calls or property accesses on a \"dynamic\" target"
-verbose_name = "avoid_dynamic_calls"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "avoid_dynamic_calls"
 description = """
 **DO** avoid method calls or accessing properties on an object that is either
 explicitly or implicitly statically typed "dynamic". Dynamic calls are treated

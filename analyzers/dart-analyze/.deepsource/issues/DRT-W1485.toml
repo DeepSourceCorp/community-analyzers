@@ -1,9 +1,9 @@
 
 title = "'{0}' can't be mixed onto '{1}' because '{1}' doesn't implement '{2}'"
-verbose_name = "mixin_application_not_implemented_interface"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "mixin_application_not_implemented_interface"
 description = """
 The analyzer produces this diagnostic when a mixin that has a superclass
 constraint is used in a [mixin application][] with a superclass that

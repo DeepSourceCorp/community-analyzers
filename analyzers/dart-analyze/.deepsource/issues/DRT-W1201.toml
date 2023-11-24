@@ -1,9 +1,9 @@
 
 title = "Prefer intValue.isOdd/isEven instead of checking the result of % 2"
-verbose_name = "use_is_even_rather_than_modulo"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "use_is_even_rather_than_modulo"
 description = """
 **PREFER** the use of intValue.isOdd/isEven to check for evenness.
 

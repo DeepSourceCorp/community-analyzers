@@ -1,9 +1,9 @@
 
 title = "The operand can't be null, so the condition is always 'false'.  The operand can't be null, so the condition is always 'true'"
-verbose_name = "unnecessary_null_comparison"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "unnecessary_null_comparison"
 description = """
 The analyzer produces this diagnostic when it finds an equality comparison
 (either `==` or `!=`) with one operand of `null` and the other operand

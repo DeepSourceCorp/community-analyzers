@@ -1,9 +1,9 @@
 
 title = "Sort child properties last in widget instance creations"
-verbose_name = "sort_child_properties_last"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "sort_child_properties_last"
 description = """
 Sort child properties last in widget instance creations.  This improves
 readability and plays nicest with UI as Code visualization in IDEs with UI as

@@ -1,9 +1,9 @@
 
 title = "Prefer typing uninitialized variables and fields"
-verbose_name = "prefer_typing_uninitialized_variables"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "prefer_typing_uninitialized_variables"
 description = """
 **PREFER** specifying a type annotation for uninitialized variables and fields.
 

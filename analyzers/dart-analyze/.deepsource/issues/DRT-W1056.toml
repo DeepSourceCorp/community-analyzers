@@ -1,9 +1,9 @@
 
 title = "Don't implement classes that override `==`"
-verbose_name = "avoid_implementing_value_types"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "avoid_implementing_value_types"
 description = """
 **DON'T** implement classes that override `==`.
 

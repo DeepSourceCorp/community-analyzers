@@ -1,9 +1,9 @@
 
 title = "Avoid async functions that return void"
-verbose_name = "avoid_void_async"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "avoid_void_async"
 description = """
 **DO** mark async functions as returning Future<void>.
 

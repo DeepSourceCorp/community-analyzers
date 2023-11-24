@@ -1,9 +1,9 @@
 
 title = "The built-in identifier '{0}' can't be used as a prefix name.  The built-in identifier '{0}' can't be used as a type name.  The built-in identifier '{0}' can't be used as a type parameter name.  The built-in identifier '{0}' can't be used as a typedef name.  The built-in identifier '{0}' can't be used as an extension name.  The built-in identifier '{0}' can't be used as an extension type name"
-verbose_name = "built_in_identifier_in_declaration"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "built_in_identifier_in_declaration"
 description = """
 The analyzer produces this diagnostic when the name used in the declaration
 of a class, extension, mixin, typedef, type parameter, or import prefix is

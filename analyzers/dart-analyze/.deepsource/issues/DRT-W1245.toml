@@ -1,9 +1,9 @@
 
 title = "A break label resolves to the 'case' or 'default' statement"
-verbose_name = "break_label_on_switch_member"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "break_label_on_switch_member"
 description = """
 The analyzer produces this diagnostic when a break in a case clause inside
 a switch statement has a label that is associated with another case clause.

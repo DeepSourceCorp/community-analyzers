@@ -1,9 +1,9 @@
 
 title = "Avoid return types on setters"
-verbose_name = "avoid_return_types_on_setters"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "avoid_return_types_on_setters"
 description = """
 **AVOID** return types on setters.
 

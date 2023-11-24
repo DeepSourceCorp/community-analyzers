@@ -1,9 +1,9 @@
 
 title = "Avoid catches without on clauses"
-verbose_name = "avoid_catches_without_on_clauses"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "avoid_catches_without_on_clauses"
 description = """
 **AVOID** catches without on clauses.
 

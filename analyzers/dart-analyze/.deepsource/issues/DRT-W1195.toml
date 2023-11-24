@@ -1,9 +1,9 @@
 
 title = "Use `ColoredBox`"
-verbose_name = "use_colored_box"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "use_colored_box"
 description = """
 **DO** use `ColoredBox` when `Container` has only a `Color`.
 

@@ -1,9 +1,9 @@
 
 title = "A map pattern must have at least one entry"
-verbose_name = "empty_map_pattern"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "empty_map_pattern"
 description = """
 The analyzer produces this diagnostic when a map pattern is empty.
 

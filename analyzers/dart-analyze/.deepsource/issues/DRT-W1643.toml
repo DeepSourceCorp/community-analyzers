@@ -1,9 +1,9 @@
 
 title = "The type '{0}' of the thrown expression must be assignable to 'Object'"
-verbose_name = "throw_of_invalid_type"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "throw_of_invalid_type"
 description = """
 The analyzer produces this diagnostic when the type of the expression in a
 throw expression isn't assignable to `Object`. It isn't valid to throw

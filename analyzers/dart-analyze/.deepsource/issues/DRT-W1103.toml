@@ -1,9 +1,9 @@
 
 title = "Use matching super parameter names"
-verbose_name = "matching_super_parameters"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "matching_super_parameters"
 description = """
 **DO** use super parameter names that match their corresponding super
 constructor's parameter names.

@@ -1,9 +1,9 @@
 
 title = "A rethrow must be inside of a catch clause"
-verbose_name = "rethrow_outside_catch"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "rethrow_outside_catch"
 description = """
 The analyzer produces this diagnostic when a `rethrow` statement is outside
 a `catch` clause. The `rethrow` statement is used to throw a caught

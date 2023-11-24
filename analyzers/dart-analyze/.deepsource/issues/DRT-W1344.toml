@@ -1,9 +1,9 @@
 
 title = "An extension can't define static member '{0}' and an instance member with the same name"
-verbose_name = "extension_conflicting_static_and_instance"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "extension_conflicting_static_and_instance"
 description = """
 The analyzer produces this diagnostic when an extension declaration
 contains both an instance member and a static member that have the same

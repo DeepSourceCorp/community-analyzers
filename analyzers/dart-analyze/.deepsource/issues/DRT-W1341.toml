@@ -1,9 +1,9 @@
 
 title = "Expressions can't be used in a map literal"
-verbose_name = "expression_in_map"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "expression_in_map"
 description = """
 The analyzer produces this diagnostic when the analyzer finds an
 expression, rather than a map entry, in what appears to be a map literal.

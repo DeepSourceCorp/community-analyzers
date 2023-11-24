@@ -1,9 +1,9 @@
 
 title = "Enums can't be instantiated"
-verbose_name = "instantiate_enum"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "instantiate_enum"
 description = """
 The analyzer produces this diagnostic when an enum is instantiated. It's
 invalid to create an instance of an enum by invoking a constructor; only

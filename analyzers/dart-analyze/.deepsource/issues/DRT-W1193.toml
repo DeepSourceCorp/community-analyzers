@@ -1,9 +1,9 @@
 
 title = "Unnecessary toList() in spreads"
-verbose_name = "unnecessary_to_list_in_spreads"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "unnecessary_to_list_in_spreads"
 description = """
 Unnecessary `toList()` in spreads.
 

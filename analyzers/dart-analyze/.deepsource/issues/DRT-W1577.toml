@@ -1,9 +1,9 @@
 
 title = "The private name '{0}', defined by '{1}', conflicts with the same name defined by '{2}'"
-verbose_name = "private_collision_in_mixin_application"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "private_collision_in_mixin_application"
 description = """
 The analyzer produces this diagnostic when two mixins that define the same
 private member are used together in a single class in a library other than

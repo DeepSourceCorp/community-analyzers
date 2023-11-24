@@ -1,9 +1,9 @@
 
 title = "URIs can't use string interpolation"
-verbose_name = "uri_with_interpolation"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "uri_with_interpolation"
 description = """
 The analyzer produces this diagnostic when the string literal in an
 `import`, `export`, or `part` directive contains an interpolation. The

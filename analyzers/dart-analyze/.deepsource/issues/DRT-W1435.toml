@@ -1,9 +1,9 @@
 
 title = "Generative enum constructors can only be used as targets of redirection"
-verbose_name = "invalid_reference_to_generative_enum_constructor"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "invalid_reference_to_generative_enum_constructor"
 description = """
 The analyzer produces this diagnostic when a generative constructor
 defined on an enum is used anywhere other than to create one of the enum

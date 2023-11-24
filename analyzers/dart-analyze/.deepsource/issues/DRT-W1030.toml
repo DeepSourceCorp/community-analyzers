@@ -1,9 +1,9 @@
 
 title = "Avoid using unnecessary statements"
-verbose_name = "unnecessary_statements"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "unnecessary_statements"
 description = """
 **AVOID** using unnecessary statements.
 

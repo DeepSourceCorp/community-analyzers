@@ -1,9 +1,9 @@
 
 title = "The named parameter '{0}' is required, but there's no corresponding argument"
-verbose_name = "missing_required_argument"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "missing_required_argument"
 description = """
 The analyzer produces this diagnostic when an invocation of a function is
 missing a required named parameter.

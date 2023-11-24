@@ -1,9 +1,9 @@
 
 title = "Can't define a const constructor for a class with non-final fields"
-verbose_name = "const_constructor_with_non_final_field"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "const_constructor_with_non_final_field"
 description = """
 The analyzer produces this diagnostic when a constructor is marked as a
 const constructor, but the constructor is defined in a class that has at

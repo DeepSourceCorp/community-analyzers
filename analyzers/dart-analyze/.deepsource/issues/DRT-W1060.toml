@@ -1,9 +1,9 @@
 
 title = "Don't check for null in custom == operators"
-verbose_name = "avoid_null_checks_in_equality_operators"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "avoid_null_checks_in_equality_operators"
 description = """
 **DON'T** check for null in custom == operators.
 

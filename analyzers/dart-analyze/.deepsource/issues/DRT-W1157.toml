@@ -1,9 +1,9 @@
 
 title = "Provide a deprecation message, via @Deprecated(\"message\")"
-verbose_name = "provide_deprecation_message"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "provide_deprecation_message"
 description = """
 **DO** specify a deprecation message (with migration instructions and/or a
 removal schedule) in the Deprecation constructor.

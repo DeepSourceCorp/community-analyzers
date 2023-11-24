@@ -1,9 +1,9 @@
 
 title = "'{0}' can't be used to name both a type variable and a member in this class.  '{0}' can't be used to name both a type variable and a member in this enum.  '{0}' can't be used to name both a type variable and a member in this extension.  '{0}' can't be used to name both a type variable and a member in this mixin"
-verbose_name = "conflicting_type_variable_and_member"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "conflicting_type_variable_and_member"
 description = """
 The analyzer produces this diagnostic when a class, mixin, or extension
 declaration declares a type parameter with the same name as one of the

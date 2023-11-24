@@ -1,9 +1,9 @@
 
 title = "The constant expression type '{0}' is not assignable to the parameter type '{1}' of the '{2}' operator"
-verbose_name = "relational_pattern_operand_type_not_assignable"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "relational_pattern_operand_type_not_assignable"
 description = """
 The analyzer produces this diagnostic when the operand of a relational
 pattern has a type that isn't assignable to the parameter of the operator

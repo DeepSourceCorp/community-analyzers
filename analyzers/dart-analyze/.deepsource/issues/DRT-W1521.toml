@@ -1,9 +1,9 @@
 
 title = "The type arguments to '{0}' must be known at compile time, so they can't be type parameters"
-verbose_name = "non_constant_type_argument"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "non_constant_type_argument"
 description = """
 The analyzer produces this diagnostic when the type arguments to a method
 are required to be known at compile time, but a type parameter, whose

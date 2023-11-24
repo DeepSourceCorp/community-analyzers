@@ -1,9 +1,9 @@
 
 title = "Boolean expression composed only with literals"
-verbose_name = "literal_only_boolean_expressions"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "literal_only_boolean_expressions"
 description = """
 **DON'T** test for conditions composed only by literals, since the value can be
 inferred at compile time.

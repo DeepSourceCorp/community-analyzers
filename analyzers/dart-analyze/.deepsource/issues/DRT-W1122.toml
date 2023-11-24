@@ -1,9 +1,9 @@
 
 title = "Prefer asserts with message"
-verbose_name = "prefer_asserts_with_message"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "prefer_asserts_with_message"
 description = """
 When assertions fail it's not always simple to understand why. Adding a message
 to the `assert` helps the developer to understand why the AssertionError occurs.

@@ -1,9 +1,9 @@
 
 title = "The 'case' shouldn't complete normally"
-verbose_name = "switch_case_completes_normally"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "switch_case_completes_normally"
 description = """
 The analyzer produces this diagnostic when the statements following a
 `case` label in a `switch` statement could fall through to the next `case`

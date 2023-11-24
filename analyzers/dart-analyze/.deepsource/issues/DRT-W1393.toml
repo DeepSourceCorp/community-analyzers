@@ -1,9 +1,9 @@
 
 title = "Superinterfaces don't have a valid override for '{0}': {1}"
-verbose_name = "inconsistent_inheritance"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "inconsistent_inheritance"
 description = """
 The analyzer produces this diagnostic when a class inherits two or more
 conflicting signatures for a member and doesn't provide an implementation

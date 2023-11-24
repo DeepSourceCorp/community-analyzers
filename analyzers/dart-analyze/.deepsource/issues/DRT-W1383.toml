@@ -1,9 +1,9 @@
 
 title = "Functions marked 'sync*' must have a return type that is a supertype of 'Iterable<T>' for some type 'T'"
-verbose_name = "illegal_sync_generator_return_type"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "illegal_sync_generator_return_type"
 description = """
 The analyzer produces this diagnostic when the body of a function has the
 `sync*` modifier even though the return type of the function isn't either

@@ -1,9 +1,9 @@
 
 title = "The function 'main' can't have any required named parameters"
-verbose_name = "main_has_required_named_parameters"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "main_has_required_named_parameters"
 description = """
 The analyzer produces this diagnostic when a function named `main` has one
 or more required named parameters.

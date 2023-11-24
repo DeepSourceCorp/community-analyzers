@@ -1,9 +1,9 @@
 
 title = "Depend on referenced packages"
-verbose_name = "depend_on_referenced_packages"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "depend_on_referenced_packages"
 description = """
 **DO** depend on referenced packages.
 

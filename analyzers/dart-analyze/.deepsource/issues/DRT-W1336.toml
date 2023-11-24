@@ -1,9 +1,9 @@
 
 title = "Map patterns require two type arguments or none, but {0} found"
-verbose_name = "expected_two_map_pattern_type_arguments"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "expected_two_map_pattern_type_arguments"
 description = """
 The analyzer produces this diagnostic when a map pattern has either one
 type argument or more than two type arguments. Map patterns can have

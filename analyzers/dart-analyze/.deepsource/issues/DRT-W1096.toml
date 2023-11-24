@@ -1,9 +1,9 @@
 
 title = "Join return statement with assignment when possible"
-verbose_name = "join_return_with_assignment"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "join_return_with_assignment"
 description = """
 **DO** join return statement with assignment when possible.
 

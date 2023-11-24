@@ -1,9 +1,9 @@
 
 title = "The library '{0}' is internal and can't be imported"
-verbose_name = "import_internal_library"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "import_internal_library"
 description = """
 The analyzer produces this diagnostic when it finds an import whose `dart:`
 URI references an internal library.

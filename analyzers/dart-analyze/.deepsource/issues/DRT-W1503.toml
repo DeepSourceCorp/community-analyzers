@@ -1,9 +1,9 @@
 
 title = "The class '{0}' doesn't have an unnamed constructor"
-verbose_name = "new_with_undefined_constructor_default"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "new_with_undefined_constructor_default"
 description = """
 The analyzer produces this diagnostic when an unnamed constructor is
 invoked on a class that defines named constructors but the class doesn't

@@ -1,9 +1,9 @@
 
 title = "Use key in widget constructors"
-verbose_name = "use_key_in_widget_constructors"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "use_key_in_widget_constructors"
 description = """
 **DO** use key in widget constructors.
 

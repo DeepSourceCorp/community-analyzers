@@ -1,9 +1,9 @@
 
 title = "Don't use wildcard parameters or variables"
-verbose_name = "no_wildcard_variable_uses"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "no_wildcard_variable_uses"
 description = """
 **DON'T** use wildcard parameters or variables.
 

@@ -1,9 +1,9 @@
 
 title = "A redirecting constructor can't redirect to a type alias that expands to a type parameter"
-verbose_name = "redirect_to_type_alias_expands_to_type_parameter"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "redirect_to_type_alias_expands_to_type_parameter"
 description = """
 The analyzer produces this diagnostic when a redirecting factory
 constructor redirects to a type alias, and the type alias expands to one of

@@ -1,9 +1,9 @@
 
 title = "This null-check will always throw an exception because the expression will always evaluate to 'null'"
-verbose_name = "null_check_always_fails"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "null_check_always_fails"
 description = """
 The analyzer produces this diagnostic when the null check operator (`!`)
 is used on an expression whose value can only be `null`. In such a case

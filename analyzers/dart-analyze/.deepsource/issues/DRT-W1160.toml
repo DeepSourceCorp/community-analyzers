@@ -1,9 +1,9 @@
 
 title = "Use trailing commas for all function calls and declarations"
-verbose_name = "require_trailing_commas"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "require_trailing_commas"
 description = """
 **DO** use trailing commas for all function calls and declarations unless the
 function call or definition, from the start of the function name up to the

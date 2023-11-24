@@ -1,9 +1,9 @@
 
 title = "Prefer using `??=` over testing for null"
-verbose_name = "prefer_conditional_assignment"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "prefer_conditional_assignment"
 description = """
 **PREFER** using `??=` over testing for null.
 

@@ -1,9 +1,9 @@
 
 title = "Always override `hashCode` if overriding `==`"
-verbose_name = "hash_and_equals"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "hash_and_equals"
 description = """
 **DO** override `hashCode` if overriding `==` and prefer overriding `==` if
 overriding `hashCode`.

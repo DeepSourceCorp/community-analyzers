@@ -1,9 +1,9 @@
 
 title = "Avoid returning this from methods just to enable a fluent interface"
-verbose_name = "avoid_returning_this"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "avoid_returning_this"
 description = """
 **AVOID** returning this from methods just to enable a fluent interface.
 

@@ -1,9 +1,9 @@
 
 title = "Optional parameters aren't allowed when defining an operator"
-verbose_name = "optional_parameter_in_operator"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "optional_parameter_in_operator"
 description = """
 The analyzer produces this diagnostic when one or more of the parameters in
 an operator declaration are optional.

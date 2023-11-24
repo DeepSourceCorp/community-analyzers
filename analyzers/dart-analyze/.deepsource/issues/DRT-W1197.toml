@@ -1,9 +1,9 @@
 
 title = "Use enums rather than classes that behave like enums"
-verbose_name = "use_enums"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "use_enums"
 description = """
 Classes that look like enumerations should be declared as `enum`s.
 

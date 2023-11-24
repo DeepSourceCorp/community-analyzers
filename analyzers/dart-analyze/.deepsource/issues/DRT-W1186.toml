@@ -1,9 +1,9 @@
 
 title = "Use a non-nullable type for a final variable initialized with a non-nullable value"
-verbose_name = "unnecessary_nullable_for_final_variable_declarations"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "unnecessary_nullable_for_final_variable_declarations"
 description = """
 Use a non-nullable type for a final variable initialized with a non-nullable
 value.

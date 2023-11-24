@@ -1,9 +1,9 @@
 
 title = "The value of the 'asset' field is expected to be a list of relative file paths"
-verbose_name = "asset_field_not_list"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "asset_field_not_list"
 description = """
 The analyzer produces this diagnostic when the value of the `asset` key
 isn't a list.

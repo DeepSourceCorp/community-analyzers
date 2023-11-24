@@ -1,9 +1,9 @@
 
 title = "Named parameters can't start with an underscore"
-verbose_name = "private_optional_parameter"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "private_optional_parameter"
 description = """
 The analyzer produces this diagnostic when the name of a named parameter
 starts with an underscore.

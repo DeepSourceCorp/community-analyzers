@@ -1,9 +1,9 @@
 
 title = "The library already contains a part with the URI '{0}'"
-verbose_name = "duplicate_part"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "duplicate_part"
 description = """
 The analyzer produces this diagnostic when a single file is referenced in
 multiple part directives.

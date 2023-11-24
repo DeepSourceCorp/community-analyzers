@@ -1,9 +1,9 @@
 
 title = "Cascade consecutive method invocations on the same reference"
-verbose_name = "cascade_invocations"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "cascade_invocations"
 description = """
 **DO** Use the cascading style when successively invoking methods on the same
 reference.

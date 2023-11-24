@@ -1,9 +1,9 @@
 
 title = "Don't invoke asynchronous functions in non-async blocks"
-verbose_name = "discarded_futures"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "discarded_futures"
 description = """
 Making asynchronous calls in non-`async` functions is usually the sign of a
 programming error.  In general these functions should be marked `async` and such

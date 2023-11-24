@@ -1,9 +1,9 @@
 
 title = "Abstract fields can't have initializers"
-verbose_name = "abstract_field_initializer"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "abstract_field_initializer"
 description = """
 The analyzer produces this diagnostic when a field that has the `abstract`
 modifier also has an initializer.

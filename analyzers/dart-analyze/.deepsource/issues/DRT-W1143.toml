@@ -1,9 +1,9 @@
 
 title = "Use initializing formals when possible"
-verbose_name = "prefer_initializing_formals"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "prefer_initializing_formals"
 description = """
 **DO** use initializing formals when possible.
 

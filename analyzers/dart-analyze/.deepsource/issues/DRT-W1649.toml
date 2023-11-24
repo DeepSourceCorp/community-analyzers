@@ -1,9 +1,9 @@
 
 title = "Static members can't reference type parameters of the class"
-verbose_name = "type_parameter_referenced_by_static"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "type_parameter_referenced_by_static"
 description = """
 The analyzer produces this diagnostic when a static member references a
 type parameter that is declared for the class. Type parameters only have

@@ -1,9 +1,9 @@
 
 title = "Use rethrow to rethrow a caught exception"
-verbose_name = "use_rethrow_when_possible"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "use_rethrow_when_possible"
 description = """
 **DO** use rethrow to rethrow a caught exception.
 

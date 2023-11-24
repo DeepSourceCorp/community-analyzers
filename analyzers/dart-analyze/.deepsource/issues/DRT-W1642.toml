@@ -1,9 +1,9 @@
 
 title = "The Unicode code point 'U+{0}' changes the appearance of text from how it's interpreted by the compiler"
-verbose_name = "text_direction_code_point_in_literal"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "text_direction_code_point_in_literal"
 description = """
 The analyzer produces this diagnostic when it encounters source that
 contains text direction Unicode code points. These code points cause

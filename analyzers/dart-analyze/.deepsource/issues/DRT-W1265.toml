@@ -1,9 +1,9 @@
 
 title = "A value of type '{0}' can't be assigned to a parameter of type '{1}' in a const constructor"
-verbose_name = "const_constructor_param_type_mismatch"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "const_constructor_param_type_mismatch"
 description = """
 The analyzer produces this diagnostic when the runtime type of a constant
 value can't be assigned to the static type of a constant constructor's

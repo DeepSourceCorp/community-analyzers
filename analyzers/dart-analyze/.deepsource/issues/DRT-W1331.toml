@@ -1,9 +1,9 @@
 
 title = "Two keys in a map literal shouldn't be equal"
-verbose_name = "equal_keys_in_map"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "equal_keys_in_map"
 description = """
 The analyzer produces this diagnostic when a key in a non-constant map is
 the same as a previous key in the same map. If two keys are the same, then

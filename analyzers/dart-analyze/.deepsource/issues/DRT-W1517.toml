@@ -1,9 +1,9 @@
 
 title = "Key expressions in map patterns must be constants"
-verbose_name = "non_constant_map_pattern_key"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "non_constant_map_pattern_key"
 description = """
 The analyzer produces this diagnostic when a key in a map pattern isn't a
 constant expression.

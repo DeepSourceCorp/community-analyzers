@@ -1,9 +1,9 @@
 
 title = "The final variable '{0}' must be initialized"
-verbose_name = "final_not_initialized"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "final_not_initialized"
 description = """
 The analyzer produces this diagnostic when a final field or variable isn't
 initialized.

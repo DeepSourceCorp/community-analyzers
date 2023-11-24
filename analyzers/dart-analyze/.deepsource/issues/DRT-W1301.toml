@@ -1,9 +1,9 @@
 
 title = "Only a generic type, generic function, generic instance method, or generic constructor can have type arguments"
-verbose_name = "disallowed_type_instantiation_expression"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "disallowed_type_instantiation_expression"
 description = """
 The analyzer produces this diagnostic when an expression with a value that
 is anything other than one of the allowed kinds of values is followed by

@@ -1,9 +1,9 @@
 
 title = "Using the 'new' keyword in a comment reference is deprecated"
-verbose_name = "deprecated_new_in_comment_reference"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "deprecated_new_in_comment_reference"
 description = """
 The analyzer produces this diagnostic when a comment reference (the name
 of a declaration enclosed in square brackets in a documentation comment)

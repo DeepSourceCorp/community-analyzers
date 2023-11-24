@@ -1,9 +1,9 @@
 
 title = "Const variables must be initialized with a constant value"
-verbose_name = "const_initialized_with_non_constant_value"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "const_initialized_with_non_constant_value"
 description = """
 The analyzer produces this diagnostic when a value that isn't statically
 known to be a constant is assigned to a variable that's declared to be a

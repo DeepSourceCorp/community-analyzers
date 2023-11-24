@@ -1,9 +1,9 @@
 
 title = "Avoid single cascade in expression statements"
-verbose_name = "avoid_single_cascade_in_expression_statements"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "avoid_single_cascade_in_expression_statements"
 description = """
 **AVOID** single cascade in expression statements.
 

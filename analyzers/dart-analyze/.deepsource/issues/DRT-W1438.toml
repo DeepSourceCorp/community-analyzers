@@ -1,9 +1,9 @@
 
 title = "The annotation '@sealed' can only be applied to classes"
-verbose_name = "invalid_sealed_annotation"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "invalid_sealed_annotation"
 description = """
 The analyzer produces this diagnostic when a declaration other than a
 class declaration has the `@sealed` annotation on it.

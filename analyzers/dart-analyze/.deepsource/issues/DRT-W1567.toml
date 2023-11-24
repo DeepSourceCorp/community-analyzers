@@ -1,9 +1,9 @@
 
 title = "Only local variables can be assigned in pattern assignments"
-verbose_name = "pattern_assignment_not_local_variable"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "pattern_assignment_not_local_variable"
 description = """
 The analyzer produces this diagnostic when a pattern assignment assigns a
 value to anything other than a local variable. Patterns can't assign to

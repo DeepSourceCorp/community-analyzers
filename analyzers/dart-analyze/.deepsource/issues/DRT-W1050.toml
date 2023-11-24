@@ -1,9 +1,9 @@
 
 title = "Avoid double and int checks"
-verbose_name = "avoid_double_and_int_checks"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "avoid_double_and_int_checks"
 description = """
 **AVOID** to check if type is double or int.
 

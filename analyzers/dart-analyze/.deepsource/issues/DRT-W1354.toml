@@ -1,9 +1,9 @@
 
 title = "Fields in a struct class must have exactly one annotation indicating the native type"
-verbose_name = "extra_annotation_on_struct_field"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "extra_annotation_on_struct_field"
 description = """
 The analyzer produces this diagnostic when a field in a subclass of
 `Struct` has more than one annotation describing the native type of the

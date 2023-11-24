@@ -1,9 +1,9 @@
 
 title = "Don't assign a variable to itself"
-verbose_name = "no_self_assignments"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "no_self_assignments"
 description = """
 **DON'T** assign a variable to itself. Usually this is a mistake.
 

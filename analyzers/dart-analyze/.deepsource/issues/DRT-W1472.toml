@@ -1,9 +1,9 @@
 
 title = "Missing a dependency on imported package '{0}'"
-verbose_name = "missing_dependency"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "missing_dependency"
 description = """
 The analyzer produces this diagnostic when there's a package that has been
 imported in the source but is not listed as a dependency of the

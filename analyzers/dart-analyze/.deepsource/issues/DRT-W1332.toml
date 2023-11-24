@@ -1,9 +1,9 @@
 
 title = "Two keys in a map pattern can't be equal"
-verbose_name = "equal_keys_in_map_pattern"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "equal_keys_in_map_pattern"
 description = """
 The analyzer produces this diagnostic when a map pattern contains more
 than one key with the same name. The same key can't be matched twice.

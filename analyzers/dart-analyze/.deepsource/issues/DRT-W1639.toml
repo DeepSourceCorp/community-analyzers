@@ -1,9 +1,9 @@
 
 title = "Type '{0}' of the switch expression isn't assignable to the type '{1}' of case expressions"
-verbose_name = "switch_expression_not_assignable"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "switch_expression_not_assignable"
 description = """
 The analyzer produces this diagnostic when the type of the expression in a
 `switch` statement isn't assignable to the type of the expressions in the

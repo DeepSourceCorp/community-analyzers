@@ -1,9 +1,9 @@
 
 title = "'{0}' can't be a superinterface of itself: {1}.  '{0}' can't extend itself.  '{0}' can't implement itself.  '{0}' can't use itself as a mixin.  '{0}' can't use itself as a superclass constraint"
-verbose_name = "recursive_interface_inheritance"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "recursive_interface_inheritance"
 description = """
 The analyzer produces this diagnostic when there's a circularity in the
 type hierarchy. This happens when a type, either directly or indirectly,

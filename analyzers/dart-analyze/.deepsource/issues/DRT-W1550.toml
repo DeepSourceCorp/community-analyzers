@@ -1,9 +1,9 @@
 
 title = "A class or mixin can't implement a nullable type"
-verbose_name = "nullable_type_in_implements_clause"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "nullable_type_in_implements_clause"
 description = """
 The analyzer produces this diagnostic when a class or mixin declaration has
 an `implements` clause, and an interface is followed by a `?`.

@@ -1,9 +1,9 @@
 
 title = "Can't infer missing types in '{0}' from overridden methods: {1}"
-verbose_name = "no_combined_super_signature"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "no_combined_super_signature"
 description = """
 The analyzer produces this diagnostic when there is a method declaration
 for which one or more types needs to be inferred, and those types can't be

@@ -1,9 +1,9 @@
 
 title = "The expression doesn't evaluate to a function, so it can't be invoked"
-verbose_name = "invocation_of_non_function_expression"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "invocation_of_non_function_expression"
 description = """
 The analyzer produces this diagnostic when a function invocation is found,
 but the name being referenced isn't the name of a function, or when the

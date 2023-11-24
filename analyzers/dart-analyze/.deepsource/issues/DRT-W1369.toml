@@ -1,9 +1,9 @@
 
 title = "'{0}' is final and was given a value when it was declared, so it can't be set to a new value"
-verbose_name = "final_initialized_in_declaration_and_constructor"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "final_initialized_in_declaration_and_constructor"
 description = """
 The analyzer produces this diagnostic when a final field is initialized
 twice: once where it's declared and once by a constructor's parameter.

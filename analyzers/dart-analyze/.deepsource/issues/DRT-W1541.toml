@@ -1,9 +1,9 @@
 
 title = "Non-nullable instance field '{0}' must be initialized"
-verbose_name = "not_initialized_non_nullable_instance_field"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "not_initialized_non_nullable_instance_field"
 description = """
 The analyzer produces this diagnostic when a field is declared and has all
 these characteristics:

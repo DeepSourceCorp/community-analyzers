@@ -1,9 +1,9 @@
 
 title = "Undefined name '{0}'"
-verbose_name = "undefined_identifier"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "undefined_identifier"
 description = """
 The analyzer produces this diagnostic when it encounters an identifier that
 either isn't defined or isn't visible in the scope in which it's being

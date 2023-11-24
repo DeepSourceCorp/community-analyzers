@@ -1,9 +1,9 @@
 
 title = "Unnecessary parentheses can be removed"
-verbose_name = "unnecessary_parenthesis"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "unnecessary_parenthesis"
 description = """
 **AVOID** using parentheses when not needed.
 

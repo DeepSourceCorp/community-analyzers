@@ -1,9 +1,9 @@
 
 title = "The field '{0}' can't be initialized by multiple parameters in the same constructor"
-verbose_name = "duplicate_field_formal_parameter"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "duplicate_field_formal_parameter"
 description = """
 The analyzer produces this diagnostic when there's more than one
 initializing formal parameter for the same field in a constructor's

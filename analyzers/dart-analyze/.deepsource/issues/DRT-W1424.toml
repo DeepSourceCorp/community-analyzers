@@ -1,9 +1,9 @@
 
 title = "Only public elements in a package's private API can be annotated as being internal"
-verbose_name = "invalid_internal_annotation"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "invalid_internal_annotation"
 description = """
 The analyzer produces this diagnostic when a declaration is annotated with
 the [`internal`][meta-internal] annotation and that declaration is either

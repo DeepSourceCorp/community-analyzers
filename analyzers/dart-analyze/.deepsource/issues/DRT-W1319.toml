@@ -1,9 +1,9 @@
 
 title = "A record literal without fields can't have a trailing comma"
-verbose_name = "empty_record_literal_with_comma"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "empty_record_literal_with_comma"
 description = """
 The analyzer produces this diagnostic when a record literal that has no
 fields has a trailing comma. Empty record literals can't contain a comma.

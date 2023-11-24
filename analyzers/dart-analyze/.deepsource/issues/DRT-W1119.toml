@@ -1,9 +1,9 @@
 
 title = "Don't reassign references to parameters of functions or methods"
-verbose_name = "parameter_assignments"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "parameter_assignments"
 description = """
 **DON'T** assign new values to parameters of methods or functions.
 

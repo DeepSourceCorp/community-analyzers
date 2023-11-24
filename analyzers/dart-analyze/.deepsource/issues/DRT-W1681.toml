@@ -1,9 +1,9 @@
 
 title = "The '!' will have no effect because the receiver can't be null"
-verbose_name = "unnecessary_non_null_assertion"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "unnecessary_non_null_assertion"
 description = """
 The analyzer produces this diagnostic when the operand of the `!` operator
 can't be `null`.

@@ -1,9 +1,9 @@
 
 title = "The field name '{0}' is already used in this record"
-verbose_name = "duplicate_field_name"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "duplicate_field_name"
 description = """
 The analyzer produces this diagnostic when either a record literal or a
 record type annotation contains a field whose name is the same as a

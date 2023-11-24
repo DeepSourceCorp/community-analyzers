@@ -1,9 +1,9 @@
 
 title = "The type of the argument to the extension override '{0}' isn't assignable to the extended type '{1}'"
-verbose_name = "extension_override_argument_not_assignable"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "extension_override_argument_not_assignable"
 description = """
 The analyzer produces this diagnostic when the argument to an extension
 override isn't assignable to the type being extended by the extension.

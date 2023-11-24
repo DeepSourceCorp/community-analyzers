@@ -1,9 +1,9 @@
 
 title = "The generative constructor '{0}' is expected, but a factory was found"
-verbose_name = "non_generative_constructor"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "non_generative_constructor"
 description = """
 The analyzer produces this diagnostic when the initializer list of a
 constructor invokes a constructor from the superclass, and the invoked

@@ -1,9 +1,9 @@
 
 title = "Two elements in a set literal shouldn't be equal"
-verbose_name = "equal_elements_in_set"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "equal_elements_in_set"
 description = """
 The analyzer produces this diagnostic when an element in a non-constant set
 is the same as a previous element in the same set. If two elements are the

@@ -1,9 +1,9 @@
 
 title = "Prefer relative imports for files in `lib/`"
-verbose_name = "prefer_relative_imports"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "prefer_relative_imports"
 description = """
 **PREFER** relative imports for files in `lib/`.
 

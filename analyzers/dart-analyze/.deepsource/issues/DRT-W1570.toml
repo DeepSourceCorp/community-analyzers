@@ -1,9 +1,9 @@
 
 title = "Pattern variables can't be assigned inside the guard of the enclosing guarded pattern"
-verbose_name = "pattern_variable_assignment_inside_guard"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "pattern_variable_assignment_inside_guard"
 description = """
 The analyzer produces this diagnostic when a pattern variable is assigned
 a value inside a guard (`when`) clause.

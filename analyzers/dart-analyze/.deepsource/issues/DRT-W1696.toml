@@ -1,9 +1,9 @@
 
 title = "Unused import: '{0}'"
-verbose_name = "unused_import"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "unused_import"
 description = """
 The analyzer produces this diagnostic when an import isn't needed because
 none of the names that are imported are referenced within the importing

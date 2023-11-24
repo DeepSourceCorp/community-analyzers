@@ -1,9 +1,9 @@
 
 title = "Fields in a struct class whose type is 'Pointer' shouldn't have any annotations"
-verbose_name = "annotation_on_pointer_field"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "annotation_on_pointer_field"
 description = """
 The analyzer produces this diagnostic when a field that's declared in a
 subclass of `Struct` and has the type `Pointer` also has an annotation

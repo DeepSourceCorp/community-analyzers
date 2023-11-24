@@ -1,9 +1,9 @@
 
 title = "External fields can't have initializers.  External variables can't have initializers"
-verbose_name = "external_with_initializer"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "external_with_initializer"
 description = """
 The analyzer produces this diagnostic when a field or variable marked with
 the keyword `external` has an initializer, or when an external field is

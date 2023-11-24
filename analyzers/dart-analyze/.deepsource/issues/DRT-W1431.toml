@@ -1,9 +1,9 @@
 
 title = "'{1}.{0}' ('{2}') isn't a valid override of '{3}.{0}' ('{4}').  The setter '{1}.{0}' ('{2}') isn't a valid override of '{3}.{0}' ('{4}')"
-verbose_name = "invalid_override"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "invalid_override"
 description = """
 The analyzer produces this diagnostic when a member of a class is found
 that overrides a member from a supertype and the override isn't valid. An

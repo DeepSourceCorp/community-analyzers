@@ -1,9 +1,9 @@
 
 title = "Don't assign to void"
-verbose_name = "void_checks"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "void_checks"
 description = """
 **DON'T** assign to void.
 

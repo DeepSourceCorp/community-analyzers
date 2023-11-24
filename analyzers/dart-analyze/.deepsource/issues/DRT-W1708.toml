@@ -1,9 +1,9 @@
 
 title = "A value of type '{0}' can't be assigned to a const variable of type '{1}'"
-verbose_name = "variable_type_mismatch"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "variable_type_mismatch"
 description = """
 The analyzer produces this diagnostic when the evaluation of a constant
 expression would result in a `CastException`.

@@ -1,9 +1,9 @@
 
 title = "The type of a key in a constant map can't override the '==' operator, or 'hashCode', but the class '{0}' does"
-verbose_name = "const_map_key_not_primitive_equality"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "const_map_key_not_primitive_equality"
 description = """
 The analyzer produces this diagnostic when the class of object used as a
 key in a constant map literal implements either the `==` operator, the

@@ -1,9 +1,9 @@
 
 title = "'{0}' is a static field in the enclosing class. Fields initialized in a constructor can't be static"
-verbose_name = "initializer_for_static_field"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "initializer_for_static_field"
 description = """
 The analyzer produces this diagnostic when a static field is initialized
 in a constructor using either an initializing formal parameter or an

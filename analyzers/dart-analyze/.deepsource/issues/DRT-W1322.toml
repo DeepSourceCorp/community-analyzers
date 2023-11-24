@@ -1,9 +1,9 @@
 
 title = "The class '{0}' can't be empty because it's a subclass of '{1}'"
-verbose_name = "empty_struct"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "empty_struct"
 description = """
 The analyzer produces this diagnostic when a subclass of `Struct` or
 `Union` doesn't have any fields. Having an empty `Struct` or `Union`

@@ -1,9 +1,9 @@
 
 title = "The return type of the function passed to 'NativeCallable.listener' must be 'void' rather than '{0}'"
-verbose_name = "must_return_void"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "must_return_void"
 description = """
 The analyzer produces this diagnostic when you pass a function
 that doesn't return `void` to the `NativeCallable.listener` constructor.

@@ -1,9 +1,9 @@
 
 title = "Only packing to 1, 2, 4, 8, and 16 bytes is supported"
-verbose_name = "packed_annotation_alignment"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "packed_annotation_alignment"
 description = """
 The analyzer produces this diagnostic when the argument to the `Packed`
 annotation isn't one of the allowed values: 1, 2, 4, 8, or 16.

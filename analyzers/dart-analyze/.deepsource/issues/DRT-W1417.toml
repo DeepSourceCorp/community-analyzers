@@ -1,9 +1,9 @@
 
 title = "Factory method '{0}' must have a return type"
-verbose_name = "invalid_factory_method_decl"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "invalid_factory_method_decl"
 description = """
 The analyzer produces this diagnostic when a method that is annotated with
 the [`factory`][meta-factory] annotation has a return type of `void`.

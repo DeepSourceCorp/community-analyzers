@@ -1,9 +1,9 @@
 
 title = "The expression in an assert must be of type 'bool'"
-verbose_name = "non_bool_expression"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "non_bool_expression"
 description = """
 The analyzer produces this diagnostic when the first expression in an
 assert has a type other than `bool`.

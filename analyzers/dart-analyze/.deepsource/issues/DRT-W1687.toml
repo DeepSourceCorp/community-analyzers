@@ -1,9 +1,9 @@
 
 title = "Braces unnecessarily wrap this expression in a set literal"
-verbose_name = "unnecessary_set_literal"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "unnecessary_set_literal"
 description = """
 The analyzer produces this diagnostic when a function that has a return
 type of `void`, `Future<void>`, or `FutureOr<void>` uses an expression

@@ -1,9 +1,9 @@
 
 title = "The integer literal is being used as a double, but can't be represented as a 64-bit double without overflow or loss of precision: '{0}'"
-verbose_name = "integer_literal_imprecise_as_double"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "integer_literal_imprecise_as_double"
 description = """
 The analyzer produces this diagnostic when an integer literal is being
 implicitly converted to a double, but can't be represented as a 64-bit

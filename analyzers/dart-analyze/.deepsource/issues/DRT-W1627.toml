@@ -1,9 +1,9 @@
 
 title = "The class '{0}' shouldn't be extended, mixed in, or implemented because it's sealed"
-verbose_name = "subtype_of_sealed_class"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "subtype_of_sealed_class"
 description = """
 The analyzer produces this diagnostic when a sealed class (one that either
 has the [`sealed`][meta-sealed] annotation or inherits or mixes in a

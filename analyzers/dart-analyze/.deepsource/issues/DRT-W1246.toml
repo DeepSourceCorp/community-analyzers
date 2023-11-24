@@ -1,9 +1,9 @@
 
 title = "The built-in identifier '{0}' can't be used as a type"
-verbose_name = "built_in_identifier_as_type"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "built_in_identifier_as_type"
 description = """
 The analyzer produces this diagnostic when a built-in identifier is used
 where a type name is expected.

@@ -1,9 +1,9 @@
 
 title = "Super parameters can only be used in non-redirecting generative constructors"
-verbose_name = "invalid_super_formal_parameter_location"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "invalid_super_formal_parameter_location"
 description = """
 The analyzer produces this diagnostic when a super parameter is used
 anywhere other than a non-redirecting generative constructor.

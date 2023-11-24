@@ -1,9 +1,9 @@
 
 title = "The variable '{0}' has a different type and/or finality in this branch of the logical-or pattern"
-verbose_name = "inconsistent_pattern_variable_logical_or"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "inconsistent_pattern_variable_logical_or"
 description = """
 The analyzer produces this diagnostic when a pattern variable that is
 declared on all branches of a logical-or pattern doesn't have the same

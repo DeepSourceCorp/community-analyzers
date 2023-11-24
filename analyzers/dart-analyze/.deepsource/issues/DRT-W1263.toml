@@ -1,9 +1,9 @@
 
 title = "The matched value type '{0}' can never be equal to this constant of type '{1}'"
-verbose_name = "constant_pattern_never_matches_value_type"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "constant_pattern_never_matches_value_type"
 description = """
 The analyzer produces this diagnostic when a constant pattern can never
 match the value it's being tested against because the type of the constant

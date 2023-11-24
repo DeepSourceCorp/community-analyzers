@@ -1,9 +1,9 @@
 
 title = "The enum is declared with {0} type parameters, but {1} type arguments were given"
-verbose_name = "wrong_number_of_type_arguments_enum"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "wrong_number_of_type_arguments_enum"
 description = """
 The analyzer produces this diagnostic when an enum constant in an enum
 that has type parameters is instantiated and type arguments are provided,

@@ -1,9 +1,9 @@
 
 title = "The stack trace variable '{0}' isn't used and can be removed"
-verbose_name = "unused_catch_stack"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "unused_catch_stack"
 description = """
 The analyzer produces this diagnostic when the stack trace parameter in a
 `catch` clause isn't referenced within the body of the `catch` block.

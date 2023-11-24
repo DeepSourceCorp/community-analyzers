@@ -1,9 +1,9 @@
 
 title = "Fields of type '{0}' in a subclass of '{1}' must have an annotation indicating the native type"
-verbose_name = "missing_annotation_on_struct_field"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "missing_annotation_on_struct_field"
 description = """
 The analyzer produces this diagnostic when a field in a subclass of
 `Struct` or `Union` whose type requires an annotation doesn't have one.

@@ -1,9 +1,9 @@
 
 title = "Prefer final for variable declarations if they are not reassigned"
-verbose_name = "prefer_final_locals"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "prefer_final_locals"
 description = """
 **DO** prefer declaring variables as final if they are not reassigned later in
 the code.

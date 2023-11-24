@@ -1,9 +1,9 @@
 
 title = "The switch case expression type '{0}' can't override the '==' operator"
-verbose_name = "case_expression_type_implements_equals"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "case_expression_type_implements_equals"
 description = """
 The analyzer produces this diagnostic when the type of the expression
 following the keyword `case` has an implementation of the `==` operator

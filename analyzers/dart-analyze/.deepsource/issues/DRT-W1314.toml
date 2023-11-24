@@ -1,9 +1,9 @@
 
 title = "The field '{0}' is already matched in this pattern"
-verbose_name = "duplicate_pattern_field"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "duplicate_pattern_field"
 description = """
 The analyzer produces this diagnostic when a record pattern matches the
 same field more than once, or when an object pattern matches the same

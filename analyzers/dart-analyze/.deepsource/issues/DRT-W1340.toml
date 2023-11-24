@@ -1,9 +1,9 @@
 
 title = "The exported library '{0}' can't have a part-of directive"
-verbose_name = "export_of_non_library"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "export_of_non_library"
 description = """
 The analyzer produces this diagnostic when an export directive references a
 part rather than a library.

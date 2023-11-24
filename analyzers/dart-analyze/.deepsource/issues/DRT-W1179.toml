@@ -1,9 +1,9 @@
 
 title = "Don't create a lambda when a tear-off will do"
-verbose_name = "unnecessary_lambdas"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "unnecessary_lambdas"
 description = """
 **DON'T** create a lambda when a tear-off will do.
 

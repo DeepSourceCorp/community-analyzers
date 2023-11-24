@@ -1,9 +1,9 @@
 
 title = "Avoid leading underscores for local identifiers"
-verbose_name = "no_leading_underscores_for_local_identifiers"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "no_leading_underscores_for_local_identifiers"
 description = """
 **DON'T** use a leading underscore for identifiers that aren't private. Dart
 uses a leading underscore in an identifier to mark members and top-level

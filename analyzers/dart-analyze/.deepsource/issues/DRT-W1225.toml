@@ -1,9 +1,9 @@
 
 title = "The argument type '{0}' can't be assigned to the parameter type '{1}'. {2}"
-verbose_name = "argument_type_not_assignable"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "argument_type_not_assignable"
 description = """
 The analyzer produces this diagnostic when the static type of an argument
 can't be assigned to the static type of the corresponding parameter.

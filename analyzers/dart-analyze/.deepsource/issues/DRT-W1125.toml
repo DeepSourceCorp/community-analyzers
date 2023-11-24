@@ -1,9 +1,9 @@
 
 title = "Prefer const with constant constructors"
-verbose_name = "prefer_const_constructors"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "prefer_const_constructors"
 description = """
 **PREFER** using `const` for instantiating constant constructors.
 

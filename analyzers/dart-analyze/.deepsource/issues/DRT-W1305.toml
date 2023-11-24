@@ -1,9 +1,9 @@
 
 title = "Duplicate export"
-verbose_name = "duplicate_export"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "duplicate_export"
 description = """
 The analyzer produces this diagnostic when an export directive is found
 that is the same as an export before it in the file. The second export

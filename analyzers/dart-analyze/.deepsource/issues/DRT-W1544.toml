@@ -1,9 +1,9 @@
 
 title = "Spread elements in map literals must implement 'Map'"
-verbose_name = "not_map_spread"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "not_map_spread"
 description = """
 The analyzer produces this diagnostic when the static type of the
 expression of a spread element that appears in a map literal doesn't

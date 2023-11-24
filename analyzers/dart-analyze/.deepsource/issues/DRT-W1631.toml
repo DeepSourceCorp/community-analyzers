@@ -1,9 +1,9 @@
 
 title = "No associated named super constructor parameter"
-verbose_name = "super_formal_parameter_without_associated_named"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "super_formal_parameter_without_associated_named"
 description = """
 The analyzer produces this diagnostic when there's a named super parameter
 in a constructor and the implicitly or explicitly invoked super

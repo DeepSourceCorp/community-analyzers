@@ -1,9 +1,9 @@
 
 title = "The late final local variable is already assigned"
-verbose_name = "late_final_local_already_assigned"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "late_final_local_already_assigned"
 description = """
 The analyzer produces this diagnostic when the analyzer can prove that a
 local variable marked as both `late` and `final` was already assigned a

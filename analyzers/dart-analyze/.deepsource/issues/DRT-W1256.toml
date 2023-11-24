@@ -1,9 +1,9 @@
 
 title = "The class '{0}' can't implement Finalizable"
-verbose_name = "compound_implements_finalizable"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "compound_implements_finalizable"
 description = """
 The analyzer produces this diagnostic when a subclass of either `Struct`
 or `Union` implements `Finalizable`.

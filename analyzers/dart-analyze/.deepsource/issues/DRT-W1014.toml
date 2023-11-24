@@ -1,9 +1,9 @@
 
 title = "Avoid control flow in finally blocks"
-verbose_name = "control_flow_in_finally"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "control_flow_in_finally"
 description = """
 **AVOID** control flow leaving finally blocks.
 

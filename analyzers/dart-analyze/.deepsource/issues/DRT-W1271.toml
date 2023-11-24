@@ -1,9 +1,9 @@
 
 title = "Constant values from a deferred library can't be used to initialize a 'const' variable"
-verbose_name = "const_initialized_with_non_constant_value_from_deferred_library"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "const_initialized_with_non_constant_value_from_deferred_library"
 description = """
 The analyzer produces this diagnostic when a `const` variable is
 initialized using a `const` variable from a library that is imported using

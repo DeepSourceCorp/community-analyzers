@@ -1,9 +1,9 @@
 
 title = "A redirecting constructor can't have an 'assert' initializer"
-verbose_name = "assert_in_redirecting_constructor"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "assert_in_redirecting_constructor"
 description = """
 The analyzer produces this diagnostic when a redirecting constructor (a
 constructor that redirects to another constructor in the same class) has an

@@ -1,9 +1,9 @@
 
 title = "The name '{0}' isn't a type and can't be used in an 'is' expression"
-verbose_name = "type_test_with_non_type"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "type_test_with_non_type"
 description = """
 The analyzer produces this diagnostic when the right-hand side of an `is`
 or `is!` test isn't a type.

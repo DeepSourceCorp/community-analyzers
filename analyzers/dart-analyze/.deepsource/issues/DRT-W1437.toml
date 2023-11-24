@@ -1,9 +1,9 @@
 
 title = "A value of type '{0}' can't be returned by the 'onError' handler because it must be assignable to '{1}'.  The return type '{0}' isn't assignable to '{1}', as required by 'Future.catchError'"
-verbose_name = "invalid_return_type_for_catch_error"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "invalid_return_type_for_catch_error"
 description = """
 The analyzer produces this diagnostic when an invocation of
 `Future.catchError` has an argument whose return type isn't compatible with

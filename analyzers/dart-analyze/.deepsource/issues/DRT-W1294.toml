@@ -1,9 +1,9 @@
 
 title = "The value of the '{0}' field is expected to be a map"
-verbose_name = "dependencies_field_not_map"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "dependencies_field_not_map"
 description = """
 The analyzer produces this diagnostic when the value of either the
 `dependencies` or `dev_dependencies` key isn't a map.

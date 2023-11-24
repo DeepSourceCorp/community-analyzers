@@ -1,9 +1,9 @@
 
 title = "The last statement of the 'case' should be 'break', 'continue', 'rethrow', 'return', or 'throw'"
-verbose_name = "case_block_not_terminated"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "case_block_not_terminated"
 description = """
 The analyzer produces this diagnostic when the last statement in a `case`
 block isn't one of the required terminators: `break`, `continue`,

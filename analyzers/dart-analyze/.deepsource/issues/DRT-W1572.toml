@@ -1,9 +1,9 @@
 
 title = "Object patterns can only use named fields"
-verbose_name = "positional_field_in_object_pattern"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "positional_field_in_object_pattern"
 description = """
 The analyzer produces this diagnostic when an object pattern contains a
 field without specifying the getter name. Object pattern fields match

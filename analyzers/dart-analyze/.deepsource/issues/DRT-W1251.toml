@@ -1,9 +1,9 @@
 
 title = "This cast will always throw an exception because the nullable local variable '{0}' is not assigned"
-verbose_name = "cast_from_nullable_always_fails"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "cast_from_nullable_always_fails"
 description = """
 The analyzer produces this diagnostic when a local variable that has a
 nullable type hasn't been assigned and is cast to a non-nullable type.

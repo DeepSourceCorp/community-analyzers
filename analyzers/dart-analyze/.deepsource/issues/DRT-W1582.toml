@@ -1,9 +1,9 @@
 
 title = "A record type with exactly one positional field requires a trailing comma"
-verbose_name = "record_type_one_positional_no_trailing_comma"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "record_type_one_positional_no_trailing_comma"
 description = """
 The analyzer produces this diagnostic when a record type annotation with a
 single positional field doesn't have a trailing comma after the field.

@@ -1,9 +1,9 @@
 
 title = "The matched value of type '{0}' isn't assignable to the required type '{1}'"
-verbose_name = "pattern_type_mismatch_in_irrefutable_context"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "pattern_type_mismatch_in_irrefutable_context"
 description = """
 The analyzer produces this diagnostic when the type of the value on the
 right-hand side of a pattern assignment or pattern declaration doesn't

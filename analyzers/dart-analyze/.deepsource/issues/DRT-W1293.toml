@@ -1,9 +1,9 @@
 
 title = "The late local variable '{0}' is definitely unassigned at this point"
-verbose_name = "definitely_unassigned_late_local_variable"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "definitely_unassigned_late_local_variable"
 description = """
 The analyzer produces this diagnostic when [definite assignment][] analysis
 shows that a local variable that's marked as `late` is read before being

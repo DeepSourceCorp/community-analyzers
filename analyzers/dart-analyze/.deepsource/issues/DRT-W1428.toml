@@ -1,9 +1,9 @@
 
 title = "Setters can't use 'async', 'async*', or 'sync*'"
-verbose_name = "invalid_modifier_on_setter"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "invalid_modifier_on_setter"
 description = """
 The analyzer produces this diagnostic when the body of a setter is prefixed
 by one of the following modifiers: `async`, `async*`, or `sync*`. Setter

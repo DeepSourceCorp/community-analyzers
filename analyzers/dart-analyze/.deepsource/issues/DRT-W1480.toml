@@ -1,9 +1,9 @@
 
 title = "The parameter '{0}' is required.  The parameter '{0}' is required. {1}"
-verbose_name = "missing_required_param"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "missing_required_param"
 description = """
 The analyzer produces this diagnostic when a method or function with a
 named parameter that is annotated as being required is invoked without

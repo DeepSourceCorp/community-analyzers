@@ -1,9 +1,9 @@
 
 title = "The platform '{0}' is not a recognized platform"
-verbose_name = "unknown_platform"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "unknown_platform"
 description = """
 The analyzer produces this diagnostic when an unknown platform name is
 used as a key in the `platforms` map.

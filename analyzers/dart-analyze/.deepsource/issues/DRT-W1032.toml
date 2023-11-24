@@ -1,9 +1,9 @@
 
 title = "Avoid unsafe HTML APIs"
-verbose_name = "unsafe_html"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "unsafe_html"
 description = """
 **AVOID**
 

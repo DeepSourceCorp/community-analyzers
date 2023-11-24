@@ -1,9 +1,9 @@
 
 title = "A constructor can have at most one 'super' initializer"
-verbose_name = "multiple_super_initializers"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "multiple_super_initializers"
 description = """
 The analyzer produces this diagnostic when the initializer list of a
 constructor contains more than one invocation of a constructor from the

@@ -1,9 +1,9 @@
 
 title = "Prefer if elements to conditional expressions where possible"
-verbose_name = "prefer_if_elements_to_conditional_expressions"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "prefer_if_elements_to_conditional_expressions"
 description = """
 When building collections, it is preferable to use `if` elements rather than
 conditionals.

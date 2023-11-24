@@ -1,9 +1,9 @@
 
 title = "DO use curly braces for all flow control structures"
-verbose_name = "curly_braces_in_flow_control_structures"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "curly_braces_in_flow_control_structures"
 description = """
 **DO** use curly braces for all flow control structures.
 

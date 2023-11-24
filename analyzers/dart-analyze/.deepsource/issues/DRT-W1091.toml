@@ -1,9 +1,9 @@
 
 title = "Define case clauses for all constants in enum-like classes"
-verbose_name = "exhaustive_cases"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "exhaustive_cases"
 description = """
 Switching on instances of enum-like classes should be exhaustive.
 

@@ -1,9 +1,9 @@
 
 title = "The name '{0}' is defined in the libraries '{1}' and '{2}'"
-verbose_name = "ambiguous_export"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "ambiguous_export"
 description = """
 The analyzer produces this diagnostic when two or more export directives
 cause the same name to be exported from multiple libraries.

@@ -1,9 +1,9 @@
 
 title = "The diagnostic '{0}' doesn't need to be ignored here because it's already being ignored"
-verbose_name = "duplicate_ignore"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "duplicate_ignore"
 description = """
 The analyzer produces this diagnostic when a diagnostic name appears in an
 `ignore` comment, but the diagnostic is already being ignored, either

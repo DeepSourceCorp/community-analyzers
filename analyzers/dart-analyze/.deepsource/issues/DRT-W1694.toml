@@ -1,9 +1,9 @@
 
 title = "A value for optional parameter '{0}' isn't ever given.  The declaration '{0}' isn't referenced"
-verbose_name = "unused_element"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "unused_element"
 description = """
 The analyzer produces this diagnostic when a private declaration isn't
 referenced in the library that contains the declaration. The following

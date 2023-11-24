@@ -1,9 +1,9 @@
 
 title = "Refutable patterns can't be used in an irrefutable context"
-verbose_name = "refutable_pattern_in_irrefutable_context"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "refutable_pattern_in_irrefutable_context"
 description = """
 The analyzer produces this diagnostic when a [refutable pattern][] is used
 in a context where only an [irrefutable pattern][] is allowed.

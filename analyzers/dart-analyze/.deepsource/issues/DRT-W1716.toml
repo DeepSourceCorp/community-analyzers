@@ -1,9 +1,9 @@
 
 title = "Yield statements must be in a generator function (one marked with either 'async*' or 'sync*').  Yield-each statements must be in a generator function (one marked with either 'async*' or 'sync*')"
-verbose_name = "yield_in_non_generator"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "yield_in_non_generator"
 description = """
 The analyzer produces this diagnostic when a `yield` or `yield*` statement
 appears in a function whose body isn't marked with one of the `async*` or

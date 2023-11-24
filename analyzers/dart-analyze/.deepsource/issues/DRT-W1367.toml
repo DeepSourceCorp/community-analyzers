@@ -1,9 +1,9 @@
 
 title = "Fields in subclasses of 'Struct' and 'Union' can't have initializers"
-verbose_name = "field_in_struct_with_initializer"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "field_in_struct_with_initializer"
 description = """
 The analyzer produces this diagnostic when a field in a subclass of
 `Struct` has an initializer.

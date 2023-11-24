@@ -1,9 +1,9 @@
 
 title = "Put a single newline at end of file"
-verbose_name = "eol_at_end_of_file"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "eol_at_end_of_file"
 description = """
 **DO** put a single newline at the end of non-empty files.
 

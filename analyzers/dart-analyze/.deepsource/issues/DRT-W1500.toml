@@ -1,9 +1,9 @@
 
 title = "This method overrides a method annotated as '@mustCallSuper' in '{0}', but doesn't invoke the overridden method"
-verbose_name = "must_call_super"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "must_call_super"
 description = """
 The analyzer produces this diagnostic when a method that overrides a method
 that is annotated as [`mustCallSuper`][meta-mustCallSuper] doesn't invoke

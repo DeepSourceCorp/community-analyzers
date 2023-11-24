@@ -1,9 +1,9 @@
 
 title = "'{0}' can only be implemented once"
-verbose_name = "implements_repeated"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "implements_repeated"
 description = """
 The analyzer produces this diagnostic when a single class is specified more
 than once in an `implements` clause.

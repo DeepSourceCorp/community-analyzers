@@ -1,9 +1,9 @@
 
 title = "A map is expected in this spread"
-verbose_name = "const_spread_expected_map"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "const_spread_expected_map"
 description = """
 The analyzer produces this diagnostic when the expression of a spread
 operator in a constant map evaluates to something other than a map.

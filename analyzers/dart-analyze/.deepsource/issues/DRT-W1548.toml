@@ -1,9 +1,9 @@
 
 title = "A potentially nullable type can't be used in an 'on' clause because it isn't valid to throw a nullable expression"
-verbose_name = "nullable_type_in_catch_clause"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "nullable_type_in_catch_clause"
 description = """
 The analyzer produces this diagnostic when the type following `on` in a
 `catch` clause is a nullable type. It isn't valid to specify a nullable

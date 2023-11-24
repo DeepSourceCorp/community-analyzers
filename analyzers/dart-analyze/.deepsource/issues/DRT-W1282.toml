@@ -1,9 +1,9 @@
 
 title = "Subclasses of 'Struct' and 'Union' are backed by native memory, and can't be instantiated by a generative constructor"
-verbose_name = "creation_of_struct_or_union"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "creation_of_struct_or_union"
 description = """
 The analyzer produces this diagnostic when a subclass of either `Struct`
 or `Union` is instantiated using a generative constructor.

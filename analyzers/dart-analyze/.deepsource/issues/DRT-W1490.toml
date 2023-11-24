@@ -1,9 +1,9 @@
 
 title = "Mixins can't be instantiated"
-verbose_name = "mixin_instantiate"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "mixin_instantiate"
 description = """
 The analyzer produces this diagnostic when a mixin is instantiated.
 

@@ -1,9 +1,9 @@
 
 title = "This instance creation must be 'const', because the {0} constructor is marked as '@literal'"
-verbose_name = "non_const_call_to_literal_constructor"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "non_const_call_to_literal_constructor"
 description = """
 The analyzer produces this diagnostic when a constructor that has the
 [`literal`][meta-literal] annotation is invoked without using the `const`

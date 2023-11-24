@@ -1,9 +1,9 @@
 
 title = "List patterns require one type argument or none, but {0} found"
-verbose_name = "expected_one_list_pattern_type_arguments"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "expected_one_list_pattern_type_arguments"
 description = """
 The analyzer produces this diagnostic when a list pattern has more than
 one type argument. List patterns can have either zero type arguments or

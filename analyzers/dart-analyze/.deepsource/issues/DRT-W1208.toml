@@ -1,9 +1,9 @@
 
 title = "Use throwsA matcher instead of fail()"
-verbose_name = "use_test_throws_matchers"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "use_test_throws_matchers"
 description = """
 Use the `throwsA` matcher instead of try-catch with `fail()`.
 

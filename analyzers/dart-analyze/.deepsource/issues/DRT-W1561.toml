@@ -1,9 +1,9 @@
 
 title = "Expected this library to be part of '{0}', not '{1}'"
-verbose_name = "part_of_different_library"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "part_of_different_library"
 description = """
 The analyzer produces this diagnostic when a library attempts to include a
 file as a part of itself when the other file is a part of a different

@@ -1,9 +1,9 @@
 
 title = "'{0}' doesn't conform to the bound '{2}' of the type parameter '{1}'"
-verbose_name = "type_argument_not_matching_bounds"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "type_argument_not_matching_bounds"
 description = """
 The analyzer produces this diagnostic when a type argument isn't the same
 as or a subclass of the bounds of the corresponding type parameter.

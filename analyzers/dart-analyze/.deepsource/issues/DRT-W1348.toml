@@ -1,9 +1,9 @@
 
 title = "Extensions can't declare members with the same name as a member declared by 'Object'"
-verbose_name = "extension_declares_member_of_object"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "extension_declares_member_of_object"
 description = """
 The analyzer produces this diagnostic when an extension declaration
 declares a member with the same name as a member declared in the class

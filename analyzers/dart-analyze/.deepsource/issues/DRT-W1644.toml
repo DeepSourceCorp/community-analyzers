@@ -1,9 +1,9 @@
 
 title = "The type of '{0}' can't be inferred because it depends on itself through the cycle: {1}"
-verbose_name = "top_level_cycle"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "top_level_cycle"
 description = """
 The analyzer produces this diagnostic when a top-level variable has no type
 annotation and the variable's initializer refers to the variable, either

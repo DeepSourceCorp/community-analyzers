@@ -1,9 +1,9 @@
 
 title = "Avoid using `null` in `if null` operators"
-verbose_name = "unnecessary_null_in_if_null_operators"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "unnecessary_null_in_if_null_operators"
 description = """
 **AVOID** using `null` as an operand in `if null` operators.
 

@@ -1,9 +1,9 @@
 
 title = "Name source files using `lowercase_with_underscores`"
-verbose_name = "file_names"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "file_names"
 description = """
 **DO** name source files using `lowercase_with_underscores`.
 

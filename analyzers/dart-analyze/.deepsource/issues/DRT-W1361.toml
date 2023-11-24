@@ -1,9 +1,9 @@
 
 title = "Initializing formal parameters can't be used in factory constructors"
-verbose_name = "field_initializer_factory_constructor"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "field_initializer_factory_constructor"
 description = """
 The analyzer produces this diagnostic when a factory constructor has an
 initializing formal parameter. Factory constructors can't assign values to

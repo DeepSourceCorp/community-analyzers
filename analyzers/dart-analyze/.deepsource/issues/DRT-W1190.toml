@@ -1,9 +1,9 @@
 
 title = "Remove unnecessary backslashes in strings"
-verbose_name = "unnecessary_string_escapes"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "unnecessary_string_escapes"
 description = """
 Remove unnecessary backslashes in strings.
 

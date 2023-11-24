@@ -1,9 +1,9 @@
 
 title = "Avoid using braces in interpolation when not needed"
-verbose_name = "unnecessary_brace_in_string_interps"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "unnecessary_brace_in_string_interps"
 description = """
 **AVOID** using braces in interpolation when not needed.
 

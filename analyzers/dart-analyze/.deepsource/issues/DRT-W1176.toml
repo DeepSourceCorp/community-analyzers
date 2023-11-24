@@ -1,9 +1,9 @@
 
 title = "Unnecessary `.new` constructor name"
-verbose_name = "unnecessary_constructor_name"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "unnecessary_constructor_name"
 description = """
 **PREFER** using the default unnamed Constructor over `.new`.
 

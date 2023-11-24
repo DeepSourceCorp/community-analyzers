@@ -1,9 +1,9 @@
 
 title = "Type annotate public APIs"
-verbose_name = "type_annotate_public_apis"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "type_annotate_public_apis"
 description = """
 From [Effective Dart](https://dart.dev/effective-dart/design#do-type-annotate-fields-and-top-level-variables-if-the-type-isnt-obvious):
 

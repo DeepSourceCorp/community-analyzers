@@ -1,9 +1,9 @@
 
 title = "The import of '{0}' is unnecessary because all of the used elements are also provided by the import of '{1}'"
-verbose_name = "unnecessary_import"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "unnecessary_import"
 description = """
 The analyzer produces this diagnostic when an import isn't needed because
 all of the names that are imported and referenced within the importing

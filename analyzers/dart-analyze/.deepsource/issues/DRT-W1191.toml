@@ -1,9 +1,9 @@
 
 title = "Unnecessary string interpolation"
-verbose_name = "unnecessary_string_interpolations"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "unnecessary_string_interpolations"
 description = """
 **DON'T** use string interpolation if there's only a string expression in it.
 

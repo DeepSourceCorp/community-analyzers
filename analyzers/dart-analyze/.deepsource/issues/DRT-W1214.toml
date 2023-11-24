@@ -1,9 +1,9 @@
 
 title = "Invalid mapping to '{0}'; only mappings to 'Int8', 'Int16', 'Int32', 'Int64', 'Uint8', 'Uint16', 'UInt32', and 'Uint64' are supported"
-verbose_name = "abi_specific_integer_mapping_unsupported"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "abi_specific_integer_mapping_unsupported"
 description = """
 The analyzer produces this diagnostic when a value in the map argument of
 an `AbiSpecificIntegerMapping` annotation is anything other than one of

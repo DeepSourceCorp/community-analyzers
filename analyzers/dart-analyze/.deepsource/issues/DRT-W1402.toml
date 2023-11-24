@@ -1,9 +1,9 @@
 
 title = "Abstract classes can't be instantiated"
-verbose_name = "instantiate_abstract_class"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "instantiate_abstract_class"
 description = """
 The analyzer produces this diagnostic when it finds a constructor
 invocation and the constructor is declared in an abstract class. Even

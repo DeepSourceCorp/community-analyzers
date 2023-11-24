@@ -1,9 +1,9 @@
 
 title = "The async for-in loop can only be used in an async function"
-verbose_name = "async_for_in_wrong_context"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "async_for_in_wrong_context"
 description = """
 The analyzer produces this diagnostic when an async for-in loop is found in
 a function or method whose body isn't marked as being either `async` or

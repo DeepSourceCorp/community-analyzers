@@ -1,9 +1,9 @@
 
 title = "The named parameter '{0}' isn't defined"
-verbose_name = "undefined_named_parameter"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "undefined_named_parameter"
 description = """
 The analyzer produces this diagnostic when a method or function invocation
 has a named argument, but the method or function being invoked doesn't

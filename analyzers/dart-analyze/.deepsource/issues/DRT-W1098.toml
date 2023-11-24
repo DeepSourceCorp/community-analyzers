@@ -1,9 +1,9 @@
 
 title = "Attach library annotations to library directives"
-verbose_name = "library_annotations"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "library_annotations"
 description = """
 Attach library annotations to library directives, rather than
 some other library-level element.

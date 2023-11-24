@@ -1,9 +1,9 @@
 
 title = "Can't reference label '{0}' declared in an outer method"
-verbose_name = "label_in_outer_scope"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "label_in_outer_scope"
 description = """
 The analyzer produces this diagnostic when a `break` or `continue`
 statement references a label that is declared in a method or function

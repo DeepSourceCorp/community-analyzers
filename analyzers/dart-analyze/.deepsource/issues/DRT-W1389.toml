@@ -1,9 +1,9 @@
 
 title = "The imported library defines a top-level function named 'loadLibrary' that is hidden by deferring this library"
-verbose_name = "import_deferred_library_with_load_function"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "import_deferred_library_with_load_function"
 description = """
 The analyzer produces this diagnostic when a library that declares a
 function named `loadLibrary` is imported using a deferred import. A

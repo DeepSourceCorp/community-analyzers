@@ -1,9 +1,9 @@
 
 title = "The name '{0}' is already defined"
-verbose_name = "duplicate_definition"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "duplicate_definition"
 description = """
 The analyzer produces this diagnostic when a name is declared, and there is
 a previous declaration with the same name in the same scope.

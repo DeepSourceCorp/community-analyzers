@@ -1,9 +1,9 @@
 
 title = "Don't rename parameters of overridden methods"
-verbose_name = "avoid_renaming_method_parameters"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "avoid_renaming_method_parameters"
 description = """
 **DON'T** rename parameters of overridden methods.
 

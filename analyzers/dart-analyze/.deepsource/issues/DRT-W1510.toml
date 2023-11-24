@@ -1,9 +1,9 @@
 
 title = "Case expressions must be constant"
-verbose_name = "non_constant_case_expression"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "non_constant_case_expression"
 description = """
 The analyzer produces this diagnostic when the expression in a `case`
 clause isn't a constant expression.

@@ -1,9 +1,9 @@
 
 title = "The operands of the operator '{0}' must be assignable to 'bool'"
-verbose_name = "non_bool_operand"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "non_bool_operand"
 description = """
 The analyzer produces this diagnostic when one of the operands of either
 the `&&` or `||` operator doesn't have the type `bool`.

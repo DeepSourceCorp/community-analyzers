@@ -1,9 +1,9 @@
 
 title = "Avoid leading underscores for library prefixes"
-verbose_name = "no_leading_underscores_for_library_prefixes"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "no_leading_underscores_for_library_prefixes"
 description = """
 **DON'T** use a leading underscore for library prefixes.
 There is no concept of "private" for library prefixes. When one of those has a

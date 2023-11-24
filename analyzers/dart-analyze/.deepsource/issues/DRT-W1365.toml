@@ -1,9 +1,9 @@
 
 title = "The redirecting constructor can't have a field initializer"
-verbose_name = "field_initializer_redirecting_constructor"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "field_initializer_redirecting_constructor"
 description = """
 The analyzer produces this diagnostic when a redirecting constructor
 initializes a field in the object. This isn't allowed because the instance

@@ -1,9 +1,9 @@
 
 title = "A member named '{0}' is defined in {1}, and none are more specific"
-verbose_name = "ambiguous_extension_member_access"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "ambiguous_extension_member_access"
 description = """
 When code refers to a member of an object (for example, `o.m()` or `o.m` or
 `o[i]`) where the static type of `o` doesn't declare the member (`m` or

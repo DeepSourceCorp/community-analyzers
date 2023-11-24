@@ -1,9 +1,9 @@
 
 title = "Avoid empty statements"
-verbose_name = "empty_statements"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "empty_statements"
 description = """
 **AVOID** empty statements.
 

@@ -1,9 +1,9 @@
 
 title = "'{0}' is deprecated and shouldn't be used.  '{0}' is deprecated and shouldn't be used. {1}"
-verbose_name = "deprecated_member_use"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "deprecated_member_use"
 description = """
 The analyzer produces this diagnostic when a deprecated library or class
 member is used in a different package.

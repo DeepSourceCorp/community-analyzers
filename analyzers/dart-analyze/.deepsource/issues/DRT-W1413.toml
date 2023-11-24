@@ -1,9 +1,9 @@
 
 title = "The method {0} can't have an exceptional return value (the second argument) when the return type of the function is either 'void', 'Handle' or 'Pointer'"
-verbose_name = "invalid_exception_value"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "invalid_exception_value"
 description = """
 The analyzer produces this diagnostic when an invocation of the method
 `Pointer.fromFunction` or `NativeCallable.isolateLocal`

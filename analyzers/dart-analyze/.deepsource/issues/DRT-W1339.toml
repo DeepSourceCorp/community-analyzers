@@ -1,9 +1,9 @@
 
 title = "The symbol '{0}' is defined in a legacy library, and can't be re-exported from a library with null safety enabled"
-verbose_name = "export_legacy_symbol"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "export_legacy_symbol"
 description = """
 The analyzer produces this diagnostic when a library that was opted in to
 null safety exports another library, and the exported library is opted out

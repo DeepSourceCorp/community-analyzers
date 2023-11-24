@@ -1,9 +1,9 @@
 
 title = "Classes can only extend other classes"
-verbose_name = "extends_non_class"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "extends_non_class"
 description = """
 The analyzer produces this diagnostic when an `extends` clause contains a
 name that is declared to be something other than a class.

@@ -1,9 +1,9 @@
 
 title = "There's no constant named '{0}' in '{1}'"
-verbose_name = "undefined_enum_constant"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "undefined_enum_constant"
 description = """
 The analyzer produces this diagnostic when it encounters an identifier that
 appears to be the name of an enum constant, and the name either isn't

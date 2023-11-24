@@ -1,9 +1,9 @@
 
 title = "Prefer final in for-each loop variable if reference is not reassigned"
-verbose_name = "prefer_final_in_for_each"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "prefer_final_in_for_each"
 description = """
 **DO** prefer declaring for-each loop variables as final if they are not
 reassigned later in the code.

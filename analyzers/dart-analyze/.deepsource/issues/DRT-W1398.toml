@@ -1,9 +1,9 @@
 
 title = "'{0}' isn't a field in the enclosing class"
-verbose_name = "initializing_formal_for_non_existent_field"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "initializing_formal_for_non_existent_field"
 description = """
 The analyzer produces this diagnostic when an initializing formal
 parameter is found in a constructor in a class that doesn't declare the

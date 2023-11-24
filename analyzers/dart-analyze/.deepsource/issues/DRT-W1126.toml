@@ -1,9 +1,9 @@
 
 title = "Prefer declaring const constructors on `@immutable` classes"
-verbose_name = "prefer_const_constructors_in_immutables"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "prefer_const_constructors_in_immutables"
 description = """
 **PREFER** declaring const constructors on `@immutable` classes.
 

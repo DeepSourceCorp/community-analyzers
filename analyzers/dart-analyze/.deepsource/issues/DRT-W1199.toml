@@ -1,9 +1,9 @@
 
 title = "Use generic function type syntax for parameters"
-verbose_name = "use_function_type_syntax_for_parameters"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "use_function_type_syntax_for_parameters"
 description = """
 Use generic function type syntax for parameters.
 

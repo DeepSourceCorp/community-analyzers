@@ -1,9 +1,9 @@
 
 title = "The name '{0}' refers to an import prefix, so it must be followed by '.'"
-verbose_name = "prefix_identifier_not_followed_by_dot"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "prefix_identifier_not_followed_by_dot"
 description = """
 The analyzer produces this diagnostic when an import prefix is used by
 itself, without accessing any of the names declared in the libraries

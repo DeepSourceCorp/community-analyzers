@@ -1,9 +1,9 @@
 
 title = "The member '{0}' can only be used for overriding"
-verbose_name = "invalid_use_of_visible_for_overriding_member"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "invalid_use_of_visible_for_overriding_member"
 description = """
 The analyzer produces this diagnostic when an instance member that is
 annotated with [`visibleForOverriding`][meta-visibleForOverriding] is

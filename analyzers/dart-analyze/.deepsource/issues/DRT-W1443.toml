@@ -1,9 +1,9 @@
 
 title = "The member '{0}' can only be used within its package"
-verbose_name = "invalid_use_of_internal_member"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "invalid_use_of_internal_member"
 description = """
 The analyzer produces this diagnostic when a reference to a declaration
 that is annotated with the [`internal`][meta-internal] annotation is found

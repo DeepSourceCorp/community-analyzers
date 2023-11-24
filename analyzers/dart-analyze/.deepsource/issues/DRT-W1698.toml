@@ -1,9 +1,9 @@
 
 title = "The value of the local variable '{0}' isn't used"
-verbose_name = "unused_local_variable"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "unused_local_variable"
 description = """
 The analyzer produces this diagnostic when a local variable is declared but
 never read, even if it's written in one or more places.

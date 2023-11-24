@@ -1,9 +1,9 @@
 
 title = "A record type without fields can't have a trailing comma"
-verbose_name = "empty_record_type_with_comma"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "empty_record_type_with_comma"
 description = """
 The analyzer produces this diagnostic when a record type that has no
 fields has a trailing comma. Empty record types can't contain a comma.

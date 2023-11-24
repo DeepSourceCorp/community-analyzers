@@ -1,9 +1,9 @@
 
 title = "Don't compare booleans to boolean literals"
-verbose_name = "no_literal_bool_comparisons"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "no_literal_bool_comparisons"
 description = """
 From [Effective Dart](https://dart.dev/effective-dart/usage#dont-use-true-or-false-in-equality-operations):
 

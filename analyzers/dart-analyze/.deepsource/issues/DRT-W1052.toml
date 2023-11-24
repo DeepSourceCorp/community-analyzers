@@ -1,9 +1,9 @@
 
 title = "Avoid escaping inner quotes by converting surrounding quotes"
-verbose_name = "avoid_escaping_inner_quotes"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "avoid_escaping_inner_quotes"
 description = """
 Avoid escaping inner quotes by converting surrounding quotes.
 

@@ -1,9 +1,9 @@
 
 title = "The {0} '{1}' can't implement both '{2}' and '{3}' because the type arguments are different"
-verbose_name = "conflicting_generic_interfaces"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "conflicting_generic_interfaces"
 description = """
 The analyzer produces this diagnostic when a class attempts to implement a
 generic interface multiple times, and the values of the type arguments

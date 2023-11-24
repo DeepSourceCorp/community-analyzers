@@ -1,9 +1,9 @@
 
 title = "All final variables must be initialized, but '{0}' and '{1}' aren't.  All final variables must be initialized, but '{0}' isn't.  All final variables must be initialized, but '{0}', '{1}', and {2} others aren't"
-verbose_name = "final_not_initialized_constructor"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "final_not_initialized_constructor"
 description = """
 The analyzer produces this diagnostic when a class defines one or more
 final instance fields without initializers and has at least one constructor

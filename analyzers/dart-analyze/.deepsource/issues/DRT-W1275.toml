@@ -1,9 +1,9 @@
 
 title = "<a id=\"const_set_element_type_implements_equals\" aria-hidden=\"true\"></a>_(Previously known as `const_set_element_type_implements_equals`)  An element in a constant set can't override the '==' operator, or 'hashCode', but the type '{0}' does"
-verbose_name = "const_set_element_not_primitive_equality"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "const_set_element_not_primitive_equality"
 description = """
 The analyzer produces this diagnostic when the class of object used as an
 element in a constant set literal implements either the `==` operator, the

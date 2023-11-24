@@ -1,9 +1,9 @@
 
 title = "A constant constructor tearoff can't use a type parameter as a type argument.  A constant creation can't use a type parameter as a type argument.  A constant function tearoff can't use a type parameter as a type argument"
-verbose_name = "const_with_type_parameters"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "const_with_type_parameters"
 description = """
 The analyzer produces this diagnostic when a type parameter is used as a
 type argument in a `const` invocation of a constructor. This isn't allowed

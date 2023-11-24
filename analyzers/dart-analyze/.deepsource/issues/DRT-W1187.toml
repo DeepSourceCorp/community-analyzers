@@ -1,9 +1,9 @@
 
 title = "Don't override a method to do a super method invocation with the same parameters"
-verbose_name = "unnecessary_overrides"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "unnecessary_overrides"
 description = """
 **DON'T** override a method to do a super method invocation with same parameters.
 

@@ -1,9 +1,9 @@
 
 title = "Record field names can't be a dollar sign followed by an integer when the integer is the index of a positional field.  Record field names can't be private.  Record field names can't be the same as a member from 'Object'"
-verbose_name = "invalid_field_name"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "invalid_field_name"
 description = """
 The analyzer produces this diagnostic when either a record literal or a
 record type annotation has a field whose name is invalid. The name is

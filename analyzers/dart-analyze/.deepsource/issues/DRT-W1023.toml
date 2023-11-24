@@ -1,9 +1,9 @@
 
 title = "Don't put any logic in createState"
-verbose_name = "no_logic_in_create_state"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "no_logic_in_create_state"
 description = """
 **DON'T** put any logic in `createState()`.
 

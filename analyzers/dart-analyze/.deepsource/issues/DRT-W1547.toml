@@ -1,9 +1,9 @@
 
 title = "The class '{0}' can't extend '{1}' because '{1}' only has factory constructors (no generative constructors), and '{0}' has at least one generative constructor"
-verbose_name = "no_generative_constructors_in_superclass"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "no_generative_constructors_in_superclass"
 description = """
 The analyzer produces this diagnostic when a class that has at least one
 generative constructor (whether explicit or implicit) has a superclass

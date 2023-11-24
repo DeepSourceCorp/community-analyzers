@@ -1,9 +1,9 @@
 
 title = "The name {0} is shown, but isn't used"
-verbose_name = "unused_shown_name"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "unused_shown_name"
 description = """
 The analyzer produces this diagnostic when a show combinator includes a
 name that isn't used within the library. Because it isn't referenced, the

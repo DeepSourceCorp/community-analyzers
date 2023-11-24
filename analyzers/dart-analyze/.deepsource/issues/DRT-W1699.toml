@@ -1,9 +1,9 @@
 
 title = "'{0}' should be used. {1}.  The value of '{0}' should be used"
-verbose_name = "unused_result"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "unused_result"
 description = """
 The analyzer produces this diagnostic when a function annotated with
 [`useResult`][meta-useResult] is invoked, and the value returned by that

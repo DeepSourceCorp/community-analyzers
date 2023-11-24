@@ -1,9 +1,9 @@
 
 title = "Missing conditional import"
-verbose_name = "conditional_uri_does_not_exist"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "conditional_uri_does_not_exist"
 description = """
 **DON'T** reference files that do not exist in conditional imports.
 

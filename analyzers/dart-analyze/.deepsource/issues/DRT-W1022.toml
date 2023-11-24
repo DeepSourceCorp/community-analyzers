@@ -1,9 +1,9 @@
 
 title = "Don't use more than one case with same value"
-verbose_name = "no_duplicate_case_values"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "no_duplicate_case_values"
 description = """
 **DON'T** use more than one case with same value.
 

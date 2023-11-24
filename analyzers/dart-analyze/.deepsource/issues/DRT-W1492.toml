@@ -1,9 +1,9 @@
 
 title = "The class '{0}' shouldn't be used as a mixin constraint because it is sealed, and any class mixing in this mixin must have '{0}' as a superclass"
-verbose_name = "mixin_on_sealed_class"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "mixin_on_sealed_class"
 description = """
 The analyzer produces this diagnostic when the superclass constraint of a
 mixin is a class from a different package that was marked as

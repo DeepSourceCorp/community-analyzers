@@ -1,9 +1,9 @@
 
 title = "Tighten type of initializing formal"
-verbose_name = "tighten_type_of_initializing_formals"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "tighten_type_of_initializing_formals"
 description = """
 Tighten the type of an initializing formal if a non-null assert exists. This
 allows the type system to catch problems rather than have them only be caught at

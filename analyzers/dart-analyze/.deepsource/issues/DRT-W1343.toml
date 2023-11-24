@@ -1,9 +1,9 @@
 
 title = "Extension '{0}' can't be used as an expression"
-verbose_name = "extension_as_expression"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "extension_as_expression"
 description = """
 The analyzer produces this diagnostic when the name of an extension is used
 in an expression other than in an extension override or to qualify an

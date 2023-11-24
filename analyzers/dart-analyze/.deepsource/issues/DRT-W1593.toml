@@ -1,9 +1,9 @@
 
 title = "A constant redirecting constructor can't redirect to a non-constant constructor"
-verbose_name = "redirect_to_non_const_constructor"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "redirect_to_non_const_constructor"
 description = """
 The analyzer produces this diagnostic when a constructor marked as `const`
 redirects to a constructor that isn't marked as `const`.

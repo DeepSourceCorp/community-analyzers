@@ -1,9 +1,9 @@
 
 title = "The name 'values' is not a valid name for an enum"
-verbose_name = "enum_with_name_values"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "enum_with_name_values"
 description = """
 The analyzer produces this diagnostic when an enum is declared to have the
 name `values`. This isn't allowed because the enum has an implicit static

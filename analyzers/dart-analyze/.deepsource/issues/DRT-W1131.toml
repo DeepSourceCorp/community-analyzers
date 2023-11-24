@@ -1,9 +1,9 @@
 
 title = "Prefer double quotes where they won't require escape sequences"
-verbose_name = "prefer_double_quotes"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "prefer_double_quotes"
 description = """
 **DO** use double quotes where they wouldn't require additional escapes.
 

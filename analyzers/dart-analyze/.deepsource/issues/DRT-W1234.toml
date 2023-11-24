@@ -1,9 +1,9 @@
 
 title = "'{0}' can't be used as a setter because it's final"
-verbose_name = "assignment_to_final"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "assignment_to_final"
 description = """
 The analyzer produces this diagnostic when it finds an invocation of a
 setter, but there's no setter because the field with the same name was

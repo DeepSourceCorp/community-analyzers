@@ -1,9 +1,9 @@
 
 title = "Local variable '{0}' can't be referenced before it is declared"
-verbose_name = "referenced_before_declaration"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "referenced_before_declaration"
 description = """
 The analyzer produces this diagnostic when a variable is referenced before
 it's declared. In Dart, variables are visible everywhere in the block in

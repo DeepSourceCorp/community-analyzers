@@ -1,9 +1,9 @@
 
 title = "Test type arguments in operator ==(Object other)"
-verbose_name = "test_types_in_equals"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "test_types_in_equals"
 description = """
 **DO** test type arguments in operator ==(Object other).
 

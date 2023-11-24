@@ -1,9 +1,9 @@
 
 title = "The return value is missing after 'return'"
-verbose_name = "return_without_value"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "return_without_value"
 description = """
 The analyzer produces this diagnostic when it finds a `return` statement
 without an expression in a function that declares a return type.

@@ -1,9 +1,9 @@
 
 title = "The field doesn't override an inherited getter or setter.  The getter doesn't override an inherited getter.  The method doesn't override an inherited method.  The setter doesn't override an inherited setter"
-verbose_name = "override_on_non_overriding_member"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "override_on_non_overriding_member"
 description = """
 The analyzer produces this diagnostic when a class member is annotated with
 the `@override` annotation, but the member isn't declared in any of the

@@ -1,9 +1,9 @@
 
 title = "Use valid regular expression syntax"
-verbose_name = "valid_regexps"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "valid_regexps"
 description = """
 **DO** use valid regular expression syntax when creating regular expression
 instances.

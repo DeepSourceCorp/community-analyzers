@@ -1,9 +1,9 @@
 
 title = "'{0}' must have a method body because '{1}' isn't abstract"
-verbose_name = "concrete_class_with_abstract_member"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "concrete_class_with_abstract_member"
 description = """
 The analyzer produces this diagnostic when a member of a concrete class is
 found that doesn't have a concrete implementation. Concrete classes aren't

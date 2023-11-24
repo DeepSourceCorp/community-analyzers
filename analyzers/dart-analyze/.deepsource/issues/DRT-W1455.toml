@@ -1,9 +1,9 @@
 
 title = "Can't reference an undefined label '{0}'"
-verbose_name = "label_undefined"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "label_undefined"
 description = """
 The analyzer produces this diagnostic when it finds a reference to a label
 that isn't defined in the scope of the `break` or `continue` statement that

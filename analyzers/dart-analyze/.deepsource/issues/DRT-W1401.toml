@@ -1,9 +1,9 @@
 
 title = "Instance members can't be accessed from a static method"
-verbose_name = "instance_member_access_from_static"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "instance_member_access_from_static"
 description = """
 The analyzer produces this diagnostic when a static method contains an
 unqualified reference to an instance member.

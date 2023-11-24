@@ -1,9 +1,9 @@
 
 title = "Close instances of `dart.core.Sink`"
-verbose_name = "close_sinks"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "close_sinks"
 description = """
 **DO** invoke `close` on instances of `dart.core.Sink`.
 

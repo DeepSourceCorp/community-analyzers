@@ -1,9 +1,9 @@
 
 title = "The name '{0}' isn't defined, so it can't be used in an 'is' expression"
-verbose_name = "type_test_with_undefined_name"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "type_test_with_undefined_name"
 description = """
 The analyzer produces this diagnostic when the name following the `is` in a
 type test expression isn't defined.

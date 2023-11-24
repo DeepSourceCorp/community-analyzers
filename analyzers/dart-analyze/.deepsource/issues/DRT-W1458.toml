@@ -1,9 +1,9 @@
 
 title = "FFI leaf call can't return a 'Handle'"
-verbose_name = "leaf_call_must_not_return_handle"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "leaf_call_must_not_return_handle"
 description = """
 The analyzer produces this diagnostic when the value of the `isLeaf`
 argument in an invocation of either `Pointer.asFunction` or

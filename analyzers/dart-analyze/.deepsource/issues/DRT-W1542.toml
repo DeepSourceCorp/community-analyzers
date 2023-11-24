@@ -1,9 +1,9 @@
 
 title = "The non-nullable variable '{0}' must be initialized"
-verbose_name = "not_initialized_non_nullable_variable"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "not_initialized_non_nullable_variable"
 description = """
 The analyzer produces this diagnostic when a static field or top-level
 variable has a type that's non-nullable and doesn't have an initializer.

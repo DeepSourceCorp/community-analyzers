@@ -1,9 +1,9 @@
 
 title = "The directory '{0}' doesn't contain a pubspec"
-verbose_name = "path_pubspec_does_not_exist"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "path_pubspec_does_not_exist"
 description = """
 The analyzer produces this diagnostic when a dependency has a `path` key
 that references a directory that doesn't contain a `pubspec.yaml` file.

@@ -1,9 +1,9 @@
 
 title = "The name '{0}' is being referenced through the prefix '{1}', but it isn't defined in any of the libraries imported using that prefix"
-verbose_name = "undefined_prefixed_name"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "undefined_prefixed_name"
 description = """
 The analyzer produces this diagnostic when a prefixed identifier is found
 where the prefix is valid, but the identifier isn't declared in any of the

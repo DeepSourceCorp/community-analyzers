@@ -1,9 +1,9 @@
 
 title = "Don't explicitly initialize variables to null"
-verbose_name = "avoid_init_to_null"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "avoid_init_to_null"
 description = """
 From [Effective Dart](https://dart.dev/effective-dart/usage#dont-explicitly-initialize-variables-to-null):
 

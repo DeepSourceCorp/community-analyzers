@@ -1,9 +1,9 @@
 
 title = "The return type '{0}' isn't a '{1}', as required by the closure's context"
-verbose_name = "return_of_invalid_type_from_closure"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "return_of_invalid_type_from_closure"
 description = """
 The analyzer produces this diagnostic when the static type of a returned
 expression isn't assignable to the return type that the closure is required

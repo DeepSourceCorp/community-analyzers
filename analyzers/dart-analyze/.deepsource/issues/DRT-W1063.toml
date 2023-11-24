@@ -1,9 +1,9 @@
 
 title = "Avoid redundant argument values"
-verbose_name = "avoid_redundant_argument_values"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "avoid_redundant_argument_values"
 description = """
 **DON'T** pass an argument that matches the corresponding parameter's default
 value.

@@ -1,9 +1,9 @@
 
 title = "Can't return a value from a generator function that uses the 'async*' or 'sync*' modifier"
-verbose_name = "return_in_generator"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "return_in_generator"
 description = """
 The analyzer produces this diagnostic when a generator function (one whose
 body is marked with either `async*` or `sync*`) uses either a `return`

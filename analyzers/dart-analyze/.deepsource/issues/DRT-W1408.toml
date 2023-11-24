@@ -1,9 +1,9 @@
 
 title = "Constant values from a deferred library can't be used in annotations"
-verbose_name = "invalid_annotation_constant_value_from_deferred_library"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "invalid_annotation_constant_value_from_deferred_library"
 description = """
 The analyzer produces this diagnostic when a constant defined in a library
 that is imported as a deferred library is referenced in the argument list

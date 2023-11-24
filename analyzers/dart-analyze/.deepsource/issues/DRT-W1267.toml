@@ -1,9 +1,9 @@
 
 title = "A constant constructor can't call a non-constant super constructor of '{0}'"
-verbose_name = "const_constructor_with_non_const_super"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "const_constructor_with_non_const_super"
 description = """
 The analyzer produces this diagnostic when a constructor that is marked as
 `const` invokes a constructor from its superclass that isn't marked as

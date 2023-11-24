@@ -1,9 +1,9 @@
 
 title = "The type '{0}' can be included in the superclass constraints only once"
-verbose_name = "on_repeated"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "on_repeated"
 description = """
 The analyzer produces this diagnostic when the same type is listed in the
 superclass constraints of a mixin multiple times.

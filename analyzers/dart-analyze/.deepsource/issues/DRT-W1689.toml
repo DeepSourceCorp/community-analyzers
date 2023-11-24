@@ -1,9 +1,9 @@
 
 title = "Static members from supertypes must be qualified by the name of the defining type"
-verbose_name = "unqualified_reference_to_non_local_static_member"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "unqualified_reference_to_non_local_static_member"
 description = """
 The analyzer produces this diagnostic when code in one class references a
 static member in a superclass without prefixing the member's name with the

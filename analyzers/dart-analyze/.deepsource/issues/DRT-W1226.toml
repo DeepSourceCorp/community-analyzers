@@ -1,9 +1,9 @@
 
 title = "The argument type '{0}' can't be assigned to the parameter type '{1} Function(Object)' or '{1} Function(Object, StackTrace)'"
-verbose_name = "argument_type_not_assignable_to_error_handler"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "argument_type_not_assignable_to_error_handler"
 description = """
 The analyzer produces this diagnostic when an invocation of
 `Future.catchError` has an argument that is a function whose parameters

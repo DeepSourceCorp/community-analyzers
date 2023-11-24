@@ -1,9 +1,9 @@
 
 title = "The class '{0}' can't extend 'Struct' or 'Union' because '{0}' is generic"
-verbose_name = "generic_struct_subclass"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "generic_struct_subclass"
 description = """
 The analyzer produces this diagnostic when a subclass of either `Struct`
 or `Union` has a type parameter.

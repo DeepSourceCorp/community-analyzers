@@ -1,9 +1,9 @@
 
 title = "Conditions must have a static type of 'bool'"
-verbose_name = "non_bool_condition"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "non_bool_condition"
 description = """
 The analyzer produces this diagnostic when a condition, such as an `if` or
 `while` loop, doesn't have the static type `bool`.

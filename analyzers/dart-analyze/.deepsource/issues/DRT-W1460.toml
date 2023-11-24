@@ -1,9 +1,9 @@
 
 title = "The element type '{0}' can't be assigned to the list type '{1}'"
-verbose_name = "list_element_type_not_assignable"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "list_element_type_not_assignable"
 description = """
 The analyzer produces this diagnostic when the type of an element in a list
 literal isn't assignable to the element type of the list.

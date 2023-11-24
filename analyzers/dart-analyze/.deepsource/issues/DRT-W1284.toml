@@ -1,9 +1,9 @@
 
 title = "Dead code"
-verbose_name = "dead_code"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "dead_code"
 description = """
 The analyzer produces this diagnostic when code is found that won't be
 executed because execution will never reach the code.

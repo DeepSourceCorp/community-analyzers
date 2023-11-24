@@ -1,9 +1,9 @@
 
 title = "The implicitly invoked unnamed constructor from '{0}' has required parameters"
-verbose_name = "implicit_super_initializer_missing_arguments"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "implicit_super_initializer_missing_arguments"
 description = """
 The analyzer produces this diagnostic when a constructor implicitly
 invokes the unnamed constructor from the superclass, the unnamed

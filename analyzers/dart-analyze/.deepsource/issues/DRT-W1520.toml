@@ -1,9 +1,9 @@
 
 title = "The values in a const set literal must be constants"
-verbose_name = "non_constant_set_element"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "non_constant_set_element"
 description = """
 The analyzer produces this diagnostic when a constant set literal contains
 an element that isn't a compile-time constant.

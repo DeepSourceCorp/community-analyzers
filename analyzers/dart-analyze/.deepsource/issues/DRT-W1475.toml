@@ -1,9 +1,9 @@
 
 title = "Fields in struct classes must have an explicitly declared type of 'int', 'double' or 'Pointer'"
-verbose_name = "missing_field_type_in_struct"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "missing_field_type_in_struct"
 description = """
 The analyzer produces this diagnostic when a field in a subclass of
 `Struct` or `Union` doesn't have a type annotation. Every field must have

@@ -1,9 +1,9 @@
 
 title = "An instance member named 'values' can't be declared in a class that implements 'Enum'.  An instance member named 'values' can't be inherited from '{0}' in a class that implements 'Enum'"
-verbose_name = "illegal_enum_values"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "illegal_enum_values"
 description = """
 The analyzer produces this diagnostic when either a class that implements
 `Enum` or a mixin with a superclass constraint of `Enum` has an instance

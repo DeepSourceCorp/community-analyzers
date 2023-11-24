@@ -1,9 +1,9 @@
 
 title = "Only reference in scope identifiers in doc comments"
-verbose_name = "comment_references"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "comment_references"
 description = """
 **DO** reference only in scope identifiers in doc comments.
 

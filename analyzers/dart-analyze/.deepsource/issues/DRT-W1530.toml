@@ -1,9 +1,9 @@
 
 title = "Array dimensions must be positive numbers"
-verbose_name = "non_positive_array_dimension"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "non_positive_array_dimension"
 description = """
 The analyzer produces this diagnostic when a dimension given in an `Array`
 annotation is less than or equal to zero (`0`).

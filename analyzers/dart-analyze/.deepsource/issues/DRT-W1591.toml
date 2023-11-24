@@ -1,9 +1,9 @@
 
 title = "The constructor '{0}' couldn't be found in '{1}'"
-verbose_name = "redirect_to_missing_constructor"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "redirect_to_missing_constructor"
 description = """
 The analyzer produces this diagnostic when a constructor redirects to a
 constructor that doesn't exist.

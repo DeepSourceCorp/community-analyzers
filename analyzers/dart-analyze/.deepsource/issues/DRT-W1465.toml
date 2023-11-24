@@ -1,9 +1,9 @@
 
 title = "Map entries can only be used in a map literal"
-verbose_name = "map_entry_not_in_map"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "map_entry_not_in_map"
 description = """
 The analyzer produces this diagnostic when a map entry (a key/value pair)
 is found in a set literal.

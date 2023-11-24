@@ -1,9 +1,9 @@
 
 title = "Avoid empty else statements"
-verbose_name = "avoid_empty_else"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "avoid_empty_else"
 description = """
 **AVOID** empty else statements.
 

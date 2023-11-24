@@ -1,9 +1,9 @@
 
 title = "Methods can't be assigned a value"
-verbose_name = "assignment_to_method"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "assignment_to_method"
 description = """
 The analyzer produces this diagnostic when the target of an assignment is a
 method.

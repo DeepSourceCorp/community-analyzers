@@ -1,9 +1,9 @@
 
 title = "'{0}' isn't a field in the enclosing class"
-verbose_name = "initializer_for_non_existent_field"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "initializer_for_non_existent_field"
 description = """
 The analyzer produces this diagnostic when a constructor initializes a
 field that isn't declared in the class containing the constructor.

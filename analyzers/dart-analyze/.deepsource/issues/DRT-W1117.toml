@@ -1,9 +1,9 @@
 
 title = "Provide doc comments for all public APIs"
-verbose_name = "package_api_docs"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "package_api_docs"
 description = """
 **DO** provide doc comments for all public APIs.
 

@@ -1,9 +1,9 @@
 
 title = "Don't explicitly catch Error or types that implement it"
-verbose_name = "avoid_catching_errors"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "avoid_catching_errors"
 description = """
 **DON'T** explicitly catch Error or types that implement it.
 

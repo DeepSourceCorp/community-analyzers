@@ -1,9 +1,9 @@
 
 title = "The annotation 'visibleOutsideTemplate' can only be applied to a member of a class, enum, or mixin that is annotated with 'visibleForTemplate'"
-verbose_name = "invalid_visible_outside_template_annotation"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "invalid_visible_outside_template_annotation"
 description = """
 The analyzer produces this diagnostic when the `@visibleOutsideTemplate`
 annotation is used incorrectly. This annotation is only meant to annotate

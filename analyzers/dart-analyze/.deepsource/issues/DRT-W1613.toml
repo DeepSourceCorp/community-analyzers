@@ -1,9 +1,9 @@
 
 title = "The operator '>>>' wasn't supported until version 2.14.0, but this code is required to be able to run on earlier versions"
-verbose_name = "sdk_version_gt_gt_gt_operator"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "sdk_version_gt_gt_gt_operator"
 description = """
 The analyzer produces this diagnostic when the operator `>>>` is used in
 code that has an SDK constraint whose lower bound is less than 2.14.0. This

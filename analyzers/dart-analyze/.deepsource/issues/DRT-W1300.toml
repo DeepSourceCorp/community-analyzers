@@ -1,9 +1,9 @@
 
 title = "Extending 'Function' is deprecated.  Implementing 'Function' has no effect.  Mixing in 'Function' is deprecated"
-verbose_name = "deprecated_subtype_of_function"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "deprecated_subtype_of_function"
 description = """
 The analyzer produces this diagnostic when the class `Function` is used in
 either the `extends`, `implements`, or `with` clause of a class or mixin.

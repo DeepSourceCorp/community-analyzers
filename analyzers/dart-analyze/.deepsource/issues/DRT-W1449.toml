@@ -1,9 +1,9 @@
 
 title = "The annotation 'visibleForOverriding' can only be applied to a public instance member that can be overridden"
-verbose_name = "invalid_visible_for_overriding_annotation"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "invalid_visible_for_overriding_annotation"
 description = """
 The analyzer produces this diagnostic when anything other than a public
 instance member of a class is annotated with

@@ -1,9 +1,9 @@
 
 title = "Avoid using web-only libraries outside Flutter web plugin packages"
-verbose_name = "avoid_web_libraries_in_flutter"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "avoid_web_libraries_in_flutter"
 description = """
 **AVOID** using web libraries, `dart:html`, `dart:js` and 
 `dart:js_util` in Flutter packages that are not web plugins. These libraries are 

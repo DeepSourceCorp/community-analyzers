@@ -1,9 +1,9 @@
 
 title = "Assets are required to be file paths (strings)"
-verbose_name = "asset_not_string"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "asset_not_string"
 description = """
 The analyzer produces this diagnostic when an asset list contains a value
 that isn't a string.

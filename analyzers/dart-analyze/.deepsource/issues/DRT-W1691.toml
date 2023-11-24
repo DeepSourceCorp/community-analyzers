@@ -1,9 +1,9 @@
 
 title = "This case is covered by the previous cases"
-verbose_name = "unreachable_switch_case"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "unreachable_switch_case"
 description = """
 The analyzer produces this diagnostic when a `case` clause in a `switch`
 statement doesn't match anything because all of the matchable values are

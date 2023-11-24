@@ -1,9 +1,9 @@
 
 title = "Invalid context for 'super' invocation"
-verbose_name = "super_in_invalid_context"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "super_in_invalid_context"
 description = """
 The analyzer produces this diagnostic when the keyword `super` is used
 outside of an instance method.

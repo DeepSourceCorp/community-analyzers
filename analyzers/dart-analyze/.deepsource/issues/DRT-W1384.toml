@@ -1,9 +1,9 @@
 
 title = "Classes and mixins can only implement other classes and mixins"
-verbose_name = "implements_non_class"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "implements_non_class"
 description = """
 The analyzer produces this diagnostic when a name used in the `implements`
 clause of a class or mixin declaration is defined to be something other

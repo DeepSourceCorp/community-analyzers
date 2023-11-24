@@ -1,9 +1,9 @@
 
 title = "The constructor with name '{0}' is already defined.  The unnamed constructor is already defined"
-verbose_name = "duplicate_constructor"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "duplicate_constructor"
 description = """
 The analyzer produces this diagnostic when a class declares more than one
 unnamed constructor or when it declares more than one constructor with the

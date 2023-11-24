@@ -1,9 +1,9 @@
 
 title = "Concrete classes can't have 'Enum' as a superinterface"
-verbose_name = "concrete_class_has_enum_superinterface"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "concrete_class_has_enum_superinterface"
 description = """
 The analyzer produces this diagnostic when a concrete class indirectly has
 the class `Enum` as a superinterface.

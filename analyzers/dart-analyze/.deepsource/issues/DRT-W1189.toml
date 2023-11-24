@@ -1,9 +1,9 @@
 
 title = "Unnecessary raw string"
-verbose_name = "unnecessary_raw_strings"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "unnecessary_raw_strings"
 description = """
 Use raw string only when needed.
 

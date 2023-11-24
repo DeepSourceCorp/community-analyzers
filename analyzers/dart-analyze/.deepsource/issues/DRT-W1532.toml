@@ -1,9 +1,9 @@
 
 title = "Factory bodies can't use 'async', 'async*', or 'sync*'"
-verbose_name = "non_sync_factory"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "non_sync_factory"
 description = """
 The analyzer produces this diagnostic when the body of a factory
 constructor is marked with `async`, `async*`, or `sync*`. All constructors,

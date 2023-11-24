@@ -1,9 +1,9 @@
 
 title = "The field '{0}' can't be initialized twice in the same constructor"
-verbose_name = "field_initialized_by_multiple_initializers"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "field_initialized_by_multiple_initializers"
 description = """
 The analyzer produces this diagnostic when the initializer list of a
 constructor initializes a field more than once. There is no value to allow

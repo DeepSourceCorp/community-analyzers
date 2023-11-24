@@ -1,9 +1,9 @@
 
 title = "Duplicate shown name"
-verbose_name = "duplicate_shown_name"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "duplicate_shown_name"
 description = """
 The analyzer produces this diagnostic when a name occurs multiple times in
 a `show` clause. Repeating the name is unnecessary.

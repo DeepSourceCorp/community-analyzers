@@ -1,9 +1,9 @@
 
 title = "A for-in loop variable can't be a 'const'"
-verbose_name = "for_in_with_const_variable"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "for_in_with_const_variable"
 description = """
 The analyzer produces this diagnostic when the loop variable declared in a
 for-in loop is declared to be a `const`. The variable can't be a `const`

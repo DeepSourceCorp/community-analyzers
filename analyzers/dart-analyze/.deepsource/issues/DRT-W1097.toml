@@ -1,9 +1,9 @@
 
 title = "Start multiline strings with a newline"
-verbose_name = "leading_newlines_in_multiline_strings"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "leading_newlines_in_multiline_strings"
 description = """
 Multiline strings are easier to read when they start with a newline (a newline
 starting a multiline string is ignored).

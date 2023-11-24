@@ -1,9 +1,9 @@
 
 title = "Annotation must be either a const variable reference or const constructor invocation"
-verbose_name = "invalid_annotation"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "invalid_annotation"
 description = """
 The analyzer produces this diagnostic when an annotation is found that is
 using something that is neither a variable marked as `const` or the

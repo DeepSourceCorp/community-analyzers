@@ -1,9 +1,9 @@
 
 title = "Name extensions using UpperCamelCase"
-verbose_name = "camel_case_extensions"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "camel_case_extensions"
 description = """
 From [Effective Dart](https://dart.dev/effective-dart/style#do-name-extensions-using-uppercamelcase):
 

@@ -1,9 +1,9 @@
 
 title = "A negation operand must have a static type of 'bool'"
-verbose_name = "non_bool_negation_expression"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "non_bool_negation_expression"
 description = """
 The analyzer produces this diagnostic when the operand of the unary
 negation operator (`!`) doesn't have the type `bool`.

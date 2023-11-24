@@ -1,9 +1,9 @@
 
 title = "The included part '{0}' must have a part-of directive"
-verbose_name = "part_of_non_part"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "part_of_non_part"
 description = """
 The analyzer produces this diagnostic when a part directive is found and
 the referenced file doesn't have a part-of directive.

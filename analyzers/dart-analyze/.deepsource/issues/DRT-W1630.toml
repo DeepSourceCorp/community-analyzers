@@ -1,9 +1,9 @@
 
 title = "The type '{0}' of this parameter isn't a subtype of the type '{1}' of the associated super constructor parameter"
-verbose_name = "super_formal_parameter_type_is_not_subtype_of_associated"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "super_formal_parameter_type_is_not_subtype_of_associated"
 description = """
 The analyzer produces this diagnostic when the type of a super parameter
 isn't a subtype of the corresponding parameter from the super constructor.

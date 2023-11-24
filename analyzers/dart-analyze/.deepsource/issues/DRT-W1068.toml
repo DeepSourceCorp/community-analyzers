@@ -1,9 +1,9 @@
 
 title = "Avoid setters without getters"
-verbose_name = "avoid_setters_without_getters"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "avoid_setters_without_getters"
 description = """
 **DON'T** define a setter without a corresponding getter.
 

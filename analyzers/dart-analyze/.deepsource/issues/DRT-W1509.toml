@@ -1,9 +1,9 @@
 
 title = "Annotation creation can only call a const constructor"
-verbose_name = "non_constant_annotation_constructor"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "non_constant_annotation_constructor"
 description = """
 The analyzer produces this diagnostic when an annotation is the invocation
 of an existing constructor even though the invoked constructor isn't a

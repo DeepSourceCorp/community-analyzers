@@ -1,9 +1,9 @@
 
 title = "Prefer int literals over double literals"
-verbose_name = "prefer_int_literals"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "prefer_int_literals"
 description = """
 **DO** use int literals rather than the corresponding double literal.
 

@@ -1,9 +1,9 @@
 
 title = "Prefer an 8-digit hexadecimal integer(0xFFFFFFFF) to instantiate Color"
-verbose_name = "use_full_hex_values_for_flutter_colors"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "use_full_hex_values_for_flutter_colors"
 description = """
 **PREFER** an 8-digit hexadecimal integer(0xFFFFFFFF) to instantiate Color. Colors
 have four 8-bit channels, which adds up to 32 bits, so Colors are described

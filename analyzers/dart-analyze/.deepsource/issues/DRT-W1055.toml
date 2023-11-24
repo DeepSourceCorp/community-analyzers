@@ -1,9 +1,9 @@
 
 title = "Avoid using `forEach` with a function literal"
-verbose_name = "avoid_function_literals_in_foreach_calls"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "avoid_function_literals_in_foreach_calls"
 description = """
 **AVOID** using `forEach` with a function literal.
 

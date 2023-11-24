@@ -6,10 +6,10 @@ ISSUE_PREFIX = "DRT-W"
 
 ISSUE_TOML_TEMPLATE = '''
 title = "{title}"
-verbose_name = "{verbose_name}"
-category = "{category}"
-severity = "major"
 weight = 70
+severity = "major"
+category = "{category}"
+verbose_name = "{verbose_name}"
 description = """
 {description}
 """

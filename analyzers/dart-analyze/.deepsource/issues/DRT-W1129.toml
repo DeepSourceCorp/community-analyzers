@@ -1,9 +1,9 @@
 
 title = "Prefer defining constructors instead of static methods to create instances"
-verbose_name = "prefer_constructors_over_static_methods"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "prefer_constructors_over_static_methods"
 description = """
 **PREFER** defining constructors instead of static methods to create instances.
 

@@ -1,9 +1,9 @@
 
 title = "A double can't equal 'double.nan', so the condition is always 'false'.  A double can't equal 'double.nan', so the condition is always 'true'"
-verbose_name = "unnecessary_nan_comparison"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "unnecessary_nan_comparison"
 description = """
 The analyzer produces this diagnostic when a value is compared to
 `double.nan` using either `==` or `!=`.

@@ -1,9 +1,9 @@
 
 title = "Undefined name 'await' in function body not marked with 'async'"
-verbose_name = "undefined_identifier_await"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "undefined_identifier_await"
 description = """
 The analyzer produces this diagnostic when the name `await` is used in a
 method or function body without being declared, and the body isn't marked

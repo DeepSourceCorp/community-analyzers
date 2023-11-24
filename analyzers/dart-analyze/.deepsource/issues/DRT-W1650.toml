@@ -1,9 +1,9 @@
 
 title = "'{0}' can't be a supertype of its upper bound"
-verbose_name = "type_parameter_supertype_of_its_bound"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "type_parameter_supertype_of_its_bound"
 description = """
 The analyzer produces this diagnostic when the bound of a type parameter
 (the type following the `extends` keyword) is either directly or indirectly

@@ -1,9 +1,9 @@
 
 title = "The getter '{0}' isn't defined for the extension '{1}'"
-verbose_name = "undefined_extension_getter"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "undefined_extension_getter"
 description = """
 The analyzer produces this diagnostic when an extension override is used to
 invoke a getter, but the getter isn't defined by the specified extension.

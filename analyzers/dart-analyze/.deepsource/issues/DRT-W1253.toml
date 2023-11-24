@@ -1,9 +1,9 @@
 
 title = "The name '{0}' isn't a type, so it can't be used in an 'as' expression"
-verbose_name = "cast_to_non_type"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "cast_to_non_type"
 description = """
 The analyzer produces this diagnostic when the name following the `as` in a
 cast expression is defined to be something other than a type.

@@ -1,9 +1,9 @@
 
 title = "Avoid const keyword"
-verbose_name = "unnecessary_const"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "unnecessary_const"
 description = """
 **AVOID** repeating const keyword in a const context.
 

@@ -1,9 +1,9 @@
 
 title = "Unnecessary new keyword"
-verbose_name = "unnecessary_new"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "unnecessary_new"
 description = """
 **AVOID** new keyword to create instances.
 

@@ -1,9 +1,9 @@
 
 title = "Only const constructors can have the `@literal` annotation"
-verbose_name = "invalid_literal_annotation"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "invalid_literal_annotation"
 description = """
 The analyzer produces this diagnostic when the [`literal`][meta-literal]
 annotation is applied to anything other than a const constructor.

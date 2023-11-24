@@ -1,9 +1,9 @@
 
 title = "Extensions can't declare abstract members"
-verbose_name = "extension_declares_abstract_member"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "extension_declares_abstract_member"
 description = """
 The analyzer produces this diagnostic when an abstract declaration is
 declared in an extension. Extensions can declare only concrete members.

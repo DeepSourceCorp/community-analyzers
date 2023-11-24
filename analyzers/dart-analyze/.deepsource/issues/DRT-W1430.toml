@@ -1,9 +1,9 @@
 
 title = "The receiver can't be null because of short-circuiting, so the null-aware operator '{0}' can't be used.  The receiver can't be null, so the null-aware operator '{0}' is unnecessary"
-verbose_name = "invalid_null_aware_operator"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "invalid_null_aware_operator"
 description = """
 The analyzer produces this diagnostic when a null-aware operator (`?.`,
 `?..`, `?[`, `?..[`, or `...?`) is used on a receiver that's known to be

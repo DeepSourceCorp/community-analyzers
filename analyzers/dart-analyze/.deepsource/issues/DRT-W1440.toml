@@ -1,9 +1,9 @@
 
 title = "Constant list literals can't include a type parameter as a type argument, such as '{0}'.  Constant map literals can't include a type parameter as a type argument, such as '{0}'.  Constant set literals can't include a type parameter as a type argument, such as '{0}'"
-verbose_name = "invalid_type_argument_in_const_literal"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "invalid_type_argument_in_const_literal"
 description = """
 The analyzer produces this diagnostic when a type parameter is used as a
 type argument in a list, map, or set literal that is prefixed by `const`.

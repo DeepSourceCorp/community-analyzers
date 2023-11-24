@@ -1,9 +1,9 @@
 
 title = "A generative constructor of an abstract class can't be torn off"
-verbose_name = "tearoff_of_generative_constructor_of_abstract_class"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "tearoff_of_generative_constructor_of_abstract_class"
 description = """
 The analyzer produces this diagnostic when a generative constructor from an
 abstract class is being torn off. This isn't allowed because it isn't valid

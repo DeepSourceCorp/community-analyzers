@@ -1,9 +1,9 @@
 
 title = "Avoid `throw` in finally block"
-verbose_name = "throw_in_finally"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "throw_in_finally"
 description = """
 **AVOID** throwing exceptions in finally blocks.
 

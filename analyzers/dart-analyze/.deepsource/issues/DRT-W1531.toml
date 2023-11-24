@@ -1,9 +1,9 @@
 
 title = "The type '{1}' isn't a valid type argument for '{0}'. The type argument must be a native integer, 'Float', 'Double', 'Pointer', or subtype of 'Struct', 'Union', or 'AbiSpecificInteger'"
-verbose_name = "non_sized_type_argument"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "non_sized_type_argument"
 description = """
 The analyzer produces this diagnostic when the type argument for the class
 `Array` isn't one of the valid types: either a native integer, `Float`,

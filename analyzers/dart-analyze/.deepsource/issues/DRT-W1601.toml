@@ -1,9 +1,9 @@
 
 title = "Constructors can't return values"
-verbose_name = "return_in_generative_constructor"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "return_in_generative_constructor"
 description = """
 The analyzer produces this diagnostic when a generative constructor
 contains a `return` statement that specifies a value to be returned.

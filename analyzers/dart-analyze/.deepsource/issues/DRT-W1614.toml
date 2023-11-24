@@ -1,9 +1,9 @@
 
 title = "The use of an is expression in a constant context wasn't supported until version 2.3.2, but this code is required to be able to run on earlier versions"
-verbose_name = "sdk_version_is_expression_in_const_context"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "sdk_version_is_expression_in_const_context"
 description = """
 The analyzer produces this diagnostic when an `is` expression inside a
 [constant context][] is found in code that has an SDK constraint whose

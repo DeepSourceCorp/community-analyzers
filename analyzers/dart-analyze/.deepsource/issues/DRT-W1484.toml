@@ -1,9 +1,9 @@
 
 title = "The super-invoked member '{0}' has the type '{1}', and the concrete member in the class has the type '{2}'"
-verbose_name = "mixin_application_concrete_super_invoked_member_type"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "mixin_application_concrete_super_invoked_member_type"
 description = """
 The analyzer produces this diagnostic when a mixin that invokes a method
 using `super` is used in a class where the concrete implementation of that

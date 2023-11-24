@@ -1,9 +1,9 @@
 
 title = "The member '{0}' can only be used within '{1}' or a test"
-verbose_name = "invalid_use_of_visible_for_testing_member"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "invalid_use_of_visible_for_testing_member"
 description = """
 The analyzer produces this diagnostic when a member annotated with
 `@visibleForTesting` is referenced anywhere other than the library in

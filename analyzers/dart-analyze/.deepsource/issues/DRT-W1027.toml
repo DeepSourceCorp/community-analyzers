@@ -1,9 +1,9 @@
 
 title = "Don't use the Null type, unless you are positive that you don't want void"
-verbose_name = "prefer_void_to_null"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "prefer_void_to_null"
 description = """
 **DON'T** use the type Null where void would work.
 

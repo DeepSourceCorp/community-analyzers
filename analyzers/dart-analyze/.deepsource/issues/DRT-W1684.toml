@@ -1,9 +1,9 @@
 
 title = "The null-check pattern will have no effect because the matched type isn't nullable"
-verbose_name = "unnecessary_null_check_pattern"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "unnecessary_null_check_pattern"
 description = """
 The analyzer produces this diagnostic when a null-check pattern is used to
 match a value that isn't nullable.

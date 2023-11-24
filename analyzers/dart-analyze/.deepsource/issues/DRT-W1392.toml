@@ -1,9 +1,9 @@
 
 title = "The imported library '{0}' can't have a part-of directive"
-verbose_name = "import_of_non_library"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "import_of_non_library"
 description = """
 The analyzer produces this diagnostic when a [part file][] is imported
 into a library.

@@ -1,9 +1,9 @@
 
 title = "Avoid null in null-aware assignment"
-verbose_name = "unnecessary_null_aware_assignments"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "unnecessary_null_aware_assignments"
 description = """
 **AVOID** `null` in null-aware assignment.
 

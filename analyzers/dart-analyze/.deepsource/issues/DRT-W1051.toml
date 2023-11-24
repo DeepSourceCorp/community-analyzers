@@ -1,9 +1,9 @@
 
 title = "Avoid overloading operator == and hashCode on classes not marked `@immutable`"
-verbose_name = "avoid_equals_and_hash_code_on_mutable_classes"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "avoid_equals_and_hash_code_on_mutable_classes"
 description = """
 From [Effective Dart](https://dart.dev/effective-dart/design#avoid-defining-custom-equality-for-mutable-classes):
 

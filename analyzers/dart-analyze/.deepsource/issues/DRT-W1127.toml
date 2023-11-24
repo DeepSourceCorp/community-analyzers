@@ -1,9 +1,9 @@
 
 title = "Prefer const over final for declarations"
-verbose_name = "prefer_const_declarations"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "prefer_const_declarations"
 description = """
 **PREFER** using `const` for const declarations.
 

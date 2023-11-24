@@ -1,9 +1,9 @@
 
 title = "Avoid types as parameter names"
-verbose_name = "avoid_types_as_parameter_names"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "avoid_types_as_parameter_names"
 description = """
 **AVOID** using a parameter name that is the same as an existing type.
 

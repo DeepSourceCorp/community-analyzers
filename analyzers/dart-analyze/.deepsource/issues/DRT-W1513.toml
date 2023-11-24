@@ -1,9 +1,9 @@
 
 title = "Constant values from a deferred library can't be used as a default parameter value"
-verbose_name = "non_constant_default_value_from_deferred_library"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "non_constant_default_value_from_deferred_library"
 description = """
 The analyzer produces this diagnostic when the default value of an optional
 parameter uses a constant from a library imported using a deferred import.

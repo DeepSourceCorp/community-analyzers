@@ -1,9 +1,9 @@
 
 title = "The member '{0}' is annotated with '{1}', but this annotation is only meaningful on declarations of public members"
-verbose_name = "invalid_visibility_annotation"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "invalid_visibility_annotation"
 description = """
 The analyzer produces this diagnostic when either the `visibleForTemplate`
 or [`visibleForTesting`][meta-visibleForTesting] annotation is applied to

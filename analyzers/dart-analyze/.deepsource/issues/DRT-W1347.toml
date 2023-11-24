@@ -1,9 +1,9 @@
 
 title = "Extensions can't declare instance fields"
-verbose_name = "extension_declares_instance_field"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "extension_declares_instance_field"
 description = """
 The analyzer produces this diagnostic when an instance field declaration is
 found in an extension. It isn't valid to define an instance field because

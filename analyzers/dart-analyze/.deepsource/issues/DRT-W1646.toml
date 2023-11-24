@@ -1,9 +1,9 @@
 
 title = "The deferred type '{0}' can't be used in a declaration, cast, or type test"
-verbose_name = "type_annotation_deferred_class"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "type_annotation_deferred_class"
 description = """
 The analyzer produces this diagnostic when the type annotation is in a
 variable declaration, or the type used in a cast (`as`) or type test (`is`)

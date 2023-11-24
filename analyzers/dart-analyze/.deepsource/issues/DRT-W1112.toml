@@ -1,9 +1,9 @@
 
 title = "Do not pass `null` as an argument where a closure is expected"
-verbose_name = "null_closures"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "null_closures"
 description = """
 **DON'T** pass `null` as an argument where a closure is expected.
 

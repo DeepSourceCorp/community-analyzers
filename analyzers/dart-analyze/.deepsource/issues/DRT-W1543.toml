@@ -1,9 +1,9 @@
 
 title = "Spread elements in list or set literals must implement 'Iterable'"
-verbose_name = "not_iterable_spread"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "not_iterable_spread"
 description = """
 The analyzer produces this diagnostic when the static type of the
 expression of a spread element that appears in either a list literal or a

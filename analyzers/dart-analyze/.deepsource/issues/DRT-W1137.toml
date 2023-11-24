@@ -1,9 +1,9 @@
 
 title = "Prefer 'for' elements when building maps from iterables"
-verbose_name = "prefer_for_elements_to_map_fromIterable"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "prefer_for_elements_to_map_fromIterable"
 description = """
 When building maps from iterables, it is preferable to use 'for' elements.
 

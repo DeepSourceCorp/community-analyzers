@@ -1,9 +1,9 @@
 
 title = "Invalid reference to 'this' expression"
-verbose_name = "invalid_reference_to_this"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "invalid_reference_to_this"
 description = """
 The analyzer produces this diagnostic when `this` is used outside of an
 instance method or a generative constructor. The reserved word `this` is

@@ -1,9 +1,9 @@
 
 title = "Tearing off a constructor requires the 'constructor-tearoffs' language feature"
-verbose_name = "sdk_version_constructor_tearoffs"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "sdk_version_constructor_tearoffs"
 description = """
 The analyzer produces this diagnostic when a constructor tear-off is found
 in code that has an SDK constraint whose lower bound is less than 2.15.

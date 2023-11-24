@@ -1,9 +1,9 @@
 
 title = "Avoid field initializers in const classes"
-verbose_name = "avoid_field_initializers_in_const_classes"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "avoid_field_initializers_in_const_classes"
 description = """
 **AVOID** field initializers in const classes.
 

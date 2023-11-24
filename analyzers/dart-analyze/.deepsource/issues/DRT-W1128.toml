@@ -1,9 +1,9 @@
 
 title = "Prefer const literals as parameters of constructors on @immutable classes"
-verbose_name = "prefer_const_literals_to_create_immutables"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "prefer_const_literals_to_create_immutables"
 description = """
 **PREFER** using `const` for instantiating list, map and set literals used as
 parameters in immutable class instantiations.

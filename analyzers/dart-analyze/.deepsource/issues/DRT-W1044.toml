@@ -1,9 +1,9 @@
 
 title = "Annotate overridden members"
-verbose_name = "annotate_overrides"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "annotate_overrides"
 description = """
 **DO** annotate overridden methods and fields.
 

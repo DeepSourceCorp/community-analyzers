@@ -1,9 +1,9 @@
 
 title = "The type of the first positional parameter of the 'main' function must be a supertype of 'List<String>'"
-verbose_name = "main_first_positional_parameter_type"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "main_first_positional_parameter_type"
 description = """
 The analyzer produces this diagnostic when the first positional parameter
 of a function named `main` isn't a supertype of `List<String>`.

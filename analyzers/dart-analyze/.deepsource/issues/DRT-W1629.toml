@@ -1,9 +1,9 @@
 
 title = "A type alias that expands to a type parameter can't be implemented.  A type alias that expands to a type parameter can't be mixed in.  A type alias that expands to a type parameter can't be used as a superclass constraint.  A type alias that expands to a type parameter can't be used as a superclass"
-verbose_name = "supertype_expands_to_type_parameter"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "supertype_expands_to_type_parameter"
 description = """
 The analyzer produces this diagnostic when a type alias that expands to a
 type parameter is used in an `extends`, `implements`, `with`, or `on`

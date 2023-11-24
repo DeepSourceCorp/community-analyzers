@@ -1,9 +1,9 @@
 
 title = "Put required named parameters first"
-verbose_name = "always_put_required_named_parameters_first"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "always_put_required_named_parameters_first"
 description = """
 **DO** specify `required` on named parameter before other named parameters.
 

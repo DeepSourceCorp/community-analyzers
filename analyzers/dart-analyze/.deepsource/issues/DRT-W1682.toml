@@ -1,9 +1,9 @@
 
 title = "Unnecessary 'noSuchMethod' declaration"
-verbose_name = "unnecessary_no_such_method"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "unnecessary_no_such_method"
 description = """
 The analyzer produces this diagnostic when there's a declaration of
 `noSuchMethod`, the only thing the declaration does is invoke the

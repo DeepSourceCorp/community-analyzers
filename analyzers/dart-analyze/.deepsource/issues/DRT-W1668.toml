@@ -1,9 +1,9 @@
 
 title = "The method '{0}' isn't defined for the '{1}' function type.  The method '{0}' isn't defined for the type '{1}'"
-verbose_name = "undefined_method"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "undefined_method"
 description = """
 The analyzer produces this diagnostic when it encounters an identifier that
 appears to be the name of a method but either isn't defined or isn't

@@ -1,9 +1,9 @@
 
 title = "Sort pub dependencies alphabetically"
-verbose_name = "sort_pub_dependencies"
-category = "antipattern"
-severity = "major"
 weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "sort_pub_dependencies"
 description = """
 **DO** sort pub dependencies alphabetically (A to Z) in `pubspec.yaml`.
 

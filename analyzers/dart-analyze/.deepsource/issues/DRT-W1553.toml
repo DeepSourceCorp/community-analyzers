@@ -1,9 +1,9 @@
 
 title = "'{0}' shouldn't be called with a null argument for the non-nullable type argument '{1}'"
-verbose_name = "null_argument_to_non_null_type"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "null_argument_to_non_null_type"
 description = """
 The analyzer produces this diagnostic when `null` is passed to either the
 constructor `Future.value` or the method `Completer.complete` when the type

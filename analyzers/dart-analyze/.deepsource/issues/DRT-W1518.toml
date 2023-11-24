@@ -1,9 +1,9 @@
 
 title = "The values in a const map literal must be constant"
-verbose_name = "non_constant_map_value"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "non_constant_map_value"
 description = """
 The analyzer produces this diagnostic when a value in a constant map
 literal isn't a constant value.

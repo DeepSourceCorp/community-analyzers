@@ -1,9 +1,9 @@
 
 title = "The name of the enum constant can't be the same as the enum's name"
-verbose_name = "enum_constant_same_name_as_enclosing"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "enum_constant_same_name_as_enclosing"
 description = """
 The analyzer produces this diagnostic when an enum constant has the same
 name as the enum in which it's declared.

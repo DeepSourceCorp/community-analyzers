@@ -1,9 +1,9 @@
 
 title = "Target of URI doesn't exist: '{0}'"
-verbose_name = "uri_does_not_exist"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "uri_does_not_exist"
 description = """
 The analyzer produces this diagnostic when an import, export, or part
 directive is found where the URI refers to a file that doesn't exist.

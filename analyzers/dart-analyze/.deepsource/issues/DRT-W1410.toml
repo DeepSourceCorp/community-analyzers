@@ -1,9 +1,9 @@
 
 title = "The annotation '{0}' can only be used on {1}"
-verbose_name = "invalid_annotation_target"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "invalid_annotation_target"
 description = """
 The analyzer produces this diagnostic when an annotation is applied to a
 kind of declaration that it doesn't support.

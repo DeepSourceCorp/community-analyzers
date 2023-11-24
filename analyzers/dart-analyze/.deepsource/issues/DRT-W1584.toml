@@ -1,9 +1,9 @@
 
 title = "Constructors can't redirect to themselves either directly or indirectly"
-verbose_name = "recursive_constructor_redirect"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "recursive_constructor_redirect"
 description = """
 The analyzer produces this diagnostic when a constructor redirects to
 itself, either directly or indirectly, creating an infinite loop.

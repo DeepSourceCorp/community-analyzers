@@ -1,9 +1,9 @@
 
 title = "The 'await' expression can't be used in a 'late' local variable's initializer"
-verbose_name = "await_in_late_local_variable_initializer"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "await_in_late_local_variable_initializer"
 description = """
 The analyzer produces this diagnostic when a local variable that has the
 `late` modifier uses an `await` expression in the initializer.

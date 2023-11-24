@@ -1,9 +1,9 @@
 
 title = "Extensions can't declare constructors"
-verbose_name = "extension_declares_constructor"
-category = "bug-risk"
-severity = "major"
 weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "extension_declares_constructor"
 description = """
 The analyzer produces this diagnostic when a constructor declaration is
 found in an extension. It isn't valid to define a constructor because
