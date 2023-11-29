@@ -1,5 +1,5 @@
 title = "cannot reference resources in the conditions block of the template"
-verbose_name = E1026
+verbose_name = "E1026"
 severity = "major"
 category = "antipattern"
 weight = 70

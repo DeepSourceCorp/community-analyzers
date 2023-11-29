@@ -1,5 +1,5 @@
 title = "property is unwanted based on another properties value"
-verbose_name = E3018
+verbose_name = "E3018"
 severity = "major"
 category = "antipattern"
 weight = 70

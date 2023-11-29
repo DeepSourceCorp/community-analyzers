@@ -1,5 +1,5 @@
 title = "availability zone parameters should not be hardcoded"
-verbose_name = W3010
+verbose_name = "W3010"
 severity = "major"
 category = "antipattern"
 weight = 70

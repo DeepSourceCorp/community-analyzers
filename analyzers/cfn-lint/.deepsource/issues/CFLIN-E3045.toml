@@ -1,5 +1,5 @@
 title = "validate accesscontrol are set with ownershipcontrols"
-verbose_name = E3045
+verbose_name = "E3045"
 severity = "major"
 category = "antipattern"
 weight = 70

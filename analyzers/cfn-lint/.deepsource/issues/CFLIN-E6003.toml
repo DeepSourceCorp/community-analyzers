@@ -1,5 +1,5 @@
 title = "outputs have values of strings"
-verbose_name = E6003
+verbose_name = "E6003"
 severity = "major"
 category = "antipattern"
 weight = 70

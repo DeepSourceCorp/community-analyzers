@@ -1,5 +1,5 @@
 title = "check if a list that allows duplicates has any duplicates"
-verbose_name = I3037
+verbose_name = "I3037"
 severity = "major"
 category = "antipattern"
 weight = 70

@@ -1,5 +1,5 @@
 title = "check resources with updatereplacepolicy/deletionpolicy have both"
-verbose_name = W3011
+verbose_name = "W3011"
 severity = "major"
 category = "antipattern"
 weight = 70

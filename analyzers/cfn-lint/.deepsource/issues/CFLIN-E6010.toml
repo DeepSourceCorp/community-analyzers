@@ -1,5 +1,5 @@
 title = "output limit not exceeded"
-verbose_name = E6010
+verbose_name = "E6010"
 severity = "major"
 category = "antipattern"
 weight = 70

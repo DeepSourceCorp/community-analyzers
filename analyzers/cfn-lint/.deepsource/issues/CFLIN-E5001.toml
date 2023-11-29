@@ -1,5 +1,5 @@
 title = "check that modules resources are valid"
-verbose_name = E5001
+verbose_name = "E5001"
 severity = "major"
 category = "antipattern"
 weight = 70

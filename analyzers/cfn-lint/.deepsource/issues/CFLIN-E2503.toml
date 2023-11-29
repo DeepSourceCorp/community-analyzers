@@ -1,5 +1,5 @@
 title = "resource elb properties"
-verbose_name = E2503
+verbose_name = "E2503"
 severity = "major"
 category = "antipattern"
 weight = 70

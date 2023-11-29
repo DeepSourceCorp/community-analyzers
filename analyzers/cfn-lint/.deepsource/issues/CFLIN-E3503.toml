@@ -1,5 +1,5 @@
 title = "validationdomain is superdomain of domainname"
-verbose_name = E3503
+verbose_name = "E3503"
 severity = "major"
 category = "antipattern"
 weight = 70

@@ -1,5 +1,5 @@
 title = "parameters have appropriate names"
-verbose_name = E2003
+verbose_name = "E2003"
 severity = "major"
 category = "antipattern"
 weight = 70

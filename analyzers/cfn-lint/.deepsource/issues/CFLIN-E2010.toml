@@ -1,5 +1,5 @@
 title = "parameter limit not exceeded"
-verbose_name = E2010
+verbose_name = "E2010"
 severity = "major"
 category = "antipattern"
 weight = 70

@@ -1,5 +1,5 @@
 title = "controlling access to an s3 bucket should be done with bucket policies"
-verbose_name = W3045
+verbose_name = "W3045"
 severity = "major"
 category = "antipattern"
 weight = 70

@@ -1,5 +1,5 @@
 title = "check iam resource policies syntax"
-verbose_name = W2511
+verbose_name = "W2511"
 severity = "major"
 category = "antipattern"
 weight = 70

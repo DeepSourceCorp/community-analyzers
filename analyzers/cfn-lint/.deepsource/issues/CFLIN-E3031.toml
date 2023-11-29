@@ -1,5 +1,5 @@
 title = "check if property values adhere to a specific pattern"
-verbose_name = E3031
+verbose_name = "E3031"
 severity = "major"
 category = "antipattern"
 weight = 70

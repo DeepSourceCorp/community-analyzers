@@ -1,5 +1,5 @@
 title = "check the configuration of a resources updatepolicy"
-verbose_name = E3016
+verbose_name = "E3016"
 severity = "major"
 category = "antipattern"
 weight = 70

@@ -1,5 +1,5 @@
 title = "unique resource and parameter names"
-verbose_name = E3007
+verbose_name = "E3007"
 severity = "major"
 category = "antipattern"
 weight = 70

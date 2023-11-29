@@ -1,5 +1,5 @@
 title = "snapstart supports the configured runtime"
-verbose_name = E2530
+verbose_name = "E2530"
 severity = "major"
 category = "antipattern"
 weight = 70

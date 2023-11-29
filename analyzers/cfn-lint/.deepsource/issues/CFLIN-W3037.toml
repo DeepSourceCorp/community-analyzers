@@ -1,5 +1,5 @@
 title = "check iam permission configuration"
-verbose_name = W3037
+verbose_name = "W3037"
 severity = "major"
 category = "antipattern"
 weight = 70

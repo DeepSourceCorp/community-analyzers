@@ -1,5 +1,5 @@
 title = "mapping attribute limit not exceeded"
-verbose_name = E7012
+verbose_name = "E7012"
 severity = "major"
 category = "antipattern"
 weight = 70

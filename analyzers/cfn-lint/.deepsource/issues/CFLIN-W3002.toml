@@ -1,5 +1,5 @@
 title = "warn when properties are configured to only work with the package command"
-verbose_name = W3002
+verbose_name = "W3002"
 severity = "major"
 category = "antipattern"
 weight = 70

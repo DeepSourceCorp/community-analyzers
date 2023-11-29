@@ -1,5 +1,5 @@
 title = "required resource properties are missing"
-verbose_name = E3003
+verbose_name = "E3003"
 severity = "major"
 category = "antipattern"
 weight = 70

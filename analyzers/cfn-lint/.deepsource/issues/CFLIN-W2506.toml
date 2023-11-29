@@ -1,5 +1,5 @@
 title = "check if imageid parameters have the correct type"
-verbose_name = W2506
+verbose_name = "W2506"
 severity = "major"
 category = "antipattern"
 weight = 70

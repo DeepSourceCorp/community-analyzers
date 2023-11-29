@@ -1,5 +1,5 @@
 title = "basic cloudformation template configuration"
-verbose_name = E1001
+verbose_name = "E1001"
 severity = "major"
 category = "antipattern"
 weight = 70

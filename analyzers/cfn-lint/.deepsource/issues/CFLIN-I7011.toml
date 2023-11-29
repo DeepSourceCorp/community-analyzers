@@ -1,5 +1,5 @@
 title = "mapping name limit"
-verbose_name = I7011
+verbose_name = "I7011"
 severity = "major"
 category = "antipattern"
 weight = 70

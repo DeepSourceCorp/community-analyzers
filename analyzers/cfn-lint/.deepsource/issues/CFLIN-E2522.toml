@@ -1,5 +1,5 @@
 title = "check properties that need at least one of a list of properties"
-verbose_name = E2522
+verbose_name = "E2522"
 severity = "major"
 category = "antipattern"
 weight = 70

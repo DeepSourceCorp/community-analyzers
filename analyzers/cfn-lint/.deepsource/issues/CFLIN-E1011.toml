@@ -1,5 +1,5 @@
 title = "findinmap validation of configuration"
-verbose_name = E1011
+verbose_name = "E1011"
 severity = "major"
 category = "antipattern"
 weight = 70

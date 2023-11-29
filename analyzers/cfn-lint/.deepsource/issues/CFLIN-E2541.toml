@@ -1,5 +1,5 @@
 title = "codepipeline stage actions"
-verbose_name = E2541
+verbose_name = "E2541"
 severity = "major"
 category = "antipattern"
 weight = 70

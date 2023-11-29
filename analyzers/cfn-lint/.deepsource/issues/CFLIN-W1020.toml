@@ -1,5 +1,5 @@
 title = "sub isn't needed if it doesn't have a variable defined"
-verbose_name = W1020
+verbose_name = "W1020"
 severity = "major"
 category = "antipattern"
 weight = 70

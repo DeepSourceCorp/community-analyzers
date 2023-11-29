@@ -1,5 +1,5 @@
 title = "validate aws event scheduleexpression format"
-verbose_name = E3027
+verbose_name = "E3027"
 severity = "major"
 category = "antipattern"
 weight = 70

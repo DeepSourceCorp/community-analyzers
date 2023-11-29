@@ -1,5 +1,5 @@
 title = "tojsonstring validation of parameters"
-verbose_name = E1031
+verbose_name = "E1031"
 severity = "major"
 category = "antipattern"
 weight = 70

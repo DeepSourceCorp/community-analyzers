@@ -1,5 +1,5 @@
 title = "join validation of parameters"
-verbose_name = E1022
+verbose_name = "E1022"
 severity = "major"
 category = "antipattern"
 weight = 70

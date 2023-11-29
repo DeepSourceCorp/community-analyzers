@@ -1,5 +1,5 @@
 title = "check deletionpolicy values for resources"
-verbose_name = E3035
+verbose_name = "E3035"
 severity = "major"
 category = "antipattern"
 weight = 70

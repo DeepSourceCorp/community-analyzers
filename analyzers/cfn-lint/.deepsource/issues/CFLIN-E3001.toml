@@ -1,5 +1,5 @@
 title = "basic cloudformation resource check"
-verbose_name = E3001
+verbose_name = "E3001"
 severity = "major"
 category = "antipattern"
 weight = 70

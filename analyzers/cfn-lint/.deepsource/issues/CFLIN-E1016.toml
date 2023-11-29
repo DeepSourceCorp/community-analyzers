@@ -1,5 +1,5 @@
 title = "importvalue validation of parameters"
-verbose_name = E1016
+verbose_name = "E1016"
 severity = "major"
 category = "antipattern"
 weight = 70

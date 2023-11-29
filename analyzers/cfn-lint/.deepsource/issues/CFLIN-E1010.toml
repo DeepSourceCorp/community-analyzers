@@ -1,5 +1,5 @@
 title = "getatt validation of parameters"
-verbose_name = E1010
+verbose_name = "E1010"
 severity = "major"
 category = "antipattern"
 weight = 70

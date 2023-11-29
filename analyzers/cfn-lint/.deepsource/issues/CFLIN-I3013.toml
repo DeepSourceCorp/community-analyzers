@@ -1,5 +1,5 @@
 title = "check resources with auto expiring content have explicit retention period"
-verbose_name = I3013
+verbose_name = "I3013"
 severity = "major"
 category = "antipattern"
 weight = 70

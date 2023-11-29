@@ -1,5 +1,5 @@
 title = "mappings are appropriately configured"
-verbose_name = E7001
+verbose_name = "E7001"
 severity = "major"
 category = "antipattern"
 weight = 70

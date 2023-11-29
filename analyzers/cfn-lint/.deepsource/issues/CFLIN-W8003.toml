@@ -1,5 +1,5 @@
 title = "fn::equals will always return true or false"
-verbose_name = W8003
+verbose_name = "W8003"
 severity = "major"
 category = "antipattern"
 weight = 70

@@ -1,5 +1,5 @@
 title = "validate the configuration of the metadata section"
-verbose_name = E4002
+verbose_name = "E4002"
 severity = "major"
 category = "antipattern"
 weight = 70

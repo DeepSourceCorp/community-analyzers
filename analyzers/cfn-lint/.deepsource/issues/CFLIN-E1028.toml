@@ -1,5 +1,5 @@
 title = "check fn::if structure for validity"
-verbose_name = E1028
+verbose_name = "E1028"
 severity = "major"
 category = "antipattern"
 weight = 70

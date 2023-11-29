@@ -1,5 +1,5 @@
 title = "mappings have appropriate names"
-verbose_name = E7002
+verbose_name = "E7002"
 severity = "major"
 category = "antipattern"
 weight = 70

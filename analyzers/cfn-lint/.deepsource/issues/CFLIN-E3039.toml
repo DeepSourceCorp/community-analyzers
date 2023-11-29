@@ -1,5 +1,5 @@
 title = "attributedefinitions / keyschemas mismatch"
-verbose_name = E3039
+verbose_name = "E3039"
 severity = "major"
 category = "antipattern"
 weight = 70

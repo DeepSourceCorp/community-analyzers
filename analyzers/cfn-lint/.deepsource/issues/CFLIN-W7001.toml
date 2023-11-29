@@ -1,5 +1,5 @@
 title = "check if mappings are used"
-verbose_name = W7001
+verbose_name = "W7001"
 severity = "major"
 category = "antipattern"
 weight = 70

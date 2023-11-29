@@ -1,5 +1,5 @@
 title = "checks for legacy instance type generations"
-verbose_name = I3100
+verbose_name = "I3100"
 severity = "major"
 category = "antipattern"
 weight = 70

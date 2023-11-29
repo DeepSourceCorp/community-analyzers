@@ -1,5 +1,5 @@
 title = "template size limit"
-verbose_name = E1002
+verbose_name = "E1002"
 severity = "major"
 category = "antipattern"
 weight = 70

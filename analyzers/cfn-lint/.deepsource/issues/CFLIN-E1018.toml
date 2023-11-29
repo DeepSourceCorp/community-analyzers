@@ -1,5 +1,5 @@
 title = "split validation of parameters"
-verbose_name = E1018
+verbose_name = "E1018"
 severity = "major"
 category = "antipattern"
 weight = 70

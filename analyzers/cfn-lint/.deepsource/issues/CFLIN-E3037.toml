@@ -1,5 +1,5 @@
 title = "check if a list has duplicate values"
-verbose_name = E3037
+verbose_name = "E3037"
 severity = "major"
 category = "antipattern"
 weight = 70

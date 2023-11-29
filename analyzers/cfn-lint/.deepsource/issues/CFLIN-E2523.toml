@@ -1,5 +1,5 @@
 title = "check properties that need only one of a list of properties"
-verbose_name = E2523
+verbose_name = "E2523"
 severity = "major"
 category = "antipattern"
 weight = 70

@@ -1,5 +1,5 @@
 title = "sub validation of parameters"
-verbose_name = E1019
+verbose_name = "E1019"
 severity = "major"
 category = "antipattern"
 weight = 70

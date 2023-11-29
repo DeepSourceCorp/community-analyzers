@@ -1,5 +1,5 @@
 title = "validate that snapstart is configured for >= java11 runtimes"
-verbose_name = I2530
+verbose_name = "I2530"
 severity = "major"
 category = "antipattern"
 weight = 70

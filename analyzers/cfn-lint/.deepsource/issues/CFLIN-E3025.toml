@@ -1,5 +1,5 @@
 title = "rds instance type is compatible with the rds type"
-verbose_name = E3025
+verbose_name = "E3025"
 severity = "major"
 category = "antipattern"
 weight = 70

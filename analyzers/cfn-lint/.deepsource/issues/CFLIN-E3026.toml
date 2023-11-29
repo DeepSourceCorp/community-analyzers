@@ -1,5 +1,5 @@
 title = "check elastic cache redis cluster settings"
-verbose_name = E3026
+verbose_name = "E3026"
 severity = "major"
 category = "antipattern"
 weight = 70

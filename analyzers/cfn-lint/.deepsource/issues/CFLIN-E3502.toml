@@ -1,5 +1,5 @@
 title = "check if a json object is within size limits"
-verbose_name = E3502
+verbose_name = "E3502"
 severity = "major"
 category = "antipattern"
 weight = 70

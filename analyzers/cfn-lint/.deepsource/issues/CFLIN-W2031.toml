@@ -1,5 +1,5 @@
 title = "check if parameters have a valid value based on an allowed pattern"
-verbose_name = W2031
+verbose_name = "W2031"
 severity = "major"
 category = "antipattern"
 weight = 70

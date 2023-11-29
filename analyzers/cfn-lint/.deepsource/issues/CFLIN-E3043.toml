@@ -1,5 +1,5 @@
 title = "validate parameters for in a nested stack"
-verbose_name = E3043
+verbose_name = "E3043"
 severity = "major"
 category = "antipattern"
 weight = 70

@@ -1,5 +1,5 @@
 title = "check if a list has between min and max number of values specified"
-verbose_name = E3032
+verbose_name = "E3032"
 severity = "major"
 category = "antipattern"
 weight = 70

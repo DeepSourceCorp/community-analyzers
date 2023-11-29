@@ -1,5 +1,5 @@
 title = "check fn::not structure for validity"
-verbose_name = E8005
+verbose_name = "E8005"
 severity = "major"
 category = "antipattern"
 weight = 70

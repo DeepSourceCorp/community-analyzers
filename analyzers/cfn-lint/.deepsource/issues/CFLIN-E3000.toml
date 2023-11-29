@@ -1,5 +1,5 @@
 title = "resource schema"
-verbose_name = E3000
+verbose_name = "E3000"
 severity = "major"
 category = "antipattern"
 weight = 70

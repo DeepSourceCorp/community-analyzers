@@ -1,5 +1,5 @@
 title = "check for subscriptionfilters have beyond 2 attachments to a cloudwatch log group"
-verbose_name = E2529
+verbose_name = "E2529"
 severity = "major"
 category = "antipattern"
 weight = 70

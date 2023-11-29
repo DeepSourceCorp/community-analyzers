@@ -1,5 +1,5 @@
 title = "check if refs exist"
-verbose_name = E1012
+verbose_name = "E1012"
 severity = "major"
 category = "antipattern"
 weight = 70

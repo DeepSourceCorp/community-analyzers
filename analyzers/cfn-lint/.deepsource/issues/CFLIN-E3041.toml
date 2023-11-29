@@ -1,5 +1,5 @@
 title = "recordset hostedzonename is a superdomain of name"
-verbose_name = E3041
+verbose_name = "E3041"
 severity = "major"
 category = "antipattern"
 weight = 70

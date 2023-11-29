@@ -1,5 +1,5 @@
 title = "check ec2 ebs properties"
-verbose_name = E2504
+verbose_name = "E2504"
 severity = "major"
 category = "antipattern"
 weight = 70

@@ -1,5 +1,5 @@
 title = "validation not function configuration"
-verbose_name = E1023
+verbose_name = "E1023"
 severity = "major"
 category = "antipattern"
 weight = 70

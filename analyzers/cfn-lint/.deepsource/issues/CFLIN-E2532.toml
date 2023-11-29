@@ -1,5 +1,5 @@
 title = "check state machine definition for proper syntax"
-verbose_name = E2532
+verbose_name = "E2532"
 severity = "major"
 category = "antipattern"
 weight = 70

@@ -1,5 +1,5 @@
 title = "validates foreach functions"
-verbose_name = E1032
+verbose_name = "E1032"
 severity = "major"
 category = "antipattern"
 weight = 70

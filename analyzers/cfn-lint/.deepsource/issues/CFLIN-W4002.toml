@@ -1,5 +1,5 @@
 title = "check for noecho references"
-verbose_name = W4002
+verbose_name = "W4002"
 severity = "major"
 category = "antipattern"
 weight = 70

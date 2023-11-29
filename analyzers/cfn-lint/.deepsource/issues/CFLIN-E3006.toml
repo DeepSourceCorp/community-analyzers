@@ -1,5 +1,5 @@
 title = "resources have appropriate names"
-verbose_name = E3006
+verbose_name = "E3006"
 severity = "major"
 category = "antipattern"
 weight = 70

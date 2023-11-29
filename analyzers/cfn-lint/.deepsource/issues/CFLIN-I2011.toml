@@ -1,5 +1,5 @@
 title = "parameter name limit"
-verbose_name = I2011
+verbose_name = "I2011"
 severity = "major"
 category = "antipattern"
 weight = 70
