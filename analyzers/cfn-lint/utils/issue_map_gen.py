@@ -30,5 +30,5 @@ if __name__ == "__main__":
         print("Usage: python script.py <directory>")
         sys.exit(1)
 
-    directory = sys.argv[1]
-    generate_json(directory)
+    target = sys.argv[1]
+    generate_json(target)
