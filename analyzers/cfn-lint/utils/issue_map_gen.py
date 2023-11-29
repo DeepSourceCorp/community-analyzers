@@ -1,6 +1,7 @@
-import os
 import json
+import os
 import sys
+
 
 def generate_json(directory):
     # Dictionary to hold the mappings
@@ -10,8 +11,8 @@ def generate_json(directory):
     for filename in os.listdir(directory):
         if filename.endswith(".toml") and filename.startswith("CFLIN-"):
             # Extract the issue code (part after 'CFLIN-' and before '.toml')
-            issue_code = filename[len("CFLIN-"):-len(".toml")]
-            
+            issue_code = filename[len("CFLIN-") : -len(".toml")]
+
             # Add to the dictionary
             issue_codes[issue_code] = {"issue_code": f"CFLIN-{issue_code}"}
 
@@ -22,6 +23,7 @@ def generate_json(directory):
     with open("issue_map.json", "w") as file:
         file.write(json_data)
     print("JSON data written to issue_map.json")
+
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
