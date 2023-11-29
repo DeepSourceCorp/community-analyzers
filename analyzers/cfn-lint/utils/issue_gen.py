@@ -11,7 +11,7 @@ from urllib.parse import unquote, urlparse
 def concat_binop(binop: ast.AST) -> str:
     if isinstance(binop, ast.BinOp):
         return concat_binop(binop.left) + concat_binop(binop.right)
-    elif isinstance(binop, ast.Constant):
+    if isinstance(binop, ast.Constant):
         return binop.value
     return ""
 
@@ -108,9 +108,9 @@ if __name__ == "__main__":
     )
     args = parser.parse_args()
 
-    directory = Path(args.root_directory)
+    base = Path(args.root_directory)
     path = Path("cfn-lint/src/cfnlint/rules")
-    rules_directory = directory / path
+    rules_directory = base / path
 
     attributes_list = extract_attributes_from_directory(rules_directory)
     for attributes in attributes_list:
