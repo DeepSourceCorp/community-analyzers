@@ -1,3 +1,4 @@
+# To run: python issue_gen.py --root_directory=<parent directory of cfn-lint>
 import argparse
 import ast
 import json
@@ -9,6 +10,15 @@ from urllib.parse import unquote, urlparse
 
 
 def concat_binop(binop: ast.AST) -> str:
+    """
+    Recursively concatenate binary operation nodes into a single string.
+
+    Args:
+        binop (ast.AST): Binary operation node.
+
+    Returns:
+        str: Concatenated string.
+    """
     if isinstance(binop, ast.BinOp):
         return concat_binop(binop.left) + concat_binop(binop.right)
     if isinstance(binop, ast.Constant):
@@ -17,6 +27,15 @@ def concat_binop(binop: ast.AST) -> str:
 
 
 def extract_class_attributes(node: ast.ClassDef) -> Dict[str, Union[str, List[str]]]:
+    """
+    Extract class attributes from a ClassDef node in an abstract syntax tree.
+
+    Args:
+        node (ast.ClassDef): ClassDef node.
+
+    Returns:
+        Dict[str, Union[str, List[str]]]: Extracted class attributes.
+    """
     class_data = {}
     for item in node.body:
         if isinstance(item, ast.Assign):
@@ -31,6 +50,15 @@ def extract_class_attributes(node: ast.ClassDef) -> Dict[str, Union[str, List[st
 
 
 def extract_attributes_from_code(code: str) -> Dict[str, Union[str, List[str]]]:
+    """
+    Extract attributes from Python code.
+
+    Args:
+        code (str): Python code as a string.
+
+    Returns:
+        Dict[str, Union[str, List[str]]]: Extracted attributes.
+    """
     class_data = {}
     tree = ast.parse(code)
     for node in ast.walk(tree):
@@ -40,6 +68,15 @@ def extract_attributes_from_code(code: str) -> Dict[str, Union[str, List[str]]]:
 
 
 def extract_page_name(url: str) -> Optional[str]:
+    """
+    Extract the page name from a URL.
+
+    Args:
+        url (str): Input URL.
+
+    Returns:
+        Optional[str]: Extracted page name or None if not found.
+    """
     parsed_url = urlparse(url)
     path_segments = parsed_url.path.strip("/").split("/")
     if path_segments:
@@ -52,6 +89,15 @@ def extract_page_name(url: str) -> Optional[str]:
 
 
 def build_toml(issue: Dict[str, Union[str, List[str]]]) -> str:
+    """
+    Build a TOML string from issue data.
+
+    Args:
+        issue (Dict[str, Union[str, List[str]]]): Issue data.
+
+    Returns:
+        str: TOML string.
+    """
     title = issue["shortdesc"]
     description = issue["description"]
     source_url = issue.get("source_url", "")
@@ -75,6 +121,12 @@ def build_toml(issue: Dict[str, Union[str, List[str]]]) -> str:
 
 
 def write_to_file(issue: Dict[str, Union[str, List[str]]]) -> None:
+    """
+    Write issue data to a TOML file.
+
+    Args:
+        issue (Dict[str, Union[str, List[str]]]): Issue data.
+    """
     file_name = f"./issues/CFLIN-{issue['id']}.toml"
     with open(file_name, "w") as file:
         file.write(build_toml(issue))
@@ -83,6 +135,15 @@ def write_to_file(issue: Dict[str, Union[str, List[str]]]) -> None:
 def extract_attributes_from_directory(
     directory: str,
 ) -> List[Dict[str, Union[str, List[str]]]]:
+    """
+    Extract attributes from Python files in a directory.
+
+    Args:
+        directory (str): Root directory to search for Python files.
+
+    Returns:
+        List[Dict[str, Union[str, List[str]]]]: List of extracted attributes.
+    """
     all_classes_data = []
     for root, _, files in os.walk(directory):
         for file in files:
