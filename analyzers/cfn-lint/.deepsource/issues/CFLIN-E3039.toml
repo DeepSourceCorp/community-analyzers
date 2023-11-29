@@ -1,6 +1,7 @@
-title = "AttributeDefinitions / KeySchemas mismatch"
+title = "attributedefinitions / keyschemas mismatch"
+verbose_name = E3039
 severity = "major"
-category = "bug-risk"
+category = "antipattern"
 weight = 70
 tags = ["resources", "dynamodb"]
 description = '''

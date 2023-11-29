@@ -1,6 +1,7 @@
-title = "ToJsonString validation of parameters"
+title = "tojsonstring validation of parameters"
+verbose_name = E1031
 severity = "major"
-category = "bug-risk"
+category = "antipattern"
 weight = 70
 tags = ["functions", "toJsonString"]
 description = '''

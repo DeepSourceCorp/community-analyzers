@@ -1,6 +1,7 @@
-title = "Parameter limit not exceeded"
+title = "parameter limit not exceeded"
+verbose_name = E2010
 severity = "major"
-category = "performance"
+category = "antipattern"
 weight = 70
 tags = ["parameters", "limits"]
 description = '''

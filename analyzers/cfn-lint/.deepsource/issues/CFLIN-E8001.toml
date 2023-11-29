@@ -1,6 +1,7 @@
-title = "Conditions have appropriate properties"
+title = "conditions have appropriate properties"
+verbose_name = E8001
 severity = "major"
-category = "bug-risk"
+category = "antipattern"
 weight = 70
 tags = ["conditions"]
 description = '''

@@ -1,6 +1,7 @@
-title = "Error processing rule on the template"
+title = "error processing rule on the template"
+verbose_name = E0002
 severity = "major"
-category = "bug-risk"
+category = "antipattern"
 weight = 70
 tags = ["base", "rule"]
 description = '''

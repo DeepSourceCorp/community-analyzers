@@ -1,4 +1,5 @@
-title = "Resource dependencies are not circular"
+title = "resource dependencies are not circular"
+verbose_name = E3004
 severity = "major"
 category = "antipattern"
 weight = 70

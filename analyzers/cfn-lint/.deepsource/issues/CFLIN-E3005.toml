@@ -1,4 +1,5 @@
-title = "Check DependsOn values for Resources"
+title = "check dependson values for resources"
+verbose_name = E3005
 severity = "major"
 category = "antipattern"
 weight = 70

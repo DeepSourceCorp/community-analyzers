@@ -1,4 +1,5 @@
-title = "Parameter Memory Size attributes should have max and min"
+title = "parameter memory size attributes should have max and min"
+verbose_name = W2510
 severity = "major"
 category = "antipattern"
 weight = 70

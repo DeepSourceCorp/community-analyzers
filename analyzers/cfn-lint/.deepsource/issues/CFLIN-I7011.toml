@@ -1,6 +1,7 @@
-title = "Mapping name limit"
+title = "mapping name limit"
+verbose_name = I7011
 severity = "major"
-category = "performance"
+category = "antipattern"
 weight = 70
 tags = ["mappings", "limits"]
 description = '''

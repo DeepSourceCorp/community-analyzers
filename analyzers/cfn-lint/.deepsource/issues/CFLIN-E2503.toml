@@ -1,6 +1,7 @@
-title = "Resource ELB Properties"
+title = "resource elb properties"
+verbose_name = E2503
 severity = "major"
-category = "security"
+category = "antipattern"
 weight = 70
 tags = ["properties", "elb"]
 description = '''

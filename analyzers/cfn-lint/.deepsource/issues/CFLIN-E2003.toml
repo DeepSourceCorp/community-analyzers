@@ -1,6 +1,7 @@
-title = "Parameters have appropriate names"
+title = "parameters have appropriate names"
+verbose_name = E2003
 severity = "major"
-category = "style"
+category = "antipattern"
 weight = 70
 tags = ["parameters"]
 description = '''

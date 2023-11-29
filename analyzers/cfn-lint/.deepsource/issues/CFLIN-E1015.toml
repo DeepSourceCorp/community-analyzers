@@ -1,6 +1,7 @@
-title = "GetAz validation of parameters"
+title = "getaz validation of parameters"
+verbose_name = E1015
 severity = "major"
-category = "bug-risk"
+category = "antipattern"
 weight = 70
 tags = ["functions", "getaz"]
 description = '''

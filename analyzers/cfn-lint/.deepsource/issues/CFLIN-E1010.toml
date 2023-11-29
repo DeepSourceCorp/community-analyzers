@@ -1,6 +1,7 @@
-title = "GetAtt validation of parameters"
+title = "getatt validation of parameters"
+verbose_name = E1010
 severity = "major"
-category = "typecheck"
+category = "antipattern"
 weight = 70
 tags = ["functions", "getatt"]
 description = '''

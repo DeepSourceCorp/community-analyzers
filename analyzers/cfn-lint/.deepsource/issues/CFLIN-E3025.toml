@@ -1,6 +1,7 @@
-title = "RDS instance type is compatible with the RDS type"
+title = "rds instance type is compatible with the rds type"
+verbose_name = E3025
 severity = "major"
-category = "typecheck"
+category = "antipattern"
 weight = 70
 tags = ["resources", "rds"]
 description = '''

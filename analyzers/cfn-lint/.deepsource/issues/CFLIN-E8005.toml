@@ -1,6 +1,7 @@
-title = "Check Fn::Not structure for validity"
+title = "check fn::not structure for validity"
+verbose_name = E8005
 severity = "major"
-category = "typecheck"
+category = "antipattern"
 weight = 70
 tags = ["functions", "not"]
 description = '''

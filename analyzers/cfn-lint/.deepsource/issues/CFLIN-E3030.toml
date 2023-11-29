@@ -1,6 +1,7 @@
-title = "Check if properties have a valid value"
+title = "check if properties have a valid value"
+verbose_name = E3030
 severity = "major"
-category = "typecheck"
+category = "antipattern"
 weight = 70
 tags = ["resources", "property", "allowed value"]
 description = '''

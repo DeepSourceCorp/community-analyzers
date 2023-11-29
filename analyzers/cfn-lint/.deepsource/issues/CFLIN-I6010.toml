@@ -1,6 +1,7 @@
-title = "Output limit"
+title = "output limit"
+verbose_name = I6010
 severity = "major"
-category = "performance"
+category = "antipattern"
 weight = 70
 tags = ["outputs", "limits"]
 description = '''

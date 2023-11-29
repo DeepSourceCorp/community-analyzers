@@ -1,6 +1,7 @@
-title = "Check State Machine Definition for proper syntax"
+title = "check state machine definition for proper syntax"
+verbose_name = E2532
 severity = "major"
-category = "typecheck"
+category = "antipattern"
 weight = 70
 tags = ["resources", "stepfunctions"]
 description = '''

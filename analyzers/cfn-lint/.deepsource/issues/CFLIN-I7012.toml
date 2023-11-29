@@ -1,6 +1,7 @@
-title = "Mapping attribute limit"
+title = "mapping attribute limit"
+verbose_name = I7012
 severity = "major"
-category = "performance"
+category = "antipattern"
 weight = 70
 tags = ["mappings", "limits"]
 description = '''

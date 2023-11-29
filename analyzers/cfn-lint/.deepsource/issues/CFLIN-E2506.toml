@@ -1,6 +1,7 @@
-title = "Resource EC2 Security Group Ingress Properties"
+title = "resource ec2 security group ingress properties"
+verbose_name = E2506
 severity = "major"
-category = "security"
+category = "antipattern"
 weight = 70
 tags = ["resources", "ec2", "securitygroup"]
 description = '''

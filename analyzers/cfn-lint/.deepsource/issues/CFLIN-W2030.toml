@@ -1,6 +1,7 @@
-title = "Check if parameters have a valid value"
+title = "check if parameters have a valid value"
+verbose_name = W2030
 severity = "major"
-category = "typecheck"
+category = "antipattern"
 weight = 70
 tags = ["parameters", "resources", "property", "allowed value"]
 description = '''

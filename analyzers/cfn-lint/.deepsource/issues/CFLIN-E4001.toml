@@ -1,6 +1,7 @@
-title = "Metadata Interface have appropriate properties"
+title = "metadata interface have appropriate properties"
+verbose_name = E4001
 severity = "major"
-category = "documentation"
+category = "antipattern"
 weight = 70
 tags = ["metadata"]
 description = '''

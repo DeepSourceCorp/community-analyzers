@@ -1,6 +1,7 @@
-title = "Resources have appropriate names"
+title = "resources have appropriate names"
+verbose_name = E3006
 severity = "major"
-category = "style"
+category = "antipattern"
 weight = 70
 tags = ["resources"]
 description = '''

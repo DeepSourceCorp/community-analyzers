@@ -1,6 +1,7 @@
-title = "Validate AWS Event ScheduleExpression format"
+title = "validate aws event scheduleexpression format"
+verbose_name = E3027
 severity = "major"
-category = "typecheck"
+category = "antipattern"
 weight = 70
 tags = ["resources", "events"]
 description = '''

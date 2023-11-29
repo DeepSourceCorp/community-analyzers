@@ -1,6 +1,7 @@
-title = "Required Resource properties are missing"
+title = "required resource properties are missing"
+verbose_name = E3003
 severity = "major"
-category = "typecheck"
+category = "antipattern"
 weight = 70
 tags = ["resources"]
 description = '''

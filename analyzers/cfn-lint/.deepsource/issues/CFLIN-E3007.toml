@@ -1,6 +1,7 @@
-title = "Unique resource and parameter names"
+title = "unique resource and parameter names"
+verbose_name = E3007
 severity = "major"
-category = "bug-risk"
+category = "antipattern"
 weight = 70
 tags = ["parameters", "resources"]
 description = '''

@@ -1,6 +1,7 @@
-title = "Check resources with UpdateReplacePolicy/DeletionPolicy have both"
+title = "check resources with updatereplacepolicy/deletionpolicy have both"
+verbose_name = W3011
 severity = "major"
-category = "security"
+category = "antipattern"
 weight = 70
 tags = ["resources", "updatereplacepolicy", "deletionpolicy"]
 description = '''

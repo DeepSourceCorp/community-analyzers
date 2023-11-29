@@ -1,6 +1,7 @@
-title = "Metadata Interface parameters exist"
+title = "metadata interface parameters exist"
+verbose_name = W4001
 severity = "major"
-category = "documentation"
+category = "antipattern"
 weight = 70
 tags = ["metadata"]
 description = '''

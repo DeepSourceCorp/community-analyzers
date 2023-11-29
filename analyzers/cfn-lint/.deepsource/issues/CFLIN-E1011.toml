@@ -1,6 +1,7 @@
-title = "`FindInMap` validation of configuration"
+title = "findinmap validation of configuration"
+verbose_name = E1011
 severity = "major"
-category = "typecheck"
+category = "antipattern"
 weight = 70
 tags = ["functions", "findinmap"]
 description = '''

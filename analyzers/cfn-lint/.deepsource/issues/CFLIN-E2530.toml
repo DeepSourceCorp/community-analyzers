@@ -1,6 +1,7 @@
-title = "SnapStart supports the configured runtime"
+title = "snapstart supports the configured runtime"
+verbose_name = E2530
 severity = "major"
-category = "documentation"
+category = "antipattern"
 weight = 70
 tags = ["resources", "lambda"]
 description = '''

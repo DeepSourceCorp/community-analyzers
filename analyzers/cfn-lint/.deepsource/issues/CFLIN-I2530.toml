@@ -1,6 +1,7 @@
-title = "Validate that SnapStart is configured for >= Java11 runtimes"
+title = "validate that snapstart is configured for >= java11 runtimes"
+verbose_name = I2530
 severity = "major"
-category = "performance"
+category = "antipattern"
 weight = 70
 tags = ["resources", "lambda"]
 description = '''

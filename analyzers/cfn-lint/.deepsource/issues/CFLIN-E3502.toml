@@ -1,6 +1,7 @@
-title = "Check if a JSON Object is within size limits"
+title = "check if a json object is within size limits"
+verbose_name = E3502
 severity = "major"
-category = "bug-risk"
+category = "antipattern"
 weight = 70
 tags = ["resources", "limits", "json"]
 description = '''

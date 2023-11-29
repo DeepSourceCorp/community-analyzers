@@ -1,6 +1,7 @@
-title = "Check if a list has between min and max number of values specified"
+title = "check if a list has between min and max number of values specified"
+verbose_name = E3032
 severity = "major"
-category = "typecheck"
+category = "antipattern"
 weight = 70
 tags = ["resources", "property", "list", "size"]
 description = '''

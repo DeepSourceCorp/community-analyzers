@@ -1,6 +1,7 @@
-title = "Check DeletionPolicy values for Resources"
+title = "check deletionpolicy values for resources"
+verbose_name = E3035
 severity = "major"
-category = "security"
+category = "antipattern"
 weight = 70
 tags = ["resources", "deletionpolicy"]
 description = '''

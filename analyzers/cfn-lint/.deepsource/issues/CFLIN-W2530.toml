@@ -1,6 +1,7 @@
-title = "Validate that SnapStart is properly configured"
+title = "validate that snapstart is properly configured"
+verbose_name = W2530
 severity = "major"
-category = "documentation"
+category = "antipattern"
 weight = 70
 tags = ["resources", "lambda"]
 description = '''

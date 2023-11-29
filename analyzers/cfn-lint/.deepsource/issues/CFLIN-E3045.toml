@@ -1,6 +1,7 @@
-title = "Validate AccessControl are set with OwnershipControls"
+title = "validate accesscontrol are set with ownershipcontrols"
+verbose_name = E3045
 severity = "major"
-category = "security"
+category = "antipattern"
 weight = 70
 tags = ["resources", "s3"]
 description = '''

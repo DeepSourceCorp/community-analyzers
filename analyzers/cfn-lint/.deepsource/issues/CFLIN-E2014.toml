@@ -1,4 +1,5 @@
-title = "Default value cannot use Refs"
+title = "default value cannot use refs"
+verbose_name = E2014
 severity = "major"
 category = "antipattern"
 weight = 70

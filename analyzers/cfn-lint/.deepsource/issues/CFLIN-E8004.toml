@@ -1,6 +1,7 @@
-title = "Check Fn::And structure for validity"
+title = "check fn::and structure for validity"
+verbose_name = E8004
 severity = "major"
-category = "bug-risk"
+category = "antipattern"
 weight = 70
 tags = ["functions", "and"]
 description = '''

@@ -1,4 +1,5 @@
-title = "Resource properties are invalid"
+title = "resource properties are invalid"
+verbose_name = E3002
 severity = "major"
 category = "antipattern"
 weight = 70

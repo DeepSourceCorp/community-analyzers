@@ -1,4 +1,5 @@
-title = "Property is required based on another properties value"
+title = "property is required based on another properties value"
+verbose_name = E3017
 severity = "major"
 category = "antipattern"
 weight = 70

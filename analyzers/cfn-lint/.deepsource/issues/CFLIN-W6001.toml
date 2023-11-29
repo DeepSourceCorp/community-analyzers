@@ -1,4 +1,5 @@
-title = "Check Outputs using ImportValue"
+title = "check outputs using importvalue"
+verbose_name = W6001
 severity = "major"
 category = "antipattern"
 weight = 70

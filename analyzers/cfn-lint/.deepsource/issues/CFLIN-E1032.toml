@@ -1,6 +1,7 @@
-title = "Validates ForEach functions"
+title = "validates foreach functions"
+verbose_name = E1032
 severity = "major"
-category = "typecheck"
+category = "antipattern"
 weight = 70
 tags = ["functions", "foreach"]
 description = '''

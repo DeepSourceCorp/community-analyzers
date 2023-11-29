@@ -1,4 +1,5 @@
-title = "ARNs should use correctly placed Pseudo Parameters"
+title = "arns should use correctly placed pseudo parameters"
+verbose_name = I3042
 severity = "major"
 category = "antipattern"
 weight = 70

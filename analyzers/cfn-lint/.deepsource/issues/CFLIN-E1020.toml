@@ -1,6 +1,7 @@
-title = "Ref validation of value"
+title = "ref validation of value"
+verbose_name = E1020
 severity = "major"
-category = "typecheck"
+category = "antipattern"
 weight = 70
 tags = ["functions", "ref"]
 description = '''

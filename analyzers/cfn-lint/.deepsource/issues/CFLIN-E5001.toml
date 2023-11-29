@@ -1,6 +1,7 @@
-title = "Check that Modules resources are valid"
+title = "check that modules resources are valid"
+verbose_name = E5001
 severity = "major"
-category = "bug-risk"
+category = "antipattern"
 weight = 70
 tags = ["resources", "modules"]
 description = '''

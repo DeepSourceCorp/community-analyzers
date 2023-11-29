@@ -1,6 +1,7 @@
-title = "Output name limit not exceeded"
+title = "output name limit not exceeded"
+verbose_name = E6011
 severity = "major"
-category = "performance"
+category = "antipattern"
 weight = 70
 tags = ["outputs", "limits"]
 description = '''

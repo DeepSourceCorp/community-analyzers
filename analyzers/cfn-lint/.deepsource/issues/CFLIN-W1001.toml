@@ -1,4 +1,5 @@
-title = "Ref/GetAtt to resource that is available when conditions are applied"
+title = "ref/getatt to resource that is available when conditions are applied"
+verbose_name = W1001
 severity = "major"
 category = "antipattern"
 weight = 70

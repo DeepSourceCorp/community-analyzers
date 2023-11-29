@@ -1,6 +1,7 @@
-title = "ValidationDomain is superdomain of DomainName"
+title = "validationdomain is superdomain of domainname"
+verbose_name = E3503
 severity = "major"
-category = "typecheck"
+category = "antipattern"
 weight = 70
 tags = ["certificate", "certificatemanager", "domainvalidationoptions", "validationdomain"]
 description = '''

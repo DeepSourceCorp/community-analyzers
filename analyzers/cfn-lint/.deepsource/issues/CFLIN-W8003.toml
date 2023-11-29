@@ -1,6 +1,7 @@
-title = "Fn::Equals will always return true or false"
+title = "fn::equals will always return true or false"
+verbose_name = W8003
 severity = "major"
-category = "bug-risk"
+category = "antipattern"
 weight = 70
 tags = ["functions", "equals"]
 description = '''

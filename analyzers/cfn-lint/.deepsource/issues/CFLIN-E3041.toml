@@ -1,6 +1,7 @@
-title = "RecordSet HostedZoneName is a superdomain of Name"
+title = "recordset hostedzonename is a superdomain of name"
+verbose_name = E3041
 severity = "major"
-category = "bug-risk"
+category = "antipattern"
 weight = 70
 tags = ["resource", "properties", "route53"]
 description = '''

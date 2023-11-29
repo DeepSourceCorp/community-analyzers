@@ -1,4 +1,5 @@
-title = "Outputs have required properties"
+title = "outputs have required properties"
+verbose_name = E6002
 severity = "major"
 category = "antipattern"
 weight = 70

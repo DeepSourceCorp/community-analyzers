@@ -1,6 +1,7 @@
-title = "Check if IAM Policies are properly configured"
+title = "check if iam policies are properly configured"
+verbose_name = E2507
 severity = "major"
-category = "security"
+category = "antipattern"
 weight = 70
 tags = ["properties", "iam"]
 description = '''

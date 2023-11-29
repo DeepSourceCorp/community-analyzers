@@ -1,6 +1,7 @@
-title = "Check IAM Resource Policies syntax"
+title = "check iam resource policies syntax"
+verbose_name = W2511
 severity = "major"
-category = "security"
+category = "antipattern"
 weight = 70
 tags = ["properties", "iam"]
 description = '''

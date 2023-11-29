@@ -1,6 +1,7 @@
-title = "Cidr validation of parameters"
+title = "cidr validation of parameters"
+verbose_name = E1024
 severity = "major"
-category = "typecheck"
+category = "antipattern"
 weight = 70
 tags = ["functions", "cidr"]
 description = '''

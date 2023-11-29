@@ -1,6 +1,7 @@
-title = "Outputs have values of strings"
+title = "outputs have values of strings"
+verbose_name = E6003
 severity = "major"
-category = "typecheck"
+category = "antipattern"
 weight = 70
 tags = ["outputs"]
 description = '''

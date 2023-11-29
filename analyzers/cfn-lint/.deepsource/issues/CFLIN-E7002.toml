@@ -1,6 +1,7 @@
-title = "Mappings have appropriate names"
+title = "mappings have appropriate names"
+verbose_name = E7002
 severity = "major"
-category = "style"
+category = "antipattern"
 weight = 70
 tags = ["mappings"]
 description = '''

@@ -1,6 +1,7 @@
-title = "Parameter value limit"
+title = "parameter value limit"
+verbose_name = I2012
 severity = "major"
-category = "performance"
+category = "antipattern"
 weight = 70
 tags = ["parameters", "limits"]
 description = '''

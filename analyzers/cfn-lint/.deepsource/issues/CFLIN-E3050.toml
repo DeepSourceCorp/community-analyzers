@@ -1,4 +1,5 @@
-title = "Check if REFing to a IAM resource with path set"
+title = "check if refing to a iam resource with path set"
+verbose_name = E3050
 severity = "major"
 category = "antipattern"
 weight = 70

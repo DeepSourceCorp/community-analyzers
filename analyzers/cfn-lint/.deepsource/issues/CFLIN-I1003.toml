@@ -1,6 +1,7 @@
-title = "Template description limit"
+title = "template description limit"
+verbose_name = I1003
 severity = "major"
-category = "performance"
+category = "antipattern"
 weight = 70
 tags = ["description", "limits"]
 description = '''

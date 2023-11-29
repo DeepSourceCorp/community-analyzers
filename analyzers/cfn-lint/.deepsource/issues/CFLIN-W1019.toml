@@ -1,6 +1,7 @@
-title = "Sub validation of parameters"
+title = "sub validation of parameters"
+verbose_name = W1019
 severity = "major"
-category = "bug-risk"
+category = "antipattern"
 weight = 70
 tags = ["functions", "sub"]
 description = '''

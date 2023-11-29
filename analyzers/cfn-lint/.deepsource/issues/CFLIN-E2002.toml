@@ -1,6 +1,7 @@
-title = "Parameters have appropriate type"
+title = "parameters have appropriate type"
+verbose_name = E2002
 severity = "major"
-category = "typecheck"
+category = "antipattern"
 weight = 70
 tags = ["parameters"]
 description = '''

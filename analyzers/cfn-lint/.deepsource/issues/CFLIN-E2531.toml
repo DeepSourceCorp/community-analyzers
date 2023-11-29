@@ -1,4 +1,5 @@
-title = "Check if EOL Lambda Function Runtimes are used"
+title = "check if eol lambda function runtimes are used"
+verbose_name = E2531
 severity = "major"
 category = "antipattern"
 weight = 70

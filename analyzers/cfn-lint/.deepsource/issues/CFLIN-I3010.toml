@@ -1,6 +1,7 @@
-title = "Resource limit"
+title = "resource limit"
+verbose_name = I3010
 severity = "major"
-category = "performance"
+category = "antipattern"
 weight = 70
 tags = ["resources", "limits"]
 description = '''

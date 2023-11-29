@@ -1,6 +1,7 @@
-title = "Use Sub instead of Join"
+title = "use sub instead of join"
+verbose_name = I1022
 severity = "major"
-category = "style"
+category = "antipattern"
 weight = 70
 tags = ["functions", "sub", "join"]
 description = '''

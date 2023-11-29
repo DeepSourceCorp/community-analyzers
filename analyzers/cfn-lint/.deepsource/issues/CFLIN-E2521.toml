@@ -1,4 +1,5 @@
-title = "Check Properties that are required together"
+title = "check properties that are required together"
+verbose_name = E2521
 severity = "major"
 category = "antipattern"
 weight = 70

@@ -1,0 +1,473 @@
+{
+    "W2030": {
+        "issue_code": "CFLIN-W2030"
+    },
+    "E2503": {
+        "issue_code": "CFLIN-E2503"
+    },
+    "W1020": {
+        "issue_code": "CFLIN-W1020"
+    },
+    "E6002": {
+        "issue_code": "CFLIN-E6002"
+    },
+    "E1010": {
+        "issue_code": "CFLIN-E1010"
+    },
+    "W2533": {
+        "issue_code": "CFLIN-W2533"
+    },
+    "E3001": {
+        "issue_code": "CFLIN-E3001"
+    },
+    "E3017": {
+        "issue_code": "CFLIN-E3017"
+    },
+    "E3502": {
+        "issue_code": "CFLIN-E3502"
+    },
+    "E7003": {
+        "issue_code": "CFLIN-E7003"
+    },
+    "W3011": {
+        "issue_code": "CFLIN-W3011"
+    },
+    "E3037": {
+        "issue_code": "CFLIN-E3037"
+    },
+    "I7012": {
+        "issue_code": "CFLIN-I7012"
+    },
+    "E8006": {
+        "issue_code": "CFLIN-E8006"
+    },
+    "I3010": {
+        "issue_code": "CFLIN-I3010"
+    },
+    "E3021": {
+        "issue_code": "CFLIN-E3021"
+    },
+    "E1030": {
+        "issue_code": "CFLIN-E1030"
+    },
+    "I2011": {
+        "issue_code": "CFLIN-I2011"
+    },
+    "E2523": {
+        "issue_code": "CFLIN-E2523"
+    },
+    "E1026": {
+        "issue_code": "CFLIN-E1026"
+    },
+    "I6012": {
+        "issue_code": "CFLIN-I6012"
+    },
+    "E1027": {
+        "issue_code": "CFLIN-E1027"
+    },
+    "E2522": {
+        "issue_code": "CFLIN-E2522"
+    },
+    "W1001": {
+        "issue_code": "CFLIN-W1001"
+    },
+    "E1031": {
+        "issue_code": "CFLIN-E1031"
+    },
+    "I2010": {
+        "issue_code": "CFLIN-I2010"
+    },
+    "E3020": {
+        "issue_code": "CFLIN-E3020"
+    },
+    "I3011": {
+        "issue_code": "CFLIN-I3011"
+    },
+    "W4002": {
+        "issue_code": "CFLIN-W4002"
+    },
+    "E3036": {
+        "issue_code": "CFLIN-E3036"
+    },
+    "W3010": {
+        "issue_code": "CFLIN-W3010"
+    },
+    "E7002": {
+        "issue_code": "CFLIN-E7002"
+    },
+    "E3041": {
+        "issue_code": "CFLIN-E3041"
+    },
+    "E3016": {
+        "issue_code": "CFLIN-E3016"
+    },
+    "E3503": {
+        "issue_code": "CFLIN-E3503"
+    },
+    "E3000": {
+        "issue_code": "CFLIN-E3000"
+    },
+    "W8001": {
+        "issue_code": "CFLIN-W8001"
+    },
+    "E2001": {
+        "issue_code": "CFLIN-E2001"
+    },
+    "E1011": {
+        "issue_code": "CFLIN-E1011"
+    },
+    "E6003": {
+        "issue_code": "CFLIN-E6003"
+    },
+    "W2031": {
+        "issue_code": "CFLIN-W2031"
+    },
+    "E3031": {
+        "issue_code": "CFLIN-E3031"
+    },
+    "E3027": {
+        "issue_code": "CFLIN-E3027"
+    },
+    "E1020": {
+        "issue_code": "CFLIN-E1020"
+    },
+    "E2010": {
+        "issue_code": "CFLIN-E2010"
+    },
+    "E6004": {
+        "issue_code": "CFLIN-E6004"
+    },
+    "E6012": {
+        "issue_code": "CFLIN-E6012"
+    },
+    "E1016": {
+        "issue_code": "CFLIN-E1016"
+    },
+    "E3050": {
+        "issue_code": "CFLIN-E3050"
+    },
+    "E3007": {
+        "issue_code": "CFLIN-E3007"
+    },
+    "E3011": {
+        "issue_code": "CFLIN-E3011"
+    },
+    "E3504": {
+        "issue_code": "CFLIN-E3504"
+    },
+    "E2529": {
+        "issue_code": "CFLIN-E2529"
+    },
+    "W3037": {
+        "issue_code": "CFLIN-W3037"
+    },
+    "E3010": {
+        "issue_code": "CFLIN-E3010"
+    },
+    "I3037": {
+        "issue_code": "CFLIN-I3037"
+    },
+    "E3006": {
+        "issue_code": "CFLIN-E3006"
+    },
+    "E4002": {
+        "issue_code": "CFLIN-E4002"
+    },
+    "E7012": {
+        "issue_code": "CFLIN-E7012"
+    },
+    "E1017": {
+        "issue_code": "CFLIN-E1017"
+    },
+    "E6005": {
+        "issue_code": "CFLIN-E6005"
+    },
+    "E2504": {
+        "issue_code": "CFLIN-E2504"
+    },
+    "E2011": {
+        "issue_code": "CFLIN-E2011"
+    },
+    "E1001": {
+        "issue_code": "CFLIN-E1001"
+    },
+    "E1021": {
+        "issue_code": "CFLIN-E1021"
+    },
+    "W2001": {
+        "issue_code": "CFLIN-W2001"
+    },
+    "E2532": {
+        "issue_code": "CFLIN-E2532"
+    },
+    "W1011": {
+        "issue_code": "CFLIN-W1011"
+    },
+    "E3026": {
+        "issue_code": "CFLIN-E3026"
+    },
+    "E8001": {
+        "issue_code": "CFLIN-E8001"
+    },
+    "E3030": {
+        "issue_code": "CFLIN-E3030"
+    },
+    "W2501": {
+        "issue_code": "CFLIN-W2501"
+    },
+    "E1022": {
+        "issue_code": "CFLIN-E1022"
+    },
+    "E2531": {
+        "issue_code": "CFLIN-E2531"
+    },
+    "E1018": {
+        "issue_code": "CFLIN-E1018"
+    },
+    "E3025": {
+        "issue_code": "CFLIN-E3025"
+    },
+    "E8002": {
+        "issue_code": "CFLIN-E8002"
+    },
+    "W7001": {
+        "issue_code": "CFLIN-W7001"
+    },
+    "E3033": {
+        "issue_code": "CFLIN-E3033"
+    },
+    "E3044": {
+        "issue_code": "CFLIN-E3044"
+    },
+    "E3013": {
+        "issue_code": "CFLIN-E3013"
+    },
+    "E3005": {
+        "issue_code": "CFLIN-E3005"
+    },
+    "E4001": {
+        "issue_code": "CFLIN-E4001"
+    },
+    "E7011": {
+        "issue_code": "CFLIN-E7011"
+    },
+    "E6010": {
+        "issue_code": "CFLIN-E6010"
+    },
+    "E2012": {
+        "issue_code": "CFLIN-E2012"
+    },
+    "E2507": {
+        "issue_code": "CFLIN-E2507"
+    },
+    "E1002": {
+        "issue_code": "CFLIN-E1002"
+    },
+    "E1003": {
+        "issue_code": "CFLIN-E1003"
+    },
+    "E2506": {
+        "issue_code": "CFLIN-E2506"
+    },
+    "E5001": {
+        "issue_code": "CFLIN-E5001"
+    },
+    "E6011": {
+        "issue_code": "CFLIN-E6011"
+    },
+    "E1015": {
+        "issue_code": "CFLIN-E1015"
+    },
+    "E7010": {
+        "issue_code": "CFLIN-E7010"
+    },
+    "E3004": {
+        "issue_code": "CFLIN-E3004"
+    },
+    "E3012": {
+        "issue_code": "CFLIN-E3012"
+    },
+    "E0002": {
+        "issue_code": "CFLIN-E0002"
+    },
+    "E3045": {
+        "issue_code": "CFLIN-E3045"
+    },
+    "E3032": {
+        "issue_code": "CFLIN-E3032"
+    },
+    "E8003": {
+        "issue_code": "CFLIN-E8003"
+    },
+    "I3042": {
+        "issue_code": "CFLIN-I3042"
+    },
+    "W3002": {
+        "issue_code": "CFLIN-W3002"
+    },
+    "E1019": {
+        "issue_code": "CFLIN-E1019"
+    },
+    "E2530": {
+        "issue_code": "CFLIN-E2530"
+    },
+    "E3008": {
+        "issue_code": "CFLIN-E3008"
+    },
+    "E1023": {
+        "issue_code": "CFLIN-E1023"
+    },
+    "W6001": {
+        "issue_code": "CFLIN-W6001"
+    },
+    "E3042": {
+        "issue_code": "CFLIN-E3042"
+    },
+    "E7001": {
+        "issue_code": "CFLIN-E7001"
+    },
+    "E1028": {
+        "issue_code": "CFLIN-E1028"
+    },
+    "E3003": {
+        "issue_code": "CFLIN-E3003"
+    },
+    "E2002": {
+        "issue_code": "CFLIN-E2002"
+    },
+    "W2531": {
+        "issue_code": "CFLIN-W2531"
+    },
+    "E1012": {
+        "issue_code": "CFLIN-E1012"
+    },
+    "E2540": {
+        "issue_code": "CFLIN-E2540"
+    },
+    "E2014": {
+        "issue_code": "CFLIN-E2014"
+    },
+    "I2530": {
+        "issue_code": "CFLIN-I2530"
+    },
+    "E3039": {
+        "issue_code": "CFLIN-E3039"
+    },
+    "E1004": {
+        "issue_code": "CFLIN-E1004"
+    },
+    "I6011": {
+        "issue_code": "CFLIN-I6011"
+    },
+    "E1024": {
+        "issue_code": "CFLIN-E1024"
+    },
+    "E2521": {
+        "issue_code": "CFLIN-E2521"
+    },
+    "W2511": {
+        "issue_code": "CFLIN-W2511"
+    },
+    "E1032": {
+        "issue_code": "CFLIN-E1032"
+    },
+    "I1003": {
+        "issue_code": "CFLIN-I1003"
+    },
+    "W3005": {
+        "issue_code": "CFLIN-W3005"
+    },
+    "I3012": {
+        "issue_code": "CFLIN-I3012"
+    },
+    "W4001": {
+        "issue_code": "CFLIN-W4001"
+    },
+    "E8004": {
+        "issue_code": "CFLIN-E8004"
+    },
+    "I3100": {
+        "issue_code": "CFLIN-I3100"
+    },
+    "I7010": {
+        "issue_code": "CFLIN-I7010"
+    },
+    "E3035": {
+        "issue_code": "CFLIN-E3035"
+    },
+    "E3034": {
+        "issue_code": "CFLIN-E3034"
+    },
+    "W3045": {
+        "issue_code": "CFLIN-W3045"
+    },
+    "I7011": {
+        "issue_code": "CFLIN-I7011"
+    },
+    "E8005": {
+        "issue_code": "CFLIN-E8005"
+    },
+    "I3013": {
+        "issue_code": "CFLIN-I3013"
+    },
+    "E3022": {
+        "issue_code": "CFLIN-E3022"
+    },
+    "I1002": {
+        "issue_code": "CFLIN-I1002"
+    },
+    "I2012": {
+        "issue_code": "CFLIN-I2012"
+    },
+    "W2510": {
+        "issue_code": "CFLIN-W2510"
+    },
+    "E2520": {
+        "issue_code": "CFLIN-E2520"
+    },
+    "E3018": {
+        "issue_code": "CFLIN-E3018"
+    },
+    "W2506": {
+        "issue_code": "CFLIN-W2506"
+    },
+    "I6010": {
+        "issue_code": "CFLIN-I6010"
+    },
+    "E3038": {
+        "issue_code": "CFLIN-E3038"
+    },
+    "E2015": {
+        "issue_code": "CFLIN-E2015"
+    },
+    "E6001": {
+        "issue_code": "CFLIN-E6001"
+    },
+    "E2541": {
+        "issue_code": "CFLIN-E2541"
+    },
+    "W2530": {
+        "issue_code": "CFLIN-W2530"
+    },
+    "E2003": {
+        "issue_code": "CFLIN-E2003"
+    },
+    "I1022": {
+        "issue_code": "CFLIN-I1022"
+    },
+    "W8003": {
+        "issue_code": "CFLIN-W8003"
+    },
+    "E3002": {
+        "issue_code": "CFLIN-E3002"
+    },
+    "W1019": {
+        "issue_code": "CFLIN-W1019"
+    },
+    "E1029": {
+        "issue_code": "CFLIN-E1029"
+    },
+    "E3043": {
+        "issue_code": "CFLIN-E3043"
+    }
+}

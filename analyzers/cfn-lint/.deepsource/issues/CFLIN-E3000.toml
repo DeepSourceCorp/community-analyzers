@@ -1,6 +1,7 @@
-title = "Resource schema"
+title = "resource schema"
+verbose_name = E3000
 severity = "major"
-category = "typecheck"
+category = "antipattern"
 weight = 70
 tags = ["resources"]
 description = '''

@@ -1,6 +1,7 @@
-title = "Check if a list has duplicate values"
+title = "check if a list has duplicate values"
+verbose_name = E3037
 severity = "major"
-category = "bug-risk"
+category = "antipattern"
 weight = 70
 tags = ["resources", "property", "list"]
 description = '''

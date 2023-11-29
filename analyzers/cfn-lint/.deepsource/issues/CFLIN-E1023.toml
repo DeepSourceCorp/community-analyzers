@@ -1,6 +1,7 @@
-title = "Validation NOT function configuration"
+title = "validation not function configuration"
+verbose_name = E1023
 severity = "major"
-category = "typecheck"
+category = "antipattern"
 weight = 70
 tags = ["functions", "not"]
 description = '''

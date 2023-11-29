@@ -1,4 +1,5 @@
-title = "Length validation of parameters"
+title = "length validation of parameters"
+verbose_name = E1030
 severity = "major"
 category = "antipattern"
 weight = 70

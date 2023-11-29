@@ -1,6 +1,7 @@
-title = "Check for SubscriptionFilters have beyond 2 attachments to a CloudWatch Log Group"
+title = "check for subscriptionfilters have beyond 2 attachments to a cloudwatch log group"
+verbose_name = E2529
 severity = "major"
-category = "bug-risk"
+category = "antipattern"
 weight = 70
 tags = ["resources", "lambda"]
 description = '''

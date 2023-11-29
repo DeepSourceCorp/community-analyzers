@@ -1,4 +1,5 @@
-title = "Check at least one essential container is specified"
+title = "check at least one essential container is specified"
+verbose_name = E3042
 severity = "major"
 category = "antipattern"
 weight = 70

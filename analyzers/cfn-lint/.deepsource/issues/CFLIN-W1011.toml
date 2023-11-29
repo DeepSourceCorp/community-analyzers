@@ -1,6 +1,7 @@
-title = "FindInMap keys exist in the map"
+title = "findinmap keys exist in the map"
+verbose_name = W1011
 severity = "major"
-category = "bug-risk"
+category = "antipattern"
 weight = 70
 tags = ["functions", "findinmap"]
 description = '''

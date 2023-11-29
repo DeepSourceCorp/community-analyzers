@@ -1,6 +1,7 @@
-title = "Mapping attribute limit not exceeded"
+title = "mapping attribute limit not exceeded"
+verbose_name = E7012
 severity = "major"
-category = "performance"
+category = "antipattern"
 weight = 70
 tags = ["mappings", "limits"]
 description = '''
