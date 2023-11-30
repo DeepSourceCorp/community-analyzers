@@ -1,0 +1,12 @@
+title = "Resource subnetroutetableassociation properties"
+verbose_name = "E3022"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["resources", "ec2", "subnet", "route table"]
+description = '''
+Validate there is only one SubnetRouteTableAssociation per subnet
+
+### References:
+[Aws Resource Ec2 Subnet Route Table Assoc](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-subnet-route-table-assoc.html)
+'''

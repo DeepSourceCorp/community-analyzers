@@ -1,0 +1,12 @@
+title = "Check outputs using importvalue"
+verbose_name = "W6001"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["outputs", "importvalue"]
+description = '''
+Check if the Output value is set using ImportValue, so creating an Output of an Output
+
+### References:
+[CloudFormation Python Lint](https://github.com/aws-cloudformation/cfn-python-lint)
+'''

@@ -1,0 +1,12 @@
+title = "Error processing rule on the template"
+verbose_name = "E0002"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["base", "rule"]
+description = '''
+Errors found when processing a rule on the template
+
+### References:
+[CloudFormation Python Lint](https://github.com/aws-cloudformation/cfn-python-lint)
+'''

@@ -1,0 +1,12 @@
+title = "Resource elb properties"
+verbose_name = "E2503"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["properties", "elb"]
+description = '''
+See if Elb Resource Properties are set correctly HTTPS has certificate HTTP has no certificate
+
+### References:
+[Aws Properties Ec2 Elb Listener](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-elb-listener.html)
+'''

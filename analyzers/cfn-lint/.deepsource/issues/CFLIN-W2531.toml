@@ -1,0 +1,12 @@
+title = "Check if eol lambda function runtimes are used"
+verbose_name = "W2531"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["resources", "lambda", "runtime"]
+description = '''
+Check if an EOL Lambda Runtime is specified and give a warning if used. 
+
+### References:
+[Runtime Support Policy](https://docs.aws.amazon.com/lambda/latest/dg/runtime-support-policy.html)
+'''

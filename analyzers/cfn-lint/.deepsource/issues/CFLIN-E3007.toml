@@ -1,0 +1,12 @@
+title = "Unique resource and parameter names"
+verbose_name = "E3007"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["parameters", "resources"]
+description = '''
+All resources and parameters must have unique names
+
+### References:
+[Resources Section Structure](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/resources-section-structure.html)
+'''

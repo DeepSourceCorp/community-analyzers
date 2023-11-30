@@ -1,0 +1,12 @@
+title = "Output description limit"
+verbose_name = "I6012"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["outputs", "limits"]
+description = '''
+Check the size of Output description in the template is approaching the upper limit
+
+### References:
+[Outputs Section Structure](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/outputs-section-structure.html)
+'''

@@ -1,0 +1,12 @@
+title = "Mapping name limit not exceeded"
+verbose_name = "E7011"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["mappings", "limits"]
+description = '''
+Check the size of Mapping names in the template is less than the upper limit
+
+### References:
+[CloudFormation Limits](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cloudformation-limits.html)
+'''

@@ -1,0 +1,12 @@
+title = "Check for subscriptionfilters have beyond 2 attachments to a cloudwatch log group"
+verbose_name = "E2529"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["resources", "lambda"]
+description = '''
+The current limit for a CloudWatch Log Group is they can have 2 subscription filters. We will look for duplicate LogGroupNames inside Subscription Filters and make sure they are within 2. This doesn't account for any other subscription filters getting set.
+
+### References:
+[2016 10 31](https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#user-content-cloudwatchlogs)
+'''

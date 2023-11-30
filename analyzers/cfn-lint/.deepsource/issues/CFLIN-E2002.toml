@@ -1,0 +1,12 @@
+title = "Parameters have appropriate type"
+verbose_name = "E2002"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["parameters"]
+description = '''
+Making sure the parameters have a correct type
+
+### References:
+[Best Practices](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/best-practices.html#parmtypes)
+'''

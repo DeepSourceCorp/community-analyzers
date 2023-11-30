@@ -1,0 +1,12 @@
+title = "Check if imageid parameters have the correct type"
+verbose_name = "W2506"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["parameters", "ec2", "imageid"]
+description = '''
+See if there are any refs for ImageId to a parameter of inappropriate type. Appropriate Types are [AWS::EC2::Image::Id, AWS::SSM::Parameter::Value<AWS::EC2::Image::Id>]
+
+### References:
+[Best Practices](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/best-practices.html#parmtypes)
+'''

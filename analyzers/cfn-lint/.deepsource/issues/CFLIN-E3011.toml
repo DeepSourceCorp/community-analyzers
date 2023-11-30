@@ -1,0 +1,12 @@
+title = "Resource name limit not exceeded"
+verbose_name = "E3011"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["resources", "limits"]
+description = '''
+Check the size of Resource names in the template is less than the upper limit
+
+### References:
+[CloudFormation Limits](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cloudformation-limits.html)
+'''

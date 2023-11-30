@@ -1,0 +1,12 @@
+title = "Template description can only be a string"
+verbose_name = "E1004"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["description"]
+description = '''
+Template description can only be a string
+
+### References:
+[Template Description Structure](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/template-description-structure.html)
+'''

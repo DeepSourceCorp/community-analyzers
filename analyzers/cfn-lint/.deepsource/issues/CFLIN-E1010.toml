@@ -1,0 +1,12 @@
+title = "Getatt validation of parameters"
+verbose_name = "E1010"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["functions", "getatt"]
+description = '''
+Validates that GetAtt parameters are to valid resources and properties of those resources
+
+### References:
+[Intrinsic Function Reference Getatt](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-getatt.html)
+'''

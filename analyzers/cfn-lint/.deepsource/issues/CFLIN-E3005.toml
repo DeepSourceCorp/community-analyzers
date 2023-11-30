@@ -1,0 +1,12 @@
+title = "Check dependson values for resources"
+verbose_name = "E3005"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["resources", "dependson"]
+description = '''
+Check that the DependsOn values are valid
+
+### References:
+[Aws Attribute Dependson](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-attribute-dependson.html)
+'''

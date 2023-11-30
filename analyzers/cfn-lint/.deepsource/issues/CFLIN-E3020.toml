@@ -1,0 +1,12 @@
+title = "Validate route53 recordsets"
+verbose_name = "E3020"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["resources", "route53", "record_set"]
+description = '''
+Check if all RecordSets are correctly configured
+
+### References:
+[Resourcerecordtypes](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/ResourceRecordTypes.html)
+'''

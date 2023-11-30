@@ -1,0 +1,12 @@
+title = "Outputs have required properties"
+verbose_name = "E6002"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["outputs"]
+description = '''
+Making sure the outputs have required properties
+
+### References:
+[Outputs Section Structure](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/outputs-section-structure.html)
+'''

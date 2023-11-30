@@ -1,0 +1,12 @@
+title = "Check fn::equals structure for validity"
+verbose_name = "E8003"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["functions", "equals"]
+description = '''
+Check Fn::Equals is a list of two elements
+
+### References:
+[Intrinsic Function Reference Conditions](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-conditions.html#intrinsic-function-reference-conditions-equals)
+'''

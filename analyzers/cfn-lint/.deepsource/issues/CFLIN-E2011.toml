@@ -1,0 +1,12 @@
+title = "Parameter name limit not exceeded"
+verbose_name = "E2011"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["parameters", "limits"]
+description = '''
+Check the size of Parameter names in the template is less than the upper limit
+
+### References:
+[CloudFormation Limits](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cloudformation-limits.html)
+'''

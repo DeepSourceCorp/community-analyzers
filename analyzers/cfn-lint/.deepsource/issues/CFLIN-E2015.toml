@@ -1,0 +1,12 @@
+title = "Default value is within parameter constraints"
+verbose_name = "E2015"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["parameters"]
+description = '''
+Making sure the parameters have a default value inside AllowedValues, MinValue, MaxValue, AllowedPattern
+
+### References:
+[Parameters Section Structure](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/parameters-section-structure.html)
+'''

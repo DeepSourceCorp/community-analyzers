@@ -1,0 +1,12 @@
+title = "Parameters have appropriate names"
+verbose_name = "E2003"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["parameters"]
+description = '''
+Check if Parameters are properly named (A-Za-z0-9)
+
+### References:
+[Parameters Section Structure](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/parameters-section-structure.html#parameters-section-structure-requirements)
+'''

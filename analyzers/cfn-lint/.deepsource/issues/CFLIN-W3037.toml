@@ -1,0 +1,12 @@
+title = "Check iam permission configuration"
+verbose_name = "W3037"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["properties", "iam", "permissions"]
+description = '''
+Check for valid IAM Permissions
+
+### References:
+[Reference_Policies_Elements_Action](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_elements_action.html)
+'''

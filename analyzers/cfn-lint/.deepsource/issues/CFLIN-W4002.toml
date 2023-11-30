@@ -1,0 +1,12 @@
+title = "Check for noecho references"
+verbose_name = "W4002"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["resources", "NoEcho"]
+description = '''
+Check if there is a NoEcho enabled parameter referenced within a resources Metadata section
+
+### References:
+[Parameters Section Structure](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/parameters-section-structure.html#parameters-section-structure-properties)
+'''

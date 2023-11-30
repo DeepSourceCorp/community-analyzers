@@ -1,0 +1,42 @@
+# A copy-paste Github Actions config to run cfn-lint and report the artifact to DeepSource
+name: Scan with cfn-lint
+
+on:
+  # Note that both `push` and `pull_request` triggers should be present for GitHub to consistently present cfn-lint
+  # SARIF reports.
+  push:
+    branches: [ main, master ]
+  pull_request:
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    env:
+        DEEPSOURCE_DSN: ${{ secrets.DEEPSOURCE_DSN }}
+    steps:
+      - uses: actions/checkout@v3
+        with:
+            ref: ${{ github.event.pull_request.head.sha }}
+      
+      - name: Scan files with cfn-lint
+        uses: scottbrenner/cfn-lint-action@v2
+
+      - name: Generate the SARIF report
+        id: cfn-lint-action-scan
+        run: |
+          cfn-lint -t ./**/*.yaml -f sarif > cfn-lint.sarif
+        continue-on-error: true
+
+      - name: Upload SARIF report files to DeepSource
+        run: |
+          # Install the CLI
+          curl https://deepsource.io/cli | sh
+
+          # Send the report to DeepSource
+          ./bin/deepsource report --analyzer cfn-lint --analyzer-type community --value-file ./cfn-lint.sarif
+
+      - name: Verify cfn-lint-action succeeded
+        shell: bash
+        run: |
+          echo "If this step fails, cfn-lint found issues. Check the output of the scan step above."
+          [[ "${{ steps.cfn-lint-action-scan.outcome }}" == "success" ]]

@@ -1,0 +1,12 @@
+title = "Checks for legacy instance type generations"
+verbose_name = "I3100"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["resources", "ec2", "rds", "elasticcache", "elasticsearch"]
+description = '''
+New instance type generations increase performance and decrease cost
+
+### References:
+[Previous Generation](https://aws.amazon.com/ec2/previous-generation/)
+'''

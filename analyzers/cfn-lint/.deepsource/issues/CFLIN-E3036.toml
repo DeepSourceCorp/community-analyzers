@@ -1,0 +1,12 @@
+title = "Check updatereplacepolicy values for resources"
+verbose_name = "E3036"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["resources", "updatereplacepolicy"]
+description = '''
+Check that the UpdateReplacePolicy values are valid
+
+### References:
+[Aws Attribute Updatereplacepolicy](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-attribute-updatereplacepolicy.html)
+'''

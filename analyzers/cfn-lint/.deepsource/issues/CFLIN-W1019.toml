@@ -1,0 +1,12 @@
+title = "Sub validation of parameters"
+verbose_name = "W1019"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["functions", "sub"]
+description = '''
+Validate that Fn::Sub Parameters are used
+
+### References:
+[Intrinsic Function Reference Sub](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-sub.html)
+'''

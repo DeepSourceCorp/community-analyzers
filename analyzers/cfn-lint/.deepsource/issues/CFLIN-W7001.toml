@@ -1,0 +1,12 @@
+title = "Check if mappings are used"
+verbose_name = "W7001"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["mappings"]
+description = '''
+Making sure the mappings defined are used
+
+### References:
+[CloudFormation Python Lint](https://github.com/aws-cloudformation/cfn-python-lint)
+'''

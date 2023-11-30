@@ -1,0 +1,12 @@
+title = "Check events rule targets are less than or equal to 5"
+verbose_name = "E3021"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["resources", "events"]
+description = '''
+CloudWatch Events Rule can only support up to 5 targets
+
+### References:
+[Cloudwatch_Limits_Cwe](https://docs.aws.amazon.com/AmazonCloudWatch/latest/events/cloudwatch_limits_cwe.html)
+'''

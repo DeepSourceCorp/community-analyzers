@@ -1,0 +1,12 @@
+title = "Resource properties are invalid"
+verbose_name = "E3002"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["resources"]
+description = '''
+Making sure that resources properties are properly configured
+
+### References:
+[CloudFormation Resource Specification](https://github.com/aws-cloudformation/cfn-python-lint/blob/main/docs/cfn-resource-specification.md#properties)
+'''

@@ -1,0 +1,12 @@
+title = "Check properties that are mutually exclusive"
+verbose_name = "E2520"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["resources"]
+description = '''
+Making sure CloudFormation properties that are exclusive are not defined
+
+### References:
+[CloudFormation Python Lint](https://github.com/aws-cloudformation/cfn-python-lint)
+'''

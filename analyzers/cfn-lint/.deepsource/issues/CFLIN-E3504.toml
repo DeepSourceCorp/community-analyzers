@@ -1,0 +1,12 @@
+title = "Check minimum 90 period is met between backupplan cold and delete"
+verbose_name = "E3504"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["properties", "backup", "plan", "lifecycle"]
+description = '''
+Check that Backup plans with lifecycle rules have >= 90 days between cold and delete
+
+### References:
+[Aws Properties Backup Backupplan Lifecycleresourcetype](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-backup-backupplan-lifecycleresourcetype.html)
+'''

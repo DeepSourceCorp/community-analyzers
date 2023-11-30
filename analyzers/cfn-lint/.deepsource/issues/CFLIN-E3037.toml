@@ -1,0 +1,12 @@
+title = "Check if a list has duplicate values"
+verbose_name = "E3037"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["resources", "property", "list"]
+description = '''
+Certain lists don't support duplicate items. Check when duplicates are provided but not supported.
+
+### References:
+[CloudFormation Resource Specification](https://github.com/aws-cloudformation/cfn-python-lint/blob/main/docs/cfn-resource-specification.md#allowedvalue)
+'''

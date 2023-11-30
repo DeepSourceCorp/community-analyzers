@@ -1,0 +1,12 @@
+title = "Validate aws event scheduleexpression format"
+verbose_name = "E3027"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["resources", "events"]
+description = '''
+Validate the formation of the AWS::Event ScheduleExpression
+
+### References:
+[Scheduledevents](https://docs.aws.amazon.com/AmazonCloudWatch/latest/events/ScheduledEvents.html)
+'''

@@ -1,0 +1,12 @@
+title = "Mapping keys are strings and alphanumeric"
+verbose_name = "E7003"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["mappings"]
+description = '''
+Check if Mappings keys are properly typed as strings and alphanumeric
+
+### References:
+[Mappings Section Structure](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/mappings-section-structure.html)
+'''

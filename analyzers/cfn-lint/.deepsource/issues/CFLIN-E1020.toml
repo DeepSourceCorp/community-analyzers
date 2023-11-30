@@ -1,0 +1,12 @@
+title = "Ref validation of value"
+verbose_name = "E1020"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["functions", "ref"]
+description = '''
+Making sure the Ref has a String value (no other functions are supported)
+
+### References:
+[Intrinsic Function Reference Ref](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-ref.html)
+'''

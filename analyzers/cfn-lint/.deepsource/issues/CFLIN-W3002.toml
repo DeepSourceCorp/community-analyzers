@@ -1,0 +1,12 @@
+title = "Warn when properties are configured to only work with the package command"
+verbose_name = "W3002"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["resources"]
+description = '''
+Some properties can be configured to only work with the CloudFormationpackage command. Warn when this is the case so user is aware.
+
+### References:
+[Package](https://docs.aws.amazon.com/cli/latest/reference/cloudformation/package.html)
+'''

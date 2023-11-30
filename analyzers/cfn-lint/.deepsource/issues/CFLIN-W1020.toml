@@ -1,0 +1,12 @@
+title = "Sub isn't needed if it doesn't have a variable defined"
+verbose_name = "W1020"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["functions", "sub"]
+description = '''
+Checks sub strings to see if a variable is defined.
+
+### References:
+[Intrinsic Function Reference Sub](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-sub.html)
+'''

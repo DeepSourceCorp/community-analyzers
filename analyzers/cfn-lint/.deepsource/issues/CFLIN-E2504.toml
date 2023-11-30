@@ -1,0 +1,12 @@
+title = "Check ec2 ebs properties"
+verbose_name = "E2504"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["properties", "ec2", "ebs"]
+description = '''
+See if Ec2 Ebs Properties are valid
+
+### References:
+[Aws Properties Ec2 Blockdev Template](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-blockdev-template.html)
+'''

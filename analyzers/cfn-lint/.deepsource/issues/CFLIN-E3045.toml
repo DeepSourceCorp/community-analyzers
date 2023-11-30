@@ -1,0 +1,12 @@
+title = "Validate accesscontrol are set with ownershipcontrols"
+verbose_name = "E3045"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["resources", "s3"]
+description = '''
+When using AccessControl other than private you must also configure OwnershipControls. The default is bucket owner enforced which disables ACLs.
+
+### References:
+[About Object Ownership](https://docs.aws.amazon.com/AmazonS3/latest/userguide/about-object-ownership.html)
+'''

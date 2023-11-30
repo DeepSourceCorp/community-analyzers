@@ -1,0 +1,12 @@
+title = "Check properties that need at least one of a list of properties"
+verbose_name = "E2522"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["resources"]
+description = '''
+Making sure CloudFormation properties that require at least one property from a list. More than one can be included.
+
+### References:
+[CloudFormation Python Lint](https://github.com/aws-cloudformation/cfn-python-lint)
+'''

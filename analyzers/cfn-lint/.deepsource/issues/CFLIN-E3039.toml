@@ -1,0 +1,12 @@
+title = "Attributedefinitions / keyschemas mismatch"
+verbose_name = "E3039"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["resources", "dynamodb"]
+description = '''
+Verify the set of Attributes in AttributeDefinitions and KeySchemas match
+
+### References:
+[Aws Resource Dynamodb Table](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dynamodb-table.html)
+'''

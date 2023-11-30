@@ -1,0 +1,12 @@
+title = "Arns should use correctly placed pseudo parameters"
+verbose_name = "I3042"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["resources"]
+description = '''
+Checks Resources if ARNs use correctly placed Pseudo Parameters instead of hardcoded Partition, Region, and Account Number
+
+### References:
+[]()
+'''

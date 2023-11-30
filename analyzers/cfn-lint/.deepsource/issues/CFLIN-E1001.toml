@@ -1,0 +1,12 @@
+title = "Basic cloudformation template configuration"
+verbose_name = "E1001"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["base"]
+description = '''
+Making sure the basic CloudFormation template components are properly configured
+
+### References:
+[CloudFormation Python Lint](https://github.com/aws-cloudformation/cfn-python-lint)
+'''

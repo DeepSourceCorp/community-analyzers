@@ -1,0 +1,12 @@
+title = "Check fargate service scheduling strategy"
+verbose_name = "E3044"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["properties", "ecs", "service", "container", "fargate"]
+description = '''
+Check that Fargate service scheduling strategy is REPLICA
+
+### References:
+[Aws Resource Ecs Service](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-service.html#cfn-ecs-service-schedulingstrategy)
+'''

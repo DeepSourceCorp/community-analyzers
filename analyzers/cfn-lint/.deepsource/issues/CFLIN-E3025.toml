@@ -1,0 +1,12 @@
+title = "Rds instance type is compatible with the rds type"
+verbose_name = "E3025"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["resources", "rds"]
+description = '''
+Check the RDS instance types are supported by the type of RDS engine. Only if the values are strings will this be checked.
+
+### References:
+[Concepts.Dbinstanceclass](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Concepts.DBInstanceClass.html)
+'''

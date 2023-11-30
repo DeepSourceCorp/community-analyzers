@@ -1,0 +1,12 @@
+title = "Recordset hostedzonename is a superdomain of name"
+verbose_name = "E3041"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["resource", "properties", "route53"]
+description = '''
+In a RecordSet, the HostedZoneName must be a superdomain of the Name being validated
+
+### References:
+[Aws Properties Route53 Recordset](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-route53-recordset.html#cfn-route53-recordset-name)
+'''

@@ -1,0 +1,12 @@
+title = "Check properties that are required together"
+verbose_name = "E2521"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["resources"]
+description = '''
+Make sure CloudFormation resource properties are included together when required
+
+### References:
+[CloudFormation Python Lint](https://github.com/aws-cloudformation/cfn-python-lint)
+'''

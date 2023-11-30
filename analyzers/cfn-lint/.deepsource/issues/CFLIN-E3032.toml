@@ -1,0 +1,12 @@
+title = "Check if a list has between min and max number of values specified"
+verbose_name = "E3032"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["resources", "property", "list", "size"]
+description = '''
+Check lists for the number of items in the list to validate they are between the minimum and maximum
+
+### References:
+[CloudFormation Resource Specification](https://github.com/awslabs/cfn-python-lint/blob/main/docs/cfn-resource-specification.md#allowedpattern)
+'''

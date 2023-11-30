@@ -1,0 +1,12 @@
+title = "Check if refing to a iam resource with path set"
+verbose_name = "E3050"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["properties", "iam"]
+description = '''
+Some resources don't support looking up the IAM resource by name. This check validates when a REF is being used and the Path is not '/'
+
+### References:
+[Reference_Policies_Elements](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_elements.html)
+'''

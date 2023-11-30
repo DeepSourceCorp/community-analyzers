@@ -1,0 +1,12 @@
+title = "Check iam resource policies syntax"
+verbose_name = "W2511"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["properties", "iam"]
+description = '''
+See if the elements inside an IAM Resource policy are configured correctly.
+
+### References:
+[Reference_Policies_Elements](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_elements.html)
+'''

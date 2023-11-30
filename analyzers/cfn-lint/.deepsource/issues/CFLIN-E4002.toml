@@ -1,0 +1,12 @@
+title = "Validate the configuration of the metadata section"
+verbose_name = "E4002"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["metadata"]
+description = '''
+Validates that Metadata section is an object and has no null values
+
+### References:
+[Metadata Section Structure](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/metadata-section-structure.html)
+'''

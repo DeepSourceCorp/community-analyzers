@@ -1,0 +1,12 @@
+title = "Check if parameters are used"
+verbose_name = "W2001"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["parameters"]
+description = '''
+Making sure the parameters defined are used
+
+### References:
+[CloudFormation Python Lint](https://github.com/aws-cloudformation/cfn-python-lint)
+'''

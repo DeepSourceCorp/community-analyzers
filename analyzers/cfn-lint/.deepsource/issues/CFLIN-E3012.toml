@@ -1,0 +1,12 @@
+title = "Check resource properties values"
+verbose_name = "E3012"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["resources"]
+description = '''
+Checks resource property values with Primitive Types for values that match those types.
+
+### References:
+[CloudFormation Resource Specification](https://github.com/aws-cloudformation/cfn-python-lint/blob/main/docs/cfn-resource-specification.md#valueprimitivetype)
+'''

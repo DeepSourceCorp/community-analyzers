@@ -1,0 +1,12 @@
+title = "Mapping attribute limit not exceeded"
+verbose_name = "E7012"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["mappings", "limits"]
+description = '''
+Check if the amount of Mapping attributes in the template is less than the upper limit
+
+### References:
+[CloudFormation Limits](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cloudformation-limits.html)
+'''

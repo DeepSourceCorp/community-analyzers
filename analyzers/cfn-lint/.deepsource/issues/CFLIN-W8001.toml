@@ -1,0 +1,12 @@
+title = "Check if conditions are used"
+verbose_name = "W8001"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["conditions"]
+description = '''
+Making sure the conditions defined are used
+
+### References:
+[CloudFormation Python Lint](https://github.com/aws-cloudformation/cfn-python-lint)
+'''

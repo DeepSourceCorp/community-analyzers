@@ -1,0 +1,12 @@
+title = "Cidr validation of parameters"
+verbose_name = "E1024"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["functions", "cidr"]
+description = '''
+Making sure the function CIDR is a list with valid values
+
+### References:
+[Intrinsic Function Reference Cidr](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-cidr.html)
+'''

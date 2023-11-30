@@ -1,0 +1,12 @@
+title = "Snapstart supports the configured runtime"
+verbose_name = "E2530"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["resources", "lambda"]
+description = '''
+To properly leverage SnapStart, you must have a runtime of Java11 or greater
+
+### References:
+[Snapstart](https://docs.aws.amazon.com/lambda/latest/dg/snapstart.html)
+'''

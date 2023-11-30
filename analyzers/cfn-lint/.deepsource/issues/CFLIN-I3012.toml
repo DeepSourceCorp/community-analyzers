@@ -1,0 +1,12 @@
+title = "Resource name limit"
+verbose_name = "I3012"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["resources", "limits"]
+description = '''
+Check the size of Resource names in the template is approaching the upper limit
+
+### References:
+[CloudFormation Limits](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cloudformation-limits.html)
+'''

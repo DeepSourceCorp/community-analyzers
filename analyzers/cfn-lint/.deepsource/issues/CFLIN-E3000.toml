@@ -1,0 +1,12 @@
+title = "Resource schema"
+verbose_name = "E3000"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["resources"]
+description = '''
+CloudFormation Registry resource schema validation
+
+### References:
+[Aws CloudFormation Resource Schema](https://github.com/aws-cloudformation/aws-cloudformation-resource-schema/)
+'''

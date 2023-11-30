@@ -1,0 +1,12 @@
+title = "Validationdomain is superdomain of domainname"
+verbose_name = "E3503"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["certificate", "certificatemanager", "domainvalidationoptions", "validationdomain"]
+description = '''
+In ValidationDomainOptions, the ValidationDomain must be a superdomain of the DomainName being validated
+
+### References:
+[Aws Properties Certificatemanager Certificate Domainvalidationoption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-certificatemanager-certificate-domainvalidationoption.html#cfn-certificatemanager-certificate-domainvalidationoption-validationdomain)
+'''

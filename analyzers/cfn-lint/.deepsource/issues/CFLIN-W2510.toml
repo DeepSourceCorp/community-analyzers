@@ -1,0 +1,12 @@
+title = "Parameter memory size attributes should have max and min"
+verbose_name = "W2510"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["parameters", "lambda"]
+description = '''
+Check if a parameter that is used for Lambda memory size  should have a min and max size that matches Lambda constraints
+
+### References:
+[Api_Createfunction](https://docs.aws.amazon.com/lambda/latest/dg/API_CreateFunction.html#SSS-CreateFunction-request-MemorySize)
+'''

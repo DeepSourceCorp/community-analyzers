@@ -1,0 +1,12 @@
+title = "Check if password properties are correctly configured"
+verbose_name = "W2501"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["parameters", "passwords", "security", "dynamic reference"]
+description = '''
+Password properties should not be strings and if parameter using NoEcho
+
+### References:
+[Best Practices](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/best-practices.html#creds)
+'''

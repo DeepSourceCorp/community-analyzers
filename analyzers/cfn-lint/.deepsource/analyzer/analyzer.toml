@@ -1,0 +1,7 @@
+# Analyzer Profile
+category = "conf"
+name = "AWS CloudFormation Linter"
+shortcode = "cfn-lint"
+status = "active"
+tool_latest_version = "0.83.0"
+description = "AWS Cloudformation Linter validates AWS CloudFormation yaml/json templates against AWS CloudFormation Resource Specification."

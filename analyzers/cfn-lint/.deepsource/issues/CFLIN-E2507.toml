@@ -1,0 +1,12 @@
+title = "Check if iam policies are properly configured"
+verbose_name = "E2507"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["properties", "iam"]
+description = '''
+See if there elements inside an IAM policy are correct
+
+### References:
+[Aws Properties Iam Policy](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-iam-policy.html)
+'''

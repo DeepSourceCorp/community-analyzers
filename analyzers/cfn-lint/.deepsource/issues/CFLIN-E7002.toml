@@ -1,0 +1,12 @@
+title = "Mappings have appropriate names"
+verbose_name = "E7002"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["mappings"]
+description = '''
+Check if Mappings are properly named (A-Za-z0-9)
+
+### References:
+[Mappings Section Structure](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/mappings-section-structure.html)
+'''

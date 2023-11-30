@@ -1,0 +1,12 @@
+title = "Check that modules resources are valid"
+verbose_name = "E5001"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["resources", "modules"]
+description = '''
+Check that Modules resources are valid
+
+### References:
+[Userguide](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/)
+'''

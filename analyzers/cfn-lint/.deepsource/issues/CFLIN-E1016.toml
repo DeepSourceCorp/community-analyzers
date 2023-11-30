@@ -1,0 +1,12 @@
+title = "Importvalue validation of parameters"
+verbose_name = "E1016"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["functions", "importvalue"]
+description = '''
+Making sure the ImportValue function is properly configured
+
+### References:
+[Intrinsic Function Reference Importvalue](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-importvalue.html)
+'''

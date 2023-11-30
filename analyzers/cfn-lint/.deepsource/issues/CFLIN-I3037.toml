@@ -1,0 +1,12 @@
+title = "Check if a list that allows duplicates has any duplicates"
+verbose_name = "I3037"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["resources", "property", "list"]
+description = '''
+Certain lists support duplicate items.Provide an alert when list of strings or numbers have repeats.
+
+### References:
+[Rules](https://github.com/aws-cloudformation/cfn-python-lint/blob/main/docs/rules.md#rules-1)
+'''

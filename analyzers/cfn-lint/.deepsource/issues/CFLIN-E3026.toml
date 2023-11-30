@@ -1,0 +1,12 @@
+title = "Check elastic cache redis cluster settings"
+verbose_name = "E3026"
+severity = "major"
+category = "antipattern"
+weight = 70
+tags = ["resources", "elasticcache"]
+description = '''
+Evaluate Redis Cluster groups to make sure automatic failover is enabled when cluster mode is enabled
+
+### References:
+[CloudFormation Python Lint](https://github.com/awslabs/cfn-python-lint)
+'''
