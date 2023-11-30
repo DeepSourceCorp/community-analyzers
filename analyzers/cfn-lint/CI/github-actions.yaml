@@ -33,7 +33,7 @@ jobs:
           curl https://deepsource.io/cli | sh
 
           # Send the report to DeepSource
-          ./bin/deepsource report --analyzer cfn-lint --value-file ./cfn-lint.sarif
+          ./bin/deepsource report --analyzer cfn-lint --analyzer-type community --value-file ./cfn-lint.sarif
 
       - name: Verify cfn-lint-action succeeded
         shell: bash
