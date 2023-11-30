@@ -1,4 +1,4 @@
-title = "join validation of parameters"
+title = "Join validation of parameters"
 verbose_name = "E1022"
 severity = "major"
 category = "antipattern"

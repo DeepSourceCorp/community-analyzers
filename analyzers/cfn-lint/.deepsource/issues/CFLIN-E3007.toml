@@ -1,4 +1,4 @@
-title = "unique resource and parameter names"
+title = "Unique resource and parameter names"
 verbose_name = "E3007"
 severity = "major"
 category = "antipattern"

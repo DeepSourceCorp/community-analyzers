@@ -1,4 +1,4 @@
-title = "default value cannot use refs"
+title = "Default value cannot use refs"
 verbose_name = "E2014"
 severity = "major"
 category = "antipattern"

@@ -1,4 +1,4 @@
-title = "findinmap keys exist in the map"
+title = "Findinmap keys exist in the map"
 verbose_name = "W1011"
 severity = "major"
 category = "antipattern"

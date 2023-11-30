@@ -1,4 +1,4 @@
-title = "split validation of parameters"
+title = "Split validation of parameters"
 verbose_name = "E1018"
 severity = "major"
 category = "antipattern"

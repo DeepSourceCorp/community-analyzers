@@ -1,4 +1,4 @@
-title = "check for subscriptionfilters have beyond 2 attachments to a cloudwatch log group"
+title = "Check for subscriptionfilters have beyond 2 attachments to a cloudwatch log group"
 verbose_name = "E2529"
 severity = "major"
 category = "antipattern"

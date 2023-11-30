@@ -1,4 +1,4 @@
-title = "check deletionpolicy values for resources"
+title = "Check deletionpolicy values for resources"
 verbose_name = "E3035"
 severity = "major"
 category = "antipattern"

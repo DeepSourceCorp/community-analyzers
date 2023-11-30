@@ -1,4 +1,4 @@
-title = "mapping keys are strings and alphanumeric"
+title = "Mapping keys are strings and alphanumeric"
 verbose_name = "E7003"
 severity = "major"
 category = "antipattern"

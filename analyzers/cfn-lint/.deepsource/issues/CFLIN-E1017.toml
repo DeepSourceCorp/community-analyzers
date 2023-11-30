@@ -1,4 +1,4 @@
-title = "select validation of parameters"
+title = "Select validation of parameters"
 verbose_name = "E1017"
 severity = "major"
 category = "antipattern"

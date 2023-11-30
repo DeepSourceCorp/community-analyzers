@@ -104,7 +104,7 @@ def build_toml(issue: Dict[str, Union[str, List[str]]]) -> str:
     tags = issue.get("tags", [])
 
     content = f"""\
-    title = {json.dumps(title).capitalize()}
+    title = {json.dumps(title.capitalize())}
     verbose_name = "{issue["id"]}"
     severity = "major"
     category = "antipattern"

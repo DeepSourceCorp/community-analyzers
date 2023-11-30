@@ -1,4 +1,4 @@
-title = "warn when properties are configured to only work with the package command"
+title = "Warn when properties are configured to only work with the package command"
 verbose_name = "W3002"
 severity = "major"
 category = "antipattern"

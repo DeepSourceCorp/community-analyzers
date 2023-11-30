@@ -1,4 +1,4 @@
-title = "getaz validation of parameters"
+title = "Getaz validation of parameters"
 verbose_name = "E1015"
 severity = "major"
 category = "antipattern"

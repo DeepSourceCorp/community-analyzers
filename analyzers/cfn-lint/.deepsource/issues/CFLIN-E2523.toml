@@ -1,4 +1,4 @@
-title = "check properties that need only one of a list of properties"
+title = "Check properties that need only one of a list of properties"
 verbose_name = "E2523"
 severity = "major"
 category = "antipattern"

@@ -1,4 +1,4 @@
-title = "getatt validation of parameters"
+title = "Getatt validation of parameters"
 verbose_name = "E1010"
 severity = "major"
 category = "antipattern"

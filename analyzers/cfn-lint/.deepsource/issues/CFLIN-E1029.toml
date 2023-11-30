@@ -1,4 +1,4 @@
-title = "sub is required if a variable is used in a string"
+title = "Sub is required if a variable is used in a string"
 verbose_name = "E1029"
 severity = "major"
 category = "antipattern"

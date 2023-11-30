@@ -1,4 +1,4 @@
-title = "basic cloudformation template configuration"
+title = "Basic cloudformation template configuration"
 verbose_name = "E1001"
 severity = "major"
 category = "antipattern"

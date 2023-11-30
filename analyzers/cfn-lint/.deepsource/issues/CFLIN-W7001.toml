@@ -1,4 +1,4 @@
-title = "check if mappings are used"
+title = "Check if mappings are used"
 verbose_name = "W7001"
 severity = "major"
 category = "antipattern"

@@ -1,4 +1,4 @@
-title = "validate that snapstart is properly configured"
+title = "Validate that snapstart is properly configured"
 verbose_name = "W2530"
 severity = "major"
 category = "antipattern"

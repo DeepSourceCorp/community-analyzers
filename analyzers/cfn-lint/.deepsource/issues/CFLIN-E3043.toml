@@ -1,4 +1,4 @@
-title = "validate parameters for in a nested stack"
+title = "Validate parameters for in a nested stack"
 verbose_name = "E3043"
 severity = "major"
 category = "antipattern"

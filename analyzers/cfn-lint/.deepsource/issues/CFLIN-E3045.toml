@@ -1,4 +1,4 @@
-title = "validate accesscontrol are set with ownershipcontrols"
+title = "Validate accesscontrol are set with ownershipcontrols"
 verbose_name = "E3045"
 severity = "major"
 category = "antipattern"

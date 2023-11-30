@@ -1,4 +1,4 @@
-title = "check that modules resources are valid"
+title = "Check that modules resources are valid"
 verbose_name = "E5001"
 severity = "major"
 category = "antipattern"

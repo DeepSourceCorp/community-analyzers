@@ -1,4 +1,4 @@
-title = "codepipeline stage actions"
+title = "Codepipeline stage actions"
 verbose_name = "E2541"
 severity = "major"
 category = "antipattern"

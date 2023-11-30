@@ -1,4 +1,4 @@
-title = "resource subnetroutetableassociation properties"
+title = "Resource subnetroutetableassociation properties"
 verbose_name = "E3022"
 severity = "major"
 category = "antipattern"

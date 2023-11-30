@@ -1,4 +1,4 @@
-title = "output limit"
+title = "Output limit"
 verbose_name = "I6010"
 severity = "major"
 category = "antipattern"

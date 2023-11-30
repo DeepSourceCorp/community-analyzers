@@ -1,4 +1,4 @@
-title = "validationdomain is superdomain of domainname"
+title = "Validationdomain is superdomain of domainname"
 verbose_name = "E3503"
 severity = "major"
 category = "antipattern"

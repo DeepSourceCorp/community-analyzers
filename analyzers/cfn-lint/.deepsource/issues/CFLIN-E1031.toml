@@ -1,4 +1,4 @@
-title = "tojsonstring validation of parameters"
+title = "Tojsonstring validation of parameters"
 verbose_name = "E1031"
 severity = "major"
 category = "antipattern"

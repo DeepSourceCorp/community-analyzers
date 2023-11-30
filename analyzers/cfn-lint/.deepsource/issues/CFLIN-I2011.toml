@@ -1,4 +1,4 @@
-title = "parameter name limit"
+title = "Parameter name limit"
 verbose_name = "I2011"
 severity = "major"
 category = "antipattern"

@@ -1,4 +1,4 @@
-title = "check resource properties values"
+title = "Check resource properties values"
 verbose_name = "E3012"
 severity = "major"
 category = "antipattern"

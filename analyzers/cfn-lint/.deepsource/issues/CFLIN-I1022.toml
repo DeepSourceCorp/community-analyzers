@@ -1,4 +1,4 @@
-title = "use sub instead of join"
+title = "Use sub instead of join"
 verbose_name = "I1022"
 severity = "major"
 category = "antipattern"

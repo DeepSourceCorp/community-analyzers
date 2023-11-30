@@ -1,4 +1,4 @@
-title = "validates foreach functions"
+title = "Validates foreach functions"
 verbose_name = "E1032"
 severity = "major"
 category = "antipattern"

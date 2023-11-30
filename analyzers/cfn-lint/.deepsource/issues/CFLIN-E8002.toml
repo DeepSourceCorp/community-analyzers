@@ -1,4 +1,4 @@
-title = "check if the referenced conditions are defined"
+title = "Check if the referenced conditions are defined"
 verbose_name = "E8002"
 severity = "major"
 category = "antipattern"

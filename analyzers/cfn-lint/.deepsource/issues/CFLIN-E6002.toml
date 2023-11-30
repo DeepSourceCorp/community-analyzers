@@ -1,4 +1,4 @@
-title = "outputs have required properties"
+title = "Outputs have required properties"
 verbose_name = "E6002"
 severity = "major"
 category = "antipattern"

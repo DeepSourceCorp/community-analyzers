@@ -1,4 +1,4 @@
-title = "output name limit not exceeded"
+title = "Output name limit not exceeded"
 verbose_name = "E6011"
 severity = "major"
 category = "antipattern"

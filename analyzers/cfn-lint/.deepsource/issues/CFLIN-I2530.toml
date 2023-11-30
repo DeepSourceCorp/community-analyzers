@@ -1,4 +1,4 @@
-title = "validate that snapstart is configured for >= java11 runtimes"
+title = "Validate that snapstart is configured for >= java11 runtimes"
 verbose_name = "I2530"
 severity = "major"
 category = "antipattern"

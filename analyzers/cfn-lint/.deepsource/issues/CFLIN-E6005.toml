@@ -1,4 +1,4 @@
-title = "outputs descriptions can only be strings"
+title = "Outputs descriptions can only be strings"
 verbose_name = "E6005"
 severity = "major"
 category = "antipattern"

@@ -1,4 +1,4 @@
-title = "check fn::and structure for validity"
+title = "Check fn::and structure for validity"
 verbose_name = "E8004"
 severity = "major"
 category = "antipattern"

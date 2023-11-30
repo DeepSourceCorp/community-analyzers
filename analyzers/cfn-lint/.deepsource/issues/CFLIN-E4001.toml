@@ -1,4 +1,4 @@
-title = "metadata interface have appropriate properties"
+title = "Metadata interface have appropriate properties"
 verbose_name = "E4001"
 severity = "major"
 category = "antipattern"

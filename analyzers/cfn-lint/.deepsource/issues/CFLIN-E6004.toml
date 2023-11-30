@@ -1,4 +1,4 @@
-title = "outputs have appropriate names"
+title = "Outputs have appropriate names"
 verbose_name = "E6004"
 severity = "major"
 category = "antipattern"

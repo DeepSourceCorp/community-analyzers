@@ -1,4 +1,4 @@
-title = "fn::equals will always return true or false"
+title = "Fn::equals will always return true or false"
 verbose_name = "W8003"
 severity = "major"
 category = "antipattern"

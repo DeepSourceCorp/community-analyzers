@@ -1,4 +1,4 @@
-title = "check properties that are mutually exclusive"
+title = "Check properties that are mutually exclusive"
 verbose_name = "E2520"
 severity = "major"
 category = "antipattern"

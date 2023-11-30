@@ -1,4 +1,4 @@
-title = "check if iam policies are properly configured"
+title = "Check if iam policies are properly configured"
 verbose_name = "E2507"
 severity = "major"
 category = "antipattern"

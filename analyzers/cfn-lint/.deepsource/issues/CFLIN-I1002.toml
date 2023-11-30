@@ -1,4 +1,4 @@
-title = "template size limit"
+title = "Template size limit"
 verbose_name = "I1002"
 severity = "major"
 category = "antipattern"

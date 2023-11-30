@@ -1,4 +1,4 @@
-title = "validation not function configuration"
+title = "Validation not function configuration"
 verbose_name = "E1023"
 severity = "major"
 category = "antipattern"

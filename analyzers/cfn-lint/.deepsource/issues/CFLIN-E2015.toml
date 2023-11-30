@@ -1,4 +1,4 @@
-title = "default value is within parameter constraints"
+title = "Default value is within parameter constraints"
 verbose_name = "E2015"
 severity = "major"
 category = "antipattern"

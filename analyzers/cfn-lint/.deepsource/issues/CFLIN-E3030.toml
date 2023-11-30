@@ -1,4 +1,4 @@
-title = "check if properties have a valid value"
+title = "Check if properties have a valid value"
 verbose_name = "E3030"
 severity = "major"
 category = "antipattern"

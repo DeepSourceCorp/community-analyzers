@@ -1,4 +1,4 @@
-title = "ref validation of value"
+title = "Ref validation of value"
 verbose_name = "E1020"
 severity = "major"
 category = "antipattern"

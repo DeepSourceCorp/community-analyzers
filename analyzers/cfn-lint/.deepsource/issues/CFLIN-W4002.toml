@@ -1,4 +1,4 @@
-title = "check for noecho references"
+title = "Check for noecho references"
 verbose_name = "W4002"
 severity = "major"
 category = "antipattern"

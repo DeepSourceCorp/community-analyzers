@@ -1,4 +1,4 @@
-title = "parameters have appropriate type"
+title = "Parameters have appropriate type"
 verbose_name = "E2002"
 severity = "major"
 category = "antipattern"

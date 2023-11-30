@@ -1,4 +1,4 @@
-title = "availability zone parameters should not be hardcoded"
+title = "Availability zone parameters should not be hardcoded"
 verbose_name = "W3010"
 severity = "major"
 category = "antipattern"

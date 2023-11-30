@@ -1,4 +1,4 @@
-title = "check minimum 90 period is met between backupplan cold and delete"
+title = "Check minimum 90 period is met between backupplan cold and delete"
 verbose_name = "E3504"
 severity = "major"
 category = "antipattern"

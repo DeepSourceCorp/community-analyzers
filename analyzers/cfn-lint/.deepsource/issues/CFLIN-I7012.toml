@@ -1,4 +1,4 @@
-title = "mapping attribute limit"
+title = "Mapping attribute limit"
 verbose_name = "I7012"
 severity = "major"
 category = "antipattern"

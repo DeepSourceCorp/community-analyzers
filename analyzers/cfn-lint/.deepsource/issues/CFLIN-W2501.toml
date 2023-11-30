@@ -1,4 +1,4 @@
-title = "check if password properties are correctly configured"
+title = "Check if password properties are correctly configured"
 verbose_name = "W2501"
 severity = "major"
 category = "antipattern"

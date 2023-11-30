@@ -1,4 +1,4 @@
-title = "validate route53 recordsets"
+title = "Validate route53 recordsets"
 verbose_name = "E3020"
 severity = "major"
 category = "antipattern"

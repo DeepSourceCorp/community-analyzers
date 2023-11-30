@@ -1,4 +1,4 @@
-title = "check resources with updatereplacepolicy/deletionpolicy have both"
+title = "Check resources with updatereplacepolicy/deletionpolicy have both"
 verbose_name = "W3011"
 severity = "major"
 category = "antipattern"

@@ -1,4 +1,4 @@
-title = "mappings have appropriate names"
+title = "Mappings have appropriate names"
 verbose_name = "E7002"
 severity = "major"
 category = "antipattern"

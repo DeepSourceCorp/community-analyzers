@@ -1,4 +1,4 @@
-title = "check if a list has duplicate values"
+title = "Check if a list has duplicate values"
 verbose_name = "E3037"
 severity = "major"
 category = "antipattern"

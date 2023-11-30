@@ -1,4 +1,4 @@
-title = "resource limit"
+title = "Resource limit"
 verbose_name = "I3010"
 severity = "major"
 category = "antipattern"

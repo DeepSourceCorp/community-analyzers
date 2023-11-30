@@ -1,4 +1,4 @@
-title = "checks for legacy instance type generations"
+title = "Checks for legacy instance type generations"
 verbose_name = "I3100"
 severity = "major"
 category = "antipattern"

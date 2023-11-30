@@ -1,4 +1,4 @@
-title = "check fargate service scheduling strategy"
+title = "Check fargate service scheduling strategy"
 verbose_name = "E3044"
 severity = "major"
 category = "antipattern"

@@ -1,4 +1,4 @@
-title = "snapstart supports the configured runtime"
+title = "Snapstart supports the configured runtime"
 verbose_name = "E2530"
 severity = "major"
 category = "antipattern"

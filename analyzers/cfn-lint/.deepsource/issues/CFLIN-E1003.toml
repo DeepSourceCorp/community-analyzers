@@ -1,4 +1,4 @@
-title = "template description limit"
+title = "Template description limit"
 verbose_name = "E1003"
 severity = "major"
 category = "antipattern"

@@ -1,4 +1,4 @@
-title = "parameters have appropriate properties"
+title = "Parameters have appropriate properties"
 verbose_name = "E2001"
 severity = "major"
 category = "antipattern"

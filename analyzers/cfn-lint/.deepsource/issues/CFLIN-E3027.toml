@@ -1,4 +1,4 @@
-title = "validate aws event scheduleexpression format"
+title = "Validate aws event scheduleexpression format"
 verbose_name = "E3027"
 severity = "major"
 category = "antipattern"

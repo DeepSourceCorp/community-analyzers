@@ -1,4 +1,4 @@
-title = "resource schema"
+title = "Resource schema"
 verbose_name = "E3000"
 severity = "major"
 category = "antipattern"

@@ -1,4 +1,4 @@
-title = "base64 validation of parameters"
+title = "Base64 validation of parameters"
 verbose_name = "E1021"
 severity = "major"
 category = "antipattern"

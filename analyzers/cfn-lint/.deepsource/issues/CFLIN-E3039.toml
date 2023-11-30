@@ -1,4 +1,4 @@
-title = "attributedefinitions / keyschemas mismatch"
+title = "Attributedefinitions / keyschemas mismatch"
 verbose_name = "E3039"
 severity = "major"
 category = "antipattern"

@@ -1,4 +1,4 @@
-title = "check obsolete dependson configuration for resources"
+title = "Check obsolete dependson configuration for resources"
 verbose_name = "W3005"
 severity = "major"
 category = "antipattern"

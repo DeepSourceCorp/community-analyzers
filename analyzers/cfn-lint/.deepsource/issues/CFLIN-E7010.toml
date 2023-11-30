@@ -1,4 +1,4 @@
-title = "mapping limit not exceeded"
+title = "Mapping limit not exceeded"
 verbose_name = "E7010"
 severity = "major"
 category = "antipattern"

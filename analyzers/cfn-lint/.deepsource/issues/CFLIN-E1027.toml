@@ -1,4 +1,4 @@
-title = "check dynamic references secure strings are in supported locations"
+title = "Check dynamic references secure strings are in supported locations"
 verbose_name = "E1027"
 severity = "major"
 category = "antipattern"

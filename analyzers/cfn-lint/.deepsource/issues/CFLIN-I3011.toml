@@ -1,4 +1,4 @@
-title = "check stateful resources have a set updatereplacepolicy/deletionpolicy"
+title = "Check stateful resources have a set updatereplacepolicy/deletionpolicy"
 verbose_name = "I3011"
 severity = "major"
 category = "antipattern"

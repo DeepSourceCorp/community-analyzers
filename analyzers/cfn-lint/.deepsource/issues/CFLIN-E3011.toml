@@ -1,4 +1,4 @@
-title = "resource name limit not exceeded"
+title = "Resource name limit not exceeded"
 verbose_name = "E3011"
 severity = "major"
 category = "antipattern"

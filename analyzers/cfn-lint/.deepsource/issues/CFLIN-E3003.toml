@@ -1,4 +1,4 @@
-title = "required resource properties are missing"
+title = "Required resource properties are missing"
 verbose_name = "E3003"
 severity = "major"
 category = "antipattern"

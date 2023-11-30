@@ -1,4 +1,4 @@
-title = "parameter value limit not exceeded"
+title = "Parameter value limit not exceeded"
 verbose_name = "E2012"
 severity = "major"
 category = "antipattern"

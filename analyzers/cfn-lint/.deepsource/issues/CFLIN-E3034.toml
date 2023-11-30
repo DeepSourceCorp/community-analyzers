@@ -1,4 +1,4 @@
-title = "check if a number is between min and max"
+title = "Check if a number is between min and max"
 verbose_name = "E3034"
 severity = "major"
 category = "antipattern"

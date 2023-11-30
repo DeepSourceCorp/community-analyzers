@@ -1,4 +1,4 @@
-title = "check if serverless resources have serverless transform"
+title = "Check if serverless resources have serverless transform"
 verbose_name = "E3038"
 severity = "major"
 category = "antipattern"

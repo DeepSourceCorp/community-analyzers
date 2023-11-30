@@ -1,4 +1,4 @@
-title = "check required properties for lambda if the deployment package is a .zip file"
+title = "Check required properties for lambda if the deployment package is a .zip file"
 verbose_name = "W2533"
 severity = "major"
 category = "antipattern"

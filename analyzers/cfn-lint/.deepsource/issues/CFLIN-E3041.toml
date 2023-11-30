@@ -1,4 +1,4 @@
-title = "recordset hostedzonename is a superdomain of name"
+title = "Recordset hostedzonename is a superdomain of name"
 verbose_name = "E3041"
 severity = "major"
 category = "antipattern"

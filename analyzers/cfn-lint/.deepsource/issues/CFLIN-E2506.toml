@@ -1,4 +1,4 @@
-title = "resource ec2 security group ingress properties"
+title = "Resource ec2 security group ingress properties"
 verbose_name = "E2506"
 severity = "major"
 category = "antipattern"

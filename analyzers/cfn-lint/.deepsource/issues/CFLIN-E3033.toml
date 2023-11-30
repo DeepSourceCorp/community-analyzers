@@ -1,4 +1,4 @@
-title = "check if a string has between min and max number of values specified"
+title = "Check if a string has between min and max number of values specified"
 verbose_name = "E3033"
 severity = "major"
 category = "antipattern"

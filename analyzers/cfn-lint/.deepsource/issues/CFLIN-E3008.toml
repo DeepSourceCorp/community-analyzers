@@ -1,4 +1,4 @@
-title = "check values of properties for valid refs and getatts"
+title = "Check values of properties for valid refs and getatts"
 verbose_name = "E3008"
 severity = "major"
 category = "antipattern"

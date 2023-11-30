@@ -1,4 +1,4 @@
-title = "importvalue validation of parameters"
+title = "Importvalue validation of parameters"
 verbose_name = "E1016"
 severity = "major"
 category = "antipattern"

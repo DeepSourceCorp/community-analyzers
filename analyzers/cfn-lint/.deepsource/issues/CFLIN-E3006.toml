@@ -1,4 +1,4 @@
-title = "resources have appropriate names"
+title = "Resources have appropriate names"
 verbose_name = "E3006"
 severity = "major"
 category = "antipattern"

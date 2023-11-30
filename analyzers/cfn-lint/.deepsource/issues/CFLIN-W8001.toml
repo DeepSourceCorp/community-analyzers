@@ -1,4 +1,4 @@
-title = "check if conditions are used"
+title = "Check if conditions are used"
 verbose_name = "W8001"
 severity = "major"
 category = "antipattern"

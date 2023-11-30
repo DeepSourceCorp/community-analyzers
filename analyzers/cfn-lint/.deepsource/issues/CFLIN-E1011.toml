@@ -1,4 +1,4 @@
-title = "findinmap validation of configuration"
+title = "Findinmap validation of configuration"
 verbose_name = "E1011"
 severity = "major"
 category = "antipattern"

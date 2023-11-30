@@ -1,4 +1,4 @@
-title = "mapping limit"
+title = "Mapping limit"
 verbose_name = "I7010"
 severity = "major"
 category = "antipattern"

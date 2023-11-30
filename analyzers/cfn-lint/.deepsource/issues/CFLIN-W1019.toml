@@ -1,4 +1,4 @@
-title = "sub validation of parameters"
+title = "Sub validation of parameters"
 verbose_name = "W1019"
 severity = "major"
 category = "antipattern"

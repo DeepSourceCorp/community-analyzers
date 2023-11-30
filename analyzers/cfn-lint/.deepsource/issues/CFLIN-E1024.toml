@@ -1,4 +1,4 @@
-title = "cidr validation of parameters"
+title = "Cidr validation of parameters"
 verbose_name = "E1024"
 severity = "major"
 category = "antipattern"

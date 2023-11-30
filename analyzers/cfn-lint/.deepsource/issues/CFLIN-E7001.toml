@@ -1,4 +1,4 @@
-title = "mappings are appropriately configured"
+title = "Mappings are appropriately configured"
 verbose_name = "E7001"
 severity = "major"
 category = "antipattern"

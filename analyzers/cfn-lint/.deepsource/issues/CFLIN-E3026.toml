@@ -1,4 +1,4 @@
-title = "check elastic cache redis cluster settings"
+title = "Check elastic cache redis cluster settings"
 verbose_name = "E3026"
 severity = "major"
 category = "antipattern"

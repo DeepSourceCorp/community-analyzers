@@ -1,4 +1,4 @@
-title = "check updatereplacepolicy values for resources"
+title = "Check updatereplacepolicy values for resources"
 verbose_name = "E3036"
 severity = "major"
 category = "antipattern"

@@ -1,4 +1,4 @@
-title = "metadata interface parameters exist"
+title = "Metadata interface parameters exist"
 verbose_name = "W4001"
 severity = "major"
 category = "antipattern"

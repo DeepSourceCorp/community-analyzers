@@ -1,4 +1,4 @@
-title = "check if parameters are used"
+title = "Check if parameters are used"
 verbose_name = "W2001"
 severity = "major"
 category = "antipattern"
