@@ -1,5 +1,6 @@
 import argparse
 import json
+import logging
 import os
 import os.path
 
@@ -9,8 +10,17 @@ import sentry
 
 sentry.initialize()
 
+logger = logging.getLogger("run_community_analyzer")
+logging.basicConfig(
+    format="%(asctime)s %(levelname)-8s [%(filename)s:%(lineno)d] %(message)s",
+    datefmt="%Y-%m-%d:%H:%M:%S",
+    level=logging.DEBUG,
+)
+
 
 class CommunityAnalyzerArgs:
+    """Arguments for the community analyzer."""
+
     analyzer: str
 
 
@@ -34,6 +44,7 @@ def get_files_to_analyze() -> set[str]:
     with open(analysis_config_path) as file:
         analysis_config = json.load(file)
 
+    logger.info("Files in analysis config: %s", analysis_config["files"])
     return set(analysis_config["files"])
 
 
