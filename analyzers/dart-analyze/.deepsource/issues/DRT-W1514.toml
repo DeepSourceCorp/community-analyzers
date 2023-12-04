@@ -8,7 +8,7 @@ description = '''
 The analyzer produces this diagnostic when an element in a constant list
 literal isn't a constant value. The list literal can be constant either
 explicitly (because it's prefixed by the `const` keyword) or implicitly
-(because it appears in a [constant context][]).
+(because it appears in a [constant context](https://dart.dev/resources/glossary#constant-context)).
 
 #### Example
 

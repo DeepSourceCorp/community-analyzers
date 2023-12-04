@@ -9,8 +9,8 @@ The analyzer produces this diagnostic when the type argument for the class
 `Array` isn't one of the valid types: either a native integer, `Float`,
 `Double`, `Pointer`, or subtype of `Struct`, `Union`, or
 `AbiSpecificInteger`.
-
-For more information about FFI, see [C interop using dart:ffi][ffi].
+[C interop using dart:ffi](https://dart.dev/interop/c-interop)
+For more information about FFI, see [C interop using dart:ffi](https://dart.dev/interop/c-interop).
 
 #### Example
 

@@ -5,8 +5,8 @@ severity = "major"
 category = "bug-risk"
 verbose_name = "refutable_pattern_in_irrefutable_context"
 description = '''
-The analyzer produces this diagnostic when a [refutable pattern][] is used
-in a context where only an [irrefutable pattern][] is allowed.
+The analyzer produces this diagnostic when a [refutable pattern](https://dart.dev/resources/glossary#refutable-pattern) is used
+in a context where only an [irrefutable pattern](https://dart.dev/resources/glossary#irrefutable-pattern) is allowed.
 
 The refutable patterns that are disallowed are:
 - logical-or

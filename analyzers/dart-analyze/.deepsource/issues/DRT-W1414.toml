@@ -5,8 +5,8 @@ severity = "major"
 category = "bug-risk"
 verbose_name = "invalid_export_of_internal_element"
 description = '''
-The analyzer produces this diagnostic when a [public library][] exports a
-declaration that is marked with the [`internal`][meta-internal]
+The analyzer produces this diagnostic when a [public library](https://dart.dev/resources/glossary#public-library) exports a
+declaration that is marked with the [`internal`](https://pub.dev/documentation/meta/latest/meta/internal-constant.html)
 annotation.
 
 #### Example
@@ -19,7 +19,7 @@ import 'package:meta/meta.dart';
 @internal class One {}
 ```
 
-The following code, when found in a [public library][] produces this
+The following code, when found in a [public library](https://dart.dev/resources/glossary#public-library) produces this
 diagnostic because the `export` directive is exporting a name that is only
 intended to be used internally:
 

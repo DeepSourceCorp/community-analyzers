@@ -6,7 +6,7 @@ category = "bug-risk"
 verbose_name = "missing_default_value_for_parameter"
 description = '''
 The analyzer produces this diagnostic when an optional parameter, whether
-positional or named, has a [potentially non-nullable][] type and doesn't
+positional or named, has a [potentially non-nullable](https://dart.dev/resources/glossary#potentially-non-nullable) type and doesn't
 specify a default value. Optional parameters that have no explicit default
 value have an implicit default value of `null`. If the type of the
 parameter doesn't allow the parameter to have a value of `null`, then the

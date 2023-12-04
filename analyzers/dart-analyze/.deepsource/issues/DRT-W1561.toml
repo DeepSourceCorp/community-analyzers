@@ -30,7 +30,7 @@ part 'package:a/part.dart';
 If the library should be using a different file as a part, then change the
 URI in the part directive to be the URI of the other file.
 
-If the [part file][] should be a part of this library, then update the URI
+If the [part file](https://dart.dev/resources/glossary#part-file) should be a part of this library, then update the URI
 (or library name) in the part-of directive to be the URI (or name) of the
 correct library.
 '''

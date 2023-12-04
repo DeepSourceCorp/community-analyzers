@@ -4,12 +4,12 @@ severity = "major"
 category = "bug-risk"
 verbose_name = "import_of_non_library"
 description = '''
-The analyzer produces this diagnostic when a [part file][] is imported
+The analyzer produces this diagnostic when a [part file](https://dart.dev/resources/glossary#part-file) is imported
 into a library.
 
 #### Example
 
-Given a [part file][] named `part.dart` containing the following:
+Given a [part file](https://dart.dev/resources/glossary#part-file) named `part.dart` containing the following:
 
 ```dart
 part of lib;
@@ -26,7 +26,7 @@ import 'part.dart';
 
 #### Common fixes
 
-Import the library that contains the [part file][] rather than the
-[part file][] itself.
+Import the library that contains the [part file](https://dart.dev/resources/glossary#part-file) rather than the
+[part file](https://dart.dev/resources/glossary#part-file) itself.
 
 '''

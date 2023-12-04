@@ -9,7 +9,7 @@ The analyzer produces this diagnostic when there is a method declaration
 for which one or more types needs to be inferred, and those types can't be
 inferred because none of the overridden methods has a function type that is
 a supertype of all the other overridden methods, as specified by
-[override inference][].
+[override inference](https://dart.dev/resources/glossary#override-inference).
 
 #### Example
 

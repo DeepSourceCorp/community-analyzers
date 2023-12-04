@@ -5,7 +5,7 @@ severity = "major"
 category = "bug-risk"
 verbose_name = "definitely_unassigned_late_local_variable"
 description = '''
-The analyzer produces this diagnostic when [definite assignment][] analysis
+The analyzer produces this diagnostic when [C interop using dart:ffi](https://dart.dev/interop/c-interop) analysis
 shows that a local variable that's marked as `late` is read before being
 assigned.
 

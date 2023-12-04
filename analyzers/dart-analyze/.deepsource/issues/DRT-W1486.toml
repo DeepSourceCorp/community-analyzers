@@ -4,7 +4,7 @@ severity = "major"
 category = "bug-risk"
 verbose_name = "mixin_application_no_concrete_super_invoked_member"
 description = '''
-The analyzer produces this diagnostic when a [mixin application][] contains
+The analyzer produces this diagnostic when a [mixin application](https://dart.dev/resources/glossary#mixin-application) contains
 an invocation of a member from its superclass, and there's no concrete
 member of that name in the mixin application's superclass.
 
@@ -12,7 +12,7 @@ member of that name in the mixin application's superclass.
 
 The following code produces this diagnostic because the mixin `M` contains
 the invocation `super.m()`, and the class `A`, which is the superclass of
-the [mixin application][] `A+M`, doesn't define a concrete implementation
+the [mixin application](https://dart.dev/resources/glossary#mixin-application) `A+M`, doesn't define a concrete implementation
 of `m`:
 
 ```dart

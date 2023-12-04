@@ -6,7 +6,7 @@ category = "bug-risk"
 verbose_name = "non_const_call_to_literal_constructor"
 description = '''
 The analyzer produces this diagnostic when a constructor that has the
-[`literal`][meta-literal] annotation is invoked without using the `const`
+[`literal`](https://pub.dev/documentation/meta/latest/meta/literal-constant.html) annotation is invoked without using the `const`
 keyword, but all of the arguments to the constructor are constants. The
 annotation indicates that the constructor should be used to create a
 constant value whenever possible.

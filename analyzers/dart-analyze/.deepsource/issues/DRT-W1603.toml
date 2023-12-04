@@ -6,7 +6,7 @@ category = "bug-risk"
 verbose_name = "return_of_do_not_store"
 description = '''
 The analyzer produces this diagnostic when a value that is annotated with
-the [`doNotStore`][meta-doNotStore] annotation is returned from a method,
+the [`doNotStore`](https://pub.dev/documentation/meta/latest/meta/doNotStore-constant.html) annotation is returned from a method,
 getter, or function that doesn't have the same annotation.
 
 #### Example
@@ -27,7 +27,7 @@ int g() => f();
 #### Common fixes
 
 If the value that shouldn't be stored is the correct value to return, then
-mark the function with the [`doNotStore`][meta-doNotStore] annotation:
+mark the function with the [`doNotStore`](https://pub.dev/documentation/meta/latest/meta/doNotStore-constant.html) annotation:
 
 ```dart
 import 'package:meta/meta.dart';

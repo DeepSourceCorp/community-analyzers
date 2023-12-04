@@ -7,12 +7,12 @@ verbose_name = "part_of_unnamed_library"
 description = '''
 The analyzer produces this diagnostic when a library that doesn't have a
 `library` directive (and hence has no name) contains a `part` directive
-and the `part of` directive in the [part file][] uses a name to specify
+and the `part of` directive in the [part file](https://dart.dev/resources/glossary#part-file) uses a name to specify
 the library that it's a part of.
 
 #### Example
 
-Given a [part file][] named `part_file.dart` containing the following
+Given a [part file](https://dart.dev/resources/glossary#part-file) named `part_file.dart` containing the following
 code:
 
 ```dart
@@ -20,7 +20,7 @@ part of lib;
 ```
 
 The following code produces this diagnostic because the library including
-the [part file][] doesn't have a name even though the [part file][] uses a
+the [part file](https://dart.dev/resources/glossary#part-file) doesn't have a name even though the [part file](https://dart.dev/resources/glossary#part-file) uses a
 name to specify which library it's a part of:
 
 ```dart
@@ -29,7 +29,7 @@ part 'part_file.dart';
 
 #### Common fixes
 
-Change the `part of` directive in the [part file][] to specify its library
+Change the `part of` directive in the [part file](https://dart.dev/resources/glossary#part-file) to specify its library
 by URI:
 
 ```dart

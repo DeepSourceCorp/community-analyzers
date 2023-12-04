@@ -10,7 +10,7 @@ other than `Struct` or `Union`, or implements or mixes in any FFI class.
 `Struct` and `Union` are the only FFI classes that can be subtyped, and
 then only by extending them.
 
-For more information about FFI, see [C interop using dart:ffi][ffi].
+For more information about FFI, see [C interop using dart:ffi](https://dart.dev/interop/c-interop).
 
 #### Example
 

@@ -6,12 +6,12 @@ category = "bug-risk"
 verbose_name = "invalid_factory_method_decl"
 description = '''
 The analyzer produces this diagnostic when a method that is annotated with
-the [`factory`][meta-factory] annotation has a return type of `void`.
+the [`factory`](https://pub.dev/documentation/meta/latest/meta/factory-constant.html) annotation has a return type of `void`.
 
 #### Example
 
 The following code produces this diagnostic because the method `createC`
-is annotated with the [`factory`][meta-factory] annotation but doesn't
+is annotated with the [`factory`](https://pub.dev/documentation/meta/latest/meta/factory-constant.html) annotation but doesn't
 return any value:
 
 ```dart

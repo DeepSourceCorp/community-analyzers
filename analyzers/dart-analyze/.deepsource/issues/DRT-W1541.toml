@@ -6,7 +6,7 @@ verbose_name = "not_initialized_non_nullable_instance_field"
 description = '''
 The analyzer produces this diagnostic when a field is declared and has all
 these characteristics:
-- Has a type that's [potentially non-nullable][]
+- Has a type that's [potentially non-nullable](https://dart.dev/resources/glossary#potentially-non-nullable)
 - Doesn't have an initializer
 - Isn't marked as `late`
 

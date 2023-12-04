@@ -5,7 +5,7 @@ category = "bug-risk"
 verbose_name = "undefined_referenced_parameter"
 description = '''
 The analyzer produces this diagnostic when an annotation of the form
-[`UseResult.unless(parameterDefined: parameterName)`][meta-UseResult]
+[`UseResult.unless(parameterDefined: parameterName)`](https://pub.dev/documentation/meta/latest/meta/UseResult-class.html)
 specifies a parameter name that isn't defined by the annotated function.
 
 #### Example

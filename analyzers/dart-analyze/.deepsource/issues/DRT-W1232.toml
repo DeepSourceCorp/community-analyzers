@@ -7,7 +7,7 @@ verbose_name = "assignment_of_do_not_store"
 description = '''
 The analyzer produces this diagnostic when the value of a function
 (including methods and getters) that is explicitly or implicitly marked by
-the [`doNotStore`][meta-doNotStore] annotation is stored in either a field
+the [`doNotStore`](https://pub.dev/documentation/meta/latest/meta/doNotStore-constant.html) annotation is stored in either a field
 or top-level variable.
 
 #### Example

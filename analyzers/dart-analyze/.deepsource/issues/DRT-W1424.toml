@@ -6,14 +6,14 @@ category = "bug-risk"
 verbose_name = "invalid_internal_annotation"
 description = '''
 The analyzer produces this diagnostic when a declaration is annotated with
-the [`internal`][meta-internal] annotation and that declaration is either
-in a [public library][] or has a private name.
+the [`internal`](https://pub.dev/documentation/meta/latest/meta/internal-constant.html) annotation and that declaration is either
+in a [public library](https://dart.dev/resources/glossary#public-library) or has a private name.
 
 #### Example
 
-The following code, when in a [public library][], produces this diagnostic
-because the [`internal`][meta-internal] annotation can't be applied to
-declarations in a [public library][]:
+The following code, when in a [public library](https://dart.dev/resources/glossary#public-library), produces this diagnostic
+because the [`internal`](https://pub.dev/documentation/meta/latest/meta/internal-constant.html) annotation can't be applied to
+declarations in a [public library](https://dart.dev/resources/glossary#public-library):
 
 ```dart
 import 'package:meta/meta.dart';
@@ -23,7 +23,7 @@ class C {}
 ```
 
 The following code, whether in a public or internal library, produces this
-diagnostic because the [`internal`][meta-internal] annotation can't be
+diagnostic because the [`internal`](https://pub.dev/documentation/meta/latest/meta/internal-constant.html) annotation can't be
 applied to declarations with private names:
 
 ```dart

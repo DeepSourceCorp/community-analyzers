@@ -5,9 +5,9 @@ severity = "major"
 category = "bug-risk"
 verbose_name = "invalid_export_of_internal_element_indirectly"
 description = '''
-The analyzer produces this diagnostic when a [public library][] exports a
+The analyzer produces this diagnostic when a [public library](https://dart.dev/resources/glossary#public-library) exports a
 top-level function  with a return type or at least one parameter type that
-is marked with the [`internal`][meta-internal] annotation.
+is marked with the [`internal`](https://pub.dev/documentation/meta/latest/meta/internal-constant.html) annotation.
 
 #### Example
 

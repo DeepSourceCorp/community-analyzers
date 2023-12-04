@@ -5,7 +5,7 @@ severity = "major"
 category = "bug-risk"
 verbose_name = "invalid_literal_annotation"
 description = '''
-The analyzer produces this diagnostic when the [`literal`][meta-literal]
+The analyzer produces this diagnostic when the [`literal`](https://pub.dev/documentation/meta/latest/meta/literal-constant.html)
 annotation is applied to anything other than a const constructor.
 
 #### Examples

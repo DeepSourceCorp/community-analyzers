@@ -6,7 +6,7 @@ category = "bug-risk"
 verbose_name = "invalid_factory_method_impl"
 description = '''
 The analyzer produces this diagnostic when a method that is annotated with
-the [`factory`][meta-factory] annotation doesn't return a newly allocated
+the [`factory`](https://pub.dev/documentation/meta/latest/meta/factory-constant.html) annotation doesn't return a newly allocated
 object.
 
 #### Example

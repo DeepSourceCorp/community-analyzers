@@ -5,7 +5,7 @@ category = "bug-risk"
 verbose_name = "unchecked_use_of_nullable_value"
 description = '''
 The analyzer produces this diagnostic when an expression whose type is
-[potentially non-nullable][] is dereferenced without first verifying that
+[potentially non-nullable](https://dart.dev/resources/glossary#potentially-non-nullable) is dereferenced without first verifying that
 the value isn't `null`.
 
 #### Example
