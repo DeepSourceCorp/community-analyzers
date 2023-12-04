@@ -4,8 +4,8 @@ from contextlib import contextmanager
 from typing import Any, Iterator
 
 
-def extract_filepaths_from_sarif(sarif: dict[str, Any]) -> list[str]:
-    """Extracts filepaths from a SARIF file."""
+def extract_filepaths_from_sarif(code_path: str, sarif: dict[str, Any]) -> list[str]:
+    """Extracts filepaths from a SARIF file, and prefix it with code path."""
     filepaths = []
     for run in sarif["runs"]:
         for result in run["results"]:
@@ -13,18 +13,18 @@ def extract_filepaths_from_sarif(sarif: dict[str, Any]) -> list[str]:
                 "uri"
             ]
 
-            filepaths.append(filepath)
+            filepaths.append(os.path.join(code_path, filepath))
 
     return filepaths
 
 
 def extract_filepaths_from_deepsource_json(
-    deepsource_json: dict[str, Any]
+    code_path: str, deepsource_json: dict[str, Any]
 ) -> list[str]:
-    """Extracts filepaths from a DeepSource JSON file."""
+    """Extracts filepaths from a DeepSource JSON file, and prefix it with code path."""
     filepaths = []
     for issue in deepsource_json["issues"]:
-        filepaths.append(issue["location"]["path"])
+        filepaths.append(os.path.join(code_path, issue["location"]["path"]))
 
     return filepaths
 

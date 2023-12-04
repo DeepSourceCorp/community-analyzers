@@ -3,10 +3,18 @@ from __future__ import annotations
 
 import hashlib
 import json
+import logging
 import os.path
 from typing import Any, Sequence, TypedDict, Union
 
 import sentry
+
+logger = logging.getLogger(__name__)
+logging.basicConfig(
+    format="%(asctime)s %(levelname)-8s [%(filename)s:%(lineno)d] %(message)s",
+    datefmt="%Y-%m-%d:%H:%M:%S",
+    level=logging.DEBUG,
+)
 
 
 class Issue(TypedDict):
@@ -16,16 +24,22 @@ class Issue(TypedDict):
 
 
 class IssueLocation(TypedDict):
+    """Location of an issue in a file."""
+
     path: str
     position: IssuePosition
 
 
 class IssuePosition(TypedDict):
+    """Position of an issue in a file."""
+
     begin: LineColumn
     end: LineColumn
 
 
 class LineColumn(TypedDict):
+    """Line and column of an issue in a file."""
+
     line: int
     column: int
 
@@ -42,8 +56,9 @@ def parse(
         issue_map = {}
 
     deepsource_issues: list[Issue] = []
-
+    total_report_issues = 0
     for run in sarif_data["runs"]:
+        total_report_issues += len(run["results"])
         for issue in run["results"]:
             assert len(issue["locations"]) == 1
             location = issue["locations"][0]["physicalLocation"]
@@ -103,6 +118,13 @@ def parse(
                 ),
             )
             deepsource_issues.append(deepsource_issue)
+
+    logger.info(
+        "Total issues in SARIF report: %s. \n"
+        "Issues extracted for the run in files sent for analysis: %s",
+        total_report_issues,
+        len(deepsource_issues),
+    )
 
     return deepsource_issues
 
