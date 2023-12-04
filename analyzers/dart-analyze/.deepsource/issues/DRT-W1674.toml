@@ -1,5 +1,4 @@
-
-title = "The library '{0}' doesn't export a member with the shown name '{1}'"
+title = "Invalid name in show combinator for imported library"
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -29,4 +28,5 @@ import 'dart:math' show min;
 
 var x = min(0, 1);
 ```
+
 '''

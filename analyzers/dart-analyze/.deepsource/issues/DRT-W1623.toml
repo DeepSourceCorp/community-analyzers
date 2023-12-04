@@ -1,5 +1,5 @@
 
-title = "The mixin '{0}' must be 'base' because the supertype '{1}' is 'base'.  The mixin '{0}' must be 'base' because the supertype '{1}' is 'final'.  The type '{0}' must be 'base', 'final' or 'sealed' because the supertype '{1}' is 'base'.  The type '{0}' must be 'base', 'final' or 'sealed' because the supertype '{1}' is 'final'"
+title = "Subtype of `base` or `final` is not `base`, `final` or `sealed`."
 weight = 70
 severity = "major"
 category = "bug-risk"

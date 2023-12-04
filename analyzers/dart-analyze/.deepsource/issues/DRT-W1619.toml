@@ -1,5 +1,5 @@
 
-title = "The element type '{0}' can't be assigned to the set type '{1}'"
+title = "Element can't be assigned to the set."
 weight = 70
 severity = "major"
 category = "bug-risk"

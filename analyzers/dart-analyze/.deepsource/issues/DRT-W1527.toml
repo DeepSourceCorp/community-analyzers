@@ -1,5 +1,5 @@
 
-title = "The generative constructor '{0}' is expected, but a factory was found"
+title = "Non generative constructor in initializer list."
 weight = 70
 severity = "major"
 category = "bug-risk"

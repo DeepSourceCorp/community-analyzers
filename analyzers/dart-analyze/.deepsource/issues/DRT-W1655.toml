@@ -1,5 +1,5 @@
 
-title = "Undefined class '{0}'"
+title = "Class is undefined."
 weight = 70
 severity = "major"
 category = "bug-risk"

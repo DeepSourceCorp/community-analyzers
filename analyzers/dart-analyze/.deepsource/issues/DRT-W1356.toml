@@ -1,5 +1,4 @@
-
-title = "Too many positional arguments: {0} expected, but {1} found"
+title = "Too many positional arguments for method with named parameters."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -43,4 +42,5 @@ void g() {
   f(1, 2);
 }
 ```
+
 '''

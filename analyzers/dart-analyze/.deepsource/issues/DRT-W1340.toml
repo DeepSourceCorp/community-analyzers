@@ -1,5 +1,4 @@
-
-title = "The exported library '{0}' can't have a part-of directive"
+title = "Invalid export directive for a part file."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -29,4 +28,5 @@ export 'part.dart';
 
 Either remove the export directive, or change the URI to be the URI of the
 library containing the part.
+
 '''

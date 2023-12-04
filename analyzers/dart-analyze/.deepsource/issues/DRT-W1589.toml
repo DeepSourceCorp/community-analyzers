@@ -1,5 +1,4 @@
-
-title = "The redirected constructor '{0}' has incompatible parameters with '{1}'"
+title = "Incompatible parameters in redirected constructors."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -69,4 +68,5 @@ class B implements A {
   B(int x);
 }
 ```
+
 '''

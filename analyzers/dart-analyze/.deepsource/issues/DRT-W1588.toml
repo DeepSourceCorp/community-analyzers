@@ -1,5 +1,5 @@
 
-title = "The redirecting constructor '{0}' can't redirect to a constructor of the abstract class '{1}'"
+title = "Redirect to abstract class constructor."
 weight = 70
 severity = "major"
 category = "bug-risk"

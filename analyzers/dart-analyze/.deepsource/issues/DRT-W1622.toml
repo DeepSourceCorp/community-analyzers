@@ -1,5 +1,4 @@
-
-title = "Instance member '{0}' can't be accessed using static access"
+title = "Invalid use of static access to instance member."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -51,4 +50,5 @@ class C {
 
 int f(C c) => c.b;
 ```
+
 '''

@@ -1,5 +1,4 @@
-
-title = "This function has a return type of '{0}', but doesn't end with a return statement"
+title = "Implicit return at the end of function or method."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -26,4 +25,5 @@ int f(int x) {
 
 Add a `return` statement that makes the return value explicit, even if
 `null` is the appropriate value.
+
 '''

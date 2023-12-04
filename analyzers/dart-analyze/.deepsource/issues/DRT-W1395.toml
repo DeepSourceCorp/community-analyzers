@@ -1,5 +1,4 @@
-
-title = "The variable '{0}' has a different type and/or finality in this branch of the logical-or pattern"
+title = "Inconsistent type or finality of pattern variable in logical-or."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -75,4 +74,5 @@ void f(Object? x) {
   }
 }
 ```
+
 '''

@@ -1,5 +1,4 @@
-
-title = "The variable '{0}' is already defined in this pattern"
+title = "Duplicate variable declaration in logical-and pattern."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -45,4 +44,5 @@ void f((int, int) r) {
   }
 }
 ```
+
 '''

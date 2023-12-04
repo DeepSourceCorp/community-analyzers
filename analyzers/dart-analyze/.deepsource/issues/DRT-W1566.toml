@@ -1,5 +1,4 @@
-
-title = "The directory '{0}' doesn't contain a pubspec"
+title = "Missing 'pubspec.yaml' file in directory."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -31,4 +30,5 @@ name: local_package
 ```
 
 If the path is wrong, then replace it with the correct path.
+
 '''

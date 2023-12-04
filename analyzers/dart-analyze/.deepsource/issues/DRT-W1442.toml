@@ -1,5 +1,4 @@
-
-title = "Can't have modifier '{0}' in an extension"
+title = "Invalid use of `covariant` in extension."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -30,4 +29,5 @@ extension E on String {
   void a(int i) {}
 }
 ```
+
 '''

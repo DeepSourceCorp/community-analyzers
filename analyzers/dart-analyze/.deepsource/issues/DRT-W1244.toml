@@ -1,5 +1,4 @@
-
-title = "This function has a nullable return type of '{0}', but ends without returning a value"
+title = "Missing return statement for nullable return type."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -36,4 +35,5 @@ String? f() {
   return '';
 }
 ```
+
 '''

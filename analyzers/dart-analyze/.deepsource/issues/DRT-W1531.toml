@@ -1,5 +1,4 @@
-
-title = "The type '{1}' isn't a valid type argument for '{0}'. The type argument must be a native integer, 'Float', 'Double', 'Pointer', or subtype of 'Struct', 'Union', or 'AbiSpecificInteger'"
+title = "Invalid type argument for class `Array`."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -38,4 +37,5 @@ final class C extends Struct {
   external Array<Uint8> a0;
 }
 ```
+
 '''

@@ -1,5 +1,4 @@
-
-title = "The name '{0}' is defined in the libraries '{1}' and '{2}'"
+title = "Multiple libraries export the same name."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -46,4 +45,5 @@ except one of the directives:
 export 'a.dart';
 export 'b.dart' hide C;
 ```
+
 '''

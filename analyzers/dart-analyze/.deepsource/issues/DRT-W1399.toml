@@ -1,5 +1,4 @@
-
-title = "The static {1} '{0}' can't be accessed through an instance"
+title = "Invalid access of static member through instance."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -36,4 +35,5 @@ class C {
   static int zero = 0;
 }
 ```
+
 '''

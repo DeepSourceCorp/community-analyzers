@@ -1,5 +1,4 @@
-
-title = "Unused import: '{0}'"
+title = "Remove unused import."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -26,4 +25,5 @@ If the import isn't needed, then remove it.
 
 If some of the imported names are intended to be used, then add the missing
 code.
+
 '''

@@ -1,5 +1,4 @@
-
-title = "Expected this library to be part of '{0}', not '{1}'"
+title = "Avoid including a file from a different library as a part of itself."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -33,4 +32,5 @@ URI in the part directive to be the URI of the other file.
 If the [part file](https://dart.dev/resources/glossary#part-file) should be a part of this library, then update the URI
 (or library name) in the part-of directive to be the URI (or name) of the
 correct library.
+
 '''

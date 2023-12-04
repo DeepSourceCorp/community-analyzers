@@ -1,5 +1,4 @@
-
-title = "Can't reference label '{0}' declared in an outer method"
+title = "Invalid label reference in outer method."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -61,4 +60,5 @@ void f() {
   }
 }
 ```
+
 '''

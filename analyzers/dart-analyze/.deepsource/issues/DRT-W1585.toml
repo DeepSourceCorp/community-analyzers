@@ -1,5 +1,4 @@
-
-title = "'{0}' can't be a superinterface of itself: {1}.  '{0}' can't extend itself.  '{0}' can't implement itself.  '{0}' can't use itself as a mixin.  '{0}' can't use itself as a superclass constraint"
+title = "Circular type hierarchy."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -22,4 +21,5 @@ class B implements A {}
 #### Common fixes
 
 Change the type hierarchy so that there's no circularity.
+
 '''

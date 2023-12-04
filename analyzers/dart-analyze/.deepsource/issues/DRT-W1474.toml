@@ -1,5 +1,4 @@
-
-title = "The method {0} must have an exceptional return value (the second argument) when the return type of the function is neither 'void', 'Handle', nor 'Pointer'"
+title = "Missing exceptional return value for method invocation in `dart:ffi`."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -42,4 +41,5 @@ void g() {
   Pointer.fromFunction<Int8 Function(Int8)>(f, 0);
 }
 ```
+
 '''

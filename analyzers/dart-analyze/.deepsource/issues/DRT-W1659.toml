@@ -1,5 +1,5 @@
 
-title = "The getter '{0}' isn't defined for the extension '{1}'"
+title = "Undefined getter for extension."
 weight = 70
 severity = "major"
 category = "bug-risk"

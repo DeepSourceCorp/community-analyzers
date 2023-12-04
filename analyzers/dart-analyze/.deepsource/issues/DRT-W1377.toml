@@ -1,5 +1,4 @@
-
-title = "The class '{0}' can't extend 'Struct' or 'Union' because '{0}' is generic"
+title = "Generic subclasses of 'Struct' or 'Union' are not allowed."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -34,4 +33,5 @@ final class S extends Struct {
   external Pointer notEmpty;
 }
 ```
+
 '''

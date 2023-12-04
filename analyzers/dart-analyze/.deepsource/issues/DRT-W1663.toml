@@ -1,5 +1,4 @@
-
-title = "The function '{0}' isn't defined"
+title = "Undefined function."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -38,4 +37,5 @@ void main() {
 
 If the function is defined but isn't visible, then you probably need to add
 an import or re-arrange your code to make the function visible.
+
 '''

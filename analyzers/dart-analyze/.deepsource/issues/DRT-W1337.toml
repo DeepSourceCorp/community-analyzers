@@ -1,5 +1,4 @@
-
-title = "Map literals require two type arguments or none, but {0} found"
+title = "Invalid number of type arguments in map literal."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -24,4 +23,5 @@ Remove all except two of the type arguments:
 ```dart
 var m = <int, String>{};
 ```
+
 '''

@@ -1,5 +1,4 @@
-
-title = "'{0}' can't be used to name both a constructor and a static field in this class.  '{0}' can't be used to name both a constructor and a static getter in this class.  '{0}' can't be used to name both a constructor and a static method in this class.  '{0}' can't be used to name both a constructor and a static setter in this class"
+title = "Conflicting names for named constructor and static member."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -35,4 +34,5 @@ class C {
 #### Common fixes
 
 Rename either the member or the constructor.
+
 '''
