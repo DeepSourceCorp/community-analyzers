@@ -30,9 +30,10 @@ def parse_single_artifact(
     """
     Run community analyzer on a single artifact and return the deepsource result object.
     """
+    code_path = "/code"
     artifact_path = make_artifact(report_path)
     artifact_filepaths = extract_filepaths_from_sarif(
-        json.loads(json.load(open(artifact_path))["data"])
+        code_path, json.loads(json.load(open(artifact_path))["data"])
     )
     toolbox_path = tempfile.gettempdir()
     os.environ["ARTIFACTS_PATH"] = artifact_path

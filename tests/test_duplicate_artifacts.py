@@ -29,6 +29,7 @@ def patch_env_values(
 def test_duplicate_artifacts(tmp_path: pathlib.Path) -> None:
     """Make sure results are not duplicated when same artifacts are reported more than"""
     # create a temporary directory to store duplicate artifacts
+    code_path = "/code"
     toolbox_path = tmp_path / "toolbox"
     artifacts_dir = tmp_path / "artifacts"
     toolbox_path.mkdir()
@@ -44,7 +45,7 @@ def test_duplicate_artifacts(tmp_path: pathlib.Path) -> None:
     with open(artifact_path) as fp:
         data = json.load(fp)
         sarif_data = json.loads(data["data"])
-        modified_filepath = extract_filepaths_from_sarif(sarif_data)
+        modified_filepath = extract_filepaths_from_sarif(code_path, sarif_data)
 
     temp_analysis_config_path = os.path.join(toolbox_path, "analysis_config.json")
 
