@@ -19,12 +19,12 @@ def extract_filepaths_from_sarif(sarif: dict[str, Any]) -> list[str]:
 
 
 def extract_filepaths_from_deepsource_json(
-    deepsource_json: dict[str, Any]
+    code_path: str, deepsource_json: dict[str, Any]
 ) -> list[str]:
     """Extracts filepaths from a DeepSource JSON file."""
     filepaths = []
     for issue in deepsource_json["issues"]:
-        filepaths.append(issue["location"]["path"])
+        filepaths.append(os.path.join(code_path, issue["location"]["path"]))
 
     return filepaths
 

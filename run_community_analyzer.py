@@ -30,7 +30,7 @@ def get_issue_map(analyzer_name: str) -> str:
     return os.path.join(analyzers_dir, analyzer_name, "utils", "issue_map.json")
 
 
-def get_files_to_analyze() -> set[str]:
+def get_files_to_analyze(code_path: str) -> set[str]:
     """
     Read the analysis config to get the list of files to analyze.
     Always raise issues only in these files.
@@ -45,11 +45,15 @@ def get_files_to_analyze() -> set[str]:
         analysis_config = json.load(file)
 
     logger.info("Files in analysis config: %s", analysis_config["files"])
-    return set(analysis_config["files"])
+    return {
+        os.path.relpath(analysis_file, code_path)
+        for analysis_file in analysis_config["files"]
+    }
 
 
 def main(argv: list[str] | None = None) -> None:
     """Runs the CLI."""
+    code_path = os.getenv("CODE_PATH", "/code")
     toolbox_path = os.getenv("TOOLBOX_PATH", "/toolbox")
     output_path = os.path.join(toolbox_path, "analysis_results.json")
     artifacts_path = os.getenv("ARTIFACTS_PATH", "/artifacts")
@@ -64,7 +68,7 @@ def main(argv: list[str] | None = None) -> None:
 
     analyzer_name = args.analyzer
     issue_map_path = get_issue_map(analyzer_name)
-    modified_files = get_files_to_analyze()
+    modified_files = get_files_to_analyze(code_path)
     run_sarif_parser(
         artifacts_path, output_path, issue_map_path, modified_files=modified_files
     )
