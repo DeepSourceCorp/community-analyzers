@@ -9,7 +9,7 @@ from typing import Any, Sequence, TypedDict, Union
 
 import sentry
 
-logger = logging.getLogger("sarif_parser")
+logger = logging.getLogger(__name__)
 logging.basicConfig(
     format="%(asctime)s %(levelname)-8s [%(filename)s:%(lineno)d] %(message)s",
     datefmt="%Y-%m-%d:%H:%M:%S",

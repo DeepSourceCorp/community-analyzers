@@ -10,7 +10,7 @@ import sentry
 
 sentry.initialize()
 
-logger = logging.getLogger("run_community_analyzer")
+logger = logging.getLogger(__name__)
 logging.basicConfig(
     format="%(asctime)s %(levelname)-8s [%(filename)s:%(lineno)d] %(message)s",
     datefmt="%Y-%m-%d:%H:%M:%S",
