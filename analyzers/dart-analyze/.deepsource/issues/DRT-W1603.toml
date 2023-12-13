@@ -1,5 +1,5 @@
 
-title = "'{0}' is annotated with 'doNotStore' and shouldn't be returned unless '{1}' is also annotated"
+title = "Invalid return of value annotated with `doNotStore`."
 weight = 70
 severity = "major"
 category = "bug-risk"

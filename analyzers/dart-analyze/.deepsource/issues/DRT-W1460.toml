@@ -1,5 +1,4 @@
-
-title = "The element type '{0}' can't be assigned to the list type '{1}'"
+title = "Incompatible types in list literal."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -38,4 +37,5 @@ list to allow all of the different types of objects it needs to contain:
 ```dart
 List<num> x = [1, 2.5, 3];
 ```
+
 '''

@@ -1,5 +1,5 @@
 
-title = "The named parameter '{0}' is required, but there's no corresponding argument"
+title = "Missing required argument."
 weight = 70
 severity = "major"
 category = "bug-risk"

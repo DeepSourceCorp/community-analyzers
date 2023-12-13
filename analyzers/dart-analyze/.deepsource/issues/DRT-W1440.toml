@@ -1,5 +1,4 @@
-
-title = "Constant list literals can't include a type parameter as a type argument, such as '{0}'.  Constant map literals can't include a type parameter as a type argument, such as '{0}'.  Constant set literals can't include a type parameter as a type argument, such as '{0}'"
+title = "Invalid type argument in constant list, map, or set literal."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -48,4 +47,5 @@ runtime, then remove the keyword `const`:
 ```dart
 List<T> newList<T>() => <T>[];
 ```
+
 '''

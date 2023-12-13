@@ -1,5 +1,4 @@
-
-title = "A value of type '{0}' can't be returned by the 'onError' handler because it must be assignable to '{1}'.  The return type '{0}' isn't assignable to '{1}', as required by 'Future.catchError'"
+title = "Incompatible return type in `Future.catchError` invocation."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -52,4 +51,5 @@ void f(Future<String> future, String Function(dynamic, StackTrace) callback) {
   future.catchError(callback);
 }
 ```
+
 '''

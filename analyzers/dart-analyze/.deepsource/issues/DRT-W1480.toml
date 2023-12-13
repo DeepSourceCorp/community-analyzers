@@ -1,5 +1,5 @@
 
-title = "The parameter '{0}' is required.  The parameter '{0}' is required. {1}"
+title = "Missing required parameter."
 weight = 70
 severity = "major"
 category = "bug-risk"

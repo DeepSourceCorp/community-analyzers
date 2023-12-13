@@ -1,5 +1,4 @@
-
-title = "The type '{0}' used in the 'for' loop must implement '{1}'"
+title = "Invalid type in for-in loop."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -32,4 +31,5 @@ void f(Map<String, String> m) {
   }
 }
 ```
+
 '''

@@ -1,5 +1,4 @@
-
-title = "Too many positional arguments: {0} expected, but {1} found"
+title = "Too many positional arguments."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -30,4 +29,5 @@ void g() {
   f(1, 2);
 }
 ```
+
 '''

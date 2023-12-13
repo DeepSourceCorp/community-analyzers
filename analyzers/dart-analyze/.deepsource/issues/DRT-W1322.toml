@@ -1,5 +1,4 @@
-
-title = "The class '{0}' can't be empty because it's a subclass of '{1}'"
+title = "Empty subclass of 'Struct' or 'Union' is not supported."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -50,4 +49,5 @@ extends clause:
 ```dart
 class C {}
 ```
+
 '''

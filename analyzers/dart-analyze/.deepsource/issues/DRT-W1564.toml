@@ -1,5 +1,5 @@
 
-title = "The path '{0}' doesn't exist"
+title = "Dependency path does not exist."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -17,7 +17,7 @@ code produces this diagnostic because it's listed as the path of a package:
 name: example
 dependencies:
   local_package:
-    path: [!doesNotExist!]
+    path: doesNotExist
 ```
 
 #### Common fixes

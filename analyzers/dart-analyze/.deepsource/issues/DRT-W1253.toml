@@ -1,5 +1,4 @@
-
-title = "The name '{0}' isn't a type, so it can't be used in an 'as' expression"
+title = "Invalid type in 'as' expression."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -26,4 +25,5 @@ Replace the name with the name of a type:
 num x = 0;
 int y = x as int;
 ```
+
 '''

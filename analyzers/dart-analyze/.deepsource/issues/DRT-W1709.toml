@@ -1,5 +1,4 @@
-
-title = "Operator '-' should declare 0 or 1 parameter, but {0} found.  Operator '{0}' should declare exactly {1} parameters, but {2} found"
+title = "Invalid number of parameters in operator declaration."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -28,4 +27,5 @@ class C {
   int operator +(a) => 0;
 }
 ```
+
 '''

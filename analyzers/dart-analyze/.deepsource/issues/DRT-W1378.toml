@@ -1,5 +1,4 @@
-
-title = "The return type of getter '{0}' is '{1}' which isn't a subtype of the type '{2}' of its setter '{3}'"
+title = "Incompatible types for getter and setter."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -47,4 +46,5 @@ class C {
   set x(int y) {}
 }
 ```
+
 '''

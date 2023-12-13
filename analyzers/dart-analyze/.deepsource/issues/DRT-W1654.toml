@@ -1,5 +1,5 @@
 
-title = "Undefined name '{0}' used as an annotation"
+title = "Undefined annotation."
 weight = 70
 severity = "major"
 category = "bug-risk"

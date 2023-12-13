@@ -1,5 +1,4 @@
-
-title = "The matched value of type '{0}' isn't assignable to the required type '{1}'"
+title = "Mismatched value type in pattern assignment or declaration."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -32,4 +31,5 @@ void f(String x) {
   print(a);
 }
 ```
+
 '''

@@ -16,7 +16,7 @@ key is a string when a list is expected:
 {% prettify yaml tag=pre+code %}
 name: example
 flutter:
-  assets: [!assets/!]
+  assets: assets/
 ```
 
 #### Common fixes

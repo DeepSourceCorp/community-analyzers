@@ -1,5 +1,5 @@
 
-title = "The constructor with name '{0}' is already defined.  The unnamed constructor is already defined"
+title = "Constructor already defined."
 weight = 70
 severity = "major"
 category = "bug-risk"

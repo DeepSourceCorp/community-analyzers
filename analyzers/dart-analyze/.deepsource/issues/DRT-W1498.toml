@@ -1,5 +1,4 @@
-
-title = "The type '{0}' must be a subtype of '{1}' for '{2}'"
+title = "Function type must be a subtype of the type argument in FFI invocation."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -62,4 +61,5 @@ void g() {
   Pointer.fromFunction<T>(f, 5);
 }
 ```
+
 '''

@@ -1,5 +1,4 @@
-
-title = "The initializer type '{0}' can't be assigned to the field type '{1}' in a const constructor.  The initializer type '{0}' can't be assigned to the field type '{1}'"
+title = "Incompatible type in field initialization."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -45,4 +44,5 @@ class C {
   C() : s = 0;
 }
 ```
+
 '''

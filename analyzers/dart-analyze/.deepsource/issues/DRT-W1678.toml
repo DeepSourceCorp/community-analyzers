@@ -1,5 +1,4 @@
-
-title = "The dev dependency on {0} is unnecessary because there is also a normal dependency on that package"
+title = "Unnecessary dev dependency."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -20,7 +19,7 @@ name: example
 dependencies:
   meta: ^1.0.2
 dev_dependencies:
-  [!meta!]: ^1.0.2
+  meta: ^1.0.2
 ```
 
 #### Common fixes
@@ -33,4 +32,5 @@ name: example
 dependencies:
   meta: ^1.0.2
 ```
+
 '''

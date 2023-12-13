@@ -17,7 +17,7 @@ listed as the path of a package:
 name: example
 dependencies:
   local_package:
-    path: [!local_package!]
+    path: local_package
 ```
 
 #### Common fixes

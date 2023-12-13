@@ -1,5 +1,4 @@
-
-title = "A value for optional parameter '{0}' isn't ever given.  The declaration '{0}' isn't referenced"
+title = "Unused private declaration."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -55,4 +54,5 @@ class C {
 ```
 
 If the declaration is intended to be used, then add the code to use it.
+
 '''

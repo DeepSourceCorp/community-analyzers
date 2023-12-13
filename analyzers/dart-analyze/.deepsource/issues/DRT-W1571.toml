@@ -18,7 +18,7 @@ The following `pubspec.yaml` produces this diagnostic because the key
 {% prettify yaml tag=pre+code %}
 name: example
 platforms:
-  web: [!"chrome"!]
+  web: "chrome"
 ```
 
 #### Common fixes

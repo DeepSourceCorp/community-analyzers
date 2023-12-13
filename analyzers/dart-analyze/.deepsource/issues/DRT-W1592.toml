@@ -1,5 +1,4 @@
-
-title = "The name '{0}' isn't a type and can't be used in a redirected constructor"
+title = "Invalid redirect in a redirected constructor."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -40,4 +39,5 @@ class C {
   factory C() => f();
 }
 ```
+
 '''

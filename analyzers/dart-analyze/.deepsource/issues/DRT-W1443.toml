@@ -1,5 +1,4 @@
-
-title = "The member '{0}' can only be used within its package"
+title = "Reference to internal declaration outside the package."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -33,4 +32,5 @@ void f(C c) {}
 #### Common fixes
 
 Remove the reference to the internal declaration.
+
 '''

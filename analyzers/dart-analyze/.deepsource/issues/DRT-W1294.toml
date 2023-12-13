@@ -16,7 +16,7 @@ top-level `dependencies` key is a list:
 {% prettify yaml tag=pre+code %}
 name: example
 dependencies:
-  [!- meta!]
+  - meta
 ```
 
 #### Common fixes

@@ -15,7 +15,7 @@ top-level `flutter` key is a string:
 
 {% prettify yaml tag=pre+code %}
 name: example
-flutter: [!true!]
+flutter: true
 ```
 
 #### Common fixes

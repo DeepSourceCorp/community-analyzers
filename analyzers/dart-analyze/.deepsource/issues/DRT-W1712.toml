@@ -1,5 +1,4 @@
-
-title = "The constructor '{0}.{1}' doesn't have type parameters"
+title = "Invalid placement of type arguments in named constructor."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -45,4 +44,5 @@ class C<T> {
 }
 C f() => C.named();
 ```
+
 '''

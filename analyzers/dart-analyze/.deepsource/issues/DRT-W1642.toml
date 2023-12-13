@@ -1,5 +1,4 @@
-
-title = "The Unicode code point 'U+{0}' changes the appearance of text from how it's interpreted by the compiler"
+title = "Text direction Unicode code points in literal."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -35,4 +34,5 @@ then remove them:
 ```dart
 var label = 'Interactive text';
 ```
+
 '''

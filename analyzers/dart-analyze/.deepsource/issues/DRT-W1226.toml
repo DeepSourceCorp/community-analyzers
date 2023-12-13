@@ -1,5 +1,4 @@
-
-title = "The argument type '{0}' can't be assigned to the parameter type '{1} Function(Object)' or '{1} Function(Object, StackTrace)'"
+title = "Incompatible function signature for `Future.catchError` argument."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -55,4 +54,5 @@ void f(Future<int> f) {
   f.catchError((Object error) => 0);
 }
 ```
+
 '''

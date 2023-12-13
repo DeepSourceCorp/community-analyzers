@@ -17,7 +17,7 @@ a map:
 name: example
 flutter:
   assets:
-    - [!image.gif: true!]
+    - image.gif: true
 ```
 
 #### Common fixes

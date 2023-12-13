@@ -1,5 +1,4 @@
-
-title = "The value of the local variable '{0}' isn't used"
+title = "Unused local variable."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -24,4 +23,5 @@ void main() {
 If the variable isn't needed, then remove it.
 
 If the variable was intended to be used, then add the missing code.
+
 '''

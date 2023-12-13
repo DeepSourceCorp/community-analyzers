@@ -1,5 +1,4 @@
-
-title = "A value of type '{0}' can't be assigned to a const variable of type '{1}'"
+title = "Invalid type assignment in constant expression."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -35,4 +34,5 @@ correct type:
 const Object x = 0;
 const int y = x;
 ```
+
 '''

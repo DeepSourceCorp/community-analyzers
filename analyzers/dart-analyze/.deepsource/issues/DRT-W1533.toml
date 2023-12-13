@@ -1,5 +1,4 @@
-
-title = "The name '{0}' isn't a type, so it can't be used as a type argument"
+title = "Invalid use of non-type identifier as type argument."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -26,4 +25,5 @@ Change the type argument to be a type:
 var x = 0;
 List<int> xList = [];
 ```
+
 '''

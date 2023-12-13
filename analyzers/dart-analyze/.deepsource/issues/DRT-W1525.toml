@@ -1,5 +1,5 @@
 
-title = "The type '{0}' is not exhaustively matched by the switch cases since it doesn't match '{1}'"
+title = "Non-exhaustive switch statement over an exhaustive type."
 weight = 70
 severity = "major"
 category = "bug-risk"

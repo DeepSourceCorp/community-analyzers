@@ -1,5 +1,4 @@
-
-title = "The symbol '{0}' is defined in a legacy library, and can't be re-exported from a library with null safety enabled"
+title = "Incompatible null safety between exported libraries."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -47,4 +46,5 @@ opted-in library, then it's valid for your library to indirectly export the
 symbols from the opted-in library. You can do so by adding a hide
 combinator to the export directive in your library that hides all of the
 names declared in the opted-out library.
+
 '''

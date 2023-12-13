@@ -1,5 +1,4 @@
-
-title = "Can't define the 'const' constructor because the field '{0}' is initialized with a non-constant value"
+title = "Non-const field initialized in a const constructor."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -43,4 +42,5 @@ class C {
   C();
 }
 ```
+
 '''

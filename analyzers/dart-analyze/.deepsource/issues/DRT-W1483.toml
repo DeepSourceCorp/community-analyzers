@@ -1,5 +1,4 @@
-
-title = "Variable pattern '{0}' is missing in this branch of the logical-or pattern"
+title = "Missing variable pattern in one branch of logical-or pattern."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -62,4 +61,5 @@ void f((int, int) r) {
   }
 }
 ```
+
 '''

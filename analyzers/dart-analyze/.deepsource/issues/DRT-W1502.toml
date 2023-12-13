@@ -15,7 +15,7 @@ The following code produces this diagnostic because the value following the
 
 {% prettify yaml tag=pre+code %}
 name:
-  [!- example!]
+  - example
 ```
 
 #### Common fixes

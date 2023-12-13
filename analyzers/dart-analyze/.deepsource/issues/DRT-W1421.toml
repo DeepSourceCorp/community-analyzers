@@ -1,5 +1,4 @@
-
-title = "Fields in struct classes can't have the type '{0}'. They can only be declared as 'int', 'double', 'Array', 'Pointer', or subtype of 'Struct' or 'Union'"
+title = "Invalid field type in subclass of `Struct`"
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -43,4 +42,5 @@ final class C extends Struct {
   external int i;
 }
 ```
+
 '''

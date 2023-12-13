@@ -1,5 +1,5 @@
 
-title = "The asset directory '{0}' doesn't exist"
+title = "Asset directory does not exist."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -18,7 +18,7 @@ assets:
 name: example
 flutter:
   assets:
-    - [!assets/!]
+    - assets/
 ```
 
 #### Common fixes

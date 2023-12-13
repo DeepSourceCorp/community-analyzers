@@ -1,5 +1,4 @@
-
-title = "The operands of the operator '{0}' must be assignable to 'bool'"
+title = "Invalid operand type for logical operator."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -26,4 +25,5 @@ Change the operand to a Boolean value:
 int a = 3;
 bool b = a == 0 || a > 1;
 ```
+
 '''

@@ -1,5 +1,5 @@
 
-title = "A constant constructor can't call a non-constant super constructor of '{0}'"
+title = "Constant constructor can't call a non-constant super constructor."
 weight = 70
 severity = "major"
 category = "bug-risk"

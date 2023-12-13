@@ -1,5 +1,4 @@
-
-title = "'{1}.{0}' ('{2}') isn't a valid concrete implementation of '{3}.{0}' ('{4}').  The setter '{1}.{0}' ('{2}') isn't a valid concrete implementation of '{3}.{0}' ('{4}')"
+title = "Invalid concrete implementation of abstract method."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -83,4 +82,5 @@ class B	extends A {
   int add(num a) => a.floor();
 }
 ```
+
 '''

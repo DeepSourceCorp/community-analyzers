@@ -1,5 +1,4 @@
-
-title = "The field '{0}' can't be initialized twice in the same constructor"
+title = "Duplicate field initialization in constructor."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -33,4 +32,5 @@ class C {
   C() : f = 0;
 }
 ```
+
 '''

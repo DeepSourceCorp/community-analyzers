@@ -1,5 +1,4 @@
-
-title = "An instance member named 'values' can't be declared in a class that implements 'Enum'.  An instance member named 'values' can't be inherited from '{0}' in a class that implements 'Enum'"
+title = "Invalid declaration of 'values' in a class that implements 'Enum'."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -40,4 +39,5 @@ abstract class C implements Enum {
   int get value => 0;
 }
 ```
+
 '''

@@ -1,5 +1,4 @@
-
-title = "Can't invoke 'asFunction' because the function signature '{0}' for the pointer isn't a valid C function signature"
+title = "Invalid C function signature for 'asFunction' invocation."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -46,4 +45,5 @@ class C {
   }
 }
 ```
+
 '''
