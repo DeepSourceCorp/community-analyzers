@@ -1,4 +1,4 @@
-title = "Unused result of `useResult` annotated function."
+title = "Unused result of `useResult` annotated function"
 weight = 70
 severity = "major"
 category = "bug-risk"

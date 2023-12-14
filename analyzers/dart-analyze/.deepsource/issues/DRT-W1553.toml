@@ -1,4 +1,4 @@
-title = "Invalid null argument for non-nullable type argument."
+title = "Invalid null argument for non-nullable type argument"
 weight = 70
 severity = "major"
 category = "bug-risk"

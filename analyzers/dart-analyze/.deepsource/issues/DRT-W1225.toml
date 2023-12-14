@@ -1,5 +1,5 @@
 
-title = "Unassignable argument type."
+title = "Unassignable argument type"
 weight = 70
 severity = "major"
 category = "bug-risk"

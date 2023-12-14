@@ -1,4 +1,4 @@
-title = "Invalid export directive for a part file."
+title = "Invalid export directive for a part file"
 weight = 70
 severity = "major"
 category = "bug-risk"

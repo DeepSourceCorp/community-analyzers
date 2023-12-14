@@ -1,4 +1,4 @@
-title = "Invalid type argument for class `Array`."
+title = "Invalid type argument for class `Array`"
 weight = 70
 severity = "major"
 category = "bug-risk"

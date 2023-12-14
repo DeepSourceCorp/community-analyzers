@@ -1,4 +1,4 @@
-title = "Generic subclasses of 'Struct' or 'Union' are not allowed."
+title = "Generic subclasses of 'Struct' or 'Union' are not allowed"
 weight = 70
 severity = "major"
 category = "bug-risk"

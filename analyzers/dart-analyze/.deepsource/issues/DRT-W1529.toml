@@ -1,4 +1,4 @@
-title = "Invalid C function signature for 'asFunction' invocation."
+title = "Invalid C function signature for 'asFunction' invocation"
 weight = 70
 severity = "major"
 category = "bug-risk"

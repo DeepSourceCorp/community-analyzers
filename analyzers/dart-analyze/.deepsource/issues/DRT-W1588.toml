@@ -1,5 +1,5 @@
 
-title = "Redirect to abstract class constructor."
+title = "Redirect to abstract class constructor"
 weight = 70
 severity = "major"
 category = "bug-risk"

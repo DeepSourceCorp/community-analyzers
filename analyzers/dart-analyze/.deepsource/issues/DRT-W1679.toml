@@ -1,5 +1,5 @@
 
-title = "Unnecessary import."
+title = "Unnecessary import"
 weight = 70
 severity = "major"
 category = "bug-risk"

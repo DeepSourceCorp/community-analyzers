@@ -1,5 +1,5 @@
 
-title = "Conflicting generic interfaces."
+title = "Conflicting generic interfaces"
 weight = 70
 severity = "major"
 category = "bug-risk"

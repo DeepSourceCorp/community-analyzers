@@ -1,5 +1,5 @@
 
-title = "Undefined label."
+title = "Undefined label"
 weight = 70
 severity = "major"
 category = "bug-risk"

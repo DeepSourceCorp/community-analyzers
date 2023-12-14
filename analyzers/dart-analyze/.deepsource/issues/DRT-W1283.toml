@@ -1,4 +1,4 @@
-title = "Invalid class name specified for instance creation."
+title = "Invalid class name specified for instance creation"
 weight = 70
 severity = "major"
 category = "bug-risk"

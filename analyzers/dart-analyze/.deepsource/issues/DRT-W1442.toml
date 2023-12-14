@@ -1,4 +1,4 @@
-title = "Invalid use of `covariant` in extension."
+title = "Invalid use of `covariant` in extension"
 weight = 70
 severity = "major"
 category = "bug-risk"

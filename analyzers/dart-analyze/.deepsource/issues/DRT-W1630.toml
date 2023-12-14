@@ -1,4 +1,4 @@
-title = "Mismatched parameter type in super constructor."
+title = "Mismatched parameter type in super constructor"
 weight = 70
 severity = "major"
 category = "bug-risk"

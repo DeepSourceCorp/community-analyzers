@@ -1,4 +1,4 @@
-title = "Name conflict between import prefix and top-level declaration."
+title = "Name conflict between import prefix and top-level declaration"
 weight = 70
 severity = "major"
 category = "bug-risk"

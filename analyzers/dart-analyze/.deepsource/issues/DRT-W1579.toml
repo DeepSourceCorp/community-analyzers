@@ -1,5 +1,5 @@
 
-title = "Private setter used in a library."
+title = "Private setter used in a library"
 weight = 70
 severity = "major"
 category = "bug-risk"

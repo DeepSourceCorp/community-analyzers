@@ -1,4 +1,4 @@
-title = "Missing setter for getter."
+title = "Missing setter for getter"
 weight = 70
 severity = "major"
 category = "bug-risk"

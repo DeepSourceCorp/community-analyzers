@@ -1,4 +1,4 @@
-title = "Missing import for 'Future' and 'Stream' classes in lower version SDKs."
+title = "Missing import for 'Future' and 'Stream' classes in lower version SDKs"
 weight = 70
 severity = "major"
 category = "bug-risk"

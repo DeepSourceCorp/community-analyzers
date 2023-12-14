@@ -1,4 +1,4 @@
-title = "Undefined function."
+title = "Undefined function"
 weight = 70
 severity = "major"
 category = "bug-risk"

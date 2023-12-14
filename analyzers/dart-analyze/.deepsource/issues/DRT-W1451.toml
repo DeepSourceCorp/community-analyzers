@@ -1,5 +1,5 @@
 
-title = "Invocation of extension that doesn't define a `call` method."
+title = "Invocation of extension that doesn't define a `call` method"
 weight = 70
 severity = "major"
 category = "bug-risk"

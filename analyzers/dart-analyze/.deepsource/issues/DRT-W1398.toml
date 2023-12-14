@@ -1,4 +1,4 @@
-title = "Invalid initializing formal parameter."
+title = "Invalid initializing formal parameter"
 weight = 70
 severity = "major"
 category = "bug-risk"

@@ -1,4 +1,4 @@
-title = "Invalid type argument in constant list, map, or set literal."
+title = "Invalid type argument in constant list, map, or set literal"
 weight = 70
 severity = "major"
 category = "bug-risk"

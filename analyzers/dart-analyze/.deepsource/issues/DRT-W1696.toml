@@ -1,4 +1,4 @@
-title = "Remove unused import."
+title = "Remove unused import"
 weight = 70
 severity = "major"
 category = "bug-risk"

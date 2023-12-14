@@ -1,4 +1,4 @@
-title = "Empty subclass of 'Struct' or 'Union' is not supported."
+title = "Empty subclass of 'Struct' or 'Union' is not supported"
 weight = 70
 severity = "major"
 category = "bug-risk"

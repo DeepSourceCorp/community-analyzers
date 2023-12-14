@@ -1,4 +1,4 @@
-title = "Invalid placement of type arguments in named constructor."
+title = "Invalid placement of type arguments in named constructor"
 weight = 70
 severity = "major"
 category = "bug-risk"

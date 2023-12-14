@@ -1,5 +1,5 @@
 
-title = "Switch case expression type can't override the '==' operator."
+title = "Switch case expression type can't override the '==' operator"
 weight = 70
 severity = "major"
 category = "bug-risk"

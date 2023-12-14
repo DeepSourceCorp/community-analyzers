@@ -1,4 +1,4 @@
-title = "Duplicate assignment in pattern assignment."
+title = "Duplicate assignment in pattern assignment"
 weight = 70
 severity = "major"
 category = "bug-risk"

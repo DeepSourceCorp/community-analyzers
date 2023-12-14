@@ -1,4 +1,4 @@
-title = "Mixin class extends a class other than `Object`."
+title = "Mixin class extends a class other than `Object`"
 weight = 70
 severity = "major"
 category = "bug-risk"

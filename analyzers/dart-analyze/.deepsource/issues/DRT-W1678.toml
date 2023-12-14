@@ -1,4 +1,4 @@
-title = "Unnecessary dev dependency."
+title = "Unnecessary dev dependency"
 weight = 70
 severity = "major"
 category = "bug-risk"

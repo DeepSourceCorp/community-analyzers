@@ -1,4 +1,4 @@
-title = "Invalid use of boolean operators in constant context."
+title = "Invalid use of boolean operators in constant context"
 weight = 70
 severity = "major"
 category = "bug-risk"

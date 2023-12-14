@@ -1,4 +1,4 @@
-title = "Invalid throw expression type."
+title = "Invalid throw expression type"
 weight = 70
 severity = "major"
 category = "bug-risk"

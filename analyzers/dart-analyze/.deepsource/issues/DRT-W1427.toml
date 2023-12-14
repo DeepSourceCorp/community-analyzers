@@ -1,4 +1,4 @@
-title = "Invalid constructor modifier."
+title = "Invalid constructor modifier"
 weight = 70
 severity = "major"
 category = "bug-risk"

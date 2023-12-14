@@ -1,5 +1,5 @@
 
-title = "Invalid mixin application."
+title = "Invalid mixin application"
 weight = 70
 severity = "major"
 category = "bug-risk"

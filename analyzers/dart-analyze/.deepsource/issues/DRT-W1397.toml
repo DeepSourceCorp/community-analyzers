@@ -1,4 +1,4 @@
-title = "Static field initialized in constructor."
+title = "Static field initialized in constructor"
 weight = 70
 severity = "major"
 category = "bug-risk"

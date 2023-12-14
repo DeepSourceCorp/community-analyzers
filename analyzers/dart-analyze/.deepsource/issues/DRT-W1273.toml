@@ -1,5 +1,5 @@
 
-title = "Key in a constant map can't override the `==` operator, or `hashCode`."
+title = "Key in a constant map can't override the `==` operator, or `hashCode`"
 weight = 70
 severity = "major"
 category = "bug-risk"

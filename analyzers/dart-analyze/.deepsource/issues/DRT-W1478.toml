@@ -1,4 +1,4 @@
-title = "Missing concrete implementation of a `@mustBeOverridden` member."
+title = "Missing concrete implementation of a `@mustBeOverridden` member"
 weight = 70
 severity = "major"
 category = "bug-risk"

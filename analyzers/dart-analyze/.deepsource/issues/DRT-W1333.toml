@@ -1,4 +1,4 @@
-title = "List patterns can have at most one type argument."
+title = "List patterns can have at most one type argument"
 weight = 70
 severity = "major"
 category = "bug-risk"

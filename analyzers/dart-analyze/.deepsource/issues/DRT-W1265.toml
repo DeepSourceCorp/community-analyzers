@@ -1,5 +1,5 @@
 
-title = "Parameter type mismatch for constant constructor."
+title = "Parameter type mismatch for constant constructor"
 weight = 70
 severity = "major"
 category = "bug-risk"

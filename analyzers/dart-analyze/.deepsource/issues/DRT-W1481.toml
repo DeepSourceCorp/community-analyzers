@@ -1,4 +1,4 @@
-title = "Implicit return at the end of function or method."
+title = "Implicit return at the end of function or method"
 weight = 70
 severity = "major"
 category = "bug-risk"

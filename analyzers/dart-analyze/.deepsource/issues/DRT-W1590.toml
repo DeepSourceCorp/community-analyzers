@@ -1,4 +1,4 @@
-title = "Invalid return type in factory constructor redirection."
+title = "Invalid return type in factory constructor redirection"
 weight = 70
 severity = "major"
 category = "bug-risk"

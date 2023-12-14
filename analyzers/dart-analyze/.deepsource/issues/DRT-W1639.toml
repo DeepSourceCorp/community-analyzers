@@ -1,4 +1,4 @@
-title = "Incompatible types in switch statement."
+title = "Incompatible types in switch statement"
 weight = 70
 severity = "major"
 category = "bug-risk"

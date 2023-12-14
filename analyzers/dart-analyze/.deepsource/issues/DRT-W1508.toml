@@ -1,4 +1,4 @@
-title = "Invalid operand type for logical operator."
+title = "Invalid operand type for logical operator"
 weight = 70
 severity = "major"
 category = "bug-risk"

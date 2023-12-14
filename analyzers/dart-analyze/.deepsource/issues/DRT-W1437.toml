@@ -1,4 +1,4 @@
-title = "Incompatible return type in `Future.catchError` invocation."
+title = "Incompatible return type in `Future.catchError` invocation"
 weight = 70
 severity = "major"
 category = "bug-risk"

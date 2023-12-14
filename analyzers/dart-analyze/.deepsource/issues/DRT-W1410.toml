@@ -1,4 +1,4 @@
-title = "Invalid annotation target."
+title = "Invalid annotation target"
 weight = 70
 severity = "major"
 category = "bug-risk"

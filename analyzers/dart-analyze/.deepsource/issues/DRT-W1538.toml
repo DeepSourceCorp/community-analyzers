@@ -1,5 +1,5 @@
 
-title = "Non-type name used as type."
+title = "Non-type name used as type"
 weight = 70
 severity = "major"
 category = "bug-risk"

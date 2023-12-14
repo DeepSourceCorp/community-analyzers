@@ -1,4 +1,4 @@
-title = "Mismatched method signature in mixin invocation."
+title = "Mismatched method signature in mixin invocation"
 weight = 70
 severity = "major"
 category = "bug-risk"

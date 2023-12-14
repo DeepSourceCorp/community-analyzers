@@ -1,4 +1,4 @@
-title = "Cannot extend or implement FFI classes other than 'Struct' or 'Union'."
+title = "Cannot extend or implement FFI classes other than 'Struct' or 'Union'"
 weight = 70
 severity = "major"
 category = "bug-risk"

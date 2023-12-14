@@ -1,4 +1,4 @@
-title = "Invalid type assignment in constant expression."
+title = "Invalid type assignment in constant expression"
 weight = 70
 severity = "major"
 category = "bug-risk"

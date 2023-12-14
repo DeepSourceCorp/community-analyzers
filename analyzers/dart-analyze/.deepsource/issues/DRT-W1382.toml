@@ -1,4 +1,4 @@
-title = "Invalid declaration of 'values' in a class that implements 'Enum'."
+title = "Invalid declaration of 'values' in a class that implements 'Enum'"
 weight = 70
 severity = "major"
 category = "bug-risk"

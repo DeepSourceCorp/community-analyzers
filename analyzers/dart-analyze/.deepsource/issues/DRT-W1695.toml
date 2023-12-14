@@ -1,4 +1,4 @@
-title = "Unused private field."
+title = "Unused private field"
 weight = 70
 severity = "major"
 category = "bug-risk"

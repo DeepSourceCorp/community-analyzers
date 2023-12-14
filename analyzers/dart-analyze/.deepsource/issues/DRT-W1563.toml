@@ -1,4 +1,4 @@
-title = "Invalid 'part of' directive in unnamed library."
+title = "Invalid 'part of' directive in unnamed library"
 weight = 70
 severity = "major"
 category = "bug-risk"

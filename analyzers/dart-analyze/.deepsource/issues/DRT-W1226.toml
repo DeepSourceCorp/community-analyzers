@@ -1,4 +1,4 @@
-title = "Incompatible function signature for `Future.catchError` argument."
+title = "Incompatible function signature for `Future.catchError` argument"
 weight = 70
 severity = "major"
 category = "bug-risk"

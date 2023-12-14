@@ -1,5 +1,5 @@
 
-title = "Factory method must have a return type."
+title = "Factory method must have a return type"
 weight = 70
 severity = "major"
 category = "bug-risk"

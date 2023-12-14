@@ -1,5 +1,5 @@
 
-title = "Undefined super member."
+title = "Undefined super member"
 weight = 70
 severity = "major"
 category = "bug-risk"

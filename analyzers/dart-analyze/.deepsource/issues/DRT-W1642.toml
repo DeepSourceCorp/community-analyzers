@@ -1,4 +1,4 @@
-title = "Text direction Unicode code points in literal."
+title = "Text direction Unicode code points in literal"
 weight = 70
 severity = "major"
 category = "bug-risk"

@@ -1,4 +1,4 @@
-title = "Reference to internal declaration outside the package."
+title = "Reference to internal declaration outside the package"
 weight = 70
 severity = "major"
 category = "bug-risk"

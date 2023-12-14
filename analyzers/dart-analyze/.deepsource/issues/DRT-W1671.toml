@@ -1,5 +1,5 @@
 
-title = "Identifier not defined the imported library."
+title = "Identifier not defined the imported library"
 weight = 70
 severity = "major"
 category = "bug-risk"

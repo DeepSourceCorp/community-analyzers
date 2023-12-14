@@ -1,4 +1,4 @@
-title = "Mismatch between number of type parameters and type arguments in extension."
+title = "Wrong number of type parameters and type arguments in extension"
 weight = 70
 severity = "major"
 category = "bug-risk"

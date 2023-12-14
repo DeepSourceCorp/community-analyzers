@@ -1,4 +1,4 @@
-title = "Avoid extending, mixing in, or implementing sealed class outside of the same package."
+title = "Avoid extending, mixing in, or implementing sealed class outside of the same package"
 weight = 70
 severity = "major"
 category = "bug-risk"

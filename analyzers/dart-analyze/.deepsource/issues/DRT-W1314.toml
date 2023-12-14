@@ -1,4 +1,4 @@
-title = "Duplicate field or getter in pattern matching."
+title = "Duplicate field or getter in pattern matching"
 weight = 70
 severity = "major"
 category = "bug-risk"

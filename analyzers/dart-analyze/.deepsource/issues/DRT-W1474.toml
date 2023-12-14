@@ -1,4 +1,4 @@
-title = "Missing exceptional return value for method invocation in `dart:ffi`."
+title = "Missing exceptional return value for method invocation in `dart:ffi`"
 weight = 70
 severity = "major"
 category = "bug-risk"

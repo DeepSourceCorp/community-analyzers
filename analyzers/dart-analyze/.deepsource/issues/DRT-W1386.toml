@@ -1,4 +1,4 @@
-title = "Same class used in 'extends' and 'implements' or 'with' clauses."
+title = "Same class used in 'extends' and 'implements' or 'with' clauses"
 weight = 70
 severity = "major"
 category = "bug-risk"

@@ -1,4 +1,4 @@
-title = "Invalid number of parameters in operator declaration."
+title = "Invalid number of parameters in operator declaration"
 weight = 70
 severity = "major"
 category = "bug-risk"

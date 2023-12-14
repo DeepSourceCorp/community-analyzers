@@ -1,5 +1,5 @@
 
-title = "Text direction Unicode code points in comment."
+title = "Text direction Unicode code points in comment"
 weight = 70
 severity = "major"
 category = "bug-risk"

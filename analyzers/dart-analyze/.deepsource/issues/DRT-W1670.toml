@@ -1,4 +1,4 @@
-title = "Undefined operator."
+title = "Undefined operator"
 weight = 70
 severity = "major"
 category = "bug-risk"

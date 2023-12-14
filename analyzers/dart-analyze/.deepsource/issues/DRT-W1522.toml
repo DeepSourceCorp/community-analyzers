@@ -1,4 +1,4 @@
-title = "Missing `const` keyword when invoking a constructor with `@literal` annotation."
+title = "Missing `const` keyword when invoking a constructor with `@literal` annotation"
 weight = 70
 severity = "major"
 category = "bug-risk"

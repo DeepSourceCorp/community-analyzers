@@ -1,4 +1,4 @@
-title = "Incompatible null safety between exported libraries."
+title = "Incompatible null safety between exported libraries"
 weight = 70
 severity = "major"
 category = "bug-risk"

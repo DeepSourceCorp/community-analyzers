@@ -1,4 +1,4 @@
-title = "Member annotated with `@visibleForTesting` used outside of tests."
+title = "Member annotated with `@visibleForTesting` used outside of tests"
 weight = 70
 severity = "major"
 category = "bug-risk"

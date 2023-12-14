@@ -1,4 +1,4 @@
-title = "Invalid URI syntax."
+title = "Invalid URI syntax"
 weight = 70
 severity = "major"
 category = "bug-risk"

@@ -1,4 +1,4 @@
-title = "Mismatched value type in pattern assignment or declaration."
+title = "Mismatched value type in pattern assignment or declaration"
 weight = 70
 severity = "major"
 category = "bug-risk"

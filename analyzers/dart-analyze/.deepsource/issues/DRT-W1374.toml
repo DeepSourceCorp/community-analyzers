@@ -1,4 +1,4 @@
-title = "Invalid type in for-in loop."
+title = "Invalid type in for-in loop"
 weight = 70
 severity = "major"
 category = "bug-risk"

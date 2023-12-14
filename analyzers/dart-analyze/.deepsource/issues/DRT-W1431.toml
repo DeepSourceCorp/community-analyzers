@@ -1,4 +1,4 @@
-title = "Invalid method override."
+title = "Invalid method override"
 weight = 70
 severity = "major"
 category = "bug-risk"

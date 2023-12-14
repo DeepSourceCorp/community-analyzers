@@ -1,5 +1,5 @@
 
-title = "Import prefix must be followed by `.`."
+title = "Import prefix must be followed by `.`"
 weight = 70
 severity = "major"
 category = "bug-risk"

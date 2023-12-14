@@ -1,5 +1,5 @@
 
-title = "Factory method doesn't return a newly allocated object."
+title = "Factory method doesn't return a newly allocated object"
 weight = 70
 severity = "major"
 category = "bug-risk"

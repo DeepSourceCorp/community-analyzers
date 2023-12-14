@@ -1,4 +1,4 @@
-title = "Non-type in catch clause."
+title = "Non-type in catch clause"
 weight = 70
 severity = "major"
 category = "bug-risk"

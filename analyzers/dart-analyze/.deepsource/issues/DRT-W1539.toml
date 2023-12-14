@@ -1,4 +1,4 @@
-title = "Invalid use of unary operator as a binary operator."
+title = "Invalid use of unary operator as a binary operator"
 weight = 70
 severity = "major"
 category = "bug-risk"

@@ -1,4 +1,4 @@
-title = "Missing or invalid superclass constructor invocation."
+title = "Missing or invalid superclass constructor invocation"
 weight = 70
 severity = "major"
 category = "bug-risk"

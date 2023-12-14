@@ -1,4 +1,4 @@
-title = "Incompatible types for variable assignment."
+title = "Incompatible types for variable assignment"
 weight = 70
 severity = "major"
 category = "bug-risk"

@@ -1,4 +1,4 @@
-title = "Invalid use of non-type identifier as type argument."
+title = "Invalid use of non-type identifier as type argument"
 weight = 70
 severity = "major"
 category = "bug-risk"

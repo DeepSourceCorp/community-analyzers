@@ -1,4 +1,4 @@
-title = "Non-nullable variables must be initialized."
+title = "Non-nullable variables must be initialized"
 weight = 70
 severity = "major"
 category = "bug-risk"

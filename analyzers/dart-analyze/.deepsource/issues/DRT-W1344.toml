@@ -1,4 +1,4 @@
-title = "Conflicting instance and static members in an extension."
+title = "Conflicting instance and static members in an extension"
 weight = 70
 severity = "major"
 category = "bug-risk"

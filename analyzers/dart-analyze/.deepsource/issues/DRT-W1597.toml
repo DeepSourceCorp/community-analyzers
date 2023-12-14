@@ -1,4 +1,4 @@
-title = "Relational pattern operand type not assignable to operator parameter type."
+title = "Relational pattern operand type not assignable to operator parameter type"
 weight = 70
 severity = "major"
 category = "bug-risk"

@@ -1,4 +1,4 @@
-title = "Incompatible types for getter and setter."
+title = "Incompatible types for getter and setter"
 weight = 70
 severity = "major"
 category = "bug-risk"

@@ -1,4 +1,4 @@
-title = "Duplicate variable declaration in logical-and pattern."
+title = "Duplicate variable declaration in logical-and pattern"
 weight = 70
 severity = "major"
 category = "bug-risk"

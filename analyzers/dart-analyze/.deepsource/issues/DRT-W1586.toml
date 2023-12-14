@@ -1,4 +1,4 @@
-title = "Redirected constructor is undefined."
+title = "Redirected constructor is undefined"
 weight = 70
 severity = "major"
 category = "bug-risk"

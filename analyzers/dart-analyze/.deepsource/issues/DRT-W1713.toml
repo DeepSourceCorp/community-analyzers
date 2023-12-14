@@ -1,4 +1,4 @@
-title = "Wrong number of type arguments provided for enum constant."
+title = "Wrong number of type arguments provided for enum constant"
 weight = 70
 severity = "major"
 category = "bug-risk"

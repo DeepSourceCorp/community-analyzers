@@ -1,4 +1,4 @@
-title = "Invalid access of static member through instance."
+title = "Invalid access of static member through instance"
 weight = 70
 severity = "major"
 category = "bug-risk"

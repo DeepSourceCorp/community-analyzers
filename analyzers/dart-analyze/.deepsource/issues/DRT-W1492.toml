@@ -1,4 +1,4 @@
-title = "Mixin constraint is sealed and can't be used."
+title = "Mixin constraint is sealed and can't be used"
 weight = 70
 severity = "major"
 category = "bug-risk"

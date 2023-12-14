@@ -1,4 +1,4 @@
-title = "Duplicate initialization of final field."
+title = "Duplicate initialization of final field"
 weight = 70
 severity = "major"
 category = "bug-risk"

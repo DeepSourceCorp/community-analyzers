@@ -1,4 +1,4 @@
-title = "Invalid use of class with constructor as a mixin."
+title = "Invalid use of class with constructor as a mixin"
 weight = 70
 severity = "major"
 category = "bug-risk"

@@ -1,4 +1,4 @@
-title = "Avoid including a file from a different library as a part of itself."
+title = "Avoid including a file from a different library as a part of itself"
 weight = 70
 severity = "major"
 category = "bug-risk"

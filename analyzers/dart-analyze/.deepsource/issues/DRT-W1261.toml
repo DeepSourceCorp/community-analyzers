@@ -1,4 +1,4 @@
-title = "Type parameter has the same name as the class, mixin, or extension that declares it."
+title = "Type parameter has the same name as the class, mixin, or extension that declares it"
 weight = 70
 severity = "major"
 category = "bug-risk"

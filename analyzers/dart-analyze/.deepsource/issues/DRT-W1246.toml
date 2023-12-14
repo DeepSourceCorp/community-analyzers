@@ -1,4 +1,4 @@
-title = "Invalid use of built-in identifier as a type."
+title = "Invalid use of built-in identifier as a type"
 weight = 70
 severity = "major"
 category = "bug-risk"

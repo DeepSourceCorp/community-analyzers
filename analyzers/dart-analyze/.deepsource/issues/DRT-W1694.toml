@@ -1,4 +1,4 @@
-title = "Unused private declaration."
+title = "Unused private declaration"
 weight = 70
 severity = "major"
 category = "bug-risk"

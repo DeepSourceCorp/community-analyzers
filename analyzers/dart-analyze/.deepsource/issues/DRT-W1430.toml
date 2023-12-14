@@ -1,4 +1,4 @@
-title = "Invalid usage of null-aware operators on non-nullable receivers."
+title = "Invalid usage of null-aware operators on non-nullable receivers"
 weight = 70
 severity = "major"
 category = "bug-risk"

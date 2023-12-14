@@ -1,4 +1,4 @@
-title = "Incompatible value type in map literal."
+title = "Incompatible value type in map literal"
 weight = 70
 severity = "major"
 category = "bug-risk"

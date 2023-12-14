@@ -1,4 +1,4 @@
-title = "Invalid concrete implementation of abstract method."
+title = "Invalid concrete implementation of abstract method"
 weight = 70
 severity = "major"
 category = "bug-risk"

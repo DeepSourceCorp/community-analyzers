@@ -1,4 +1,4 @@
-title = "Too many positional arguments."
+title = "Too many positional arguments"
 weight = 70
 severity = "major"
 category = "bug-risk"

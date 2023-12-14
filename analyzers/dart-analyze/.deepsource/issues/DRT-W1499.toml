@@ -1,4 +1,4 @@
-title = "Immutable class defines non-final instance fields."
+title = "Immutable class defines non-final instance fields"
 weight = 70
 severity = "major"
 category = "bug-risk"

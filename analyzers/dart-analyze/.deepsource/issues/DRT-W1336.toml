@@ -1,5 +1,5 @@
 
-title = "Expected two map pattern type arguments."
+title = "Expected two map pattern type arguments"
 weight = 70
 severity = "major"
 category = "bug-risk"

@@ -1,5 +1,5 @@
 
-title = "Invalid superclass for class with generative constructors."
+title = "Invalid superclass for class with generative constructors"
 weight = 70
 severity = "major"
 category = "bug-risk"

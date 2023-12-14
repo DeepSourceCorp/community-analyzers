@@ -1,4 +1,4 @@
-title = "Unrecognized platform name in `pubspec.yaml`."
+title = "Unrecognized platform name in `pubspec.yaml`"
 weight = 70
 severity = "major"
 category = "bug-risk"

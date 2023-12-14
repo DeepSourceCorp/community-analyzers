@@ -1,4 +1,4 @@
-title = "Conflicting names for named constructor and static member."
+title = "Conflicting names for named constructor and static member"
 weight = 70
 severity = "major"
 category = "bug-risk"

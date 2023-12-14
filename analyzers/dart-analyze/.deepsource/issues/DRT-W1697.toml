@@ -1,4 +1,4 @@
-title = "Unused label."
+title = "Unused label"
 weight = 70
 severity = "major"
 category = "bug-risk"

@@ -1,4 +1,4 @@
-title = "Incompatible type in field initialization."
+title = "Incompatible type in field initialization"
 weight = 70
 severity = "major"
 category = "bug-risk"

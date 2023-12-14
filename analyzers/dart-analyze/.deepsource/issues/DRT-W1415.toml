@@ -1,5 +1,5 @@
 
-title = "Invalid export of internal element indirectly."
+title = "Invalid export of internal element indirectly"
 weight = 70
 severity = "major"
 category = "bug-risk"

@@ -1,4 +1,4 @@
-title = "Invalid number of type arguments in map literal."
+title = "Invalid number of type arguments in map literal"
 weight = 70
 severity = "major"
 category = "bug-risk"

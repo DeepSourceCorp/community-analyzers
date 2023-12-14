@@ -1,4 +1,4 @@
-title = "Invalid label reference in outer method."
+title = "Invalid label reference in outer method"
 weight = 70
 severity = "major"
 category = "bug-risk"
