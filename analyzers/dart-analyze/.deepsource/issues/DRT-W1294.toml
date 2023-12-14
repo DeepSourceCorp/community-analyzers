@@ -1,5 +1,5 @@
 
-title = "The value of the '{0}' field is expected to be a map"
+title = "Dependencies defined must be a map."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -13,7 +13,7 @@ The analyzer produces this diagnostic when the value of either the
 The following code produces this diagnostic because the value of the
 top-level `dependencies` key is a list:
 
-{% prettify yaml tag=pre+code %}
+```yaml
 name: example
 dependencies:
   - meta
@@ -23,7 +23,7 @@ dependencies:
 
 Use a map as the value of the `dependencies` key:
 
-{% prettify yaml tag=pre+code %}
+```yaml
 name: example
 dependencies:
   meta: ^1.0.2

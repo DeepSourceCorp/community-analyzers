@@ -1,5 +1,4 @@
-
-title = "'{0}' can't be a supertype of its upper bound"
+title = "Type parameter bound is redundant."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -42,4 +41,5 @@ If the type parameter can be any type, then remove the `extends` clause:
 ```dart
 class C<T> {}
 ```
+
 '''

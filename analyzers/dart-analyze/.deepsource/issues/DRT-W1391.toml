@@ -1,5 +1,5 @@
 
-title = "The library '{0}' is legacy, and shouldn't be imported into a null safe library"
+title = "Unsafe import of legacy library into a null safe library."
 weight = 70
 severity = "major"
 category = "bug-risk"

@@ -13,7 +13,7 @@ Assuming that the directory `local_package` doesn't contain a file
 `pubspec.yaml`, the following code produces this diagnostic because it's
 listed as the path of a package:
 
-{% prettify yaml tag=pre+code %}
+```yaml
 name: example
 dependencies:
   local_package:
@@ -25,7 +25,7 @@ dependencies:
 If the path is intended to be the root of a package, then add a
 `pubspec.yaml` file in the directory:
 
-{% prettify yaml tag=pre+code %}
+```yaml
 name: local_package
 ```
 

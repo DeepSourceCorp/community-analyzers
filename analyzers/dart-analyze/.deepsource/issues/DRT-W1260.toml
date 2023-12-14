@@ -1,5 +1,5 @@
 
-title = "The {0} '{1}' can't implement both '{2}' and '{3}' because the type arguments are different"
+title = "Conflicting generic interfaces."
 weight = 70
 severity = "major"
 category = "bug-risk"

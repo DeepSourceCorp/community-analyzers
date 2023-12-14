@@ -1,5 +1,4 @@
-
-title = "The operator '{0}' isn't defined for the type '{1}'"
+title = "Undefined operator."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -30,4 +29,5 @@ class C {
 
 C f(C c) => c + 2;
 ```
+
 '''

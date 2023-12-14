@@ -1,5 +1,4 @@
-
-title = "The element type '{0}' can't be assigned to the map key type '{1}'"
+title = "Invalid key type in map literal."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -31,4 +30,5 @@ If the type of the key is correct, then change the key type of the map:
 ```dart
 var m = <int, String>{2 : 'a'};
 ```
+
 '''

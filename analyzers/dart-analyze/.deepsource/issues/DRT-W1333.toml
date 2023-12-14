@@ -1,5 +1,4 @@
-
-title = "List patterns require one type argument or none, but {0} found"
+title = "List patterns can have at most one type argument."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -29,4 +28,5 @@ void f(Object x) {
   if (x case <int>[0]) {}
 }
 ```
+
 '''

@@ -1,5 +1,4 @@
-
-title = "The diagnostic '{0}' doesn't need to be ignored here because it's already being ignored"
+title = "Redundant ignore comment for diagnostic."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -45,4 +44,5 @@ void f() {
   var x = 0;
 }
 ```
+
 '''

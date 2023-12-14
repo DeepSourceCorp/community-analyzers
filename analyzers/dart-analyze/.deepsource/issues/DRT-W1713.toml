@@ -1,5 +1,4 @@
-
-title = "The enum is declared with {0} type parameters, but {1} type arguments were given"
+title = "Wrong number of type arguments provided for enum constant."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -41,4 +40,5 @@ enum E<T> {
   c<int>()
 }
 ```
+
 '''

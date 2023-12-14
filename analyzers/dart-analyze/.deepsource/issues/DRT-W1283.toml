@@ -1,5 +1,4 @@
-
-title = "The name '{0}' isn't a class"
+title = "Invalid class name specified for instance creation."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -44,4 +43,5 @@ void g() {
   f();
 }
 ```
+
 '''

@@ -1,5 +1,4 @@
-
-title = "The member '{0}' can only be used within '{1}' or a test"
+title = "Member annotated with `@visibleForTesting` used outside of tests."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -53,4 +52,5 @@ class C {
   void m() {}
 }
 ```
+
 '''

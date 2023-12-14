@@ -1,5 +1,5 @@
 
-title = "'{0}' can't be mixed onto '{1}' because '{1}' doesn't implement '{2}'"
+title = "Invalid mixin application."
 weight = 70
 severity = "major"
 category = "bug-risk"

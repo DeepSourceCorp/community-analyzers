@@ -13,7 +13,7 @@ referencing a directory that doesn't exist.
 Assuming that the directory `doesNotExist` doesn't exist, the following
 code produces this diagnostic because it's listed as the path of a package:
 
-{% prettify yaml tag=pre+code %}
+```yaml
 name: example
 dependencies:
   local_package:

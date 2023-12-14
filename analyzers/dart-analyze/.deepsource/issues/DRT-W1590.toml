@@ -1,5 +1,4 @@
-
-title = "The return type '{0}' of the redirected constructor isn't a subtype of '{1}'"
+title = "Invalid return type in factory constructor redirection."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -53,4 +52,5 @@ class C {
   factory C() = A;
 }
 ```
+
 '''

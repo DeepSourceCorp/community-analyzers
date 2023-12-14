@@ -1,5 +1,4 @@
-
-title = "'{0}' can't be used to name both a type variable and the class in which the type variable is defined.  '{0}' can't be used to name both a type variable and the enum in which the type variable is defined.  '{0}' can't be used to name both a type variable and the extension in which the type variable is defined.  '{0}' can't be used to name both a type variable and the mixin in which the type variable is defined"
+title = "Type parameter has the same name as the class, mixin, or extension that declares it."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -25,4 +24,5 @@ Rename either the type parameter, or the class, mixin, or extension:
 ```dart
 class C<T> {}
 ```
+
 '''

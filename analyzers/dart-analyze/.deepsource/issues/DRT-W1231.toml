@@ -13,7 +13,7 @@ that isn't a string.
 The following code produces this diagnostic because the asset list contains
 a map:
 
-{% prettify yaml tag=pre+code %}
+```yaml
 name: example
 flutter:
   assets:
@@ -25,7 +25,7 @@ flutter:
 Change the asset list so that it only contains valid POSIX-style file
 paths:
 
-{% prettify yaml tag=pre+code %}
+```yaml
 name: example
 flutter:
   assets:

@@ -1,5 +1,4 @@
-
-title = "The class '{0}' can't implement Finalizable"
+title = "Cannot implement `Finalizable` for a subclass of `Struct` or `Union`."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -34,4 +33,5 @@ final class S extends Struct {
   external Pointer notEmpty;
 }
 ```
+
 '''

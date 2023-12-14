@@ -15,7 +15,7 @@ check out the [documentation on platform declarations](https://dart.dev/tools/pu
 The following `pubspec.yaml` produces this diagnostic because `platforms`
 should be a map.
 
-{% prettify yaml tag=pre+code %}
+```yaml
 name: example
 platforms:
   [!- android
@@ -28,14 +28,14 @@ platforms:
 If you can rely on automatic platform detection, then omit the
 top-level `platforms` field. 
 
-{% prettify yaml tag=pre+code %}
+```yaml
 name: example
 ```
 
 If you need to manually specify the list of supported platforms, then
 write the `platforms` field as a map with platform names as keys.
 
-{% prettify yaml tag=pre+code %}
+```yaml
 name: example
 platforms:
   android:

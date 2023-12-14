@@ -1,5 +1,4 @@
-
-title = "The value of the field '{0}' isn't used"
+title = "Unused private field."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -33,4 +32,5 @@ reference to the parameter of the same name, not a reference to the field.
 If the field isn't needed, then remove it.
 
 If the field was intended to be used, then add the missing code.
+
 '''

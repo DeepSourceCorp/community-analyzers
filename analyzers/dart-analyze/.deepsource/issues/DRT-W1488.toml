@@ -1,5 +1,4 @@
-
-title = "The class '{0}' can't be used as a mixin because it declares a constructor"
+title = "Invalid use of class with constructor as a mixin."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -54,4 +53,5 @@ class A {
 
 class B extends A {}
 ```
+
 '''

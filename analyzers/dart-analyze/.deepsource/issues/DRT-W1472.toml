@@ -14,7 +14,7 @@ The following code produces this diagnostic because the package `path` is
 not listed as a dependency, while there is an import statement
 with package `path` in the source code of package `example`:
 
-{% prettify yaml tag=pre+code %}
+```yaml
 name: example
 dependencies:
   meta: ^1.0.2
@@ -24,7 +24,7 @@ dependencies:
 
 Add the missing package `path` to the `dependencies` field:
 
-{% prettify yaml tag=pre+code %}
+```yaml
 name: example
 dependencies:
   meta: ^1.0.2

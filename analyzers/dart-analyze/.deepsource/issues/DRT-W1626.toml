@@ -1,5 +1,4 @@
-
-title = "The class '{0}' can't extend '{1}'.  The class '{0}' can't implement '{1}'.  The class '{0}' can't mix in '{1}'"
+title = "Cannot extend or implement FFI classes other than 'Struct' or 'Union'."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -43,4 +42,5 @@ references to FFI classes:
 ```dart
 final class C {}
 ```
+
 '''

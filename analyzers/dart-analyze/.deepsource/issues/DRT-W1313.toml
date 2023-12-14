@@ -1,5 +1,4 @@
-
-title = "The variable '{0}' is already assigned in this pattern"
+title = "Duplicate assignment in pattern assignment."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -44,4 +43,5 @@ int f((int, int) r) {
   return a;
 }
 ```
+
 '''

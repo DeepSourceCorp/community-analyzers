@@ -14,7 +14,7 @@ Assuming that the directory `assets` doesn't exist, the following code
 produces this diagnostic because it's listed as a directory containing
 assets:
 
-{% prettify yaml tag=pre+code %}
+```yaml
 name: example
 flutter:
   assets:

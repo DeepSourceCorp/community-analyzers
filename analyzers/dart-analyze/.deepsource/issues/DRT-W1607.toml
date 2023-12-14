@@ -1,5 +1,4 @@
-
-title = "The class '{0}' wasn't exported from 'dart:core' until version 2.1, but this code is required to be able to run on earlier versions"
+title = "Missing import for 'Future' and 'Stream' classes in lower version SDKs."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -46,4 +45,5 @@ import 'dart:async';
 
 void f(Future f) {}
 ```
+
 '''

@@ -1,5 +1,4 @@
-
-title = "The name '{0}' is already used as an import prefix and can't be used to name a top-level element"
+title = "Name conflict between import prefix and top-level declaration."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -38,4 +37,5 @@ import 'dart:math' as math;
 
 int f() => math.min(0, 1);
 ```
+
 '''

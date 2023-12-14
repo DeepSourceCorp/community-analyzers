@@ -1,5 +1,4 @@
-
-title = "The class '{0}' doesn't have a constructor named '{1}'.  The class '{0}' doesn't have an unnamed constructor"
+title = "Missing or invalid superclass constructor invocation."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -61,4 +60,5 @@ class B extends A {
   B() : super.m();
 }
 ```
+
 '''

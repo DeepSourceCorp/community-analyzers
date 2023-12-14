@@ -1,5 +1,4 @@
-
-title = "'{0}' isn't a binary operator"
+title = "Invalid use of unary operator as a binary operator."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -24,4 +23,5 @@ Replace the operator with the correct binary operator:
 ```dart
 var a = 5 - 3;
 ```
+
 '''

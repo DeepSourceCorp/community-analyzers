@@ -1,5 +1,4 @@
-
-title = "The type '{0}' of this parameter isn't a subtype of the type '{1}' of the associated super constructor parameter"
+title = "Mismatched parameter type in super constructor."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -66,4 +65,5 @@ class B extends A {
   B(String x) : super(x.length);
 }
 ```
+
 '''

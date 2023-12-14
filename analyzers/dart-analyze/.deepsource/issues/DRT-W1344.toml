@@ -1,5 +1,4 @@
-
-title = "An extension can't define static member '{0}' and an instance member with the same name"
+title = "Conflicting instance and static members in an extension."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -33,4 +32,5 @@ extension E on Object {
   static int b() => 0;
 }
 ```
+
 '''

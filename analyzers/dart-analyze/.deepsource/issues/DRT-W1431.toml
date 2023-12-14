@@ -1,5 +1,4 @@
-
-title = "'{1}.{0}' ('{2}') isn't a valid override of '{3}.{0}' ('{4}').  The setter '{1}.{0}' ('{2}') isn't a valid override of '{3}.{0}' ('{4}')"
+title = "Invalid method override."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -59,4 +58,5 @@ class B extends A {
   void m2(String s) {}
 }
 ```
+
 '''

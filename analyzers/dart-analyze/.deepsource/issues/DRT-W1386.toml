@@ -1,5 +1,4 @@
-
-title = "'{0}' can't be used in both the 'extends' and 'implements' clauses.  '{0}' can't be used in both the 'extends' and 'with' clauses"
+title = "Same class used in 'extends' and 'implements' or 'with' clauses."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -48,4 +47,5 @@ class A {}
 
 class B implements A {}
 ```
+
 '''

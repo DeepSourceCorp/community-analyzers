@@ -1,5 +1,4 @@
-
-title = "Invalid URI syntax: '{0}'"
+title = "Invalid URI syntax."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -20,4 +19,5 @@ import '#';
 #### Common fixes
 
 Replace the invalid URI with a valid URI.
+
 '''

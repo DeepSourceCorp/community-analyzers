@@ -13,7 +13,7 @@ value that isn't a string.
 The following code produces this diagnostic because the value following the
 `name` key is a list:
 
-{% prettify yaml tag=pre+code %}
+```yaml
 name:
   - example
 ```
@@ -22,7 +22,7 @@ name:
 
 Replace the value with a string:
 
-{% prettify yaml tag=pre+code %}
+```yaml
 name: example
 ```
 '''

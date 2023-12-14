@@ -13,7 +13,7 @@ isn't a list.
 The following code produces this diagnostic because the value of the assets
 key is a string when a list is expected:
 
-{% prettify yaml tag=pre+code %}
+```yaml
 name: example
 flutter:
   assets: assets/
@@ -23,7 +23,7 @@ flutter:
 
 Change the value of the asset list so that it's a list:
 
-{% prettify yaml tag=pre+code %}
+```yaml
 name: example
 flutter:
   assets:

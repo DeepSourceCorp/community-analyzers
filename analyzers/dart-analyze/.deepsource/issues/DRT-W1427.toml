@@ -1,5 +1,4 @@
-
-title = "The modifier '{0}' can't be applied to the body of a constructor"
+title = "Invalid constructor modifier."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -41,4 +40,5 @@ class C {
   }
 }
 ```
+
 '''

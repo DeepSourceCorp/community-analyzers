@@ -1,5 +1,4 @@
-
-title = "The element type '{0}' can't be assigned to the map value type '{1}'"
+title = "Incompatible value type in map literal."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -32,4 +31,5 @@ If the type of the value is correct, then change the value type of the map:
 ```dart
 var m = <String, int>{'a' : 2};
 ```
+
 '''

@@ -1,5 +1,5 @@
 
-title = "The library '{0}' is internal and can't be imported"
+title = "Internal library can't be imported"
 weight = 70
 severity = "major"
 category = "bug-risk"

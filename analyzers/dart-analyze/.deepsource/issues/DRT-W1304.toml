@@ -1,5 +1,4 @@
-
-title = "The name '{0}' is already defined"
+title = "Duplicate declaration of name."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -26,4 +25,5 @@ Choose a different name for one of the declarations.
 int x = 0;
 int y = 1;
 ```
+
 '''

@@ -1,5 +1,4 @@
-
-title = "The class '{0}' shouldn't be extended, mixed in, or implemented because it's sealed"
+title = "Avoid extending, mixing in, or implementing sealed class outside of the same package."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -48,4 +47,5 @@ class B extends A {}
 If the class needs to be a subtype of the sealed class, then either change
 the sealed class so that it's no longer sealed or move the subclass into
 the same package as the sealed class.
+
 '''

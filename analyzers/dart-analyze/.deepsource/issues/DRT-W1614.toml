@@ -16,7 +16,7 @@ won't be able to run against earlier versions of the SDK.
 Here's an example of a pubspec that defines an SDK constraint with a lower
 bound of less than 2.3.2:
 
-{% prettify yaml tag=pre+code %}
+```yaml
 environment:
   sdk: '>=2.1.0 <2.4.0'
 ```
@@ -34,7 +34,7 @@ const y = x is int ? 0 : 1;
 If you don't need to support older versions of the SDK, then you can
 increase the SDK constraint to allow the expression to be used:
 
-{% prettify yaml tag=pre+code %}
+```yaml
 environment:
   sdk: '>=2.3.2 <2.4.0'
 ```

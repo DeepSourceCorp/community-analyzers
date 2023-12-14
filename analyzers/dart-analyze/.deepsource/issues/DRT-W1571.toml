@@ -15,7 +15,7 @@ check out the [documentation on platform declarations](https://dart.dev/tools/pu
 The following `pubspec.yaml` produces this diagnostic because the key
 `web` has a value.
 
-{% prettify yaml tag=pre+code %}
+```yaml
 name: example
 platforms:
   web: "chrome"
@@ -25,7 +25,7 @@ platforms:
 
 Omit the value and leave the key without a value:
 
-{% prettify yaml tag=pre+code %}
+```yaml
 name: example
 platforms:
   web:

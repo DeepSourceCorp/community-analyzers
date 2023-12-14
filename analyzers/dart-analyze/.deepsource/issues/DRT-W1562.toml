@@ -1,5 +1,4 @@
-
-title = "The included part '{0}' must have a part-of directive"
+title = "Missing part-of directive in included file."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -40,4 +39,5 @@ directive with an import directive:
 ```dart
 import 'a.dart';
 ```
+
 '''

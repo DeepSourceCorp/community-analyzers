@@ -1,5 +1,4 @@
-
-title = "This instance creation must be 'const', because the {0} constructor is marked as '@literal'"
+title = "Missing `const` keyword when invoking a constructor with `@literal` annotation."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -40,4 +39,5 @@ class C {
 
 void f() => const C();
 ```
+
 '''

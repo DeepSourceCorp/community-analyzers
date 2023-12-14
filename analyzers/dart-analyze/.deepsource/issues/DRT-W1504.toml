@@ -1,5 +1,4 @@
-
-title = "Missing concrete implementation of '{0}'.  Missing concrete implementations of '{0}' and '{1}'.  Missing concrete implementations of '{0}', '{1}', '{2}', '{3}', and {4} more.  Missing concrete implementations of '{0}', '{1}', '{2}', and '{3}'.  Missing concrete implementations of '{0}', '{1}', and '{2}'"
+title = "Missing concrete implementation of abstract member(s)."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -62,4 +61,5 @@ abstract class A {
 
 abstract class B extends A {}
 ```
+
 '''

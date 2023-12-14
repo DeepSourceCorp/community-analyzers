@@ -1,5 +1,4 @@
-
-title = "The library is unnamed. A URI is expected, not a library name '{0}', in the part-of directive"
+title = "Invalid 'part of' directive in unnamed library."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -35,4 +34,5 @@ by URI:
 ```dart
 part of 'test.dart';
 ```
+
 '''

@@ -1,5 +1,4 @@
-
-title = "The implicitly invoked unnamed constructor from '{0}' has required parameters"
+title = "Implicitly invoked unnamed constructor has missing required parameters."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -82,4 +81,5 @@ class B extends A {
   B() : super(0);
 }
 ```
+
 '''

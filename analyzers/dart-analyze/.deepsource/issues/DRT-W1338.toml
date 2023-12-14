@@ -1,5 +1,4 @@
-
-title = "The library '{0}' is internal and can't be exported"
+title = "Internal library can't be exported."
 weight = 70
 severity = "major"
 category = "bug-risk"

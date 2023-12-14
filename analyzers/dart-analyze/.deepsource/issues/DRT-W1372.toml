@@ -13,7 +13,7 @@ isn't a map.
 The following code produces this diagnostic because the value of the
 top-level `flutter` key is a string:
 
-{% prettify yaml tag=pre+code %}
+```yaml
 name: example
 flutter: true
 ```
@@ -23,7 +23,7 @@ flutter: true
 If you need to specify Flutter-specific options, then change the value to
 be a map:
 
-{% prettify yaml tag=pre+code %}
+```yaml
 name: example
 flutter:
   uses-material-design: true
@@ -32,7 +32,7 @@ flutter:
 If you don't need to specify Flutter-specific options, then remove the
 `flutter` key:
 
-{% prettify yaml tag=pre+code %}
+```yaml
 name: example
 ```
 '''

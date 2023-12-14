@@ -1,5 +1,5 @@
 
-title = "'{0}' doesn't conform to the bound '{2}' of the type parameter '{1}'"
+title = "Type argument not matching bounds."
 weight = 70
 severity = "major"
 category = "bug-risk"

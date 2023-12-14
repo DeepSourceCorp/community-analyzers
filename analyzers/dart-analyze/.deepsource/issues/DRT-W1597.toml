@@ -1,5 +1,4 @@
-
-title = "The constant expression type '{0}' is not assignable to the parameter type '{1}' of the '{2}' operator"
+title = "Relational pattern operand type not assignable to operator parameter type."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -69,4 +68,5 @@ void f(C c) {
   }
 }
 ```
+
 '''

@@ -13,7 +13,7 @@ The `name` key provides the name of the package, which is required.
 The following code produces this diagnostic because the package doesn't
 have a name:
 
-{% prettify yaml tag=pre+code %}
+```yaml
 dependencies:
   meta: ^1.0.2
 ```
@@ -22,7 +22,7 @@ dependencies:
 
 Add the top-level key `name` with a value that's the name of the package:
 
-{% prettify yaml tag=pre+code %}
+```yaml
 name: example
 dependencies:
   meta: ^1.0.2

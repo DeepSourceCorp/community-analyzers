@@ -1,5 +1,5 @@
 
-title = "Target of URI hasn't been generated: '{0}'"
+title = "Target URI hasn't been generated."
 weight = 70
 severity = "major"
 category = "bug-risk"

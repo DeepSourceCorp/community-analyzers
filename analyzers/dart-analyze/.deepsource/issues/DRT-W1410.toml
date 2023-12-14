@@ -1,5 +1,4 @@
-
-title = "The annotation '{0}' can only be used on {1}"
+title = "Invalid annotation target."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -23,4 +22,5 @@ int x = 0;
 #### Common fixes
 
 Remove the annotation from the declaration.
+
 '''

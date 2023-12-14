@@ -13,7 +13,7 @@ whose value is a string, but isn't a POSIX-style path.
 The following code produces this diagnostic because the path following the
 `path` key is a Windows path:
 
-{% prettify yaml tag=pre+code %}
+```yaml
 name: example
 dependencies:
   local_package:

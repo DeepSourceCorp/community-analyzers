@@ -1,5 +1,5 @@
 
-title = "{0} isn't a type"
+title = "Non-type name used as type."
 weight = 70
 severity = "major"
 category = "bug-risk"

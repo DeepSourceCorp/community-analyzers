@@ -1,5 +1,4 @@
-
-title = "A value of type '{0}' can't be assigned to a variable of type '{1}'"
+title = "Incompatible types for variable assignment."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -40,4 +39,5 @@ compatible with the type of the value being assigned:
 int i = 0;
 int s = i;
 ```
+
 '''

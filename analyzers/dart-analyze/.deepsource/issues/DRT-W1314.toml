@@ -1,5 +1,4 @@
-
-title = "The field '{0}' is already matched in this pattern"
+title = "Duplicate field or getter in pattern matching."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -63,4 +62,5 @@ void f(({int a, int b}) r) {
   }
 }
 ```
+
 '''

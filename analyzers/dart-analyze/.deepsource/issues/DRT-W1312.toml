@@ -1,5 +1,4 @@
-
-title = "The library already contains a part with the URI '{0}'"
+title = "Duplicate part directives."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -35,4 +34,5 @@ library lib;
 
 part 'part.dart';
 ```
+
 '''

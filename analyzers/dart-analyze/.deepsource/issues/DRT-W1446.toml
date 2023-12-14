@@ -1,5 +1,5 @@
 
-title = "The member '{0}' can only be used for overriding"
+title = "Invalid use of visible for overriding member."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -23,7 +23,7 @@ class A {
 }
 ```
 
-The following code produces this diagnostic because the method `m` is being
+The following code produces this diagnostic because the method `a` is being
 invoked even though the only reason it's public is to allow it to be
 overridden:
 

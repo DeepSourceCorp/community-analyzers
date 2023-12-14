@@ -1,5 +1,4 @@
-
-title = "The super-invoked member '{0}' has the type '{1}', and the concrete member in the class has the type '{2}'"
+title = "Mismatched method signature in mixin invocation."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -98,4 +97,5 @@ mixin M on I {
 
 abstract class C extends B with M {}
 ```
+
 '''

@@ -1,5 +1,4 @@
-
-title = "'{0}' shouldn't be called with a null argument for the non-nullable type argument '{1}'"
+title = "Invalid null argument for non-nullable type argument."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -32,4 +31,5 @@ Future<String> f() {
   return Future.value('');
 }
 ```
+
 '''

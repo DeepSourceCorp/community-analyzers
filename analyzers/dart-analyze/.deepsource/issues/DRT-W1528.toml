@@ -1,5 +1,5 @@
 
-title = "The unnamed constructor of superclass '{0}' (called by the default constructor of '{1}') must be a generative constructor, but factory found"
+title = "Implicit generative constructor in subclass cannot invoke explicit unnamed factory constructor in superclass."
 weight = 70
 severity = "major"
 category = "bug-risk"

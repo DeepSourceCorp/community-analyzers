@@ -13,7 +13,7 @@ referencing a file that doesn't exist.
 Assuming that the file `doesNotExist.gif` doesn't exist, the following code
 produces this diagnostic because it's listed as an asset:
 
-{% prettify yaml tag=pre+code %}
+```yaml
 name: example
 flutter:
   assets:

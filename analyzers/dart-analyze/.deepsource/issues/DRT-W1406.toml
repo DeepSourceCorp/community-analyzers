@@ -1,5 +1,4 @@
-
-title = "The integer literal {0} can't be represented in 64 bits"
+title = "Integer literal exceeds 64-bit representation limit."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -26,4 +25,5 @@ the class `BigInt`:
 ```dart
 var x = BigInt.parse('9223372036854775810');
 ```
+
 '''

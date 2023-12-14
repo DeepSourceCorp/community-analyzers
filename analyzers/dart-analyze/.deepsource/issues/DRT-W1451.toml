@@ -1,5 +1,5 @@
 
-title = "The extension '{0}' doesn't define a 'call' method so the override can't be used in an invocation"
+title = "Invocation of extension that doesn't define a `call` method."
 weight = 70
 severity = "major"
 category = "bug-risk"

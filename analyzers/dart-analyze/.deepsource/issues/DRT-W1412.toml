@@ -16,7 +16,7 @@ more information about the kind of dependencies that are supported.
 The following code produces this diagnostic because the dependency on the
 package `transmogrify` isn't a pub, `git`, or `path` based dependency:
 
-{% prettify yaml tag=pre+code %}
+```yaml
 name: example
 dependencies:
   transmogrify:
@@ -35,7 +35,7 @@ If you don't want to publish your package to `pub.dev`, then add a
 `publish_to: none` entry to mark the package as one that isn't intended to
 be published:
 
-{% prettify yaml tag=pre+code %}
+```yaml
 name: example
 publish_to: none
 dependencies:

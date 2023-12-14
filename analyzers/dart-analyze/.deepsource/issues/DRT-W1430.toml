@@ -1,5 +1,4 @@
-
-title = "The receiver can't be null because of short-circuiting, so the null-aware operator '{0}' can't be used.  The receiver can't be null, so the null-aware operator '{0}' is unnecessary"
+title = "Invalid usage of null-aware operators on non-nullable receivers."
 weight = 70
 severity = "major"
 category = "bug-risk"
@@ -71,4 +70,5 @@ int getLength(String s) {
 
 (Note that the return type was also changed to be non-nullable, which might
 not be appropriate in some cases.)
+
 '''

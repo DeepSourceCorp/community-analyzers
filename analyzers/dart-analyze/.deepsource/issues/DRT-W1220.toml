@@ -1,5 +1,5 @@
 
-title = "The name '{0}' is defined in the libraries {1}"
+title = "Ambiguous import."
 weight = 70
 severity = "major"
 category = "bug-risk"

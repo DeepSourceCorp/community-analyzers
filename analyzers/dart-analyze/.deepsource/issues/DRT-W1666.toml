@@ -1,5 +1,5 @@
 
-title = "Undefined name '{0}'"
+title = "Undefined identifier."
 weight = 70
 severity = "major"
 category = "bug-risk"
