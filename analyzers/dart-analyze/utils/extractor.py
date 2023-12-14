@@ -160,10 +160,10 @@ class IssueExtractor:
         rules = json.load(response)
         return [
             Issue(
-                self.get_linter_rule_code(rule),
-                self.get_linter_rule_title(rule),
-                self.get_linter_rule_description(rule),
-                self.get_linter_rule_category(rule),
+                code=self.get_linter_rule_code(rule),
+                title=self.get_linter_rule_title(rule),
+                description=self.get_linter_rule_description(rule),
+                category=self.get_linter_rule_category(rule),
             )
             for rule in rules
             if rule["state"] == "stable"
