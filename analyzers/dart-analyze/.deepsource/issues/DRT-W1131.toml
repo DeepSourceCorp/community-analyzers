@@ -1,4 +1,3 @@
-
 title = "Prefer double quotes where they won't require escape sequences"
 weight = 70
 severity = "major"

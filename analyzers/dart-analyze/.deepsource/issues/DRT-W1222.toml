@@ -1,4 +1,3 @@
-
 title = "This literal must be either a map or a set, but the elements don't have enough information for type inference to work"
 weight = 70
 severity = "major"

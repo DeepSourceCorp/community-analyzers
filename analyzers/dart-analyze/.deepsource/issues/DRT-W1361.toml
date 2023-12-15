@@ -1,4 +1,3 @@
-
 title = "Initializing formal parameters can't be used in factory constructors"
 weight = 70
 severity = "major"

@@ -1,4 +1,3 @@
-
 title = "Fields can't be initialized in the constructor if they are final and were already initialized at their declaration"
 weight = 70
 severity = "major"

@@ -1,4 +1,3 @@
-
 title = "Typedefs can't reference themselves directly or recursively via another typedef"
 weight = 70
 severity = "major"

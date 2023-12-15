@@ -1,4 +1,3 @@
-
 title = "Invocation of various collection methods with arguments of unrelated types"
 weight = 70
 severity = "major"

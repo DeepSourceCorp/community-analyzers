@@ -1,4 +1,3 @@
-
 title = "A record type without fields can't have a trailing comma"
 weight = 70
 severity = "major"

@@ -1,4 +1,3 @@
-
 title = "Constant variables can't be assigned a value"
 weight = 70
 severity = "major"

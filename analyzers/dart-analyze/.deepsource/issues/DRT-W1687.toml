@@ -1,4 +1,3 @@
-
 title = "Braces unnecessarily wrap this expression in a set literal"
 weight = 70
 severity = "major"

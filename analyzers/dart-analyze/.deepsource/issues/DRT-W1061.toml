@@ -1,4 +1,3 @@
-
 title = "Avoid positional boolean parameters"
 weight = 70
 severity = "major"

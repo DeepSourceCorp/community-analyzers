@@ -1,4 +1,3 @@
-
 title = "Spread elements in list or set literals must implement 'Iterable'"
 weight = 70
 severity = "major"

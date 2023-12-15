@@ -1,4 +1,3 @@
-
 title = "Use generic function type syntax for parameters"
 weight = 70
 severity = "major"

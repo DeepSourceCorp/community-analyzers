@@ -1,4 +1,3 @@
-
 title = "<a id=\"continue_label_on_switch\" aria-hidden=\"true\"></a>_(Previously known as `continue_label_on_switch`)  The label used in a 'continue' statement must be defined on either a loop or a switch member"
 weight = 70
 severity = "major"

@@ -1,4 +1,3 @@
-
 title = "Avoid defining a one-member abstract class when a simple function will do"
 weight = 70
 severity = "major"

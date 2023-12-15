@@ -1,4 +1,3 @@
-
 title = "The return type of the setter must be 'void' or absent"
 weight = 70
 severity = "major"

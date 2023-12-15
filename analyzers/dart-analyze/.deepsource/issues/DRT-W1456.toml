@@ -1,4 +1,3 @@
-
 title = "Can't have a late final field in a class with a generative const constructor"
 weight = 70
 severity = "major"

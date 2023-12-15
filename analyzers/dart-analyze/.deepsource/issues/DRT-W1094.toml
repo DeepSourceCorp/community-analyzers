@@ -1,4 +1,3 @@
-
 title = "Don't import implementation files from another package"
 weight = 70
 severity = "major"

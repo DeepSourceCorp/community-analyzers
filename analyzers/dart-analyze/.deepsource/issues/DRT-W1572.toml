@@ -1,4 +1,3 @@
-
 title = "Object patterns can only use named fields"
 weight = 70
 severity = "major"

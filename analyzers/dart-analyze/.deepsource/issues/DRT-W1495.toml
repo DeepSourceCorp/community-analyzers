@@ -1,4 +1,3 @@
-
 title = "Constructors can have only one 'this' redirection, at most"
 weight = 70
 severity = "major"

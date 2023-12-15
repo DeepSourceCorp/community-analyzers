@@ -1,4 +1,3 @@
-
 title = "Extension overrides must have exactly one argument: the value of 'this' in the extension method"
 weight = 70
 severity = "major"

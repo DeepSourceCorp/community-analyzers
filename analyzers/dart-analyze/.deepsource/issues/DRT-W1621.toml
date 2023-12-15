@@ -1,4 +1,3 @@
-
 title = "'Array's must have an 'Array' annotation that matches the dimensions"
 weight = 70
 severity = "major"

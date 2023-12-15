@@ -1,4 +1,3 @@
-
 title = "Inline list item declarations where possible"
 weight = 70
 severity = "major"

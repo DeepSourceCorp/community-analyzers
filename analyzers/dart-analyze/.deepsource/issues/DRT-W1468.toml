@@ -1,4 +1,3 @@
-
 title = "The annotation doesn't match the declared type of the field"
 weight = 70
 severity = "major"

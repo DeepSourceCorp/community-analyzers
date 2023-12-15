@@ -1,4 +1,3 @@
-
 title = "Functions can't be assigned a value"
 weight = 70
 severity = "major"

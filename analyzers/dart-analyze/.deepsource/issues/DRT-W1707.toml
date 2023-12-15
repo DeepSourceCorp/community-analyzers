@@ -1,4 +1,3 @@
-
 title = "Variable patterns in declaration context can't specify 'var' or 'final' keyword"
 weight = 70
 severity = "major"

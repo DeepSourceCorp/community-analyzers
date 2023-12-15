@@ -1,4 +1,3 @@
-
 title = "Classes and mixins can't implement deferred classes.  Classes can't extend deferred classes.  Classes can't mixin deferred classes"
 weight = 70
 severity = "major"

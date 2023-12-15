@@ -1,4 +1,3 @@
-
 title = "The compile-time constant expression depends on itself"
 weight = 70
 severity = "major"

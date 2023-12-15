@@ -1,4 +1,3 @@
-
 title = "Mismatch between constant pattern and value type"
 weight = 70
 severity = "major"

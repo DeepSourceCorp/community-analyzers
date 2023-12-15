@@ -1,4 +1,3 @@
-
 title = "Prefer const literals as parameters of constructors on @immutable classes"
 weight = 70
 severity = "major"

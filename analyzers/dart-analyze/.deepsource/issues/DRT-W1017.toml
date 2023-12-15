@@ -1,4 +1,3 @@
-
 title = "Don't invoke asynchronous functions in non-async blocks"
 weight = 70
 severity = "major"

@@ -1,4 +1,3 @@
-
 title = "The if and spread elements weren't supported in constant expressions until version 2.5.0, but this code is required to be able to run on earlier versions"
 weight = 70
 severity = "major"

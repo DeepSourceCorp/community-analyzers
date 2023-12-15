@@ -1,4 +1,3 @@
-
 title = "Can't return a value from a generator function that uses the 'async*' or 'sync*' modifier"
 weight = 70
 severity = "major"

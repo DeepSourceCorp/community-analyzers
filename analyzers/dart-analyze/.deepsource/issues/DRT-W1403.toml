@@ -1,4 +1,3 @@
-
 title = "Enums can't be instantiated"
 weight = 70
 severity = "major"

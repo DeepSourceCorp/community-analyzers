@@ -1,4 +1,3 @@
-
 title = "Two elements in a set literal shouldn't be equal"
 weight = 70
 severity = "major"

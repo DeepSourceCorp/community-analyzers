@@ -1,4 +1,3 @@
-
 title = "Don't use constant patterns with type literals"
 weight = 70
 severity = "major"

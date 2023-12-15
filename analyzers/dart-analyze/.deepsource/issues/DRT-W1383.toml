@@ -1,4 +1,3 @@
-
 title = "Functions marked 'sync*' must have a return type that is a supertype of 'Iterable<T>' for some type 'T'"
 weight = 70
 severity = "major"

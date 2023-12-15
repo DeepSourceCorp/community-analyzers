@@ -1,4 +1,3 @@
-
 title = "Abstract fields can't have initializers"
 weight = 70
 severity = "major"

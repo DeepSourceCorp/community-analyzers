@@ -1,4 +1,3 @@
-
 title = "Prefer intValue.isOdd/isEven instead of checking the result of % 2"
 weight = 70
 severity = "major"

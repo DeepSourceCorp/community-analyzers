@@ -1,4 +1,3 @@
-
 title = "Avoid using private types in public APIs"
 weight = 70
 severity = "major"

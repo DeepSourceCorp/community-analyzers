@@ -1,4 +1,3 @@
-
 title = "Omit type annotations for local variables"
 weight = 70
 severity = "major"

@@ -1,4 +1,3 @@
-
 title = "Functions marked 'async*' must have a return type that is a supertype of 'Stream<T>' for some type 'T'"
 weight = 70
 severity = "major"

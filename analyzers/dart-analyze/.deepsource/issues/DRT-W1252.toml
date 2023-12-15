@@ -1,4 +1,3 @@
-
 title = "This cast always throws an exception because the expression always evaluates to 'null'"
 weight = 70
 severity = "major"

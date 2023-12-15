@@ -1,4 +1,3 @@
-
 title = "Dependency path isn't a POSIX-style path"
 weight = 70
 severity = "major"

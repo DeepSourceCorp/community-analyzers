@@ -1,4 +1,3 @@
-
 title = "A double can't equal 'double.nan', so the condition is always 'false'.  A double can't equal 'double.nan', so the condition is always 'true'"
 weight = 70
 severity = "major"

@@ -1,4 +1,3 @@
-
 title = "The 'await' expression can't be used in a 'late' local variable's initializer"
 weight = 70
 severity = "major"

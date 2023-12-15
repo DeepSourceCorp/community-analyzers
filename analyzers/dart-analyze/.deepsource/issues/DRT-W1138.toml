@@ -1,4 +1,3 @@
-
 title = "Use `forEach` to only apply a function to all the elements"
 weight = 70
 severity = "major"

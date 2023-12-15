@@ -1,4 +1,3 @@
-
 title = "Functions marked 'async' must have a return type which is a supertype of 'Future'"
 weight = 70
 severity = "major"

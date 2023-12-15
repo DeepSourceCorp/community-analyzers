@@ -1,4 +1,3 @@
-
 title = "The relational pattern expression must be a constant"
 weight = 70
 severity = "major"

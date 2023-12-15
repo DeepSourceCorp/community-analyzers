@@ -1,4 +1,3 @@
-
 title = "Classes can only extend other classes"
 weight = 70
 severity = "major"

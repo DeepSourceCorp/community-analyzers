@@ -1,4 +1,3 @@
-
 title = "A redirecting constructor can't redirect to a type alias that expands to a type parameter"
 weight = 70
 severity = "major"

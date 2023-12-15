@@ -1,4 +1,3 @@
-
 title = "Avoid field initializers in const classes"
 weight = 70
 severity = "major"

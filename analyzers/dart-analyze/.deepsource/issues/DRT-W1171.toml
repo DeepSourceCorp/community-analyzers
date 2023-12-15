@@ -1,4 +1,3 @@
-
 title = "`Future` results in `async` function bodies must be `await`ed or marked `unawaited` using `dart:async`"
 weight = 70
 severity = "major"

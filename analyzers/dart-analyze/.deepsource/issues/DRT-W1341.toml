@@ -1,4 +1,3 @@
-
 title = "Expressions can't be used in a map literal"
 weight = 70
 severity = "major"

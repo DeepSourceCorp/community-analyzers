@@ -1,4 +1,3 @@
-
 title = "DO use curly braces for all flow control structures"
 weight = 70
 severity = "major"

@@ -1,4 +1,3 @@
-
 title = "Only public elements in a package's private API can be annotated as being internal"
 weight = 70
 severity = "major"

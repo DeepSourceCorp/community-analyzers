@@ -1,4 +1,3 @@
-
 title = "Don't type annotate initializing formals"
 weight = 70
 severity = "major"

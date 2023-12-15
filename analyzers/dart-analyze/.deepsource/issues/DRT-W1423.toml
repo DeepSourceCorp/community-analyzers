@@ -1,4 +1,3 @@
-
 title = "Inline function types can't be used for parameters in a generic function type"
 weight = 70
 severity = "major"

@@ -1,4 +1,3 @@
-
 title = "Extension can't be used as an expression"
 weight = 70
 severity = "major"

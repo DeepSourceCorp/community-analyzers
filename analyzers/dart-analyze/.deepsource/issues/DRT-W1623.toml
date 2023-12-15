@@ -1,4 +1,3 @@
-
 title = "Subtype of `base` or `final` is not `base`, `final` or `sealed`"
 weight = 70
 severity = "major"

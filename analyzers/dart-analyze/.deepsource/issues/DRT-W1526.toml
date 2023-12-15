@@ -1,4 +1,3 @@
-
 title = "Enums can only declare final fields"
 weight = 70
 severity = "major"

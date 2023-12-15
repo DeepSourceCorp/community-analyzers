@@ -1,4 +1,3 @@
-
 title = "Private field could be final"
 weight = 70
 severity = "major"

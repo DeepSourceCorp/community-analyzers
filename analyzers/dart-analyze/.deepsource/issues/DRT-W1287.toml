@@ -1,4 +1,3 @@
-
 title = "The left operand can't be null, so the right operand is never executed"
 weight = 70
 severity = "major"

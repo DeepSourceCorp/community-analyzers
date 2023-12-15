@@ -1,4 +1,3 @@
-
 title = "Key expressions in map patterns must be constants"
 weight = 70
 severity = "major"

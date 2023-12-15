@@ -1,4 +1,3 @@
-
 title = "URIs can't use string interpolation"
 weight = 70
 severity = "major"

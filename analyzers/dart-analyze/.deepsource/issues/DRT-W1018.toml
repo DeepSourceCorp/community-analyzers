@@ -1,4 +1,3 @@
-
 title = "Avoid empty statements"
 weight = 70
 severity = "major"

@@ -1,4 +1,3 @@
-
 title = "Don't use explicit `break`s when a break is implied"
 weight = 70
 severity = "major"

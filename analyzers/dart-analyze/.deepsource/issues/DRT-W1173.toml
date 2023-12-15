@@ -1,4 +1,3 @@
-
 title = "Avoid using braces in interpolation when not needed"
 weight = 70
 severity = "major"

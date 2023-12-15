@@ -1,4 +1,3 @@
-
 title = "Invalid use of built-in identifier for declaration name"
 weight = 70
 severity = "major"

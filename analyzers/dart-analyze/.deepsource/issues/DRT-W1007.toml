@@ -1,4 +1,3 @@
-
 title = "Avoid <Type>.toString() in production code since results may be minified"
 weight = 70
 severity = "major"

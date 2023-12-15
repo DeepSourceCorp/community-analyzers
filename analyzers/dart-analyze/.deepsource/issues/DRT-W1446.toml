@@ -1,4 +1,3 @@
-
 title = "Invalid use of visible for overriding member"
 weight = 70
 severity = "major"

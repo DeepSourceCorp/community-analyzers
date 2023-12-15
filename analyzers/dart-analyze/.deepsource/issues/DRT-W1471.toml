@@ -1,4 +1,3 @@
-
 title = "Missing default value for non-nullable optional parameter"
 weight = 70
 severity = "major"

@@ -1,4 +1,3 @@
-
 title = "Don't declare multiple variables on a single line"
 weight = 70
 severity = "major"

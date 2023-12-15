@@ -1,4 +1,3 @@
-
 title = "Avoid library directives unless they have documentation comments or annotations"
 weight = 70
 severity = "major"

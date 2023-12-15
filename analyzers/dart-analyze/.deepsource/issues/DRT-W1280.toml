@@ -1,4 +1,3 @@
-
 title = "A constant constructor tearoff can't use a type parameter as a type argument.  A constant creation can't use a type parameter as a type argument.  A constant function tearoff can't use a type parameter as a type argument"
 weight = 70
 severity = "major"

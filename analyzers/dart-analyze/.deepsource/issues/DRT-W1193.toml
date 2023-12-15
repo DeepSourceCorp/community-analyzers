@@ -1,4 +1,3 @@
-
 title = "Unnecessary toList() in spreads"
 weight = 70
 severity = "major"

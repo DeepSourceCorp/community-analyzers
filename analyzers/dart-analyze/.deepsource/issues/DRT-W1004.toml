@@ -1,4 +1,3 @@
-
 title = "Avoid `print` calls in production code"
 weight = 70
 severity = "major"

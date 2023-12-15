@@ -1,4 +1,3 @@
-
 title = "The field doesn't override an inherited getter or setter.  The getter doesn't override an inherited getter.  The method doesn't override an inherited method.  The setter doesn't override an inherited setter"
 weight = 70
 severity = "major"

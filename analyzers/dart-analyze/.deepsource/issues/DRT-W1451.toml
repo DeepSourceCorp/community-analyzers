@@ -1,4 +1,3 @@
-
 title = "Invocation of extension that doesn't define a `call` method"
 weight = 70
 severity = "major"

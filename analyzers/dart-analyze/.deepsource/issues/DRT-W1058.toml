@@ -1,4 +1,3 @@
-
 title = "Avoid JavaScript rounded ints"
 weight = 70
 severity = "major"

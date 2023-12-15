@@ -1,4 +1,3 @@
-
 title = "Use contains for `List` and `String` instances"
 weight = 70
 severity = "major"

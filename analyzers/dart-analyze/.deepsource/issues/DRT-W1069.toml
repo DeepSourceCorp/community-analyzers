@@ -1,4 +1,3 @@
-
 title = "Avoid shadowing type parameters"
 weight = 70
 severity = "major"

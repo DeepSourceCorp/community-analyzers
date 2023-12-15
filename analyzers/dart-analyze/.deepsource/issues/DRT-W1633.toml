@@ -1,4 +1,3 @@
-
 title = "Super invocation not at the end of initializer list"
 weight = 70
 severity = "major"

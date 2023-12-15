@@ -1,4 +1,3 @@
-
 title = "Prefix shadowed by a local declaration"
 weight = 70
 severity = "major"

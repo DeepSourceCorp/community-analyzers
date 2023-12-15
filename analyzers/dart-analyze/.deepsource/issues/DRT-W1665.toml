@@ -1,4 +1,3 @@
-
 title = "Invalid name in hide combinator for imported library"
 weight = 70
 severity = "major"

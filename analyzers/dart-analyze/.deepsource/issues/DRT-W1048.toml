@@ -1,4 +1,3 @@
-
 title = "Don't explicitly catch Error or types that implement it"
 weight = 70
 severity = "major"

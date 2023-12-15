@@ -1,4 +1,3 @@
-
 title = "The operand can't be null, so the condition is always 'false'.  The operand can't be null, so the condition is always 'true'"
 weight = 70
 severity = "major"

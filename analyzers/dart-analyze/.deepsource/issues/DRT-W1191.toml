@@ -1,4 +1,3 @@
-
 title = "Unnecessary string interpolation"
 weight = 70
 severity = "major"

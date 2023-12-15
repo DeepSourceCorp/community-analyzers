@@ -1,4 +1,3 @@
-
 title = "Invalid superclass for class with generative constructors"
 weight = 70
 severity = "major"

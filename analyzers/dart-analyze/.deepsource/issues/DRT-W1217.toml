@@ -1,4 +1,3 @@
-
 title = "Inherited member is always abstract in the supertype"
 weight = 70
 severity = "major"

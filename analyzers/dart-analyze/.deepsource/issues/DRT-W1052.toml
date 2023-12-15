@@ -1,4 +1,3 @@
-
 title = "Avoid escaping inner quotes by converting surrounding quotes"
 weight = 70
 severity = "major"

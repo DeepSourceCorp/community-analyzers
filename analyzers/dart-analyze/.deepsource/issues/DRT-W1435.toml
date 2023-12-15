@@ -1,4 +1,3 @@
-
 title = "Generative enum constructors can only be used as targets of redirection"
 weight = 70
 severity = "major"

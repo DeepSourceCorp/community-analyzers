@@ -1,4 +1,3 @@
-
 title = "Implicit generative constructor in subclass cannot invoke explicit unnamed factory constructor in superclass"
 weight = 70
 severity = "major"

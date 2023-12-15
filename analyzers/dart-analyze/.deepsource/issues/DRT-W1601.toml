@@ -1,4 +1,3 @@
-
 title = "Constructors can't return values"
 weight = 70
 severity = "major"

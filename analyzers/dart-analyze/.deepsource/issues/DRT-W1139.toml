@@ -1,4 +1,3 @@
-
 title = "Use a function declaration to bind a function to a name"
 weight = 70
 severity = "major"

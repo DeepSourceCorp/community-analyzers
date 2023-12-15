@@ -1,4 +1,3 @@
-
 title = "Avoid annotating types for function expression parameters"
 weight = 70
 severity = "major"

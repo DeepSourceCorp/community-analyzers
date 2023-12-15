@@ -1,4 +1,3 @@
-
 title = "Avoid using `null` in `if null` operators"
 weight = 70
 severity = "major"

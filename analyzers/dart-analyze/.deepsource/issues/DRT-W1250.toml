@@ -1,4 +1,3 @@
-
 title = "The switch case expression type must be a subtype of the switch expression type"
 weight = 70
 severity = "major"

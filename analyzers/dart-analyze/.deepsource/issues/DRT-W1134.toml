@@ -1,4 +1,3 @@
-
 title = "Prefer final in for-each loop variable if reference is not reassigned"
 weight = 70
 severity = "major"

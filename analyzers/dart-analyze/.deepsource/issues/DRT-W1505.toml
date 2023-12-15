@@ -1,4 +1,3 @@
-
 title = "Conditions must have a static type of 'bool'"
 weight = 70
 severity = "major"

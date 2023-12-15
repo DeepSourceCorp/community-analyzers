@@ -1,4 +1,3 @@
-
 title = "The null-assert pattern will have no effect because the matched type isn't nullable"
 weight = 70
 severity = "major"

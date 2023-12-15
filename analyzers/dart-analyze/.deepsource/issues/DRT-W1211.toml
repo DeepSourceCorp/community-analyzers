@@ -1,4 +1,3 @@
-
 title = "Classes extending 'AbiSpecificInteger' must have exactly one const constructor, no other members, and no type parameters"
 weight = 70
 severity = "major"

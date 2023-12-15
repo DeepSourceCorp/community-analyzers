@@ -1,4 +1,3 @@
-
 title = "Fields of 'Struct' and 'Union' subclasses must be marked external"
 weight = 70
 severity = "major"

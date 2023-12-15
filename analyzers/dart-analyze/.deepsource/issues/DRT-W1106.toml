@@ -1,4 +1,3 @@
-
 title = "Avoid leading underscores for local identifiers"
 weight = 70
 severity = "major"

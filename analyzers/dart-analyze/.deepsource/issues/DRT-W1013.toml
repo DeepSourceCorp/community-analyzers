@@ -1,4 +1,3 @@
-
 title = "Only reference in scope identifiers in doc comments"
 weight = 70
 severity = "major"

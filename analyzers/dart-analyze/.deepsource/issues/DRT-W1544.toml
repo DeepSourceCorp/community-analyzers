@@ -1,4 +1,3 @@
-
 title = "Spread elements in map literals must implement 'Map'"
 weight = 70
 severity = "major"

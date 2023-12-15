@@ -1,4 +1,3 @@
-
 title = "Avoid types as parameter names"
 weight = 70
 severity = "major"

@@ -1,4 +1,3 @@
-
 title = "Mixins applied to enums can't have instance variables"
 weight = 70
 severity = "major"

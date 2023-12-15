@@ -1,4 +1,3 @@
-
 title = "The default value of an optional parameter must be constant"
 weight = 70
 severity = "major"

@@ -1,4 +1,3 @@
-
 title = "Avoid using unnecessary statements"
 weight = 70
 severity = "major"

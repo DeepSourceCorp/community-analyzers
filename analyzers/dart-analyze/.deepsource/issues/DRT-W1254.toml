@@ -1,4 +1,3 @@
-
 title = "Invalid usage of non-mixin class as a mixin"
 weight = 70
 severity = "major"

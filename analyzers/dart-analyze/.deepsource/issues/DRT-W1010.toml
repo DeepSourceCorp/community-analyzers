@@ -1,4 +1,3 @@
-
 title = "Cancel instances of dart.async.StreamSubscription"
 weight = 70
 severity = "major"

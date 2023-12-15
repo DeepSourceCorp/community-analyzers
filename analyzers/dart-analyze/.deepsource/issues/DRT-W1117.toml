@@ -1,4 +1,3 @@
-
 title = "Provide doc comments for all public APIs"
 weight = 70
 severity = "major"

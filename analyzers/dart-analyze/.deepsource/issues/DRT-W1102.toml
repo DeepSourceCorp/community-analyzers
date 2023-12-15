@@ -1,4 +1,3 @@
-
 title = "Avoid lines longer than 80 characters"
 weight = 70
 severity = "major"

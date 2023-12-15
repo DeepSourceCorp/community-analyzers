@@ -1,4 +1,3 @@
-
 title = "Non-type name used as type"
 weight = 70
 severity = "major"

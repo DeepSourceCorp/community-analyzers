@@ -1,4 +1,3 @@
-
 title = "Yield statements must be in a generator function (one marked with either 'async*' or 'sync*').  Yield-each statements must be in a generator function (one marked with either 'async*' or 'sync*')"
 weight = 70
 severity = "major"

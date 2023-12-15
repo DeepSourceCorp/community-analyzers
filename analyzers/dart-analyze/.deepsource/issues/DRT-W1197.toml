@@ -1,4 +1,3 @@
-
 title = "Use enums rather than classes that behave like enums"
 weight = 70
 severity = "major"

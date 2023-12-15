@@ -1,4 +1,3 @@
-
 title = "Dead code: Catch clauses after a 'catch (e)' or an 'on Object catch (e)' are never reached"
 weight = 70
 severity = "major"

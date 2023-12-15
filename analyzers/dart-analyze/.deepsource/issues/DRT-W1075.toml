@@ -1,4 +1,3 @@
-
 title = "Await only futures"
 weight = 70
 severity = "major"

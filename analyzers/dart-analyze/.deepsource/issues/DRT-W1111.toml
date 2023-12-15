@@ -1,4 +1,3 @@
-
 title = "Don't use null check on a potentially nullable type parameter"
 weight = 70
 severity = "major"

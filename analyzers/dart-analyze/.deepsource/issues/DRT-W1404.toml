@@ -1,4 +1,3 @@
-
 title = "Type aliases that expand to a type parameter can't be instantiated"
 weight = 70
 severity = "major"

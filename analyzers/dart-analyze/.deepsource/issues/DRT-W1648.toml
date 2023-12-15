@@ -1,4 +1,3 @@
-
 title = "Tests for non-null should be done with '!= null'.  Tests for null should be done with '== null'"
 weight = 70
 severity = "major"

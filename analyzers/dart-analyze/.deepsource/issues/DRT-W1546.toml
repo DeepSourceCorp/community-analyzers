@@ -1,4 +1,3 @@
-
 title = "Cannot infer missing types from overridden methods"
 weight = 70
 severity = "major"

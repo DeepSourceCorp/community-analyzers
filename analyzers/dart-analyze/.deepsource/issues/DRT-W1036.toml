@@ -1,4 +1,3 @@
-
 title = "Depend on referenced packages"
 weight = 70
 severity = "major"

@@ -1,4 +1,3 @@
-
 title = "Final variable can't be read because it's potentially unassigned at this point"
 weight = 70
 severity = "major"

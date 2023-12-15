@@ -1,4 +1,3 @@
-
 title = "Don't implement classes that override `==`"
 weight = 70
 severity = "major"

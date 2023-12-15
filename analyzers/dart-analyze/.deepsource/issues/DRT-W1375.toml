@@ -1,4 +1,3 @@
-
 title = "A for-in loop variable can't be a 'const'"
 weight = 70
 severity = "major"

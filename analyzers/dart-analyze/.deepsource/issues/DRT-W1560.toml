@@ -1,4 +1,3 @@
-
 title = "Only packing to 1, 2, 4, 8, and 16 bytes is supported"
 weight = 70
 severity = "major"

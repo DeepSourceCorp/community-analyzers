@@ -1,4 +1,3 @@
-
 title = "Do not use environment declared variables"
 weight = 70
 severity = "major"

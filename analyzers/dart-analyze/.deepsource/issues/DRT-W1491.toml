@@ -1,4 +1,3 @@
-
 title = "Classes can only mix in mixins and classes"
 weight = 70
 severity = "major"

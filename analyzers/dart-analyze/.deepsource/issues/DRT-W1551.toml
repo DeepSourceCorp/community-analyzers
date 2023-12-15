@@ -1,4 +1,3 @@
-
 title = "A mixin can't have a nullable type as a superclass constraint"
 weight = 70
 severity = "major"

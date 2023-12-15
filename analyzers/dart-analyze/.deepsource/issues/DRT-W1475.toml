@@ -1,4 +1,3 @@
-
 title = "Fields in struct classes must have an explicitly declared type of 'int', 'double' or 'Pointer'"
 weight = 70
 severity = "major"

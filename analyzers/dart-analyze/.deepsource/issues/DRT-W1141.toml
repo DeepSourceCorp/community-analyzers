@@ -1,4 +1,3 @@
-
 title = "Prefer if elements to conditional expressions where possible"
 weight = 70
 severity = "major"

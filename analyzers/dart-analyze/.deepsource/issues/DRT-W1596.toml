@@ -1,4 +1,3 @@
-
 title = "Refutable patterns can't be used in an irrefutable context"
 weight = 70
 severity = "major"

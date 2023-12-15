@@ -1,4 +1,3 @@
-
 title = "A type alias that expands to a type parameter can't be implemented.  A type alias that expands to a type parameter can't be mixed in.  A type alias that expands to a type parameter can't be used as a superclass constraint.  A type alias that expands to a type parameter can't be used as a superclass"
 weight = 70
 severity = "major"

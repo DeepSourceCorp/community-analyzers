@@ -1,4 +1,3 @@
-
 title = "Avoid calling toString() on runtimeType"
 weight = 70
 severity = "major"

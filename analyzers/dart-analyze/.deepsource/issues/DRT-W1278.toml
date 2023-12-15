@@ -1,4 +1,3 @@
-
 title = "The constructor being called isn't a const constructor"
 weight = 70
 severity = "major"

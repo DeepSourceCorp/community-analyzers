@@ -1,4 +1,3 @@
-
 title = "Avoid overloading operator == and hashCode on classes not marked `@immutable`"
 weight = 70
 severity = "major"

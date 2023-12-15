@@ -1,4 +1,3 @@
-
 title = "Avoid empty catch blocks"
 weight = 70
 severity = "major"

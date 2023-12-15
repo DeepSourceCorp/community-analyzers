@@ -1,4 +1,3 @@
-
 title = "Arguments of a constant creation must be constant expressions"
 weight = 70
 severity = "major"

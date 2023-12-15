@@ -1,4 +1,3 @@
-
 title = "The prefix of a deferred import can't be used in other import directives"
 weight = 70
 severity = "major"

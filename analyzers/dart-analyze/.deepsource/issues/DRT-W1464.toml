@@ -1,4 +1,3 @@
-
 title = "The declaration named 'main' must be a function"
 weight = 70
 severity = "major"

@@ -1,4 +1,3 @@
-
 title = "Invalid reference to 'this' expression"
 weight = 70
 severity = "major"

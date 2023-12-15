@@ -1,4 +1,3 @@
-
 title = "Concrete classes can't have 'Enum' as a superinterface"
 weight = 70
 severity = "major"

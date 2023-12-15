@@ -1,4 +1,3 @@
-
 title = "Avoid wrapping fields in getters and setters just to be \"safe\""
 weight = 70
 severity = "major"

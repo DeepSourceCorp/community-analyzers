@@ -1,4 +1,3 @@
-
 title = "Unnecessary type check; the result is always 'false'.  Unnecessary type check; the result is always 'true'"
 weight = 70
 severity = "major"

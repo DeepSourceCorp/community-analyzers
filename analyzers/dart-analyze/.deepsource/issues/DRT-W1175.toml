@@ -1,4 +1,3 @@
-
 title = "Avoid const keyword"
 weight = 70
 severity = "major"

@@ -1,4 +1,3 @@
-
 title = "Field formal parameters can only be used in a constructor.  Initializing formal parameters can only be used in constructors"
 weight = 70
 severity = "major"

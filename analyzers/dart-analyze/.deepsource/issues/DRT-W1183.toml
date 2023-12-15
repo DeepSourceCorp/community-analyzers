@@ -1,4 +1,3 @@
-
 title = "Avoid null in null-aware assignment"
 weight = 70
 severity = "major"

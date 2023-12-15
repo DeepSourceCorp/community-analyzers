@@ -1,4 +1,3 @@
-
 title = "Avoid returning null for void"
 weight = 70
 severity = "major"

@@ -1,4 +1,3 @@
-
 title = "Avoid defining unused parameters in constructors"
 weight = 70
 severity = "major"

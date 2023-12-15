@@ -1,4 +1,3 @@
-
 title = "A constant redirecting constructor can't redirect to a non-constant constructor"
 weight = 70
 severity = "major"

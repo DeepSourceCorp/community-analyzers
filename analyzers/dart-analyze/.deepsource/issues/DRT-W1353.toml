@@ -1,4 +1,3 @@
-
 title = "External fields can't have initializers.  External variables can't have initializers"
 weight = 70
 severity = "major"

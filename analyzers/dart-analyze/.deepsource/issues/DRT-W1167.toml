@@ -1,4 +1,3 @@
-
 title = "Tighten type of initializing formal"
 weight = 70
 severity = "major"

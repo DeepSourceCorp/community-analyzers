@@ -1,4 +1,3 @@
-
 title = "Always override `hashCode` if overriding `==`"
 weight = 70
 severity = "major"

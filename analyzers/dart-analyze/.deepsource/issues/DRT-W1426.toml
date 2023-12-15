@@ -1,4 +1,3 @@
-
 title = "Only const constructors can have the `@literal` annotation"
 weight = 70
 severity = "major"

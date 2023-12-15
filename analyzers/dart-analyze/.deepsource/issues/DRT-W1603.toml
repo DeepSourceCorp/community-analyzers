@@ -1,4 +1,3 @@
-
 title = "Invalid return of value annotated with `doNotStore`"
 weight = 70
 severity = "major"

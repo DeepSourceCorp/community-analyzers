@@ -1,4 +1,3 @@
-
 title = "FFI leaf call can't return a 'Handle'"
 weight = 70
 severity = "major"

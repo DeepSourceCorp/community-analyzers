@@ -1,4 +1,3 @@
-
 title = "The expression of a constant pattern must be a valid constant"
 weight = 70
 severity = "major"

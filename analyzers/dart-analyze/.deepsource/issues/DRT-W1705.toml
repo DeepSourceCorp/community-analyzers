@@ -1,4 +1,3 @@
-
 title = "This expression has a type of 'void' so its value can't be used"
 weight = 70
 severity = "major"

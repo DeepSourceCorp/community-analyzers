@@ -1,4 +1,3 @@
-
 title = "Avoid slow async `dart:io` methods"
 weight = 70
 severity = "major"

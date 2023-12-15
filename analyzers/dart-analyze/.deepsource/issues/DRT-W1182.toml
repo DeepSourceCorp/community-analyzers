@@ -1,4 +1,3 @@
-
 title = "Unnecessary new keyword"
 weight = 70
 severity = "major"

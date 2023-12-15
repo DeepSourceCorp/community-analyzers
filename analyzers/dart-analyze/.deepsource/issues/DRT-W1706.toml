@@ -1,4 +1,3 @@
-
 title = "A member named 'values' can't be declared in an enum"
 weight = 70
 severity = "major"

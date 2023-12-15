@@ -1,4 +1,3 @@
-
 title = "Don't compare booleans to boolean literals"
 weight = 70
 severity = "major"

@@ -1,4 +1,3 @@
-
 title = "Unnecessary `.new` constructor name"
 weight = 70
 severity = "major"

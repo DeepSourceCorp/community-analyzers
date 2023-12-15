@@ -1,4 +1,3 @@
-
 title = "Dependencies defined must be a map"
 weight = 70
 severity = "major"

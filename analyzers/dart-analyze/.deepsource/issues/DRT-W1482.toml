@@ -1,4 +1,3 @@
-
 title = "Fields of type 'Array' must have exactly one 'Array' annotation"
 weight = 70
 severity = "major"

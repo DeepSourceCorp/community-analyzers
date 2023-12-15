@@ -1,4 +1,3 @@
-
 title = "Use Flutter TODO format: // TODO(username): message, https://URL-to-issue"
 weight = 70
 severity = "major"

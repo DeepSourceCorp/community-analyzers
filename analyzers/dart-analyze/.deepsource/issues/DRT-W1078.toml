@@ -1,4 +1,3 @@
-
 title = "Cascade consecutive method invocations on the same reference"
 weight = 70
 severity = "major"

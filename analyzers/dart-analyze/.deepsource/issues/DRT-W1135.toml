@@ -1,4 +1,3 @@
-
 title = "Prefer final for variable declarations if they are not reassigned"
 weight = 70
 severity = "major"

@@ -1,4 +1,3 @@
-
 title = "Use secure urls in `pubspec.yaml`"
 weight = 70
 severity = "major"

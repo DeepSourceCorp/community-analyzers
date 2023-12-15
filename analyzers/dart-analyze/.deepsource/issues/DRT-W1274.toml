@@ -1,4 +1,3 @@
-
 title = "Constant must be initialized"
 weight = 70
 severity = "major"

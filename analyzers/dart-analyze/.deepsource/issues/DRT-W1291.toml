@@ -1,4 +1,3 @@
-
 title = "Required named parameters can't have a default value"
 weight = 70
 severity = "major"

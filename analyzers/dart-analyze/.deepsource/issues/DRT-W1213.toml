@@ -1,4 +1,3 @@
-
 title = "Classes extending 'AbiSpecificInteger' must have exactly one 'AbiSpecificIntegerMapping' annotation specifying the mapping from ABI to a 'NativeType' integer with a fixed size"
 weight = 70
 severity = "major"

@@ -1,4 +1,3 @@
-
 title = "Parameters in a function type can't have default values"
 weight = 70
 severity = "major"

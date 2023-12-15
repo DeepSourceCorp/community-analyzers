@@ -1,4 +1,3 @@
-
 title = "Avoid control flow in finally blocks"
 weight = 70
 severity = "major"

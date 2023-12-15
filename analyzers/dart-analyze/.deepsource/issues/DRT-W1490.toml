@@ -1,4 +1,3 @@
-
 title = "Mixins can't be instantiated"
 weight = 70
 severity = "major"

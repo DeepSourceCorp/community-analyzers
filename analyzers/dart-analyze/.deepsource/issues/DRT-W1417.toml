@@ -1,4 +1,3 @@
-
 title = "Factory method must have a return type"
 weight = 70
 severity = "major"

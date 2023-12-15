@@ -1,4 +1,3 @@
-
 title = "At most one rest element is allowed in a list or map pattern"
 weight = 70
 severity = "major"

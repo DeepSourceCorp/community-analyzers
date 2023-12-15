@@ -1,4 +1,3 @@
-
 title = "Array dimensions must be positive numbers"
 weight = 70
 severity = "major"

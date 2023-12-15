@@ -1,4 +1,3 @@
-
 title = "Static members from supertypes must be qualified by the name of the defining type"
 weight = 70
 severity = "major"

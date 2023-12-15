@@ -1,4 +1,3 @@
-
 title = "The annotation 'visibleOutsideTemplate' can only be applied to a member of a class, enum, or mixin that is annotated with 'visibleForTemplate'"
 weight = 70
 severity = "major"

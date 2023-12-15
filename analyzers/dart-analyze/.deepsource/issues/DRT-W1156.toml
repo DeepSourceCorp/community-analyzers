@@ -1,4 +1,3 @@
-
 title = "Prefer typing uninitialized variables and fields"
 weight = 70
 severity = "major"

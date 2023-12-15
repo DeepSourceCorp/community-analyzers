@@ -1,4 +1,3 @@
-
 title = "Const variables must be initialized with a constant value"
 weight = 70
 severity = "major"

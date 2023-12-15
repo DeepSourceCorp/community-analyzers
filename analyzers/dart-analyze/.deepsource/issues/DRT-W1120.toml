@@ -1,4 +1,3 @@
-
 title = "Use adjacent strings to concatenate string literals"
 weight = 70
 severity = "major"

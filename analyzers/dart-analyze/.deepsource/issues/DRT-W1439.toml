@@ -1,4 +1,3 @@
-
 title = "Super parameters can only be used in non-redirecting generative constructors"
 weight = 70
 severity = "major"

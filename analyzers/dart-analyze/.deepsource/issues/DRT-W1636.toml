@@ -1,4 +1,3 @@
-
 title = "Invalid context for 'super' invocation"
 weight = 70
 severity = "major"

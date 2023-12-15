@@ -1,4 +1,3 @@
-
 title = "Invalid transitive inheritance of `Struct`, `Union` or `AbiSpecificInteger` class"
 weight = 70
 severity = "major"

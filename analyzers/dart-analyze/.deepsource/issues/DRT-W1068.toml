@@ -1,4 +1,3 @@
-
 title = "Avoid setters without getters"
 weight = 70
 severity = "major"

@@ -1,4 +1,3 @@
-
 title = "Subclasses of 'Struct' and 'Union' are backed by native memory, and can't be instantiated by a generative constructor"
 weight = 70
 severity = "major"

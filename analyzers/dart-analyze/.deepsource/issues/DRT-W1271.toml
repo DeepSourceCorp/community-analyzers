@@ -1,4 +1,3 @@
-
 title = "Constant values from a deferred library can't be used to initialize a 'const' variable"
 weight = 70
 severity = "major"

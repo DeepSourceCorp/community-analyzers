@@ -1,4 +1,3 @@
-
 title = "Fields in subclasses of 'Struct' and 'Union' can't have initializers"
 weight = 70
 severity = "major"

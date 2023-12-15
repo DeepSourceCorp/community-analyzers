@@ -1,4 +1,3 @@
-
 title = "The annotation '@nonVirtual' can only be applied to a concrete instance member"
 weight = 70
 severity = "major"

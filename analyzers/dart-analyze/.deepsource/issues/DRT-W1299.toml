@@ -1,4 +1,3 @@
-
 title = "Using the 'new' keyword in a comment reference is deprecated"
 weight = 70
 severity = "major"

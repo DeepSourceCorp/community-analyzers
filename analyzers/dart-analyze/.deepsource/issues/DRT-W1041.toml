@@ -1,4 +1,3 @@
-
 title = "Separate the control structure expression from its statement"
 weight = 70
 severity = "major"

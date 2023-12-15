@@ -1,4 +1,3 @@
-
 title = "Name non-constant identifiers using lowerCamelCase"
 weight = 70
 severity = "major"

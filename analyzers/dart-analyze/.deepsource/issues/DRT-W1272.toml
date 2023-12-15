@@ -1,4 +1,3 @@
-
 title = "Only static fields can be declared as const"
 weight = 70
 severity = "major"

@@ -1,4 +1,3 @@
-
 title = "The getter name is not specified explicitly, and the pattern is not a variable"
 weight = 70
 severity = "major"

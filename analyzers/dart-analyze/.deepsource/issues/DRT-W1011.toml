@@ -1,4 +1,3 @@
-
 title = "Close instances of `dart.core.Sink`"
 weight = 70
 severity = "major"

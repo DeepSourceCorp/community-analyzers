@@ -1,4 +1,3 @@
-
 title = "Avoid final for parameter declarations"
 weight = 70
 severity = "major"

@@ -1,4 +1,3 @@
-
 title = "A map pattern can't contain a rest pattern"
 weight = 70
 severity = "major"

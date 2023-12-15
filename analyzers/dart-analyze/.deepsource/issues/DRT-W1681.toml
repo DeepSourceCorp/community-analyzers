@@ -1,4 +1,3 @@
-
 title = "The '!' will have no effect because the receiver can't be null"
 weight = 70
 severity = "major"

@@ -1,4 +1,3 @@
-
 title = "The redirecting constructor can't have a field initializer"
 weight = 70
 severity = "major"

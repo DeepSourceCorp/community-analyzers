@@ -1,4 +1,3 @@
-
 title = "A 'sealed' class can't be marked 'abstract' because it's already implicitly abstract"
 weight = 70
 severity = "major"

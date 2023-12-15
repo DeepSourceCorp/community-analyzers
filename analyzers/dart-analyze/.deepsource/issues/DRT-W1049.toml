@@ -1,4 +1,3 @@
-
 title = "Avoid defining a class that contains only static members"
 weight = 70
 severity = "major"

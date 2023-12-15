@@ -1,4 +1,3 @@
-
 title = "The 'platforms' field must be a map with platforms as keys"
 weight = 70
 severity = "major"

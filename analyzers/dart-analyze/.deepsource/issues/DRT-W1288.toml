@@ -1,4 +1,3 @@
-
 title = "The default 'List' constructor isn't available when null safety is enabled"
 weight = 70
 severity = "major"

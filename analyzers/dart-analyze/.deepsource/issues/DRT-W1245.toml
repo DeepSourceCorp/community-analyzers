@@ -1,4 +1,3 @@
-
 title = "A break label resolves to the 'case' or 'default' statement"
 weight = 70
 severity = "major"

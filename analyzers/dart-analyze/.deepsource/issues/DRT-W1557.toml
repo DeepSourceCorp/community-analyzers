@@ -1,4 +1,3 @@
-
 title = "Optional parameters aren't allowed when defining an operator"
 weight = 70
 severity = "major"

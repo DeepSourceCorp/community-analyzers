@@ -1,4 +1,3 @@
-
 title = "Unnecessary import"
 weight = 70
 severity = "major"

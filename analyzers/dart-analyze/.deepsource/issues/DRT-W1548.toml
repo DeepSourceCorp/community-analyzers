@@ -1,4 +1,3 @@
-
 title = "A potentially nullable type can't be used in an 'on' clause because it isn't valid to throw a nullable expression"
 weight = 70
 severity = "major"

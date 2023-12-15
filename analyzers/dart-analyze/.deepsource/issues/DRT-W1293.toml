@@ -1,4 +1,3 @@
-
 title = "Unassigned late local variable is definitely unassigned at this point"
 weight = 70
 severity = "major"

@@ -1,4 +1,3 @@
-
 title = "Use raw string to avoid escapes"
 weight = 70
 severity = "major"

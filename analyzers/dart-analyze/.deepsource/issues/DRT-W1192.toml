@@ -1,4 +1,3 @@
-
 title = "Don't access members with `this` unless avoiding shadowing"
 weight = 70
 severity = "major"

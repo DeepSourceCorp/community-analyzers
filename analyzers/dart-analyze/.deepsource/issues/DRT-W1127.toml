@@ -1,4 +1,3 @@
-
 title = "Prefer const over final for declarations"
 weight = 70
 severity = "major"

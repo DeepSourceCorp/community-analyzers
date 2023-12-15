@@ -1,4 +1,3 @@
-
 title = "Test type arguments in operator ==(Object other)"
 weight = 70
 severity = "major"

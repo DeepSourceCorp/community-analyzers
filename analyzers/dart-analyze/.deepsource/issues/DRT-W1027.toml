@@ -1,4 +1,3 @@
-
 title = "Don't use the Null type, unless you are positive that you don't want void"
 weight = 70
 severity = "major"

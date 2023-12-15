@@ -1,4 +1,3 @@
-
 title = "Provide a deprecation message, via @Deprecated(\"message\")"
 weight = 70
 severity = "major"

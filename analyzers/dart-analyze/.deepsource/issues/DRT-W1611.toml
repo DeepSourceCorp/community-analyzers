@@ -1,4 +1,3 @@
-
 title = "Using the operator '==' for non-primitive types wasn't supported until version 2.3.2, but this code is required to be able to run on earlier versions"
 weight = 70
 severity = "major"

@@ -1,4 +1,3 @@
-
 title = "Prefer defining constructors instead of static methods to create instances"
 weight = 70
 severity = "major"

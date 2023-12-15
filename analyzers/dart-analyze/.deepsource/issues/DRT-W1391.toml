@@ -1,4 +1,3 @@
-
 title = "Unsafe import of legacy library into a null safe library"
 weight = 70
 severity = "major"

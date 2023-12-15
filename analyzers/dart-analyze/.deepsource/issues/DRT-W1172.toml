@@ -1,4 +1,3 @@
-
 title = "Unnecessary await keyword in return"
 weight = 70
 severity = "major"

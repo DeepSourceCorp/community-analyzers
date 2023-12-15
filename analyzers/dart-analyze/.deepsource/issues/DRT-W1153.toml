@@ -1,4 +1,3 @@
-
 title = "Prefer using null aware operators"
 weight = 70
 severity = "major"

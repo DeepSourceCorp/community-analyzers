@@ -1,4 +1,3 @@
-
 title = "Constructors in subclasses of 'Struct' and 'Union' can't have field initializers"
 weight = 70
 severity = "major"

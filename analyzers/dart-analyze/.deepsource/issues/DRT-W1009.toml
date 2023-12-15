@@ -1,4 +1,3 @@
-
 title = "Avoid using web-only libraries outside Flutter web plugin packages"
 weight = 70
 severity = "major"

@@ -1,4 +1,3 @@
-
 title = "Imports of deferred libraries must hide all extensions"
 weight = 70
 severity = "major"

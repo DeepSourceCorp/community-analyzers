@@ -1,4 +1,3 @@
-
 title = "Property getter recursively returns itself"
 weight = 70
 severity = "major"

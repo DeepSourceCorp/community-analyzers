@@ -1,4 +1,3 @@
-
 title = "Non-type used in an 'is' expression"
 weight = 70
 severity = "major"

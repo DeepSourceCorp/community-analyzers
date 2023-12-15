@@ -1,4 +1,3 @@
-
 title = "Non-exhaustive switch expression over an exhaustive type"
 weight = 70
 severity = "major"

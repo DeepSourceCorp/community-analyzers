@@ -1,4 +1,3 @@
-
 title = "Don't reassign references to parameters of functions or methods"
 weight = 70
 severity = "major"

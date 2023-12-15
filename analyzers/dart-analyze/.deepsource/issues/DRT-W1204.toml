@@ -1,4 +1,3 @@
-
 title = "Use rethrow to rethrow a caught exception"
 weight = 70
 severity = "major"

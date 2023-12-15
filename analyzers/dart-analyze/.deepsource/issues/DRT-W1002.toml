@@ -1,4 +1,3 @@
-
 title = "Avoid method calls or property accesses on a \"dynamic\" target"
 weight = 70
 severity = "major"

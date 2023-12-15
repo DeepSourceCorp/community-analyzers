@@ -1,4 +1,3 @@
-
 title = "The async for-in loop can only be used in an async function"
 weight = 70
 severity = "major"

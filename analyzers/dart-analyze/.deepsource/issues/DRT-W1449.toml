@@ -1,4 +1,3 @@
-
 title = "The annotation 'visibleForOverriding' can only be applied to a public instance member that can be overridden"
 weight = 70
 severity = "major"

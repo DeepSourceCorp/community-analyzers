@@ -1,4 +1,3 @@
-
 title = "Positional super parameters can't be used when the super constructor invocation has a positional argument"
 weight = 70
 severity = "major"

@@ -1,4 +1,3 @@
-
 title = "Enum doesn't have an unnamed constructor"
 weight = 70
 severity = "major"

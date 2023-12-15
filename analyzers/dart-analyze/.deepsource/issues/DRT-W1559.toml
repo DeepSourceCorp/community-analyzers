@@ -1,4 +1,3 @@
-
 title = "Structs must have at most one 'Packed' annotation"
 weight = 70
 severity = "major"

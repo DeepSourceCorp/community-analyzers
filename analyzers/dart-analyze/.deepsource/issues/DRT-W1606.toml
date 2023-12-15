@@ -1,4 +1,3 @@
-
 title = "The return value is missing after 'return'"
 weight = 70
 severity = "major"

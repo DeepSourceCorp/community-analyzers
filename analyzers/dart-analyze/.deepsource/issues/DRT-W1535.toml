@@ -1,4 +1,3 @@
-
 title = "The return type of the operator []= must be 'void'"
 weight = 70
 severity = "major"

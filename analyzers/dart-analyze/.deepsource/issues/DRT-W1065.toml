@@ -1,4 +1,3 @@
-
 title = "Avoid return types on setters"
 weight = 70
 severity = "major"

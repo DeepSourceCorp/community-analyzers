@@ -1,4 +1,3 @@
-
 title = "Prefix library names with the package name and a dot-separated path"
 weight = 70
 severity = "major"

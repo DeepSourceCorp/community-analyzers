@@ -1,4 +1,3 @@
-
 title = "DO reference all public properties in debug methods"
 weight = 70
 severity = "major"

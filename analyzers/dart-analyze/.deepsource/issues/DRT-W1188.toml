@@ -1,4 +1,3 @@
-
 title = "Unnecessary parentheses can be removed"
 weight = 70
 severity = "major"

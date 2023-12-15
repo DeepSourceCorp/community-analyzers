@@ -1,4 +1,3 @@
-
 title = "Don't use wildcard parameters or variables"
 weight = 70
 severity = "major"

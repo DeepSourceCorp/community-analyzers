@@ -1,4 +1,3 @@
-
 title = "Tearing off a constructor requires the 'constructor-tearoffs' language feature"
 weight = 70
 severity = "major"

@@ -1,4 +1,3 @@
-
 title = "Use if-null operators to convert nulls to bools"
 weight = 70
 severity = "major"

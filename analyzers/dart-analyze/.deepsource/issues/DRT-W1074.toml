@@ -1,4 +1,3 @@
-
 title = "Avoid async functions that return void"
 weight = 70
 severity = "major"

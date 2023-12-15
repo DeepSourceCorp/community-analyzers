@@ -1,4 +1,3 @@
-
 title = "Invalid second argument for `Pointer.fromFunction` or `NativeCallable.isolateLocal` with certain return types"
 weight = 70
 severity = "major"

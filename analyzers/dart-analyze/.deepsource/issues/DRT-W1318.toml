@@ -1,4 +1,3 @@
-
 title = "A map pattern must have at least one entry"
 weight = 70
 severity = "major"

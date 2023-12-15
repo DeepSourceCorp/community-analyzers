@@ -1,4 +1,3 @@
-
 title = "Prefer relative imports for files in `lib/`"
 weight = 70
 severity = "major"

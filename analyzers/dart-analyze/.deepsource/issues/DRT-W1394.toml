@@ -1,4 +1,3 @@
-
 title = "Parts must have exactly the same language version override as the library"
 weight = 70
 severity = "major"

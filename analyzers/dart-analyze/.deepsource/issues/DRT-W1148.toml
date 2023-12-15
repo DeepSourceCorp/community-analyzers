@@ -1,4 +1,3 @@
-
 title = "Use `isNotEmpty` for Iterables and Maps"
 weight = 70
 severity = "major"

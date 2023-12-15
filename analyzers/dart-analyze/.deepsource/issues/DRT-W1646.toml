@@ -1,4 +1,3 @@
-
 title = "Deferred type can't be used in a declaration, cast, or type test"
 weight = 70
 severity = "major"

@@ -1,4 +1,3 @@
-
 title = "Unnecessary null aware operator on extension on a nullable type"
 weight = 70
 severity = "major"

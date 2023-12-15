@@ -1,4 +1,3 @@
-
 title = "Define case clauses for all constants in enum-like classes"
 weight = 70
 severity = "major"

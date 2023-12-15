@@ -1,4 +1,3 @@
-
 title = "Setters must declare exactly one required positional parameter"
 weight = 70
 severity = "major"

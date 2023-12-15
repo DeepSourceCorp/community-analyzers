@@ -1,4 +1,3 @@
-
 title = "Generative enum constructors must be 'const'"
 weight = 70
 severity = "major"

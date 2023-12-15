@@ -1,4 +1,3 @@
-
 title = "Extensions can't declare instance fields"
 weight = 70
 severity = "major"

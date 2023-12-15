@@ -1,4 +1,3 @@
-
 title = "Avoid private typedef functions"
 weight = 70
 severity = "major"

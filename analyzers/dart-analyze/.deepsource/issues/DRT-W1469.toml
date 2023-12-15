@@ -1,4 +1,3 @@
-
 title = "Missing annotation for fields in subclasses of `Struct` or `Union`"
 weight = 70
 severity = "major"

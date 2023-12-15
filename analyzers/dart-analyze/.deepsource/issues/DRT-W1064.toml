@@ -1,4 +1,3 @@
-
 title = "Don't rename parameters of overridden methods"
 weight = 70
 severity = "major"

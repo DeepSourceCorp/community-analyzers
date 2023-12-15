@@ -1,4 +1,3 @@
-
 title = "Invocation of a non-function"
 weight = 70
 severity = "major"

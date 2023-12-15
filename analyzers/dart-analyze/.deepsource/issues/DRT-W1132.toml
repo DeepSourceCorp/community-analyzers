@@ -1,4 +1,3 @@
-
 title = "Use => for short members whose body is a single return statement"
 weight = 70
 severity = "major"

@@ -1,4 +1,3 @@
-
 title = "Two keys in a constant map literal can't be equal"
 weight = 70
 severity = "major"

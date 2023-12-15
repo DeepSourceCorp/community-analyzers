@@ -1,4 +1,3 @@
-
 title = "Static members can't reference type parameters of the class"
 weight = 70
 severity = "major"

@@ -1,4 +1,3 @@
-
 title = "Don't specify the `late` modifier when it is not needed"
 weight = 70
 severity = "major"

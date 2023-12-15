@@ -1,4 +1,3 @@
-
 title = "Avoid using `forEach` with a function literal"
 weight = 70
 severity = "major"

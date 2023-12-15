@@ -1,4 +1,3 @@
-
 title = "Equality operator `==` invocation with references of unrelated types"
 weight = 70
 severity = "major"

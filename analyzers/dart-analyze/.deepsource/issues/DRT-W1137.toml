@@ -1,4 +1,3 @@
-
 title = "Prefer 'for' elements when building maps from iterables"
 weight = 70
 severity = "major"

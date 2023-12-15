@@ -1,4 +1,3 @@
-
 title = "Don't use adjacent strings in list"
 weight = 70
 severity = "major"

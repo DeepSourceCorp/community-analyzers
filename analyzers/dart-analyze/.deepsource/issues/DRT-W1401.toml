@@ -1,4 +1,3 @@
-
 title = "Instance members can't be accessed from a static method"
 weight = 70
 severity = "major"

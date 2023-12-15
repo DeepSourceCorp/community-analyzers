@@ -1,4 +1,3 @@
-
 title = "Keys in the `platforms` field can't have values"
 weight = 70
 severity = "major"

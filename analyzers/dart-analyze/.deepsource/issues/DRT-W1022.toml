@@ -1,4 +1,3 @@
-
 title = "Don't use more than one case with same value"
 weight = 70
 severity = "major"

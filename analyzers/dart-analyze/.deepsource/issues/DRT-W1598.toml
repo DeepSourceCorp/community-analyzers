@@ -1,4 +1,3 @@
-
 title = "The return type of operators used in relational patterns must be assignable to 'bool'"
 weight = 70
 severity = "major"

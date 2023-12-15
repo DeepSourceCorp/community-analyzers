@@ -1,4 +1,3 @@
-
 title = "The elements in a const map literal must be constant"
 weight = 70
 severity = "major"

@@ -1,4 +1,3 @@
-
 title = "Don't check for null in custom == operators"
 weight = 70
 severity = "major"

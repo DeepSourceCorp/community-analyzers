@@ -1,4 +1,3 @@
-
 title = "Pattern variables can't be assigned inside the guard of the enclosing guarded pattern"
 weight = 70
 severity = "major"

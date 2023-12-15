@@ -1,4 +1,3 @@
-
 title = "Avoid catches without on clauses"
 weight = 70
 severity = "major"

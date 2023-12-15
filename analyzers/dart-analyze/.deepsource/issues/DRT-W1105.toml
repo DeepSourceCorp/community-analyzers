@@ -1,4 +1,3 @@
-
 title = "Avoid leading underscores for library prefixes"
 weight = 70
 severity = "major"

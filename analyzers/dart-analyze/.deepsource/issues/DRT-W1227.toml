@@ -1,4 +1,3 @@
-
 title = "A redirecting constructor can't have an 'assert' initializer"
 weight = 70
 severity = "major"

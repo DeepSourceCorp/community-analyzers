@@ -1,4 +1,3 @@
-
 title = "The operator x ~/ y is more efficient than (x / y).toInt()"
 weight = 70
 severity = "major"

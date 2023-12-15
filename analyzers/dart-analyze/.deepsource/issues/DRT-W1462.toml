@@ -1,4 +1,3 @@
-
 title = "The function 'main' can't have any required named parameters"
 weight = 70
 severity = "major"

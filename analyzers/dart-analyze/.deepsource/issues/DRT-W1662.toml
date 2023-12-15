@@ -1,4 +1,3 @@
-
 title = "Undefined setter in extension"
 weight = 70
 severity = "major"

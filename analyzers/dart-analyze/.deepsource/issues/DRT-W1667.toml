@@ -1,4 +1,3 @@
-
 title = "Undefined name 'await' in function body not marked with 'async'"
 weight = 70
 severity = "major"

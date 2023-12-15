@@ -1,4 +1,3 @@
-
 title = "Boolean expression composed only with literals"
 weight = 70
 severity = "major"

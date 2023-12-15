@@ -1,4 +1,3 @@
-
 title = "Only throw instances of classes extending either Exception or Error"
 weight = 70
 severity = "major"

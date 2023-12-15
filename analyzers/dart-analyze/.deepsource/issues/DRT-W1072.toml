@@ -1,4 +1,3 @@
-
 title = "Avoid unnecessary containers"
 weight = 70
 severity = "major"

@@ -1,4 +1,3 @@
-
 title = "Only local variables can be assigned in pattern assignments"
 weight = 70
 severity = "major"

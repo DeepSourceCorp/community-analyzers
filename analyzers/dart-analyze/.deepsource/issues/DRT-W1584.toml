@@ -1,4 +1,3 @@
-
 title = "Constructors can't redirect to themselves either directly or indirectly"
 weight = 70
 severity = "major"

@@ -1,4 +1,3 @@
-
 title = "Factory bodies can't use 'async', 'async*', or 'sync*'"
 weight = 70
 severity = "major"

@@ -1,4 +1,3 @@
-
 title = "The keyword 'final' isn't necessary because the parameter is implicitly 'final'"
 weight = 70
 severity = "major"

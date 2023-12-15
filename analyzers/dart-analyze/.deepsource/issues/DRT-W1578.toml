@@ -1,4 +1,3 @@
-
 title = "Named parameters can't start with an underscore"
 weight = 70
 severity = "major"

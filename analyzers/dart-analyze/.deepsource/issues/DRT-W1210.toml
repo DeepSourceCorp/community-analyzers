@@ -1,4 +1,3 @@
-
 title = "Don't assign to void"
 weight = 70
 severity = "major"

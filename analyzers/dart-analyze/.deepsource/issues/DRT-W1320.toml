@@ -1,4 +1,3 @@
-
 title = "The list of named fields in a record type can't be empty"
 weight = 70
 severity = "major"

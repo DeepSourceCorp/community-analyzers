@@ -1,4 +1,3 @@
-
 title = "Avoid unsafe HTML APIs"
 weight = 70
 severity = "major"

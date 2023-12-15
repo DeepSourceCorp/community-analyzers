@@ -1,4 +1,3 @@
-
 title = "Prefer final for parameter declarations if they are not reassigned"
 weight = 70
 severity = "major"

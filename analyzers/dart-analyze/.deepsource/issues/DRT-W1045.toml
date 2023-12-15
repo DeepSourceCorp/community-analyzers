@@ -1,4 +1,3 @@
-
 title = "Avoid annotating with dynamic when not required"
 weight = 70
 severity = "major"

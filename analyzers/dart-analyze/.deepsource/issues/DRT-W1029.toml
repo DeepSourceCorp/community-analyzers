@@ -1,4 +1,3 @@
-
 title = "Avoid `throw` in finally block"
 weight = 70
 severity = "major"

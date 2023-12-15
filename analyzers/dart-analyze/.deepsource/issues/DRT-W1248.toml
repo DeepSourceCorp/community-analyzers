@@ -1,4 +1,3 @@
-
 title = "The last statement of the 'case' should be 'break', 'continue', 'rethrow', 'return', or 'throw'"
 weight = 70
 severity = "major"

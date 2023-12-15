@@ -1,4 +1,3 @@
-
 title = "Non generative constructor in initializer list"
 weight = 70
 severity = "major"

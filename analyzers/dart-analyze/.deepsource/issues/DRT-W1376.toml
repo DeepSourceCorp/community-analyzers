@@ -1,4 +1,3 @@
-
 title = "A method tear-off on a receiver whose type is 'dynamic' can't have type arguments"
 weight = 70
 severity = "major"

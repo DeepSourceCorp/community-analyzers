@@ -1,4 +1,3 @@
-
 title = "Generative constructors can't redirect to a factory constructor"
 weight = 70
 severity = "major"

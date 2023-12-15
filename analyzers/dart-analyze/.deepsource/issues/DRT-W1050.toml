@@ -1,4 +1,3 @@
-
 title = "Avoid double and int checks"
 weight = 70
 severity = "major"

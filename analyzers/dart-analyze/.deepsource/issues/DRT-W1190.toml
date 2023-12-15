@@ -1,4 +1,3 @@
-
 title = "Remove unnecessary backslashes in strings"
 weight = 70
 severity = "major"

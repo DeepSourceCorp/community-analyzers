@@ -1,4 +1,3 @@
-
 title = "Only use double quotes for strings containing single quotes"
 weight = 70
 severity = "major"

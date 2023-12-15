@@ -1,4 +1,3 @@
-
 title = "Illegal concrete member in Enum"
 weight = 70
 severity = "major"

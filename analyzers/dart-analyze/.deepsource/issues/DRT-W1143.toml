@@ -1,4 +1,3 @@
-
 title = "Use initializing formals when possible"
 weight = 70
 severity = "major"

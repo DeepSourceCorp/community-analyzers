@@ -1,4 +1,3 @@
-
 title = "Don't override a method to do a super method invocation with the same parameters"
 weight = 70
 severity = "major"

@@ -1,4 +1,3 @@
-
 title = "The late final local variable is already assigned"
 weight = 70
 severity = "major"

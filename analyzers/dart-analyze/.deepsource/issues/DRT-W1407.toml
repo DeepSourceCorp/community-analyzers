@@ -1,4 +1,3 @@
-
 title = "Annotation must be either a const variable reference or const constructor invocation"
 weight = 70
 severity = "major"

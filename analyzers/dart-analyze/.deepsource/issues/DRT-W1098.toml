@@ -1,4 +1,3 @@
-
 title = "Attach library annotations to library directives"
 weight = 70
 severity = "major"

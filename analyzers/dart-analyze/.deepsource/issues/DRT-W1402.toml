@@ -1,4 +1,3 @@
-
 title = "Abstract classes can't be instantiated"
 weight = 70
 severity = "major"

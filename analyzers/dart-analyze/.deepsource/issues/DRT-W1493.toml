@@ -1,4 +1,3 @@
-
 title = "Deferred classes can't be used as superclass constraints"
 weight = 70
 severity = "major"

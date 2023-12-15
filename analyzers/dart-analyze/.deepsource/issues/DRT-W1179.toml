@@ -1,4 +1,3 @@
-
 title = "Don't create a lambda when a tear-off will do"
 weight = 70
 severity = "major"

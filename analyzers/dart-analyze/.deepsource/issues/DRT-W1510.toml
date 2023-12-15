@@ -1,4 +1,3 @@
-
 title = "Case expressions must be constant"
 weight = 70
 severity = "major"

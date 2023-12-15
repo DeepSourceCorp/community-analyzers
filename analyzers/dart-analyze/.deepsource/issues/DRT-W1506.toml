@@ -1,4 +1,3 @@
-
 title = "The expression in an assert must be of type 'bool'"
 weight = 70
 severity = "major"

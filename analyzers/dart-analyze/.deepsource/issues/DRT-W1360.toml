@@ -1,4 +1,3 @@
-
 title = "Fields can't be initialized in both the parameter list and the initializers"
 weight = 70
 severity = "major"
