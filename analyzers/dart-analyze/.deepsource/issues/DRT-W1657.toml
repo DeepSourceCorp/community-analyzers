@@ -1,0 +1,41 @@
+title = "Undefined enum constant"
+weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "undefined_enum_constant"
+description = '''
+The analyzer produces this diagnostic when it encounters an identifier that
+appears to be the name of an enum constant, and the name either isn't
+defined or isn't visible in the scope in which it's being referenced.
+
+#### Example
+
+The following code produces this diagnostic because `E` doesn't define a
+constant named `c`:
+
+```dart
+enum E {a, b}
+
+var e = E.c;
+```
+
+#### Common fixes
+
+If the constant should be defined, then add it to the declaration of the
+enum:
+
+```dart
+enum E {a, b, c}
+
+var e = E.c;
+```
+
+If the constant shouldn't be defined, then change the name to the name of
+an existing constant:
+
+```dart
+enum E {a, b}
+
+var e = E.b;
+```
+'''

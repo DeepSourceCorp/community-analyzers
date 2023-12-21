@@ -1,0 +1,22 @@
+title = "Use string in part of directives"
+weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "use_string_in_part_of_directives"
+description = '''
+From [Effective Dart](https://dart.dev/effective-dart/usage#do-use-strings-in-part-of-directives):
+
+**DO** use strings in `part of` directives.
+
+**BAD:**
+
+```dart
+part of my_library;
+```
+
+**GOOD:**
+
+```dart
+part of '../../my_library.dart';
+```
+'''

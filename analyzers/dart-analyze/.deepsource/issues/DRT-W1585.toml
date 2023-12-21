@@ -1,0 +1,25 @@
+title = "Circular type hierarchy"
+weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "recursive_interface_inheritance"
+description = '''
+The analyzer produces this diagnostic when there's a circularity in the
+type hierarchy. This happens when a type, either directly or indirectly,
+is declared to be a subtype of itself.
+
+#### Example
+
+The following code produces this diagnostic because the class `A` is
+declared to be a subtype of `B`, and `B` is a subtype of `A`:
+
+```dart
+class A extends B {}
+class B implements A {}
+```
+
+#### Common fixes
+
+Change the type hierarchy so that there's no circularity.
+
+'''

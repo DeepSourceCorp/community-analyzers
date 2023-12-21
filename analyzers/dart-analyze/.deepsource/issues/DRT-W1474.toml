@@ -1,0 +1,45 @@
+title = "Missing exceptional return value for method invocation in `dart:ffi`"
+weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "missing_exception_value"
+description = '''
+The analyzer produces this diagnostic when an invocation of the method
+`Pointer.fromFunction` or `NativeCallable.isolateLocal`
+doesn't have a second argument (the exceptional
+return value) when the type to be returned from the invocation is neither
+`void`, `Handle`, nor `Pointer`.
+[C interop using dart:ffi](https://dart.dev/interop/c-interop)
+For more information about FFI, see [C interop using dart:ffi](https://dart.dev/interop/c-interop).
+
+#### Example
+
+The following code produces this diagnostic because the type returned by
+`f` is expected to be an 8-bit integer but the call to `fromFunction`
+doesn't include an exceptional return argument:
+
+```dart
+import 'dart:ffi';
+
+int f(int i) => i * 2;
+
+void g() {
+  Pointer.fromFunction<Int8 Function(Int8)>(f);
+}
+```
+
+#### Common fixes
+
+Add an exceptional return type:
+
+```dart
+import 'dart:ffi';
+
+int f(int i) => i * 2;
+
+void g() {
+  Pointer.fromFunction<Int8 Function(Int8)>(f, 0);
+}
+```
+
+'''

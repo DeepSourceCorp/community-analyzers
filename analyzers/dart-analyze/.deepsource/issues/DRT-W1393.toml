@@ -1,0 +1,49 @@
+title = "Conflicting method signatures in inherited classes"
+weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "inconsistent_inheritance"
+description = '''
+The analyzer produces this diagnostic when a class inherits two or more
+conflicting signatures for a member and doesn't provide an implementation
+that satisfies all the inherited signatures.
+
+#### Example
+
+The following code produces this diagnostic because `C` is inheriting the
+declaration of `m` from `A`, and that implementation isn't consistent with
+the signature of `m` that's inherited from `B`:
+
+```dart
+class A {
+  void m({int a}) {}
+}
+
+class B {
+  void m({int b}) {}
+}
+
+class C extends A implements B {
+}
+```
+
+#### Common fixes
+
+Add an implementation of the method that satisfies all the inherited
+signatures:
+
+```dart
+class A {
+  void m({int a}) {}
+}
+
+class B {
+  void m({int b}) {}
+}
+
+class C extends A implements B {
+  void m({int a, int b}) {}
+}
+```
+
+'''

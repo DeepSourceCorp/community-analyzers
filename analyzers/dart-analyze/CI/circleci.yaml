@@ -1,0 +1,45 @@
+version: 2.1
+
+parameters:
+  dart-tag:
+    type: string
+    default: "latest"
+
+jobs:
+  scan-and-report:
+    docker:
+      - image: dart:<<pipeline.parameters.dart-tag>>
+
+    steps:
+      - checkout
+
+      - run:
+          name: Setup Python
+          command: |
+            apt update
+            apt install -y python3
+
+      - run:
+          name: Run Dart Analyze
+          command: dart analyze > dart_analyze.txt || true
+
+      - run:
+          name: Dart Analyze to SARIF
+          command: |
+            curl -sSL https://raw.githubusercontent.com/advanced-security/dart-analyzer-sarif/main/dart_analyzer_sarif.py > dart-analyzer-sarif
+            python3 dart-analyzer-sarif dart_analyze.txt dart_analyze.sarif $HOME --repo-uri <<pipeline.project.git_url>> --branch <<pipeline.git.branch>> --revision-id <<pipeline.git.revision>>
+
+      # Make sure you set the `DEEPSOURCE_DSN` env variable as a secret in your project.
+      - run:
+          name: Upload SARIF report to DeepSource
+          command: |
+            # Install the DeepSource CLI
+            curl https://deepsource.io/cli | sh
+
+            # Send the report to DeepSource
+            ./bin/deepsource report --analyzer dart-analyze --analyzer-type community --value-file ./dart_analyze.sarif
+
+workflows:
+  scan-dart-analyze-workflow:
+    jobs:
+      - scan-and-report

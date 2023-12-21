@@ -1,0 +1,46 @@
+title = "Invalid use of visibility annotation on non-public declaration"
+weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "invalid_visibility_annotation"
+description = '''
+The analyzer produces this diagnostic when either the `visibleForTemplate`
+or [`visibleForTesting`](https://pub.dev/documentation/meta/latest/meta/visibleForTesting-constant.html) annotation is applied to
+a non-public declaration.
+
+#### Example
+
+The following code produces this diagnostic:
+
+```dart
+import 'package:meta/meta.dart';
+
+@visibleForTesting
+void _someFunction() {}
+
+void f() => _someFunction();
+```
+
+#### Common fixes
+
+If the declaration doesn't need to be used by test code, then remove the
+annotation:
+
+```dart
+void _someFunction() {}
+
+void f() => _someFunction();
+```
+
+If it does, then make it public:
+
+```dart
+import 'package:meta/meta.dart';
+
+@visibleForTesting
+void someFunction() {}
+
+void f() => someFunction();
+```
+
+'''

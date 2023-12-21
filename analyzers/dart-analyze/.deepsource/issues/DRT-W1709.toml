@@ -1,0 +1,31 @@
+title = "Invalid number of parameters in operator declaration"
+weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "wrong_number_of_parameters_for_operator"
+description = '''
+The analyzer produces this diagnostic when a declaration of an operator has
+the wrong number of parameters.
+
+#### Example
+
+The following code produces this diagnostic because the operator `+` must
+have a single parameter corresponding to the right operand:
+
+```dart
+class C {
+  int operator +(a, b) => 0;
+}
+```
+
+#### Common fixes
+
+Add or remove parameters to match the required number:
+
+```dart
+class C {
+  int operator +(a) => 0;
+}
+```
+
+'''

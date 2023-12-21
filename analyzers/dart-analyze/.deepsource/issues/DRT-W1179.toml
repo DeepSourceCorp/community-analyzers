@@ -1,0 +1,20 @@
+title = "Don't create a lambda when a tear-off will do"
+weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "unnecessary_lambdas"
+description = '''
+**DON'T** create a lambda when a tear-off will do.
+
+**BAD:**
+```dart
+names.forEach((name) {
+  print(name);
+});
+```
+
+**GOOD:**
+```dart
+names.forEach(print);
+```
+'''

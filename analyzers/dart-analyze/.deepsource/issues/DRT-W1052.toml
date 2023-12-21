@@ -1,0 +1,18 @@
+title = "Avoid escaping inner quotes by converting surrounding quotes"
+weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "avoid_escaping_inner_quotes"
+description = '''
+Avoid escaping inner quotes by converting surrounding quotes.
+
+**BAD:**
+```dart
+var s = 'It\'s not fun';
+```
+
+**GOOD:**
+```dart
+var s = "It's not fun";
+```
+'''

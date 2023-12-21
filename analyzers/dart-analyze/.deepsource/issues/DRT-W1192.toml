@@ -1,0 +1,40 @@
+title = "Don't access members with `this` unless avoiding shadowing"
+weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "unnecessary_this"
+description = '''
+From [Effective Dart](https://dart.dev/effective-dart/usage#dont-use-this-when-not-needed-to-avoid-shadowing):
+
+**DON'T** use `this` when not needed to avoid shadowing.
+
+**BAD:**
+```dart
+class Box {
+  int value;
+  void update(int newValue) {
+    this.value = newValue;
+  }
+}
+```
+
+**GOOD:**
+```dart
+class Box {
+  int value;
+  void update(int newValue) {
+    value = newValue;
+  }
+}
+```
+
+**GOOD:**
+```dart
+class Box {
+  int value;
+  void update(int value) {
+    this.value = value;
+  }
+}
+```
+'''

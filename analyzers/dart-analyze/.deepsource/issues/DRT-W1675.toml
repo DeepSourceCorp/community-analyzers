@@ -1,0 +1,45 @@
+title = "Undefined super member"
+weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "undefined_super_member"
+description = '''
+The analyzer produces this diagnostic when an inherited member (method,
+getter, setter, or operator) is referenced using `super`, but there's no
+member with that name in the superclass chain.
+
+#### Examples
+
+The following code produces this diagnostic because `Object` doesn't define
+a method named `n`:
+
+```dart
+class C {
+  void m() {
+    super.n();
+  }
+}
+```
+
+The following code produces this diagnostic because `Object` doesn't define
+a getter named `g`:
+
+```dart
+class C {
+  void m() {
+    super.g;
+  }
+}
+```
+
+#### Common fixes
+
+If the inherited member you intend to invoke has a different name, then
+make the name of the invoked member match the inherited member.
+
+If the member you intend to invoke is defined in the same class, then
+remove the `super.`.
+
+If the member isn't defined, then either add the member to one of the
+superclasses or remove the invocation.
+'''

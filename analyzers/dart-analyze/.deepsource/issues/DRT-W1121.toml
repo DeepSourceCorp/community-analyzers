@@ -1,0 +1,24 @@
+title = "Prefer putting asserts in initializer lists"
+weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "prefer_asserts_in_initializer_lists"
+description = '''
+**DO** put asserts in initializer lists.
+
+**BAD:**
+```dart
+class A {
+  A(int a) {
+    assert(a != 0);
+  }
+}
+```
+
+**GOOD:**
+```dart
+class A {
+  A(int a) : assert(a != 0);
+}
+```
+'''

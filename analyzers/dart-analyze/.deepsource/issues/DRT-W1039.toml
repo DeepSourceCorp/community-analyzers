@@ -1,0 +1,10 @@
+title = "Sort pub dependencies alphabetically"
+weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "sort_pub_dependencies"
+description = '''
+**DO** sort pub dependencies alphabetically (A to Z) in `pubspec.yaml`.
+
+Sorting list of pub dependencies makes maintenance easier.
+'''

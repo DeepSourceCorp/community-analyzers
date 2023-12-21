@@ -1,0 +1,30 @@
+title = "Dependencies defined must be a map"
+weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "dependencies_field_not_map"
+description = '''
+The analyzer produces this diagnostic when the value of either the
+`dependencies` or `dev_dependencies` key isn't a map.
+
+#### Example
+
+The following code produces this diagnostic because the value of the
+top-level `dependencies` key is a list:
+
+```yaml
+name: example
+dependencies:
+  - meta
+```
+
+#### Common fixes
+
+Use a map as the value of the `dependencies` key:
+
+```yaml
+name: example
+dependencies:
+  meta: ^1.0.2
+```
+'''

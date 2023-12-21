@@ -1,0 +1,32 @@
+title = "Invalid name in show combinator for imported library"
+weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "undefined_shown_name"
+description = '''
+The analyzer produces this diagnostic when a show combinator includes a
+name that isn't defined by the library being imported.
+
+#### Example
+
+The following code produces this diagnostic because `dart:math` doesn't
+define the name `String`:
+
+```dart
+import 'dart:math' show min, String;
+
+var x = min(0, 1);
+```
+
+#### Common fixes
+
+If a different name should be shown, then correct the name. Otherwise,
+remove the name from the list:
+
+```dart
+import 'dart:math' show min;
+
+var x = min(0, 1);
+```
+
+'''

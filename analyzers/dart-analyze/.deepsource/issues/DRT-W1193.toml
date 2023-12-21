@@ -1,0 +1,22 @@
+title = "Unnecessary toList() in spreads"
+weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "unnecessary_to_list_in_spreads"
+description = '''
+Unnecessary `toList()` in spreads.
+
+**BAD:**
+```dart
+children: <Widget>[
+  ...['foo', 'bar', 'baz'].map((String s) => Text(s)).toList(),
+]
+```
+
+**GOOD:**
+```dart
+children: <Widget>[
+  ...['foo', 'bar', 'baz'].map((String s) => Text(s)),
+]
+```
+'''

@@ -1,0 +1,41 @@
+title = "Start the name of the method with to/_to or as/_as if applicable"
+weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "use_to_and_as_if_applicable"
+description = '''
+From [Effective Dart](https://dart.dev/effective-dart/design#prefer-naming-a-method-to___-if-it-copies-the-objects-state-to-a-new-object):
+
+**PREFER** naming a method `to___()` if it copies the object's state to a new
+object.
+
+**PREFER** naming a method `as___()` if it returns a different representation
+backed by the original object.
+
+**BAD:**
+```dart
+class Bar {
+  Foo myMethod() {
+    return Foo.from(this);
+  }
+}
+```
+
+**GOOD:**
+```dart
+class Bar {
+  Foo toFoo() {
+    return Foo.from(this);
+  }
+}
+```
+
+**GOOD:**
+```dart
+class Bar {
+  Foo asFoo() {
+    return Foo.from(this);
+  }
+}
+```
+'''

@@ -1,0 +1,27 @@
+title = "Invalid number of type arguments in map literal"
+weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "expected_two_map_type_arguments"
+description = '''
+The analyzer produces this diagnostic when a map literal has either one or
+more than two type arguments.
+
+#### Example
+
+The following code produces this diagnostic because the map literal has
+three type arguments when it can have either two or zero:
+
+```dart
+var m = <int, String, int>{};
+```
+
+#### Common fixes
+
+Remove all except two of the type arguments:
+
+```dart
+var m = <int, String>{};
+```
+
+'''

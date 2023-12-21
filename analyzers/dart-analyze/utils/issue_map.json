@@ -1,0 +1,2153 @@
+{
+    "always_use_package_imports": {
+        "issue_code": "DRT-W1001"
+    },
+    "avoid_dynamic_calls": {
+        "issue_code": "DRT-W1002"
+    },
+    "avoid_empty_else": {
+        "issue_code": "DRT-W1003"
+    },
+    "avoid_print": {
+        "issue_code": "DRT-W1004"
+    },
+    "avoid_relative_lib_imports": {
+        "issue_code": "DRT-W1005"
+    },
+    "avoid_slow_async_io": {
+        "issue_code": "DRT-W1006"
+    },
+    "avoid_type_to_string": {
+        "issue_code": "DRT-W1007"
+    },
+    "avoid_types_as_parameter_names": {
+        "issue_code": "DRT-W1008"
+    },
+    "avoid_web_libraries_in_flutter": {
+        "issue_code": "DRT-W1009"
+    },
+    "cancel_subscriptions": {
+        "issue_code": "DRT-W1010"
+    },
+    "close_sinks": {
+        "issue_code": "DRT-W1011"
+    },
+    "collection_methods_unrelated_type": {
+        "issue_code": "DRT-W1012"
+    },
+    "comment_references": {
+        "issue_code": "DRT-W1013"
+    },
+    "control_flow_in_finally": {
+        "issue_code": "DRT-W1014"
+    },
+    "deprecated_member_use_from_same_package": {
+        "issue_code": "DRT-W1015"
+    },
+    "diagnostic_describe_all_properties": {
+        "issue_code": "DRT-W1016"
+    },
+    "discarded_futures": {
+        "issue_code": "DRT-W1017"
+    },
+    "empty_statements": {
+        "issue_code": "DRT-W1018"
+    },
+    "hash_and_equals": {
+        "issue_code": "DRT-W1019"
+    },
+    "literal_only_boolean_expressions": {
+        "issue_code": "DRT-W1020"
+    },
+    "no_adjacent_strings_in_list": {
+        "issue_code": "DRT-W1021"
+    },
+    "no_duplicate_case_values": {
+        "issue_code": "DRT-W1022"
+    },
+    "no_logic_in_create_state": {
+        "issue_code": "DRT-W1023"
+    },
+    "no_self_assignments": {
+        "issue_code": "DRT-W1024"
+    },
+    "no_wildcard_variable_uses": {
+        "issue_code": "DRT-W1025"
+    },
+    "prefer_relative_imports": {
+        "issue_code": "DRT-W1026"
+    },
+    "prefer_void_to_null": {
+        "issue_code": "DRT-W1027"
+    },
+    "test_types_in_equals": {
+        "issue_code": "DRT-W1028"
+    },
+    "throw_in_finally": {
+        "issue_code": "DRT-W1029"
+    },
+    "unnecessary_statements": {
+        "issue_code": "DRT-W1030"
+    },
+    "unrelated_type_equality_checks": {
+        "issue_code": "DRT-W1031"
+    },
+    "unsafe_html": {
+        "issue_code": "DRT-W1032"
+    },
+    "use_build_context_synchronously": {
+        "issue_code": "DRT-W1033"
+    },
+    "use_key_in_widget_constructors": {
+        "issue_code": "DRT-W1034"
+    },
+    "valid_regexps": {
+        "issue_code": "DRT-W1035"
+    },
+    "depend_on_referenced_packages": {
+        "issue_code": "DRT-W1036"
+    },
+    "package_names": {
+        "issue_code": "DRT-W1037"
+    },
+    "secure_pubspec_urls": {
+        "issue_code": "DRT-W1038"
+    },
+    "sort_pub_dependencies": {
+        "issue_code": "DRT-W1039"
+    },
+    "always_declare_return_types": {
+        "issue_code": "DRT-W1040"
+    },
+    "always_put_control_body_on_new_line": {
+        "issue_code": "DRT-W1041"
+    },
+    "always_put_required_named_parameters_first": {
+        "issue_code": "DRT-W1042"
+    },
+    "always_specify_types": {
+        "issue_code": "DRT-W1043"
+    },
+    "annotate_overrides": {
+        "issue_code": "DRT-W1044"
+    },
+    "avoid_annotating_with_dynamic": {
+        "issue_code": "DRT-W1045"
+    },
+    "avoid_bool_literals_in_conditional_expressions": {
+        "issue_code": "DRT-W1046"
+    },
+    "avoid_catches_without_on_clauses": {
+        "issue_code": "DRT-W1047"
+    },
+    "avoid_catching_errors": {
+        "issue_code": "DRT-W1048"
+    },
+    "avoid_classes_with_only_static_members": {
+        "issue_code": "DRT-W1049"
+    },
+    "avoid_double_and_int_checks": {
+        "issue_code": "DRT-W1050"
+    },
+    "avoid_equals_and_hash_code_on_mutable_classes": {
+        "issue_code": "DRT-W1051"
+    },
+    "avoid_escaping_inner_quotes": {
+        "issue_code": "DRT-W1052"
+    },
+    "avoid_field_initializers_in_const_classes": {
+        "issue_code": "DRT-W1053"
+    },
+    "avoid_final_parameters": {
+        "issue_code": "DRT-W1054"
+    },
+    "avoid_function_literals_in_foreach_calls": {
+        "issue_code": "DRT-W1055"
+    },
+    "avoid_implementing_value_types": {
+        "issue_code": "DRT-W1056"
+    },
+    "avoid_init_to_null": {
+        "issue_code": "DRT-W1057"
+    },
+    "avoid_js_rounded_ints": {
+        "issue_code": "DRT-W1058"
+    },
+    "avoid_multiple_declarations_per_line": {
+        "issue_code": "DRT-W1059"
+    },
+    "avoid_null_checks_in_equality_operators": {
+        "issue_code": "DRT-W1060"
+    },
+    "avoid_positional_boolean_parameters": {
+        "issue_code": "DRT-W1061"
+    },
+    "avoid_private_typedef_functions": {
+        "issue_code": "DRT-W1062"
+    },
+    "avoid_redundant_argument_values": {
+        "issue_code": "DRT-W1063"
+    },
+    "avoid_renaming_method_parameters": {
+        "issue_code": "DRT-W1064"
+    },
+    "avoid_return_types_on_setters": {
+        "issue_code": "DRT-W1065"
+    },
+    "avoid_returning_null_for_void": {
+        "issue_code": "DRT-W1066"
+    },
+    "avoid_returning_this": {
+        "issue_code": "DRT-W1067"
+    },
+    "avoid_setters_without_getters": {
+        "issue_code": "DRT-W1068"
+    },
+    "avoid_shadowing_type_parameters": {
+        "issue_code": "DRT-W1069"
+    },
+    "avoid_single_cascade_in_expression_statements": {
+        "issue_code": "DRT-W1070"
+    },
+    "avoid_types_on_closure_parameters": {
+        "issue_code": "DRT-W1071"
+    },
+    "avoid_unnecessary_containers": {
+        "issue_code": "DRT-W1072"
+    },
+    "avoid_unused_constructor_parameters": {
+        "issue_code": "DRT-W1073"
+    },
+    "avoid_void_async": {
+        "issue_code": "DRT-W1074"
+    },
+    "await_only_futures": {
+        "issue_code": "DRT-W1075"
+    },
+    "camel_case_extensions": {
+        "issue_code": "DRT-W1076"
+    },
+    "camel_case_types": {
+        "issue_code": "DRT-W1077"
+    },
+    "cascade_invocations": {
+        "issue_code": "DRT-W1078"
+    },
+    "cast_nullable_to_non_nullable": {
+        "issue_code": "DRT-W1079"
+    },
+    "combinators_ordering": {
+        "issue_code": "DRT-W1080"
+    },
+    "conditional_uri_does_not_exist": {
+        "issue_code": "DRT-W1081"
+    },
+    "constant_identifier_names": {
+        "issue_code": "DRT-W1082"
+    },
+    "curly_braces_in_flow_control_structures": {
+        "issue_code": "DRT-W1083"
+    },
+    "dangling_library_doc_comments": {
+        "issue_code": "DRT-W1084"
+    },
+    "deprecated_consistency": {
+        "issue_code": "DRT-W1085"
+    },
+    "directives_ordering": {
+        "issue_code": "DRT-W1086"
+    },
+    "do_not_use_environment": {
+        "issue_code": "DRT-W1087"
+    },
+    "empty_catches": {
+        "issue_code": "DRT-W1088"
+    },
+    "empty_constructor_bodies": {
+        "issue_code": "DRT-W1089"
+    },
+    "eol_at_end_of_file": {
+        "issue_code": "DRT-W1090"
+    },
+    "exhaustive_cases": {
+        "issue_code": "DRT-W1091"
+    },
+    "file_names": {
+        "issue_code": "DRT-W1092"
+    },
+    "flutter_style_todos": {
+        "issue_code": "DRT-W1093"
+    },
+    "implementation_imports": {
+        "issue_code": "DRT-W1094"
+    },
+    "implicit_call_tearoffs": {
+        "issue_code": "DRT-W1095"
+    },
+    "join_return_with_assignment": {
+        "issue_code": "DRT-W1096"
+    },
+    "leading_newlines_in_multiline_strings": {
+        "issue_code": "DRT-W1097"
+    },
+    "library_annotations": {
+        "issue_code": "DRT-W1098"
+    },
+    "library_names": {
+        "issue_code": "DRT-W1099"
+    },
+    "library_prefixes": {
+        "issue_code": "DRT-W1100"
+    },
+    "library_private_types_in_public_api": {
+        "issue_code": "DRT-W1101"
+    },
+    "lines_longer_than_80_chars": {
+        "issue_code": "DRT-W1102"
+    },
+    "matching_super_parameters": {
+        "issue_code": "DRT-W1103"
+    },
+    "missing_whitespace_between_adjacent_strings": {
+        "issue_code": "DRT-W1104"
+    },
+    "no_leading_underscores_for_library_prefixes": {
+        "issue_code": "DRT-W1105"
+    },
+    "no_leading_underscores_for_local_identifiers": {
+        "issue_code": "DRT-W1106"
+    },
+    "no_literal_bool_comparisons": {
+        "issue_code": "DRT-W1107"
+    },
+    "no_runtimeType_toString": {
+        "issue_code": "DRT-W1108"
+    },
+    "non_constant_identifier_names": {
+        "issue_code": "DRT-W1109"
+    },
+    "noop_primitive_operations": {
+        "issue_code": "DRT-W1110"
+    },
+    "null_check_on_nullable_type_parameter": {
+        "issue_code": "DRT-W1111"
+    },
+    "null_closures": {
+        "issue_code": "DRT-W1112"
+    },
+    "omit_local_variable_types": {
+        "issue_code": "DRT-W1113"
+    },
+    "one_member_abstracts": {
+        "issue_code": "DRT-W1114"
+    },
+    "only_throw_errors": {
+        "issue_code": "DRT-W1115"
+    },
+    "overridden_fields": {
+        "issue_code": "DRT-W1116"
+    },
+    "package_api_docs": {
+        "issue_code": "DRT-W1117"
+    },
+    "package_prefixed_library_names": {
+        "issue_code": "DRT-W1118"
+    },
+    "parameter_assignments": {
+        "issue_code": "DRT-W1119"
+    },
+    "prefer_adjacent_string_concatenation": {
+        "issue_code": "DRT-W1120"
+    },
+    "prefer_asserts_in_initializer_lists": {
+        "issue_code": "DRT-W1121"
+    },
+    "prefer_asserts_with_message": {
+        "issue_code": "DRT-W1122"
+    },
+    "prefer_collection_literals": {
+        "issue_code": "DRT-W1123"
+    },
+    "prefer_conditional_assignment": {
+        "issue_code": "DRT-W1124"
+    },
+    "prefer_const_constructors": {
+        "issue_code": "DRT-W1125"
+    },
+    "prefer_const_constructors_in_immutables": {
+        "issue_code": "DRT-W1126"
+    },
+    "prefer_const_declarations": {
+        "issue_code": "DRT-W1127"
+    },
+    "prefer_const_literals_to_create_immutables": {
+        "issue_code": "DRT-W1128"
+    },
+    "prefer_constructors_over_static_methods": {
+        "issue_code": "DRT-W1129"
+    },
+    "prefer_contains": {
+        "issue_code": "DRT-W1130"
+    },
+    "prefer_double_quotes": {
+        "issue_code": "DRT-W1131"
+    },
+    "prefer_expression_function_bodies": {
+        "issue_code": "DRT-W1132"
+    },
+    "prefer_final_fields": {
+        "issue_code": "DRT-W1133"
+    },
+    "prefer_final_in_for_each": {
+        "issue_code": "DRT-W1134"
+    },
+    "prefer_final_locals": {
+        "issue_code": "DRT-W1135"
+    },
+    "prefer_final_parameters": {
+        "issue_code": "DRT-W1136"
+    },
+    "prefer_for_elements_to_map_fromIterable": {
+        "issue_code": "DRT-W1137"
+    },
+    "prefer_foreach": {
+        "issue_code": "DRT-W1138"
+    },
+    "prefer_function_declarations_over_variables": {
+        "issue_code": "DRT-W1139"
+    },
+    "prefer_generic_function_type_aliases": {
+        "issue_code": "DRT-W1140"
+    },
+    "prefer_if_elements_to_conditional_expressions": {
+        "issue_code": "DRT-W1141"
+    },
+    "prefer_if_null_operators": {
+        "issue_code": "DRT-W1142"
+    },
+    "prefer_initializing_formals": {
+        "issue_code": "DRT-W1143"
+    },
+    "prefer_inlined_adds": {
+        "issue_code": "DRT-W1144"
+    },
+    "prefer_int_literals": {
+        "issue_code": "DRT-W1145"
+    },
+    "prefer_interpolation_to_compose_strings": {
+        "issue_code": "DRT-W1146"
+    },
+    "prefer_is_empty": {
+        "issue_code": "DRT-W1147"
+    },
+    "prefer_is_not_empty": {
+        "issue_code": "DRT-W1148"
+    },
+    "prefer_is_not_operator": {
+        "issue_code": "DRT-W1149"
+    },
+    "prefer_iterable_whereType": {
+        "issue_code": "DRT-W1150"
+    },
+    "prefer_mixin": {
+        "issue_code": "DRT-W1151"
+    },
+    "prefer_null_aware_method_calls": {
+        "issue_code": "DRT-W1152"
+    },
+    "prefer_null_aware_operators": {
+        "issue_code": "DRT-W1153"
+    },
+    "prefer_single_quotes": {
+        "issue_code": "DRT-W1154"
+    },
+    "prefer_spread_collections": {
+        "issue_code": "DRT-W1155"
+    },
+    "prefer_typing_uninitialized_variables": {
+        "issue_code": "DRT-W1156"
+    },
+    "provide_deprecation_message": {
+        "issue_code": "DRT-W1157"
+    },
+    "public_member_api_docs": {
+        "issue_code": "DRT-W1158"
+    },
+    "recursive_getters": {
+        "issue_code": "DRT-W1159"
+    },
+    "require_trailing_commas": {
+        "issue_code": "DRT-W1160"
+    },
+    "sized_box_for_whitespace": {
+        "issue_code": "DRT-W1161"
+    },
+    "sized_box_shrink_expand": {
+        "issue_code": "DRT-W1162"
+    },
+    "slash_for_doc_comments": {
+        "issue_code": "DRT-W1163"
+    },
+    "sort_child_properties_last": {
+        "issue_code": "DRT-W1164"
+    },
+    "sort_constructors_first": {
+        "issue_code": "DRT-W1165"
+    },
+    "sort_unnamed_constructors_first": {
+        "issue_code": "DRT-W1166"
+    },
+    "tighten_type_of_initializing_formals": {
+        "issue_code": "DRT-W1167"
+    },
+    "type_annotate_public_apis": {
+        "issue_code": "DRT-W1168"
+    },
+    "type_init_formals": {
+        "issue_code": "DRT-W1169"
+    },
+    "type_literal_in_constant_pattern": {
+        "issue_code": "DRT-W1170"
+    },
+    "unawaited_futures": {
+        "issue_code": "DRT-W1171"
+    },
+    "unnecessary_await_in_return": {
+        "issue_code": "DRT-W1172"
+    },
+    "unnecessary_brace_in_string_interps": {
+        "issue_code": "DRT-W1173"
+    },
+    "unnecessary_breaks": {
+        "issue_code": "DRT-W1174"
+    },
+    "unnecessary_const": {
+        "issue_code": "DRT-W1175"
+    },
+    "unnecessary_constructor_name": {
+        "issue_code": "DRT-W1176"
+    },
+    "unnecessary_final": {
+        "issue_code": "DRT-W1177"
+    },
+    "unnecessary_getters_setters": {
+        "issue_code": "DRT-W1178"
+    },
+    "unnecessary_lambdas": {
+        "issue_code": "DRT-W1179"
+    },
+    "unnecessary_late": {
+        "issue_code": "DRT-W1180"
+    },
+    "unnecessary_library_directive": {
+        "issue_code": "DRT-W1181"
+    },
+    "unnecessary_new": {
+        "issue_code": "DRT-W1182"
+    },
+    "unnecessary_null_aware_assignments": {
+        "issue_code": "DRT-W1183"
+    },
+    "unnecessary_null_aware_operator_on_extension_on_nullable": {
+        "issue_code": "DRT-W1184"
+    },
+    "unnecessary_null_in_if_null_operators": {
+        "issue_code": "DRT-W1185"
+    },
+    "unnecessary_nullable_for_final_variable_declarations": {
+        "issue_code": "DRT-W1186"
+    },
+    "unnecessary_overrides": {
+        "issue_code": "DRT-W1187"
+    },
+    "unnecessary_parenthesis": {
+        "issue_code": "DRT-W1188"
+    },
+    "unnecessary_raw_strings": {
+        "issue_code": "DRT-W1189"
+    },
+    "unnecessary_string_escapes": {
+        "issue_code": "DRT-W1190"
+    },
+    "unnecessary_string_interpolations": {
+        "issue_code": "DRT-W1191"
+    },
+    "unnecessary_this": {
+        "issue_code": "DRT-W1192"
+    },
+    "unnecessary_to_list_in_spreads": {
+        "issue_code": "DRT-W1193"
+    },
+    "unreachable_from_main": {
+        "issue_code": "DRT-W1194"
+    },
+    "use_colored_box": {
+        "issue_code": "DRT-W1195"
+    },
+    "use_decorated_box": {
+        "issue_code": "DRT-W1196"
+    },
+    "use_enums": {
+        "issue_code": "DRT-W1197"
+    },
+    "use_full_hex_values_for_flutter_colors": {
+        "issue_code": "DRT-W1198"
+    },
+    "use_function_type_syntax_for_parameters": {
+        "issue_code": "DRT-W1199"
+    },
+    "use_if_null_to_convert_nulls_to_bools": {
+        "issue_code": "DRT-W1200"
+    },
+    "use_is_even_rather_than_modulo": {
+        "issue_code": "DRT-W1201"
+    },
+    "use_named_constants": {
+        "issue_code": "DRT-W1202"
+    },
+    "use_raw_strings": {
+        "issue_code": "DRT-W1203"
+    },
+    "use_rethrow_when_possible": {
+        "issue_code": "DRT-W1204"
+    },
+    "use_setters_to_change_properties": {
+        "issue_code": "DRT-W1205"
+    },
+    "use_string_buffers": {
+        "issue_code": "DRT-W1206"
+    },
+    "use_string_in_part_of_directives": {
+        "issue_code": "DRT-W1207"
+    },
+    "use_test_throws_matchers": {
+        "issue_code": "DRT-W1208"
+    },
+    "use_to_and_as_if_applicable": {
+        "issue_code": "DRT-W1209"
+    },
+    "void_checks": {
+        "issue_code": "DRT-W1210"
+    },
+    "abi_specific_integer_invalid": {
+        "issue_code": "DRT-W1211"
+    },
+    "abi_specific_integer_mapping_extra": {
+        "issue_code": "DRT-W1212"
+    },
+    "abi_specific_integer_mapping_missing": {
+        "issue_code": "DRT-W1213"
+    },
+    "abi_specific_integer_mapping_unsupported": {
+        "issue_code": "DRT-W1214"
+    },
+    "abstract_field_initializer": {
+        "issue_code": "DRT-W1215"
+    },
+    "abstract_sealed_class": {
+        "issue_code": "DRT-W1216"
+    },
+    "abstract_super_member_reference": {
+        "issue_code": "DRT-W1217"
+    },
+    "ambiguous_export": {
+        "issue_code": "DRT-W1218"
+    },
+    "ambiguous_extension_member_access": {
+        "issue_code": "DRT-W1219"
+    },
+    "ambiguous_import": {
+        "issue_code": "DRT-W1220"
+    },
+    "ambiguous_set_or_map_literal_both": {
+        "issue_code": "DRT-W1221"
+    },
+    "ambiguous_set_or_map_literal_either": {
+        "issue_code": "DRT-W1222"
+    },
+    "annotation_on_pointer_field": {
+        "issue_code": "DRT-W1223"
+    },
+    "argument_must_be_a_constant": {
+        "issue_code": "DRT-W1224"
+    },
+    "argument_type_not_assignable": {
+        "issue_code": "DRT-W1225"
+    },
+    "argument_type_not_assignable_to_error_handler": {
+        "issue_code": "DRT-W1226"
+    },
+    "assert_in_redirecting_constructor": {
+        "issue_code": "DRT-W1227"
+    },
+    "asset_directory_does_not_exist": {
+        "issue_code": "DRT-W1228"
+    },
+    "asset_does_not_exist": {
+        "issue_code": "DRT-W1229"
+    },
+    "asset_field_not_list": {
+        "issue_code": "DRT-W1230"
+    },
+    "asset_not_string": {
+        "issue_code": "DRT-W1231"
+    },
+    "assignment_of_do_not_store": {
+        "issue_code": "DRT-W1232"
+    },
+    "assignment_to_const": {
+        "issue_code": "DRT-W1233"
+    },
+    "assignment_to_final": {
+        "issue_code": "DRT-W1234"
+    },
+    "assignment_to_final_local": {
+        "issue_code": "DRT-W1235"
+    },
+    "assignment_to_final_no_setter": {
+        "issue_code": "DRT-W1236"
+    },
+    "assignment_to_function": {
+        "issue_code": "DRT-W1237"
+    },
+    "assignment_to_method": {
+        "issue_code": "DRT-W1238"
+    },
+    "assignment_to_type": {
+        "issue_code": "DRT-W1239"
+    },
+    "async_for_in_wrong_context": {
+        "issue_code": "DRT-W1240"
+    },
+    "await_in_late_local_variable_initializer": {
+        "issue_code": "DRT-W1241"
+    },
+    "body_might_complete_normally": {
+        "issue_code": "DRT-W1242"
+    },
+    "body_might_complete_normally_catch_error": {
+        "issue_code": "DRT-W1243"
+    },
+    "body_might_complete_normally_nullable": {
+        "issue_code": "DRT-W1244"
+    },
+    "break_label_on_switch_member": {
+        "issue_code": "DRT-W1245"
+    },
+    "built_in_identifier_as_type": {
+        "issue_code": "DRT-W1246"
+    },
+    "built_in_identifier_in_declaration": {
+        "issue_code": "DRT-W1247"
+    },
+    "case_block_not_terminated": {
+        "issue_code": "DRT-W1248"
+    },
+    "case_expression_type_implements_equals": {
+        "issue_code": "DRT-W1249"
+    },
+    "case_expression_type_is_not_switch_expression_subtype": {
+        "issue_code": "DRT-W1250"
+    },
+    "cast_from_nullable_always_fails": {
+        "issue_code": "DRT-W1251"
+    },
+    "cast_from_null_always_fails": {
+        "issue_code": "DRT-W1252"
+    },
+    "cast_to_non_type": {
+        "issue_code": "DRT-W1253"
+    },
+    "class_used_as_mixin": {
+        "issue_code": "DRT-W1254"
+    },
+    "collection_element_from_deferred_library": {
+        "issue_code": "DRT-W1255"
+    },
+    "compound_implements_finalizable": {
+        "issue_code": "DRT-W1256"
+    },
+    "concrete_class_has_enum_superinterface": {
+        "issue_code": "DRT-W1257"
+    },
+    "concrete_class_with_abstract_member": {
+        "issue_code": "DRT-W1258"
+    },
+    "conflicting_constructor_and_static_member": {
+        "issue_code": "DRT-W1259"
+    },
+    "conflicting_generic_interfaces": {
+        "issue_code": "DRT-W1260"
+    },
+    "conflicting_type_variable_and_container": {
+        "issue_code": "DRT-W1261"
+    },
+    "conflicting_type_variable_and_member": {
+        "issue_code": "DRT-W1262"
+    },
+    "constant_pattern_never_matches_value_type": {
+        "issue_code": "DRT-W1263"
+    },
+    "constant_pattern_with_non_constant_expression": {
+        "issue_code": "DRT-W1264"
+    },
+    "const_constructor_param_type_mismatch": {
+        "issue_code": "DRT-W1265"
+    },
+    "const_constructor_with_field_initialized_by_non_const": {
+        "issue_code": "DRT-W1266"
+    },
+    "const_constructor_with_non_const_super": {
+        "issue_code": "DRT-W1267"
+    },
+    "const_constructor_with_non_final_field": {
+        "issue_code": "DRT-W1268"
+    },
+    "const_deferred_class": {
+        "issue_code": "DRT-W1269"
+    },
+    "const_initialized_with_non_constant_value": {
+        "issue_code": "DRT-W1270"
+    },
+    "const_initialized_with_non_constant_value_from_deferred_library": {
+        "issue_code": "DRT-W1271"
+    },
+    "const_instance_field": {
+        "issue_code": "DRT-W1272"
+    },
+    "const_map_key_not_primitive_equality": {
+        "issue_code": "DRT-W1273"
+    },
+    "const_not_initialized": {
+        "issue_code": "DRT-W1274"
+    },
+    "const_set_element_not_primitive_equality": {
+        "issue_code": "DRT-W1275"
+    },
+    "const_spread_expected_list_or_set": {
+        "issue_code": "DRT-W1276"
+    },
+    "const_spread_expected_map": {
+        "issue_code": "DRT-W1277"
+    },
+    "const_with_non_const": {
+        "issue_code": "DRT-W1278"
+    },
+    "const_with_non_constant_argument": {
+        "issue_code": "DRT-W1279"
+    },
+    "const_with_type_parameters": {
+        "issue_code": "DRT-W1280"
+    },
+    "continue_label_invalid": {
+        "issue_code": "DRT-W1281"
+    },
+    "creation_of_struct_or_union": {
+        "issue_code": "DRT-W1282"
+    },
+    "creation_with_non_type": {
+        "issue_code": "DRT-W1283"
+    },
+    "dead_code": {
+        "issue_code": "DRT-W1284"
+    },
+    "dead_code_catch_following_catch": {
+        "issue_code": "DRT-W1285"
+    },
+    "dead_code_on_catch_subtype": {
+        "issue_code": "DRT-W1286"
+    },
+    "dead_null_aware_expression": {
+        "issue_code": "DRT-W1287"
+    },
+    "default_list_constructor": {
+        "issue_code": "DRT-W1288"
+    },
+    "default_value_in_function_type": {
+        "issue_code": "DRT-W1289"
+    },
+    "default_value_in_redirecting_factory_constructor": {
+        "issue_code": "DRT-W1290"
+    },
+    "default_value_on_required_parameter": {
+        "issue_code": "DRT-W1291"
+    },
+    "deferred_import_of_extension": {
+        "issue_code": "DRT-W1292"
+    },
+    "definitely_unassigned_late_local_variable": {
+        "issue_code": "DRT-W1293"
+    },
+    "dependencies_field_not_map": {
+        "issue_code": "DRT-W1294"
+    },
+    "deprecated_colon_for_default_value": {
+        "issue_code": "DRT-W1295"
+    },
+    "deprecated_export_use": {
+        "issue_code": "DRT-W1296"
+    },
+    "deprecated_field": {
+        "issue_code": "DRT-W1297"
+    },
+    "deprecated_member_use": {
+        "issue_code": "DRT-W1298"
+    },
+    "deprecated_new_in_comment_reference": {
+        "issue_code": "DRT-W1299"
+    },
+    "deprecated_subtype_of_function": {
+        "issue_code": "DRT-W1300"
+    },
+    "disallowed_type_instantiation_expression": {
+        "issue_code": "DRT-W1301"
+    },
+    "division_optimization": {
+        "issue_code": "DRT-W1302"
+    },
+    "duplicate_constructor": {
+        "issue_code": "DRT-W1303"
+    },
+    "duplicate_definition": {
+        "issue_code": "DRT-W1304"
+    },
+    "duplicate_export": {
+        "issue_code": "DRT-W1305"
+    },
+    "duplicate_field_formal_parameter": {
+        "issue_code": "DRT-W1306"
+    },
+    "duplicate_field_name": {
+        "issue_code": "DRT-W1307"
+    },
+    "duplicate_hidden_name": {
+        "issue_code": "DRT-W1308"
+    },
+    "duplicate_ignore": {
+        "issue_code": "DRT-W1309"
+    },
+    "duplicate_import": {
+        "issue_code": "DRT-W1310"
+    },
+    "duplicate_named_argument": {
+        "issue_code": "DRT-W1311"
+    },
+    "duplicate_part": {
+        "issue_code": "DRT-W1312"
+    },
+    "duplicate_pattern_assignment_variable": {
+        "issue_code": "DRT-W1313"
+    },
+    "duplicate_pattern_field": {
+        "issue_code": "DRT-W1314"
+    },
+    "duplicate_rest_element_in_pattern": {
+        "issue_code": "DRT-W1315"
+    },
+    "duplicate_shown_name": {
+        "issue_code": "DRT-W1316"
+    },
+    "duplicate_variable_pattern": {
+        "issue_code": "DRT-W1317"
+    },
+    "empty_map_pattern": {
+        "issue_code": "DRT-W1318"
+    },
+    "empty_record_literal_with_comma": {
+        "issue_code": "DRT-W1319"
+    },
+    "empty_record_type_named_fields_list": {
+        "issue_code": "DRT-W1320"
+    },
+    "empty_record_type_with_comma": {
+        "issue_code": "DRT-W1321"
+    },
+    "empty_struct": {
+        "issue_code": "DRT-W1322"
+    },
+    "enum_constant_same_name_as_enclosing": {
+        "issue_code": "DRT-W1323"
+    },
+    "enum_constant_with_non_const_constructor": {
+        "issue_code": "DRT-W1324"
+    },
+    "enum_mixin_with_instance_variable": {
+        "issue_code": "DRT-W1325"
+    },
+    "enum_with_abstract_member": {
+        "issue_code": "DRT-W1326"
+    },
+    "enum_with_name_values": {
+        "issue_code": "DRT-W1327"
+    },
+    "equal_elements_in_const_set": {
+        "issue_code": "DRT-W1328"
+    },
+    "equal_elements_in_set": {
+        "issue_code": "DRT-W1329"
+    },
+    "equal_keys_in_const_map": {
+        "issue_code": "DRT-W1330"
+    },
+    "equal_keys_in_map": {
+        "issue_code": "DRT-W1331"
+    },
+    "equal_keys_in_map_pattern": {
+        "issue_code": "DRT-W1332"
+    },
+    "expected_one_list_pattern_type_arguments": {
+        "issue_code": "DRT-W1333"
+    },
+    "expected_one_list_type_arguments": {
+        "issue_code": "DRT-W1334"
+    },
+    "expected_one_set_type_arguments": {
+        "issue_code": "DRT-W1335"
+    },
+    "expected_two_map_pattern_type_arguments": {
+        "issue_code": "DRT-W1336"
+    },
+    "expected_two_map_type_arguments": {
+        "issue_code": "DRT-W1337"
+    },
+    "export_internal_library": {
+        "issue_code": "DRT-W1338"
+    },
+    "export_legacy_symbol": {
+        "issue_code": "DRT-W1339"
+    },
+    "export_of_non_library": {
+        "issue_code": "DRT-W1340"
+    },
+    "expression_in_map": {
+        "issue_code": "DRT-W1341"
+    },
+    "extends_non_class": {
+        "issue_code": "DRT-W1342"
+    },
+    "extension_as_expression": {
+        "issue_code": "DRT-W1343"
+    },
+    "extension_conflicting_static_and_instance": {
+        "issue_code": "DRT-W1344"
+    },
+    "extension_declares_abstract_member": {
+        "issue_code": "DRT-W1345"
+    },
+    "extension_declares_constructor": {
+        "issue_code": "DRT-W1346"
+    },
+    "extension_declares_instance_field": {
+        "issue_code": "DRT-W1347"
+    },
+    "extension_declares_member_of_object": {
+        "issue_code": "DRT-W1348"
+    },
+    "extension_override_access_to_static_member": {
+        "issue_code": "DRT-W1349"
+    },
+    "extension_override_argument_not_assignable": {
+        "issue_code": "DRT-W1350"
+    },
+    "extension_override_without_access": {
+        "issue_code": "DRT-W1351"
+    },
+    "extension_override_with_cascade": {
+        "issue_code": "DRT-W1352"
+    },
+    "external_with_initializer": {
+        "issue_code": "DRT-W1353"
+    },
+    "extra_annotation_on_struct_field": {
+        "issue_code": "DRT-W1354"
+    },
+    "extra_positional_arguments": {
+        "issue_code": "DRT-W1355"
+    },
+    "extra_positional_arguments_could_be_named": {
+        "issue_code": "DRT-W1356"
+    },
+    "extra_size_annotation_carray": {
+        "issue_code": "DRT-W1357"
+    },
+    "field_initialized_by_multiple_initializers": {
+        "issue_code": "DRT-W1358"
+    },
+    "field_initialized_in_initializer_and_declaration": {
+        "issue_code": "DRT-W1359"
+    },
+    "field_initialized_in_parameter_and_initializer": {
+        "issue_code": "DRT-W1360"
+    },
+    "field_initializer_factory_constructor": {
+        "issue_code": "DRT-W1361"
+    },
+    "field_initializer_in_struct": {
+        "issue_code": "DRT-W1362"
+    },
+    "field_initializer_not_assignable": {
+        "issue_code": "DRT-W1363"
+    },
+    "field_initializer_outside_constructor": {
+        "issue_code": "DRT-W1364"
+    },
+    "field_initializer_redirecting_constructor": {
+        "issue_code": "DRT-W1365"
+    },
+    "field_initializing_formal_not_assignable": {
+        "issue_code": "DRT-W1366"
+    },
+    "field_in_struct_with_initializer": {
+        "issue_code": "DRT-W1367"
+    },
+    "field_must_be_external_in_struct": {
+        "issue_code": "DRT-W1368"
+    },
+    "final_initialized_in_declaration_and_constructor": {
+        "issue_code": "DRT-W1369"
+    },
+    "final_not_initialized": {
+        "issue_code": "DRT-W1370"
+    },
+    "final_not_initialized_constructor": {
+        "issue_code": "DRT-W1371"
+    },
+    "flutter_field_not_map": {
+        "issue_code": "DRT-W1372"
+    },
+    "for_in_of_invalid_element_type": {
+        "issue_code": "DRT-W1373"
+    },
+    "for_in_of_invalid_type": {
+        "issue_code": "DRT-W1374"
+    },
+    "for_in_with_const_variable": {
+        "issue_code": "DRT-W1375"
+    },
+    "generic_method_type_instantiation_on_dynamic": {
+        "issue_code": "DRT-W1376"
+    },
+    "generic_struct_subclass": {
+        "issue_code": "DRT-W1377"
+    },
+    "getter_not_subtype_setter_types": {
+        "issue_code": "DRT-W1378"
+    },
+    "illegal_async_generator_return_type": {
+        "issue_code": "DRT-W1379"
+    },
+    "illegal_async_return_type": {
+        "issue_code": "DRT-W1380"
+    },
+    "illegal_concrete_enum_member": {
+        "issue_code": "DRT-W1381"
+    },
+    "illegal_enum_values": {
+        "issue_code": "DRT-W1382"
+    },
+    "illegal_sync_generator_return_type": {
+        "issue_code": "DRT-W1383"
+    },
+    "implements_non_class": {
+        "issue_code": "DRT-W1384"
+    },
+    "implements_repeated": {
+        "issue_code": "DRT-W1385"
+    },
+    "implements_super_class": {
+        "issue_code": "DRT-W1386"
+    },
+    "implicit_super_initializer_missing_arguments": {
+        "issue_code": "DRT-W1387"
+    },
+    "implicit_this_reference_in_initializer": {
+        "issue_code": "DRT-W1388"
+    },
+    "import_deferred_library_with_load_function": {
+        "issue_code": "DRT-W1389"
+    },
+    "import_internal_library": {
+        "issue_code": "DRT-W1390"
+    },
+    "import_of_legacy_library_into_null_safe": {
+        "issue_code": "DRT-W1391"
+    },
+    "import_of_non_library": {
+        "issue_code": "DRT-W1392"
+    },
+    "inconsistent_inheritance": {
+        "issue_code": "DRT-W1393"
+    },
+    "inconsistent_language_version_override": {
+        "issue_code": "DRT-W1394"
+    },
+    "inconsistent_pattern_variable_logical_or": {
+        "issue_code": "DRT-W1395"
+    },
+    "initializer_for_non_existent_field": {
+        "issue_code": "DRT-W1396"
+    },
+    "initializer_for_static_field": {
+        "issue_code": "DRT-W1397"
+    },
+    "initializing_formal_for_non_existent_field": {
+        "issue_code": "DRT-W1398"
+    },
+    "instance_access_to_static_member": {
+        "issue_code": "DRT-W1399"
+    },
+    "instance_member_access_from_factory": {
+        "issue_code": "DRT-W1400"
+    },
+    "instance_member_access_from_static": {
+        "issue_code": "DRT-W1401"
+    },
+    "instantiate_abstract_class": {
+        "issue_code": "DRT-W1402"
+    },
+    "instantiate_enum": {
+        "issue_code": "DRT-W1403"
+    },
+    "instantiate_type_alias_expands_to_type_parameter": {
+        "issue_code": "DRT-W1404"
+    },
+    "integer_literal_imprecise_as_double": {
+        "issue_code": "DRT-W1405"
+    },
+    "integer_literal_out_of_range": {
+        "issue_code": "DRT-W1406"
+    },
+    "invalid_annotation": {
+        "issue_code": "DRT-W1407"
+    },
+    "invalid_annotation_constant_value_from_deferred_library": {
+        "issue_code": "DRT-W1408"
+    },
+    "invalid_annotation_from_deferred_library": {
+        "issue_code": "DRT-W1409"
+    },
+    "invalid_annotation_target": {
+        "issue_code": "DRT-W1410"
+    },
+    "invalid_assignment": {
+        "issue_code": "DRT-W1411"
+    },
+    "invalid_dependency": {
+        "issue_code": "DRT-W1412"
+    },
+    "invalid_exception_value": {
+        "issue_code": "DRT-W1413"
+    },
+    "invalid_export_of_internal_element": {
+        "issue_code": "DRT-W1414"
+    },
+    "invalid_export_of_internal_element_indirectly": {
+        "issue_code": "DRT-W1415"
+    },
+    "invalid_extension_argument_count": {
+        "issue_code": "DRT-W1416"
+    },
+    "invalid_factory_method_decl": {
+        "issue_code": "DRT-W1417"
+    },
+    "invalid_factory_method_impl": {
+        "issue_code": "DRT-W1418"
+    },
+    "invalid_factory_name_not_a_class": {
+        "issue_code": "DRT-W1419"
+    },
+    "invalid_field_name": {
+        "issue_code": "DRT-W1420"
+    },
+    "invalid_field_type_in_struct": {
+        "issue_code": "DRT-W1421"
+    },
+    "invalid_implementation_override": {
+        "issue_code": "DRT-W1422"
+    },
+    "invalid_inline_function_type": {
+        "issue_code": "DRT-W1423"
+    },
+    "invalid_internal_annotation": {
+        "issue_code": "DRT-W1424"
+    },
+    "invalid_language_version_override": {
+        "issue_code": "DRT-W1425"
+    },
+    "invalid_literal_annotation": {
+        "issue_code": "DRT-W1426"
+    },
+    "invalid_modifier_on_constructor": {
+        "issue_code": "DRT-W1427"
+    },
+    "invalid_modifier_on_setter": {
+        "issue_code": "DRT-W1428"
+    },
+    "invalid_non_virtual_annotation": {
+        "issue_code": "DRT-W1429"
+    },
+    "invalid_null_aware_operator": {
+        "issue_code": "DRT-W1430"
+    },
+    "invalid_override": {
+        "issue_code": "DRT-W1431"
+    },
+    "invalid_override_of_non_virtual_member": {
+        "issue_code": "DRT-W1432"
+    },
+    "invalid_pattern_variable_in_shared_case_scope": {
+        "issue_code": "DRT-W1433"
+    },
+    "invalid_platforms_field": {
+        "issue_code": "DRT-W1434"
+    },
+    "invalid_reference_to_generative_enum_constructor": {
+        "issue_code": "DRT-W1435"
+    },
+    "invalid_reference_to_this": {
+        "issue_code": "DRT-W1436"
+    },
+    "invalid_return_type_for_catch_error": {
+        "issue_code": "DRT-W1437"
+    },
+    "invalid_sealed_annotation": {
+        "issue_code": "DRT-W1438"
+    },
+    "invalid_super_formal_parameter_location": {
+        "issue_code": "DRT-W1439"
+    },
+    "invalid_type_argument_in_const_literal": {
+        "issue_code": "DRT-W1440"
+    },
+    "invalid_uri": {
+        "issue_code": "DRT-W1441"
+    },
+    "invalid_use_of_covariant_in_extension": {
+        "issue_code": "DRT-W1442"
+    },
+    "invalid_use_of_internal_member": {
+        "issue_code": "DRT-W1443"
+    },
+    "invalid_use_of_null_value": {
+        "issue_code": "DRT-W1444"
+    },
+    "invalid_use_of_type_outside_library": {
+        "issue_code": "DRT-W1445"
+    },
+    "invalid_use_of_visible_for_overriding_member": {
+        "issue_code": "DRT-W1446"
+    },
+    "invalid_use_of_visible_for_testing_member": {
+        "issue_code": "DRT-W1447"
+    },
+    "invalid_visibility_annotation": {
+        "issue_code": "DRT-W1448"
+    },
+    "invalid_visible_for_overriding_annotation": {
+        "issue_code": "DRT-W1449"
+    },
+    "invalid_visible_outside_template_annotation": {
+        "issue_code": "DRT-W1450"
+    },
+    "invocation_of_extension_without_call": {
+        "issue_code": "DRT-W1451"
+    },
+    "invocation_of_non_function": {
+        "issue_code": "DRT-W1452"
+    },
+    "invocation_of_non_function_expression": {
+        "issue_code": "DRT-W1453"
+    },
+    "label_in_outer_scope": {
+        "issue_code": "DRT-W1454"
+    },
+    "label_undefined": {
+        "issue_code": "DRT-W1455"
+    },
+    "late_final_field_with_const_constructor": {
+        "issue_code": "DRT-W1456"
+    },
+    "late_final_local_already_assigned": {
+        "issue_code": "DRT-W1457"
+    },
+    "leaf_call_must_not_return_handle": {
+        "issue_code": "DRT-W1458"
+    },
+    "leaf_call_must_not_take_handle": {
+        "issue_code": "DRT-W1459"
+    },
+    "list_element_type_not_assignable": {
+        "issue_code": "DRT-W1460"
+    },
+    "main_first_positional_parameter_type": {
+        "issue_code": "DRT-W1461"
+    },
+    "main_has_required_named_parameters": {
+        "issue_code": "DRT-W1462"
+    },
+    "main_has_too_many_required_positional_parameters": {
+        "issue_code": "DRT-W1463"
+    },
+    "main_is_not_function": {
+        "issue_code": "DRT-W1464"
+    },
+    "map_entry_not_in_map": {
+        "issue_code": "DRT-W1465"
+    },
+    "map_key_type_not_assignable": {
+        "issue_code": "DRT-W1466"
+    },
+    "map_value_type_not_assignable": {
+        "issue_code": "DRT-W1467"
+    },
+    "mismatched_annotation_on_struct_field": {
+        "issue_code": "DRT-W1468"
+    },
+    "missing_annotation_on_struct_field": {
+        "issue_code": "DRT-W1469"
+    },
+    "missing_dart_library": {
+        "issue_code": "DRT-W1470"
+    },
+    "missing_default_value_for_parameter": {
+        "issue_code": "DRT-W1471"
+    },
+    "missing_dependency": {
+        "issue_code": "DRT-W1472"
+    },
+    "missing_enum_constant_in_switch": {
+        "issue_code": "DRT-W1473"
+    },
+    "missing_exception_value": {
+        "issue_code": "DRT-W1474"
+    },
+    "missing_field_type_in_struct": {
+        "issue_code": "DRT-W1475"
+    },
+    "missing_name": {
+        "issue_code": "DRT-W1476"
+    },
+    "missing_named_pattern_field_name": {
+        "issue_code": "DRT-W1477"
+    },
+    "missing_override_of_must_be_overridden": {
+        "issue_code": "DRT-W1478"
+    },
+    "missing_required_argument": {
+        "issue_code": "DRT-W1479"
+    },
+    "missing_required_param": {
+        "issue_code": "DRT-W1480"
+    },
+    "missing_return": {
+        "issue_code": "DRT-W1481"
+    },
+    "missing_size_annotation_carray": {
+        "issue_code": "DRT-W1482"
+    },
+    "missing_variable_pattern": {
+        "issue_code": "DRT-W1483"
+    },
+    "mixin_application_concrete_super_invoked_member_type": {
+        "issue_code": "DRT-W1484"
+    },
+    "mixin_application_not_implemented_interface": {
+        "issue_code": "DRT-W1485"
+    },
+    "mixin_application_no_concrete_super_invoked_member": {
+        "issue_code": "DRT-W1486"
+    },
+    "mixin_class_declaration_extends_not_object": {
+        "issue_code": "DRT-W1487"
+    },
+    "mixin_class_declares_constructor": {
+        "issue_code": "DRT-W1488"
+    },
+    "mixin_inherits_from_not_object": {
+        "issue_code": "DRT-W1489"
+    },
+    "mixin_instantiate": {
+        "issue_code": "DRT-W1490"
+    },
+    "mixin_of_non_class": {
+        "issue_code": "DRT-W1491"
+    },
+    "mixin_on_sealed_class": {
+        "issue_code": "DRT-W1492"
+    },
+    "mixin_super_class_constraint_deferred_class": {
+        "issue_code": "DRT-W1493"
+    },
+    "mixin_super_class_constraint_non_interface": {
+        "issue_code": "DRT-W1494"
+    },
+    "multiple_redirecting_constructor_invocations": {
+        "issue_code": "DRT-W1495"
+    },
+    "multiple_super_initializers": {
+        "issue_code": "DRT-W1496"
+    },
+    "must_be_a_native_function_type": {
+        "issue_code": "DRT-W1497"
+    },
+    "must_be_a_subtype": {
+        "issue_code": "DRT-W1498"
+    },
+    "must_be_immutable": {
+        "issue_code": "DRT-W1499"
+    },
+    "must_call_super": {
+        "issue_code": "DRT-W1500"
+    },
+    "must_return_void": {
+        "issue_code": "DRT-W1501"
+    },
+    "name_not_string": {
+        "issue_code": "DRT-W1502"
+    },
+    "new_with_undefined_constructor_default": {
+        "issue_code": "DRT-W1503"
+    },
+    "non_abstract_class_inherits_abstract_member": {
+        "issue_code": "DRT-W1504"
+    },
+    "non_bool_condition": {
+        "issue_code": "DRT-W1505"
+    },
+    "non_bool_expression": {
+        "issue_code": "DRT-W1506"
+    },
+    "non_bool_negation_expression": {
+        "issue_code": "DRT-W1507"
+    },
+    "non_bool_operand": {
+        "issue_code": "DRT-W1508"
+    },
+    "non_constant_annotation_constructor": {
+        "issue_code": "DRT-W1509"
+    },
+    "non_constant_case_expression": {
+        "issue_code": "DRT-W1510"
+    },
+    "non_constant_case_expression_from_deferred_library": {
+        "issue_code": "DRT-W1511"
+    },
+    "non_constant_default_value": {
+        "issue_code": "DRT-W1512"
+    },
+    "non_constant_default_value_from_deferred_library": {
+        "issue_code": "DRT-W1513"
+    },
+    "non_constant_list_element": {
+        "issue_code": "DRT-W1514"
+    },
+    "non_constant_map_element": {
+        "issue_code": "DRT-W1515"
+    },
+    "non_constant_map_key": {
+        "issue_code": "DRT-W1516"
+    },
+    "non_constant_map_pattern_key": {
+        "issue_code": "DRT-W1517"
+    },
+    "non_constant_map_value": {
+        "issue_code": "DRT-W1518"
+    },
+    "non_constant_relational_pattern_expression": {
+        "issue_code": "DRT-W1519"
+    },
+    "non_constant_set_element": {
+        "issue_code": "DRT-W1520"
+    },
+    "non_constant_type_argument": {
+        "issue_code": "DRT-W1521"
+    },
+    "non_const_call_to_literal_constructor": {
+        "issue_code": "DRT-W1522"
+    },
+    "non_const_generative_enum_constructor": {
+        "issue_code": "DRT-W1523"
+    },
+    "non_exhaustive_switch_expression": {
+        "issue_code": "DRT-W1524"
+    },
+    "non_exhaustive_switch_statement": {
+        "issue_code": "DRT-W1525"
+    },
+    "non_final_field_in_enum": {
+        "issue_code": "DRT-W1526"
+    },
+    "non_generative_constructor": {
+        "issue_code": "DRT-W1527"
+    },
+    "non_generative_implicit_constructor": {
+        "issue_code": "DRT-W1528"
+    },
+    "non_native_function_type_argument_to_pointer": {
+        "issue_code": "DRT-W1529"
+    },
+    "non_positive_array_dimension": {
+        "issue_code": "DRT-W1530"
+    },
+    "non_sized_type_argument": {
+        "issue_code": "DRT-W1531"
+    },
+    "non_sync_factory": {
+        "issue_code": "DRT-W1532"
+    },
+    "non_type_as_type_argument": {
+        "issue_code": "DRT-W1533"
+    },
+    "non_type_in_catch_clause": {
+        "issue_code": "DRT-W1534"
+    },
+    "non_void_return_for_operator": {
+        "issue_code": "DRT-W1535"
+    },
+    "non_void_return_for_setter": {
+        "issue_code": "DRT-W1536"
+    },
+    "not_assigned_potentially_non_nullable_local_variable": {
+        "issue_code": "DRT-W1537"
+    },
+    "not_a_type": {
+        "issue_code": "DRT-W1538"
+    },
+    "not_binary_operator": {
+        "issue_code": "DRT-W1539"
+    },
+    "not_enough_positional_arguments": {
+        "issue_code": "DRT-W1540"
+    },
+    "not_initialized_non_nullable_instance_field": {
+        "issue_code": "DRT-W1541"
+    },
+    "not_initialized_non_nullable_variable": {
+        "issue_code": "DRT-W1542"
+    },
+    "not_iterable_spread": {
+        "issue_code": "DRT-W1543"
+    },
+    "not_map_spread": {
+        "issue_code": "DRT-W1544"
+    },
+    "no_annotation_constructor_arguments": {
+        "issue_code": "DRT-W1545"
+    },
+    "no_combined_super_signature": {
+        "issue_code": "DRT-W1546"
+    },
+    "no_generative_constructors_in_superclass": {
+        "issue_code": "DRT-W1547"
+    },
+    "nullable_type_in_catch_clause": {
+        "issue_code": "DRT-W1548"
+    },
+    "nullable_type_in_extends_clause": {
+        "issue_code": "DRT-W1549"
+    },
+    "nullable_type_in_implements_clause": {
+        "issue_code": "DRT-W1550"
+    },
+    "nullable_type_in_on_clause": {
+        "issue_code": "DRT-W1551"
+    },
+    "nullable_type_in_with_clause": {
+        "issue_code": "DRT-W1552"
+    },
+    "null_argument_to_non_null_type": {
+        "issue_code": "DRT-W1553"
+    },
+    "null_check_always_fails": {
+        "issue_code": "DRT-W1554"
+    },
+    "obsolete_colon_for_default_value": {
+        "issue_code": "DRT-W1555"
+    },
+    "on_repeated": {
+        "issue_code": "DRT-W1556"
+    },
+    "optional_parameter_in_operator": {
+        "issue_code": "DRT-W1557"
+    },
+    "override_on_non_overriding_member": {
+        "issue_code": "DRT-W1558"
+    },
+    "packed_annotation": {
+        "issue_code": "DRT-W1559"
+    },
+    "packed_annotation_alignment": {
+        "issue_code": "DRT-W1560"
+    },
+    "part_of_different_library": {
+        "issue_code": "DRT-W1561"
+    },
+    "part_of_non_part": {
+        "issue_code": "DRT-W1562"
+    },
+    "part_of_unnamed_library": {
+        "issue_code": "DRT-W1563"
+    },
+    "path_does_not_exist": {
+        "issue_code": "DRT-W1564"
+    },
+    "path_not_posix": {
+        "issue_code": "DRT-W1565"
+    },
+    "path_pubspec_does_not_exist": {
+        "issue_code": "DRT-W1566"
+    },
+    "pattern_assignment_not_local_variable": {
+        "issue_code": "DRT-W1567"
+    },
+    "pattern_constant_from_deferred_library": {
+        "issue_code": "DRT-W1568"
+    },
+    "pattern_type_mismatch_in_irrefutable_context": {
+        "issue_code": "DRT-W1569"
+    },
+    "pattern_variable_assignment_inside_guard": {
+        "issue_code": "DRT-W1570"
+    },
+    "platform_value_disallowed": {
+        "issue_code": "DRT-W1571"
+    },
+    "positional_field_in_object_pattern": {
+        "issue_code": "DRT-W1572"
+    },
+    "positional_super_formal_parameter_with_positional_argument": {
+        "issue_code": "DRT-W1573"
+    },
+    "prefix_collides_with_top_level_member": {
+        "issue_code": "DRT-W1574"
+    },
+    "prefix_identifier_not_followed_by_dot": {
+        "issue_code": "DRT-W1575"
+    },
+    "prefix_shadowed_by_local_declaration": {
+        "issue_code": "DRT-W1576"
+    },
+    "private_collision_in_mixin_application": {
+        "issue_code": "DRT-W1577"
+    },
+    "private_optional_parameter": {
+        "issue_code": "DRT-W1578"
+    },
+    "private_setter": {
+        "issue_code": "DRT-W1579"
+    },
+    "read_potentially_unassigned_final": {
+        "issue_code": "DRT-W1580"
+    },
+    "record_literal_one_positional_no_trailing_comma": {
+        "issue_code": "DRT-W1581"
+    },
+    "record_type_one_positional_no_trailing_comma": {
+        "issue_code": "DRT-W1582"
+    },
+    "recursive_compile_time_constant": {
+        "issue_code": "DRT-W1583"
+    },
+    "recursive_constructor_redirect": {
+        "issue_code": "DRT-W1584"
+    },
+    "recursive_interface_inheritance": {
+        "issue_code": "DRT-W1585"
+    },
+    "redirect_generative_to_missing_constructor": {
+        "issue_code": "DRT-W1586"
+    },
+    "redirect_generative_to_non_generative_constructor": {
+        "issue_code": "DRT-W1587"
+    },
+    "redirect_to_abstract_class_constructor": {
+        "issue_code": "DRT-W1588"
+    },
+    "redirect_to_invalid_function_type": {
+        "issue_code": "DRT-W1589"
+    },
+    "redirect_to_invalid_return_type": {
+        "issue_code": "DRT-W1590"
+    },
+    "redirect_to_missing_constructor": {
+        "issue_code": "DRT-W1591"
+    },
+    "redirect_to_non_class": {
+        "issue_code": "DRT-W1592"
+    },
+    "redirect_to_non_const_constructor": {
+        "issue_code": "DRT-W1593"
+    },
+    "redirect_to_type_alias_expands_to_type_parameter": {
+        "issue_code": "DRT-W1594"
+    },
+    "referenced_before_declaration": {
+        "issue_code": "DRT-W1595"
+    },
+    "refutable_pattern_in_irrefutable_context": {
+        "issue_code": "DRT-W1596"
+    },
+    "relational_pattern_operand_type_not_assignable": {
+        "issue_code": "DRT-W1597"
+    },
+    "relational_pattern_operator_return_type_not_assignable_to_bool": {
+        "issue_code": "DRT-W1598"
+    },
+    "rest_element_in_map_pattern": {
+        "issue_code": "DRT-W1599"
+    },
+    "rethrow_outside_catch": {
+        "issue_code": "DRT-W1600"
+    },
+    "return_in_generative_constructor": {
+        "issue_code": "DRT-W1601"
+    },
+    "return_in_generator": {
+        "issue_code": "DRT-W1602"
+    },
+    "return_of_do_not_store": {
+        "issue_code": "DRT-W1603"
+    },
+    "return_of_invalid_type": {
+        "issue_code": "DRT-W1604"
+    },
+    "return_of_invalid_type_from_closure": {
+        "issue_code": "DRT-W1605"
+    },
+    "return_without_value": {
+        "issue_code": "DRT-W1606"
+    },
+    "sdk_version_async_exported_from_core": {
+        "issue_code": "DRT-W1607"
+    },
+    "sdk_version_as_expression_in_const_context": {
+        "issue_code": "DRT-W1608"
+    },
+    "sdk_version_bool_operator_in_const_context": {
+        "issue_code": "DRT-W1609"
+    },
+    "sdk_version_constructor_tearoffs": {
+        "issue_code": "DRT-W1610"
+    },
+    "sdk_version_eq_eq_operator_in_const_context": {
+        "issue_code": "DRT-W1611"
+    },
+    "sdk_version_extension_methods": {
+        "issue_code": "DRT-W1612"
+    },
+    "sdk_version_gt_gt_gt_operator": {
+        "issue_code": "DRT-W1613"
+    },
+    "sdk_version_is_expression_in_const_context": {
+        "issue_code": "DRT-W1614"
+    },
+    "sdk_version_never": {
+        "issue_code": "DRT-W1615"
+    },
+    "sdk_version_set_literal": {
+        "issue_code": "DRT-W1616"
+    },
+    "sdk_version_ui_as_code": {
+        "issue_code": "DRT-W1617"
+    },
+    "sdk_version_ui_as_code_in_const_context": {
+        "issue_code": "DRT-W1618"
+    },
+    "set_element_type_not_assignable": {
+        "issue_code": "DRT-W1619"
+    },
+    "shared_deferred_prefix": {
+        "issue_code": "DRT-W1620"
+    },
+    "size_annotation_dimensions": {
+        "issue_code": "DRT-W1621"
+    },
+    "static_access_to_instance_member": {
+        "issue_code": "DRT-W1622"
+    },
+    "subtype_of_base_or_final_is_not_base_final_or_sealed": {
+        "issue_code": "DRT-W1623"
+    },
+    "subtype_of_deferred_class": {
+        "issue_code": "DRT-W1624"
+    },
+    "subtype_of_disallowed_type": {
+        "issue_code": "DRT-W1625"
+    },
+    "subtype_of_ffi_class": {
+        "issue_code": "DRT-W1626"
+    },
+    "subtype_of_sealed_class": {
+        "issue_code": "DRT-W1627"
+    },
+    "subtype_of_struct_class": {
+        "issue_code": "DRT-W1628"
+    },
+    "supertype_expands_to_type_parameter": {
+        "issue_code": "DRT-W1629"
+    },
+    "super_formal_parameter_type_is_not_subtype_of_associated": {
+        "issue_code": "DRT-W1630"
+    },
+    "super_formal_parameter_without_associated_named": {
+        "issue_code": "DRT-W1631"
+    },
+    "super_formal_parameter_without_associated_positional": {
+        "issue_code": "DRT-W1632"
+    },
+    "super_invocation_not_last": {
+        "issue_code": "DRT-W1633"
+    },
+    "super_in_enum_constructor": {
+        "issue_code": "DRT-W1634"
+    },
+    "super_in_extension": {
+        "issue_code": "DRT-W1635"
+    },
+    "super_in_invalid_context": {
+        "issue_code": "DRT-W1636"
+    },
+    "super_in_redirecting_constructor": {
+        "issue_code": "DRT-W1637"
+    },
+    "switch_case_completes_normally": {
+        "issue_code": "DRT-W1638"
+    },
+    "switch_expression_not_assignable": {
+        "issue_code": "DRT-W1639"
+    },
+    "tearoff_of_generative_constructor_of_abstract_class": {
+        "issue_code": "DRT-W1640"
+    },
+    "text_direction_code_point_in_comment": {
+        "issue_code": "DRT-W1641"
+    },
+    "text_direction_code_point_in_literal": {
+        "issue_code": "DRT-W1642"
+    },
+    "throw_of_invalid_type": {
+        "issue_code": "DRT-W1643"
+    },
+    "top_level_cycle": {
+        "issue_code": "DRT-W1644"
+    },
+    "type_alias_cannot_reference_itself": {
+        "issue_code": "DRT-W1645"
+    },
+    "type_annotation_deferred_class": {
+        "issue_code": "DRT-W1646"
+    },
+    "type_argument_not_matching_bounds": {
+        "issue_code": "DRT-W1647"
+    },
+    "type_check_with_null": {
+        "issue_code": "DRT-W1648"
+    },
+    "type_parameter_referenced_by_static": {
+        "issue_code": "DRT-W1649"
+    },
+    "type_parameter_supertype_of_its_bound": {
+        "issue_code": "DRT-W1650"
+    },
+    "type_test_with_non_type": {
+        "issue_code": "DRT-W1651"
+    },
+    "type_test_with_undefined_name": {
+        "issue_code": "DRT-W1652"
+    },
+    "unchecked_use_of_nullable_value": {
+        "issue_code": "DRT-W1653"
+    },
+    "undefined_annotation": {
+        "issue_code": "DRT-W1654"
+    },
+    "undefined_class": {
+        "issue_code": "DRT-W1655"
+    },
+    "undefined_constructor_in_initializer": {
+        "issue_code": "DRT-W1656"
+    },
+    "undefined_enum_constant": {
+        "issue_code": "DRT-W1657"
+    },
+    "undefined_enum_constructor": {
+        "issue_code": "DRT-W1658"
+    },
+    "undefined_extension_getter": {
+        "issue_code": "DRT-W1659"
+    },
+    "undefined_extension_method": {
+        "issue_code": "DRT-W1660"
+    },
+    "undefined_extension_operator": {
+        "issue_code": "DRT-W1661"
+    },
+    "undefined_extension_setter": {
+        "issue_code": "DRT-W1662"
+    },
+    "undefined_function": {
+        "issue_code": "DRT-W1663"
+    },
+    "undefined_getter": {
+        "issue_code": "DRT-W1664"
+    },
+    "undefined_hidden_name": {
+        "issue_code": "DRT-W1665"
+    },
+    "undefined_identifier": {
+        "issue_code": "DRT-W1666"
+    },
+    "undefined_identifier_await": {
+        "issue_code": "DRT-W1667"
+    },
+    "undefined_method": {
+        "issue_code": "DRT-W1668"
+    },
+    "undefined_named_parameter": {
+        "issue_code": "DRT-W1669"
+    },
+    "undefined_operator": {
+        "issue_code": "DRT-W1670"
+    },
+    "undefined_prefixed_name": {
+        "issue_code": "DRT-W1671"
+    },
+    "undefined_referenced_parameter": {
+        "issue_code": "DRT-W1672"
+    },
+    "undefined_setter": {
+        "issue_code": "DRT-W1673"
+    },
+    "undefined_shown_name": {
+        "issue_code": "DRT-W1674"
+    },
+    "undefined_super_member": {
+        "issue_code": "DRT-W1675"
+    },
+    "unknown_platform": {
+        "issue_code": "DRT-W1676"
+    },
+    "unnecessary_cast": {
+        "issue_code": "DRT-W1677"
+    },
+    "unnecessary_dev_dependency": {
+        "issue_code": "DRT-W1678"
+    },
+    "unnecessary_import": {
+        "issue_code": "DRT-W1679"
+    },
+    "unnecessary_nan_comparison": {
+        "issue_code": "DRT-W1680"
+    },
+    "unnecessary_non_null_assertion": {
+        "issue_code": "DRT-W1681"
+    },
+    "unnecessary_no_such_method": {
+        "issue_code": "DRT-W1682"
+    },
+    "unnecessary_null_assert_pattern": {
+        "issue_code": "DRT-W1683"
+    },
+    "unnecessary_null_check_pattern": {
+        "issue_code": "DRT-W1684"
+    },
+    "unnecessary_null_comparison": {
+        "issue_code": "DRT-W1685"
+    },
+    "unnecessary_question_mark": {
+        "issue_code": "DRT-W1686"
+    },
+    "unnecessary_set_literal": {
+        "issue_code": "DRT-W1687"
+    },
+    "unnecessary_type_check": {
+        "issue_code": "DRT-W1688"
+    },
+    "unqualified_reference_to_non_local_static_member": {
+        "issue_code": "DRT-W1689"
+    },
+    "unqualified_reference_to_static_member_of_extended_type": {
+        "issue_code": "DRT-W1690"
+    },
+    "unreachable_switch_case": {
+        "issue_code": "DRT-W1691"
+    },
+    "unused_catch_clause": {
+        "issue_code": "DRT-W1692"
+    },
+    "unused_catch_stack": {
+        "issue_code": "DRT-W1693"
+    },
+    "unused_element": {
+        "issue_code": "DRT-W1694"
+    },
+    "unused_field": {
+        "issue_code": "DRT-W1695"
+    },
+    "unused_import": {
+        "issue_code": "DRT-W1696"
+    },
+    "unused_label": {
+        "issue_code": "DRT-W1697"
+    },
+    "unused_local_variable": {
+        "issue_code": "DRT-W1698"
+    },
+    "unused_result": {
+        "issue_code": "DRT-W1699"
+    },
+    "unused_shown_name": {
+        "issue_code": "DRT-W1700"
+    },
+    "uri_does_not_exist": {
+        "issue_code": "DRT-W1701"
+    },
+    "uri_has_not_been_generated": {
+        "issue_code": "DRT-W1702"
+    },
+    "uri_with_interpolation": {
+        "issue_code": "DRT-W1703"
+    },
+    "use_of_native_extension": {
+        "issue_code": "DRT-W1704"
+    },
+    "use_of_void_result": {
+        "issue_code": "DRT-W1705"
+    },
+    "values_declaration_in_enum": {
+        "issue_code": "DRT-W1706"
+    },
+    "variable_pattern_keyword_in_declaration_context": {
+        "issue_code": "DRT-W1707"
+    },
+    "variable_type_mismatch": {
+        "issue_code": "DRT-W1708"
+    },
+    "wrong_number_of_parameters_for_operator": {
+        "issue_code": "DRT-W1709"
+    },
+    "wrong_number_of_parameters_for_setter": {
+        "issue_code": "DRT-W1710"
+    },
+    "wrong_number_of_type_arguments": {
+        "issue_code": "DRT-W1711"
+    },
+    "wrong_number_of_type_arguments_constructor": {
+        "issue_code": "DRT-W1712"
+    },
+    "wrong_number_of_type_arguments_enum": {
+        "issue_code": "DRT-W1713"
+    },
+    "wrong_number_of_type_arguments_extension": {
+        "issue_code": "DRT-W1714"
+    },
+    "wrong_number_of_type_arguments_method": {
+        "issue_code": "DRT-W1715"
+    },
+    "yield_in_non_generator": {
+        "issue_code": "DRT-W1716"
+    },
+    "yield_of_invalid_type": {
+        "issue_code": "DRT-W1717"
+    }
+}

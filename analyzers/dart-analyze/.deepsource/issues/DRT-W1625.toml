@@ -1,0 +1,58 @@
+title = "Restricted classes used in inheritance and implementation clauses"
+weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "subtype_of_disallowed_type"
+description = '''
+The analyzer produces this diagnostic when one of the restricted classes is
+used in either an `extends`, `implements`, `with`, or `on` clause. The
+classes `bool`, `double`, `FutureOr`, `int`, `Null`, `num`, and `String`
+are all restricted in this way, to allow for more efficient
+implementations.
+
+#### Examples
+
+The following code produces this diagnostic because `String` is used in an
+`extends` clause:
+
+```dart
+class A extends String {}
+```
+
+The following code produces this diagnostic because `String` is used in an
+`implements` clause:
+
+```dart
+class B implements String {}
+```
+
+The following code produces this diagnostic because `String` is used in a
+`with` clause:
+
+```dart
+class C with String {}
+```
+
+The following code produces this diagnostic because `String` is used in an
+`on` clause:
+
+```dart
+mixin M on String {}
+```
+
+#### Common fixes
+
+If a different type should be specified, then replace the type:
+
+```dart
+class A extends Object {}
+```
+
+If there isn't a different type that would be appropriate, then remove the
+type, and possibly the whole clause:
+
+```dart
+class B {}
+```
+
+'''

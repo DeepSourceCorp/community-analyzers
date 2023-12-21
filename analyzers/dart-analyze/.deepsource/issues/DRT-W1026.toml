@@ -1,0 +1,23 @@
+title = "Prefer relative imports for files in `lib/`"
+weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "prefer_relative_imports"
+description = '''
+**PREFER** relative imports for files in `lib/`.
+
+When mixing relative and absolute imports it's possible to create confusion
+where the same member gets imported in two different ways. One way to avoid
+that is to ensure you consistently use relative imports for files within the
+`lib/` directory.
+
+**BAD:**
+```dart
+import 'package:my_package/bar.dart';
+```
+
+**GOOD:**
+```dart
+import 'bar.dart';
+```
+'''

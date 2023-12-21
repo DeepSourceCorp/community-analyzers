@@ -1,0 +1,44 @@
+title = "Invalid constructor modifier"
+weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "invalid_modifier_on_constructor"
+description = '''
+The analyzer produces this diagnostic when the body of a constructor is
+prefixed by one of the following modifiers: `async`, `async*`, or `sync*`.
+Constructor bodies must be synchronous.
+
+#### Example
+
+The following code produces this diagnostic because the body of the
+constructor for `C` is marked as being `async`:
+
+```dart
+class C {
+  C() async {}
+}
+```
+
+#### Common fixes
+
+If the constructor can be synchronous, then remove the modifier:
+
+```dart
+class C {
+  C();
+}
+```
+
+If the constructor can't be synchronous, then use a static method to create
+the instance instead:
+
+```dart
+class C {
+  C();
+  static Future<C> c() async {
+    return C();
+  }
+}
+```
+
+'''

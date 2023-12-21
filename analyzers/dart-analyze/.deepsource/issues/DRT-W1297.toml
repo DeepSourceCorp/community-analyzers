@@ -1,0 +1,29 @@
+title = "Remove deprecated key from `pubspec.yaml`"
+weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "deprecated_field"
+description = '''
+The analyzer produces this diagnostic when a key is used in a
+`pubspec.yaml` file that was deprecated. Unused keys take up space and
+might imply semantics that are no longer valid.
+
+#### Example
+
+The following code produces this diagnostic because the `author` key is no
+longer being used:
+
+```dart
+name: example
+author: 'Dash'
+```
+
+#### Common fixes
+
+Remove the deprecated key:
+
+```dart
+name: example
+```
+
+'''

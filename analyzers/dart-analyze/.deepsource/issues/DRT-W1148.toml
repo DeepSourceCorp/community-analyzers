@@ -1,0 +1,25 @@
+title = "Use `isNotEmpty` for Iterables and Maps"
+weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "prefer_is_not_empty"
+description = '''
+**PREFER** `x.isNotEmpty` to `!x.isEmpty` for `Iterable` and `Map` instances.
+
+When testing whether an iterable or map is empty, prefer `isNotEmpty` over
+`!isEmpty` to improve code readability.
+
+**BAD:**
+```dart
+if (!sources.isEmpty) {
+  process(sources);
+}
+```
+
+**GOOD:**
+```dart
+if (todo.isNotEmpty) {
+  sendResults(request, todo.isEmpty);
+}
+```
+'''

@@ -1,0 +1,49 @@
+title = "Unsupported package dependency"
+weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "invalid_dependency"
+description = '''
+The analyzer produces this diagnostic when a package under either
+`dependencies` or `dev_dependencies` isn't a pub, `git`, or `path` based
+dependency.
+
+See [Package dependencies](https://dart.dev/tools/pub/dependencies) for
+more information about the kind of dependencies that are supported.
+
+#### Example
+
+The following code produces this diagnostic because the dependency on the
+package `transmogrify` isn't a pub, `git`, or `path` based dependency:
+
+```yaml
+name: example
+dependencies:
+  transmogrify:
+    hosted:
+      name: transmogrify
+      url: http://your-package-server.com
+    version: ^1.4.0
+```
+
+#### Common fixes
+
+If you want to publish your package to `pub.dev`, then change the
+dependencies to ones that are supported by `pub`.
+
+If you don't want to publish your package to `pub.dev`, then add a
+`publish_to: none` entry to mark the package as one that isn't intended to
+be published:
+
+```yaml
+name: example
+publish_to: none
+dependencies:
+  transmogrify:
+    hosted:
+      name: transmogrify
+      url: http://your-package-server.com
+    version: ^1.4.0
+```
+
+'''

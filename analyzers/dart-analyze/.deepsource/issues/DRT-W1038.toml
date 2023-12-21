@@ -1,0 +1,25 @@
+title = "Use secure urls in `pubspec.yaml`"
+weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "secure_pubspec_urls"
+description = '''
+**DO** Use secure urls in `pubspec.yaml`.
+
+Use `https` instead of `http` or `git:`.
+
+**BAD:**
+```yaml
+repository: http://github.com/dart-lang/example
+```
+
+```yaml
+git:
+  url: git://github.com/dart-lang/example/example.git
+```
+
+**GOOD:**
+```yaml
+repository: https://github.com/dart-lang/example
+```
+'''

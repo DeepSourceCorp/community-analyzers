@@ -1,0 +1,16 @@
+title = "Avoid empty else statements"
+weight = 70
+severity = "major"
+category = "bug-risk"
+verbose_name = "avoid_empty_else"
+description = '''
+**AVOID** empty else statements.
+
+**BAD:**
+```dart
+if (x > y)
+  print("1");
+else ;
+  print("2");
+```
+'''

@@ -1,0 +1,21 @@
+title = "Put a single newline at end of file"
+weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "eol_at_end_of_file"
+description = '''
+**DO** put a single newline at the end of non-empty files.
+
+**BAD:**
+```dart
+a {
+}
+```
+
+**GOOD:**
+```dart
+b {
+}
+    <-- newline
+```
+'''

@@ -1,0 +1,24 @@
+title = "Avoid bool literals in conditional expressions"
+weight = 70
+severity = "major"
+category = "antipattern"
+verbose_name = "avoid_bool_literals_in_conditional_expressions"
+description = '''
+**AVOID** bool literals in conditional expressions.
+
+**BAD:**
+```dart
+condition ? true : boolExpression
+condition ? false : boolExpression
+condition ? boolExpression : true
+condition ? boolExpression : false
+```
+
+**GOOD:**
+```dart
+condition || boolExpression
+!condition && boolExpression
+!condition || boolExpression
+condition && boolExpression
+```
+'''
