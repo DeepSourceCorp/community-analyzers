@@ -8,7 +8,7 @@ Enforce named parameters for function calls with 4 or more arguments. This rule 
 
 <!--more-->
 
-## Not Recommended(s)
+## Bad Practice
 1. Function call with four UNNAMED parameters (default 4)
 ```solidity
 functionName(_senderAddress, 1e18, _tokenAddress, _receiverAddress )

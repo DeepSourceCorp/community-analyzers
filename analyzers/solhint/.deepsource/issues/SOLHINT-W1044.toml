@@ -8,7 +8,7 @@ Explicitly mark visibility in function.
 
 <!--more-->
 
-## Not Recommended(s)
+## Bad Practice
 1. Functions without explicitly marked visibility
 ```solidity
 function b() { }

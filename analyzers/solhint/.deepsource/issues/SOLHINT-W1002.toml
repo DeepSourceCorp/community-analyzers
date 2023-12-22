@@ -8,7 +8,7 @@ Enforces the use of Custom Errors over Require and Revert statements
 
 <!--more-->
 
-## Not Recommended(s)
+## Bad Practice
 1. Use of require statement
 ```solidity
 require(userBalance >= availableAmount, "Insufficient Balance");

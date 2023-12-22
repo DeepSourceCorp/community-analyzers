@@ -8,7 +8,7 @@ Function order is incorrect.
 
 <!--more-->
 
-## Not Recommended(s)
+## Bad Practice
 1. Constructor is placed after other functions
 ```solidity
 

@@ -4,11 +4,11 @@ severity = "minor"
 category = "antipattern"
 weight = 40
 description = """
-Function has cyclomatic complexity "current" but allowed no more than maxcompl.
+Function has cyclomatic complexity `current` but allowed no more than maxcompl.
 
 <!--more-->
 
-## Not Recommended(s)
+## Bad Practice
 1. High code complexity
 ```solidity
  if (a > b) {                   

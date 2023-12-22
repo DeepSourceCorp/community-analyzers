@@ -4,7 +4,7 @@ severity = "major"
 category = "security"
 weight = 60
 description = """
-Avoid to use ".call.value()()".
+Avoid to use `.call.value()()`.
 
 <!--more-->
 

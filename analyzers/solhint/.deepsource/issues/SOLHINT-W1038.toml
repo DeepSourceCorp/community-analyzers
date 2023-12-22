@@ -4,7 +4,7 @@ severity = "major"
 category = "security"
 weight = 60
 description = """
-Use "keccak256" instead of deprecated "sha3".
+Use `keccak256` instead of deprecated `sha3`.
 
 <!--more-->
 

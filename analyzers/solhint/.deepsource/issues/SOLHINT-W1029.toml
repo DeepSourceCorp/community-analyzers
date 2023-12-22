@@ -8,7 +8,7 @@ Non-external functions and state variables should start with a single underscore
 
 <!--more-->
 
-## Not Recommended(s)
+## Bad Practice
 1. Internal function with incorrect naming
 ```solidity
 function thisIsInternal() internal {}

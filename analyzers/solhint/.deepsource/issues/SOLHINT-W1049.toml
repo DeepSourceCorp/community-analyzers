@@ -4,7 +4,7 @@ severity = "major"
 category = "security"
 weight = 60
 description = """
-Do not rely on "block.blockhash". Miners can influence its value.
+Do not rely on `block.blockhash`. Miners can influence its value.
 
 <!--more-->
 

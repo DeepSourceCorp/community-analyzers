@@ -52,7 +52,7 @@
     },
     {
         "issue_code": "private-vars-leading-underscore",
-        "issue_text": "\'userBalance\' should start with _",
+        "issue_text": "'userBalance' should start with _",
         "location": {
             "path": "Reentrancy.sol",
             "position": {
@@ -69,7 +69,7 @@
     },
     {
         "issue_code": "private-vars-leading-underscore",
-        "issue_text": "\'getBalance\' should start with _",
+        "issue_text": "'getBalance' should start with _",
         "location": {
             "path": "Reentrancy.sol",
             "position": {
@@ -137,7 +137,7 @@
     },
     {
         "issue_code": "private-vars-leading-underscore",
-        "issue_text": "\'addToBalance\' should start with _",
+        "issue_text": "'addToBalance' should start with _",
         "location": {
             "path": "Reentrancy.sol",
             "position": {
@@ -171,7 +171,7 @@
     },
     {
         "issue_code": "private-vars-leading-underscore",
-        "issue_text": "\'withdrawBalance\' should start with _",
+        "issue_text": "'withdrawBalance' should start with _",
         "location": {
             "path": "Reentrancy.sol",
             "position": {
@@ -222,7 +222,7 @@
     },
     {
         "issue_code": "avoid-call-value",
-        "issue_text": "Avoid to use \\".call.value()()\\"",
+        "issue_text": "Avoid to use \".call.value()()\"",
         "location": {
             "path": "Reentrancy.sol",
             "position": {
@@ -239,7 +239,7 @@
     },
     {
         "issue_code": "avoid-throw",
-        "issue_text": "\\"throw\\" is deprecated, avoid to use it",
+        "issue_text": "\"throw\" is deprecated, avoid to use it",
         "location": {
             "path": "Reentrancy.sol",
             "position": {
@@ -273,7 +273,7 @@
     },
     {
         "issue_code": "private-vars-leading-underscore",
-        "issue_text": "\'withdrawBalance_fixed\' should start with _",
+        "issue_text": "'withdrawBalance_fixed' should start with _",
         "location": {
             "path": "Reentrancy.sol",
             "position": {
@@ -341,7 +341,7 @@
     },
     {
         "issue_code": "avoid-call-value",
-        "issue_text": "Avoid to use \\".call.value()()\\"",
+        "issue_text": "Avoid to use \".call.value()()\"",
         "location": {
             "path": "Reentrancy.sol",
             "position": {
@@ -358,7 +358,7 @@
     },
     {
         "issue_code": "avoid-throw",
-        "issue_text": "\\"throw\\" is deprecated, avoid to use it",
+        "issue_text": "\"throw\" is deprecated, avoid to use it",
         "location": {
             "path": "Reentrancy.sol",
             "position": {
@@ -392,7 +392,7 @@
     },
     {
         "issue_code": "private-vars-leading-underscore",
-        "issue_text": "\'withdrawBalance_fixed_2\' should start with _",
+        "issue_text": "'withdrawBalance_fixed_2' should start with _",
         "location": {
             "path": "Reentrancy.sol",
             "position": {

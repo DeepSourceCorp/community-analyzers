@@ -8,7 +8,7 @@ Imported object name is not being used by the contract.
 
 <!--more-->
 
-## Not Recommended(s)
+## Bad Practice
 1. Imported object is not being used
 ```solidity
 

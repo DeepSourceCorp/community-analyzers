@@ -8,7 +8,7 @@ Forbid or enforce explicit types (like uint256) that have an alias (like uint).
 
 <!--more-->
 
-## Not Recommended(s)
+## Bad Practice
 1. If explicit is selected
 ```solidity
 uint public variableName

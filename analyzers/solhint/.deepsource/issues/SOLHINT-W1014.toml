@@ -8,7 +8,7 @@ Require or revert statement must have a reason string and check that each reason
 
 <!--more-->
 
-## Not Recommended(s)
+## Bad Practice
 1. Require without reason string
 ```solidity
 

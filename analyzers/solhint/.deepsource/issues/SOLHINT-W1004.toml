@@ -4,7 +4,7 @@ severity = "minor"
 category = "antipattern"
 weight = 40
 description = """
-Function body contains "count" lines but allowed no more than maxlines.
+Function body contains `count` lines but allowed no more than maxlines.
 
 <!--more-->
 

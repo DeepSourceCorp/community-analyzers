@@ -4,7 +4,7 @@ severity = "major"
 category = "security"
 weight = 60
 description = """
-Use "selfdestruct" instead of deprecated "suicide".
+Use `selfdestruct` instead of deprecated `suicide`.
 
 <!--more-->
 

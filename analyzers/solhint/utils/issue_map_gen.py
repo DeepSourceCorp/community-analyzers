@@ -32,8 +32,8 @@ def get_mapping() -> Dict[str, Dict[str, str]]:
     rules = get_all_rules()
 
     if len(rules) > len(issue_map):
-        # if the no. of issues in the mapping is less than the no. of detectors,
-        # then generate the mapping only for the new detectors
+        # if the no. of issues in the mapping is less than the no. of rules,
+        # then generate the mapping only for the new rules
         for rule in rules:
             if rule.rule_id not in issue_map:
                 next_code = next(generate_code)

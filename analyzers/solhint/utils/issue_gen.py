@@ -24,7 +24,7 @@ def get_toml_content(
 ) -> str:
     """Return the content of the toml file."""
     bad_practice_section = (
-        f"\n\n## Not Recommended(s)\n{bad_practice}" if bad_practice else ""
+        f"\n\n## Bad Practice\n{bad_practice}" if bad_practice else ""
     )
     good_practice_section = (
         f"\n\n## Recommended\n{good_practice}" if good_practice else ""
@@ -62,9 +62,9 @@ def update_issue_tomls() -> None:
 
         filepath = _get_toml_path(issue_code)
 
-        title = rule.description.removesuffix(".").replace('"', "`")
+        title = rule.description.replace('"', "`").removesuffix(".")
         wiki_url = rule.wiki_url
-        description = rule.description
+        description = rule.description.replace('"', "`")
         bad_practice = "\n\n".join(
             (
                 f"{idx}. {bad_example['description']}\n"

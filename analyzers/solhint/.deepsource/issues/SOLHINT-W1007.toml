@@ -8,7 +8,7 @@ No console.log/logInt/logBytesX/logString/etc & No hardhat and forge-std console
 
 <!--more-->
 
-## Not Recommended(s)
+## Bad Practice
 1. No console.logX statements
 ```solidity
 console.log('test')

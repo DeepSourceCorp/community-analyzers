@@ -8,7 +8,7 @@ Possible reentrancy vulnerabilities. Avoid state changes after transfer.
 
 <!--more-->
 
-## Not Recommended(s)
+## Bad Practice
 1. Vulnerable Contract 1
 ```solidity
 

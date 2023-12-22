@@ -4,7 +4,7 @@ severity = "minor"
 category = "antipattern"
 weight = 40
 description = """
-Variable "name" is unused.
+Variable `name` is unused.
 
 <!--more-->
 

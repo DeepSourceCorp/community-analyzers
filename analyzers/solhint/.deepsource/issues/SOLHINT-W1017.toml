@@ -8,7 +8,7 @@ Enforces the use of double or simple quotes as configured for string literals. V
 
 <!--more-->
 
-## Not Recommended(s)
+## Bad Practice
 1. Configured with single quotes
 ```solidity
 

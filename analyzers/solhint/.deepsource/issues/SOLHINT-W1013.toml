@@ -8,7 +8,7 @@ When fallback is not payable you will not be able to receive ethers.
 
 <!--more-->
 
-## Not Recommended(s)
+## Bad Practice
 1. Fallback is not payable
 ```solidity
 

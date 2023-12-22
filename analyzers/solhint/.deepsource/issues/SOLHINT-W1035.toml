@@ -8,7 +8,7 @@ Visibility modifier must be first in list of modifiers.
 
 <!--more-->
 
-## Not Recommended(s)
+## Bad Practice
 1. Visibility modifier not placed first
 ```solidity
 

@@ -8,7 +8,7 @@ Check that all public or external functions are override. This is iseful to make
 
 <!--more-->
 
-## Not Recommended(s)
+## Bad Practice
 1. A public function is not an override
 ```solidity
 pragma solidity ^0.7.0;

@@ -8,7 +8,7 @@ Check order of elements in file and inside each contract, according to the style
 
 <!--more-->
 
-## Not Recommended(s)
+## Bad Practice
 1. State variable declaration after function
 ```solidity
 

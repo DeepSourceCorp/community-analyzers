@@ -8,7 +8,7 @@ Enforce the return values of a function to be named
 
 <!--more-->
 
-## Not Recommended(s)
+## Bad Practice
 1. Function definition with UNNAMED return values
 ```solidity
 function checkBalance(address wallet) external view returns(uint256) {}

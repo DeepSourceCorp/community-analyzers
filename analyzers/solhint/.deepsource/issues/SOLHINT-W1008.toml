@@ -8,7 +8,7 @@ Code block has zero statements inside. Exceptions apply.
 
 <!--more-->
 
-## Not Recommended(s)
+## Bad Practice
 1. Empty block on if statement
 ```solidity
 if (condition) { }

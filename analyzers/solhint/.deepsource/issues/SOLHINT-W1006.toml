@@ -4,11 +4,11 @@ severity = "minor"
 category = "antipattern"
 weight = 40
 description = """
-Contract has "some count" states declarations but allowed no more than maxstates.
+Contract has `some count` states declarations but allowed no more than maxstates.
 
 <!--more-->
 
-## Not Recommended(s)
+## Bad Practice
 1. High number of states
 ```solidity
 

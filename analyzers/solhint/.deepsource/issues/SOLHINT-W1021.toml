@@ -8,7 +8,7 @@ Enforce naming convention on functions for Foundry test cases
 
 <!--more-->
 
-## Not Recommended(s)
+## Bad Practice
 1. Foundry test case with incorrect Function declaration
 ```solidity
 function numberIs42() public {}

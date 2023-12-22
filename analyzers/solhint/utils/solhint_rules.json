@@ -41,7 +41,7 @@
                 "type": "integer"
             }
         },
-        "file": "/private/var/folders/y9/dv63vvmn1wq3__k0n39j78rm0000gn/T/tmpnqfctcls/solhint/lib/rules/best-practises/code-complexity.js"
+        "file": "/solhint/lib/rules/best-practises/code-complexity.js"
     },
     {
         "ruleId": "custom-errors",
@@ -88,7 +88,7 @@
             "defaultSetup": "warn",
             "schema": null
         },
-        "file": "/private/var/folders/y9/dv63vvmn1wq3__k0n39j78rm0000gn/T/tmpnqfctcls/solhint/lib/rules/best-practises/custom-errors.js"
+        "file": "/solhint/lib/rules/best-practises/custom-errors.js"
     },
     {
         "ruleId": "explicit-types",
@@ -158,7 +158,7 @@
                 ]
             }
         },
-        "file": "/private/var/folders/y9/dv63vvmn1wq3__k0n39j78rm0000gn/T/tmpnqfctcls/solhint/lib/rules/best-practises/explicit-types.js"
+        "file": "/solhint/lib/rules/best-practises/explicit-types.js"
     },
     {
         "ruleId": "function-max-lines",
@@ -189,7 +189,7 @@
                 "minimum": 1
             }
         },
-        "file": "/private/var/folders/y9/dv63vvmn1wq3__k0n39j78rm0000gn/T/tmpnqfctcls/solhint/lib/rules/best-practises/function-max-lines.js"
+        "file": "/solhint/lib/rules/best-practises/function-max-lines.js"
     },
     {
         "ruleId": "max-line-length",
@@ -220,7 +220,7 @@
                 "minimum": 1
             }
         },
-        "file": "/private/var/folders/y9/dv63vvmn1wq3__k0n39j78rm0000gn/T/tmpnqfctcls/solhint/lib/rules/best-practises/max-line-length.js"
+        "file": "/solhint/lib/rules/best-practises/max-line-length.js"
     },
     {
         "ruleId": "max-states-count",
@@ -264,7 +264,7 @@
                 "type": "integer"
             }
         },
-        "file": "/private/var/folders/y9/dv63vvmn1wq3__k0n39j78rm0000gn/T/tmpnqfctcls/solhint/lib/rules/best-practises/max-states-count.js"
+        "file": "/solhint/lib/rules/best-practises/max-states-count.js"
     },
     {
         "ruleId": "no-console",
@@ -296,7 +296,7 @@
             "fixable": true,
             "schema": null
         },
-        "file": "/private/var/folders/y9/dv63vvmn1wq3__k0n39j78rm0000gn/T/tmpnqfctcls/solhint/lib/rules/best-practises/no-console.js"
+        "file": "/solhint/lib/rules/best-practises/no-console.js"
     },
     {
         "ruleId": "no-empty-blocks",
@@ -342,7 +342,7 @@
             "defaultSetup": "warn",
             "schema": null
         },
-        "file": "/private/var/folders/y9/dv63vvmn1wq3__k0n39j78rm0000gn/T/tmpnqfctcls/solhint/lib/rules/best-practises/no-empty-blocks.js"
+        "file": "/solhint/lib/rules/best-practises/no-empty-blocks.js"
     },
     {
         "ruleId": "no-global-import",
@@ -383,7 +383,7 @@
             "defaultSetup": "warn",
             "schema": null
         },
-        "file": "/private/var/folders/y9/dv63vvmn1wq3__k0n39j78rm0000gn/T/tmpnqfctcls/solhint/lib/rules/best-practises/no-global-import.js"
+        "file": "/solhint/lib/rules/best-practises/no-global-import.js"
     },
     {
         "ruleId": "no-unused-import",
@@ -412,7 +412,7 @@
             "defaultSetup": "warn",
             "schema": null
         },
-        "file": "/private/var/folders/y9/dv63vvmn1wq3__k0n39j78rm0000gn/T/tmpnqfctcls/solhint/lib/rules/best-practises/no-unused-import.js"
+        "file": "/solhint/lib/rules/best-practises/no-unused-import.js"
     },
     {
         "ruleId": "no-unused-vars",
@@ -427,7 +427,7 @@
             "defaultSetup": "warn",
             "schema": null
         },
-        "file": "/private/var/folders/y9/dv63vvmn1wq3__k0n39j78rm0000gn/T/tmpnqfctcls/solhint/lib/rules/best-practises/no-unused-vars.js"
+        "file": "/solhint/lib/rules/best-practises/no-unused-vars.js"
     },
     {
         "ruleId": "one-contract-per-file",
@@ -448,7 +448,7 @@
             "defaultSetup": "warn",
             "schema": null
         },
-        "file": "/private/var/folders/y9/dv63vvmn1wq3__k0n39j78rm0000gn/T/tmpnqfctcls/solhint/lib/rules/best-practises/one-contract-per-file.js"
+        "file": "/solhint/lib/rules/best-practises/one-contract-per-file.js"
     },
     {
         "ruleId": "payable-fallback",
@@ -478,7 +478,7 @@
             "fixable": true,
             "schema": null
         },
-        "file": "/private/var/folders/y9/dv63vvmn1wq3__k0n39j78rm0000gn/T/tmpnqfctcls/solhint/lib/rules/best-practises/payable-fallback.js"
+        "file": "/solhint/lib/rules/best-practises/payable-fallback.js"
     },
     {
         "ruleId": "reason-string",
@@ -529,7 +529,7 @@
                 }
             }
         },
-        "file": "/private/var/folders/y9/dv63vvmn1wq3__k0n39j78rm0000gn/T/tmpnqfctcls/solhint/lib/rules/best-practises/reason-string.js"
+        "file": "/solhint/lib/rules/best-practises/reason-string.js"
     },
     {
         "ruleId": "constructor-syntax",
@@ -544,7 +544,7 @@
             "defaultSetup": "warn",
             "schema": null
         },
-        "file": "/private/var/folders/y9/dv63vvmn1wq3__k0n39j78rm0000gn/T/tmpnqfctcls/solhint/lib/rules/deprecations/constructor-syntax.js"
+        "file": "/solhint/lib/rules/deprecations/constructor-syntax.js"
     },
     {
         "ruleId": "comprehensive-interface",
@@ -573,7 +573,7 @@
             "defaultSetup": "warn",
             "schema": null
         },
-        "file": "/private/var/folders/y9/dv63vvmn1wq3__k0n39j78rm0000gn/T/tmpnqfctcls/solhint/lib/rules/miscellaneous/comprehensive-interface.js"
+        "file": "/solhint/lib/rules/miscellaneous/comprehensive-interface.js"
     },
     {
         "ruleId": "quotes",
@@ -642,7 +642,7 @@
                 ]
             }
         },
-        "file": "/private/var/folders/y9/dv63vvmn1wq3__k0n39j78rm0000gn/T/tmpnqfctcls/solhint/lib/rules/miscellaneous/quotes.js"
+        "file": "/solhint/lib/rules/miscellaneous/quotes.js"
     },
     {
         "ruleId": "const-name-snakecase",
@@ -657,7 +657,7 @@
             "defaultSetup": "warn",
             "schema": null
         },
-        "file": "/private/var/folders/y9/dv63vvmn1wq3__k0n39j78rm0000gn/T/tmpnqfctcls/solhint/lib/rules/naming/const-name-snakecase.js"
+        "file": "/solhint/lib/rules/naming/const-name-snakecase.js"
     },
     {
         "ruleId": "contract-name-camelcase",
@@ -672,7 +672,7 @@
             "defaultSetup": "warn",
             "schema": null
         },
-        "file": "/private/var/folders/y9/dv63vvmn1wq3__k0n39j78rm0000gn/T/tmpnqfctcls/solhint/lib/rules/naming/contract-name-camelcase.js"
+        "file": "/solhint/lib/rules/naming/contract-name-camelcase.js"
     },
     {
         "ruleId": "event-name-camelcase",
@@ -687,7 +687,7 @@
             "defaultSetup": "warn",
             "schema": null
         },
-        "file": "/private/var/folders/y9/dv63vvmn1wq3__k0n39j78rm0000gn/T/tmpnqfctcls/solhint/lib/rules/naming/event-name-camelcase.js"
+        "file": "/solhint/lib/rules/naming/event-name-camelcase.js"
     },
     {
         "ruleId": "foundry-test-functions",
@@ -754,7 +754,7 @@
                 "type": "array"
             }
         },
-        "file": "/private/var/folders/y9/dv63vvmn1wq3__k0n39j78rm0000gn/T/tmpnqfctcls/solhint/lib/rules/naming/foundry-test-functions.js"
+        "file": "/solhint/lib/rules/naming/foundry-test-functions.js"
     },
     {
         "ruleId": "func-name-mixedcase",
@@ -769,7 +769,7 @@
             "defaultSetup": "warn",
             "schema": null
         },
-        "file": "/private/var/folders/y9/dv63vvmn1wq3__k0n39j78rm0000gn/T/tmpnqfctcls/solhint/lib/rules/naming/func-name-mixedcase.js"
+        "file": "/solhint/lib/rules/naming/func-name-mixedcase.js"
     },
     {
         "ruleId": "func-named-parameters",
@@ -821,7 +821,7 @@
                 "type": "integer"
             }
         },
-        "file": "/private/var/folders/y9/dv63vvmn1wq3__k0n39j78rm0000gn/T/tmpnqfctcls/solhint/lib/rules/naming/func-named-parameters.js"
+        "file": "/solhint/lib/rules/naming/func-named-parameters.js"
     },
     {
         "ruleId": "func-param-name-mixedcase",
@@ -836,7 +836,7 @@
             "defaultSetup": "warn",
             "schema": null
         },
-        "file": "/private/var/folders/y9/dv63vvmn1wq3__k0n39j78rm0000gn/T/tmpnqfctcls/solhint/lib/rules/naming/func-param-name-mixedcase.js"
+        "file": "/solhint/lib/rules/naming/func-param-name-mixedcase.js"
     },
     {
         "ruleId": "immutable-vars-naming",
@@ -873,7 +873,7 @@
                 }
             }
         },
-        "file": "/private/var/folders/y9/dv63vvmn1wq3__k0n39j78rm0000gn/T/tmpnqfctcls/solhint/lib/rules/naming/immutable-vars-naming.js"
+        "file": "/solhint/lib/rules/naming/immutable-vars-naming.js"
     },
     {
         "ruleId": "modifier-name-mixedcase",
@@ -888,7 +888,7 @@
             "defaultSetup": "warn",
             "schema": null
         },
-        "file": "/private/var/folders/y9/dv63vvmn1wq3__k0n39j78rm0000gn/T/tmpnqfctcls/solhint/lib/rules/naming/modifier-name-mixedcase.js"
+        "file": "/solhint/lib/rules/naming/modifier-name-mixedcase.js"
     },
     {
         "ruleId": "named-parameters-mapping",
@@ -945,7 +945,7 @@
             "defaultSetup": "off",
             "schema": null
         },
-        "file": "/private/var/folders/y9/dv63vvmn1wq3__k0n39j78rm0000gn/T/tmpnqfctcls/solhint/lib/rules/naming/named-parameters-mapping.js"
+        "file": "/solhint/lib/rules/naming/named-parameters-mapping.js"
     },
     {
         "ruleId": "named-return-values",
@@ -980,7 +980,7 @@
             "defaultSetup": "warn",
             "schema": null
         },
-        "file": "/private/var/folders/y9/dv63vvmn1wq3__k0n39j78rm0000gn/T/tmpnqfctcls/solhint/lib/rules/naming/named-return-values.js"
+        "file": "/solhint/lib/rules/naming/named-return-values.js"
     },
     {
         "ruleId": "private-vars-leading-underscore",
@@ -1070,7 +1070,7 @@
                 }
             }
         },
-        "file": "/private/var/folders/y9/dv63vvmn1wq3__k0n39j78rm0000gn/T/tmpnqfctcls/solhint/lib/rules/naming/private-vars-leading-underscore.js"
+        "file": "/solhint/lib/rules/naming/private-vars-leading-underscore.js"
     },
     {
         "ruleId": "use-forbidden-name",
@@ -1085,7 +1085,7 @@
             "defaultSetup": "warn",
             "schema": null
         },
-        "file": "/private/var/folders/y9/dv63vvmn1wq3__k0n39j78rm0000gn/T/tmpnqfctcls/solhint/lib/rules/naming/use-forbidden-name.js"
+        "file": "/solhint/lib/rules/naming/use-forbidden-name.js"
     },
     {
         "ruleId": "var-name-mixedcase",
@@ -1100,7 +1100,7 @@
             "defaultSetup": "warn",
             "schema": null
         },
-        "file": "/private/var/folders/y9/dv63vvmn1wq3__k0n39j78rm0000gn/T/tmpnqfctcls/solhint/lib/rules/naming/var-name-mixedcase.js"
+        "file": "/solhint/lib/rules/naming/var-name-mixedcase.js"
     },
     {
         "ruleId": "func-order",
@@ -1131,7 +1131,7 @@
             "defaultSetup": "warn",
             "schema": null
         },
-        "file": "/private/var/folders/y9/dv63vvmn1wq3__k0n39j78rm0000gn/T/tmpnqfctcls/solhint/lib/rules/order/func-order.js"
+        "file": "/solhint/lib/rules/order/func-order.js"
     },
     {
         "ruleId": "imports-on-top",
@@ -1146,7 +1146,7 @@
             "defaultSetup": "warn",
             "schema": null
         },
-        "file": "/private/var/folders/y9/dv63vvmn1wq3__k0n39j78rm0000gn/T/tmpnqfctcls/solhint/lib/rules/order/imports-on-top.js"
+        "file": "/solhint/lib/rules/order/imports-on-top.js"
     },
     {
         "ruleId": "ordering",
@@ -1211,7 +1211,7 @@
             "defaultSetup": "warn",
             "schema": null
         },
-        "file": "/private/var/folders/y9/dv63vvmn1wq3__k0n39j78rm0000gn/T/tmpnqfctcls/solhint/lib/rules/order/ordering.js"
+        "file": "/solhint/lib/rules/order/ordering.js"
     },
     {
         "ruleId": "visibility-modifier-order",
@@ -1240,7 +1240,7 @@
             "defaultSetup": "warn",
             "schema": null
         },
-        "file": "/private/var/folders/y9/dv63vvmn1wq3__k0n39j78rm0000gn/T/tmpnqfctcls/solhint/lib/rules/order/visibility-modifier-order.js"
+        "file": "/solhint/lib/rules/order/visibility-modifier-order.js"
     },
     {
         "ruleId": "avoid-call-value",
@@ -1255,7 +1255,7 @@
             "defaultSetup": "warn",
             "schema": null
         },
-        "file": "/private/var/folders/y9/dv63vvmn1wq3__k0n39j78rm0000gn/T/tmpnqfctcls/solhint/lib/rules/security/avoid-call-value.js"
+        "file": "/solhint/lib/rules/security/avoid-call-value.js"
     },
     {
         "ruleId": "avoid-low-level-calls",
@@ -1284,7 +1284,7 @@
             "defaultSetup": "warn",
             "schema": null
         },
-        "file": "/private/var/folders/y9/dv63vvmn1wq3__k0n39j78rm0000gn/T/tmpnqfctcls/solhint/lib/rules/security/avoid-low-level-calls.js"
+        "file": "/solhint/lib/rules/security/avoid-low-level-calls.js"
     },
     {
         "ruleId": "avoid-sha3",
@@ -1305,7 +1305,7 @@
             "fixable": true,
             "schema": null
         },
-        "file": "/private/var/folders/y9/dv63vvmn1wq3__k0n39j78rm0000gn/T/tmpnqfctcls/solhint/lib/rules/security/avoid-sha3.js"
+        "file": "/solhint/lib/rules/security/avoid-sha3.js"
     },
     {
         "ruleId": "avoid-suicide",
@@ -1320,7 +1320,7 @@
             "defaultSetup": "warn",
             "schema": null
         },
-        "file": "/private/var/folders/y9/dv63vvmn1wq3__k0n39j78rm0000gn/T/tmpnqfctcls/solhint/lib/rules/security/avoid-suicide.js"
+        "file": "/solhint/lib/rules/security/avoid-suicide.js"
     },
     {
         "ruleId": "avoid-throw",
@@ -1341,7 +1341,7 @@
             "fixable": true,
             "schema": null
         },
-        "file": "/private/var/folders/y9/dv63vvmn1wq3__k0n39j78rm0000gn/T/tmpnqfctcls/solhint/lib/rules/security/avoid-throw.js"
+        "file": "/solhint/lib/rules/security/avoid-throw.js"
     },
     {
         "ruleId": "avoid-tx-origin",
@@ -1356,7 +1356,7 @@
             "defaultSetup": "warn",
             "schema": null
         },
-        "file": "/private/var/folders/y9/dv63vvmn1wq3__k0n39j78rm0000gn/T/tmpnqfctcls/solhint/lib/rules/security/avoid-tx-origin.js"
+        "file": "/solhint/lib/rules/security/avoid-tx-origin.js"
     },
     {
         "ruleId": "check-send-result",
@@ -1397,7 +1397,7 @@
             "defaultSetup": "warn",
             "schema": null
         },
-        "file": "/private/var/folders/y9/dv63vvmn1wq3__k0n39j78rm0000gn/T/tmpnqfctcls/solhint/lib/rules/security/check-send-result.js"
+        "file": "/solhint/lib/rules/security/check-send-result.js"
     },
     {
         "ruleId": "compiler-version",
@@ -1427,7 +1427,7 @@
                 "type": "string"
             }
         },
-        "file": "/private/var/folders/y9/dv63vvmn1wq3__k0n39j78rm0000gn/T/tmpnqfctcls/solhint/lib/rules/security/compiler-version.js"
+        "file": "/solhint/lib/rules/security/compiler-version.js"
     },
     {
         "ruleId": "func-visibility",
@@ -1478,7 +1478,7 @@
                 }
             }
         },
-        "file": "/private/var/folders/y9/dv63vvmn1wq3__k0n39j78rm0000gn/T/tmpnqfctcls/solhint/lib/rules/security/func-visibility.js"
+        "file": "/solhint/lib/rules/security/func-visibility.js"
     },
     {
         "ruleId": "mark-callable-contracts",
@@ -1508,7 +1508,7 @@
             "deprecated": true,
             "schema": null
         },
-        "file": "/private/var/folders/y9/dv63vvmn1wq3__k0n39j78rm0000gn/T/tmpnqfctcls/solhint/lib/rules/security/mark-callable-contracts.js"
+        "file": "/solhint/lib/rules/security/mark-callable-contracts.js"
     },
     {
         "ruleId": "multiple-sends",
@@ -1523,7 +1523,7 @@
             "defaultSetup": "warn",
             "schema": null
         },
-        "file": "/private/var/folders/y9/dv63vvmn1wq3__k0n39j78rm0000gn/T/tmpnqfctcls/solhint/lib/rules/security/multiple-sends.js"
+        "file": "/solhint/lib/rules/security/multiple-sends.js"
     },
     {
         "ruleId": "no-complex-fallback",
@@ -1538,7 +1538,7 @@
             "defaultSetup": "warn",
             "schema": null
         },
-        "file": "/private/var/folders/y9/dv63vvmn1wq3__k0n39j78rm0000gn/T/tmpnqfctcls/solhint/lib/rules/security/no-complex-fallback.js"
+        "file": "/solhint/lib/rules/security/no-complex-fallback.js"
     },
     {
         "ruleId": "no-inline-assembly",
@@ -1553,7 +1553,7 @@
             "defaultSetup": "warn",
             "schema": null
         },
-        "file": "/private/var/folders/y9/dv63vvmn1wq3__k0n39j78rm0000gn/T/tmpnqfctcls/solhint/lib/rules/security/no-inline-assembly.js"
+        "file": "/solhint/lib/rules/security/no-inline-assembly.js"
     },
     {
         "ruleId": "not-rely-on-block-hash",
@@ -1568,7 +1568,7 @@
             "defaultSetup": "warn",
             "schema": null
         },
-        "file": "/private/var/folders/y9/dv63vvmn1wq3__k0n39j78rm0000gn/T/tmpnqfctcls/solhint/lib/rules/security/not-rely-on-block-hash.js"
+        "file": "/solhint/lib/rules/security/not-rely-on-block-hash.js"
     },
     {
         "ruleId": "not-rely-on-time",
@@ -1583,7 +1583,7 @@
             "defaultSetup": "warn",
             "schema": null
         },
-        "file": "/private/var/folders/y9/dv63vvmn1wq3__k0n39j78rm0000gn/T/tmpnqfctcls/solhint/lib/rules/security/not-rely-on-time.js"
+        "file": "/solhint/lib/rules/security/not-rely-on-time.js"
     },
     {
         "ruleId": "reentrancy",
@@ -1624,7 +1624,7 @@
             "defaultSetup": "warn",
             "schema": null
         },
-        "file": "/private/var/folders/y9/dv63vvmn1wq3__k0n39j78rm0000gn/T/tmpnqfctcls/solhint/lib/rules/security/reentrancy.js"
+        "file": "/solhint/lib/rules/security/reentrancy.js"
     },
     {
         "ruleId": "state-visibility",
@@ -1639,6 +1639,6 @@
             "defaultSetup": "warn",
             "schema": null
         },
-        "file": "/private/var/folders/y9/dv63vvmn1wq3__k0n39j78rm0000gn/T/tmpnqfctcls/solhint/lib/rules/security/state-visibility.js"
+        "file": "/solhint/lib/rules/security/state-visibility.js"
     }
 ]

@@ -4,7 +4,7 @@ severity = "major"
 category = "security"
 weight = 60
 description = """
-"throw" is deprecated, avoid to use it.
+`throw` is deprecated, avoid to use it.
 
 <!--more-->
 

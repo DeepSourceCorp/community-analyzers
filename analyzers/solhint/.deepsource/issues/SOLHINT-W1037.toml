@@ -8,7 +8,7 @@ Avoid to use low level calls.
 
 <!--more-->
 
-## Not Recommended(s)
+## Bad Practice
 1. Using low level calls
 ```solidity
 anyAddress.call(code);

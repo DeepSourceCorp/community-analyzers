@@ -4,11 +4,11 @@ severity = "major"
 category = "security"
 weight = 60
 description = """
-Check result of "send" call.
+Check result of `send` call.
 
 <!--more-->
 
-## Not Recommended(s)
+## Bad Practice
 1. result of "send" call ignored
 ```solidity
 x.send(55);

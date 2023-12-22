@@ -8,7 +8,7 @@ Import statement includes an entire file instead of selected symbols.
 
 <!--more-->
 
-## Not Recommended(s)
+## Bad Practice
 1. import all members from a file
 ```solidity
 import * from "foo.sol"

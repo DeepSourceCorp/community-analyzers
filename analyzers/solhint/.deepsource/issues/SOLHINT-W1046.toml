@@ -4,7 +4,7 @@ severity = "major"
 category = "security"
 weight = 60
 description = """
-Avoid multiple calls of "send" method in single transaction.
+Avoid multiple calls of `send` method in single transaction.
 
 <!--more-->
 
