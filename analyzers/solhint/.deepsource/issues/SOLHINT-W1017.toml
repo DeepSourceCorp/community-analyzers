@@ -34,7 +34,7 @@ Enforces the use of double or simple quotes as configured for string literals. V
 ```
 
 ## Recommended
-1. Configured with single quotes
+1. Configured with double quotes
 ```solidity
 
       pragma solidity 0.4.4;
@@ -46,7 +46,7 @@ Enforces the use of double or simple quotes as configured for string literals. V
 
 ```
 
-2. Configured with double quotes
+2. Configured with single quotes
 ```solidity
 
       pragma solidity 0.4.4;
@@ -56,6 +56,16 @@ Enforces the use of double or simple quotes as configured for string literals. V
         string private a = 'test';
       }
 
+```
+
+3. Configured with double quotes
+```solidity
+string private constant STR = "You shall 'pass' !";
+```
+
+4. Configured with single quotes
+```solidity
+string private constant STR = 'You shall "pass" !';
 ```
 
 ## Learn more

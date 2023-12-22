@@ -18,12 +18,9 @@ anyAddress.call.value(code)();
 ```
 
 ## Recommended
-1. Using low level calls
+1. Using low level calls to transfer funds
 ```solidity
-anyAddress.call(code);
-a.callcode(test1);
-a.delegatecall(test1);
-anyAddress.call.value(code)();
+anyAddress.call{value: 1 ether}("");
 ```
 
 ## Learn more

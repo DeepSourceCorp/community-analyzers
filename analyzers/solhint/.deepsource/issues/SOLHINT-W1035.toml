@@ -22,14 +22,14 @@ Visibility modifier must be first in list of modifiers.
 ```
 
 ## Recommended
-1. Visibility modifier not placed first
+1. Visibility modifier placed first
 ```solidity
 
       pragma solidity 0.4.4;
 
 
       contract A {
-        function a() ownable() public payable {}
+        function a() public ownable() payable {}
       }
 
 ```

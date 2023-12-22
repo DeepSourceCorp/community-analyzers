@@ -1,4 +1,4 @@
-title = "\"throw\" is deprecated, avoid to use it"
+title = "`throw` is deprecated, avoid to use it"
 verbose_name = "avoid-throw"
 severity = "major"
 category = "security"

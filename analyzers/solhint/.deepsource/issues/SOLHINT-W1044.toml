@@ -15,9 +15,13 @@ function b() { }
 ```
 
 ## Recommended
-1. Functions without explicitly marked visibility
+1. Functions explicitly marked with visibility
 ```solidity
-function b() { }
+function b() internal { }
+function b() external { }
+function b() private { }
+function b() public { }
+constructor() public { }
 ```
 
 ## Learn more

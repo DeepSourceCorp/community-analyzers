@@ -50,7 +50,7 @@ Possible reentrancy vulnerabilities. Avoid state changes after transfer.
 ```
 
 ## Recommended
-1. Vulnerable Contract 1
+1. Invulnerable Contract 1
 ```solidity
 
       pragma solidity 0.4.4;
@@ -62,15 +62,15 @@ Possible reentrancy vulnerabilities. Avoid state changes after transfer.
 
                 function b() external {
                     uint amount = shares[msg.sender];
-                    bool a = msg.sender.send(amount);
-                    if (a) { shares[msg.sender] = 0; }
+                    shares[msg.sender] = 0;
+                    msg.sender.transfer(amount);
                 }
 
       }
 
 ```
 
-2. Vulnerable Contract 2
+2. Invulnerable Contract 2
 ```solidity
 
       pragma solidity 0.4.4;
@@ -82,9 +82,30 @@ Possible reentrancy vulnerabilities. Avoid state changes after transfer.
 
                 function b() external {
                     uint amount = shares[msg.sender];
-                    msg.sender.transfer(amount);
+                    user.test(amount);
                     shares[msg.sender] = 0;
                 }
+
+      }
+
+```
+
+3. Invulnerable Contract 3
+```solidity
+
+      pragma solidity 0.4.4;
+
+
+      contract A {
+
+        function b() public {
+
+                uint[] shares;
+                uint amount = shares[msg.sender];
+                msg.sender.transfer(amount);
+                shares[msg.sender] = 0;
+
+        }
 
       }
 

@@ -25,7 +25,7 @@ Function order is incorrect.
 ```
 
 ## Recommended
-1. Constructor is placed after other functions
+1. Constructor is placed before other functions
 ```solidity
 
       pragma solidity 0.4.4;
@@ -33,8 +33,8 @@ Function order is incorrect.
 
       contract A {
 
-                function () public payable {}
                 constructor() public {}
+                function () public payable {}
 
       }
 

@@ -3,7 +3,7 @@ import os
 import subprocess
 from dataclasses import dataclass
 from tempfile import TemporaryDirectory
-from typing import Literal
+from typing import Any, Literal
 
 from constants import (
     DEEPSOURCE_SEVERITY_WEIGHT_MAP,
@@ -55,7 +55,7 @@ class Rule:
         return DEEPSOURCE_SEVERITY_WEIGHT_MAP[self.deepsource_severity]
 
     @classmethod
-    def from_dict(cls, data) -> "Rule":
+    def from_dict(cls, data: dict[str, Any]) -> "Rule":
         meta_data = data["meta"]
         default_setup = meta_data["defaultSetup"]
         severity = "warn"  # default
@@ -93,10 +93,15 @@ def dump_rules_as_json() -> None:
         'console.log(JSON.stringify(require("./lib/load-rules").loadRules()))',
     ]
     with TemporaryDirectory() as tmpdir:
-        subprocess.run(clone_command, cwd=tmpdir, capture_output=False)
-        subprocess.run(npm_install, cwd=f"{tmpdir}/solhint", capture_output=False)
+        subprocess.run(clone_command, cwd=tmpdir, check=True, capture_output=False)
+        subprocess.run(
+            npm_install, cwd=f"{tmpdir}/solhint", check=True, capture_output=False
+        )
         resp = subprocess.run(
-            print_rules_command, cwd=f"{tmpdir}/solhint", capture_output=True
+            print_rules_command,
+            cwd=f"{tmpdir}/solhint",
+            check=True,
+            capture_output=True,
         )
         with open(SOLHINT_RULES_JSON_FILE, "w") as fp:
             rules_dicts = json.loads(resp.stdout.decode("utf-8"))

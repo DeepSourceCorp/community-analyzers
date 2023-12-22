@@ -30,24 +30,24 @@ uint256 thisIsInternalVariable;
 ```
 
 ## Recommended
-1. Internal function with incorrect naming
+1. Internal function with correct naming
 ```solidity
-function thisIsInternal() internal {}
+function _thisIsInternal() internal {}
 ```
 
-2. Private function with incorrect naming
+2. Private function with correct naming
 ```solidity
-function thisIsPrivate() private {}
+function _thisIsPrivate() private {}
 ```
 
-3. Internal state variable with incorrect naming
+3. Internal state variable with correct naming
 ```solidity
-uint256 internal thisIsInternalVariable;
+uint256 internal _thisIsInternalVariable;
 ```
 
-4. Internal state variable with incorrect naming (no visibility is considered internal)
+4. Internal state variable with correct naming (no visibility is considered internal)
 ```solidity
-uint256 thisIsInternalVariable;
+uint256 _thisIsInternalVariable;
 ```
 
 ## Learn more

@@ -24,22 +24,6 @@ import "hardhat/console.sol"
 import "forge-std/consoleN.sol"
 ```
 
-## Recommended
-1. No console.logX statements
-```solidity
-console.log('test')
-```
-
-2. No hardhat/console.sol import statements
-```solidity
-import "hardhat/console.sol"
-```
-
-3. No forge-std console.sol & console2.sol import statements
-```solidity
-import "forge-std/consoleN.sol"
-```
-
 ## Learn more
 [no-console](https://github.com/protofire/solhint/blob/develop/docs/rules/best-practises/no-console.md) on Solhint's documentation.
 """

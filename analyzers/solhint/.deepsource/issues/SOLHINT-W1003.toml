@@ -27,17 +27,17 @@ uint public variableName = uint256(5)
 ## Recommended
 1. If explicit is selected
 ```solidity
-uint public variableName
+uint256 public variableName
 ```
 
 2. If implicit is selected
 ```solidity
-uint256 public variableName
+uint public variableName
 ```
 
-3. At any setting
+3. If explicit is selected
 ```solidity
-uint public variableName = uint256(5)
+uint256 public variableName = uint256(5)
 ```
 
 ## Learn more

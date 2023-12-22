@@ -22,14 +22,14 @@ When fallback is not payable you will not be able to receive ethers.
 ```
 
 ## Recommended
-1. Fallback is not payable
+1. Fallback is payable
 ```solidity
 
       pragma solidity 0.4.4;
 
 
       contract A {
-        function () public {}
+        function () public payable {}
       }
 
 ```

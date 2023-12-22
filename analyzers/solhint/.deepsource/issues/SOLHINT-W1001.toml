@@ -1,4 +1,4 @@
-title = "Function has cyclomatic complexity \"current\" but allowed no more than maxcompl"
+title = "Function has cyclomatic complexity `current` but allowed no more than maxcompl"
 verbose_name = "code-complexity"
 severity = "minor"
 category = "antipattern"
@@ -26,14 +26,11 @@ while (d > e) { }
 ```
 
 ## Recommended
-1. High code complexity
+1. Low code complexity
 ```solidity
  if (a > b) {                   
    if (b > c) {                 
      if (c > d) {               
-       if (d > e) {             
-       } else {                 
-       }                        
      }                          
    }                            
  }                              

@@ -1,4 +1,4 @@
-title = "Contract has \"some count\" states declarations but allowed no more than maxstates"
+title = "Contract has `some count` states declarations but allowed no more than maxstates"
 verbose_name = "max-states-count"
 severity = "minor"
 category = "antipattern"
@@ -37,7 +37,7 @@ Contract has "some count" states declarations but allowed no more than maxstates
 ```
 
 ## Recommended
-1. High number of states
+1. Low number of states
 ```solidity
 
       pragma solidity 0.4.4;
@@ -54,12 +54,16 @@ Contract has "some count" states declarations but allowed no more than maxstates
         uint private a;
         uint private a;
         uint private a;
-        uint private a;
-        uint private a;
-        uint private a;
-        uint private a;
-        uint private a;
-        uint private a;
+        uint private constant TEST = 1;
+        uint private constant TEST = 1;
+        uint private constant TEST = 1;
+        uint private constant TEST = 1;
+        uint private constant TEST = 1;
+        uint private constant TEST = 1;
+        uint private constant TEST = 1;
+        uint private constant TEST = 1;
+        uint private constant TEST = 1;
+        uint private constant TEST = 1;
       }
 
 ```

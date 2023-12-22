@@ -62,7 +62,7 @@ def update_issue_tomls() -> None:
 
         filepath = _get_toml_path(issue_code)
 
-        title = rule.description.removesuffix(".").replace('"', '\\"')
+        title = rule.description.removesuffix(".").replace('"', "`")
         wiki_url = rule.wiki_url
         description = rule.description
         bad_practice = "\n\n".join(
@@ -81,7 +81,7 @@ def update_issue_tomls() -> None:
                 + good_example["code"]
                 + "\n```"
             )
-            for idx, good_example in enumerate(rule.bad_examples, start=1)
+            for idx, good_example in enumerate(rule.good_examples, start=1)
         )
         severity = rule.deepsource_severity
         category = rule.deepsource_category

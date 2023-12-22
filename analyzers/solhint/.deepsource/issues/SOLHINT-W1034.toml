@@ -94,86 +94,217 @@ contract MyContract {
 ```
 
 ## Recommended
-1. State variable declaration after function
+1. All units are in order - ^0.4.0
 ```solidity
 
-  contract MyContract {
-    function foo() public {}
+pragma solidity ^0.4.0;
 
-    uint a;
+import "./some/library.sol";
+import "./some/other-library.sol";
+
+enum MyEnum {
+  Foo,
+  Bar
+}
+
+struct MyStruct {
+  uint x;
+  uint y;
+}
+
+interface IBox {
+  function getValue() public;
+  function setValue(uint) public;
+}
+
+library MyLibrary {
+  function add(uint a, uint b, uint c) public returns (uint) {
+    return a + b + c;
+  }
+}
+
+contract MyContract {
+  struct InnerStruct {
+    bool flag;
   }
 
-```
+  enum InnerEnum {
+    A, B, C
+  }
 
-2. Library after contract
-```solidity
-
-  contract MyContract {}
-
-  library MyLibrary {}
-
-```
-
-3. Interface after library
-```solidity
-
-  library MyLibrary {}
-
-  interface MyInterface {}
-
-```
-
-4. Use for after state variable
-```solidity
-
-contract MyContract {
   uint public x;
+  uint public y;
 
-  using MyMathLib for uint;
-}
+  event MyEvent(address a);
 
-```
+  constructor () public {}
 
-5. External pure before external view
-```solidity
+  fallback () external {}
 
-contract MyContract {
   function myExternalFunction() external {}
-  function myExternalPureFunction() external pure {}
-  function myExternalViewFunction() external view {}
-}
+  function myExternalConstantFunction() external constant {}
 
-```
-
-6. Public pure before public view
-```solidity
-
-contract MyContract {
   function myPublicFunction() public {}
-  function myPublicPureFunction() public pure {}
-  function myPublicViewFunction() public view {}
-}
+  function myPublicConstantFunction() public constant {}
 
-```
-
-7. Internal pure before internal view
-```solidity
-
-contract MyContract {
   function myInternalFunction() internal {}
-  function myInternalPureFunction() internal pure {}
-  function myInternalViewFunction() internal view {}
+  function myPrivateFunction() private {}
 }
 
 ```
 
-8. Private pure before private view
+2. All units are in order - ^0.5.0
 ```solidity
 
+pragma solidity ^0.5.0;
+
+import "./some/library.sol";
+import "./some/other-library.sol";
+
+enum MyEnum {
+  Foo,
+  Bar
+}
+
+struct MyStruct {
+  uint x;
+  uint y;
+}
+
+interface IBox {
+  function getValue() public;
+  function setValue(uint) public;
+}
+
+library MyLibrary {
+  function add(uint a, uint b, uint c) public returns (uint) {
+    return a + b + c;
+  }
+}
+
 contract MyContract {
+  using MyLibrary for uint;
+
+  struct InnerStruct {
+    bool flag;
+  }
+
+  enum InnerEnum {
+    A, B, C
+  }
+
+  address payable owner;
+  uint public x;
+  uint public y;
+
+  event MyEvent(address a);
+
+  modifier onlyOwner {
+    require(
+      msg.sender == owner,
+      "Only owner can call this function."
+    );
+    _;
+  }
+
+  constructor () public {}
+
+  fallback () external {}
+
+  function myExternalFunction() external {}
+  function myExternalViewFunction() external view {}
+  function myExternalPureFunction() external pure {}
+
+  function myPublicFunction() public {}
+  function myPublicViewFunction() public view {}
+  function myPublicPureFunction() public pure {}
+
+  function myInternalFunction() internal {}
+  function myInternalViewFunction() internal view {}
+  function myInternalPureFunction() internal pure {}
+
   function myPrivateFunction() private {}
-  function myPrivatePureFunction() private pure {}
   function myPrivateViewFunction() private view {}
+  function myPrivatePureFunction() private pure {}
+}
+
+```
+
+3. All units are in order - ^0.6.0
+```solidity
+
+pragma solidity ^0.6.0;
+
+import "./some/library.sol";
+import "./some/other-library.sol";
+
+enum MyEnum {
+  Foo,
+  Bar
+}
+
+struct MyStruct {
+  uint x;
+  uint y;
+}
+
+interface IBox {
+  function getValue() public;
+  function setValue(uint) public;
+}
+
+library MyLibrary {
+  function add(uint a, uint b, uint c) public returns (uint) {
+    return a + b + c;
+  }
+}
+
+contract MyContract {
+  using MyLibrary for uint;
+
+  struct InnerStruct {
+    bool flag;
+  }
+
+  enum InnerEnum {
+    A, B, C
+  }
+
+  address payable owner;
+  uint public x;
+  uint public y;
+
+  event MyEvent(address a);
+
+  modifier onlyOwner {
+    require(
+      msg.sender == owner,
+      "Only owner can call this function."
+    );
+    _;
+  }
+
+  constructor () public {}
+
+  receive() external payable {}
+
+  fallback () external {}
+
+  function myExternalFunction() external {}
+  function myExternalViewFunction() external view {}
+  function myExternalPureFunction() external pure {}
+
+  function myPublicFunction() public {}
+  function myPublicViewFunction() public view {}
+  function myPublicPureFunction() public pure {}
+
+  function myInternalFunction() internal {}
+  function myInternalViewFunction() internal view {}
+  function myInternalPureFunction() internal pure {}
+
+  function myPrivateFunction() private {}
+  function myPrivateViewFunction() private view {}
+  function myPrivatePureFunction() private pure {}
 }
 
 ```

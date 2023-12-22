@@ -25,19 +25,14 @@ revert("Insufficient Balance");
 ```
 
 ## Recommended
-1. Use of require statement
+1. Use of Custom Errors
 ```solidity
-require(userBalance >= availableAmount, "Insufficient Balance");
+revert CustomErrorFunction();
 ```
 
-2. Use of plain revert statement
+2. Use of Custom Errors with arguments
 ```solidity
-revert();
-```
-
-3. Use of revert statement with message
-```solidity
-revert("Insufficient Balance");
+revert CustomErrorFunction({ msg: "Insufficient Balance" });
 ```
 
 ## Learn more

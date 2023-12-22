@@ -20,12 +20,12 @@ contract Foo {
 ```
 
 ## Recommended
-1. A public function is not an override
+1. All public functions are overrides
 ```solidity
 pragma solidity ^0.7.0;
 
-contract Foo {
-  function foo() public {}
+contract Foo is FooInterface {
+  function foo() public override {}
 }
 
 ```

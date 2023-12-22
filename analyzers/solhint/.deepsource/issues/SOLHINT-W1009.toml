@@ -20,14 +20,19 @@ import "foo.sol"
 ```
 
 ## Recommended
-1. import all members from a file
+1. import names explicitly
 ```solidity
-import * from "foo.sol"
+import {A} from "./A.sol"
 ```
 
-2. import an entire file
+2. import entire file into a name
 ```solidity
-import "foo.sol"
+import "./A.sol" as A
+```
+
+3. import entire file into a name
+```solidity
+import * as A from "./A.sol"
 ```
 
 ## Learn more

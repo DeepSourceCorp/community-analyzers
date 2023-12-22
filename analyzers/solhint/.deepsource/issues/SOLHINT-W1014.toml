@@ -28,7 +28,7 @@ Require or revert statement must have a reason string and check that each reason
 ```
 
 ## Recommended
-1. Require without reason string
+1. Require with reason string
 ```solidity
 
       pragma solidity 0.4.4;
@@ -37,7 +37,7 @@ Require or revert statement must have a reason string and check that each reason
       contract A {
 
         function b() public {
-          require(!has(role, account));
+          require(!has(role, account), "Roles: account already has role");
           role.bearer[account] = true;
           role.bearer[account] = true;
         }

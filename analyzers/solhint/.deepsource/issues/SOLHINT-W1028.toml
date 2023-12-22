@@ -15,9 +15,9 @@ function checkBalance(address wallet) external view returns(uint256) {}
 ```
 
 ## Recommended
-1. Function definition with UNNAMED return values
+1. Function definition with named return values
 ```solidity
-function checkBalance(address wallet) external view returns(uint256) {}
+function checkBalance(address wallet) external view returns(uint256 retBalance) {}
 ```
 
 ## Learn more

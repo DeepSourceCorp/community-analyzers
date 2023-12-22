@@ -15,9 +15,9 @@ Bank.withdraw(100);
 ```
 
 ## Recommended
-1. External contract name without "Trusted" prefix
+1. External contract name with "Trusted" prefix
 ```solidity
-Bank.withdraw(100);
+TrustedBank.withdraw(100);
 ```
 
 ## Learn more

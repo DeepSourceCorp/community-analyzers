@@ -1,4 +1,4 @@
-title = "Avoid to use \".call.value()()\""
+title = "Avoid to use `.call.value()()`"
 verbose_name = "avoid-call-value"
 severity = "major"
 category = "security"

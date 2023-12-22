@@ -15,9 +15,19 @@ function numberIs42() public {}
 ```
 
 ## Recommended
-1. Foundry test case with incorrect Function declaration
+1. Foundry test case with correct Function declaration
 ```solidity
-function numberIs42() public {}
+function test_NumberIs42() public {}
+```
+
+2. Foundry test case with correct Function declaration
+```solidity
+function testFail_Subtract43() public {}
+```
+
+3. Foundry test case with correct Function declaration
+```solidity
+function testFuzz_FuzzyTest() public {}
 ```
 
 ## Learn more

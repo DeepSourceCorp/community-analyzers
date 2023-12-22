@@ -1,4 +1,4 @@
-title = "Use \"keccak256\" instead of deprecated \"sha3\""
+title = "Use `keccak256` instead of deprecated `sha3`"
 verbose_name = "avoid-sha3"
 severity = "major"
 category = "security"

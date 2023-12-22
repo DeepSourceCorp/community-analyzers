@@ -1,4 +1,4 @@
-title = "Function body contains \"count\" lines but allowed no more than maxlines"
+title = "Function body contains `count` lines but allowed no more than maxlines"
 verbose_name = "function-max-lines"
 severity = "minor"
 category = "antipattern"

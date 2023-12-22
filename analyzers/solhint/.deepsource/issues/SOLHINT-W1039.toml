@@ -1,4 +1,4 @@
-title = "Use \"selfdestruct\" instead of deprecated \"suicide\""
+title = "Use `selfdestruct` instead of deprecated `suicide`"
 verbose_name = "avoid-suicide"
 severity = "major"
 category = "security"
