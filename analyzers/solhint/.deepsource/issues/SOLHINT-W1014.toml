@@ -1,0 +1,51 @@
+title = "Require or revert statement must have a reason string and check that each reason string is at most N characters long"
+verbose_name = "reason-string"
+severity = "minor"
+category = "antipattern"
+weight = 40
+description = """
+Require or revert statement must have a reason string and check that each reason string is at most N characters long.
+
+<!--more-->
+
+## Not Recommended(s)
+1. Require without reason string
+```solidity
+
+      pragma solidity 0.4.4;
+
+
+      contract A {
+
+        function b() public {
+          require(!has(role, account));
+          role.bearer[account] = true;
+          role.bearer[account] = true;
+        }
+
+      }
+
+```
+
+## Recommended
+1. Require without reason string
+```solidity
+
+      pragma solidity 0.4.4;
+
+
+      contract A {
+
+        function b() public {
+          require(!has(role, account));
+          role.bearer[account] = true;
+          role.bearer[account] = true;
+        }
+
+      }
+
+```
+
+## Learn more
+[reason-string](https://github.com/protofire/solhint/blob/develop/docs/rules/best-practises/reason-string.md) on Solhint's documentation.
+"""

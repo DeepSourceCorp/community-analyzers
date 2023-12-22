@@ -1,0 +1,35 @@
+title = "Check that all public or external functions are override. This is iseful to make sure that the whole API is extracted in an interface"
+verbose_name = "comprehensive-interface"
+severity = "minor"
+category = "antipattern"
+weight = 40
+description = """
+Check that all public or external functions are override. This is iseful to make sure that the whole API is extracted in an interface.
+
+<!--more-->
+
+## Not Recommended(s)
+1. A public function is not an override
+```solidity
+pragma solidity ^0.7.0;
+
+contract Foo {
+  function foo() public {}
+}
+
+```
+
+## Recommended
+1. A public function is not an override
+```solidity
+pragma solidity ^0.7.0;
+
+contract Foo {
+  function foo() public {}
+}
+
+```
+
+## Learn more
+[comprehensive-interface](https://github.com/protofire/solhint/blob/develop/docs/rules/miscellaneous/comprehensive-interface.md) on Solhint's documentation.
+"""

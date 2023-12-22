@@ -1,0 +1,45 @@
+title = "Function order is incorrect"
+verbose_name = "func-order"
+severity = "minor"
+category = "style"
+weight = 40
+description = """
+Function order is incorrect.
+
+<!--more-->
+
+## Not Recommended(s)
+1. Constructor is placed after other functions
+```solidity
+
+      pragma solidity 0.4.4;
+
+
+      contract A {
+
+                function () public payable {}
+                constructor() public {}
+
+      }
+
+```
+
+## Recommended
+1. Constructor is placed after other functions
+```solidity
+
+      pragma solidity 0.4.4;
+
+
+      contract A {
+
+                function () public payable {}
+                constructor() public {}
+
+      }
+
+```
+
+## Learn more
+[func-order](https://github.com/protofire/solhint/blob/develop/docs/rules/order/func-order.md) on Solhint's documentation.
+"""

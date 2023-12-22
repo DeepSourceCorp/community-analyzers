@@ -1,0 +1,45 @@
+title = "Forbid or enforce explicit types (like uint256) that have an alias (like uint)"
+verbose_name = "explicit-types"
+severity = "minor"
+category = "antipattern"
+weight = 40
+description = """
+Forbid or enforce explicit types (like uint256) that have an alias (like uint).
+
+<!--more-->
+
+## Not Recommended(s)
+1. If explicit is selected
+```solidity
+uint public variableName
+```
+
+2. If implicit is selected
+```solidity
+uint256 public variableName
+```
+
+3. At any setting
+```solidity
+uint public variableName = uint256(5)
+```
+
+## Recommended
+1. If explicit is selected
+```solidity
+uint public variableName
+```
+
+2. If implicit is selected
+```solidity
+uint256 public variableName
+```
+
+3. At any setting
+```solidity
+uint public variableName = uint256(5)
+```
+
+## Learn more
+[explicit-types](https://github.com/protofire/solhint/blob/develop/docs/rules/best-practises/explicit-types.md) on Solhint's documentation.
+"""

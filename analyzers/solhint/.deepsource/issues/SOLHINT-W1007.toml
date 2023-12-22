@@ -1,0 +1,45 @@
+title = "No console.log/logInt/logBytesX/logString/etc & No hardhat and forge-std console.sol import statements"
+verbose_name = "no-console"
+severity = "major"
+category = "antipattern"
+weight = 60
+description = """
+No console.log/logInt/logBytesX/logString/etc & No hardhat and forge-std console.sol import statements.
+
+<!--more-->
+
+## Not Recommended(s)
+1. No console.logX statements
+```solidity
+console.log('test')
+```
+
+2. No hardhat/console.sol import statements
+```solidity
+import "hardhat/console.sol"
+```
+
+3. No forge-std console.sol & console2.sol import statements
+```solidity
+import "forge-std/consoleN.sol"
+```
+
+## Recommended
+1. No console.logX statements
+```solidity
+console.log('test')
+```
+
+2. No hardhat/console.sol import statements
+```solidity
+import "hardhat/console.sol"
+```
+
+3. No forge-std console.sol & console2.sol import statements
+```solidity
+import "forge-std/consoleN.sol"
+```
+
+## Learn more
+[no-console](https://github.com/protofire/solhint/blob/develop/docs/rules/best-practises/no-console.md) on Solhint's documentation.
+"""

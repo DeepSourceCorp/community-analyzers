@@ -1,0 +1,13 @@
+title = "Function body contains \"count\" lines but allowed no more than maxlines"
+verbose_name = "function-max-lines"
+severity = "minor"
+category = "antipattern"
+weight = 40
+description = """
+Function body contains "count" lines but allowed no more than maxlines.
+
+<!--more-->
+
+## Learn more
+[function-max-lines](https://github.com/protofire/solhint/blob/develop/docs/rules/best-practises/function-max-lines.md) on Solhint's documentation.
+"""

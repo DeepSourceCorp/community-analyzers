@@ -1,0 +1,63 @@
+title = "Enforces the use of double or simple quotes as configured for string literals. Values must be 'single' or 'double'"
+verbose_name = "quotes"
+severity = "major"
+category = "antipattern"
+weight = 60
+description = """
+Enforces the use of double or simple quotes as configured for string literals. Values must be 'single' or 'double'.
+
+<!--more-->
+
+## Not Recommended(s)
+1. Configured with single quotes
+```solidity
+
+      pragma solidity 0.4.4;
+
+
+      contract A {
+        string private a = "test";
+      }
+
+```
+
+2. Configured with double quotes
+```solidity
+
+      pragma solidity 0.4.4;
+
+
+      contract A {
+        string private a = 'test';
+      }
+
+```
+
+## Recommended
+1. Configured with single quotes
+```solidity
+
+      pragma solidity 0.4.4;
+
+
+      contract A {
+        string private a = "test";
+      }
+
+```
+
+2. Configured with double quotes
+```solidity
+
+      pragma solidity 0.4.4;
+
+
+      contract A {
+        string private a = 'test';
+      }
+
+```
+
+## Learn more
+[quotes](https://github.com/protofire/solhint/blob/develop/docs/rules/miscellaneous/quotes.md) on Solhint's documentation.
+"""

@@ -1,0 +1,13 @@
+title = "Use \"selfdestruct\" instead of deprecated \"suicide\""
+verbose_name = "avoid-suicide"
+severity = "major"
+category = "security"
+weight = 60
+description = """
+Use "selfdestruct" instead of deprecated "suicide".
+
+<!--more-->
+
+## Learn more
+[avoid-suicide](https://github.com/protofire/solhint/blob/develop/docs/rules/security/avoid-suicide.md) on Solhint's documentation.
+"""

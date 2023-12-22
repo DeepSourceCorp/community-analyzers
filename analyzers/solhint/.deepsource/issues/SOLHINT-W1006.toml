@@ -1,0 +1,69 @@
+title = "Contract has \"some count\" states declarations but allowed no more than maxstates"
+verbose_name = "max-states-count"
+severity = "minor"
+category = "antipattern"
+weight = 40
+description = """
+Contract has "some count" states declarations but allowed no more than maxstates.
+
+<!--more-->
+
+## Not Recommended(s)
+1. High number of states
+```solidity
+
+      pragma solidity 0.4.4;
+
+
+      contract A {
+                uint private a;
+        uint private a;
+        uint private a;
+        uint private a;
+        uint private a;
+        uint private a;
+        uint private a;
+        uint private a;
+        uint private a;
+        uint private a;
+        uint private a;
+        uint private a;
+        uint private a;
+        uint private a;
+        uint private a;
+        uint private a;
+      }
+
+```
+
+## Recommended
+1. High number of states
+```solidity
+
+      pragma solidity 0.4.4;
+
+
+      contract A {
+                uint private a;
+        uint private a;
+        uint private a;
+        uint private a;
+        uint private a;
+        uint private a;
+        uint private a;
+        uint private a;
+        uint private a;
+        uint private a;
+        uint private a;
+        uint private a;
+        uint private a;
+        uint private a;
+        uint private a;
+        uint private a;
+      }
+
+```
+
+## Learn more
+[max-states-count](https://github.com/protofire/solhint/blob/develop/docs/rules/best-practises/max-states-count.md) on Solhint's documentation.
+"""

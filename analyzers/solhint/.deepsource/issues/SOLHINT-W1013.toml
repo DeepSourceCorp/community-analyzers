@@ -1,0 +1,39 @@
+title = "When fallback is not payable you will not be able to receive ethers"
+verbose_name = "payable-fallback"
+severity = "minor"
+category = "antipattern"
+weight = 40
+description = """
+When fallback is not payable you will not be able to receive ethers.
+
+<!--more-->
+
+## Not Recommended(s)
+1. Fallback is not payable
+```solidity
+
+      pragma solidity 0.4.4;
+
+
+      contract A {
+        function () public {}
+      }
+
+```
+
+## Recommended
+1. Fallback is not payable
+```solidity
+
+      pragma solidity 0.4.4;
+
+
+      contract A {
+        function () public {}
+      }
+
+```
+
+## Learn more
+[payable-fallback](https://github.com/protofire/solhint/blob/develop/docs/rules/best-practises/payable-fallback.md) on Solhint's documentation.
+"""

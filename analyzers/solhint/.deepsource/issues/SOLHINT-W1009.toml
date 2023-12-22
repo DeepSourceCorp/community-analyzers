@@ -1,0 +1,35 @@
+title = "Import statement includes an entire file instead of selected symbols"
+verbose_name = "no-global-import"
+severity = "minor"
+category = "antipattern"
+weight = 40
+description = """
+Import statement includes an entire file instead of selected symbols.
+
+<!--more-->
+
+## Not Recommended(s)
+1. import all members from a file
+```solidity
+import * from "foo.sol"
+```
+
+2. import an entire file
+```solidity
+import "foo.sol"
+```
+
+## Recommended
+1. import all members from a file
+```solidity
+import * from "foo.sol"
+```
+
+2. import an entire file
+```solidity
+import "foo.sol"
+```
+
+## Learn more
+[no-global-import](https://github.com/protofire/solhint/blob/develop/docs/rules/best-practises/no-global-import.md) on Solhint's documentation.
+"""

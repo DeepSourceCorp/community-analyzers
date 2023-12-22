@@ -1,0 +1,183 @@
+title = "Check order of elements in file and inside each contract, according to the style guide"
+verbose_name = "ordering"
+severity = "minor"
+category = "style"
+weight = 40
+description = """
+Check order of elements in file and inside each contract, according to the style guide.
+
+<!--more-->
+
+## Not Recommended(s)
+1. State variable declaration after function
+```solidity
+
+  contract MyContract {
+    function foo() public {}
+
+    uint a;
+  }
+
+```
+
+2. Library after contract
+```solidity
+
+  contract MyContract {}
+
+  library MyLibrary {}
+
+```
+
+3. Interface after library
+```solidity
+
+  library MyLibrary {}
+
+  interface MyInterface {}
+
+```
+
+4. Use for after state variable
+```solidity
+
+contract MyContract {
+  uint public x;
+
+  using MyMathLib for uint;
+}
+
+```
+
+5. External pure before external view
+```solidity
+
+contract MyContract {
+  function myExternalFunction() external {}
+  function myExternalPureFunction() external pure {}
+  function myExternalViewFunction() external view {}
+}
+
+```
+
+6. Public pure before public view
+```solidity
+
+contract MyContract {
+  function myPublicFunction() public {}
+  function myPublicPureFunction() public pure {}
+  function myPublicViewFunction() public view {}
+}
+
+```
+
+7. Internal pure before internal view
+```solidity
+
+contract MyContract {
+  function myInternalFunction() internal {}
+  function myInternalPureFunction() internal pure {}
+  function myInternalViewFunction() internal view {}
+}
+
+```
+
+8. Private pure before private view
+```solidity
+
+contract MyContract {
+  function myPrivateFunction() private {}
+  function myPrivatePureFunction() private pure {}
+  function myPrivateViewFunction() private view {}
+}
+
+```
+
+## Recommended
+1. State variable declaration after function
+```solidity
+
+  contract MyContract {
+    function foo() public {}
+
+    uint a;
+  }
+
+```
+
+2. Library after contract
+```solidity
+
+  contract MyContract {}
+
+  library MyLibrary {}
+
+```
+
+3. Interface after library
+```solidity
+
+  library MyLibrary {}
+
+  interface MyInterface {}
+
+```
+
+4. Use for after state variable
+```solidity
+
+contract MyContract {
+  uint public x;
+
+  using MyMathLib for uint;
+}
+
+```
+
+5. External pure before external view
+```solidity
+
+contract MyContract {
+  function myExternalFunction() external {}
+  function myExternalPureFunction() external pure {}
+  function myExternalViewFunction() external view {}
+}
+
+```
+
+6. Public pure before public view
+```solidity
+
+contract MyContract {
+  function myPublicFunction() public {}
+  function myPublicPureFunction() public pure {}
+  function myPublicViewFunction() public view {}
+}
+
+```
+
+7. Internal pure before internal view
+```solidity
+
+contract MyContract {
+  function myInternalFunction() internal {}
+  function myInternalPureFunction() internal pure {}
+  function myInternalViewFunction() internal view {}
+}
+
+```
+
+8. Private pure before private view
+```solidity
+
+contract MyContract {
+  function myPrivateFunction() private {}
+  function myPrivatePureFunction() private pure {}
+  function myPrivateViewFunction() private view {}
+}
+
+```
+
+## Learn more
+[ordering](https://github.com/protofire/solhint/blob/develop/docs/rules/order/ordering.md) on Solhint's documentation.
+"""

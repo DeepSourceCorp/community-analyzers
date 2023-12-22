@@ -1,0 +1,13 @@
+title = "Avoid to use \".call.value()()\""
+verbose_name = "avoid-call-value"
+severity = "major"
+category = "security"
+weight = 60
+description = """
+Avoid to use ".call.value()()".
+
+<!--more-->
+
+## Learn more
+[avoid-call-value](https://github.com/protofire/solhint/blob/develop/docs/rules/security/avoid-call-value.md) on Solhint's documentation.
+"""

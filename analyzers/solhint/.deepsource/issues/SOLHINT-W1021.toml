@@ -1,0 +1,25 @@
+title = "Enforce naming convention on functions for Foundry test cases"
+verbose_name = "foundry-test-functions"
+severity = "minor"
+category = "style"
+weight = 40
+description = """
+Enforce naming convention on functions for Foundry test cases
+
+<!--more-->
+
+## Not Recommended(s)
+1. Foundry test case with incorrect Function declaration
+```solidity
+function numberIs42() public {}
+```
+
+## Recommended
+1. Foundry test case with incorrect Function declaration
+```solidity
+function numberIs42() public {}
+```
+
+## Learn more
+[foundry-test-functions](https://github.com/protofire/solhint/blob/develop/docs/rules/naming/foundry-test-functions.md) on Solhint's documentation.
+"""

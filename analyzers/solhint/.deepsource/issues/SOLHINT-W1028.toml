@@ -1,0 +1,25 @@
+title = "Enforce the return values of a function to be named"
+verbose_name = "named-return-values"
+severity = "minor"
+category = "style"
+weight = 40
+description = """
+Enforce the return values of a function to be named
+
+<!--more-->
+
+## Not Recommended(s)
+1. Function definition with UNNAMED return values
+```solidity
+function checkBalance(address wallet) external view returns(uint256) {}
+```
+
+## Recommended
+1. Function definition with UNNAMED return values
+```solidity
+function checkBalance(address wallet) external view returns(uint256) {}
+```
+
+## Learn more
+[named-return-values](https://github.com/protofire/solhint/blob/develop/docs/rules/naming/named-return-values.md) on Solhint's documentation.
+"""

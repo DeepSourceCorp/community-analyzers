@@ -1,0 +1,13 @@
+title = "Constructors should use the new constructor keyword"
+verbose_name = "constructor-syntax"
+severity = "minor"
+category = "antipattern"
+weight = 40
+description = """
+Constructors should use the new constructor keyword.
+
+<!--more-->
+
+## Learn more
+[constructor-syntax](https://github.com/protofire/solhint/blob/develop/docs/rules/best-practises/constructor-syntax.md) on Solhint's documentation.
+"""

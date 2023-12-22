@@ -1,0 +1,13 @@
+title = "Avoid multiple calls of \"send\" method in single transaction"
+verbose_name = "multiple-sends"
+severity = "major"
+category = "security"
+weight = 60
+description = """
+Avoid multiple calls of "send" method in single transaction.
+
+<!--more-->
+
+## Learn more
+[multiple-sends](https://github.com/protofire/solhint/blob/develop/docs/rules/security/multiple-sends.md) on Solhint's documentation.
+"""

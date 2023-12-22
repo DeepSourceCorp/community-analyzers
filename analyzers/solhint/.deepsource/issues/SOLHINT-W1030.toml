@@ -1,0 +1,13 @@
+title = "Avoid to use letters 'I', 'l', 'O' as identifiers"
+verbose_name = "use-forbidden-name"
+severity = "minor"
+category = "style"
+weight = 40
+description = """
+Avoid to use letters 'I', 'l', 'O' as identifiers.
+
+<!--more-->
+
+## Learn more
+[use-forbidden-name](https://github.com/protofire/solhint/blob/develop/docs/rules/naming/use-forbidden-name.md) on Solhint's documentation.
+"""

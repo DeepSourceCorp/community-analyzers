@@ -1,0 +1,45 @@
+title = "Enforces the use of Custom Errors over Require and Revert statements"
+verbose_name = "custom-errors"
+severity = "minor"
+category = "antipattern"
+weight = 40
+description = """
+Enforces the use of Custom Errors over Require and Revert statements
+
+<!--more-->
+
+## Not Recommended(s)
+1. Use of require statement
+```solidity
+require(userBalance >= availableAmount, "Insufficient Balance");
+```
+
+2. Use of plain revert statement
+```solidity
+revert();
+```
+
+3. Use of revert statement with message
+```solidity
+revert("Insufficient Balance");
+```
+
+## Recommended
+1. Use of require statement
+```solidity
+require(userBalance >= availableAmount, "Insufficient Balance");
+```
+
+2. Use of plain revert statement
+```solidity
+revert();
+```
+
+3. Use of revert statement with message
+```solidity
+revert("Insufficient Balance");
+```
+
+## Learn more
+[custom-errors](https://github.com/protofire/solhint/blob/develop/docs/rules/best-practises/custom-errors.md) on Solhint's documentation.
+"""

@@ -1,0 +1,13 @@
+title = "\"throw\" is deprecated, avoid to use it"
+verbose_name = "avoid-throw"
+severity = "major"
+category = "security"
+weight = 60
+description = """
+"throw" is deprecated, avoid to use it.
+
+<!--more-->
+
+## Learn more
+[avoid-throw](https://github.com/protofire/solhint/blob/develop/docs/rules/security/avoid-throw.md) on Solhint's documentation.
+"""

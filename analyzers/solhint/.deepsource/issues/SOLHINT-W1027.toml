@@ -1,0 +1,55 @@
+title = "Solidity v0.8.18 introduced named parameters on the mappings definition"
+verbose_name = "named-parameters-mapping"
+severity = "minor"
+category = "style"
+weight = 40
+description = """
+Solidity v0.8.18 introduced named parameters on the mappings definition.
+
+<!--more-->
+
+## Not Recommended(s)
+1. No naming at all in regular mapping 
+```solidity
+mapping(address => uint256)) public tokenBalances;
+```
+
+2. Missing any variable name in regular mapping uint256
+```solidity
+mapping(address token => uint256)) public tokenBalances;
+```
+
+3. Missing any variable name in regular mapping address
+```solidity
+mapping(address => uint256 balance)) public tokenBalances;
+```
+
+4. No MAIN KEY naming in nested mapping. Other naming are not enforced
+```solidity
+mapping(address => mapping(address token => uint256 balance)) public tokenBalances;
+```
+
+## Recommended
+1. No naming at all in regular mapping 
+```solidity
+mapping(address => uint256)) public tokenBalances;
+```
+
+2. Missing any variable name in regular mapping uint256
+```solidity
+mapping(address token => uint256)) public tokenBalances;
+```
+
+3. Missing any variable name in regular mapping address
+```solidity
+mapping(address => uint256 balance)) public tokenBalances;
+```
+
+4. No MAIN KEY naming in nested mapping. Other naming are not enforced
+```solidity
+mapping(address => mapping(address token => uint256 balance)) public tokenBalances;
+```
+
+## Learn more
+[named-parameters-mapping](https://github.com/protofire/solhint/blob/develop/docs/rules/naming/named-parameters-mapping.md) on Solhint's documentation.
+"""

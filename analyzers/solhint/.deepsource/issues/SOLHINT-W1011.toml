@@ -1,0 +1,13 @@
+title = "Variable \"name\" is unused"
+verbose_name = "no-unused-vars"
+severity = "minor"
+category = "antipattern"
+weight = 40
+description = """
+Variable "name" is unused.
+
+<!--more-->
+
+## Learn more
+[no-unused-vars](https://github.com/protofire/solhint/blob/develop/docs/rules/best-practises/no-unused-vars.md) on Solhint's documentation.
+"""

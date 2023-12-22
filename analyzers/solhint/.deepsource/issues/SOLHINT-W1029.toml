@@ -1,0 +1,55 @@
+title = "Non-external functions and state variables should start with a single underscore. Others, shouldn't"
+verbose_name = "private-vars-leading-underscore"
+severity = "minor"
+category = "style"
+weight = 40
+description = """
+Non-external functions and state variables should start with a single underscore. Others, shouldn't
+
+<!--more-->
+
+## Not Recommended(s)
+1. Internal function with incorrect naming
+```solidity
+function thisIsInternal() internal {}
+```
+
+2. Private function with incorrect naming
+```solidity
+function thisIsPrivate() private {}
+```
+
+3. Internal state variable with incorrect naming
+```solidity
+uint256 internal thisIsInternalVariable;
+```
+
+4. Internal state variable with incorrect naming (no visibility is considered internal)
+```solidity
+uint256 thisIsInternalVariable;
+```
+
+## Recommended
+1. Internal function with incorrect naming
+```solidity
+function thisIsInternal() internal {}
+```
+
+2. Private function with incorrect naming
+```solidity
+function thisIsPrivate() private {}
+```
+
+3. Internal state variable with incorrect naming
+```solidity
+uint256 internal thisIsInternalVariable;
+```
+
+4. Internal state variable with incorrect naming (no visibility is considered internal)
+```solidity
+uint256 thisIsInternalVariable;
+```
+
+## Learn more
+[private-vars-leading-underscore](https://github.com/protofire/solhint/blob/develop/docs/rules/naming/private-vars-leading-underscore.md) on Solhint's documentation.
+"""
