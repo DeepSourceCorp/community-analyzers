@@ -36,7 +36,7 @@ def get_mapping() -> Dict[str, Dict[str, str]]:
         # then generate the mapping only for the new rules
         for rule in rules:
             if rule.rule_id not in issue_map:
-                next_code = next(generate_code)
+                next_code = next(generate_code)  # skipcq: PTC-W0063
                 issue_map[rule.rule_id] = {"issue_code": f"{ISSUE_PREFIX}{next_code}"}
 
     return issue_map
