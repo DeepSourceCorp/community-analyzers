@@ -1,0 +1,41 @@
+trigger:
+  - "*"
+
+pool:
+  vmImage: "ubuntu-latest"
+
+variables:
+  - name: DEEPSOURCE_DSN
+    value: $(DEEPSOURCE_DSN)
+
+stages:
+  - stage: scan_and_report
+    jobs:
+      - job: scan_and_report
+        displayName: "Scan and Report"
+        steps:
+          - script: |
+              sudo apt update
+              sudo apt install apt-transport-https
+              wget -qO- https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo gpg --dearmor -o /usr/share/keyrings/dart.gpg
+              echo 'deb [signed-by=/usr/share/keyrings/dart.gpg arch=amd64] https://storage.googleapis.com/download.dartlang.org/linux/debian stable main' | sudo tee /etc/apt/sources.list.d/dart_stable.list
+              sudo apt update
+              sudo apt install -y dart
+            displayName: "Setup Dart"
+
+          - checkout: self
+            displayName: "Code checkout"
+
+          - script: |
+              dart analyze > dart_analyze.txt || true
+            displayName: "Run dart analyze"
+
+          - script: |
+              curl -sSL https://raw.githubusercontent.com/advanced-security/dart-analyzer-sarif/main/dart_analyzer_sarif.py > dart-analyzer-sarif
+              python3 dart-analyzer-sarif dart_analyze.txt dart_analyze.sarif $(Build.Repository.LocalPath) --repo-uri $(Build.Repository.Uri) --branch $(Build.SourceBranchName) --revision-id $(Build.SourceVersion)
+            displayName: "Dart analyze to SARIF"
+
+          - script: |
+              curl -sSL https://deepsource.io/cli | sh
+              ./bin/deepsource report --analyzer dart-analyze --analyzer-type community --value-file ./dart_analyze.sarif
+            displayName: "Report to DeepSource"
