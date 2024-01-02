@@ -40,7 +40,7 @@ jobs:
           curl https://deepsource.io/cli | sh
 
           # Send the report to DeepSource
-          ./bin/deepsource report --analyzer kube-linter --value-file ./kube-linter.sarif
+          ./bin/deepsource report --analyzer kube-linter --analyzer-type community --value-file ./kube-linter.sarif
 
       # Ensure the workflow eventually fails if files did not pass kube-linter checks.
       - name: Verify kube-linter-action succeeded
