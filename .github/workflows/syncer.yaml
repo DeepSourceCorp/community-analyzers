@@ -6,8 +6,8 @@ on:
       - v*
 
 env:
-  SYNC_ENDPOINT: ${{ secrets.SYNC_ENDPOINT_DEV }}
-  DATASYNC_SECRET: ${{ secrets.DATASYNC_SECRET_DEV }}
+  SYNC_ENDPOINT: ${{ secrets.SYNC_ENDPOINT }}
+  DATASYNC_SECRET: ${{ secrets.DATASYNC_SECRET }}
 
 jobs:
   sync_analyzers:
@@ -17,11 +17,6 @@ jobs:
       - uses: actions/checkout@v3
         with:
           ref: ${{ github.event.pull_request.head.sha }}
-          
-      - name: Tailscale
-        uses: tailscale/github-action@v1
-        with:
-          authkey: ${{ secrets.TAILSCALE_AUTHKEY }}
 
       - name: Send sync signal
         run: |
