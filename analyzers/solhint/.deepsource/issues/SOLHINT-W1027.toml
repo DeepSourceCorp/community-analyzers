@@ -1,0 +1,60 @@
+title = "Solidity v0.8.18 introduced named parameters on the mappings definition"
+verbose_name = "named-parameters-mapping"
+severity = "minor"
+category = "style"
+weight = 40
+description = """
+Solidity v0.8.18 introduced named parameters on the mappings definition.
+
+<!--more-->
+
+## Bad Practice
+1. No naming at all in regular mapping 
+```solidity
+mapping(address => uint256)) public tokenBalances;
+```
+
+2. Missing any variable name in regular mapping uint256
+```solidity
+mapping(address token => uint256)) public tokenBalances;
+```
+
+3. Missing any variable name in regular mapping address
+```solidity
+mapping(address => uint256 balance)) public tokenBalances;
+```
+
+4. No MAIN KEY naming in nested mapping. Other naming are not enforced
+```solidity
+mapping(address => mapping(address token => uint256 balance)) public tokenBalances;
+```
+
+## Recommended
+1. To enter "users" mapping the key called "name" is needed to get the "balance"
+```solidity
+mapping(string name => uint256 balance) public users;
+```
+
+2. To enter owner token balance, the main key "owner" enters another mapping which its key is "token" to get its "balance"
+```solidity
+mapping(address owner => mapping(address token => uint256 balance)) public tokenBalances;
+```
+
+3. Main key of mapping is enforced. On nested mappings other naming are not neccesary
+```solidity
+mapping(address owner => mapping(address => uint256)) public tokenBalances;
+```
+
+4. Main key of the parent mapping is enforced. No naming in nested mapping uint256
+```solidity
+mapping(address owner => mapping(address token => uint256)) public tokenBalances;
+```
+
+5. Main key of the parent mapping is enforced. No naming in nested mapping address
+```solidity
+mapping(address owner => mapping(address => uint256 balance)) public tokenBalances;
+```
+
+## Learn more
+[named-parameters-mapping](https://github.com/protofire/solhint/blob/develop/docs/rules/naming/named-parameters-mapping.md) on Solhint's documentation.
+"""

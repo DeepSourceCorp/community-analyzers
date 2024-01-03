@@ -1,0 +1,13 @@
+title = "Avoid making time-based decisions in your business logic"
+verbose_name = "not-rely-on-time"
+severity = "major"
+category = "security"
+weight = 60
+description = """
+Avoid making time-based decisions in your business logic.
+
+<!--more-->
+
+## Learn more
+[not-rely-on-time](https://github.com/protofire/solhint/blob/develop/docs/rules/security/not-rely-on-time.md) on Solhint's documentation.
+"""

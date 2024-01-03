@@ -1,0 +1,13 @@
+title = "Function param name must be in mixedCase"
+verbose_name = "func-param-name-mixedcase"
+severity = "minor"
+category = "style"
+weight = 40
+description = """
+Function param name must be in mixedCase.
+
+<!--more-->
+
+## Learn more
+[func-param-name-mixedcase](https://github.com/protofire/solhint/blob/develop/docs/rules/naming/func-param-name-mixedcase.md) on Solhint's documentation.
+"""

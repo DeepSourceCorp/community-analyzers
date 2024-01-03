@@ -1,0 +1,13 @@
+title = "Constant name must be in capitalized SNAKE_CASE. (Does not check IMMUTABLES, use immutable-vars-naming)"
+verbose_name = "const-name-snakecase"
+severity = "minor"
+category = "style"
+weight = 40
+description = """
+Constant name must be in capitalized SNAKE_CASE. (Does not check IMMUTABLES, use immutable-vars-naming)
+
+<!--more-->
+
+## Learn more
+[const-name-snakecase](https://github.com/protofire/solhint/blob/develop/docs/rules/naming/const-name-snakecase.md) on Solhint's documentation.
+"""

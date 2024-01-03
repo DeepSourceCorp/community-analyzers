@@ -1,0 +1,28 @@
+title = "Avoid to use low level calls"
+verbose_name = "avoid-low-level-calls"
+severity = "major"
+category = "security"
+weight = 60
+description = """
+Avoid to use low level calls.
+
+<!--more-->
+
+## Bad Practice
+1. Using low level calls
+```solidity
+anyAddress.call(code);
+a.callcode(test1);
+a.delegatecall(test1);
+anyAddress.call.value(code)();
+```
+
+## Recommended
+1. Using low level calls to transfer funds
+```solidity
+anyAddress.call{value: 1 ether}("");
+```
+
+## Learn more
+[avoid-low-level-calls](https://github.com/protofire/solhint/blob/develop/docs/rules/security/avoid-low-level-calls.md) on Solhint's documentation.
+"""

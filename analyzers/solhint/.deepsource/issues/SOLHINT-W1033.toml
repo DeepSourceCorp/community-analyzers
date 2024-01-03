@@ -1,0 +1,13 @@
+title = "Import statements must be on top"
+verbose_name = "imports-on-top"
+severity = "minor"
+category = "style"
+weight = 40
+description = """
+Import statements must be on top.
+
+<!--more-->
+
+## Learn more
+[imports-on-top](https://github.com/protofire/solhint/blob/develop/docs/rules/order/imports-on-top.md) on Solhint's documentation.
+"""

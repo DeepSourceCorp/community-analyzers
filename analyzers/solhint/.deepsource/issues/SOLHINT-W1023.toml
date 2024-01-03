@@ -1,0 +1,35 @@
+title = "Enforce named parameters for function calls with 4 or more arguments. This rule may have some false positives"
+verbose_name = "func-named-parameters"
+severity = "minor"
+category = "style"
+weight = 40
+description = """
+Enforce named parameters for function calls with 4 or more arguments. This rule may have some false positives
+
+<!--more-->
+
+## Bad Practice
+1. Function call with four UNNAMED parameters (default 4)
+```solidity
+functionName(_senderAddress, 1e18, _tokenAddress, _receiverAddress )
+```
+
+## Recommended
+1. Function call with two UNNAMED parameters (default is 4)
+```solidity
+functionName('0xA81705c8C247C413a19A244938ae7f4A0393944e', 1e18)
+```
+
+2. Function call with two NAMED parameters
+```solidity
+functionName({ sender: '0xA81705c8C247C413a19A244938ae7f4A0393944e', amount: 1e18})
+```
+
+3. Function call with four NAMED parameters
+```solidity
+functionName({ sender: _senderAddress, amount: 1e18, token: _tokenAddress, receiver: _receiverAddress })
+```
+
+## Learn more
+[func-named-parameters](https://github.com/protofire/solhint/blob/develop/docs/rules/naming/func-named-parameters.md) on Solhint's documentation.
+"""

@@ -1,0 +1,13 @@
+title = "Avoid to use tx.origin"
+verbose_name = "avoid-tx-origin"
+severity = "major"
+category = "security"
+weight = 60
+description = """
+Avoid to use tx.origin.
+
+<!--more-->
+
+## Learn more
+[avoid-tx-origin](https://github.com/protofire/solhint/blob/develop/docs/rules/security/avoid-tx-origin.md) on Solhint's documentation.
+"""

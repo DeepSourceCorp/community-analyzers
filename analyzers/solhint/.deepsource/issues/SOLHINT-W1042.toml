@@ -1,0 +1,30 @@
+title = "Check result of `send` call"
+verbose_name = "check-send-result"
+severity = "major"
+category = "security"
+weight = 60
+description = """
+Check result of `send` call.
+
+<!--more-->
+
+## Bad Practice
+1. result of "send" call ignored
+```solidity
+x.send(55);
+```
+
+## Recommended
+1. result of "send" call checked with if statement
+```solidity
+if(x.send(55)) {}
+```
+
+2. result of "send" call checked within a require
+```solidity
+require(payable(walletAddress).send(moneyAmount), "Failed to send moneyAmount");
+```
+
+## Learn more
+[check-send-result](https://github.com/protofire/solhint/blob/develop/docs/rules/security/check-send-result.md) on Solhint's documentation.
+"""

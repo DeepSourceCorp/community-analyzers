@@ -1,0 +1,31 @@
+title = "Imported object name is not being used by the contract"
+verbose_name = "no-unused-import"
+severity = "minor"
+category = "antipattern"
+weight = 40
+description = """
+Imported object name is not being used by the contract.
+
+<!--more-->
+
+## Bad Practice
+1. Imported object is not being used
+```solidity
+
+          import { ERC20 } from "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+            contract B {}
+
+```
+
+## Recommended
+1. Imported object is being used
+```solidity
+
+            import { ERC20 } from "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+            contract MyToken is ERC20 {}
+
+```
+
+## Learn more
+[no-unused-import](https://github.com/protofire/solhint/blob/develop/docs/rules/best-practises/no-unused-import.md) on Solhint's documentation.
+"""

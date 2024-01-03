@@ -1,0 +1,13 @@
+title = "Explicitly mark visibility of state"
+verbose_name = "state-visibility"
+severity = "major"
+category = "security"
+weight = 60
+description = """
+Explicitly mark visibility of state.
+
+<!--more-->
+
+## Learn more
+[state-visibility](https://github.com/protofire/solhint/blob/develop/docs/rules/security/state-visibility.md) on Solhint's documentation.
+"""

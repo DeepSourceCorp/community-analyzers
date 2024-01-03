@@ -1,0 +1,13 @@
+title = "Variable name must be in mixedCase. (Does not check IMMUTABLES, use immutable-vars-naming)"
+verbose_name = "var-name-mixedcase"
+severity = "minor"
+category = "style"
+weight = 40
+description = """
+Variable name must be in mixedCase. (Does not check IMMUTABLES, use immutable-vars-naming)
+
+<!--more-->
+
+## Learn more
+[var-name-mixedcase](https://github.com/protofire/solhint/blob/develop/docs/rules/naming/var-name-mixedcase.md) on Solhint's documentation.
+"""
