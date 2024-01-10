@@ -1,12 +1,11 @@
 # DeepSource Community Analyzers
 
-Hub of all open-sourced third-party static analyzers supported by DeepSource.
+Hub of all open-source third-party static analyzers supported by DeepSource. Usage docs can be found at [docs.deepsource.com/docs/community-analyzers](https://docs.deepsource.com/docs/community-analyzers)
 
 ## Supported Analyzers
 
 | Analyzer name                                                                 | Latest version | Language / Technology  |
 | :---------------------------------------------------------------------------- | :------------- | :--------------------- |
-| [Azure/bicep](https://github.com/Azure/bicep)                                 | v0.20.4        | Azure Resource Manager |
 | [stackrox/kube-linter](https://github.com/stackrox/kube-linter)               | 0.6.4          | Kubernetes, Helm       |
 | [aws-cloudformation/cfn-lint](https://github.com/aws-cloudformation/cfn-lint) | 0.83.3         | AWS CloudFormation     |
 | [dart-lang/linter](https://github.com/dart-lang/sdk/tree/main/pkg/linter)     | 3.2.0          | Dart, Flutter          |
@@ -47,6 +46,7 @@ The following are very important to sync analyzers with DeepSource:
 3. `CI` directory:
 
 Put example configs of all CIs under this directory. These worlflow / CI configs should run the analyzer, create a sarif report and send it to DeepSource.
+
 Each file should be names as `<provider>.<extention>`. Example: `github.yml`, `circleci.yml`, etc.`
 
 4. `utils` directory:
@@ -60,6 +60,8 @@ For example, please check out `analyzers/kube-linter/utils`.
 ### Syncing analyzers and their issues with DeepSource
 
 Push a tag after merging all the changes to the default (master) branch. The `Sync community analyzers` workflow triggers on tag pushes matching `v*` and will sync the analyzers and their issues with DeepSource.
+
+> Note: This action will be done by a member of the DeepSource team; contributors need not create a tag.
 
 ### Running tests
 
@@ -82,7 +84,3 @@ extension.
 ### Type Checking
 
 Run `mypy .`
-
-## Maintenance Guide
-
-...
