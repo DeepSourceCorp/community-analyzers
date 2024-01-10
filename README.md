@@ -4,13 +4,13 @@ Hub of all open-source third-party static analyzers supported by DeepSource. Usa
 
 ## Supported Analyzers
 
-| Analyzer name                                                                 | Latest version | Language / Technology  |
-| :---------------------------------------------------------------------------- | :------------- | :--------------------- |
-| [stackrox/kube-linter](https://github.com/stackrox/kube-linter)               | 0.6.4          | Kubernetes, Helm       |
-| [aws-cloudformation/cfn-lint](https://github.com/aws-cloudformation/cfn-lint) | 0.83.3         | AWS CloudFormation     |
-| [dart-lang/linter](https://github.com/dart-lang/sdk/tree/main/pkg/linter)     | 3.2.0          | Dart, Flutter          |
-| [crytic/slither](https://github.com/crytic/slither)                           | 0.10.0         | Solidity, Vyper        |
-| [protofire/solhint](https://github.com/protofire/solhint)                     | 0.10.0         | Solidity               |
+| Analyzer name                                                                 | Latest version | Language / Technology |
+| :---------------------------------------------------------------------------- | :------------- | :-------------------- |
+| [stackrox/kube-linter](https://github.com/stackrox/kube-linter)               | 0.6.4          | Kubernetes, Helm      |
+| [aws-cloudformation/cfn-lint](https://github.com/aws-cloudformation/cfn-lint) | 0.83.3         | AWS CloudFormation    |
+| [dart-lang/linter](https://github.com/dart-lang/sdk/tree/main/pkg/linter)     | 3.2.0          | Dart, Flutter         |
+| [crytic/slither](https://github.com/crytic/slither)                           | 0.10.0         | Solidity, Vyper       |
+| [protofire/solhint](https://github.com/protofire/solhint)                     | 4.1.1          | Solidity              |
 
 ---
 

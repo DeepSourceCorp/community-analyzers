@@ -1,10 +1,10 @@
-title = "Contract name must be in CamelCase"
+title = "Contract, Structs and Enums should be in CamelCase"
 verbose_name = "contract-name-camelcase"
 severity = "minor"
 category = "style"
 weight = 40
 description = """
-Contract name must be in CamelCase.
+Contract, Structs and Enums should be in CamelCase.
 
 <!--more-->
 
