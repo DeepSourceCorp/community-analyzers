@@ -1,0 +1,40 @@
+title = "Code block has zero statements inside. Exceptions apply"
+verbose_name = "no-empty-blocks"
+severity = "minor"
+category = "antipattern"
+weight = 40
+description = """
+Code block has zero statements inside. Exceptions apply.
+
+<!--more-->
+
+## Bad Practice
+1. Empty block on if statement
+```solidity
+if (condition) { }
+```
+
+2. Empty contract
+```solidity
+contract Foo { }
+```
+
+3. Empty block in constructor without parent initialization
+```solidity
+constructor () { }
+```
+
+## Recommended
+1. Empty fallback function
+```solidity
+fallback () external { }
+```
+
+2. Empty constructor with member initialization list
+```solidity
+constructor(uint param) Foo(param) Bar(param*2) { }
+```
+
+## Learn more
+[no-empty-blocks](https://github.com/protofire/solhint/blob/develop/docs/rules/best-practises/no-empty-blocks.md) on Solhint's documentation.
+"""

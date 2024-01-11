@@ -1,0 +1,158 @@
+{
+    "code-complexity": {
+        "issue_code": "SOLHINT-W1001"
+    },
+    "custom-errors": {
+        "issue_code": "SOLHINT-W1002"
+    },
+    "explicit-types": {
+        "issue_code": "SOLHINT-W1003"
+    },
+    "function-max-lines": {
+        "issue_code": "SOLHINT-W1004"
+    },
+    "max-line-length": {
+        "issue_code": "SOLHINT-W1005"
+    },
+    "max-states-count": {
+        "issue_code": "SOLHINT-W1006"
+    },
+    "no-console": {
+        "issue_code": "SOLHINT-W1007"
+    },
+    "no-empty-blocks": {
+        "issue_code": "SOLHINT-W1008"
+    },
+    "no-global-import": {
+        "issue_code": "SOLHINT-W1009"
+    },
+    "no-unused-import": {
+        "issue_code": "SOLHINT-W1010"
+    },
+    "no-unused-vars": {
+        "issue_code": "SOLHINT-W1011"
+    },
+    "one-contract-per-file": {
+        "issue_code": "SOLHINT-W1012"
+    },
+    "payable-fallback": {
+        "issue_code": "SOLHINT-W1013"
+    },
+    "reason-string": {
+        "issue_code": "SOLHINT-W1014"
+    },
+    "constructor-syntax": {
+        "issue_code": "SOLHINT-W1015"
+    },
+    "comprehensive-interface": {
+        "issue_code": "SOLHINT-W1016"
+    },
+    "quotes": {
+        "issue_code": "SOLHINT-W1017"
+    },
+    "const-name-snakecase": {
+        "issue_code": "SOLHINT-W1018"
+    },
+    "contract-name-camelcase": {
+        "issue_code": "SOLHINT-W1019"
+    },
+    "event-name-camelcase": {
+        "issue_code": "SOLHINT-W1020"
+    },
+    "foundry-test-functions": {
+        "issue_code": "SOLHINT-W1021"
+    },
+    "func-name-mixedcase": {
+        "issue_code": "SOLHINT-W1022"
+    },
+    "func-named-parameters": {
+        "issue_code": "SOLHINT-W1023"
+    },
+    "func-param-name-mixedcase": {
+        "issue_code": "SOLHINT-W1024"
+    },
+    "immutable-vars-naming": {
+        "issue_code": "SOLHINT-W1025"
+    },
+    "modifier-name-mixedcase": {
+        "issue_code": "SOLHINT-W1026"
+    },
+    "named-parameters-mapping": {
+        "issue_code": "SOLHINT-W1027"
+    },
+    "named-return-values": {
+        "issue_code": "SOLHINT-W1028"
+    },
+    "private-vars-leading-underscore": {
+        "issue_code": "SOLHINT-W1029"
+    },
+    "use-forbidden-name": {
+        "issue_code": "SOLHINT-W1030"
+    },
+    "var-name-mixedcase": {
+        "issue_code": "SOLHINT-W1031"
+    },
+    "func-order": {
+        "issue_code": "SOLHINT-W1032"
+    },
+    "imports-on-top": {
+        "issue_code": "SOLHINT-W1033"
+    },
+    "ordering": {
+        "issue_code": "SOLHINT-W1034"
+    },
+    "visibility-modifier-order": {
+        "issue_code": "SOLHINT-W1035"
+    },
+    "avoid-call-value": {
+        "issue_code": "SOLHINT-W1036"
+    },
+    "avoid-low-level-calls": {
+        "issue_code": "SOLHINT-W1037"
+    },
+    "avoid-sha3": {
+        "issue_code": "SOLHINT-W1038"
+    },
+    "avoid-suicide": {
+        "issue_code": "SOLHINT-W1039"
+    },
+    "avoid-throw": {
+        "issue_code": "SOLHINT-W1040"
+    },
+    "avoid-tx-origin": {
+        "issue_code": "SOLHINT-W1041"
+    },
+    "check-send-result": {
+        "issue_code": "SOLHINT-W1042"
+    },
+    "compiler-version": {
+        "issue_code": "SOLHINT-W1043"
+    },
+    "func-visibility": {
+        "issue_code": "SOLHINT-W1044"
+    },
+    "mark-callable-contracts": {
+        "issue_code": "SOLHINT-W1045"
+    },
+    "multiple-sends": {
+        "issue_code": "SOLHINT-W1046"
+    },
+    "no-complex-fallback": {
+        "issue_code": "SOLHINT-W1047"
+    },
+    "no-inline-assembly": {
+        "issue_code": "SOLHINT-W1048"
+    },
+    "not-rely-on-block-hash": {
+        "issue_code": "SOLHINT-W1049"
+    },
+    "not-rely-on-time": {
+        "issue_code": "SOLHINT-W1050"
+    },
+    "reentrancy": {
+        "issue_code": "SOLHINT-W1051"
+    },
+    "state-visibility": {
+        "issue_code": "SOLHINT-W1052"
+    }
+}

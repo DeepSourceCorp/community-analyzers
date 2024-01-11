@@ -1,0 +1,13 @@
+title = "Function name must be in mixedCase"
+verbose_name = "func-name-mixedcase"
+severity = "minor"
+category = "style"
+weight = 40
+description = """
+Function name must be in mixedCase.
+
+<!--more-->
+
+## Learn more
+[func-name-mixedcase](https://github.com/protofire/solhint/blob/develop/docs/rules/naming/func-name-mixedcase.md) on Solhint's documentation.
+"""

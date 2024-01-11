@@ -1,0 +1,13 @@
+title = "Fallback function must be simple"
+verbose_name = "no-complex-fallback"
+severity = "major"
+category = "security"
+weight = 60
+description = """
+Fallback function must be simple.
+
+<!--more-->
+
+## Learn more
+[no-complex-fallback](https://github.com/protofire/solhint/blob/develop/docs/rules/security/no-complex-fallback.md) on Solhint's documentation.
+"""

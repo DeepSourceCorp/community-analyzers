@@ -1,0 +1,13 @@
+title = "Use `keccak256` instead of deprecated `sha3`"
+verbose_name = "avoid-sha3"
+severity = "major"
+category = "security"
+weight = 60
+description = """
+Use `keccak256` instead of deprecated `sha3`.
+
+<!--more-->
+
+## Learn more
+[avoid-sha3](https://github.com/protofire/solhint/blob/develop/docs/rules/security/avoid-sha3.md) on Solhint's documentation.
+"""

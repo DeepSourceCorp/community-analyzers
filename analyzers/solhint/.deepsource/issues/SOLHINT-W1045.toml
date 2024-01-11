@@ -1,0 +1,25 @@
+title = "Explicitly mark all external contracts as trusted or untrusted"
+verbose_name = "mark-callable-contracts"
+severity = "major"
+category = "security"
+weight = 60
+description = """
+Explicitly mark all external contracts as trusted or untrusted.
+
+<!--more-->
+
+## Bad Practice
+1. External contract name without "Trusted" prefix
+```solidity
+Bank.withdraw(100);
+```
+
+## Recommended
+1. External contract name with "Trusted" prefix
+```solidity
+TrustedBank.withdraw(100);
+```
+
+## Learn more
+[mark-callable-contracts](https://github.com/protofire/solhint/blob/develop/docs/rules/security/mark-callable-contracts.md) on Solhint's documentation.
+"""

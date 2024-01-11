@@ -1,0 +1,13 @@
+title = "Check Immutable variables. Capitalized SNAKE_CASE or mixedCase depending on configuration"
+verbose_name = "immutable-vars-naming"
+severity = "minor"
+category = "style"
+weight = 40
+description = """
+Check Immutable variables. Capitalized SNAKE_CASE or mixedCase depending on configuration.
+
+<!--more-->
+
+## Learn more
+[immutable-vars-naming](https://github.com/protofire/solhint/blob/develop/docs/rules/naming/immutable-vars-naming.md) on Solhint's documentation.
+"""

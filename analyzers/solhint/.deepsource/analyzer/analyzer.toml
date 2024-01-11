@@ -1,0 +1,7 @@
+# Analyzer Profile
+category = "lang"
+name = "Solhint"
+shortcode = "solhint"
+status = "active"
+tool_latest_version = "4.1.1"
+description = "Open source project for linting solidity code by Protofire. This project provides both security and style guide validations."

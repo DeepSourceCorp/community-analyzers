@@ -1,0 +1,29 @@
+title = "Explicitly mark visibility in function"
+verbose_name = "func-visibility"
+severity = "major"
+category = "security"
+weight = 60
+description = """
+Explicitly mark visibility in function.
+
+<!--more-->
+
+## Bad Practice
+1. Functions without explicitly marked visibility
+```solidity
+function b() { }
+```
+
+## Recommended
+1. Functions explicitly marked with visibility
+```solidity
+function b() internal { }
+function b() external { }
+function b() private { }
+function b() public { }
+constructor() public { }
+```
+
+## Learn more
+[func-visibility](https://github.com/protofire/solhint/blob/develop/docs/rules/security/func-visibility.md) on Solhint's documentation.
+"""

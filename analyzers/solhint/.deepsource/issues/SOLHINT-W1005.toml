@@ -1,0 +1,13 @@
+title = "Line length must be no more than maxlen"
+verbose_name = "max-line-length"
+severity = "major"
+category = "antipattern"
+weight = 60
+description = """
+Line length must be no more than maxlen.
+
+<!--more-->
+
+## Learn more
+[max-line-length](https://github.com/protofire/solhint/blob/develop/docs/rules/best-practises/max-line-length.md) on Solhint's documentation.
+"""

@@ -1,0 +1,13 @@
+title = "Contract, Structs and Enums should be in CamelCase"
+verbose_name = "contract-name-camelcase"
+severity = "minor"
+category = "style"
+weight = 40
+description = """
+Contract, Structs and Enums should be in CamelCase.
+
+<!--more-->
+
+## Learn more
+[contract-name-camelcase](https://github.com/protofire/solhint/blob/develop/docs/rules/naming/contract-name-camelcase.md) on Solhint's documentation.
+"""
