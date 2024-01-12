@@ -1,12 +1,19 @@
 stages:
   - scan_and_report
 
+before_script:
+  - apt update
+  - apt install -y curl git
+
 kubelinter:
   stage: scan_and_report
-  image: stackrox/kube-linter:0.6.4
+  image: debian:stable-slim
   script:
-    # Please tweak this if you don't want to run analysis on the entire repo everytime.
-    - kubelinter lint --output sarif > kube-linter.sarif
+    # Install the latest version of kube-linter. You can also pin a specific version.
+    - curl -L https://github.com/stackrox/kube-linter/releases/latest/download/kube-linter-linux.tar.gz | tar -xz
+    - mv kube-linter /usr/local/bin/
+    # Run kube-linter. Please tweak this if you don't want to run analysis on the entire repo everytime.
+    - kube-linter lint . --format sarif | tee kube-linter.sarif || true
     # Install the DeepSource CLI and send the report to DeepSource
     # Make sure you set the `DEEPSOURCE_DSN` env variable as a secret in your project.
     - curl -sSL https://deepsource.io/cli | sh
@@ -14,3 +21,4 @@ kubelinter:
 
   rules:
     - if: $CI_PIPELINE_SOURCE == "push"
+
