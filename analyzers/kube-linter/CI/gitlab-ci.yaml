@@ -1,0 +1,16 @@
+stages:
+  - scan_and_report
+
+kubelinter:
+  stage: scan_and_report
+  image: stackrox/kube-linter:0.6.4
+  script:
+    # Please tweak this if you don't want to run analysis on the entire repo everytime.
+    - kubelinter lint --output sarif > kube-linter.sarif
+    # Install the DeepSource CLI and send the report to DeepSource
+    # Make sure you set the `DEEPSOURCE_DSN` env variable as a secret in your project.
+    - curl -sSL https://deepsource.io/cli | sh
+    - ./bin/deepsource report --analyzer kube-linter --analyzer-type community --value-file ./kube-linter.sarif
+
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "push"
