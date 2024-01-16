@@ -1,0 +1,37 @@
+version: 2.1
+
+executors:
+  default:
+    docker:
+      - image: cimg/base:2024.01
+
+jobs:
+  scan-and-report:
+    executor: default
+    steps:
+      - checkout
+
+      - run:
+          name: Install Kubelinter
+          command: |
+            # Install the latest version of kube-linter. You can also pin a specific version.
+            curl -L https://github.com/stackrox/kube-linter/releases/latest/download/kube-linter-linux.tar.gz | tar -xz
+            sudo mv kube-linter /usr/local/bin/
+      - run:
+          name: Analyze repository with kube-linter
+          command: |
+            # Please tweak this if you don't want to run analysis on the entire repo everytime.
+            kube-linter lint . --format sarif | tee kube-linter.sarif || true
+      # Make sure you set the `DEEPSOURCE_DSN` env variable as a secret in your project.
+      - run:
+          name: Upload SARIF report to DeepSource
+          command: |
+            # Install the DeepSource CLI
+            curl https://deepsource.io/cli | sh
+            # Send the report to DeepSource
+            ./bin/deepsource report --analyzer kube-linter --analyzer-type community --value-file ./kube-linter.sarif
+
+workflows:
+  scan-kube-linter-workflow:
+    jobs:
+      - scan-and-report
