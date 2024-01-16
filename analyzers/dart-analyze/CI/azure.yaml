@@ -4,10 +4,6 @@ trigger:
 pool:
   vmImage: "ubuntu-latest"
 
-variables:
-  - name: DEEPSOURCE_DSN
-    value: $(DEEPSOURCE_DSN)
-
 stages:
   - stage: scan_and_report
     jobs:
@@ -15,12 +11,12 @@ stages:
         displayName: "Scan and Report"
         steps:
           - script: |
-              sudo apt update
-              sudo apt install apt-transport-https
+              sudo apt-get update
+              sudo apt-get install apt-transport-https
               wget -qO- https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo gpg --dearmor -o /usr/share/keyrings/dart.gpg
               echo 'deb [signed-by=/usr/share/keyrings/dart.gpg arch=amd64] https://storage.googleapis.com/download.dartlang.org/linux/debian stable main' | sudo tee /etc/apt/sources.list.d/dart_stable.list
-              sudo apt update
-              sudo apt install -y dart
+              sudo apt-get update
+              sudo apt-get install -y dart
             displayName: "Setup Dart"
 
           - checkout: self
@@ -39,3 +35,5 @@ stages:
               curl -sSL https://deepsource.io/cli | sh
               ./bin/deepsource report --analyzer dart-analyze --analyzer-type community --value-file ./dart_analyze.sarif
             displayName: "Report to DeepSource"
+            env:
+              DEEPSOURCE_DSN: $(DEEPSOURCE_DSN)
