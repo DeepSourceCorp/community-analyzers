@@ -6,7 +6,7 @@ on:
   # Note that both `push` and `pull_request` triggers should be present for GitHub to consistently present slither
   # SARIF reports.
   push:
-    branches: [ main, master ]
+    branches: [main, master]
   pull_request:
 
 jobs:
@@ -16,11 +16,11 @@ jobs:
       contents: read
       security-events: write
     env:
-        DEEPSOURCE_DSN: ${{ secrets.DEEPSOURCE_DSN }}
+      DEEPSOURCE_DSN: ${{ secrets.DEEPSOURCE_DSN }}
     steps:
       - uses: actions/checkout@v3
         with:
-            ref: ${{ github.event.pull_request.head.sha }}
+          ref: ${{ github.event.pull_request.head.sha }}
 
       - name: Run Slither
         uses: crytic/slither-action@v0.3.0
