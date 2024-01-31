@@ -1,0 +1,34 @@
+version: 2.1
+
+jobs:
+  run-slither:
+    docker:
+      - image: cimg/python:3.12.1-node
+    steps:
+      - checkout
+      - run:
+          name: Install Slither
+          command: |
+            python -m pip install --upgrade pip
+            pip3 install slither-analyzer
+      - run:
+          name: Run Slither
+          command: |
+            # make sure to modify the solidity compiler version
+            export SOLC_VERSION=0.4.15
+            solc-select install $SOLC_VERSION
+            # make sure to modify the path to your contracts
+            slither . --sarif slither.sarif --fail-none
+      # Make sure you set the `DEEPSOURCE_DSN` env variable as a secret in your project.
+      - run:
+          name: Upload SARIF report to DeepSource
+          command: |
+            # Install the DeepSource CLI
+            curl https://deepsource.io/cli | sh
+            # Send the report to DeepSource
+            ./bin/deepsource report --analyzer slither --analyzer-type community --value-file slither.sarif
+
+workflows:
+  run-slither-workflow:
+    jobs:
+      - run-slither
