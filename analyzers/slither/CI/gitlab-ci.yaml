@@ -1,0 +1,27 @@
+stages:
+  - scan_and_report
+
+before_script:
+  - apt update
+  # install slither
+  - python -m pip install --upgrade pip
+  - pip3 install slither-analyzer
+
+scan_and_report:
+  stage: scan_and_report
+  image: nikolaik/python-nodejs:latest # requires an image with python and nodejs
+
+  script:
+    # Run Slither
+    # make sure to modify the solidity compiler version
+    - export SOLC_VERSION=0.4.15
+    - solc-select install $SOLC_VERSION
+    # make sure to modify the path to your contracts
+    - slither . --sarif slither.sarif --fail-none
+    # Install the DeepSource CLI and send the report to DeepSource
+    # Make sure you set the `DEEPSOURCE_DSN` env variable as a secret in your project.
+    - curl https://deepsource.io/cli | sh
+    - ./bin/deepsource report --analyzer slither --analyzer-type community --value-file slither.sarif
+
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "push"
