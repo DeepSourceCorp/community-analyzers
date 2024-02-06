@@ -1,0 +1,29 @@
+version: 2.1
+
+jobs:
+  run-cfn-lint:
+    docker:
+      - image: cimg/python:3.12
+    steps:
+      - checkout
+      - run:
+          name: Install cfn-lint
+          command: |
+            python -m pip install --upgrade pip
+            pip3 install cfn-lint
+      - run:
+          name: Run cfn-lint
+          command: |
+            cfn-lint -t ./**/*.yaml -f sarif > cfn-lint.sarif || true
+      - run:
+          name: Upload SARIF report to DeepSource
+          command: |
+            # Install the DeepSource CLI
+            curl https://deepsource.io/cli | sh
+            # Send the report to DeepSource
+            ./bin/deepsource report --analyzer cfn-lint --analyzer-type community --value-file ./cfn-lint.sarif
+
+workflows:
+  run-cfn-lint-workflow:
+    jobs:
+      - run-cfn-lint
