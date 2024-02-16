@@ -57,17 +57,20 @@ def main(argv: list[str] | None = None) -> None:
     toolbox_path = os.getenv("TOOLBOX_PATH", "/toolbox")
     output_path = os.path.join(toolbox_path, "analysis_results.json")
     artifacts_path = os.getenv("ARTIFACTS_PATH", "/artifacts")
+    issue_map_path = None
 
     parser = argparse.ArgumentParser("sarif_parser")
     parser.add_argument(
         "--analyzer",
         help="Which community analyzer to run. Example: 'kube-linter'",
-        required=True,
+        required=False,
     )
-    args = parser.parse_args(argv, namespace=CommunityAnalyzerArgs)
+    if argv:
+        args = parser.parse_args(argv, namespace=CommunityAnalyzerArgs)
+        # analyzer name is mandatory in case of community analyzers but not custom analyzers
+        if analyzer_name := args.analyzer:
+            issue_map_path = get_issue_map(analyzer_name)
 
-    analyzer_name = args.analyzer
-    issue_map_path = get_issue_map(analyzer_name)
     modified_files = get_files_to_analyze(code_path)
     run_sarif_parser(
         artifacts_path, output_path, issue_map_path, modified_files=modified_files
