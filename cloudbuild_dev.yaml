@@ -1,0 +1,13 @@
+# Build and Push the sarif parser image to GCR
+timeout: 5m0s
+
+steps:
+  - name: "gcr.io/cloud-builders/docker:20.10.14"
+    args:
+      - build
+      - -t
+      - ${_REGISTRY_NAME}:dev # always use 'dev' tag on development builds
+      - .
+images: ["${_REGISTRY_NAME}:dev"]
+options:
+  machineType: "E2_HIGHCPU_8"
