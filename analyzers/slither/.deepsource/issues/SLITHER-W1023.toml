@@ -31,5 +31,5 @@ The function will return 6 bytes starting from offset 5, instead of returning a 
 Use the `leave` statement.
 
 ## Learn more
-[incorrect-return](https://github.com/crytic/slither/wiki/Detector-Documentation#incorrect-assembly-return) on Slither's wiki.
+[incorrect-return](https://github.com/crytic/slither/wiki/Detector-Documentation#incorrect-return-in-assembly) on Slither's wiki.
 """
