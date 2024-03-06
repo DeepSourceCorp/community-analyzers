@@ -274,5 +274,8 @@
     },
     "4-0-var-read-using-this": {
         "issue_code": "SLITHER-W1092"
+    },
+    "1-1-out-of-order-retryable": {
+        "issue_code": "SLITHER-W1093"
     }
 }

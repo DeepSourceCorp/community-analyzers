@@ -26,5 +26,5 @@ The function will halt the execution, instead of returning a two uint.
 Use the `leave` statement.
 
 ## Learn more
-[return-leave](https://github.com/crytic/slither/wiki/Detector-Documentation#incorrect-assembly-return) on Slither's wiki.
+[return-leave](https://github.com/crytic/slither/wiki/Detector-Documentation#return-instead-of-leave-in-assembly) on Slither's wiki.
 """

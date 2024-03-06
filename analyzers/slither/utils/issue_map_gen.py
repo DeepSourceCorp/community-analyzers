@@ -1,6 +1,6 @@
 import itertools
 import json
-from typing import Dict, Generator
+from typing import Dict, Iterator
 
 from constants import ISSUE_MAP_FILE, ISSUE_PREFIX
 from detectors import get_all_detector_json
@@ -8,7 +8,7 @@ from detectors import get_all_detector_json
 __all__ = ["get_issue_map", "generate_mapping"]
 
 
-def _get_next_code(mapping: Dict[str, Dict[str, str]]) -> Generator[int]:
+def _get_next_code(mapping: Dict[str, Dict[str, str]]) -> Iterator[int]:
     """Return the next available issue code."""
     num_issues = len(mapping.keys())  # get the number of issues already in the mapping
     next_code = 1001 + num_issues  # issue code series starts from `1001`
