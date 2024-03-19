@@ -32,7 +32,7 @@ The following are very important to sync analyzers with DeepSource:
    - `tool_latest_version`: Analyzer's latest version for which issues are synced on DeepSource.
    - `description`: A readable descrioption for this analyzer.
 
-   b. It should contain am `example.toml` file with a snippet to activate this analyzer in `.deepsource.toml` config.
+   b. It should contain an `example_config.toml` file with a snippet to activate this analyzer in `.deepsource.toml` config.
 
    c. `logo.svg` file.
 
