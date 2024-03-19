@@ -36,7 +36,7 @@ The following are very important to sync analyzers with DeepSource:
 
    c. `logo.svg` file.
 
-2. `.deepsource/issues` directory. This contains all issues detected by the analyzer. Each issue's filemane should be `<issue-shortcode>.toml` or `<issue-shortcode.md>` with the following fields:
+2. `.deepsource/issues` directory. This contains all issues detected by the analyzer. Each issue's filename should be `<issue-shortcode>.toml` or `<issue-shortcode.md>` with the following fields:
 
    - `title`: Title of the issue. No periods are allowed in the title.
    - `category`: Category of the issue. Allowed values are: "bug-risk", "doc", "style", "antipattern", "coverage", "security", "performance", "typecheck", and, "secrets".
@@ -51,7 +51,7 @@ Each file should be names as `<provider>.<extention>`. Example: `github.yml`, `c
 
 4. `utils` directory:
 
-It should contain all the utilities required for the analyzer like issue genrator, issue-map, etc.
+It should contain all the utilities required for the analyzer like issue generator, issue-map, etc.
 For example, please check out `analyzers/kube-linter/utils`.
 
 5. Add a sample sarif report from the analyzer in `tests/fixtures` directory. The file should be named as `<analyzer-shortcode>.sarif`.
