@@ -21,7 +21,7 @@ Hub of all open-source third-party static analyzers supported by DeepSource. Usa
 To add a new analyzer, create a new directory with the analyzer shortcode under the `analyzers` folder.
 The following are very important to sync analyzers with DeepSource:
 
-1. `.deepsource/analyzer` directory under `analyzer/<analyzer-shortcode>` directory.
+1. `.deepsource/analyzer` directory under `analyzers/<analyzer-shortcode>` directory.
 
    a. It should contain an `analyzer.toml` file with the following fields:
 
