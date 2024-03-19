@@ -1,0 +1,42 @@
+# A copy-paste Github Actions config to run bandit and report the artifact to DeepSource
+name: Scan with bandit
+
+on:
+  # Note that both `push` and `pull_request` triggers should be present for GitHub to consistently present bandit
+  # SARIF reports.
+  push:
+    branches: [ main, master ]
+  pull_request:
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    env:
+        DEEPSOURCE_DSN: ${{ secrets.DEEPSOURCE_DSN }}
+    steps:
+      - uses: actions/checkout@v3
+        with:
+            ref: ${{ github.event.pull_request.head.sha }}
+      
+      - name: Scan files with bandit
+        uses: docker://ghcr.io/pycqa/bandit
+
+      - name: Generate the SARIF report
+        id: bandit-action-scan
+        run: |
+          bandit -r . -f sarif -o bandit.sarif
+        continue-on-error: true
+
+      - name: Upload SARIF report files to DeepSource
+        run: |
+          # Install the CLI
+          curl https://deepsource.io/cli | sh
+
+          # Send the report to DeepSource
+          ./bin/deepsource report --analyzer bandit --analyzer-type community --value-file ./bandit.sarif
+
+      - name: Verify bandit-action succeeded
+        shell: bash
+        run: |
+          echo "If this step fails, bandit found issues. Check the output of the scan step above."
+          [[ "${{ steps.bandit-action-scan.outcome }}" == "success" ]]
