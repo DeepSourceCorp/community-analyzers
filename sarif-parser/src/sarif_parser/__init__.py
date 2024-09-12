@@ -57,6 +57,7 @@ def parse(
 
     deepsource_issues: list[Issue] = []
     total_report_issues = 0
+    sanitised_issues_count = 0
     for run in sarif_data["runs"]:
         total_report_issues += len(run["results"])
         for issue in run["results"]:
@@ -96,6 +97,7 @@ def parse(
             issue_code = issue["ruleId"]
             if issue_code in issue_map:
                 issue_code = issue_map[issue_code]["issue_code"]
+                sanitised_issues_count += 1
             else:
                 # This issue isn't sanitised. Send an alert.
                 sentry.raise_info(
@@ -121,9 +123,11 @@ def parse(
 
     logger.info(
         "Total issues in SARIF report: %s. \n"
-        "Issues extracted for the run in files sent for analysis: %s",
+        "Issues extracted for the run in files sent for analysis: %s. \n"
+        "Sanitized issues count, with id in map: %s.",
         total_report_issues,
         len(deepsource_issues),
+        sanitised_issues_count,
     )
 
     return deepsource_issues
@@ -174,6 +178,8 @@ def run_sarif_parser(
             sentry.raise_info(
                 f"Could not find issue map at {issue_map_path} for analyzer."
             )
+            # Add a log too
+            logger.warning("Could not find issue map at %s for analyzer.", issue_map_path)
 
     # Run parser
     deepsource_issues = []
@@ -202,5 +208,6 @@ def run_sarif_parser(
         "is_passed": len(deepsource_issues) == 0,
         "extra_data": {},
     }
+
     with open(output_path, "w") as file:
         json.dump(issues_dict, file)
