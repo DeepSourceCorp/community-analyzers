@@ -1,4 +1,5 @@
 """sarif-parser - Parse SARIF reports and covert them to DeepSource issues."""
+
 from __future__ import annotations
 
 import hashlib
@@ -179,7 +180,9 @@ def run_sarif_parser(
                 f"Could not find issue map at {issue_map_path} for analyzer."
             )
             # Add a log too
-            logger.warning("Could not find issue map at %s for analyzer.", issue_map_path)
+            logger.warning(
+                "Could not find issue map at %s for analyzer.", issue_map_path
+            )
 
     # Run parser
     deepsource_issues = []
