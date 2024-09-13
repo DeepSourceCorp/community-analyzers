@@ -69,6 +69,7 @@ def main(argv: list[str] | None = None) -> None:
         args = parser.parse_args(argv, namespace=CommunityAnalyzerArgs)
         # analyzer name is mandatory in case of community analyzers but not custom analyzers
         if analyzer_name := args.analyzer:
+            logger.info("Fetching issue map for: %s", analyzer_name)
             issue_map_path = get_issue_map(analyzer_name)
 
     modified_files = get_files_to_analyze(code_path)
