@@ -1,4 +1,5 @@
 """sarif-parser - Parse SARIF reports and covert them to DeepSource issues."""
+
 from __future__ import annotations
 
 import hashlib
