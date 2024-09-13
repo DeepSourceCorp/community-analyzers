@@ -51,7 +51,7 @@ def get_files_to_analyze(code_path: str) -> set[str]:
     }
 
 
-def main(argv: list[str] | None = None) -> None:
+def main() -> None:
     """Runs the CLI."""
     code_path = os.getenv("CODE_PATH", "/code")
     toolbox_path = os.getenv("TOOLBOX_PATH", "/toolbox")
@@ -65,12 +65,12 @@ def main(argv: list[str] | None = None) -> None:
         help="Which community analyzer to run. Example: 'kube-linter'",
         required=False,
     )
-    if argv:
-        args = parser.parse_args(argv, namespace=CommunityAnalyzerArgs)
-        # analyzer name is mandatory in case of community analyzers but not custom analyzers
-        if analyzer_name := args.analyzer:
-            logger.info("Fetching issue map for: %s", analyzer_name)
-            issue_map_path = get_issue_map(analyzer_name)
+    args = parser.parse_args(argv, namespace=CommunityAnalyzerArgs)
+
+    # analyzer name is mandatory in case of community analyzers but not custom analyzers
+    if analyzer_name := args.analyzer:
+        logger.info("Fetching issue map for: %s", analyzer_name)
+        issue_map_path = get_issue_map(analyzer_name)
 
     modified_files = get_files_to_analyze(code_path)
     run_sarif_parser(
