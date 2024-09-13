@@ -123,8 +123,8 @@ def parse(
 
     logger.info(
         "Total issues in SARIF report: %s. \n"
-        "Issues extracted for the run in files sent for analysis: %s",
-        "Sanitized issues count with IDs in issue map: %s",
+        "Issues extracted for the run in files sent for analysis: %s. \n"
+        "Sanitized issues count with IDs in issue map: %s.",
         total_report_issues,
         len(deepsource_issues),
         issue_count_in_issues_map,
