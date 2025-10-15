@@ -1,0 +1,14 @@
+
+title = "Missing/invalid priority class"
+verbose_name = "priority-class-name"
+severity = "major"
+category = "antipattern"
+weight = 70
+description = """
+Indicates when a deployment-like object does not use a valid priority class name
+
+<!--more-->
+
+## Remediation
+Set up the priority class name for your object to any accepted values.
+"""
