@@ -1,4 +1,5 @@
 """sarif-parser - Parse SARIF reports and covert them to DeepSource issues."""
+
 from __future__ import annotations
 
 import hashlib
@@ -57,6 +58,7 @@ def parse(
 
     deepsource_issues: list[Issue] = []
     total_report_issues = 0
+    issue_count_in_issues_map = 0
     for run in sarif_data["runs"]:
         total_report_issues += len(run["results"])
         for issue in run["results"]:
@@ -121,9 +123,11 @@ def parse(
 
     logger.info(
         "Total issues in SARIF report: %s. \n"
-        "Issues extracted for the run in files sent for analysis: %s",
+        "Issues extracted for the run in files sent for analysis: %s. \n"
+        "Sanitized issues count with IDs in issue map: %s.",
         total_report_issues,
         len(deepsource_issues),
+        issue_count_in_issues_map,
     )
 
     return deepsource_issues
@@ -173,6 +177,9 @@ def run_sarif_parser(
             # But, log this as an info.
             sentry.raise_info(
                 f"Could not find issue map at {issue_map_path} for analyzer."
+            )
+            logger.warning(
+                "Could not find issue map at %s for analyzer.", issue_map_path
             )
 
     # Run parser
