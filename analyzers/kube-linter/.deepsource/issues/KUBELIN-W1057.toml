@@ -1,0 +1,14 @@
+
+title = "Readiness probe port mismatch"
+verbose_name = "readiness-port"
+severity = "major"
+category = "antipattern"
+weight = 70
+description = """
+Indicates when containers have a readiness probe to a not exposed port.
+
+<!--more-->
+
+## Remediation
+Check which ports you've exposed and ensure they match what you have specified in the readiness probe.
+"""
