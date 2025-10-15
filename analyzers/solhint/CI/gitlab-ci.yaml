@@ -1,0 +1,23 @@
+stages:
+  - scan_and_report
+
+before_script:
+  - apt update
+  # install Solhint
+  - npm install solhint@^4.1.1 # version installed should be greater than 4.1.1
+
+scan_and_report:
+  stage: scan_and_report
+  image: node:latest # requires an image with nodejs
+
+  script:
+    # Run solhint
+    # make sure to modify the path to your contracts
+    - npx solhint '*.sol' -f sarif > solhint.sarif || true
+    # Install the DeepSource CLI and send the report to DeepSource
+    # Make sure you set the `DEEPSOURCE_DSN` env variable as a secret in your project.
+    - curl https://deepsource.io/cli | sh
+    - ./bin/deepsource report --analyzer solhint --analyzer-type community --value-file solhint.sarif
+
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "push"

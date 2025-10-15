@@ -151,5 +151,32 @@
     },
     "writable-host-mount": {
         "issue_code": "KUBELIN-W1051"
+    },
+    "dangling-servicemonitor": {
+        "issue_code": "KUBELIN-W1052"
+    },
+    "job-ttl-seconds-after-finished": {
+        "issue_code": "KUBELIN-W1053"
+    },
+    "liveness-port": {
+        "issue_code": "KUBELIN-W1054"
+    },
+    "pdb-unhealthy-pod-eviction-policy": {
+        "issue_code": "KUBELIN-W1055"
+    },
+    "priority-class-name": {
+        "issue_code": "KUBELIN-W1056"
+    },
+    "readiness-port": {
+        "issue_code": "KUBELIN-W1057"
+    },
+    "restart-policy": {
+        "issue_code": "KUBELIN-W1058"
+    },
+    "scc-deny-privileged-container": {
+        "issue_code": "KUBELIN-W1059"
+    },
+    "startup-port": {
+        "issue_code": "KUBELIN-W1060"
     }
 }
