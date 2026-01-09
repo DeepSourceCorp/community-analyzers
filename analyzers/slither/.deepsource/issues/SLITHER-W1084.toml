@@ -2,6 +2,7 @@ title = "Functions that are not used"
 verbose_name = "dead-code"
 severity = "minor"
 category = "antipattern"
+dimension = "hygiene"
 weight = 40
 description = """
 Functions that are not sued.

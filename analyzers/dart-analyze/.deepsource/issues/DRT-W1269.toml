@@ -2,6 +2,7 @@ title = "Deferred classes can't be created with 'const'"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "const_deferred_class"
 description = '''
 The analyzer produces this diagnostic when a class from a library that is

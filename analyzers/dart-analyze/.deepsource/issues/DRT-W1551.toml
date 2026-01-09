@@ -2,6 +2,7 @@ title = "A mixin can't have a nullable type as a superclass constraint"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "nullable_type_in_on_clause"
 description = '''
 The analyzer produces this diagnostic when a mixin declaration uses an `on`

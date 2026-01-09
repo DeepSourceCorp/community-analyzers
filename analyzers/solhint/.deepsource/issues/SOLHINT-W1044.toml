@@ -2,6 +2,7 @@ title = "Explicitly mark visibility in function"
 verbose_name = "func-visibility"
 severity = "major"
 category = "security"
+dimension = "security"
 weight = 60
 description = """
 Explicitly mark visibility in function.

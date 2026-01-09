@@ -2,6 +2,7 @@ title = "Check fn::equals structure for validity"
 verbose_name = "E8003"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 70
 tags = ["functions", "equals"]
 description = '''

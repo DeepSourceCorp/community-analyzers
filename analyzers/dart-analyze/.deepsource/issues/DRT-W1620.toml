@@ -2,6 +2,7 @@ title = "The prefix of a deferred import can't be used in other import directive
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "shared_deferred_prefix"
 description = '''
 The analyzer produces this diagnostic when a prefix in a deferred import is

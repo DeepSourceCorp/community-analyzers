@@ -2,6 +2,7 @@ title = "Avoid defining a class that contains only static members"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 verbose_name = "avoid_classes_with_only_static_members"
 description = '''
 From [Effective Dart](https://dart.dev/effective-dart/design#avoid-defining-a-class-that-contains-only-static-members):

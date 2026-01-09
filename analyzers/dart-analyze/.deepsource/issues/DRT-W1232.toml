@@ -2,6 +2,7 @@ title = "Invalid assignment of a value marked with `doNotStore`"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "assignment_of_do_not_store"
 description = '''
 The analyzer produces this diagnostic when the value of a function

@@ -1,6 +1,7 @@
 title = "Non-SSH services using port 22"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 70
 description = """
 Indicates when deployments expose port 22, which is commonly reserved for SSH access.

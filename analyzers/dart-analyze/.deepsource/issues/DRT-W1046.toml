@@ -2,6 +2,7 @@ title = "Avoid bool literals in conditional expressions"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 verbose_name = "avoid_bool_literals_in_conditional_expressions"
 description = '''
 **AVOID** bool literals in conditional expressions.

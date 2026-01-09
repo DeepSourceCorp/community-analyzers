@@ -2,6 +2,7 @@ title = "Check required properties for lambda if the deployment package is a .zi
 verbose_name = "W2533"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 70
 tags = ["resources", "lambda"]
 description = '''

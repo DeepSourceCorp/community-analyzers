@@ -2,6 +2,7 @@ title = "Avoid types as parameter names"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "avoid_types_as_parameter_names"
 description = '''
 **AVOID** using a parameter name that is the same as an existing type.

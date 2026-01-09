@@ -2,6 +2,7 @@ title = "Importvalue validation of parameters"
 verbose_name = "E1016"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 70
 tags = ["functions", "importvalue"]
 description = '''

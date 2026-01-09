@@ -2,6 +2,7 @@ title = "Check if refing to a iam resource with path set"
 verbose_name = "E3050"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 70
 tags = ["properties", "iam"]
 description = '''

@@ -2,6 +2,7 @@ title = "Reused base constructor"
 verbose_name = "reused-constructor"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 60
 description = """
 Detects if the same base constructor is called with arguments from two different locations in the same inheritance hierarchy.

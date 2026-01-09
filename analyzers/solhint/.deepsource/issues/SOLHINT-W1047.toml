@@ -2,6 +2,7 @@ title = "Fallback function must be simple"
 verbose_name = "no-complex-fallback"
 severity = "major"
 category = "security"
+dimension = "security"
 weight = 60
 description = """
 Fallback function must be simple.

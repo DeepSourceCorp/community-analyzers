@@ -2,6 +2,7 @@ title = "A for-in loop variable can't be a 'const'"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "for_in_with_const_variable"
 description = '''
 The analyzer produces this diagnostic when the loop variable declared in a

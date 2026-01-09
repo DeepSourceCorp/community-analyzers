@@ -2,6 +2,7 @@ title = "Reentrancy vulnerabilities (theft of ethers)"
 verbose_name = "reentrancy-eth"
 severity = "critical"
 category = "antipattern"
+dimension = "reliability"
 weight = 80
 description = """
 

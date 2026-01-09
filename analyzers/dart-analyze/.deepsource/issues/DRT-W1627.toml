@@ -2,6 +2,7 @@ title = "Avoid extending, mixing in, or implementing sealed class outside of the
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "subtype_of_sealed_class"
 description = '''
 The analyzer produces this diagnostic when a sealed class (one that either

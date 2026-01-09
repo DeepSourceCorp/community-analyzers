@@ -2,6 +2,7 @@ title = "Uninitialized local variables"
 verbose_name = "uninitialized-local"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 60
 description = """
 Uninitialized local variables.

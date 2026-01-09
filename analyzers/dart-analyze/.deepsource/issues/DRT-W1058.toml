@@ -2,6 +2,7 @@ title = "Avoid JavaScript rounded ints"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 verbose_name = "avoid_js_rounded_ints"
 description = '''
 **AVOID** integer literals that cannot be represented exactly when compiled to

@@ -2,6 +2,7 @@ title = "Enforces the use of Custom Errors over Require and Revert statements"
 verbose_name = "custom-errors"
 severity = "minor"
 category = "antipattern"
+dimension = "hygiene"
 weight = 40
 description = """
 Enforces the use of Custom Errors over Require and Revert statements

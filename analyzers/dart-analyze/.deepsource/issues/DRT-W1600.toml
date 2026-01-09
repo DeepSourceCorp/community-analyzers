@@ -2,6 +2,7 @@ title = "A rethrow must be inside of a catch clause"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "rethrow_outside_catch"
 description = '''
 The analyzer produces this diagnostic when a `rethrow` statement is outside

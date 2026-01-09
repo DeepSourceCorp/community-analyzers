@@ -2,6 +2,7 @@ title = "Compiler version must satisfy a semver requirement"
 verbose_name = "compiler-version"
 severity = "critical"
 category = "security"
+dimension = "security"
 weight = 80
 description = """
 Compiler version must satisfy a semver requirement.

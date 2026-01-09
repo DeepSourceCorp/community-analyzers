@@ -2,6 +2,7 @@ title = "External fields can't have initializers.  External variables can't have
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "external_with_initializer"
 description = '''
 The analyzer produces this diagnostic when a field or variable marked with

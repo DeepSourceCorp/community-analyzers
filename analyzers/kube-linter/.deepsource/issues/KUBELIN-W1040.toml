@@ -2,6 +2,7 @@
 title = "Invalid email annotation"
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 weight = 70
 description = """
 Indicates when objects do not have an email annotation with a valid email address.

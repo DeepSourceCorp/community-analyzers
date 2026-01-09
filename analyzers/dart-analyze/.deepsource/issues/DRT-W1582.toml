@@ -2,6 +2,7 @@ title = "A record type with exactly one positional field requires a trailing com
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "record_type_one_positional_no_trailing_comma"
 description = '''
 The analyzer produces this diagnostic when a record type annotation with a

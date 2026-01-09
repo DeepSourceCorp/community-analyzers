@@ -2,6 +2,7 @@ title = "transferFrom uses arbitrary `from`"
 verbose_name = "arbitrary-send-erc20"
 severity = "critical"
 category = "antipattern"
+dimension = "reliability"
 weight = 80
 description = """
 Detect when `msg.sender` is not used as `from` in transferFrom.

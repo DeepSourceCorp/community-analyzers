@@ -2,6 +2,7 @@ title = "The type 'Never' wasn't supported until version 2.12.0, but this code i
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "sdk_version_never"
 description = '''
 The analyzer produces this diagnostic when a reference to the class `Never`

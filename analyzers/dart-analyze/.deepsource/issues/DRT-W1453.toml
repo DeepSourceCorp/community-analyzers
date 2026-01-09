@@ -2,6 +2,7 @@ title = "The expression doesn't evaluate to a function, so it can't be invoked"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "invocation_of_non_function_expression"
 description = '''
 The analyzer produces this diagnostic when a function invocation is found,

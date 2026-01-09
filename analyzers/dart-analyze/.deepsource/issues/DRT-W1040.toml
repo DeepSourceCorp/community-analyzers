@@ -2,6 +2,7 @@ title = "Declare method return types"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 verbose_name = "always_declare_return_types"
 description = '''
 **DO** declare method return types.

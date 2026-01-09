@@ -2,6 +2,7 @@ title = "Don't use wildcard parameters or variables"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "no_wildcard_variable_uses"
 description = '''
 **DON'T** use wildcard parameters or variables.

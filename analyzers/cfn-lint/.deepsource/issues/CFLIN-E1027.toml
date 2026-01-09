@@ -2,6 +2,7 @@ title = "Check dynamic references secure strings are in supported locations"
 verbose_name = "E1027"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 70
 tags = ["functions", "dynamic reference"]
 description = '''

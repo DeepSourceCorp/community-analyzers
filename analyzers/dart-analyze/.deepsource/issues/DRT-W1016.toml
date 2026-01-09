@@ -2,6 +2,7 @@ title = "DO reference all public properties in debug methods"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "diagnostic_describe_all_properties"
 description = '''
 **DO** reference all public properties in `debug` method implementations.

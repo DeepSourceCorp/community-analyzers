@@ -2,6 +2,7 @@ title = "Check ec2 ebs properties"
 verbose_name = "E2504"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 70
 tags = ["properties", "ec2", "ebs"]
 description = '''

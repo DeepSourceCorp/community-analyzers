@@ -2,6 +2,7 @@ title = "Annotate overridden members"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 verbose_name = "annotate_overrides"
 description = '''
 **DO** annotate overridden methods and fields.

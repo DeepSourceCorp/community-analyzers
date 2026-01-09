@@ -2,6 +2,7 @@ title = "Unused return values"
 verbose_name = "unused-return"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 60
 description = """
 The return value of an external call is not stored in a local or state variable.

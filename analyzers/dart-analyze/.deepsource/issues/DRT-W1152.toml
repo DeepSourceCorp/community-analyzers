@@ -2,6 +2,7 @@ title = "Prefer null aware method calls"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 verbose_name = "prefer_null_aware_method_calls"
 description = '''
 Instead of checking nullability of a function/method `f` before calling it you

@@ -2,6 +2,7 @@ title = "Factory method doesn't return a newly allocated object"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "invalid_factory_method_impl"
 description = '''
 The analyzer produces this diagnostic when a method that is annotated with

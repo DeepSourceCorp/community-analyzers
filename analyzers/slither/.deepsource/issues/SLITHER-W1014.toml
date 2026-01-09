@@ -2,6 +2,7 @@ title = "Uninitialized storage variables"
 verbose_name = "uninitialized-storage"
 severity = "critical"
 category = "antipattern"
+dimension = "reliability"
 weight = 80
 description = """
 An uninitialized storage variable will act as a reference to the first state variable, and can override a critical variable.

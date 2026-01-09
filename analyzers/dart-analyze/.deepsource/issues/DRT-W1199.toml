@@ -2,6 +2,7 @@ title = "Use generic function type syntax for parameters"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 verbose_name = "use_function_type_syntax_for_parameters"
 description = '''
 Use generic function type syntax for parameters.

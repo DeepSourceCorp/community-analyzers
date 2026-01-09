@@ -2,6 +2,7 @@ title = "Fields can't be initialized in both the parameter list and the initiali
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "field_initialized_in_parameter_and_initializer"
 description = '''
 The analyzer produces this diagnostic when a field is initialized in both

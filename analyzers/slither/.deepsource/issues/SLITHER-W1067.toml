@@ -2,6 +2,7 @@ title = "Assembly usage"
 verbose_name = "assembly"
 severity = "minor"
 category = "antipattern"
+dimension = "reliability"
 weight = 40
 description = """
 The use of assembly is error-prone and should be avoided.

@@ -2,6 +2,7 @@ title = "Unchecked low-level calls"
 verbose_name = "unchecked-lowlevel"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 60
 description = """
 The return value of a low-level call is not checked.

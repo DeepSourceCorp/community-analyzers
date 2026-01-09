@@ -2,6 +2,7 @@ title = "Type aliases that expand to a type parameter can't be instantiated"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "instantiate_type_alias_expands_to_type_parameter"
 description = '''
 The analyzer produces this diagnostic when a constructor invocation is

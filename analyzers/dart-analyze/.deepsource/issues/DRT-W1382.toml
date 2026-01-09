@@ -2,6 +2,7 @@ title = "Invalid declaration of 'values' in a class that implements 'Enum'"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "illegal_enum_values"
 description = '''
 The analyzer produces this diagnostic when either a class that implements

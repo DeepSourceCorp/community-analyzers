@@ -2,6 +2,7 @@ title = "Parameters have appropriate names"
 verbose_name = "E2003"
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 weight = 70
 tags = ["parameters"]
 description = '''

@@ -2,6 +2,7 @@ title = "Don't declare multiple variables on a single line"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 verbose_name = "avoid_multiple_declarations_per_line"
 description = '''
 **DON'T** declare multiple variables on a single line.

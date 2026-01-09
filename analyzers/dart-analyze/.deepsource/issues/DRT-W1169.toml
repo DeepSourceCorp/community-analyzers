@@ -2,6 +2,7 @@ title = "Don't type annotate initializing formals"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 verbose_name = "type_init_formals"
 description = '''
 From [Effective Dart](https://dart.dev/effective-dart/design#dont-type-annotate-initializing-formals):

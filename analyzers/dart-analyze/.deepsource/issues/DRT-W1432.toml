@@ -2,6 +2,7 @@ title = "Invalid override of member with '@nonVirtual' annotation"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "invalid_override_of_non_virtual_member"
 description = '''
 The analyzer produces this diagnostic when a member of a class, mixin, or

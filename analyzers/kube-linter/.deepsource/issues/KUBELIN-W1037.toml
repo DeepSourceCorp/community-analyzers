@@ -1,6 +1,7 @@
 title = "Containers running in privileged mode"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 70
 description = """
 Indicates when deployments have containers running in privileged mode.

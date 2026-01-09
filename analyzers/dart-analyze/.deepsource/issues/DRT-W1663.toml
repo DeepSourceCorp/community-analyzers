@@ -2,6 +2,7 @@ title = "Undefined function"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "undefined_function"
 description = '''
 The analyzer produces this diagnostic when it encounters an identifier that

@@ -2,6 +2,7 @@ title = "Check order of elements in file and inside each contract, according to 
 verbose_name = "ordering"
 severity = "minor"
 category = "style"
+dimension = "hygiene"
 weight = 40
 description = """
 Check order of elements in file and inside each contract, according to the style guide.

@@ -2,6 +2,7 @@ title = "A map is expected in this spread"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "const_spread_expected_map"
 description = '''
 The analyzer produces this diagnostic when the expression of a spread

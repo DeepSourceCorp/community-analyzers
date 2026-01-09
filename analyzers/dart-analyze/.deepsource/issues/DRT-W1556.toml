@@ -2,6 +2,7 @@ title = "Duplicate superclass constraint in mixin"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "on_repeated"
 description = '''
 The analyzer produces this diagnostic when the same type is listed in the

@@ -2,6 +2,7 @@ title = "Non-exhaustive switch statement over an exhaustive type"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "non_exhaustive_switch_statement"
 description = '''
 The analyzer produces this diagnostic when a `switch` statement switching

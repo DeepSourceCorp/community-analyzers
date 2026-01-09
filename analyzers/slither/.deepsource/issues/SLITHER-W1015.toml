@@ -2,6 +2,7 @@ title = "Unprotected upgradeable contract"
 verbose_name = "unprotected-upgrade"
 severity = "critical"
 category = "antipattern"
+dimension = "reliability"
 weight = 80
 description = """
 Detects logic contract that can be destructed.

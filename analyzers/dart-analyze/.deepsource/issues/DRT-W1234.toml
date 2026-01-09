@@ -2,6 +2,7 @@ title = "Invalid setter invocation for final field"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "assignment_to_final"
 description = '''
 The analyzer produces this diagnostic when it finds an invocation of a

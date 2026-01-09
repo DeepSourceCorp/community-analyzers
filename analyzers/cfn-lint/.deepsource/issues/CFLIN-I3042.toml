@@ -2,6 +2,7 @@ title = "Arns should use correctly placed pseudo parameters"
 verbose_name = "I3042"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 70
 tags = ["resources"]
 description = '''

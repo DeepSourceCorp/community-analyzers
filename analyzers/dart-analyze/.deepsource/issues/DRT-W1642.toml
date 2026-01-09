@@ -2,6 +2,7 @@ title = "Text direction Unicode code points in literal"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "text_direction_code_point_in_literal"
 description = '''
 The analyzer produces this diagnostic when it encounters source that

@@ -2,6 +2,7 @@ title = "Function type must be a subtype of the type argument in FFI invocation"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "must_be_a_subtype"
 description = '''
 The analyzer produces this diagnostic in two cases:

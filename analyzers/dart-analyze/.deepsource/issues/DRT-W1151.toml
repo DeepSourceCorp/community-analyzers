@@ -2,6 +2,7 @@ title = "Prefer using mixins"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 verbose_name = "prefer_mixin"
 description = '''
 Dart 2.1 introduced a new syntax for mixins that provides a safe way for a mixin

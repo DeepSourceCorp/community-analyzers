@@ -2,6 +2,7 @@ title = "Optional parameters aren't allowed when defining an operator"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "optional_parameter_in_operator"
 description = '''
 The analyzer produces this diagnostic when one or more of the parameters in

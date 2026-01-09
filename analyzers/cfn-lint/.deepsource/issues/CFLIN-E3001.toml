@@ -2,6 +2,7 @@ title = "Basic cloudformation resource check"
 verbose_name = "E3001"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 70
 tags = ["resources"]
 description = '''

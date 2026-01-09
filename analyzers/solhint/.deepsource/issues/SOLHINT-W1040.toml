@@ -2,6 +2,7 @@ title = "`throw` is deprecated, avoid to use it"
 verbose_name = "avoid-throw"
 severity = "major"
 category = "security"
+dimension = "security"
 weight = 60
 description = """
 `throw` is deprecated, avoid to use it.

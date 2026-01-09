@@ -2,6 +2,7 @@ title = "Functions marked 'async*' must have a return type that is a supertype o
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "illegal_async_generator_return_type"
 description = '''
 The analyzer produces this diagnostic when the body of a function has the

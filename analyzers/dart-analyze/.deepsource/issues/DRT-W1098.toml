@@ -2,6 +2,7 @@ title = "Attach library annotations to library directives"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 verbose_name = "library_annotations"
 description = '''
 Attach library annotations to library directives, rather than

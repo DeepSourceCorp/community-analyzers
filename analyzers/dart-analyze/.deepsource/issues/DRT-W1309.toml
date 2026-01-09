@@ -2,6 +2,7 @@ title = "Redundant ignore comment for diagnostic"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "hygiene"
 verbose_name = "duplicate_ignore"
 description = '''
 The analyzer produces this diagnostic when a diagnostic name appears in an

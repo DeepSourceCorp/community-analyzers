@@ -2,6 +2,7 @@ title = "Enforce named parameters for function calls with 4 or more arguments. T
 verbose_name = "func-named-parameters"
 severity = "minor"
 category = "style"
+dimension = "hygiene"
 weight = 40
 description = """
 Enforce named parameters for function calls with 4 or more arguments. This rule may have some false positives

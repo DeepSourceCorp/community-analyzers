@@ -2,6 +2,7 @@ title = "Undefined super member"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "undefined_super_member"
 description = '''
 The analyzer produces this diagnostic when an inherited member (method,

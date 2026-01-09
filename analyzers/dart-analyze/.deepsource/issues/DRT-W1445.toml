@@ -2,6 +2,7 @@ title = "Invalid usage of class or mixin declaration modifiers"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "invalid_use_of_type_outside_library"
 description = '''
 The analyzer produces this diagnostic when an `extends`, `implements`,

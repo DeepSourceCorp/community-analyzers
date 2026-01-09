@@ -2,6 +2,7 @@ title = "Invalid class name specified for instance creation"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "creation_with_non_type"
 description = '''
 The analyzer produces this diagnostic when an instance creation using

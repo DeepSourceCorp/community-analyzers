@@ -2,6 +2,7 @@ title = "Two keys in a map pattern can't be equal"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "equal_keys_in_map_pattern"
 description = '''
 The analyzer produces this diagnostic when a map pattern contains more

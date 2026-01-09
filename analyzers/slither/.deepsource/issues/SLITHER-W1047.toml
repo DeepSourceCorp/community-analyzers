@@ -2,6 +2,7 @@ title = "Dangerous usage of `tx.origin`"
 verbose_name = "tx-origin"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 60
 description = """
 `tx.origin`-based protection can be abused by a malicious contract if a legitimate user interacts with the malicious contract.

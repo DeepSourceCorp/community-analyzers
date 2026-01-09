@@ -2,6 +2,7 @@ title = "Extension methods weren't supported until version 2.6.0, but this code 
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "sdk_version_extension_methods"
 description = '''
 The analyzer produces this diagnostic when an extension declaration or an

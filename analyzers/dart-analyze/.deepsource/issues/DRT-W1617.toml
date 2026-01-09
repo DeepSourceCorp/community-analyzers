@@ -2,6 +2,7 @@ title = "The for, if, and spread elements weren't supported until version 2.3.0,
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "sdk_version_ui_as_code"
 description = '''
 The analyzer produces this diagnostic when a for, if, or spread element is

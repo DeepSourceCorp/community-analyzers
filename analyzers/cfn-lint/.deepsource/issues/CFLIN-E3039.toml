@@ -2,6 +2,7 @@ title = "Attributedefinitions / keyschemas mismatch"
 verbose_name = "E3039"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 70
 tags = ["resources", "dynamodb"]
 description = '''

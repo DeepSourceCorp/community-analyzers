@@ -2,6 +2,7 @@ title = "Checks for legacy instance type generations"
 verbose_name = "I3100"
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 weight = 70
 tags = ["resources", "ec2", "rds", "elasticcache", "elasticsearch"]
 description = '''

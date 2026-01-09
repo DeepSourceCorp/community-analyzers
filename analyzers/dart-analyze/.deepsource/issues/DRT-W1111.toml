@@ -2,6 +2,7 @@ title = "Don't use null check on a potentially nullable type parameter"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 verbose_name = "null_check_on_nullable_type_parameter"
 description = '''
 **DON'T** use null check on a potentially nullable type parameter.

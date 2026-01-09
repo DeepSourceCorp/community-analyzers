@@ -2,6 +2,7 @@ title = "Dangerous unary expressions"
 verbose_name = "incorrect-unary"
 severity = "minor"
 category = "antipattern"
+dimension = "reliability"
 weight = 40
 description = """
 Unary expressions such as `x=+1` probably typos.

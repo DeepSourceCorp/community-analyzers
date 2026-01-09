@@ -2,6 +2,7 @@ title = "Comparing a variable to itself always returns true or false, depending 
 verbose_name = "tautological-compare"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 60
 description = """
 A variable compared to itself is probably an error as it will always return `true` for `==`, `>=`, `<=` and always `false` for `<`, `>` and `!=`.

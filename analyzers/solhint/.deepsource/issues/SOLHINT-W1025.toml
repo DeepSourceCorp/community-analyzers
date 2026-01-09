@@ -2,6 +2,7 @@ title = "Check Immutable variables. Capitalized SNAKE_CASE or mixedCase dependin
 verbose_name = "immutable-vars-naming"
 severity = "minor"
 category = "style"
+dimension = "hygiene"
 weight = 40
 description = """
 Check Immutable variables. Capitalized SNAKE_CASE or mixedCase depending on configuration.

@@ -2,6 +2,7 @@ title = "Contract's name reused"
 verbose_name = "name-reused"
 severity = "critical"
 category = "antipattern"
+dimension = "reliability"
 weight = 80
 description = """
 If a codebase has two contracts the similar names, the compilation artifacts

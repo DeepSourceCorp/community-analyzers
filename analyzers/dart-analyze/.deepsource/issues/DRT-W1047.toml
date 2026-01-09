@@ -2,6 +2,7 @@ title = "Avoid catches without on clauses"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 verbose_name = "avoid_catches_without_on_clauses"
 description = '''
 **AVOID** catches without on clauses.

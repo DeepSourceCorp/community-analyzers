@@ -2,6 +2,7 @@ title = "Resource properties are invalid"
 verbose_name = "E3002"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 70
 tags = ["resources"]
 description = '''

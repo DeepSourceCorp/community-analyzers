@@ -2,6 +2,7 @@ title = "`Future` results in `async` function bodies must be `await`ed or marked
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 verbose_name = "unawaited_futures"
 description = '''
 **DO** await functions that return a `Future` inside of an async function body.

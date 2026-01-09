@@ -2,6 +2,7 @@ title = "Uninitialized function pointer calls in constructors"
 verbose_name = "uninitialized-fptr-cst"
 severity = "minor"
 category = "antipattern"
+dimension = "reliability"
 weight = 40
 description = """
 solc versions `0.4.5`-`0.4.26` and `0.5.0`-`0.5.8` contain a compiler bug leading to unexpected behavior when calling uninitialized function pointers in constructors.

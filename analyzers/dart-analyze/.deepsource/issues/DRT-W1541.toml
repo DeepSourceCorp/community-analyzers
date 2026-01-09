@@ -2,6 +2,7 @@ title = "Uninitialized non-nullable instance field"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "not_initialized_non_nullable_instance_field"
 description = '''
 The analyzer produces this diagnostic when a field is declared and has all

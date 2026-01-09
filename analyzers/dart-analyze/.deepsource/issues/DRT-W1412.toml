@@ -2,6 +2,7 @@ title = "Unsupported package dependency"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "invalid_dependency"
 description = '''
 The analyzer produces this diagnostic when a package under either

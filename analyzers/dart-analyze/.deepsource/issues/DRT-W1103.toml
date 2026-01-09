@@ -2,6 +2,7 @@ title = "Use matching super parameter names"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 verbose_name = "matching_super_parameters"
 description = '''
 **DO** use super parameter names that match their corresponding super

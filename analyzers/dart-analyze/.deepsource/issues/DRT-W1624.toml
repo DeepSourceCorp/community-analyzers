@@ -2,6 +2,7 @@ title = "Classes and mixins can't implement deferred classes.  Classes can't ext
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "subtype_of_deferred_class"
 description = '''
 The analyzer produces this diagnostic when a type (class or mixin) is a

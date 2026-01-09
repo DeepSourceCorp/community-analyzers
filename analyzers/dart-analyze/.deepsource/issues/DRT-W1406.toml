@@ -2,6 +2,7 @@ title = "Integer literal exceeds 64-bit representation limit"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "integer_literal_out_of_range"
 description = '''
 The analyzer produces this diagnostic when an integer literal has a value

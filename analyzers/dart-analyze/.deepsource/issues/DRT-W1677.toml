@@ -2,6 +2,7 @@ title = "Unnecessary cast"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "hygiene"
 verbose_name = "unnecessary_cast"
 description = '''
 The analyzer produces this diagnostic when the value being cast is already

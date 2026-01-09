@@ -2,6 +2,7 @@ title = "Don't reassign references to parameters of functions or methods"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 verbose_name = "parameter_assignments"
 description = '''
 **DON'T** assign new values to parameters of methods or functions.

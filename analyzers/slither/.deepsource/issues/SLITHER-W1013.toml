@@ -2,6 +2,7 @@ title = "Uninitialized state variables"
 verbose_name = "uninitialized-state"
 severity = "critical"
 category = "antipattern"
+dimension = "reliability"
 weight = 80
 description = """
 Uninitialized state variables.

@@ -2,6 +2,7 @@ title = "Fields in a struct class whose type is 'Pointer' shouldn't have any ann
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "annotation_on_pointer_field"
 description = '''
 The analyzer produces this diagnostic when a field that's declared in a

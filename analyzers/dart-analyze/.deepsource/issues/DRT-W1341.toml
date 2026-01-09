@@ -2,6 +2,7 @@ title = "Expressions can't be used in a map literal"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "expression_in_map"
 description = '''
 The analyzer produces this diagnostic when the analyzer finds an

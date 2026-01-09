@@ -2,6 +2,7 @@ title = "Keys in the `platforms` field can't have values"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "platform_value_disallowed"
 description = '''
 The analyzer produces this diagnostic when a key in the `platforms` map

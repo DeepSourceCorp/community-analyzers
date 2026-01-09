@@ -2,6 +2,7 @@ title = "Check obsolete dependson configuration for resources"
 verbose_name = "W3005"
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 weight = 70
 tags = ["resources", "dependson", "ref", "getatt"]
 description = '''

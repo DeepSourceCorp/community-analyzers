@@ -2,6 +2,7 @@ title = "Default values aren't allowed in factory constructors that redirect to 
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "default_value_in_redirecting_factory_constructor"
 description = '''
 The analyzer produces this diagnostic when a factory constructor that

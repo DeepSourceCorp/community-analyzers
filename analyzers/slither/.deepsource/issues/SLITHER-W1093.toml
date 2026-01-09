@@ -2,6 +2,7 @@ title = "Out-of-order retryable transactions"
 verbose_name = "out-of-order-retryable"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 60
 description = """
 Out-of-order retryable transactions

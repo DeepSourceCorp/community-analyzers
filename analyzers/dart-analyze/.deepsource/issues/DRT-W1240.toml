@@ -2,6 +2,7 @@ title = "The async for-in loop can only be used in an async function"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "async_for_in_wrong_context"
 description = '''
 The analyzer produces this diagnostic when an async for-in loop is found in

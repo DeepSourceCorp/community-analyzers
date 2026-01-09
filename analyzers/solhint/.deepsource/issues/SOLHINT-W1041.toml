@@ -2,6 +2,7 @@ title = "Avoid to use tx.origin"
 verbose_name = "avoid-tx-origin"
 severity = "major"
 category = "security"
+dimension = "security"
 weight = 60
 description = """
 Avoid to use tx.origin.

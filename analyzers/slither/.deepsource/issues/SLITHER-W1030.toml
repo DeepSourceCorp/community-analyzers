@@ -2,6 +2,7 @@ title = "Detects ERC20 tokens that have a function whose signature collides with
 verbose_name = "domain-separator-collision"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 60
 description = """
 An ERC20 token has a function whose signature collides with EIP-2612's DOMAIN_SEPARATOR(), causing unanticipated behavior for contracts using `permit` functionality.

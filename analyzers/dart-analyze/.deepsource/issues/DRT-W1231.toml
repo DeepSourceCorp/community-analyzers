@@ -2,6 +2,7 @@ title = "Assets are required to be file paths (strings)"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "asset_not_string"
 description = '''
 The analyzer produces this diagnostic when an asset list contains a value

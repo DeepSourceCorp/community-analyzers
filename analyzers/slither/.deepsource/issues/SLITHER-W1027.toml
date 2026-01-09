@@ -2,6 +2,7 @@ title = "Signed storage integer array compiler bug"
 verbose_name = "storage-array"
 severity = "critical"
 category = "antipattern"
+dimension = "reliability"
 weight = 80
 description = """
 `solc` versions `0.4.7`-`0.5.9` contain [a compiler bug](https://blog.ethereum.org/2019/06/25/solidity-storage-array-bugs)

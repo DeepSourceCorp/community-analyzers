@@ -2,6 +2,7 @@ title = "Key in a constant map can't override the `==` operator, or `hashCode`"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "const_map_key_not_primitive_equality"
 description = '''
 The analyzer produces this diagnostic when the class of object used as a

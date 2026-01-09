@@ -2,6 +2,7 @@ title = "A potentially nullable type can't be used in an 'on' clause because it 
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "nullable_type_in_catch_clause"
 description = '''
 The analyzer produces this diagnostic when the type following `on` in a

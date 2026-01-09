@@ -2,6 +2,7 @@ title = "Inline function types can't be used for parameters in a generic functio
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "invalid_inline_function_type"
 description = '''
 The analyzer produces this diagnostic when a generic function type has a

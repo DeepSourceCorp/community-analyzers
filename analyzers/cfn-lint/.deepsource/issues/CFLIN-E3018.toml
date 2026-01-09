@@ -2,6 +2,7 @@ title = "Property is unwanted based on another properties value"
 verbose_name = "E3018"
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 weight = 70
 tags = ["resources"]
 description = '''

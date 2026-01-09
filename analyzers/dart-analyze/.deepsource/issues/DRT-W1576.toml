@@ -2,6 +2,7 @@ title = "Prefix shadowed by a local declaration"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "prefix_shadowed_by_local_declaration"
 description = '''
 The analyzer produces this diagnostic when an import prefix is used in a

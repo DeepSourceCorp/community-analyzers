@@ -2,6 +2,7 @@ title = "Constructors can't redirect to themselves either directly or indirectly
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "recursive_constructor_redirect"
 description = '''
 The analyzer produces this diagnostic when a constructor redirects to

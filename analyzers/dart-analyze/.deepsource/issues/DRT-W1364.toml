@@ -2,6 +2,7 @@ title = "Field formal parameters can only be used in a constructor.  Initializin
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "field_initializer_outside_constructor"
 description = '''
 The analyzer produces this diagnostic when an initializing formal

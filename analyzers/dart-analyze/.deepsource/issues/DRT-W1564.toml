@@ -2,6 +2,7 @@ title = "Dependency path does not exist"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "path_does_not_exist"
 description = '''
 The analyzer produces this diagnostic when a dependency has a `path` key

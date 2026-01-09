@@ -2,6 +2,7 @@ title = "Missing conditional import"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 verbose_name = "conditional_uri_does_not_exist"
 description = '''
 **DON'T** reference files that do not exist in conditional imports.

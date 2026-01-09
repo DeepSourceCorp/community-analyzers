@@ -2,6 +2,7 @@ title = "Right-To-Left-Override control character is used"
 verbose_name = "rtlo"
 severity = "critical"
 category = "antipattern"
+dimension = "reliability"
 weight = 80
 description = """
 An attacker can manipulate the logic of the contract by using a right-to-left-override character (`U+202E)`.

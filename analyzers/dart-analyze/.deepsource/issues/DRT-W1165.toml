@@ -2,6 +2,7 @@ title = "Sort constructor declarations before other members"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 verbose_name = "sort_constructors_first"
 description = '''
 **DO** sort constructor declarations before other members.

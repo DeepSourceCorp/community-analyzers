@@ -2,6 +2,7 @@ title = "Invalid name in hide combinator for imported library"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "undefined_hidden_name"
 description = '''
 The analyzer produces this diagnostic when a hide combinator includes a

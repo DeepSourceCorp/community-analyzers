@@ -2,6 +2,7 @@ title = "Start the name of the method with to/_to or as/_as if applicable"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 verbose_name = "use_to_and_as_if_applicable"
 description = '''
 From [Effective Dart](https://dart.dev/effective-dart/design#prefer-naming-a-method-to___-if-it-copies-the-objects-state-to-a-new-object):

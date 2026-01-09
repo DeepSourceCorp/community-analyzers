@@ -2,6 +2,7 @@ title = "Validate accesscontrol are set with ownershipcontrols"
 verbose_name = "E3045"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 70
 tags = ["resources", "s3"]
 description = '''

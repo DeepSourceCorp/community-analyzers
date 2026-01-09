@@ -2,6 +2,7 @@
 title = "Owner object without email annotation"
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 weight = 70
 description = """
 Indicates when objects do not have an email annotation with an owner label.

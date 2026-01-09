@@ -2,6 +2,7 @@ title = "Subtype of `base` or `final` is not `base`, `final` or `sealed`"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "subtype_of_base_or_final_is_not_base_final_or_sealed"
 description = '''
 The analyzer produces this diagnostic when a class or mixin has a direct

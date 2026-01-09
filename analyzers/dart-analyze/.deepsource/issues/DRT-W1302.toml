@@ -2,6 +2,7 @@ title = "The operator x ~/ y is more efficient than (x / y).toInt()"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "hygiene"
 verbose_name = "division_optimization"
 description = '''
 The analyzer produces this diagnostic when the result of dividing two

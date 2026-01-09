@@ -2,6 +2,7 @@ title = "Container with `NET_RAW` capability"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 description = """
 Indicates when containers do not drop NET_RAW capability
 

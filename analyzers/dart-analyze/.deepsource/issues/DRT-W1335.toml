@@ -2,6 +2,7 @@ title = "Set literals should have at most one type argument"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "expected_one_set_type_arguments"
 description = '''
 The analyzer produces this diagnostic when a set literal has more than one

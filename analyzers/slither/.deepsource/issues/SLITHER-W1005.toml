@@ -2,6 +2,7 @@ title = "The order of parameters in a shift instruction is incorrect"
 verbose_name = "incorrect-shift"
 severity = "critical"
 category = "antipattern"
+dimension = "reliability"
 weight = 80
 description = """
 Detect if the values in a shift operation are reversed

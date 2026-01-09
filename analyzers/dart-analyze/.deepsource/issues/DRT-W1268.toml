@@ -2,6 +2,7 @@ title = "Can't define a const constructor for a class with non-final fields"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "const_constructor_with_non_final_field"
 description = '''
 The analyzer produces this diagnostic when a constructor is marked as a

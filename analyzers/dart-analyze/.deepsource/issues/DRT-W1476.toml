@@ -2,6 +2,7 @@ title = "The 'name' field is required but missing"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "missing_name"
 description = '''
 The analyzer produces this diagnostic when there's no top-level `name` key.

@@ -2,6 +2,7 @@ title = "Unnecessary import"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "hygiene"
 verbose_name = "unnecessary_import"
 description = '''
 The analyzer produces this diagnostic when an import isn't needed because

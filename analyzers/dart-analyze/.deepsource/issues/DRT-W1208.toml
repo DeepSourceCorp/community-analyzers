@@ -2,6 +2,7 @@ title = "Use throwsA matcher instead of fail()"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 verbose_name = "use_test_throws_matchers"
 description = '''
 Use the `throwsA` matcher instead of try-catch with `fail()`.

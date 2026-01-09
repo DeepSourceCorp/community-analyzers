@@ -2,6 +2,7 @@ title = "Invalid port names in deployments or services"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 description = """
 Indicates when deployments or services are using port names that are violating specifications.
 

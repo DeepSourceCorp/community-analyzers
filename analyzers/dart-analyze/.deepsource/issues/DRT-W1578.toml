@@ -2,6 +2,7 @@ title = "Named parameters can't start with an underscore"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "private_optional_parameter"
 description = '''
 The analyzer produces this diagnostic when the name of a named parameter

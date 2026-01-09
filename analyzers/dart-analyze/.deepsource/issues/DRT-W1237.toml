@@ -2,6 +2,7 @@ title = "Functions can't be assigned a value"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "assignment_to_function"
 description = '''
 The analyzer produces this diagnostic when the name of a function appears

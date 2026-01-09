@@ -2,6 +2,7 @@ title = "Length validation of parameters"
 verbose_name = "E1030"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 70
 tags = ["functions", "length"]
 description = '''

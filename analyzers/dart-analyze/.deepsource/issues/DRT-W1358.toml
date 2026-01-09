@@ -2,6 +2,7 @@ title = "Duplicate field initialization in constructor"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "field_initialized_by_multiple_initializers"
 description = '''
 The analyzer produces this diagnostic when the initializer list of a

@@ -2,6 +2,7 @@ title = "Invalid return of value annotated with `doNotStore`"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "return_of_do_not_store"
 description = '''
 The analyzer produces this diagnostic when a value that is annotated with

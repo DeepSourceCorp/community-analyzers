@@ -2,6 +2,7 @@ title = "Avoid annotating with dynamic when not required"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 verbose_name = "avoid_annotating_with_dynamic"
 description = '''
 **AVOID** annotating with dynamic when not required.

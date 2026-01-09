@@ -2,6 +2,7 @@ title = "Dart native extensions are deprecated and aren't available in Dart 2.15
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "use_of_native_extension"
 description = '''
 The analyzer produces this diagnostic when a library is imported using the

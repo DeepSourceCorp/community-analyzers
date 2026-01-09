@@ -2,6 +2,7 @@ title = "Benign reentrancy vulnerabilities"
 verbose_name = "reentrancy-benign"
 severity = "minor"
 category = "antipattern"
+dimension = "reliability"
 weight = 40
 description = """
 

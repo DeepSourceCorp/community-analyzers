@@ -2,6 +2,7 @@ title = "Static field initialized in constructor"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "initializer_for_static_field"
 description = '''
 The analyzer produces this diagnostic when a static field is initialized

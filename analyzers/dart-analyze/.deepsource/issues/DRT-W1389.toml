@@ -2,6 +2,7 @@ title = "The imported library defines a top-level function named 'loadLibrary' t
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "import_deferred_library_with_load_function"
 description = '''
 The analyzer produces this diagnostic when a library that declares a

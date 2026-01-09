@@ -2,6 +2,7 @@ title = "Incompatible types for variable assignment"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "invalid_assignment"
 description = '''
 The analyzer produces this diagnostic when the static type of an expression

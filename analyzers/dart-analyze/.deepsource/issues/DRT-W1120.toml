@@ -2,6 +2,7 @@ title = "Use adjacent strings to concatenate string literals"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 verbose_name = "prefer_adjacent_string_concatenation"
 description = '''
 **DO** use adjacent strings to concatenate string literals.

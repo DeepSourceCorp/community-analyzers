@@ -2,6 +2,7 @@ title = "Rds instance type is compatible with the rds type"
 verbose_name = "E3025"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 70
 tags = ["resources", "rds"]
 description = '''

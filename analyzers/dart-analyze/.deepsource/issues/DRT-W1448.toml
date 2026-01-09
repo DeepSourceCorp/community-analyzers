@@ -2,6 +2,7 @@ title = "Invalid use of visibility annotation on non-public declaration"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "invalid_visibility_annotation"
 description = '''
 The analyzer produces this diagnostic when either the `visibleForTemplate`

@@ -2,6 +2,7 @@ title = "Constructor called not implemented"
 verbose_name = "void-cst"
 severity = "minor"
 category = "antipattern"
+dimension = "reliability"
 weight = 40
 description = """
 Detect the call to a constructor that is not implemented

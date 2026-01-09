@@ -2,6 +2,7 @@ title = "Non-type name used as type"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "not_a_type"
 description = '''
 The analyzer produces this diagnostic when a name is used as a type but

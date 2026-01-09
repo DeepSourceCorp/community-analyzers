@@ -2,6 +2,7 @@ title = "Circular type hierarchy"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "recursive_interface_inheritance"
 description = '''
 The analyzer produces this diagnostic when there's a circularity in the

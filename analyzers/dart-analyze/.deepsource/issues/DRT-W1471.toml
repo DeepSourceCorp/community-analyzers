@@ -2,6 +2,7 @@ title = "Missing default value for non-nullable optional parameter"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "missing_default_value_for_parameter"
 description = '''
 The analyzer produces this diagnostic when an optional parameter, whether

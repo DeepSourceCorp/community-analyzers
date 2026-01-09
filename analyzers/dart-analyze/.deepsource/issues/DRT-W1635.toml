@@ -2,6 +2,7 @@ title = "The 'super' keyword can't be used in an extension because an extension 
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "super_in_extension"
 description = '''
 The analyzer produces this diagnostic when a member declared inside an

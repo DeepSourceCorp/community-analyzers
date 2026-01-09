@@ -2,6 +2,7 @@ title = "Don't assign to void"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 verbose_name = "void_checks"
 description = '''
 **DON'T** assign to void.

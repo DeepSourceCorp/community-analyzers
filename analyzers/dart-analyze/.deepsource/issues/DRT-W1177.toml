@@ -2,6 +2,7 @@ title = "The keyword 'final' isn't necessary because the parameter is implicitly
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "hygiene"
 verbose_name = "unnecessary_final"
 description = '''
 The analyzer produces this diagnostic when either a field initializing

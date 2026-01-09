@@ -2,6 +2,7 @@ title = "Undefined operator for extension"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "undefined_extension_operator"
 description = '''
 The analyzer produces this diagnostic when an operator is invoked on a

@@ -2,6 +2,7 @@
 title = "Containers without memory resource requests and limits"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 70
 description = """
 Indicates when containers do not have memory requests and limits set.

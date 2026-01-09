@@ -2,6 +2,7 @@ title = "Output name limit not exceeded"
 verbose_name = "E6011"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 70
 tags = ["outputs", "limits"]
 description = '''

@@ -2,6 +2,7 @@ title = "Use `ColoredBox`"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 verbose_name = "use_colored_box"
 description = '''
 **DO** use `ColoredBox` when `Container` has only a `Color`.

@@ -2,6 +2,7 @@ title = "Avoid returning this from methods just to enable a fluent interface"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 verbose_name = "avoid_returning_this"
 description = '''
 **AVOID** returning this from methods just to enable a fluent interface.

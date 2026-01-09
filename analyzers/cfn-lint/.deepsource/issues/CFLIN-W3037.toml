@@ -2,6 +2,7 @@ title = "Check iam permission configuration"
 verbose_name = "W3037"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 70
 tags = ["properties", "iam", "permissions"]
 description = '''

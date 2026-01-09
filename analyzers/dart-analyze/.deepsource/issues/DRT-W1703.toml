@@ -2,6 +2,7 @@ title = "URIs can't use string interpolation"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "uri_with_interpolation"
 description = '''
 The analyzer produces this diagnostic when the string literal in an

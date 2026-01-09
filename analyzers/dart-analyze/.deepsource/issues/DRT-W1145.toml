@@ -2,6 +2,7 @@ title = "Prefer int literals over double literals"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 verbose_name = "prefer_int_literals"
 description = '''
 **DO** use int literals rather than the corresponding double literal.

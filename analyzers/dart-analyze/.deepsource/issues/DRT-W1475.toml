@@ -2,6 +2,7 @@ title = "Fields in struct classes must have an explicitly declared type of 'int'
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "missing_field_type_in_struct"
 description = '''
 The analyzer produces this diagnostic when a field in a subclass of

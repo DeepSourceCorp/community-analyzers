@@ -2,6 +2,7 @@ title = "Using the 'new' keyword in a comment reference is deprecated"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "hygiene"
 verbose_name = "deprecated_new_in_comment_reference"
 description = '''
 The analyzer produces this diagnostic when a comment reference (the name

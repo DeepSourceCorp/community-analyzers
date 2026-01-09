@@ -2,6 +2,7 @@ title = "Conflicting instance and static members in an extension"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "extension_conflicting_static_and_instance"
 description = '''
 The analyzer produces this diagnostic when an extension declaration

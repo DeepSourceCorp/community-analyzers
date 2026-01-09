@@ -2,6 +2,7 @@ title = "Invalid second argument for `Pointer.fromFunction` or `NativeCallable.i
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "invalid_exception_value"
 description = '''
 The analyzer produces this diagnostic when an invocation of the method

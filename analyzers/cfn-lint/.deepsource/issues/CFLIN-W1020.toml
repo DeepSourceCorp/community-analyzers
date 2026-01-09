@@ -2,6 +2,7 @@ title = "Sub isn't needed if it doesn't have a variable defined"
 verbose_name = "W1020"
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 weight = 70
 tags = ["functions", "sub"]
 description = '''

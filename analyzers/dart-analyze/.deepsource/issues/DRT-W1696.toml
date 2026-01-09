@@ -2,6 +2,7 @@ title = "Remove unused import"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "hygiene"
 verbose_name = "unused_import"
 description = '''
 The analyzer produces this diagnostic when an import isn't needed because

@@ -2,6 +2,7 @@ title = "Deferred type can't be used in a declaration, cast, or type test"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "type_annotation_deferred_class"
 description = '''
 The analyzer produces this diagnostic when the type annotation is in a

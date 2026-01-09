@@ -2,6 +2,7 @@ title = "Mismatch between constant pattern and value type"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "constant_pattern_never_matches_value_type"
 description = '''
 The analyzer produces this diagnostic when a constant pattern can never

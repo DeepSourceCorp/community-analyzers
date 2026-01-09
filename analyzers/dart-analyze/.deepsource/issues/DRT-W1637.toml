@@ -2,6 +2,7 @@ title = "The redirecting constructor can't have a 'super' initializer"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "super_in_redirecting_constructor"
 description = '''
 The analyzer produces this diagnostic when a constructor that redirects to

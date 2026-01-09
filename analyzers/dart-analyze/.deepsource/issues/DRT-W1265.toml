@@ -2,6 +2,7 @@ title = "Parameter type mismatch for constant constructor"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "const_constructor_param_type_mismatch"
 description = '''
 The analyzer produces this diagnostic when the runtime type of a constant

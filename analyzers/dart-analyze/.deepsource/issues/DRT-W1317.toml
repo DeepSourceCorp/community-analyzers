@@ -2,6 +2,7 @@ title = "Duplicate variable declaration in logical-and pattern"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "duplicate_variable_pattern"
 description = '''
 The analyzer produces this diagnostic when a branch of a logical-and

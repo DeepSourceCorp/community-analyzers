@@ -2,6 +2,7 @@ title = "Missing Events Access Control"
 verbose_name = "events-access"
 severity = "minor"
 category = "antipattern"
+dimension = "reliability"
 weight = 40
 description = """
 Detect missing events for critical access control parameters

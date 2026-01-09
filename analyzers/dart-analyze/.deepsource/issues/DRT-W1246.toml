@@ -2,6 +2,7 @@ title = "Invalid use of built-in identifier as a type"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "built_in_identifier_as_type"
 description = '''
 The analyzer produces this diagnostic when a built-in identifier is used

@@ -2,6 +2,7 @@ title = "Unused result of `useResult` annotated function"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "unused_result"
 description = '''
 The analyzer produces this diagnostic when a function annotated with

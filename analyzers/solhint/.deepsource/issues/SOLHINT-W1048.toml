@@ -2,6 +2,7 @@ title = "Avoid to use inline assembly. It is acceptable only in rare cases"
 verbose_name = "no-inline-assembly"
 severity = "major"
 category = "security"
+dimension = "security"
 weight = 60
 description = """
 Avoid to use inline assembly. It is acceptable only in rare cases.

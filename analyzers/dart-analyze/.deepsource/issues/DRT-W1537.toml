@@ -2,6 +2,7 @@ title = "Non-nullable local variable must be assigned before use"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "not_assigned_potentially_non_nullable_local_variable"
 description = '''
 The analyzer produces this diagnostic when a local variable is referenced

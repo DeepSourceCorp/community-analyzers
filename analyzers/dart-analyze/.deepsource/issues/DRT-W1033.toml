@@ -2,6 +2,7 @@ title = "Do not use BuildContexts across async gaps"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "use_build_context_synchronously"
 description = '''
 **DON'T** use BuildContext across asynchronous gaps.

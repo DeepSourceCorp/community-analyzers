@@ -2,6 +2,7 @@ title = "Modifier name must be in mixedCase"
 verbose_name = "modifier-name-mixedcase"
 severity = "minor"
 category = "style"
+dimension = "hygiene"
 weight = 40
 description = """
 Modifier name must be in mixedCase.

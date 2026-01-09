@@ -2,6 +2,7 @@ title = "Invalid usage of non-mixin class as a mixin"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "class_used_as_mixin"
 description = '''
 The analyzer produces this diagnostic when a class that is neither a

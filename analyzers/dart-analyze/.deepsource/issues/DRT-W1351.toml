@@ -2,6 +2,7 @@ title = "An extension override can only be used to access instance members"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "extension_override_without_access"
 description = '''
 The analyzer produces this diagnostic when an extension override is found

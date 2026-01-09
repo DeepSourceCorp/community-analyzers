@@ -2,6 +2,7 @@ title = "A map pattern must have at least one entry"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "empty_map_pattern"
 description = '''
 The analyzer produces this diagnostic when a map pattern is empty.

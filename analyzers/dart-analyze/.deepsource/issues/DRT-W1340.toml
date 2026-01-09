@@ -2,6 +2,7 @@ title = "Invalid export directive for a part file"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "export_of_non_library"
 description = '''
 The analyzer produces this diagnostic when an export directive references a

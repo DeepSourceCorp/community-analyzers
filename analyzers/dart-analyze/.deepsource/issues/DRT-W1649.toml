@@ -2,6 +2,7 @@ title = "Static members can't reference type parameters of the class"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "type_parameter_referenced_by_static"
 description = '''
 The analyzer produces this diagnostic when a static member references a

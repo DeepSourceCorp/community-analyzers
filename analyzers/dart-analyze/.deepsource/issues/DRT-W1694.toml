@@ -2,6 +2,7 @@ title = "Unused private declaration"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "hygiene"
 verbose_name = "unused_element"
 description = '''
 The analyzer produces this diagnostic when a private declaration isn't

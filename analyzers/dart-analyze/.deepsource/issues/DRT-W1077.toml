@@ -2,6 +2,7 @@ title = "Name types using UpperCamelCase"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 verbose_name = "camel_case_types"
 description = '''
 From [Effective Dart](https://dart.dev/effective-dart/style#do-name-types-using-uppercamelcase):

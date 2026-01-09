@@ -2,6 +2,7 @@ title = "Missing part-of directive in included file"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "part_of_non_part"
 description = '''
 The analyzer produces this diagnostic when a part directive is found and

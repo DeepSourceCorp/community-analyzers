@@ -2,6 +2,7 @@ title = "Mixin class extends a class other than `Object`"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "mixin_inherits_from_not_object"
 description = '''
 The analyzer produces this diagnostic when a class that extends a class

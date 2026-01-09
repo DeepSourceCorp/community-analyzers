@@ -2,6 +2,7 @@ title = "Redundant statements"
 verbose_name = "redundant-statements"
 severity = "minor"
 category = "antipattern"
+dimension = "hygiene"
 weight = 40
 description = """
 Detect the usage of redundant statements that have no effect.

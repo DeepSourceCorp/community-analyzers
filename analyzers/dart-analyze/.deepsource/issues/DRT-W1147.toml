@@ -2,6 +2,7 @@ title = "Use `isEmpty` for Iterables and Maps"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 verbose_name = "prefer_is_empty"
 description = '''
 **DON'T** use `length` to see if a collection is empty.

@@ -2,6 +2,7 @@ title = "Using a colon as the separator before a default value is deprecated and
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "deprecated_colon_for_default_value"
 description = '''
 The analyzer produces this diagnostic when a colon (`:`) is used as the

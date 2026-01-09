@@ -2,6 +2,7 @@ title = "Avoid to use `.call.value()()`"
 verbose_name = "avoid-call-value"
 severity = "major"
 category = "security"
+dimension = "security"
 weight = 60
 description = """
 Avoid to use `.call.value()()`.

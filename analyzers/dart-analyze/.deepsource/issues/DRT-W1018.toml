@@ -2,6 +2,7 @@ title = "Avoid empty statements"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "empty_statements"
 description = '''
 **AVOID** empty statements.

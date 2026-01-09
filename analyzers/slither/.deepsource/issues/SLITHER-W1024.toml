@@ -2,6 +2,7 @@ title = "msg.value inside a loop"
 verbose_name = "msg-value-loop"
 severity = "critical"
 category = "antipattern"
+dimension = "reliability"
 weight = 80
 description = """
 Detect the use of `msg.value` inside a loop.

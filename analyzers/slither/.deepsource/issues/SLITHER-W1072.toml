@@ -2,6 +2,7 @@ title = "Un-indexed ERC20 event parameters"
 verbose_name = "erc20-indexed"
 severity = "minor"
 category = "antipattern"
+dimension = "reliability"
 weight = 40
 description = """
 Detects whether events defined by the `ERC20` specification that should have some parameters as `indexed` are missing the `indexed` keyword.

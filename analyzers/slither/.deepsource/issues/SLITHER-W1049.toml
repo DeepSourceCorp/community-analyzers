@@ -2,6 +2,7 @@ title = "Unchecked send"
 verbose_name = "unchecked-send"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 60
 description = """
 The return value of a `send` is not checked.

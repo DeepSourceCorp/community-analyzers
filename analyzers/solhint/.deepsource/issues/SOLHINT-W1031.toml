@@ -2,6 +2,7 @@ title = "Variable name must be in mixedCase. (Does not check IMMUTABLES, use imm
 verbose_name = "var-name-mixedcase"
 severity = "minor"
 category = "style"
+dimension = "hygiene"
 weight = 40
 description = """
 Variable name must be in mixedCase. (Does not check IMMUTABLES, use immutable-vars-naming)

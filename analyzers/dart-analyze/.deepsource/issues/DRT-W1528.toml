@@ -2,6 +2,7 @@ title = "Implicit generative constructor in subclass cannot invoke explicit unna
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "non_generative_implicit_constructor"
 description = '''
 The analyzer produces this diagnostic when a class has an implicit

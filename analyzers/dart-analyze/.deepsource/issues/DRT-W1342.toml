@@ -2,6 +2,7 @@ title = "Classes can only extend other classes"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "extends_non_class"
 description = '''
 The analyzer produces this diagnostic when an `extends` clause contains a

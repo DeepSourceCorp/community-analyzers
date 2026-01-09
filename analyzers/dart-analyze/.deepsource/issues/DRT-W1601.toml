@@ -2,6 +2,7 @@ title = "Constructors can't return values"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "return_in_generative_constructor"
 description = '''
 The analyzer produces this diagnostic when a generative constructor

@@ -2,6 +2,7 @@ title = "Missing return statement for nullable return type"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "body_might_complete_normally_nullable"
 description = '''
 The analyzer produces this diagnostic when a method or function can

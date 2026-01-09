@@ -2,6 +2,7 @@ title = "Missing initialization for final instance fields"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "final_not_initialized_constructor"
 description = '''
 The analyzer produces this diagnostic when a class defines one or more

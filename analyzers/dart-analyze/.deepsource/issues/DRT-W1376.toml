@@ -2,6 +2,7 @@ title = "A method tear-off on a receiver whose type is 'dynamic' can't have type
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "generic_method_type_instantiation_on_dynamic"
 description = '''
 The analyzer produces this diagnostic when an instance method is being torn

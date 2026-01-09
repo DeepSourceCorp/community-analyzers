@@ -2,6 +2,7 @@ title = "Undefined unnamed constructor"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "new_with_undefined_constructor_default"
 description = '''
 The analyzer produces this diagnostic when an unnamed constructor is

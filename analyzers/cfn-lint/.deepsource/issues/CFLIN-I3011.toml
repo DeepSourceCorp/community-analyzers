@@ -2,6 +2,7 @@ title = "Check stateful resources have a set updatereplacepolicy/deletionpolicy"
 verbose_name = "I3011"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 70
 tags = ["resources", "updatereplacepolicy", "deletionpolicy"]
 description = '''

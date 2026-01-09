@@ -2,6 +2,7 @@ title = "Incompatible types for getter and setter"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "getter_not_subtype_setter_types"
 description = '''
 The analyzer produces this diagnostic when the return type of a getter

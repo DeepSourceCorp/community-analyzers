@@ -2,6 +2,7 @@ title = "Super parameters can only be used in non-redirecting generative constru
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "invalid_super_formal_parameter_location"
 description = '''
 The analyzer produces this diagnostic when a super parameter is used

@@ -2,6 +2,7 @@ title = "Check for subscriptionfilters have beyond 2 attachments to a cloudwatch
 verbose_name = "E2529"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 70
 tags = ["resources", "lambda"]
 description = '''

@@ -2,6 +2,7 @@ title = "The values in a const set literal must be constants"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "non_constant_set_element"
 description = '''
 The analyzer produces this diagnostic when a constant set literal contains

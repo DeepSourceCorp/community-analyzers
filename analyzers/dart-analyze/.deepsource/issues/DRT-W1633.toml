@@ -2,6 +2,7 @@ title = "Super invocation not at the end of initializer list"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "super_invocation_not_last"
 description = '''
 The analyzer produces this diagnostic when the initializer list of a

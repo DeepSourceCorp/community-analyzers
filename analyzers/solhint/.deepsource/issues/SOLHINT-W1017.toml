@@ -2,6 +2,7 @@ title = "Enforces the use of double or simple quotes as configured for string li
 verbose_name = "quotes"
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 weight = 60
 description = """
 Enforces the use of double or simple quotes as configured for string literals. Values must be 'single' or 'double'.

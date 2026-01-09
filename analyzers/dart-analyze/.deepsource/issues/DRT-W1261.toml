@@ -2,6 +2,7 @@ title = "Type parameter has the same name as the class, mixin, or extension that
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "conflicting_type_variable_and_container"
 description = '''
 The analyzer produces this diagnostic when a class, mixin, or extension

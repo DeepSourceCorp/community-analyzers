@@ -2,6 +2,7 @@ title = "Functions that send Ether to arbitrary destinations"
 verbose_name = "arbitrary-send-eth"
 severity = "critical"
 category = "antipattern"
+dimension = "reliability"
 weight = 80
 description = """
 Unprotected call to a function sending Ether to an arbitrary address.

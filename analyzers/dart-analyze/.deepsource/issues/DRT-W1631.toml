@@ -2,6 +2,7 @@ title = "No associated named super constructor parameter"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "super_formal_parameter_without_associated_named"
 description = '''
 The analyzer produces this diagnostic when there's a named super parameter

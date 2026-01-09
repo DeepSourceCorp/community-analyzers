@@ -2,6 +2,7 @@ title = "Duplicate hidden name"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "hygiene"
 verbose_name = "duplicate_hidden_name"
 description = '''
 The analyzer produces this diagnostic when a name occurs multiple times in

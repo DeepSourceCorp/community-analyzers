@@ -2,6 +2,7 @@ title = "Only local variables can be assigned in pattern assignments"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "pattern_assignment_not_local_variable"
 description = '''
 The analyzer produces this diagnostic when a pattern assignment assigns a

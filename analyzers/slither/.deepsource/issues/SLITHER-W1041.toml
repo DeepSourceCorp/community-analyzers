@@ -2,6 +2,7 @@ title = "Misuse of Boolean constant"
 verbose_name = "boolean-cst"
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 weight = 60
 description = """
 Detects the misuse of a Boolean constant.

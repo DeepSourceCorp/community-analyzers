@@ -2,6 +2,7 @@ title = "State variables shadowing from abstract contracts"
 verbose_name = "shadowing-abstract"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 60
 description = """
 Detection of state variables shadowed from abstract contracts.

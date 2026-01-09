@@ -2,6 +2,7 @@ title = "The relational pattern expression must be a constant"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "non_constant_relational_pattern_expression"
 description = '''
 The analyzer produces this diagnostic when the value in a relational

@@ -2,6 +2,7 @@ title = "Invalid number of type arguments in map literal"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "expected_two_map_type_arguments"
 description = '''
 The analyzer produces this diagnostic when a map literal has either one or

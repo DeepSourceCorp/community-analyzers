@@ -2,6 +2,7 @@ title = "A negation operand must have a static type of 'bool'"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "non_bool_negation_expression"
 description = '''
 The analyzer produces this diagnostic when the operand of the unary

@@ -2,6 +2,7 @@ title = "Codepipeline stage actions"
 verbose_name = "E2541"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 70
 tags = ["resources", "codepipeline"]
 description = '''

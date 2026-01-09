@@ -2,6 +2,7 @@ title = "Dependencies defined must be a map"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "dependencies_field_not_map"
 description = '''
 The analyzer produces this diagnostic when the value of either the

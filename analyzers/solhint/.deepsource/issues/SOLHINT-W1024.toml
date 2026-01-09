@@ -2,6 +2,7 @@ title = "Function param name must be in mixedCase"
 verbose_name = "func-param-name-mixedcase"
 severity = "minor"
 category = "style"
+dimension = "hygiene"
 weight = 40
 description = """
 Function param name must be in mixedCase.

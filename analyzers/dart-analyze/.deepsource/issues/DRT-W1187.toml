@@ -2,6 +2,7 @@ title = "Don't override a method to do a super method invocation with the same p
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 verbose_name = "unnecessary_overrides"
 description = '''
 **DON'T** override a method to do a super method invocation with same parameters.

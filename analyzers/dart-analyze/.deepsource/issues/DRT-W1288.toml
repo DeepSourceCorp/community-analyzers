@@ -2,6 +2,7 @@ title = "The default 'List' constructor isn't available when null safety is enab
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "default_list_constructor"
 description = '''
 The analyzer produces this diagnostic when it finds a use of the default

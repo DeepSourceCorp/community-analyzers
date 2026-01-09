@@ -2,6 +2,7 @@ title = "Forbidden service types for exposed services"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 description = """
 Alert on services for forbidden types
 

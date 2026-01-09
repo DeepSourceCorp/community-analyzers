@@ -2,6 +2,7 @@ title = "This expression has a type of 'void' so its value can't be used"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "use_of_void_result"
 description = '''
 The analyzer produces this diagnostic when it finds an expression whose

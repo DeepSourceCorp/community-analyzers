@@ -2,6 +2,7 @@ title = "Duplicate field name in record literal or type annotation"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "duplicate_field_name"
 description = '''
 The analyzer produces this diagnostic when either a record literal or a

@@ -2,6 +2,7 @@ title = "Initializing formal parameters can't be used in factory constructors"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "field_initializer_factory_constructor"
 description = '''
 The analyzer produces this diagnostic when a factory constructor has an

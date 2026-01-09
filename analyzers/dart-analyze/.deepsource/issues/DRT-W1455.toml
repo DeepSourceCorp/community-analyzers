@@ -2,6 +2,7 @@ title = "Undefined label"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "label_undefined"
 description = '''
 The analyzer produces this diagnostic when it finds a reference to a label

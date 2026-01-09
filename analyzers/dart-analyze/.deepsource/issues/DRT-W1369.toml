@@ -2,6 +2,7 @@ title = "Duplicate initialization of final field"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "final_initialized_in_declaration_and_constructor"
 description = '''
 The analyzer produces this diagnostic when a final field is initialized

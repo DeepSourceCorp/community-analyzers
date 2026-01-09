@@ -2,6 +2,7 @@ title = "Modifying storage array by value"
 verbose_name = "array-by-reference"
 severity = "critical"
 category = "antipattern"
+dimension = "reliability"
 weight = 80
 description = """
 Detect arrays passed to a function that expects reference to a storage array

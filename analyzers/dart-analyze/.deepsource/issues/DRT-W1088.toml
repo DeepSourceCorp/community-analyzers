@@ -2,6 +2,7 @@ title = "Avoid empty catch blocks"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 verbose_name = "empty_catches"
 description = '''
 **AVOID** empty catch blocks.

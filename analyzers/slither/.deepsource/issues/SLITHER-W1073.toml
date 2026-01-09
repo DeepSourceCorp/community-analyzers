@@ -2,6 +2,7 @@ title = "Function initializing state variables"
 verbose_name = "function-init-state"
 severity = "minor"
 category = "antipattern"
+dimension = "reliability"
 weight = 40
 description = """
 Detects the immediate initialization of state variables through function calls that are not pure/constant, or that use non-constant state variable.

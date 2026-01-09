@@ -2,6 +2,7 @@ title = "Check that modules resources are valid"
 verbose_name = "E5001"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 70
 tags = ["resources", "modules"]
 description = '''

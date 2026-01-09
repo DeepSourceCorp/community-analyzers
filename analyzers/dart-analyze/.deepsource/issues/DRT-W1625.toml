@@ -2,6 +2,7 @@ title = "Restricted classes used in inheritance and implementation clauses"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "subtype_of_disallowed_type"
 description = '''
 The analyzer produces this diagnostic when one of the restricted classes is

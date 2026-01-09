@@ -2,6 +2,7 @@ title = "Invalid export of internal element indirectly"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "invalid_export_of_internal_element_indirectly"
 description = '''
 The analyzer produces this diagnostic when a [public library](https://dart.dev/resources/glossary#public-library) exports a

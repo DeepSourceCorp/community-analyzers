@@ -2,6 +2,7 @@ title = "Avoid unsafe HTML APIs"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "unsafe_html"
 description = '''
 **AVOID**

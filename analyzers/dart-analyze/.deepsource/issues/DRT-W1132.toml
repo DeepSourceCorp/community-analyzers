@@ -2,6 +2,7 @@ title = "Use => for short members whose body is a single return statement"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 verbose_name = "prefer_expression_function_bodies"
 description = '''
 **CONSIDER** using => for short members whose body is a single return statement.

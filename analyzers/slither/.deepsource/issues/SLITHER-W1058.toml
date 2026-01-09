@@ -2,6 +2,7 @@ title = "Multiple calls in a loop"
 verbose_name = "calls-loop"
 severity = "minor"
 category = "antipattern"
+dimension = "reliability"
 weight = 40
 description = """
 Calls inside a loop might lead to a denial-of-service attack.

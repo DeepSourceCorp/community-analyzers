@@ -2,6 +2,7 @@ title = "Invalid C function signature for 'asFunction' invocation"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "non_native_function_type_argument_to_pointer"
 description = '''
 The analyzer produces this diagnostic when the method `asFunction` is

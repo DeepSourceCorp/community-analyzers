@@ -2,6 +2,7 @@ title = "The value of the 'asset' field is expected to be a list of relative fil
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "asset_field_not_list"
 description = '''
 The analyzer produces this diagnostic when the value of the `asset` key

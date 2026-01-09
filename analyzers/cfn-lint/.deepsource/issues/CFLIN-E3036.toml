@@ -2,6 +2,7 @@ title = "Check updatereplacepolicy values for resources"
 verbose_name = "E3036"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 70
 tags = ["resources", "updatereplacepolicy"]
 description = '''

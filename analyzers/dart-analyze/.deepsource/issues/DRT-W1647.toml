@@ -2,6 +2,7 @@ title = "Type argument not matching bounds"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "type_argument_not_matching_bounds"
 description = '''
 The analyzer produces this diagnostic when a type argument isn't the same

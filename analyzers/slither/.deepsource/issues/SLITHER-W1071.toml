@@ -2,6 +2,7 @@ title = "Deprecated Solidity Standards"
 verbose_name = "deprecated-standards"
 severity = "minor"
 category = "antipattern"
+dimension = "hygiene"
 weight = 40
 description = """
 Detect the usage of deprecated standards.

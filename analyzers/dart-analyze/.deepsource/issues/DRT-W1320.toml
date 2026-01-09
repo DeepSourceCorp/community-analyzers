@@ -2,6 +2,7 @@ title = "The list of named fields in a record type can't be empty"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "empty_record_type_named_fields_list"
 description = '''
 The analyzer produces this diagnostic when a record type has an empty list

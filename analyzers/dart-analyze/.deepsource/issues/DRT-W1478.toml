@@ -2,6 +2,7 @@ title = "Missing concrete implementation of a `@mustBeOverridden` member"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "missing_override_of_must_be_overridden"
 description = '''
 The analyzer produces this diagnostic when an instance member that has the

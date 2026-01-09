@@ -2,6 +2,7 @@ title = "Prefer using /// for doc comments"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 verbose_name = "slash_for_doc_comments"
 description = '''
 From [Effective Dart](https://dart.dev/effective-dart/documentation#do-use--doc-comments-to-document-members-and-types):

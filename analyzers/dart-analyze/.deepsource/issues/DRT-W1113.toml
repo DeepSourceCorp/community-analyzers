@@ -2,6 +2,7 @@ title = "Omit type annotations for local variables"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 verbose_name = "omit_local_variable_types"
 description = '''
 **DON'T** redundantly type annotate initialized local variables.

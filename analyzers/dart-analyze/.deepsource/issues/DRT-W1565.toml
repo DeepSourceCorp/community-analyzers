@@ -2,6 +2,7 @@ title = "Dependency path isn't a POSIX-style path"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "path_not_posix"
 description = '''
 The analyzer produces this diagnostic when a dependency has a `path` key

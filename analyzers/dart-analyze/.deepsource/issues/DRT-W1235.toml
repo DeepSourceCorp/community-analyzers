@@ -2,6 +2,7 @@ title = "Final variable cannot be reassigned"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "assignment_to_final_local"
 description = '''
 The analyzer produces this diagnostic when a local variable that was

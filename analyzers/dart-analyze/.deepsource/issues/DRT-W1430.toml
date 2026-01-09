@@ -2,6 +2,7 @@ title = "Invalid usage of null-aware operators on non-nullable receivers"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "invalid_null_aware_operator"
 description = '''
 The analyzer produces this diagnostic when a null-aware operator (`?.`,

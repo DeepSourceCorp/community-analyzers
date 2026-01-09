@@ -2,6 +2,7 @@ title = "Incorrect exponentiation"
 verbose_name = "incorrect-exp"
 severity = "critical"
 category = "antipattern"
+dimension = "reliability"
 weight = 80
 description = """
 Detect use of bitwise `xor ^` instead of exponential `**`

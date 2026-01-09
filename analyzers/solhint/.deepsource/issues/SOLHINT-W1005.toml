@@ -2,6 +2,7 @@ title = "Line length must be no more than maxlen"
 verbose_name = "max-line-length"
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 weight = 60
 description = """
 Line length must be no more than maxlen.

@@ -2,6 +2,7 @@ title = "Sub validation of parameters"
 verbose_name = "W1019"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 70
 tags = ["functions", "sub"]
 description = '''

@@ -2,6 +2,7 @@ title = "Avoid leading underscores for library prefixes"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 verbose_name = "no_leading_underscores_for_library_prefixes"
 description = '''
 **DON'T** use a leading underscore for library prefixes.

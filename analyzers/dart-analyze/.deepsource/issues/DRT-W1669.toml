@@ -2,6 +2,7 @@ title = "Undefined named parameter in method or function invocation"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "undefined_named_parameter"
 description = '''
 The analyzer produces this diagnostic when a method or function invocation

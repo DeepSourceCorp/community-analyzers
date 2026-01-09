@@ -2,6 +2,7 @@ title = "Constructors should use the new constructor keyword"
 verbose_name = "constructor-syntax"
 severity = "minor"
 category = "antipattern"
+dimension = "hygiene"
 weight = 40
 description = """
 Constructors should use the new constructor keyword.

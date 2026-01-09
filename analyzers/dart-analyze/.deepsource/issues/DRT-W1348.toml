@@ -2,6 +2,7 @@ title = "Extensions can't declare members with the same name as a member declare
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "extension_declares_member_of_object"
 description = '''
 The analyzer produces this diagnostic when an extension declaration

@@ -2,6 +2,7 @@ title = "Incompatible type in field initialization"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "field_initializer_not_assignable"
 description = '''
 The analyzer produces this diagnostic when the initializer list of a

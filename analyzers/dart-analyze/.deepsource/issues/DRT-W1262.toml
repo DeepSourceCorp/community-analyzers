@@ -2,6 +2,7 @@ title = "Conflicting type variable and member"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "conflicting_type_variable_and_member"
 description = '''
 The analyzer produces this diagnostic when a class, mixin, or extension

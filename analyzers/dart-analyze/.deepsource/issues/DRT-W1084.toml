@@ -2,6 +2,7 @@ title = "Attach library doc comments to library directives"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 verbose_name = "dangling_library_doc_comments"
 description = '''
 Attach library doc comments (with `///`) to library directives, rather than

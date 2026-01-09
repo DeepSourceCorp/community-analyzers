@@ -2,6 +2,7 @@ title = "Unnecessary new keyword"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 verbose_name = "unnecessary_new"
 description = '''
 **AVOID** new keyword to create instances.

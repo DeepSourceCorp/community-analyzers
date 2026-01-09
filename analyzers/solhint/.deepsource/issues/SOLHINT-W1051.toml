@@ -2,6 +2,7 @@ title = "Possible reentrancy vulnerabilities. Avoid state changes after transfer
 verbose_name = "reentrancy"
 severity = "major"
 category = "security"
+dimension = "security"
 weight = 60
 description = """
 Possible reentrancy vulnerabilities. Avoid state changes after transfer.

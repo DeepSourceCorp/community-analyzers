@@ -2,6 +2,7 @@ title = "Unchecked tokens transfer"
 verbose_name = "unchecked-transfer"
 severity = "critical"
 category = "antipattern"
+dimension = "reliability"
 weight = 80
 description = """
 The return value of an external transfer/transferFrom call is not checked

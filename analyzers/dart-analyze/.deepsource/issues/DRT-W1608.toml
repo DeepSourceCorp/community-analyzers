@@ -2,6 +2,7 @@ title = "The use of an as expression in a constant expression wasn't supported u
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "sdk_version_as_expression_in_const_context"
 description = '''
 The analyzer produces this diagnostic when an `as` expression inside a

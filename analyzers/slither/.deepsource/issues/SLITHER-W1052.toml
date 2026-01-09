@@ -2,6 +2,7 @@ title = "Modifiers that can return the default value"
 verbose_name = "incorrect-modifier"
 severity = "minor"
 category = "antipattern"
+dimension = "reliability"
 weight = 40
 description = """
 If a modifier does not execute `_` or revert, the execution of the function will return the default value, which can be misleading for the caller.

@@ -2,6 +2,7 @@ title = "Invalid mixin application"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "mixin_application_not_implemented_interface"
 description = '''
 The analyzer produces this diagnostic when a mixin that has a superclass

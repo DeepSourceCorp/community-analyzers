@@ -3,6 +3,7 @@ title = "Readiness probe port mismatch"
 verbose_name = "readiness-port"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 70
 description = """
 Indicates when containers have a readiness probe to a not exposed port.

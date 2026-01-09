@@ -2,6 +2,7 @@ title = "Avoid importing part files directly"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "import_of_non_library"
 description = '''
 The analyzer produces this diagnostic when a [part file](https://dart.dev/resources/glossary#part-file) is imported

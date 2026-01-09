@@ -2,6 +2,7 @@ title = "Structs must have at most one 'Packed' annotation"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "packed_annotation"
 description = '''
 The analyzer produces this diagnostic when a subclass of `Struct` has more

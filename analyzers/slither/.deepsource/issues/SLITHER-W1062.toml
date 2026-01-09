@@ -2,6 +2,7 @@ title = "Missing Zero Address Validation"
 verbose_name = "missing-zero-check"
 severity = "minor"
 category = "antipattern"
+dimension = "reliability"
 weight = 40
 description = """
 Detect missing zero address validation.

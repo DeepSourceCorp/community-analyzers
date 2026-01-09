@@ -2,6 +2,7 @@ title = "Costly operations in a loop"
 verbose_name = "costly-loop"
 severity = "minor"
 category = "antipattern"
+dimension = "reliability"
 weight = 40
 description = """
 Costly operations inside a loop might waste gas, so optimizations are justified.

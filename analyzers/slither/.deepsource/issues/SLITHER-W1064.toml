@@ -2,6 +2,7 @@ title = "Reentrancy vulnerabilities leading to out-of-order Events"
 verbose_name = "reentrancy-events"
 severity = "minor"
 category = "antipattern"
+dimension = "reliability"
 weight = 40
 description = """
 

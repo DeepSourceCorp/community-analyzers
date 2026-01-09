@@ -2,6 +2,7 @@ title = "The annotation 'visibleForOverriding' can only be applied to a public i
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "invalid_visible_for_overriding_annotation"
 description = '''
 The analyzer produces this diagnostic when anything other than a public

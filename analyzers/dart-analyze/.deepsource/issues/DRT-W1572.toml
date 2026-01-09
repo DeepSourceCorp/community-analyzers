@@ -2,6 +2,7 @@ title = "Object patterns can only use named fields"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "positional_field_in_object_pattern"
 description = '''
 The analyzer produces this diagnostic when an object pattern contains a

@@ -2,6 +2,7 @@ title = "Use Codex to find vulnerabilities"
 verbose_name = "codex"
 severity = "critical"
 category = "antipattern"
+dimension = "reliability"
 weight = 80
 description = """
 Use [codex](https://openai.com/blog/openai-codex/) to find vulnerabilities

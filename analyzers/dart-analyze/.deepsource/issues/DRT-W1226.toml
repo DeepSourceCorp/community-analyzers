@@ -2,6 +2,7 @@ title = "Incompatible function signature for `Future.catchError` argument"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "argument_type_not_assignable_to_error_handler"
 description = '''
 The analyzer produces this diagnostic when an invocation of

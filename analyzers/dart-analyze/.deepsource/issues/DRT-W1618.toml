@@ -2,6 +2,7 @@ title = "The if and spread elements weren't supported in constant expressions un
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "sdk_version_ui_as_code_in_const_context"
 description = '''
 The analyzer produces this diagnostic when an if or spread element inside
