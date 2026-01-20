@@ -1,0 +1,14 @@
+stages:
+  - scan
+
+scan:
+  stage: scan
+  image: python:latest  # Using Python image because bandit is a Python package
+  before_script:
+    - pip install bandit  # Install bandit
+  script:
+    - bandit -r . -f sarif -o bandit.sarif || true  # Run bandit and generate SARIF report
+    - curl -sSL https://deepsource.io/cli | sh  # Install DeepSource CLI
+    - ./bin/deepsource report --analyzer bandit --analyzer-type community --value-file ./bandit.sarif  # Upload SARIF report to DeepSource
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "push"
