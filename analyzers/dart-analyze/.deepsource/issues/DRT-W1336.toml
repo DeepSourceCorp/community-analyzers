@@ -2,6 +2,7 @@ title = "Expected two map pattern type arguments"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "expected_two_map_pattern_type_arguments"
 description = '''
 The analyzer produces this diagnostic when a map pattern has either one

@@ -2,6 +2,7 @@ title = "The elements in a const map literal must be constant"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "non_constant_map_element"
 description = '''
 The analyzer produces this diagnostic when an `if` element or a spread

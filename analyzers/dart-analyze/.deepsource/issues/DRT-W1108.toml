@@ -2,6 +2,7 @@ title = "Avoid calling toString() on runtimeType"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 verbose_name = "no_runtimeType_toString"
 description = '''
 Calling `toString` on a runtime type is a non-trivial operation that can

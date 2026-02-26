@@ -2,6 +2,7 @@ title = "Findinmap validation of configuration"
 verbose_name = "E1011"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 70
 tags = ["functions", "findinmap"]
 description = '''

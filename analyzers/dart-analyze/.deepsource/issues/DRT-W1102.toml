@@ -2,6 +2,7 @@ title = "Avoid lines longer than 80 characters"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 verbose_name = "lines_longer_than_80_chars"
 description = '''
 **AVOID** lines longer than 80 characters

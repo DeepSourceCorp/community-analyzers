@@ -2,6 +2,7 @@ title = "Invalid annotation target"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "invalid_annotation_target"
 description = '''
 The analyzer produces this diagnostic when an annotation is applied to a

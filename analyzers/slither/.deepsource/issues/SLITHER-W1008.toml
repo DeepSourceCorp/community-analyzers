@@ -2,6 +2,7 @@ title = "Detected unprotected variables"
 verbose_name = "protected-vars"
 severity = "critical"
 category = "antipattern"
+dimension = "reliability"
 weight = 80
 description = """
 Detect unprotected variable that are marked protected

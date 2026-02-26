@@ -2,6 +2,7 @@ title = "Invalid URI syntax"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "invalid_uri"
 description = '''
 The analyzer produces this diagnostic when a URI in a directive doesn't

@@ -2,6 +2,7 @@ title = "Missing import for 'Future' and 'Stream' classes in lower version SDKs"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "sdk_version_async_exported_from_core"
 description = '''
 The analyzer produces this diagnostic when either the class `Future` or

@@ -2,6 +2,7 @@ title = "Require or revert statement must have a reason string and check that ea
 verbose_name = "reason-string"
 severity = "minor"
 category = "antipattern"
+dimension = "hygiene"
 weight = 40
 description = """
 Require or revert statement must have a reason string and check that each reason string is at most N characters long.

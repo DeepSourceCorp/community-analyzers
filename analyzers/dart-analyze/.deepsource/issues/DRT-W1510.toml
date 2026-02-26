@@ -2,6 +2,7 @@ title = "Case expressions must be constant"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "non_constant_case_expression"
 description = '''
 The analyzer produces this diagnostic when the expression in a `case`

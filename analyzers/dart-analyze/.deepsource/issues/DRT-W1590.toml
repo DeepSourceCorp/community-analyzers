@@ -2,6 +2,7 @@ title = "Invalid return type in factory constructor redirection"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "redirect_to_invalid_return_type"
 description = '''
 The analyzer produces this diagnostic when a factory constructor redirects

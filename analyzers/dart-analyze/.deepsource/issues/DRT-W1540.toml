@@ -2,6 +2,7 @@ title = "Missing positional arguments in function invocation"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "not_enough_positional_arguments"
 description = '''
 The analyzer produces this diagnostic when a method or function invocation

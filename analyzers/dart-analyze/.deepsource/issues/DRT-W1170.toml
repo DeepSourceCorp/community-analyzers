@@ -2,6 +2,7 @@ title = "Don't use constant patterns with type literals"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 verbose_name = "type_literal_in_constant_pattern"
 description = '''
 If you meant to test if the object has type `Foo`, instead write `Foo _`.

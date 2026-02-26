@@ -1,6 +1,7 @@
 title = "Sensitive host system directories mounted in containers"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 70
 description = """
 Alert on deployments with sensitive host system directories mounted in containers

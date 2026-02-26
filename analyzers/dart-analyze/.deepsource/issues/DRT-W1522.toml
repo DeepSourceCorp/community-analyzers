@@ -2,6 +2,7 @@ title = "Missing `const` keyword when invoking a constructor with `@literal` ann
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "non_const_call_to_literal_constructor"
 description = '''
 The analyzer produces this diagnostic when a constructor that has the

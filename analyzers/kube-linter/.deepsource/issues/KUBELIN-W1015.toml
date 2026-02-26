@@ -2,6 +2,7 @@ title = "Insecure use of secrets in environment variables"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 description = """
 Indicates when objects use a secret in an environment variable.
 

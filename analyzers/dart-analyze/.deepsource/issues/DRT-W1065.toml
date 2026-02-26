@@ -2,6 +2,7 @@ title = "Avoid return types on setters"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 verbose_name = "avoid_return_types_on_setters"
 description = '''
 **AVOID** return types on setters.

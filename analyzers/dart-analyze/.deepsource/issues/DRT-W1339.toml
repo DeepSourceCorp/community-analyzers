@@ -2,6 +2,7 @@ title = "Incompatible null safety between exported libraries"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "export_legacy_symbol"
 description = '''
 The analyzer produces this diagnostic when a library that was opted in to

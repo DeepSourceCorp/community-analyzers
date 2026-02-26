@@ -2,6 +2,7 @@ title = "Invalid type in 'as' expression"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "cast_to_non_type"
 description = '''
 The analyzer produces this diagnostic when the name following the `as` in a

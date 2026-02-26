@@ -2,6 +2,7 @@ title = "Check dependson values for resources"
 verbose_name = "E3005"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 70
 tags = ["resources", "dependson"]
 description = '''

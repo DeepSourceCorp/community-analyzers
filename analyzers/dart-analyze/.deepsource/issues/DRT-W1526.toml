@@ -2,6 +2,7 @@ title = "Enums can only declare final fields"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "non_final_field_in_enum"
 description = '''
 The analyzer produces this diagnostic when an instance field in an enum

@@ -2,6 +2,7 @@ title = "Use trailing commas for all function calls and declarations"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 verbose_name = "require_trailing_commas"
 description = '''
 **DO** use trailing commas for all function calls and declarations unless the

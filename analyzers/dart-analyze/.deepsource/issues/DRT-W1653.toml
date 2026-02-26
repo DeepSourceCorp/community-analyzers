@@ -2,6 +2,7 @@ title = "Nullable expression used without null check"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "unchecked_use_of_nullable_value"
 description = '''
 The analyzer produces this diagnostic when an expression whose type is

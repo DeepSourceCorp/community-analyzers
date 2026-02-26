@@ -2,6 +2,7 @@ title = "The field doesn't override an inherited getter or setter.  The getter d
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "override_on_non_overriding_member"
 description = '''
 The analyzer produces this diagnostic when a class member is annotated with

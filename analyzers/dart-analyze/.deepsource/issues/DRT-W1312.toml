@@ -2,6 +2,7 @@ title = "Duplicate part directives"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "duplicate_part"
 description = '''
 The analyzer produces this diagnostic when a single file is referenced in

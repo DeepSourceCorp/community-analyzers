@@ -2,6 +2,7 @@ title = "A map pattern can't contain a rest pattern"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "rest_element_in_map_pattern"
 description = '''
 The analyzer produces this diagnostic when a map pattern contains a rest

@@ -2,6 +2,7 @@ title = "Enforces the use of ONE Contract per file"
 verbose_name = "one-contract-per-file"
 severity = "minor"
 category = "antipattern"
+dimension = "hygiene"
 weight = 40
 description = """
 Enforces the use of ONE Contract per file see [here](https://docs.soliditylang.org/en/v0.8.21/style-guide.html#contract-and-library-names)

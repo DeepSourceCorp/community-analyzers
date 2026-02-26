@@ -2,6 +2,7 @@ title = "Resource elb properties"
 verbose_name = "E2503"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 70
 tags = ["properties", "elb"]
 description = '''

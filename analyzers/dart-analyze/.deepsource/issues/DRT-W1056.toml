@@ -2,6 +2,7 @@ title = "Don't implement classes that override `==`"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 verbose_name = "avoid_implementing_value_types"
 description = '''
 **DON'T** implement classes that override `==`.

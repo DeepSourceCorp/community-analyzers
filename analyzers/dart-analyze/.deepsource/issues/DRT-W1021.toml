@@ -2,6 +2,7 @@ title = "Don't use adjacent strings in list"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "no_adjacent_strings_in_list"
 description = '''
 **DON'T** use adjacent strings in a list.

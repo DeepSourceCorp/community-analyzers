@@ -2,6 +2,7 @@ title = "Classes extending 'AbiSpecificInteger' must have exactly one 'AbiSpecif
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "abi_specific_integer_mapping_missing"
 description = '''
 The analyzer produces this diagnostic when a class that extends

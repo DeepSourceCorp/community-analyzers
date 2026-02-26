@@ -2,6 +2,7 @@ title = "Use valid regular expression syntax"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "valid_regexps"
 description = '''
 **DO** use valid regular expression syntax when creating regular expression

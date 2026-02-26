@@ -2,6 +2,7 @@ title = "This null-check will always throw an exception because the expression w
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "null_check_always_fails"
 description = '''
 The analyzer produces this diagnostic when the null check operator (`!`)

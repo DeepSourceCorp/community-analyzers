@@ -2,6 +2,7 @@ title = "Fields can't be initialized in the constructor if they are final and we
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "field_initialized_in_initializer_and_declaration"
 description = '''
 The analyzer produces this diagnostic when a final field is initialized in

@@ -2,6 +2,7 @@ title = "Use `lowercase_with_underscores` when specifying a library prefix"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 verbose_name = "library_prefixes"
 description = '''
 **DO** use `lowercase_with_underscores` when specifying a library prefix.

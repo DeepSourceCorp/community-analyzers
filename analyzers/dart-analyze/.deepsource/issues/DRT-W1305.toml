@@ -2,6 +2,7 @@ title = "Duplicate export"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "hygiene"
 verbose_name = "duplicate_export"
 description = '''
 The analyzer produces this diagnostic when an export directive is found

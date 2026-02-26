@@ -2,6 +2,7 @@ title = "Record field names can't be a dollar sign followed by an integer when t
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "invalid_field_name"
 description = '''
 The analyzer produces this diagnostic when either a record literal or a

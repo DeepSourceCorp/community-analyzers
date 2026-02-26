@@ -2,6 +2,7 @@ title = "Check if serverless resources have serverless transform"
 verbose_name = "E3038"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 70
 tags = ["resources", "transform"]
 description = '''

@@ -2,6 +2,7 @@ title = "Avoid single cascade in expression statements"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 verbose_name = "avoid_single_cascade_in_expression_statements"
 description = '''
 **AVOID** single cascade in expression statements.

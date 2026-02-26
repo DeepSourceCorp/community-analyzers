@@ -2,6 +2,7 @@ title = "Invalid type argument for FFI invocation"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "must_be_a_native_function_type"
 description = '''
 The analyzer produces this diagnostic when an invocation of either

@@ -2,6 +2,7 @@ title = "Deprecated member used in the same package"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "deprecated_member_use_from_same_package"
 description = '''
 The analyzer produces this diagnostic when a deprecated library member or

@@ -2,6 +2,7 @@ title = "Parameter value limit not exceeded"
 verbose_name = "E2012"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 70
 tags = ["parameters", "limits"]
 description = '''

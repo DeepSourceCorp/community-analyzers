@@ -2,6 +2,7 @@ title = "Only a generic type, generic function, generic instance method, or gene
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "disallowed_type_instantiation_expression"
 description = '''
 The analyzer produces this diagnostic when an expression with a value that

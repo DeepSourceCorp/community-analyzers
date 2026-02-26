@@ -2,6 +2,7 @@ title = "Functions allowing anyone to destruct the contract"
 verbose_name = "suicidal"
 severity = "critical"
 category = "antipattern"
+dimension = "reliability"
 weight = 80
 description = """
 Unprotected call to a function executing `selfdestruct`/`suicide`.

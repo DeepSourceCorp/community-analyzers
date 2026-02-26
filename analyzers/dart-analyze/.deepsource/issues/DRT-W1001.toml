@@ -2,6 +2,7 @@ title = "Avoid relative imports for files in `lib/`"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "always_use_package_imports"
 description = '''
 **DO** avoid relative imports for files in `lib/`.

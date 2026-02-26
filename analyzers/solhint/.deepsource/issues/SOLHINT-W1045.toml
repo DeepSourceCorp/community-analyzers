@@ -2,6 +2,7 @@ title = "Explicitly mark all external contracts as trusted or untrusted"
 verbose_name = "mark-callable-contracts"
 severity = "major"
 category = "security"
+dimension = "security"
 weight = 60
 description = """
 Explicitly mark all external contracts as trusted or untrusted.

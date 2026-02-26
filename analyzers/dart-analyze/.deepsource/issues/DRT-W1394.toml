@@ -2,6 +2,7 @@ title = "Parts must have exactly the same language version override as the libra
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "inconsistent_language_version_override"
 description = '''
 The analyzer produces this diagnostic when a [part file](https://dart.dev/resources/glossary#part-file) has a language

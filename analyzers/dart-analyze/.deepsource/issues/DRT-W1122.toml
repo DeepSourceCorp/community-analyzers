@@ -2,6 +2,7 @@ title = "Prefer asserts with message"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 verbose_name = "prefer_asserts_with_message"
 description = '''
 When assertions fail it's not always simple to understand why. Adding a message

@@ -2,6 +2,7 @@ title = "Invalid field type in subclass of `Struct`"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "invalid_field_type_in_struct"
 description = '''
 The analyzer produces this diagnostic when a field in a subclass of

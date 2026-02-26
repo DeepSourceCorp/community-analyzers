@@ -2,6 +2,7 @@ title = "Mappings are appropriately configured"
 verbose_name = "E7001"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 70
 tags = ["mappings"]
 description = '''

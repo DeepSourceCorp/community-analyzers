@@ -2,6 +2,7 @@ title = "Check if refs exist"
 verbose_name = "E1012"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 70
 tags = ["functions", "ref"]
 description = '''

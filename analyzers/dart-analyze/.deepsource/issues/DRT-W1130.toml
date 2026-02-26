@@ -2,6 +2,7 @@ title = "Use contains for `List` and `String` instances"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 verbose_name = "prefer_contains"
 description = '''
 **DON'T** use `indexOf` to see if a collection contains an element.

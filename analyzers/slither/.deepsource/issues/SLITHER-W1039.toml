@@ -2,6 +2,7 @@ title = "Tautology or contradiction"
 verbose_name = "tautology"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 60
 description = """
 Detects expressions that are tautologies or contradictions.

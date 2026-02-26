@@ -2,6 +2,7 @@ title = "Function body contains `count` lines but allowed no more than maxlines"
 verbose_name = "function-max-lines"
 severity = "minor"
 category = "antipattern"
+dimension = "complexity"
 weight = 40
 description = """
 Function body contains `count` lines but allowed no more than maxlines.

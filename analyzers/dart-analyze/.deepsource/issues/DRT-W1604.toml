@@ -2,6 +2,7 @@ title = "Return value type mismatch"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "return_of_invalid_type"
 description = '''
 The analyzer produces this diagnostic when a method or function returns a

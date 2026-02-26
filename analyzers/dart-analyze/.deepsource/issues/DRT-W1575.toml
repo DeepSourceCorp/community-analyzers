@@ -2,6 +2,7 @@ title = "Import prefix must be followed by `.`"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "prefix_identifier_not_followed_by_dot"
 description = '''
 The analyzer produces this diagnostic when an import prefix is used by

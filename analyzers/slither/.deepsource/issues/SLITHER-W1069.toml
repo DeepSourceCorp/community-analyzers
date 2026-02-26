@@ -2,6 +2,7 @@ title = "Comparison to boolean constant"
 verbose_name = "boolean-equal"
 severity = "minor"
 category = "antipattern"
+dimension = "hygiene"
 weight = 40
 description = """
 Detects the comparison to boolean constants.

@@ -2,6 +2,7 @@ title = "Check if eol lambda function runtimes are used"
 verbose_name = "E2531"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 70
 tags = ["resources", "lambda", "runtime"]
 description = '''

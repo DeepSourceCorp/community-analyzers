@@ -2,6 +2,7 @@ title = "Setters must declare exactly one required positional parameter"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "wrong_number_of_parameters_for_setter"
 description = '''
 The analyzer produces this diagnostic when a setter is found that doesn't

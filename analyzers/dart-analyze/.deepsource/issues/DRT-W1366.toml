@@ -2,6 +2,7 @@ title = "Incompatible types for field and initializing formal parameter"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "field_initializing_formal_not_assignable"
 description = '''
 The analyzer produces this diagnostic when the type of an initializing

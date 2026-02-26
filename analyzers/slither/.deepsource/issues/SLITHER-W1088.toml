@@ -2,6 +2,7 @@ title = "Detects `for` loops that use `length` member of some storage array in t
 verbose_name = "cache-array-length"
 severity = "major"
 category = "performance"
+dimension = "complexity"
 weight = 60
 description = """
 Detects `for` loops that use `length` member of some storage array in their loop condition and don't modify it. 

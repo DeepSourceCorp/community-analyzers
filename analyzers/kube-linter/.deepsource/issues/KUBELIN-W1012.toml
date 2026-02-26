@@ -2,6 +2,7 @@ title = "`docker.sock` volume mounted in containers"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 description = """
 Alert on deployments with docker.sock mounted in containers.
 

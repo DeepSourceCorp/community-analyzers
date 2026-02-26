@@ -2,6 +2,7 @@ title = "Enforce the return values of a function to be named"
 verbose_name = "named-return-values"
 severity = "minor"
 category = "style"
+dimension = "hygiene"
 weight = 40
 description = """
 Enforce the return values of a function to be named

@@ -2,6 +2,7 @@ title = "Explicitly tear-off `call` methods when using an object as a Function"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 verbose_name = "implicit_call_tearoffs"
 description = '''
 **DO**

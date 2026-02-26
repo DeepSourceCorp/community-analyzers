@@ -2,6 +2,7 @@ title = "Do not rely on `block.blockhash`. Miners can influence its value"
 verbose_name = "not-rely-on-block-hash"
 severity = "major"
 category = "security"
+dimension = "security"
 weight = 60
 description = """
 Do not rely on `block.blockhash`. Miners can influence its value.

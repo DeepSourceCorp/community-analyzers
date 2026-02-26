@@ -2,6 +2,7 @@ title = "Ref/getatt to resource that is available when conditions are applied"
 verbose_name = "W1001"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 70
 tags = ["conditions", "resources", "relationships", "ref", "getatt", "sub"]
 description = '''

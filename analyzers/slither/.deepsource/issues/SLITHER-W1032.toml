@@ -2,6 +2,7 @@ title = "Incorrect ERC20 interfaces"
 verbose_name = "erc20-interface"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 60
 description = """
 Incorrect return values for `ERC20` functions. A contract compiled with Solidity > 0.4.22 interacting with these functions will fail to execute them, as the return value is missing.

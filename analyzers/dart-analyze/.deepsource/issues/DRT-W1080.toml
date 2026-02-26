@@ -2,6 +2,7 @@ title = "Sort combinator names alphabetically"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 verbose_name = "combinators_ordering"
 description = '''
 **DO** sort combinator names alphabetically.

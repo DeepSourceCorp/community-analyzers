@@ -2,6 +2,7 @@ title = "The constructor being called isn't a const constructor"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "const_with_non_const"
 description = '''
 The analyzer produces this diagnostic when the keyword `const` is used to

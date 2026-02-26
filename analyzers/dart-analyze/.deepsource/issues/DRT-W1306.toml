@@ -2,6 +2,7 @@ title = "Multiple initializing parameters for the same field in a constructor"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "duplicate_field_formal_parameter"
 description = '''
 The analyzer produces this diagnostic when there's more than one

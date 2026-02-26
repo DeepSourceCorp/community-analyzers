@@ -2,6 +2,7 @@ title = "Unnecessary dev dependency"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "hygiene"
 verbose_name = "unnecessary_dev_dependency"
 description = '''
 The analyzer produces this diagnostic when there's an entry under

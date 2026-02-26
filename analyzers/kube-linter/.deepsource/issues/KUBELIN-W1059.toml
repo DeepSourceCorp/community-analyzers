@@ -3,6 +3,7 @@ title = "Privileged container allowed (SCC)"
 verbose_name = "scc-deny-privileged-container"
 severity = "critical"
 category = "security"
+dimension = "security"
 weight = 90
 description = """
 Indicates when allowPrivilegedContainer SecurityContextConstraints set to true

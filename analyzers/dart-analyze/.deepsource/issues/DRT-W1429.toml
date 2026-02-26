@@ -2,6 +2,7 @@ title = "The annotation '@nonVirtual' can only be applied to a concrete instance
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "invalid_non_virtual_annotation"
 description = '''
 The analyzer produces this diagnostic when the `nonVirtual` annotation is

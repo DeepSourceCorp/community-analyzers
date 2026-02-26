@@ -2,6 +2,7 @@ title = "Sort unnamed constructor declarations first"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 verbose_name = "sort_unnamed_constructors_first"
 description = '''
 **DO** sort unnamed constructor declarations first, before named ones.

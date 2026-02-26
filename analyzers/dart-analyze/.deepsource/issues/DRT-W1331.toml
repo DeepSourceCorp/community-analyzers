@@ -2,6 +2,7 @@ title = "Two keys in a map literal shouldn't be equal"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "equal_keys_in_map"
 description = '''
 The analyzer produces this diagnostic when a key in a non-constant map is

@@ -2,6 +2,7 @@ title = "Avoid redundant argument values"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 verbose_name = "avoid_redundant_argument_values"
 description = '''
 **DON'T** pass an argument that matches the corresponding parameter's default

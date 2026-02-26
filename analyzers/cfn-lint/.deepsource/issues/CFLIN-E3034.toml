@@ -2,6 +2,7 @@ title = "Check if a number is between min and max"
 verbose_name = "E3034"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 70
 tags = ["resources", "property", "number", "size"]
 description = '''

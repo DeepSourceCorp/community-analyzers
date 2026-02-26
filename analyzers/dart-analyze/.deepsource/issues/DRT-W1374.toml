@@ -2,6 +2,7 @@ title = "Invalid type in for-in loop"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "for_in_of_invalid_type"
 description = '''
 The analyzer produces this diagnostic when the expression following `in` in

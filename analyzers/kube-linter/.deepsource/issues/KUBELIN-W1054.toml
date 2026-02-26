@@ -3,6 +3,7 @@ title = "Liveness probe port mismatch"
 verbose_name = "liveness-port"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 70
 description = """
 Indicates when containers have a liveness probe to a not exposed port.

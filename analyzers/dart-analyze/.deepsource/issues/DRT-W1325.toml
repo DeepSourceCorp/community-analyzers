@@ -2,6 +2,7 @@ title = "Mixins applied to enums can't have instance variables"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "enum_mixin_with_instance_variable"
 description = '''
 The analyzer produces this diagnostic when a mixin that's applied to an

@@ -2,6 +2,7 @@ title = "Boolean expression composed only with literals"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "literal_only_boolean_expressions"
 description = '''
 **DON'T** test for conditions composed only by literals, since the value can be

@@ -2,6 +2,7 @@ title = "An expression whose value is always 'null' can't be dereferenced"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "invalid_use_of_null_value"
 description = '''
 The analyzer produces this diagnostic when an expression whose value will

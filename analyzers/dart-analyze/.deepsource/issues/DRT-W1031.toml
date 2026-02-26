@@ -2,6 +2,7 @@ title = "Equality operator `==` invocation with references of unrelated types"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "unrelated_type_equality_checks"
 description = '''
 **DON'T** Compare references of unrelated types for equality.

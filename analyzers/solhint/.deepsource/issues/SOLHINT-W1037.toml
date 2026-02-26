@@ -2,6 +2,7 @@ title = "Avoid to use low level calls"
 verbose_name = "avoid-low-level-calls"
 severity = "major"
 category = "security"
+dimension = "security"
 weight = 60
 description = """
 Avoid to use low level calls.

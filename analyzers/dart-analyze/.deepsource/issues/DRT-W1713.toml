@@ -2,6 +2,7 @@ title = "Wrong number of type arguments provided for enum constant"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "wrong_number_of_type_arguments_enum"
 description = '''
 The analyzer produces this diagnostic when an enum constant in an enum

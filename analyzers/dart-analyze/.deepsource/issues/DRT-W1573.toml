@@ -2,6 +2,7 @@ title = "Positional super parameters can't be used when the super constructor in
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "positional_super_formal_parameter_with_positional_argument"
 description = '''
 The analyzer produces this diagnostic when some, but not all, of the

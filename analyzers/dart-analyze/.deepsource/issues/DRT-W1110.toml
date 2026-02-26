@@ -2,6 +2,7 @@ title = "Noop primitive operations"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 verbose_name = "noop_primitive_operations"
 description = '''
 Some operations on primitive types are idempotent and can be removed.

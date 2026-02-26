@@ -2,6 +2,7 @@ title = "Validates foreach functions"
 verbose_name = "E1032"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 70
 tags = ["functions", "foreach"]
 description = '''

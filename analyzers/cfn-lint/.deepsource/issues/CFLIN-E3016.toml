@@ -2,6 +2,7 @@ title = "Check the configuration of a resources updatepolicy"
 verbose_name = "E3016"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 70
 tags = ["resources", "updatepolicy"]
 description = '''

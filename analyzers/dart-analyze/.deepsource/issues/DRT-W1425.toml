@@ -2,6 +2,7 @@ title = "Invalid Dart language version override comment format"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "invalid_language_version_override"
 description = '''
 The analyzer produces this diagnostic when a comment that appears to be an

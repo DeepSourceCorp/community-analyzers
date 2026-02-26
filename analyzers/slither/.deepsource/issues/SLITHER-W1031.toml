@@ -2,6 +2,7 @@ title = "Detect dangerous enum conversion"
 verbose_name = "enum-conversion"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 60
 description = """
 Detect out-of-range `enum` conversion (`solc` < `0.4.5`).

@@ -2,6 +2,7 @@ title = "Inconsistent variable declaration in switch statement cases"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "invalid_pattern_variable_in_shared_case_scope"
 description = '''
 The analyzer produces this diagnostic when multiple case clauses in a

@@ -2,6 +2,7 @@ title = "The type of the first positional parameter of the 'main' function must 
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "main_first_positional_parameter_type"
 description = '''
 The analyzer produces this diagnostic when the first positional parameter

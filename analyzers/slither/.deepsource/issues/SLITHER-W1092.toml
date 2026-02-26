@@ -2,6 +2,7 @@ title = "Contract reads its own variable using `this`"
 verbose_name = "var-read-using-this"
 severity = "major"
 category = "performance"
+dimension = "complexity"
 weight = 60
 description = """
 The contract reads its own variable using `this`, adding overhead of an unnecessary STATICCALL.

@@ -2,6 +2,7 @@ title = "Variable names are too similar"
 verbose_name = "similar-names"
 severity = "minor"
 category = "antipattern"
+dimension = "complexity"
 weight = 40
 description = """
 Detect variables with names that are too similar.

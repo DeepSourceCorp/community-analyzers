@@ -2,6 +2,7 @@ title = "Invalid null argument for non-nullable type argument"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "null_argument_to_non_null_type"
 description = '''
 The analyzer produces this diagnostic when `null` is passed to either the

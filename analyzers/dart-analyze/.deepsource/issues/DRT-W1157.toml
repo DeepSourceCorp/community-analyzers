@@ -2,6 +2,7 @@ title = "Provide a deprecation message, via @Deprecated(\"message\")"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 verbose_name = "provide_deprecation_message"
 description = '''
 **DO** specify a deprecation message (with migration instructions and/or a

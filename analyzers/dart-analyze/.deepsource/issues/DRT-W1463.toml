@@ -2,6 +2,7 @@ title = "The function 'main' can't have more than two required positional parame
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "main_has_too_many_required_positional_parameters"
 description = '''
 The analyzer produces this diagnostic when a function named `main` has more

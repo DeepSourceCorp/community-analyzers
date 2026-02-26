@@ -2,6 +2,7 @@ title = "Missing NetworkPolicy for deployment-like objects"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 description = """
 Alert on deployment-like objects that are not selected by any NetworkPolicy.
 

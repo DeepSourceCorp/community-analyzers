@@ -2,6 +2,7 @@ title = "Missing `scaleTargetRef` in `HorizontalPodAutoscaler`"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 description = """
 Indicates when HorizontalPodAutoscalers target a missing resource.
 

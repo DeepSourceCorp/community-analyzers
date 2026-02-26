@@ -2,6 +2,7 @@ title = "Forbid or enforce explicit types (like uint256) that have an alias (lik
 verbose_name = "explicit-types"
 severity = "minor"
 category = "antipattern"
+dimension = "hygiene"
 weight = 40
 description = """
 Forbid or enforce explicit types (like uint256) that have an alias (like uint).

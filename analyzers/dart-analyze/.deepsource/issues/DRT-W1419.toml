@@ -2,6 +2,7 @@ title = "The name of a factory constructor must be the same as the name of the i
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "invalid_factory_name_not_a_class"
 description = '''
 The analyzer produces this diagnostic when the name of a factory

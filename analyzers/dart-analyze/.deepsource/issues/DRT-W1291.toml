@@ -2,6 +2,7 @@ title = "Required named parameters can't have a default value"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "default_value_on_required_parameter"
 description = '''
 The analyzer produces this diagnostic when a named parameter has both the

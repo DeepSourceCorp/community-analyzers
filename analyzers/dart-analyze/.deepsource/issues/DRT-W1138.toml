@@ -2,6 +2,7 @@ title = "Use `forEach` to only apply a function to all the elements"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 verbose_name = "prefer_foreach"
 description = '''
 **DO** use `forEach` if you are only going to apply a function or a method

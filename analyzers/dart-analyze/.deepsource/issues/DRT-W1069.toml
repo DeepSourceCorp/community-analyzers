@@ -2,6 +2,7 @@ title = "Avoid shadowing type parameters"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 verbose_name = "avoid_shadowing_type_parameters"
 description = '''
 **AVOID** shadowing type parameters.

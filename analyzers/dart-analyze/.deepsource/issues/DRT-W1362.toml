@@ -2,6 +2,7 @@ title = "Constructors in subclasses of 'Struct' and 'Union' can't have field ini
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "field_initializer_in_struct"
 description = '''
 The analyzer produces this diagnostic when a constructor in a subclass of

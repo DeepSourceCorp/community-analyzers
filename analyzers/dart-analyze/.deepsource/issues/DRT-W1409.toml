@@ -2,6 +2,7 @@ title = "Constant values from a deferred library can't be used as annotations"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "invalid_annotation_from_deferred_library"
 description = '''
 The analyzer produces this diagnostic when a constant from a library that

@@ -2,6 +2,7 @@ title = "The annotation doesn't match the declared type of the field"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "mismatched_annotation_on_struct_field"
 description = '''
 The analyzer produces this diagnostic when the annotation on a field in a

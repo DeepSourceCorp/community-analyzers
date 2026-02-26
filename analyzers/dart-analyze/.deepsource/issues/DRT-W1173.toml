@@ -2,6 +2,7 @@ title = "Avoid using braces in interpolation when not needed"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 verbose_name = "unnecessary_brace_in_string_interps"
 description = '''
 **AVOID** using braces in interpolation when not needed.

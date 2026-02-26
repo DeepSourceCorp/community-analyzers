@@ -2,6 +2,7 @@ title = "Unused local variable"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "hygiene"
 verbose_name = "unused_local_variable"
 description = '''
 The analyzer produces this diagnostic when a local variable is declared but

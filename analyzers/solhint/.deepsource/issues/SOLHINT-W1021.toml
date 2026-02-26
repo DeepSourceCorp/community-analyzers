@@ -2,6 +2,7 @@ title = "Enforce naming convention on functions for Foundry test cases"
 verbose_name = "foundry-test-functions"
 severity = "minor"
 category = "style"
+dimension = "hygiene"
 weight = 40
 description = """
 Enforce naming convention on functions for Foundry test cases

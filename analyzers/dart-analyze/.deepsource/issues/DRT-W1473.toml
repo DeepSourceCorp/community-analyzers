@@ -2,6 +2,7 @@ title = "Missing case clause for enum values"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "missing_enum_constant_in_switch"
 description = '''
 The analyzer produces this diagnostic when a `switch` statement for an enum

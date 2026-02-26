@@ -2,6 +2,7 @@ title = "The name 'values' is not a valid name for an enum"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "enum_with_name_values"
 description = '''
 The analyzer produces this diagnostic when an enum is declared to have the

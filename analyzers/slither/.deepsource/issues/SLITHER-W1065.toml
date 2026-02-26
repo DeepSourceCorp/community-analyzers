@@ -2,6 +2,7 @@ title = "A low level callee may consume all callers gas unexpectedly"
 verbose_name = "return-bomb"
 severity = "minor"
 category = "antipattern"
+dimension = "reliability"
 weight = 40
 description = """
 A low level callee may consume all callers gas unexpectedly.

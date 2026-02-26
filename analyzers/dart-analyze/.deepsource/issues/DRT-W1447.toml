@@ -2,6 +2,7 @@ title = "Member annotated with `@visibleForTesting` used outside of tests"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "invalid_use_of_visible_for_testing_member"
 description = '''
 The analyzer produces this diagnostic when a member annotated with

@@ -2,6 +2,7 @@ title = "Duplicate field or getter in pattern matching"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "duplicate_pattern_field"
 description = '''
 The analyzer produces this diagnostic when a record pattern matches the

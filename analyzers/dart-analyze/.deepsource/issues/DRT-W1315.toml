@@ -2,6 +2,7 @@ title = "At most one rest element is allowed in a list or map pattern"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "duplicate_rest_element_in_pattern"
 description = '''
 The analyzer produces this diagnostic when there's more than one rest

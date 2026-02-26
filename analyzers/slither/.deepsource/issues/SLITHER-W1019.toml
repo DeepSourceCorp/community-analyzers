@@ -2,6 +2,7 @@ title = "Tainted array length assignment"
 verbose_name = "controlled-array-length"
 severity = "critical"
 category = "antipattern"
+dimension = "reliability"
 weight = 80
 description = """
 Detects the direct assignment of an array's length.

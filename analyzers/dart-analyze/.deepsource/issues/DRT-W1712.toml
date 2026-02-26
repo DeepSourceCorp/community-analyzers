@@ -2,6 +2,7 @@ title = "Invalid placement of type arguments in named constructor"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "wrong_number_of_type_arguments_constructor"
 description = '''
 The analyzer produces this diagnostic when type arguments are provided

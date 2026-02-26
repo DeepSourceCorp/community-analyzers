@@ -2,6 +2,7 @@ title = "Snapstart supports the configured runtime"
 verbose_name = "E2530"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 70
 tags = ["resources", "lambda"]
 description = '''

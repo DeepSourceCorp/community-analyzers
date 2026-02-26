@@ -2,6 +2,7 @@ title = "Missing variable pattern in one branch of logical-or pattern"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "missing_variable_pattern"
 description = '''
 The analyzer produces this diagnostic when one branch of a logical-or

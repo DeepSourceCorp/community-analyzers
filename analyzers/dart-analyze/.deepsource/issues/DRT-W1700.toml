@@ -2,6 +2,7 @@ title = "Unused name in show combinator"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "hygiene"
 verbose_name = "unused_shown_name"
 description = '''
 The analyzer produces this diagnostic when a show combinator includes a

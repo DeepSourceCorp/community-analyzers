@@ -2,6 +2,7 @@ title = "Separate the control structure expression from its statement"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 verbose_name = "always_put_control_body_on_new_line"
 description = '''
 From the [style guide for the flutter repo](https://flutter.dev/style-guide/):

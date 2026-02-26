@@ -2,6 +2,7 @@ title = "Undefined operator"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "undefined_operator"
 description = '''
 The analyzer produces this diagnostic when a user-definable operator is

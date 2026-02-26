@@ -2,6 +2,7 @@ title = "Avoid <Type>.toString() in production code since results may be minifie
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "avoid_type_to_string"
 description = '''
 **DO** avoid calls to <Type>.toString() in production code, since it does not

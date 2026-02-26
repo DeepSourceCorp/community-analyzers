@@ -2,6 +2,7 @@ title = "Invalid reference to 'this' expression"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "invalid_reference_to_this"
 description = '''
 The analyzer produces this diagnostic when `this` is used outside of an

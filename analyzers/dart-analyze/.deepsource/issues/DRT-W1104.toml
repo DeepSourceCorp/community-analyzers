@@ -2,6 +2,7 @@ title = "Missing whitespace between adjacent strings"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 verbose_name = "missing_whitespace_between_adjacent_strings"
 description = '''
 Add a trailing whitespace to prevent missing whitespace between adjacent

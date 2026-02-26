@@ -2,6 +2,7 @@ title = "Cannot infer missing types from overridden methods"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "no_combined_super_signature"
 description = '''
 The analyzer produces this diagnostic when there is a method declaration

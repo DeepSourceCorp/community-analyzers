@@ -3,6 +3,7 @@ title = "Job TTL misconfigured"
 verbose_name = "job-ttl-seconds-after-finished"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 70
 description = """
 Indicates when standalone jobs do not set ttlSecondsAfterFinished and when jobs managed by cronjob do set ttlSecondsAfterFinished.

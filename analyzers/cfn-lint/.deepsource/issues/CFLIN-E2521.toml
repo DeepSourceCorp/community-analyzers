@@ -2,6 +2,7 @@ title = "Check properties that are required together"
 verbose_name = "E2521"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 70
 tags = ["resources"]
 description = '''

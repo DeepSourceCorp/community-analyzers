@@ -2,6 +2,7 @@ title = "Outputs have appropriate properties"
 verbose_name = "E6001"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 70
 tags = ["outputs"]
 description = '''

@@ -2,6 +2,7 @@ title = "The getter name is not specified explicitly, and the pattern is not a v
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "missing_named_pattern_field_name"
 description = '''
 The analyzer produces this diagnostic when, within an object pattern, the

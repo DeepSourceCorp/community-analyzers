@@ -2,6 +2,7 @@ title = "Use secure urls in `pubspec.yaml`"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 verbose_name = "secure_pubspec_urls"
 description = '''
 **DO** Use secure urls in `pubspec.yaml`.

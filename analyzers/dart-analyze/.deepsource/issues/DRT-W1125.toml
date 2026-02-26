@@ -2,6 +2,7 @@ title = "Prefer const with constant constructors"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 verbose_name = "prefer_const_constructors"
 description = '''
 **PREFER** using `const` for instantiating constant constructors.

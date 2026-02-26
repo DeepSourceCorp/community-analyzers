@@ -2,6 +2,7 @@ title = "Function name must be in mixedCase"
 verbose_name = "func-name-mixedcase"
 severity = "minor"
 category = "style"
+dimension = "hygiene"
 weight = 40
 description = """
 Function name must be in mixedCase.

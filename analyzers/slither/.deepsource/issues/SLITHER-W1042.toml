@@ -2,6 +2,7 @@ title = "Constant functions using assembly code"
 verbose_name = "constant-function-asm"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 60
 description = """
 

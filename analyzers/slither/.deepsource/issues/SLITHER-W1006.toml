@@ -2,6 +2,7 @@ title = "Multiple constructor schemes"
 verbose_name = "multiple-constructors"
 severity = "critical"
 category = "antipattern"
+dimension = "reliability"
 weight = 80
 description = """
 Detect multiple constructor definitions in the same contract (using new and old schemes).

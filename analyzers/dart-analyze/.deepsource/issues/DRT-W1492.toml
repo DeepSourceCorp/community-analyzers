@@ -2,6 +2,7 @@ title = "Mixin constraint is sealed and can't be used"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "mixin_on_sealed_class"
 description = '''
 The analyzer produces this diagnostic when the superclass constraint of a

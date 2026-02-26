@@ -2,6 +2,7 @@ title = "Await only futures"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 verbose_name = "await_only_futures"
 description = '''
 **AVOID** using await on anything which is not a future.

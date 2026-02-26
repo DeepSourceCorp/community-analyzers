@@ -2,6 +2,7 @@ title = "State variables shadowing"
 verbose_name = "shadowing-state"
 severity = "critical"
 category = "antipattern"
+dimension = "reliability"
 weight = 80
 description = """
 Detection of state variables shadowed.

@@ -2,6 +2,7 @@ title = "Built-in symbol shadowing"
 verbose_name = "shadowing-builtin"
 severity = "minor"
 category = "antipattern"
+dimension = "reliability"
 weight = 40
 description = """
 Detection of shadowing built-in symbols using local variables, state variables, functions, modifiers, or events.

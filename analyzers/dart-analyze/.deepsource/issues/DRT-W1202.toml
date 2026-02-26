@@ -2,6 +2,7 @@ title = "Use predefined named constants"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 verbose_name = "use_named_constants"
 description = '''
 Where possible, use already defined const values.

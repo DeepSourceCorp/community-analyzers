@@ -2,6 +2,7 @@ title = "Mapping name limit not exceeded"
 verbose_name = "E7011"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 70
 tags = ["mappings", "limits"]
 description = '''

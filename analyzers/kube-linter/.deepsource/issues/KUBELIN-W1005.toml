@@ -2,6 +2,7 @@ title = "Ingress without associated services"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 description = """
 Indicates when ingress do not have any associated services.
 

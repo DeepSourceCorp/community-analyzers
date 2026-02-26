@@ -2,6 +2,7 @@ title = "Use Flutter TODO format: // TODO(username): message, https://URL-to-iss
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 verbose_name = "flutter_style_todos"
 description = '''
 **DO** use Flutter TODO format.

@@ -2,6 +2,7 @@ title = "Explicitly mark visibility of state"
 verbose_name = "state-visibility"
 severity = "major"
 category = "security"
+dimension = "security"
 weight = 60
 description = """
 Explicitly mark visibility of state.

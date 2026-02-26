@@ -2,6 +2,7 @@ title = "The default value of an optional parameter must be constant"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "non_constant_default_value"
 description = '''
 The analyzer produces this diagnostic when an optional parameter, either

@@ -2,6 +2,7 @@ title = "Prefer final in for-each loop variable if reference is not reassigned"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 verbose_name = "prefer_final_in_for_each"
 description = '''
 **DO** prefer declaring for-each loop variables as final if they are not

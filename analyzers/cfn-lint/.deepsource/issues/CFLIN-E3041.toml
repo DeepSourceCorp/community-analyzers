@@ -2,6 +2,7 @@ title = "Recordset hostedzonename is a superdomain of name"
 verbose_name = "E3041"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 70
 tags = ["resource", "properties", "route53"]
 description = '''

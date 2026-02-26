@@ -2,6 +2,7 @@ title = "Unnecessary '?' for nullable types"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "hygiene"
 verbose_name = "unnecessary_question_mark"
 description = '''
 The analyzer produces this diagnostic when either the type `dynamic` or the

@@ -2,6 +2,7 @@ title = "Avoid positional boolean parameters"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "complexity"
 verbose_name = "avoid_positional_boolean_parameters"
 description = '''
 **AVOID** positional boolean parameters.

@@ -2,6 +2,7 @@ title = "Unnecessary null aware operator on extension on a nullable type"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 verbose_name = "unnecessary_null_aware_operator_on_extension_on_nullable"
 description = '''
 Avoid null aware operators for members defined in an extension on a nullable type.

@@ -2,6 +2,7 @@ title = "Invalid type argument in constant list, map, or set literal"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "invalid_type_argument_in_const_literal"
 description = '''
 The analyzer produces this diagnostic when a type parameter is used as a

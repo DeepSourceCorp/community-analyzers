@@ -1,6 +1,7 @@
 title = "Containers without CPU resource requests and limits"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 70
 description = """
 Indicates when containers do not have CPU requests and limits set.

@@ -2,6 +2,7 @@ title = "Check resources with auto expiring content have explicit retention peri
 verbose_name = "I3013"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 70
 tags = ["resources", "retentionperiod"]
 description = '''

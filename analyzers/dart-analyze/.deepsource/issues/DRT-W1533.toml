@@ -2,6 +2,7 @@ title = "Invalid use of non-type identifier as type argument"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "non_type_as_type_argument"
 description = '''
 The analyzer produces this diagnostic when an identifier that isn't a type

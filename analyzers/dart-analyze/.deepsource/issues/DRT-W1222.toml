@@ -2,6 +2,7 @@ title = "This literal must be either a map or a set, but the elements don't have
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "ambiguous_set_or_map_literal_either"
 description = '''
 Because map and set literals use the same delimiters (`{` and `}`), the

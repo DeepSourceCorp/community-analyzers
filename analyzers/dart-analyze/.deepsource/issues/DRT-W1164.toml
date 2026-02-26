@@ -2,6 +2,7 @@ title = "Sort child properties last in widget instance creations"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 verbose_name = "sort_child_properties_last"
 description = '''
 Sort child properties last in widget instance creations.  This improves

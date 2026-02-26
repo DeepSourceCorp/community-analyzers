@@ -2,6 +2,7 @@
 title = "Unsafe kernel parameters configured in containers"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 70
 description = """
 Alert on deployments specifying unsafe sysctls that may lead to severe problems like wrong behavior of containers

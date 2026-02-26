@@ -2,6 +2,7 @@ title = "Non-external functions and state variables should start with a single u
 verbose_name = "private-vars-leading-underscore"
 severity = "minor"
 category = "style"
+dimension = "hygiene"
 weight = 40
 description = """
 Non-external functions and state variables should start with a single underscore. Others, shouldn't

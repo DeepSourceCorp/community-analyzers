@@ -2,6 +2,7 @@ title = "Public mappings with nested variables"
 verbose_name = "public-mappings-nested"
 severity = "critical"
 category = "antipattern"
+dimension = "reliability"
 weight = 80
 description = """
 Prior to Solidity 0.5, a public mapping with nested structures returned [incorrect values](https://github.com/ethereum/solidity/issues/5520).

@@ -2,6 +2,7 @@ title = "Mixin class can only extend `Object`"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "mixin_class_declaration_extends_not_object"
 description = '''
 The analyzer produces this diagnostic when a class that is marked with

@@ -2,6 +2,7 @@ title = "Mismatch between yielded value type and return type"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "yield_of_invalid_type"
 description = '''
 The analyzer produces this diagnostic when the type of object produced by

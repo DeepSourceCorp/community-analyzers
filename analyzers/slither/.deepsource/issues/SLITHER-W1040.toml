@@ -2,6 +2,7 @@ title = "Unused write"
 verbose_name = "write-after-write"
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 weight = 60
 description = """
 Detects variables that are written but never read and written again.

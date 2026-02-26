@@ -2,6 +2,7 @@ title = "Prefer an 8-digit hexadecimal integer(0xFFFFFFFF) to instantiate Color"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 verbose_name = "use_full_hex_values_for_flutter_colors"
 description = '''
 **PREFER** an 8-digit hexadecimal integer(0xFFFFFFFF) to instantiate Color. Colors

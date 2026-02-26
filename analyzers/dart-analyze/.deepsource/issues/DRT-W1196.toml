@@ -2,6 +2,7 @@ title = "Use `DecoratedBox`"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 verbose_name = "use_decorated_box"
 description = '''
 **DO** use `DecoratedBox` when `Container` has only a `Decoration`.

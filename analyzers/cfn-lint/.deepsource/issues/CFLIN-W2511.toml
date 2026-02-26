@@ -2,6 +2,7 @@ title = "Check iam resource policies syntax"
 verbose_name = "W2511"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 70
 tags = ["properties", "iam"]
 description = '''

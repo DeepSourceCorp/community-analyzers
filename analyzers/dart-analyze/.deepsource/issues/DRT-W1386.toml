@@ -2,6 +2,7 @@ title = "Same class used in 'extends' and 'implements' or 'with' clauses"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "implements_super_class"
 description = '''
 The analyzer produces this diagnostic when a class is listed in the

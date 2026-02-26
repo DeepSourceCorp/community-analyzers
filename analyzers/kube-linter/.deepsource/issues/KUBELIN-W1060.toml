@@ -3,6 +3,7 @@ title = "Startup probe port mismatch"
 verbose_name = "startup-port"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 70
 description = """
 Indicates when containers have a startup probe to a not exposed port.

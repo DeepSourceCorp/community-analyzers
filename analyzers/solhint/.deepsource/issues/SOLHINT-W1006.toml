@@ -2,6 +2,7 @@ title = "Contract has `some count` states declarations but allowed no more than 
 verbose_name = "max-states-count"
 severity = "minor"
 category = "antipattern"
+dimension = "complexity"
 weight = 40
 description = """
 Contract has `some count` states declarations but allowed no more than maxstates.

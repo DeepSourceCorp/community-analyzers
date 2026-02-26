@@ -2,6 +2,7 @@ title = "Missing deprecated annotation"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 verbose_name = "deprecated_consistency"
 description = '''
 **DO** apply `@Deprecated()` consistently:

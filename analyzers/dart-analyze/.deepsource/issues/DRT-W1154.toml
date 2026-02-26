@@ -2,6 +2,7 @@ title = "Only use double quotes for strings containing single quotes"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 verbose_name = "prefer_single_quotes"
 description = """
 **DO** use single quotes where they wouldn't require additional escapes.

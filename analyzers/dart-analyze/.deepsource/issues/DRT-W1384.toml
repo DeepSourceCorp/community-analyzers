@@ -2,6 +2,7 @@ title = "Classes and mixins can only implement other classes and mixins"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "implements_non_class"
 description = '''
 The analyzer produces this diagnostic when a name used in the `implements`

@@ -2,6 +2,7 @@ title = "Setters can't use 'async', 'async*', or 'sync*'"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "invalid_modifier_on_setter"
 description = '''
 The analyzer produces this diagnostic when the body of a setter is prefixed

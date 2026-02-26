@@ -2,6 +2,7 @@ title = "Invalid use of static access to instance member"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "static_access_to_instance_member"
 description = '''
 The analyzer produces this diagnostic when a class name is used to access

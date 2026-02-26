@@ -2,6 +2,7 @@ title = "Invalid file reference"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "uri_does_not_exist"
 description = '''
 The analyzer produces this diagnostic when an import, export, or part

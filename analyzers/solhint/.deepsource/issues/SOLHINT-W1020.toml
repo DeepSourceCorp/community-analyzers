@@ -2,6 +2,7 @@ title = "Event name must be in CamelCase"
 verbose_name = "event-name-camelcase"
 severity = "minor"
 category = "style"
+dimension = "hygiene"
 weight = 40
 description = """
 Event name must be in CamelCase.

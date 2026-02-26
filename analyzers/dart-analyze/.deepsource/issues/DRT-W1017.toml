@@ -2,6 +2,7 @@ title = "Don't invoke asynchronous functions in non-async blocks"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "discarded_futures"
 description = '''
 Making asynchronous calls in non-`async` functions is usually the sign of a

@@ -2,6 +2,7 @@ title = "Controlled delegatecall destination"
 verbose_name = "controlled-delegatecall"
 severity = "critical"
 category = "antipattern"
+dimension = "reliability"
 weight = 80
 description = """
 `Delegatecall` or `callcode` to an address controlled by the user.

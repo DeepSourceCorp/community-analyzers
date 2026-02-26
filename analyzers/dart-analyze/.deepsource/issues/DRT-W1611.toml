@@ -2,6 +2,7 @@ title = "Using the operator '==' for non-primitive types wasn't supported until 
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "sdk_version_eq_eq_operator_in_const_context"
 description = '''
 The analyzer produces this diagnostic when the operator `==` is used on a

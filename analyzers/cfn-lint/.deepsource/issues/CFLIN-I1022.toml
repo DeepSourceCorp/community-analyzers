@@ -2,6 +2,7 @@ title = "Use sub instead of join"
 verbose_name = "I1022"
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 weight = 70
 tags = ["functions", "sub", "join"]
 description = '''

@@ -2,6 +2,7 @@ title = "Contract, Structs and Enums should be in CamelCase"
 verbose_name = "contract-name-camelcase"
 severity = "minor"
 category = "style"
+dimension = "hygiene"
 weight = 40
 description = """
 Contract, Structs and Enums should be in CamelCase.

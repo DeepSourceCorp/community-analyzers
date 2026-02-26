@@ -2,6 +2,7 @@ title = "'Array's must have an 'Array' annotation that matches the dimensions"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "size_annotation_dimensions"
 description = '''
 The analyzer produces this diagnostic when the number of dimensions

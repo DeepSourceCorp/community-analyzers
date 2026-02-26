@@ -2,6 +2,7 @@ title = "Non-const field initialized in a const constructor"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "const_constructor_with_field_initialized_by_non_const"
 description = '''
 The analyzer produces this diagnostic when a constructor has the keyword

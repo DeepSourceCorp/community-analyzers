@@ -2,6 +2,7 @@ title = "Immutable class defines non-final instance fields"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "must_be_immutable"
 description = '''
 The analyzer produces this diagnostic when an immutable class defines one

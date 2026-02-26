@@ -2,6 +2,7 @@ title = "Extending 'Function' is deprecated.  Implementing 'Function' has no eff
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "hygiene"
 verbose_name = "deprecated_subtype_of_function"
 description = '''
 The analyzer produces this diagnostic when the class `Function` is used in

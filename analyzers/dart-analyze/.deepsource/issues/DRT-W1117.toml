@@ -2,6 +2,7 @@ title = "Provide doc comments for all public APIs"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 verbose_name = "package_api_docs"
 description = '''
 **DO** provide doc comments for all public APIs.

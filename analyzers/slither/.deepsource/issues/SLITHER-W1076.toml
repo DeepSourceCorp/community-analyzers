@@ -2,6 +2,7 @@ title = "Missing inheritance"
 verbose_name = "missing-inheritance"
 severity = "minor"
 category = "antipattern"
+dimension = "reliability"
 weight = 40
 description = """
 Detect missing inheritance.

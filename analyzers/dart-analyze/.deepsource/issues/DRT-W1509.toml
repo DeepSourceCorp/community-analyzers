@@ -2,6 +2,7 @@ title = "Annotation creation can only call a const constructor"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "non_constant_annotation_constructor"
 description = '''
 The analyzer produces this diagnostic when an annotation is the invocation

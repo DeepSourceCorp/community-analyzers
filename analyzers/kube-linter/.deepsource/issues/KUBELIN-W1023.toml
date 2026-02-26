@@ -2,6 +2,7 @@ title = "Insufficient number of replicas"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 description = """
 Indicates when a deployment uses less than three replicas
 

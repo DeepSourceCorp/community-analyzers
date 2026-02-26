@@ -2,6 +2,7 @@ title = "Invalid container image"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 description = """
 Indicates when a deployment-like object is running a container with an invalid container image
 

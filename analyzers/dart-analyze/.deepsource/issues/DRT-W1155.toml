@@ -2,6 +2,7 @@ title = "Use spread collections when possible"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 verbose_name = "prefer_spread_collections"
 description = '''
 Use spread collections when possible.

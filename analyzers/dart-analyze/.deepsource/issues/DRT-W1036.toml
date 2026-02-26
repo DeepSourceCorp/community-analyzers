@@ -2,6 +2,7 @@ title = "Depend on referenced packages"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 verbose_name = "depend_on_referenced_packages"
 description = '''
 **DO** depend on referenced packages.

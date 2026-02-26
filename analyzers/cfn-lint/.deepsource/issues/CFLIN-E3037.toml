@@ -2,6 +2,7 @@ title = "Check if a list has duplicate values"
 verbose_name = "E3037"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 70
 tags = ["resources", "property", "list"]
 description = '''

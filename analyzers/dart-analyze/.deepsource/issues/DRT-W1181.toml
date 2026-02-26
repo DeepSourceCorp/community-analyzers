@@ -2,6 +2,7 @@ title = "Avoid library directives unless they have documentation comments or ann
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 verbose_name = "unnecessary_library_directive"
 description = '''
 **DO** use library directives if you want to document a library and/or annotate 

@@ -2,6 +2,7 @@ title = "Incompatible return type in `Future.catchError` invocation"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "invalid_return_type_for_catch_error"
 description = '''
 The analyzer produces this diagnostic when an invocation of

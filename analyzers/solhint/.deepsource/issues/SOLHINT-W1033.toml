@@ -2,6 +2,7 @@ title = "Import statements must be on top"
 verbose_name = "imports-on-top"
 severity = "minor"
 category = "style"
+dimension = "hygiene"
 weight = 40
 description = """
 Import statements must be on top.

@@ -2,6 +2,7 @@ title = "Inherited member is always abstract in the supertype"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "abstract_super_member_reference"
 description = '''
 The analyzer produces this diagnostic when an inherited member is

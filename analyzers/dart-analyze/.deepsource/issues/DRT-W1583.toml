@@ -2,6 +2,7 @@ title = "The compile-time constant expression depends on itself"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "recursive_compile_time_constant"
 description = '''
 The analyzer produces this diagnostic when the value of a compile-time

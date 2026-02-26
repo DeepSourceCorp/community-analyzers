@@ -2,6 +2,7 @@ title = "Check resources with updatereplacepolicy/deletionpolicy have both"
 verbose_name = "W3011"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 70
 tags = ["resources", "updatereplacepolicy", "deletionpolicy"]
 description = '''

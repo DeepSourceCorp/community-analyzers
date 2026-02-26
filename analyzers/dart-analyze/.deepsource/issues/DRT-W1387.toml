@@ -2,6 +2,7 @@ title = "Implicitly invoked unnamed constructor has missing required parameters"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "implicit_super_initializer_missing_arguments"
 description = '''
 The analyzer produces this diagnostic when a constructor implicitly

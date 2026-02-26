@@ -2,6 +2,7 @@ title = "Don't import implementation files from another package"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 verbose_name = "implementation_imports"
 description = '''
 From the the [pub package layout doc](https://dart.dev/tools/pub/package-layout#implementation-files):

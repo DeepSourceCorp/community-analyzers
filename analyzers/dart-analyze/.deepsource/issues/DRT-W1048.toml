@@ -2,6 +2,7 @@ title = "Don't explicitly catch Error or types that implement it"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 verbose_name = "avoid_catching_errors"
 description = '''
 **DON'T** explicitly catch Error or types that implement it.

@@ -1,6 +1,7 @@
 title = "Containers mapping privileged ports"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 70
 description = """
 Alert on deployments with privileged ports mapped in containers.

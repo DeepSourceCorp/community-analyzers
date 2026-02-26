@@ -2,6 +2,7 @@ title = "Public function that could be declared external"
 verbose_name = "external-function"
 severity = "major"
 category = "performance"
+dimension = "complexity"
 weight = 60
 description = """
 `public` functions that are never called by the contract should be declared `external`, and its immutable parameters should be located in `calldata` to save gas.

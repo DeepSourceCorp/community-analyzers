@@ -2,6 +2,7 @@ title = "Local variables used prior their declaration"
 verbose_name = "variable-scope"
 severity = "minor"
 category = "antipattern"
+dimension = "reliability"
 weight = 40
 description = """
 Detects the possible usage of a variable before the declaration is stepped over (either because it is later declared, or declared in another scope).

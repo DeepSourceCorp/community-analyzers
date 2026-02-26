@@ -2,6 +2,7 @@ title = "Unassignable argument type"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "argument_type_not_assignable"
 description = '''
 The analyzer produces this diagnostic when the static type of an argument

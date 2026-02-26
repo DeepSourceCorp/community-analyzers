@@ -2,6 +2,7 @@ title = "Type parameter bound is redundant"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "hygiene"
 verbose_name = "type_parameter_supertype_of_its_bound"
 description = '''
 The analyzer produces this diagnostic when the bound of a type parameter

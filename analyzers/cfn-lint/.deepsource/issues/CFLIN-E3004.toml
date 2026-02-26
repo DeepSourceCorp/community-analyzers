@@ -2,6 +2,7 @@ title = "Resource dependencies are not circular"
 verbose_name = "E3004"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 70
 tags = ["resources", "circularly", "dependson", "ref", "sub", "getatt"]
 description = '''

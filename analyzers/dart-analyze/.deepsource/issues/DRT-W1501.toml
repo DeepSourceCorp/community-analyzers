@@ -2,6 +2,7 @@ title = "Function passed to 'NativeCallable.listener' must return 'void'"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "must_return_void"
 description = '''
 The analyzer produces this diagnostic when you pass a function

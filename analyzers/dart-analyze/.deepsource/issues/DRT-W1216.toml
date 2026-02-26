@@ -2,6 +2,7 @@ title = "A 'sealed' class can't be marked 'abstract' because it's already implic
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "abstract_sealed_class"
 description = '''
 The analyzer produces this diagnostic when a class is declared using both

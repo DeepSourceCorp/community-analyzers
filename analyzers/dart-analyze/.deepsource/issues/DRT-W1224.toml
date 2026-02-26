@@ -2,6 +2,7 @@ title = "Argument must be a constant"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "argument_must_be_a_constant"
 description = '''
 The analyzer produces this diagnostic when an invocation of either

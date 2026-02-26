@@ -2,6 +2,7 @@ title = "Validate that snapstart is properly configured"
 verbose_name = "W2530"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 70
 tags = ["resources", "lambda"]
 description = '''

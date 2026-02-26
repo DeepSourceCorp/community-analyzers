@@ -2,6 +2,7 @@ title = "Nullable variable cast to non-nullable type without being assigned"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "cast_from_nullable_always_fails"
 description = '''
 The analyzer produces this diagnostic when a local variable that has a

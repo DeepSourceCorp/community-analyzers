@@ -2,6 +2,7 @@ title = "Invalid superclass for class with generative constructors"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "no_generative_constructors_in_superclass"
 description = '''
 The analyzer produces this diagnostic when a class that has at least one

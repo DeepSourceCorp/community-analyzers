@@ -2,6 +2,7 @@ title = "Unnecessary parentheses can be removed"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 verbose_name = "unnecessary_parenthesis"
 description = '''
 **AVOID** using parentheses when not needed.

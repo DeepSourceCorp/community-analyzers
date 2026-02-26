@@ -2,6 +2,7 @@ title = "Container allows privilege escalation"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 description = """
 Alert on containers of allowing privilege escalation that could gain more privileges than its parent process.
 

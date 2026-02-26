@@ -2,6 +2,7 @@ title = "Deprecated API versions used under `extensions/v1beta`"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 description = """
 Indicates when objects use deprecated API versions under extensions/v1beta.
 

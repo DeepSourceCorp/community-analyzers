@@ -2,6 +2,7 @@
 title = "Missing rolling update strategy"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 70
 description = """
 Indicates when a deployment doesn't use a rolling update strategy

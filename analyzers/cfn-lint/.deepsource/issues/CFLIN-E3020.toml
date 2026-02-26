@@ -2,6 +2,7 @@ title = "Validate route53 recordsets"
 verbose_name = "E3020"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 70
 tags = ["resources", "route53", "record_set"]
 description = '''

@@ -2,6 +2,7 @@ title = "Implicit return at the end of function or method"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "missing_return"
 description = '''
 Any function or method that doesn't end with either an explicit return or a

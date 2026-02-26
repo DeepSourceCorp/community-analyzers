@@ -2,6 +2,7 @@ title = "Prefer const literals as parameters of constructors on @immutable class
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 verbose_name = "prefer_const_literals_to_create_immutables"
 description = '''
 **PREFER** using `const` for instantiating list, map and set literals used as

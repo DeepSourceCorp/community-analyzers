@@ -2,6 +2,7 @@ title = "Validate aws event scheduleexpression format"
 verbose_name = "E3027"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 70
 tags = ["resources", "events"]
 description = '''

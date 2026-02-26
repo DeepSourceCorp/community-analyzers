@@ -2,6 +2,7 @@ title = "A constructor can have at most one 'super' initializer"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "multiple_super_initializers"
 description = '''
 The analyzer produces this diagnostic when the initializer list of a

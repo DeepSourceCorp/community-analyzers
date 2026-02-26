@@ -2,6 +2,7 @@ title = "Prefer const over final for declarations"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 verbose_name = "prefer_const_declarations"
 description = '''
 **PREFER** using `const` for const declarations.

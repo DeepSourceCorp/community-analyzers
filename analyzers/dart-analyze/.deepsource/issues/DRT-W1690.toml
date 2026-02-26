@@ -2,6 +2,7 @@ title = "Static members from the extended type or one of its superclasses must b
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "unqualified_reference_to_static_member_of_extended_type"
 description = '''
 The analyzer produces this diagnostic when an undefined name is found, and

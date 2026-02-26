@@ -1,6 +1,7 @@
 title = "Pods sharing host's network namespace"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 70
 description = """
 Alert on pods/deployment-likes with sharing host's network namespace

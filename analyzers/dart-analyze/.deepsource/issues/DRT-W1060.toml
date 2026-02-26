@@ -2,6 +2,7 @@ title = "Don't check for null in custom == operators"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 verbose_name = "avoid_null_checks_in_equality_operators"
 description = '''
 **DON'T** check for null in custom == operators.

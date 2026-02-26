@@ -2,6 +2,7 @@ title = "Parameters in a function type can't have default values"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "default_value_in_function_type"
 description = '''
 The analyzer produces this diagnostic when a function type associated with

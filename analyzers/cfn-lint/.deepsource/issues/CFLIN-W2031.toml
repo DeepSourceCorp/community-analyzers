@@ -2,6 +2,7 @@ title = "Check if parameters have a valid value based on an allowed pattern"
 verbose_name = "W2031"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 70
 tags = ["parameters", "resources", "property", "allowed pattern"]
 description = '''

@@ -2,6 +2,7 @@ title = "Missing Events Arithmetic"
 verbose_name = "events-maths"
 severity = "minor"
 category = "antipattern"
+dimension = "reliability"
 weight = 40
 description = """
 Detect missing events for critical arithmetic parameters.

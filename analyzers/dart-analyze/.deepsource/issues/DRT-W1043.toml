@@ -2,6 +2,7 @@ title = "Specify type annotations"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 verbose_name = "always_specify_types"
 description = '''
 From the [style guide for the flutter repo](https://flutter.dev/style-guide/):

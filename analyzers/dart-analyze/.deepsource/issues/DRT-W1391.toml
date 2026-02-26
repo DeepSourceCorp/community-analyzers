@@ -2,6 +2,7 @@ title = "Unsafe import of legacy library into a null safe library"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "import_of_legacy_library_into_null_safe"
 description = '''
 The analyzer produces this diagnostic when a library that is null safe

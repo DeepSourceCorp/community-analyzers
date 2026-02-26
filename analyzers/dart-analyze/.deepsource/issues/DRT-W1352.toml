@@ -2,6 +2,7 @@ title = "Extension overrides have no value so they can't be used as the receiver
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "extension_override_with_cascade"
 description = '''
 The analyzer produces this diagnostic when an extension override is used as

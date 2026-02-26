@@ -2,6 +2,7 @@ title = "Only classes and mixins can be used as superclass constraints"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "mixin_super_class_constraint_non_interface"
 description = '''
 The analyzer produces this diagnostic when a type following the `on`

@@ -2,6 +2,7 @@ title = "Parameter name limit"
 verbose_name = "I2011"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 70
 tags = ["parameters", "limits"]
 description = '''

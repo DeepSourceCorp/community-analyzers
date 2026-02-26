@@ -2,6 +2,7 @@ title = "Avoid control flow in finally blocks"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "control_flow_in_finally"
 description = '''
 **AVOID** control flow leaving finally blocks.

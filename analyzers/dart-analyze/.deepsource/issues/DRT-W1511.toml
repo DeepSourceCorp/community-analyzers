@@ -2,6 +2,7 @@ title = "Constant values from a deferred library can't be used as a case express
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "non_constant_case_expression_from_deferred_library"
 description = '''
 The analyzer produces this diagnostic when the expression in a case clause

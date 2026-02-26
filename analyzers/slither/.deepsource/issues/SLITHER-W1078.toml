@@ -2,6 +2,7 @@ title = "If different pragma directives are used"
 verbose_name = "pragma"
 severity = "minor"
 category = "antipattern"
+dimension = "reliability"
 weight = 40
 description = """
 Detect whether different Solidity versions are used.

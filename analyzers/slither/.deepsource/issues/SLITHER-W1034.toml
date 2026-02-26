@@ -2,6 +2,7 @@ title = "Dangerous strict equalities"
 verbose_name = "incorrect-equality"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 60
 description = """
 Use of strict equalities that can be easily manipulated by an attacker.

@@ -2,6 +2,7 @@ title = "Invalid transitive inheritance of `Struct`, `Union` or `AbiSpecificInte
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "subtype_of_struct_class"
 description = '''
 The analyzer produces this diagnostic when a class extends, implements, or

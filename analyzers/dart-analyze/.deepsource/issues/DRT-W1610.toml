@@ -2,6 +2,7 @@ title = "Tearing off a constructor requires the 'constructor-tearoffs' language 
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "sdk_version_constructor_tearoffs"
 description = '''
 The analyzer produces this diagnostic when a constructor tear-off is found

@@ -2,6 +2,7 @@ title = "Generative enum constructors must be 'const'"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "non_const_generative_enum_constructor"
 description = '''
 The analyzer produces this diagnostic when an enum declaration contains a

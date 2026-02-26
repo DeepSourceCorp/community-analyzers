@@ -2,6 +2,7 @@ title = "Conformance to numeric notation best practices"
 verbose_name = "too-many-digits"
 severity = "minor"
 category = "antipattern"
+dimension = "reliability"
 weight = 40
 description = """
 

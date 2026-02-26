@@ -2,6 +2,7 @@ title = "State variables that could be declared immutable"
 verbose_name = "immutable-states"
 severity = "major"
 category = "performance"
+dimension = "complexity"
 weight = 60
 description = """
 State variables that are not updated following deployment should be declared immutable to save gas.

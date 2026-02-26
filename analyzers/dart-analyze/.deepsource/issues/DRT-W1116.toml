@@ -2,6 +2,7 @@ title = "Don't override fields"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 verbose_name = "overridden_fields"
 description = '''
 **DON'T** override fields.

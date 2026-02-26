@@ -2,6 +2,7 @@ title = "Deletion on mapping containing a structure"
 verbose_name = "mapping-deletion"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 60
 description = """
 A deletion in a structure containing a mapping will not delete the mapping (see the [Solidity documentation](https://solidity.readthedocs.io/en/latest/types.html##delete)). The remaining data may be used to compromise the contract.

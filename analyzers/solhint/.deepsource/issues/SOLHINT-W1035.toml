@@ -2,6 +2,7 @@ title = "Visibility modifier must be first in list of modifiers"
 verbose_name = "visibility-modifier-order"
 severity = "minor"
 category = "style"
+dimension = "hygiene"
 weight = 40
 description = """
 Visibility modifier must be first in list of modifiers.

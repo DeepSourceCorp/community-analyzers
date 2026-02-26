@@ -2,6 +2,7 @@ title = "Function order is incorrect"
 verbose_name = "func-order"
 severity = "minor"
 category = "style"
+dimension = "hygiene"
 weight = 40
 description = """
 Function order is incorrect.

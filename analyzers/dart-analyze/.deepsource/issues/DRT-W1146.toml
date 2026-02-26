@@ -2,6 +2,7 @@ title = "Use interpolation to compose strings and values"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 verbose_name = "prefer_interpolation_to_compose_strings"
 description = '''
 **PREFER** using interpolation to compose strings and values.

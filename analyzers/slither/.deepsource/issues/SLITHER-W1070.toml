@@ -2,6 +2,7 @@ title = "Detects functions with high (> 11) cyclomatic complexity"
 verbose_name = "cyclomatic-complexity"
 severity = "minor"
 category = "antipattern"
+dimension = "complexity"
 weight = 40
 description = """
 Detects functions with high (> 11) cyclomatic complexity.

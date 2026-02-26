@@ -2,6 +2,7 @@ title = "Avoid field initializers in const classes"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 verbose_name = "avoid_field_initializers_in_const_classes"
 description = '''
 **AVOID** field initializers in const classes.

@@ -2,6 +2,7 @@ title = "Private setter used in a library"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "private_setter"
 description = '''
 The analyzer produces this diagnostic when a private setter is used in a

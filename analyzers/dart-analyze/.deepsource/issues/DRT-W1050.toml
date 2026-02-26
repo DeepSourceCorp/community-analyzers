@@ -2,6 +2,7 @@ title = "Avoid double and int checks"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 verbose_name = "avoid_double_and_int_checks"
 description = '''
 **AVOID** to check if type is double or int.

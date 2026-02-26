@@ -2,6 +2,7 @@ title = "Cascade consecutive method invocations on the same reference"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "complexity"
 verbose_name = "cascade_invocations"
 description = '''
 **DO** Use the cascading style when successively invoking methods on the same

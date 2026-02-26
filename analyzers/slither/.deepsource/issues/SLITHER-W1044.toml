@@ -2,6 +2,7 @@ title = "Imprecise arithmetic operations order"
 verbose_name = "divide-before-multiply"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 60
 description = """
 Solidity's integer division truncates. Thus, performing division before multiplication can lead to precision loss.

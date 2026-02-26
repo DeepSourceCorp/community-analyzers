@@ -2,6 +2,7 @@ title = "Unimplemented functions"
 verbose_name = "unimplemented-functions"
 severity = "minor"
 category = "antipattern"
+dimension = "reliability"
 weight = 40
 description = """
 Detect functions that are not implemented on derived-most contracts.

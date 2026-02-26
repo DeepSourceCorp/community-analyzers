@@ -2,6 +2,7 @@ title = "Inconsistent type or finality of pattern variable in logical-or"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "inconsistent_pattern_variable_logical_or"
 description = '''
 The analyzer produces this diagnostic when a pattern variable that is

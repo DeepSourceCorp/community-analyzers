@@ -2,6 +2,7 @@ title = "If a `return` is incorrectly used in assembly mode"
 verbose_name = "incorrect-return"
 severity = "critical"
 category = "antipattern"
+dimension = "reliability"
 weight = 80
 description = """
 Detect if `return` in an assembly block halts unexpectedly the execution.

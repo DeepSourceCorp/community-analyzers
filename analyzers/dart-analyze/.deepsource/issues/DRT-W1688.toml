@@ -2,6 +2,7 @@ title = "Unnecessary type check; the result is always 'false'.  Unnecessary type
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "unnecessary_type_check"
 description = '''
 The analyzer produces this diagnostic when the value of a type check (using

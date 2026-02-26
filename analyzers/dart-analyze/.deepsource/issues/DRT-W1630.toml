@@ -2,6 +2,7 @@ title = "Mismatched parameter type in super constructor"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "super_formal_parameter_type_is_not_subtype_of_associated"
 description = '''
 The analyzer produces this diagnostic when the type of a super parameter

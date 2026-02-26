@@ -2,6 +2,7 @@ title = "Contracts that lock ether"
 verbose_name = "locked-ether"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 60
 description = """
 Contract with a `payable` function, but without a withdrawal capacity.

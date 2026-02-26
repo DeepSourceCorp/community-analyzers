@@ -2,6 +2,7 @@ title = "Incorrect Solidity version"
 verbose_name = "solc-version"
 severity = "minor"
 category = "antipattern"
+dimension = "reliability"
 weight = 40
 description = """
 

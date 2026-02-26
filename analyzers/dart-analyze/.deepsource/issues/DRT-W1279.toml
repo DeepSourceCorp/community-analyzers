@@ -2,6 +2,7 @@ title = "Arguments of a constant creation must be constant expressions"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "const_with_non_constant_argument"
 description = '''
 The analyzer produces this diagnostic when a const constructor is invoked

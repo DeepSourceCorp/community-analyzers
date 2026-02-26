@@ -2,6 +2,7 @@ title = "Duplicate env vars dedicated"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 description = """
 Check that duplicate named env vars aren't passed to a deployment like.
 

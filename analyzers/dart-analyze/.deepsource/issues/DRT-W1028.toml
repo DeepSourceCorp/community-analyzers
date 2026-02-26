@@ -2,6 +2,7 @@ title = "Test type arguments in operator ==(Object other)"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "test_types_in_equals"
 description = '''
 **DO** test type arguments in operator ==(Object other).

@@ -2,6 +2,7 @@ title = "Prefer final for parameter declarations if they are not reassigned"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 verbose_name = "prefer_final_parameters"
 description = '''
 **DO** prefer declaring parameters as final if they are not reassigned in

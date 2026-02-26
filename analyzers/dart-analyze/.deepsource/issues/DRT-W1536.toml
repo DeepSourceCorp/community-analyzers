@@ -2,6 +2,7 @@ title = "The return type of the setter must be 'void' or absent"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "non_void_return_for_setter"
 description = '''
 The analyzer produces this diagnostic when a setter is defined with a

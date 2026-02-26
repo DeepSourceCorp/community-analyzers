@@ -2,6 +2,7 @@ title = "Missing or invalid superclass constructor invocation"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "undefined_constructor_in_initializer"
 description = '''
 The analyzer produces this diagnostic when a superclass constructor is

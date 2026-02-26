@@ -2,6 +2,7 @@ title = "Import statement includes an entire file instead of selected symbols"
 verbose_name = "no-global-import"
 severity = "minor"
 category = "antipattern"
+dimension = "hygiene"
 weight = 40
 description = """
 Import statement includes an entire file instead of selected symbols.

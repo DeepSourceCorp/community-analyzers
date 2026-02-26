@@ -2,6 +2,7 @@ title = "The 'await' expression can't be used in a 'late' local variable's initi
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "await_in_late_local_variable_initializer"
 description = '''
 The analyzer produces this diagnostic when a local variable that has the

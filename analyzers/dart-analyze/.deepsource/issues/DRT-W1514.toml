@@ -2,6 +2,7 @@ title = "The values in a const list literal must be constants"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "non_constant_list_element"
 description = '''
 The analyzer produces this diagnostic when an element in a constant list

@@ -2,6 +2,7 @@ title = "Missing exceptional return value for method invocation in `dart:ffi`"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "missing_exception_value"
 description = '''
 The analyzer produces this diagnostic when an invocation of the method

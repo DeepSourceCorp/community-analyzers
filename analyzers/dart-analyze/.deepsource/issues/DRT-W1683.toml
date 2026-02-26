@@ -2,6 +2,7 @@ title = "The null-assert pattern will have no effect because the matched type is
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "unnecessary_null_assert_pattern"
 description = '''
 The analyzer produces this diagnostic when a null-assert pattern is used

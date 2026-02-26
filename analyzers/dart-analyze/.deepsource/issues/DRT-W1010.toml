@@ -2,6 +2,7 @@ title = "Cancel instances of dart.async.StreamSubscription"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "cancel_subscriptions"
 description = '''
 **DO** invoke `cancel` on instances of `dart.async.StreamSubscription`.

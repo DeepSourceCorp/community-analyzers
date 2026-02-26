@@ -2,6 +2,7 @@ title = "Avoid overloading operator == and hashCode on classes not marked `@immu
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 verbose_name = "avoid_equals_and_hash_code_on_mutable_classes"
 description = '''
 From [Effective Dart](https://dart.dev/effective-dart/design#avoid-defining-custom-equality-for-mutable-classes):

@@ -2,6 +2,7 @@ title = "Prefer generic function type aliases"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 verbose_name = "prefer_generic_function_type_aliases"
 description = '''
 **PREFER** generic function type aliases.

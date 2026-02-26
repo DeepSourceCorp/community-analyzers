@@ -2,6 +2,7 @@ title = "Avoid using `forEach` with a function literal"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 verbose_name = "avoid_function_literals_in_foreach_calls"
 description = '''
 **AVOID** using `forEach` with a function literal.

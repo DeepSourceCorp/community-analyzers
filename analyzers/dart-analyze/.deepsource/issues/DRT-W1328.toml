@@ -2,6 +2,7 @@ title = "Two elements in a constant set literal can't be equal"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "equal_elements_in_const_set"
 description = '''
 The analyzer produces this diagnostic when two elements in a constant set

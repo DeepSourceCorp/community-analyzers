@@ -2,6 +2,7 @@ title = "Invalid label reference in outer method"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "label_in_outer_scope"
 description = '''
 The analyzer produces this diagnostic when a `break` or `continue`

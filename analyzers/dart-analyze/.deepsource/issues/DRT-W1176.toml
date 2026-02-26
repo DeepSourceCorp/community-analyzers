@@ -2,6 +2,7 @@ title = "Unnecessary `.new` constructor name"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 verbose_name = "unnecessary_constructor_name"
 description = '''
 **PREFER** using the default unnamed Constructor over `.new`.

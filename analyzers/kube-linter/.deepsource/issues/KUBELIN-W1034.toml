@@ -2,6 +2,7 @@ title = "`PodDisruptionBudget` with `maxUnavailable` value preventing disruption
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 description = """
 Indicates when a PodDisruptionBudget has a maxUnavailable value that will always prevent disruptions of pods created by related deployment-like objects.
 

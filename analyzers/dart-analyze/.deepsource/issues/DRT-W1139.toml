@@ -2,6 +2,7 @@ title = "Use a function declaration to bind a function to a name"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 verbose_name = "prefer_function_declarations_over_variables"
 description = '''
 **DO** use a function declaration to bind a function to a name.

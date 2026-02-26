@@ -2,6 +2,7 @@ title = "Invalid 'part of' directive in unnamed library"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "part_of_unnamed_library"
 description = '''
 The analyzer produces this diagnostic when a library that doesn't have a

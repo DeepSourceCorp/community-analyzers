@@ -2,6 +2,7 @@ title = "Start multiline strings with a newline"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "hygiene"
 verbose_name = "leading_newlines_in_multiline_strings"
 description = """
 Multiline strings are easier to read when they start with a newline (a newline

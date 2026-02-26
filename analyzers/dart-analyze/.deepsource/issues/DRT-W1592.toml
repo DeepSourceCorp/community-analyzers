@@ -2,6 +2,7 @@ title = "Invalid redirect in a redirected constructor"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "redirect_to_non_class"
 description = '''
 One way to implement a factory constructor is to redirect to another

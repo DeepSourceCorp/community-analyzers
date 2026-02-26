@@ -2,6 +2,7 @@ title = "Getatt validation of parameters"
 verbose_name = "E1010"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 70
 tags = ["functions", "getatt"]
 description = '''

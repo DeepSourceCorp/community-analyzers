@@ -2,6 +2,7 @@ title = "Check if a json object is within size limits"
 verbose_name = "E3502"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 70
 tags = ["resources", "limits", "json"]
 description = '''

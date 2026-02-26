@@ -2,6 +2,7 @@ title = "Avoid async functions that return void"
 weight = 70
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 verbose_name = "avoid_void_async"
 description = '''
 **DO** mark async functions as returning Future<void>.

@@ -2,6 +2,7 @@ title = "Identifier not defined the imported library"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "undefined_prefixed_name"
 description = '''
 The analyzer produces this diagnostic when a prefixed identifier is found

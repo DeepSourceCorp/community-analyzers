@@ -2,6 +2,7 @@ title = "Constant name must be in capitalized SNAKE_CASE. (Does not check IMMUTA
 verbose_name = "const-name-snakecase"
 severity = "minor"
 category = "style"
+dimension = "hygiene"
 weight = 40
 description = """
 Constant name must be in capitalized SNAKE_CASE. (Does not check IMMUTABLES, use immutable-vars-naming)

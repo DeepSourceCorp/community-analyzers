@@ -2,6 +2,7 @@ title = "Avoid importing deprecated names from libraries"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "deprecated_export_use"
 description = '''
 The analyzer produces this diagnostic when one library imports a name from

@@ -3,6 +3,7 @@ title = "PDB unhealthy pod eviction policy"
 verbose_name = "pdb-unhealthy-pod-eviction-policy"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 70
 description = """
 Indicates when a PodDisruptionBudget does not explicitly set the unhealthyPodEvictionPolicy field.

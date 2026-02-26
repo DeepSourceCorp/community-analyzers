@@ -2,6 +2,7 @@ title = "Conflicting private member names in mixins"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "private_collision_in_mixin_application"
 description = '''
 The analyzer produces this diagnostic when two mixins that define the same

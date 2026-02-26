@@ -2,6 +2,7 @@ title = "Unused state variables"
 verbose_name = "unused-state"
 severity = "minor"
 category = "antipattern"
+dimension = "hygiene"
 weight = 40
 description = """
 Unused state variable.

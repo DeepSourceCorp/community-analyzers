@@ -2,6 +2,7 @@ title = "Validationdomain is superdomain of domainname"
 verbose_name = "E3503"
 severity = "major"
 category = "antipattern"
+dimension = "reliability"
 weight = 70
 tags = ["certificate", "certificatemanager", "domainvalidationoptions", "validationdomain"]
 description = '''

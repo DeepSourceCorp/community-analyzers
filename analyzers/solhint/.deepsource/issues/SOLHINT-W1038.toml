@@ -2,6 +2,7 @@ title = "Use `keccak256` instead of deprecated `sha3`"
 verbose_name = "avoid-sha3"
 severity = "major"
 category = "security"
+dimension = "security"
 weight = 60
 description = """
 Use `keccak256` instead of deprecated `sha3`.

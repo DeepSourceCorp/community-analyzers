@@ -2,6 +2,7 @@ title = "Array dimensions must be positive numbers"
 weight = 70
 severity = "major"
 category = "bug-risk"
+dimension = "reliability"
 verbose_name = "non_positive_array_dimension"
 description = '''
 The analyzer produces this diagnostic when a dimension given in an `Array`
