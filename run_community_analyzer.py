@@ -65,7 +65,7 @@ def main(argv: list[str] | None = None) -> None:
         help="Which community analyzer to run. Example: 'kube-linter'",
         required=False,
     )
-    args = parser.parse_args(argv, namespace=CommunityAnalyzerArgs)
+    args = parser.parse_args(argv, namespace=CommunityAnalyzerArgs())
     # analyzer name is mandatory in case of community analyzers but not custom analyzers
     if analyzer_name := args.analyzer:
         issue_map_path = get_issue_map(analyzer_name)
