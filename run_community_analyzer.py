@@ -65,11 +65,10 @@ def main(argv: list[str] | None = None) -> None:
         help="Which community analyzer to run. Example: 'kube-linter'",
         required=False,
     )
-    if argv:
-        args = parser.parse_args(argv, namespace=CommunityAnalyzerArgs)
-        # analyzer name is mandatory in case of community analyzers but not custom analyzers
-        if analyzer_name := args.analyzer:
-            issue_map_path = get_issue_map(analyzer_name)
+    args = parser.parse_args(argv, namespace=CommunityAnalyzerArgs)
+    # analyzer name is mandatory in case of community analyzers but not custom analyzers
+    if analyzer_name := args.analyzer:
+        issue_map_path = get_issue_map(analyzer_name)
 
     modified_files = get_files_to_analyze(code_path)
     run_sarif_parser(
