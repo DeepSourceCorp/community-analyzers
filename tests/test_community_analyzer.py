@@ -423,14 +423,14 @@ def test_community_analyzer_without_issue_map(tmp_path: Path) -> None:
 
     # Case: when analysis config is not present, it should raise an error.
     with pytest.raises(ValueError) as exe:
-        run_community_analyzer.main()
+        run_community_analyzer.main([])
     assert (
         str(exe.value) == f"Could not find analysis config at {analysis_config_path}."
     )
 
     # Case: all files from the report are present in the analysis config.
     with temp_analysis_config(analysis_config_path, modified_files):
-        run_community_analyzer.main()
+        run_community_analyzer.main([])
 
     analysis_results = tmp_path / "analysis_results.json"
     assert analysis_results.exists()
@@ -447,7 +447,7 @@ def test_community_analyzer_without_issue_map(tmp_path: Path) -> None:
         os.path.join(code_path, "charts/runner/templates/tests/test-connection.yaml"),
     ]
     with temp_analysis_config(analysis_config_path, modified_files):
-        run_community_analyzer.main()
+        run_community_analyzer.main([])
 
     analysis_results = tmp_path / "analysis_results.json"
     assert analysis_results.exists()
