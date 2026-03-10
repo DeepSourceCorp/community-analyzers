@@ -7,7 +7,7 @@ on:
 
 jobs:
   emit_sync_signal:
-    runs-on: ubuntu-latest
+    runs-on: blacksmith-4vcpu-ubuntu-2404
     steps:
       - name: Send sync signal to Asgard
         uses: peter-evans/repository-dispatch@v1
