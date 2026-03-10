@@ -11,7 +11,7 @@ env:
 
 jobs:
   sync_analyzers:
-    runs-on: ubuntu-latest
+    runs-on: blacksmith-2vcpu-ubuntu-2404
 
     steps:
       - uses: actions/checkout@v3
