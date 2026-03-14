@@ -1,0 +1,7 @@
+# Analyzer Profile
+category = "sec"
+name = "A security linter from PyCQA"
+shortcode = "bandit"
+status = "active"
+tool_latest_version = "1.7.8"
+description = " Bandit is a tool designed to find common security issues in Python code."

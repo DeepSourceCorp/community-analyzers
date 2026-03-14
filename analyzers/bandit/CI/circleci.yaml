@@ -1,0 +1,29 @@
+version: 2.1
+
+jobs:
+  run-bandit:
+    docker:
+      - image: cimg/python:3.12
+    steps:
+      - checkout
+      - run:
+          name: Install bandit
+          command: |
+            python -m pip install --upgrade pip
+            pip3 install bandit
+      - run:
+          name: Run bandit
+          command: |
+            bandit -r . -f sarif -o bandit.sarif || true
+      - run:
+          name: Upload SARIF report to DeepSource
+          command: |
+            # Install the DeepSource CLI
+            curl https://deepsource.io/cli | sh
+            # Send the report to DeepSource
+            ./bin/deepsource report --analyzer bandit --analyzer-type community --value-file ./bandit.sarif
+
+workflows:
+  run-bandit-workflow:
+    jobs:
+      - run-bandit
