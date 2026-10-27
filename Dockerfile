@@ -5,7 +5,8 @@ RUN mkdir -p /home/runner /app /artifacts /toolbox \
   && chmod -R o-rwx /app /artifacts /toolbox \
   && adduser -D -u 1000 runner
 
-RUN apk add --no-cache git grep
+RUN apk add --no-cache git grep \
+  && apk add --no-cache --upgrade ca-certificates
 
 COPY . /toolbox/
 # Change working dir to toolbox since we'd be invoking community analyzer from there.
